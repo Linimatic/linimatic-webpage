@@ -1,0 +1,261 @@
+{
+  "header": {
+    "logoAlt": "Linimatic — Innovativer Zinkdruckguss",
+    "nav": {
+      "services": "Leistungen",
+      "cases": "Referenzen",
+      "whyZinc": "Warum Zink",
+      "about": "Über uns",
+      "contact": "Kontakt"
+    },
+    "servicesList": {
+      "prototypesPreSeries": "Prototypen & Vorserie",
+      "castingFoundry": "Gießerei",
+      "castingToolsStorage": "Gießwerkzeuge & Lagerung",
+      "designOptimization": "Design & Optimierung",
+      "postProcessing": "Nachbearbeitung",
+      "surfaceCoating": "Oberflächenbehandlung",
+      "qualityAssurance": "Qualitätssicherung",
+      "assembly": "Montage"
+    },
+    "allServices": "Alle Leistungen",
+    "phone": "+45 4876 4040",
+    "getQuote": "Angebot anfordern",
+    "mobileMenuOpen": "Menü öffnen",
+    "mobileMenuClose": "Menü schließen"
+  },
+  "hero": {
+    "watermark": "Zn",
+    "eyebrow": "Gegründet 1967 — Helsinge, Dänemark",
+    "headline1": "Präzision",
+    "headline2": "in",
+    "headlineAccent": "Zink",
+    "tagline": "Das Beste für das Komplexeste.",
+    "description": "Dänemarks größte spezialisierte Zinkdruckgießerei. Von einfachen Halterungen bis zu den anspruchsvollsten Geometrien — Toleranzen bis \u00b10,05\u00a0mm, mit Guss, Bearbeitung, Beschichtung und Montage unter einem Dach.",
+    "heroImageAlt": "Präzisions-Zinkdruckgussform mit Messinganschlüssen",
+    "ctaPrimary": "Stellen Sie uns Ihre Herausforderung",
+    "ctaSecondary": "Unsere Leistungen"
+  },
+  "stats": {
+    "items": [
+      { "value": "1967", "label": "Gegründet" },
+      { "value": "12M+", "label": "Teile / Jahr" },
+      { "value": "12", "label": "Druckgussmaschinen" },
+      { "value": "ISO 9001", "label": "Zertifiziert" },
+      { "value": "50+", "label": "Spezialisten" }
+    ]
+  },
+  "services": {
+    "eyebrow": "Kompetenzen",
+    "heading": "Zinkdruckguss — Komplettservice",
+    "description": "Jeder Schritt vom Konzept bis zum fertigen Bauteil unter einem Dach. Eine Gießerei. Keine Zwischenstationen.",
+    "coreProcessLabel": "Kernprozess",
+    "viewAllServices": "Alle Leistungen ansehen",
+    "items": [
+      {
+        "name": "Prototypen",
+        "description": "Schnelle Prototypenfertigung und Kleinserienfertigung zur Designvalidierung."
+      },
+      {
+        "name": "Gießerei",
+        "description": "Warmkammer-Zinkdruckguss auf Maschinen von 80 bis 400 Tonnen."
+      },
+      {
+        "name": "Nachbearbeitung",
+        "description": "CNC-Bearbeitung, Entgraten und Präzisionsbeschnitt."
+      },
+      {
+        "name": "Oberflächenbehandlung",
+        "description": "Verchromung, Lackierung, Pulverbeschichtung und Eloxierung."
+      },
+      {
+        "name": "Qualitätssicherung",
+        "description": "ISO 9001-zertifizierte KMG-Inspektion und SPC."
+      },
+      {
+        "name": "Montage",
+        "description": "Bauteilmontage — wir liefern fertige Produkte, nicht nur Einzelteile."
+      }
+    ],
+    "imageAlts": {
+      "cncMachining": "CNC-Bearbeitung eines Präzisions-Zinkdruckgussteils"
+    }
+  },
+  "whyLinimatic": {
+    "eyebrow": "Warum Linimatic",
+    "heading": "Gemacht für die Aufträge, vor denen andere zurückschrecken.",
+    "description": "Über 55 Jahre ausschließlicher Fokus auf Zinkdruckguss. Keine allgemeine Metallbearbeitung. Kein Aluminium nebenbei. Jede Maschine, jeder Bediener, jeder Prozess ist auf ein Material optimiert — sodass wir bei schwieriger Geometrie nicht improvisieren, sondern auf jahrzehntelang bewährte Lösungen zurückgreifen.",
+    "imageAlt": "CNC-Bearbeitung eines Zinkdruckgussteils",
+    "bulletPoints": [
+      {
+        "title": "Expertise bei komplexer Geometrie",
+        "description": "Dünne Wände, tiefe Rippen, komplizierte Kerne — die Merkmale, die anspruchsvolle Teile von einfachen unterscheiden"
+      },
+      {
+        "title": "\u00b10,05 mm Wiederholgenauigkeit",
+        "description": "Gleichbleibende Toleranzen über Produktionsläufe von 10.000 bis 5.000.000 Teilen"
+      },
+      {
+        "title": "Lückenlose Wertschöpfungskette",
+        "description": "Guss, CNC, Beschichtung und Montage in einer Einrichtung — kein Koordinierungsrisiko zwischen Lieferanten"
+      },
+      {
+        "title": "Qualität, die Reklamationen eliminiert",
+        "description": "ISO 9001-zertifiziert, KMG-verifiziert, SPC-überwacht — Probleme werden erkannt, bevor sie versendet werden"
+      }
+    ],
+    "ourStory": "Unsere Geschichte"
+  },
+  "whereWeShine": {
+    "eyebrow": "Wo wir glänzen",
+    "heading": "Was uns unterscheidet",
+    "description": "Wir fertigen alles, von einfachen Halterungen bis zu den anspruchsvollsten Präzisionsbauteilen. Hier zeigt sich, was 55\u00a0Jahre Spezialisierung wirklich bedeuten.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Komplexe Geometrie",
+        "description": "Dünne Wände, tiefe Rippen, Hinterschnitte — Zinkdruckguss ermöglicht bemerkenswerte Geometrien, und unser Werkzeugbau-Team hat jahrzehntelange Erfahrung, es beim ersten Mal richtig zu machen."
+      },
+      {
+        "number": "02",
+        "title": "Gleichbleibende Präzision",
+        "description": "Toleranzen bis \u00b10,05\u00a0mm über den gesamten Produktionslauf. Ob Teil 50 oder Teil 500.000 — die Qualität ist identisch."
+      },
+      {
+        "number": "03",
+        "title": "Oberflächenfertige Qualität",
+        "description": "Von Klasse-A-Verchromung bis zu präzisionslackierten Oberflächen — unsere Gussteile sind für sichtbare Anwendungen konzipiert, bei denen Oberflächenqualität zählt."
+      },
+      {
+        "number": "04",
+        "title": "Ein verantwortlicher Partner",
+        "description": "Guss, CNC-Bearbeitung, Oberflächenbeschichtung, Inspektion und Montage unter einem Dach. Ein Ansprechpartner, ein Qualitätssystem, kürzere Lieferzeiten."
+      },
+      {
+        "number": "05",
+        "title": "Vom Prototyp bis zur Großserie",
+        "description": "Dasselbe Team und Werkzeug betreut Ihr Projekt von einer 100-Stück-Validierungsserie bis hin zu 5\u00a0Millionen Einheiten pro Jahr in der Serienproduktion."
+      },
+      {
+        "number": "06",
+        "title": "Zuverlässige Lieferung",
+        "description": "Kanban-Vereinbarungen, Forecast-Planung und eine über 55 Jahre aufgebaute Erfolgsbilanz. Wenn wir uns auf einen Zeitplan festlegen, liefern wir."
+      }
+    ],
+    "cta": "Ihr Projekt besprechen"
+  },
+  "cases": {
+    "eyebrow": "Referenzen",
+    "heading": "Schwierige Aufgaben, geliefert.",
+    "allCases": "Alle Referenzen",
+    "items": [
+      {
+        "title": "Engtolerierte Elektrowerkzeug-Innenteile, die keine andere Gießerei anbieten wollte",
+        "client": "DeWalt",
+        "metric": "Komplexe Geometrie, Großserien-Produktion"
+      },
+      {
+        "title": "Guss einer Designikone — wo Oberflächenperfektion nicht verhandelbar ist",
+        "client": "One Collection",
+        "metric": "Sichtbare Beschläge für einen klassischen Finn-Juhl-Stuhl"
+      },
+      {
+        "title": "Rückverlagerung eines Teils, das im Ausland scheiterte — mit besseren Spezifikationen als das Original",
+        "client": "Industriepartner",
+        "metric": "Komplette lokale Wertschöpfungskette, engere Toleranzen als Import"
+      }
+    ]
+  },
+  "whyZinc": {
+    "eyebrow": "Materialvorteil",
+    "heading": "Warum Zinkdruckguss?",
+    "description": "Überlegene Präzision, längere Werkzeugstandzeit, schnellere Produktionszyklen und außergewöhnliche Oberflächenqualität — besser als Aluminium- und Kunststoffalternativen.",
+    "specs": [
+      { "value": "\u00b10,05", "unit": "mm", "label": "Erreichbare Toleranzen" },
+      { "value": "1M+", "unit": "", "label": "Schuss pro Werkzeug" },
+      { "value": "10\u201345", "unit": "Sek.", "label": "Zykluszeiten" },
+      { "value": "0,8", "unit": "Ra \u03bcm", "label": "Oberflächengüte" }
+    ],
+    "cta": "Materialeigenschaften & Vergleich"
+  },
+  "clients": {
+    "trustedBy": "Vertraut von",
+    "logos": [
+      { "name": "Bang & Olufsen" },
+      { "name": "One Collection" },
+      { "name": "Howe" },
+      { "name": "ClimaWin" }
+    ]
+  },
+  "cta": {
+    "heading": "Lassen Sie uns über Ihr nächstes Projekt sprechen.",
+    "description": "Senden Sie uns Ihre Zeichnungen oder Spezifikationen und wir sagen Ihnen genau, was machbar ist — einfach oder komplex. Antwort innerhalb von 24\u00a0Stunden.",
+    "getInTouch": "Kontakt aufnehmen",
+    "phone": "+45 4876 4040"
+  },
+  "footer": {
+    "logoAlt": "Linimatic — Innovativer Zinkdruckguss",
+    "brandDescription": "Dänemarks größte spezialisierte Zinkdruckgießerei. Präzisions-Zamak-Bauteile vom Prototyp bis zur Serienproduktion.",
+    "linkedInAriaLabel": "Linimatic auf LinkedIn",
+    "servicesHeading": "Leistungen",
+    "serviceLinks": [
+      "Prototypen",
+      "Gießerei",
+      "Nachbearbeitung",
+      "Oberflächenbehandlung",
+      "Qualitätssicherung",
+      "Montage"
+    ],
+    "companyHeading": "Unternehmen",
+    "companyLinks": {
+      "aboutUs": "Über uns",
+      "cases": "Referenzen",
+      "whyZinc": "Warum Zink",
+      "news": "Neuigkeiten",
+      "careers": "Karriere",
+      "zinkers": "Zinkers"
+    },
+    "contactHeading": "Kontakt",
+    "address": {
+      "street": "Bomose Allé 12",
+      "postalCity": "DK-3200 Helsinge",
+      "country": "Dänemark"
+    },
+    "phone": "+45 4876 4040",
+    "email": "info@linimatic.dk",
+    "copyright": "\u00a9 {year} Linimatic A/S \u00b7 USt-IdNr. DK-20254386",
+    "privacy": "Datenschutz",
+    "cookies": "Cookies"
+  },
+  "cookies": {
+    "heading": "Cookie-Einstellungen",
+    "description": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern und die Nutzung der Website zu analysieren. Sie können Ihre Präferenzen anpassen oder alle Cookies akzeptieren.",
+    "readOur": "Lesen Sie unsere",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "and": "und",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "customize": "Anpassen",
+    "rejectAll": "Alle ablehnen",
+    "acceptAll": "Alle akzeptieren",
+    "savePreferences": "Einstellungen speichern",
+    "necessary": {
+      "title": "Notwendig",
+      "status": "Immer aktiv",
+      "description": "Notwendig für die Funktion der Website. Diese können nicht deaktiviert werden."
+    },
+    "analytics": {
+      "title": "Analyse",
+      "enabled": "Aktiviert",
+      "disabled": "Deaktiviert",
+      "toggleAriaLabel": "Analyse-Cookies umschalten",
+      "description": "Helfen uns zu verstehen, wie Besucher unsere Seite nutzen, um das Erlebnis zu verbessern."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "enabled": "Aktiviert",
+      "disabled": "Deaktiviert",
+      "toggleAriaLabel": "Marketing-Cookies umschalten",
+      "description": "Werden verwendet, um relevante Werbung zu zeigen und die Kampagneneffektivität zu messen."
+    }
+  }
+}

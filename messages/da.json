@@ -1,0 +1,261 @@
+{
+  "header": {
+    "logoAlt": "Linimatic — Innovativ trykstøbning",
+    "nav": {
+      "services": "Ydelser",
+      "cases": "Cases",
+      "whyZinc": "Hvorfor zink",
+      "about": "Om os",
+      "contact": "Kontakt"
+    },
+    "servicesList": {
+      "prototypesPreSeries": "Prototyper & forserier",
+      "castingFoundry": "Støberiet",
+      "castingToolsStorage": "Støbeværktøj & opbevaring",
+      "designOptimization": "Design & optimering",
+      "postProcessing": "Efterbearbejdning",
+      "surfaceCoating": "Overfladebehandling",
+      "qualityAssurance": "Kvalitetssikring",
+      "assembly": "Montage"
+    },
+    "allServices": "Alle ydelser",
+    "phone": "+45 4876 4040",
+    "getQuote": "Få et tilbud",
+    "mobileMenuOpen": "Åbn menu",
+    "mobileMenuClose": "Luk menu"
+  },
+  "hero": {
+    "watermark": "Zn",
+    "eyebrow": "Grundlagt 1967 — Helsinge, Danmark",
+    "headline1": "Præcision",
+    "headline2": "i",
+    "headlineAccent": "zink",
+    "tagline": "Det bedste til det mest komplekse.",
+    "description": "Danmarks største dedikerede zinktrykstøberi. Fra simple beslag til de mest indviklede geometrier — tolerancer ned til \u00b10,05\u00a0mm, med støbning, bearbejdning, overfladebehandling og montage under ét tag.",
+    "heroImageAlt": "Præcisions-zinktrykstøbeform med messingfittings",
+    "ctaPrimary": "Giv os din udfordring",
+    "ctaSecondary": "Vores ydelser"
+  },
+  "stats": {
+    "items": [
+      { "value": "1967", "label": "Grundlagt" },
+      { "value": "12M+", "label": "Emner / år" },
+      { "value": "12", "label": "Støbemaskiner" },
+      { "value": "ISO 9001", "label": "Certificeret" },
+      { "value": "50+", "label": "Specialister" }
+    ]
+  },
+  "services": {
+    "eyebrow": "Kompetencer",
+    "heading": "Zinktrykstøbning — alt under ét tag",
+    "description": "Hvert trin fra koncept til færdigt emne under ét tag. Ét støberi. Ingen mellemled.",
+    "coreProcessLabel": "Kerneproces",
+    "viewAllServices": "Se alle ydelser",
+    "items": [
+      {
+        "name": "Prototyper",
+        "description": "Hurtig prototypefremstilling og småserier til designvalidering."
+      },
+      {
+        "name": "Støberiet",
+        "description": "Varmkammer-zinktrykstøbning på maskiner fra 80 til 400 ton."
+      },
+      {
+        "name": "Efterbearbejdning",
+        "description": "CNC-bearbejdning, afgratning og præcisionstrimning."
+      },
+      {
+        "name": "Overfladebehandling",
+        "description": "Forkromning, maling, pulverlakering og anodisering."
+      },
+      {
+        "name": "Kvalitetssikring",
+        "description": "ISO 9001-certificeret CMM-inspektion og SPC."
+      },
+      {
+        "name": "Montage",
+        "description": "Komponentmontage — vi leverer færdige produkter, ikke kun dele."
+      }
+    ],
+    "imageAlts": {
+      "cncMachining": "CNC-bearbejdning af præcisions-zinktrykstøbt emne"
+    }
+  },
+  "whyLinimatic": {
+    "eyebrow": "Hvorfor Linimatic",
+    "heading": "Bygget til de opgaver, andre går udenom.",
+    "description": "Over 55 års eksklusivt fokus på zinktrykstøbning. Ikke generel metalbearbejdning. Ikke aluminium ved siden af. Hver maskine, hver operatør, hver proces er optimeret til ét materiale — så når geometrien bliver vanskelig, improviserer vi ikke. Vi trækker på årtiers gennemprøvede løsninger.",
+    "imageAlt": "CNC-bearbejdning af zinktrykstøbt emne",
+    "bulletPoints": [
+      {
+        "title": "Ekspertise i kompleks geometri",
+        "description": "Tynde vægge, dybe ribber, indviklede kerner — de detaljer der adskiller vanskelige emner fra simple"
+      },
+      {
+        "title": "\u00b10,05 mm gentagelighed",
+        "description": "Ensartede tolerancer på tværs af produktionsserier fra 10.000 til 5.000.000 emner"
+      },
+      {
+        "title": "Komplet værdikæde uden mellemled",
+        "description": "Støbning, CNC, overfladebehandling og montage i én facilitet — ingen koordineringsrisiko mellem leverandører"
+      },
+      {
+        "title": "Kvalitet der eliminerer reklamationer",
+        "description": "ISO 9001-certificeret, CMM-verificeret, SPC-overvåget — problemer fanges før de sendes"
+      }
+    ],
+    "ourStory": "Vores historie"
+  },
+  "whereWeShine": {
+    "eyebrow": "Hvor vi skiller os ud",
+    "heading": "Det der gør os anderledes",
+    "description": "Vi håndterer alt fra simple beslag til de mest krævende præcisionsemner. Her er det, 55\u00a0års specialisering virkelig viser sig.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Kompleks geometri",
+        "description": "Tynde vægge, dybe ribber, underskæringer — zinktrykstøbning kan opnå bemærkelsesværdig geometri, og vores værktøjshold har årtiers erfaring med at ramme rigtigt første gang."
+      },
+      {
+        "number": "02",
+        "title": "Ensartet præcision",
+        "description": "Tolerancer ned til \u00b10,05\u00a0mm fastholdt over hele produktionsserien. Uanset om det er emne 50 eller emne 500.000, er kvaliteten den samme."
+      },
+      {
+        "number": "03",
+        "title": "Overfladeklar finish",
+        "description": "Fra klasse\u00a0A-forkromning til præcisionslakerede overflader — vores støbninger er designet til synlige applikationer, hvor overfladekvalitet betyder alt."
+      },
+      {
+        "number": "04",
+        "title": "Én ansvarlig partner",
+        "description": "Støbning, CNC-bearbejdning, overfladebehandling, inspektion og montage under ét tag. Én kontaktperson, ét kvalitetssystem, kortere leveringstider."
+      },
+      {
+        "number": "05",
+        "title": "Fra prototype til fuld produktion",
+        "description": "Det samme team og værktøj håndterer dit projekt fra en 100-styk valideringsserie helt op til 5\u00a0millioner emner om året i fast produktion."
+      },
+      {
+        "number": "06",
+        "title": "Pålidelig levering",
+        "description": "Kanban-aftaler, forecast-planlægning og en track record opbygget over 55 år. Når vi forpligter os til en tidsplan, leverer vi."
+      }
+    ],
+    "cta": "Drøft dit projekt"
+  },
+  "cases": {
+    "eyebrow": "Kundeeksempler",
+    "heading": "Vanskelige opgaver, leveret.",
+    "allCases": "Alle cases",
+    "items": [
+      {
+        "title": "Snæverttolerante indvendige dele til elværktøj, som ingen andre ville tilbyde på",
+        "client": "DeWalt",
+        "metric": "Kompleks geometri, højvolumen serieproduktion"
+      },
+      {
+        "title": "Støbning af en designikon — hvor overfladeperfektionen er ufravigelig",
+        "client": "One Collection",
+        "metric": "Synlige beslag til en klassisk Finn Juhl-stol"
+      },
+      {
+        "title": "Hjemtagning af en del der fejlede i udlandet — med bedre specifikationer end originalen",
+        "client": "Industriel partner",
+        "metric": "Komplet lokal værdikæde, strammere tolerancer end import"
+      }
+    ]
+  },
+  "whyZinc": {
+    "eyebrow": "Materialefordel",
+    "heading": "Hvorfor zinktrykstøbning?",
+    "description": "Overlegen præcision, længere værktøjslevetid, hurtigere produktionscyklusser og enestående overfladekvalitet — bedre end aluminium og plast.",
+    "specs": [
+      { "value": "\u00b10,05", "unit": "mm", "label": "Tolerancer" },
+      { "value": "1M+", "unit": "", "label": "Skud pr. form" },
+      { "value": "10\u201345", "unit": "sek", "label": "Cyklustider" },
+      { "value": "0,8", "unit": "Ra \u03bcm", "label": "Overfladefinish" }
+    ],
+    "cta": "Materialeegenskaber & sammenligning"
+  },
+  "clients": {
+    "trustedBy": "Betroet af",
+    "logos": [
+      { "name": "Bang & Olufsen" },
+      { "name": "One Collection" },
+      { "name": "Howe" },
+      { "name": "ClimaWin" }
+    ]
+  },
+  "cta": {
+    "heading": "Lad os tale om dit næste projekt.",
+    "description": "Send os dine tegninger eller specifikationer, og vi fortæller dig præcis, hvad der kan lade sig gøre — simpelt eller komplekst. Svar inden for 24\u00a0timer.",
+    "getInTouch": "Kontakt os",
+    "phone": "+45 4876 4040"
+  },
+  "footer": {
+    "logoAlt": "Linimatic — Innovativ trykstøbning",
+    "brandDescription": "Danmarks største dedikerede zinktrykstøberi. Præcisions-zamakemner fra prototype til serieproduktion.",
+    "linkedInAriaLabel": "Linimatic på LinkedIn",
+    "servicesHeading": "Ydelser",
+    "serviceLinks": [
+      "Prototyper",
+      "Støberiet",
+      "Efterbearbejdning",
+      "Overfladebehandling",
+      "Kvalitetssikring",
+      "Montage"
+    ],
+    "companyHeading": "Virksomhed",
+    "companyLinks": {
+      "aboutUs": "Om os",
+      "cases": "Cases",
+      "whyZinc": "Hvorfor zink",
+      "news": "Nyheder",
+      "careers": "Job",
+      "zinkers": "Zinkers"
+    },
+    "contactHeading": "Kontakt",
+    "address": {
+      "street": "Bomose Allé 12",
+      "postalCity": "DK-3200 Helsinge",
+      "country": "Danmark"
+    },
+    "phone": "+45 4876 4040",
+    "email": "info@linimatic.dk",
+    "copyright": "\u00a9 {year} Linimatic A/S \u00b7 CVR DK-20254386",
+    "privacy": "Privatlivspolitik",
+    "cookies": "Cookiepolitik"
+  },
+  "cookies": {
+    "heading": "Cookieindstillinger",
+    "description": "Vi bruger cookies til at forbedre din oplevelse og analysere brugen af siden. Du kan tilpasse dine præferencer eller acceptere alle cookies.",
+    "readOur": "Læs vores",
+    "cookiePolicy": "cookiepolitik",
+    "and": "og",
+    "privacyPolicy": "privatlivspolitik",
+    "customize": "Tilpas",
+    "rejectAll": "Afvis alle",
+    "acceptAll": "Acceptér alle",
+    "savePreferences": "Gem præferencer",
+    "necessary": {
+      "title": "Nødvendige",
+      "status": "Altid aktive",
+      "description": "Nødvendige for at hjemmesiden fungerer. Disse kan ikke deaktiveres."
+    },
+    "analytics": {
+      "title": "Analyse",
+      "enabled": "Aktiveret",
+      "disabled": "Deaktiveret",
+      "toggleAriaLabel": "Slå analysecookies til/fra",
+      "description": "Hjælper os med at forstå, hvordan besøgende bruger vores side, så vi kan forbedre oplevelsen."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "enabled": "Aktiveret",
+      "disabled": "Deaktiveret",
+      "toggleAriaLabel": "Slå marketingcookies til/fra",
+      "description": "Bruges til at vise relevante annoncer og måle kampagneeffektivitet."
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "header": {
+    "logoAlt": "Linimatic — Innovative Die Casting",
+    "nav": {
+      "services": "Services",
+      "cases": "Cases",
+      "whyZinc": "Why Zinc",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "servicesList": {
+      "prototypesPreSeries": "Prototypes & Pre-series",
+      "castingFoundry": "Casting Foundry",
+      "castingToolsStorage": "Casting Tools & Storage",
+      "designOptimization": "Design & Optimization",
+      "postProcessing": "Post-Processing",
+      "surfaceCoating": "Surface Coating",
+      "qualityAssurance": "Quality Assurance",
+      "assembly": "Assembly"
+    },
+    "allServices": "All Services",
+    "phone": "+45 4876 4040",
+    "getQuote": "Get a Quote",
+    "mobileMenuOpen": "Open menu",
+    "mobileMenuClose": "Close menu"
+  },
+  "hero": {
+    "watermark": "Zn",
+    "eyebrow": "Est. 1967 — Helsinge, Denmark",
+    "headline1": "Precision",
+    "headline2": "in",
+    "headlineAccent": "zinc",
+    "tagline": "The best for the most complex.",
+    "description": "Denmark's largest dedicated zinc die-casting foundry. From simple brackets to the most intricate geometries — tolerances to \u00b10.05\u00a0mm, with casting, machining, coating, and assembly all under one roof.",
+    "heroImageAlt": "Precision zinc die-casting mold with brass fittings",
+    "ctaPrimary": "Bring Us Your Challenge",
+    "ctaSecondary": "Our Services"
+  },
+  "stats": {
+    "items": [
+      { "value": "1967", "label": "Founded" },
+      { "value": "12M+", "label": "Parts / Year" },
+      { "value": "12", "label": "Die-Cast Machines" },
+      { "value": "ISO 9001", "label": "Certified" },
+      { "value": "50+", "label": "Specialists" }
+    ]
+  },
+  "services": {
+    "eyebrow": "Capabilities",
+    "heading": "Full-service zinc die-casting",
+    "description": "Every step from concept to finished component under one roof. One foundry. Zero handoffs.",
+    "coreProcessLabel": "Core Process",
+    "viewAllServices": "View all services",
+    "items": [
+      {
+        "name": "Prototypes",
+        "description": "Rapid prototyping and small-batch validation runs."
+      },
+      {
+        "name": "Casting Foundry",
+        "description": "Hot-chamber zinc die-casting, 80\u2013400 ton machines."
+      },
+      {
+        "name": "Post-Processing",
+        "description": "CNC machining, deburring, and precision trimming."
+      },
+      {
+        "name": "Surface Coating",
+        "description": "Chrome, paint, powder coating, and anodizing."
+      },
+      {
+        "name": "Quality Assurance",
+        "description": "ISO 9001 certified CMM inspection and SPC."
+      },
+      {
+        "name": "Assembly",
+        "description": "Component assembly delivering finished products."
+      }
+    ],
+    "imageAlts": {
+      "cncMachining": "CNC machining of precision zinc die-cast component"
+    }
+  },
+  "whyLinimatic": {
+    "eyebrow": "Why Linimatic",
+    "heading": "Built for the jobs others walk away from.",
+    "description": "55+ years of exclusive focus on zinc die-casting. Not general metalwork. Not aluminum on the side. Every machine, every operator, every process optimised for one material \u2014 so when the geometry gets difficult, we don\u2019t improvise. We draw on decades of proven solutions.",
+    "imageAlt": "CNC machining of zinc die-cast component",
+    "bulletPoints": [
+      {
+        "title": "Complex geometry expertise",
+        "description": "Thin walls, deep ribs, intricate cores \u2014 the features that separate difficult parts from simple ones"
+      },
+      {
+        "title": "\u00b10.05mm repeatability",
+        "description": "Consistent tolerances across production runs of 10,000 or 5,000,000 parts"
+      },
+      {
+        "title": "Zero-handoff value chain",
+        "description": "Casting, CNC, coating, and assembly in one facility \u2014 no coordination risk between suppliers"
+      },
+      {
+        "title": "Quality that eliminates returns",
+        "description": "ISO 9001 certified, CMM-verified, SPC-monitored \u2014 problems caught before they ship"
+      }
+    ],
+    "ourStory": "Our story"
+  },
+  "whereWeShine": {
+    "eyebrow": "Where We Shine",
+    "heading": "What sets us apart",
+    "description": "We handle everything from simple brackets to the most demanding precision components. Here\u2019s where our 55\u00a0years of specialisation really show.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Complex geometry",
+        "description": "Thin walls, deep ribs, undercuts \u2014 zinc die-casting can achieve remarkable geometry, and our tooling team has decades of experience getting it right first time."
+      },
+      {
+        "number": "02",
+        "title": "Consistent precision",
+        "description": "Tolerances to \u00b10.05\u00a0mm maintained across the full production run. Whether it\u2019s part 50 or part 500,000, the quality is the same."
+      },
+      {
+        "number": "03",
+        "title": "Surface-ready finish",
+        "description": "From Class\u00a0A chrome to precision-painted finishes, our castings are designed for visible applications where surface quality matters."
+      },
+      {
+        "number": "04",
+        "title": "One responsible partner",
+        "description": "Casting, CNC machining, surface coating, inspection, and assembly under one roof. One point of contact, one quality system, faster lead times."
+      },
+      {
+        "number": "05",
+        "title": "Prototype to full production",
+        "description": "The same team and tooling handles your project from a 100-piece validation run all the way to 5\u00a0million units per year in steady production."
+      },
+      {
+        "number": "06",
+        "title": "Reliable delivery",
+        "description": "Kanban agreements, forecast planning, and a track record built over 55 years. When we commit to a schedule, we deliver."
+      }
+    ],
+    "cta": "Discuss Your Project"
+  },
+  "cases": {
+    "eyebrow": "Case Studies",
+    "heading": "Difficult problems, delivered.",
+    "allCases": "All cases",
+    "items": [
+      {
+        "title": "Tight-tolerance power tool internals no other foundry would quote",
+        "client": "DeWalt",
+        "metric": "Complex geometry, high-volume series production"
+      },
+      {
+        "title": "Casting a design icon \u2014 where surface perfection is non-negotiable",
+        "client": "One Collection",
+        "metric": "Visible brackets for a classic Finn Juhl chair"
+      },
+      {
+        "title": "Reshoring a part that failed overseas \u2014 and exceeding the original spec",
+        "client": "Industrial Partner",
+        "metric": "Full local value chain, tighter tolerances than import"
+      }
+    ]
+  },
+  "whyZinc": {
+    "eyebrow": "Material Advantage",
+    "heading": "Why zinc die-casting?",
+    "description": "Superior precision, longer tooling life, faster production cycles, and exceptional surface quality \u2014 outperforming aluminum and plastic alternatives.",
+    "specs": [
+      { "value": "\u00b10.05", "unit": "mm", "label": "Achievable Tolerances" },
+      { "value": "1M+", "unit": "", "label": "Shots Per Die" },
+      { "value": "10\u201345", "unit": "sec", "label": "Cycle Times" },
+      { "value": "0.8", "unit": "Ra \u03bcm", "label": "Surface Finish" }
+    ],
+    "cta": "Material Properties & Comparison"
+  },
+  "clients": {
+    "trustedBy": "Trusted by",
+    "logos": [
+      { "name": "Bang & Olufsen" },
+      { "name": "One Collection" },
+      { "name": "Howe" },
+      { "name": "ClimaWin" }
+    ]
+  },
+  "cta": {
+    "heading": "Let\u2019s talk about your next project.",
+    "description": "Send us your drawings or specifications and we\u2019ll tell you exactly what\u2019s achievable \u2014 simple or complex. Response within 24\u00a0hours.",
+    "getInTouch": "Get in Touch",
+    "phone": "+45 4876 4040"
+  },
+  "footer": {
+    "logoAlt": "Linimatic \u2014 Innovative Die Casting",
+    "brandDescription": "Denmark\u2019s largest dedicated zinc die-casting foundry. Precision zamak components from prototype to series production.",
+    "linkedInAriaLabel": "Linimatic on LinkedIn",
+    "servicesHeading": "Services",
+    "serviceLinks": [
+      "Prototypes",
+      "Casting Foundry",
+      "Post-Processing",
+      "Surface Coating",
+      "Quality Assurance",
+      "Assembly"
+    ],
+    "companyHeading": "Company",
+    "companyLinks": {
+      "aboutUs": "About Us",
+      "cases": "Cases",
+      "whyZinc": "Why Zinc",
+      "news": "News",
+      "careers": "Careers",
+      "zinkers": "Zinkers"
+    },
+    "contactHeading": "Contact",
+    "address": {
+      "street": "Bomose All\u00e9 12",
+      "postalCity": "DK-3200 Helsinge",
+      "country": "Denmark"
+    },
+    "phone": "+45 4876 4040",
+    "email": "info@linimatic.dk",
+    "copyright": "\u00a9 {year} Linimatic A/S \u00b7 CVR DK-20254386",
+    "privacy": "Privacy",
+    "cookies": "Cookies"
+  },
+  "cookies": {
+    "heading": "Cookie Preferences",
+    "description": "We use cookies to improve your experience and analyze site usage. You can customize your preferences or accept all cookies.",
+    "readOur": "Read our",
+    "cookiePolicy": "Cookie Policy",
+    "and": "and",
+    "privacyPolicy": "Privacy Policy",
+    "customize": "Customize",
+    "rejectAll": "Reject All",
+    "acceptAll": "Accept All",
+    "savePreferences": "Save Preferences",
+    "necessary": {
+      "title": "Necessary",
+      "status": "Always active",
+      "description": "Essential for the website to function. These cannot be disabled."
+    },
+    "analytics": {
+      "title": "Analytics",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "toggleAriaLabel": "Toggle analytics cookies",
+      "description": "Help us understand how visitors use our site to improve the experience."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "toggleAriaLabel": "Toggle marketing cookies",
+      "description": "Used to deliver relevant advertisements and track campaign effectiveness."
+    }
+  }
+}

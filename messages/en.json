@@ -31,7 +31,7 @@
     "headline2": "in",
     "headlineAccent": "zinc",
     "tagline": "The best for the most complex.",
-    "description": "Denmark's largest dedicated zinc die-casting foundry. From simple brackets to the most intricate geometries — tolerances to \u00b10.05\u00a0mm, with casting, machining, coating, and assembly all under one roof.",
+    "description": "Denmark\u2019s largest dedicated zinc die-casting foundry. From simple brackets to the most intricate geometries \u2014 tolerances to \u00b10.05\u00a0mm, with casting, machining, coating, and assembly all under one roof.",
     "heroImageAlt": "Precision zinc die-casting mold with brass fittings",
     "ctaPrimary": "Bring Us Your Challenge",
     "ctaSecondary": "Our Services"
@@ -41,108 +41,60 @@
       { "value": "1967", "label": "Founded" },
       { "value": "12M+", "label": "Parts / Year" },
       { "value": "12", "label": "Die-Cast Machines" },
-      { "value": "ISO 9001", "label": "Certified" },
+      { "value": "ISO 9001", "label": "Since 1993" },
       { "value": "50+", "label": "Specialists" }
     ]
   },
-  "services": {
-    "eyebrow": "Capabilities",
-    "heading": "Full-service zinc die-casting",
-    "description": "Every step from concept to finished component under one roof. One foundry. Zero handoffs.",
-    "coreProcessLabel": "Core Process",
-    "viewAllServices": "View all services",
-    "items": [
-      {
-        "name": "Prototypes",
-        "description": "Rapid prototyping and small-batch validation runs."
-      },
-      {
-        "name": "Casting Foundry",
-        "description": "Hot-chamber zinc die-casting, 80\u2013400 ton machines."
-      },
-      {
-        "name": "Post-Processing",
-        "description": "CNC machining, deburring, and precision trimming."
-      },
-      {
-        "name": "Surface Coating",
-        "description": "Chrome, paint, powder coating, and anodizing."
-      },
-      {
-        "name": "Quality Assurance",
-        "description": "ISO 9001 certified CMM inspection and SPC."
-      },
-      {
-        "name": "Assembly",
-        "description": "Component assembly delivering finished products."
-      }
-    ],
-    "imageAlts": {
-      "cncMachining": "CNC machining of precision zinc die-cast component"
-    }
-  },
-  "whyLinimatic": {
-    "eyebrow": "Why Linimatic",
-    "heading": "Built for the jobs others walk away from.",
-    "description": "55+ years of exclusive focus on zinc die-casting. Not general metalwork. Not aluminum on the side. Every machine, every operator, every process optimised for one material \u2014 so when the geometry gets difficult, we don\u2019t improvise. We draw on decades of proven solutions.",
-    "imageAlt": "CNC machining of zinc die-cast component",
-    "bulletPoints": [
-      {
-        "title": "Complex geometry expertise",
-        "description": "Thin walls, deep ribs, intricate cores \u2014 the features that separate difficult parts from simple ones"
-      },
-      {
-        "title": "\u00b10.05mm repeatability",
-        "description": "Consistent tolerances across production runs of 10,000 or 5,000,000 parts"
-      },
-      {
-        "title": "Zero-handoff value chain",
-        "description": "Casting, CNC, coating, and assembly in one facility \u2014 no coordination risk between suppliers"
-      },
-      {
-        "title": "Quality that eliminates returns",
-        "description": "ISO 9001 certified, CMM-verified, SPC-monitored \u2014 problems caught before they ship"
-      }
-    ],
-    "ourStory": "Our story"
-  },
-  "whereWeShine": {
-    "eyebrow": "Where We Shine",
-    "heading": "What sets us apart",
-    "description": "We handle everything from simple brackets to the most demanding precision components. Here\u2019s where our 55\u00a0years of specialisation really show.",
-    "items": [
+  "valueChain": {
+    "eyebrow": "One Roof. Zero Handoffs.",
+    "heading": "Your part, from drawing to delivery",
+    "description": "Give us a CAD file. We return a finished, inspected component \u2014 cast, machined, coated, and assembled in a single facility. No supplier coordination. No quality gaps between steps.",
+    "steps": [
       {
         "number": "01",
-        "title": "Complex geometry",
-        "description": "Thin walls, deep ribs, undercuts \u2014 zinc die-casting can achieve remarkable geometry, and our tooling team has decades of experience getting it right first time."
+        "label": "Design",
+        "title": "DFM Review & Prototyping",
+        "description": "Send your CAD files. We review, simulate, and optimise \u2014 first samples in 3\u20134 weeks.",
+        "specs": "48h response \u00b7 Simulation-optimised \u00b7 50\u201310,000 pcs"
       },
       {
         "number": "02",
-        "title": "Consistent precision",
-        "description": "Tolerances to \u00b10.05\u00a0mm maintained across the full production run. Whether it\u2019s part 50 or part 500,000, the quality is the same."
+        "label": "Cast",
+        "title": "Hot-Chamber Die-Casting",
+        "description": "12 automated machines with robotic handling. Parts from 1\u2009g to 3\u2009kg, 24-hour operation.",
+        "specs": "80\u2013400T \u00b7 Zamak 2/3/5 \u00b7 \u00b10.05\u2009mm as-cast"
       },
       {
         "number": "03",
-        "title": "Surface-ready finish",
-        "description": "From Class\u00a0A chrome to precision-painted finishes, our castings are designed for visible applications where surface quality matters."
+        "label": "Machine",
+        "title": "CNC Post-Processing",
+        "description": "In-house milling, turning, grinding, and thread cutting to final tolerance.",
+        "specs": "Full CNC \u00b7 Tight secondary tolerances"
       },
       {
         "number": "04",
-        "title": "One responsible partner",
-        "description": "Casting, CNC machining, surface coating, inspection, and assembly under one roof. One point of contact, one quality system, faster lead times."
+        "label": "Finish",
+        "title": "Surface Treatment",
+        "description": "From Class\u00a0A cosmetic chrome to functional corrosion protection.",
+        "specs": "Chrome \u00b7 Powder coat \u00b7 Wet paint \u00b7 Laser engrave"
       },
       {
         "number": "05",
-        "title": "Prototype to full production",
-        "description": "The same team and tooling handles your project from a 100-piece validation run all the way to 5\u00a0million units per year in steady production."
+        "label": "Inspect",
+        "title": "Quality Assurance",
+        "description": "Every part CMM-verified and SPC-monitored before it leaves the building.",
+        "specs": "ISO 9001 since \u201993 \u00b7 CMM \u00b7 SPC \u00b7 PPAP"
       },
       {
         "number": "06",
-        "title": "Reliable delivery",
-        "description": "Kanban agreements, forecast planning, and a track record built over 55 years. When we commit to a schedule, we deliver."
+        "label": "Deliver",
+        "title": "Assembly & Supply",
+        "description": "We ship finished products on your schedule, not loose parts.",
+        "specs": "Kanban \u00b7 Forecast planning \u00b7 Finished goods"
       }
     ],
-    "cta": "Discuss Your Project"
+    "cta": "Start with a Drawing",
+    "allServices": "Explore All Services"
   },
   "cases": {
     "eyebrow": "Case Studies",
@@ -152,17 +104,57 @@
       {
         "title": "Tight-tolerance power tool internals no other foundry would quote",
         "client": "DeWalt",
-        "metric": "Complex geometry, high-volume series production"
+        "metric": "\u00b10.05\u2009mm tolerances \u00b7 High-volume series",
+        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u201999.2% first-pass yield\u2019 or \u2018X million parts delivered\u2019"
       },
       {
         "title": "Casting a design icon \u2014 where surface perfection is non-negotiable",
         "client": "One Collection",
-        "metric": "Visible brackets for a classic Finn Juhl chair"
+        "metric": "Class\u00a0A chrome finish \u00b7 Finn Juhl dining table",
+        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u2018In production since 2005\u2019 or \u2018Zero field returns\u2019"
       },
       {
-        "title": "Reshoring a part that failed overseas \u2014 and exceeding the original spec",
-        "client": "Industrial Partner",
-        "metric": "Full local value chain, tighter tolerances than import"
+        "title": "Precision motor frames for Europe\u2019s leading skylight manufacturer",
+        "client": "VELUX",
+        "metric": "Full local value chain \u00b7 Automated production",
+        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u2018X parts per year\u2019 or \u2018Continuous supply since YYYY\u2019"
+      }
+    ]
+  },
+  "industries": {
+    "eyebrow": "Industries",
+    "heading": "Trusted across sectors",
+    "description": "55+ years of zinc die-casting for industries where precision, surface quality, and reliability are non-negotiable.",
+    "items": [
+      {
+        "name": "Furniture & Design",
+        "description": "Visible fittings and structural components for premium Scandinavian design brands.",
+        "clients": "Fritz Hansen \u00b7 One Collection \u00b7 Montana \u00b7 HOWE"
+      },
+      {
+        "name": "Lighting",
+        "description": "Precision brackets, housings, and heat sinks for architectural and consumer lighting.",
+        "clients": "Frandsen \u00b7 Belux"
+      },
+      {
+        "name": "Building & HVAC",
+        "description": "Motor frames, window fittings, and ventilation components built for long service life.",
+        "clients": "VELUX \u00b7 ClimaWin"
+      },
+      {
+        "name": "Consumer Electronics",
+        "description": "Cosmetic and structural housings where surface quality meets dimensional precision.",
+        "clients": "Bang & Olufsen"
+      },
+      {
+        "name": "Automotive",
+        "description": "Structural and interior components meeting automotive quality and traceability standards.",
+        "clients": "European Tier 1 & 2 suppliers"
+      },
+      {
+        "name": "Industrial & Tools",
+        "description": "Ergonomic handles, brackets, and mechanical components for professional equipment.",
+        "clients": "DeWalt \u00b7 Ditlev Burke"
       }
     ]
   },
@@ -178,20 +170,58 @@
     ],
     "cta": "Material Properties & Comparison"
   },
+  "team": {
+    "eyebrow": "Your Contacts",
+    "heading": "Talk to the people who do the work",
+    "description": "No call centres. No account managers who\u2019ve never seen a casting machine. You talk directly to the engineers and specialists who handle your project.",
+    "members": [
+      {
+        "name": "Jan V. J\u00f8rgensen",
+        "role": "Managing Director",
+        "focus": "Strategy & key accounts",
+        "phone": "+45 2343 3667",
+        "email": "jvj@linimatic.dk"
+      },
+      {
+        "name": "Torben M. Jensen",
+        "role": "Technical & Sales",
+        "focus": "DFM review & project engineering",
+        "phone": "+45 5077 0218",
+        "email": "tmj@linimatic.dk"
+      },
+      {
+        "name": "Ren\u00e9 Johnsen",
+        "role": "Technical & Sales",
+        "focus": "New projects & customer support",
+        "phone": "+45 5077 0211",
+        "email": "rj@linimatic.dk"
+      }
+    ]
+  },
   "clients": {
     "trustedBy": "Trusted by",
+    "testimonial": {
+      "quote": "PLACEHOLDER: Add a real customer quote here. Ideally from an engineering director or procurement manager at a named client \u2014 about Linimatic\u2019s ability to handle complex geometry, their reliability, or the convenience of the full value chain.",
+      "author": "PLACEHOLDER: Client Name",
+      "role": "PLACEHOLDER: Title, Company"
+    },
     "logos": [
       { "name": "Bang & Olufsen" },
       { "name": "One Collection" },
-      { "name": "Howe" },
+      { "name": "Fritz Hansen" },
+      { "name": "VELUX" },
+      { "name": "HOWE" },
+      { "name": "Montana" },
+      { "name": "Frandsen" },
       { "name": "ClimaWin" }
     ]
   },
   "cta": {
     "heading": "Let\u2019s talk about your next project.",
-    "description": "Send us your drawings or specifications and we\u2019ll tell you exactly what\u2019s achievable \u2014 simple or complex. Response within 24\u00a0hours.",
+    "description": "Send us your drawings or specifications and we\u2019ll tell you exactly what\u2019s achievable \u2014 simple or complex.",
     "getInTouch": "Get in Touch",
-    "phone": "+45 4876 4040"
+    "phone": "+45 4876 4040",
+    "responsePromise": "Response within 24\u00a0hours"
   },
   "footer": {
     "logoAlt": "Linimatic \u2014 Innovative Die Casting",

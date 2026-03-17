@@ -41,108 +41,60 @@
       { "value": "1967", "label": "Grundlagt" },
       { "value": "12M+", "label": "Emner / år" },
       { "value": "12", "label": "Støbemaskiner" },
-      { "value": "ISO 9001", "label": "Certificeret" },
+      { "value": "ISO 9001", "label": "Siden 1993" },
       { "value": "50+", "label": "Specialister" }
     ]
   },
-  "services": {
-    "eyebrow": "Kompetencer",
-    "heading": "Zinktrykstøbning — alt under ét tag",
-    "description": "Hvert trin fra koncept til færdigt emne under ét tag. Ét støberi. Ingen mellemled.",
-    "coreProcessLabel": "Kerneproces",
-    "viewAllServices": "Se alle ydelser",
-    "items": [
-      {
-        "name": "Prototyper",
-        "description": "Hurtig prototypefremstilling og småserier til designvalidering."
-      },
-      {
-        "name": "Støberiet",
-        "description": "Varmkammer-zinktrykstøbning på maskiner fra 80 til 400 ton."
-      },
-      {
-        "name": "Efterbearbejdning",
-        "description": "CNC-bearbejdning, afgratning og præcisionstrimning."
-      },
-      {
-        "name": "Overfladebehandling",
-        "description": "Forkromning, maling, pulverlakering og anodisering."
-      },
-      {
-        "name": "Kvalitetssikring",
-        "description": "ISO 9001-certificeret CMM-inspektion og SPC."
-      },
-      {
-        "name": "Montage",
-        "description": "Komponentmontage — vi leverer færdige produkter, ikke kun dele."
-      }
-    ],
-    "imageAlts": {
-      "cncMachining": "CNC-bearbejdning af præcisions-zinktrykstøbt emne"
-    }
-  },
-  "whyLinimatic": {
-    "eyebrow": "Hvorfor Linimatic",
-    "heading": "Bygget til de opgaver, andre går udenom.",
-    "description": "Over 55 års eksklusivt fokus på zinktrykstøbning. Ikke generel metalbearbejdning. Ikke aluminium ved siden af. Hver maskine, hver operatør, hver proces er optimeret til ét materiale — så når geometrien bliver vanskelig, improviserer vi ikke. Vi trækker på årtiers gennemprøvede løsninger.",
-    "imageAlt": "CNC-bearbejdning af zinktrykstøbt emne",
-    "bulletPoints": [
-      {
-        "title": "Ekspertise i kompleks geometri",
-        "description": "Tynde vægge, dybe ribber, indviklede kerner — de detaljer der adskiller vanskelige emner fra simple"
-      },
-      {
-        "title": "\u00b10,05 mm gentagelighed",
-        "description": "Ensartede tolerancer på tværs af produktionsserier fra 10.000 til 5.000.000 emner"
-      },
-      {
-        "title": "Komplet værdikæde uden mellemled",
-        "description": "Støbning, CNC, overfladebehandling og montage i én facilitet — ingen koordineringsrisiko mellem leverandører"
-      },
-      {
-        "title": "Kvalitet der eliminerer reklamationer",
-        "description": "ISO 9001-certificeret, CMM-verificeret, SPC-overvåget — problemer fanges før de sendes"
-      }
-    ],
-    "ourStory": "Vores historie"
-  },
-  "whereWeShine": {
-    "eyebrow": "Hvor vi skiller os ud",
-    "heading": "Det der gør os anderledes",
-    "description": "Vi håndterer alt fra simple beslag til de mest krævende præcisionsemner. Her er det, 55\u00a0års specialisering virkelig viser sig.",
-    "items": [
+  "valueChain": {
+    "eyebrow": "Ét tag. Ingen mellemled.",
+    "heading": "Dit emne, fra tegning til levering",
+    "description": "Giv os en CAD-fil. Vi returnerer et færdigt, inspiceret emne — støbt, bearbejdet, overfladebehandlet og monteret i én facilitet. Ingen leverandørkoordinering. Ingen kvalitetshuller mellem trin.",
+    "steps": [
       {
         "number": "01",
-        "title": "Kompleks geometri",
-        "description": "Tynde vægge, dybe ribber, underskæringer — zinktrykstøbning kan opnå bemærkelsesværdig geometri, og vores værktøjshold har årtiers erfaring med at ramme rigtigt første gang."
+        "label": "Design",
+        "title": "DFM-gennemgang & prototyper",
+        "description": "Send dine CAD-filer. Vi gennemgår, simulerer og optimerer — første prøver på 3\u20134 uger.",
+        "specs": "48t respons \u00b7 Simuleringsoptimeret \u00b7 50\u201310.000 stk."
       },
       {
         "number": "02",
-        "title": "Ensartet præcision",
-        "description": "Tolerancer ned til \u00b10,05\u00a0mm fastholdt over hele produktionsserien. Uanset om det er emne 50 eller emne 500.000, er kvaliteten den samme."
+        "label": "Støb",
+        "title": "Varmkammer-trykstøbning",
+        "description": "12 automatiserede maskiner med robothåndtering. Emner fra 1\u2009g til 3\u2009kg, 24-timers drift.",
+        "specs": "80\u2013400T \u00b7 Zamak 2/3/5 \u00b7 \u00b10,05\u2009mm i støbning"
       },
       {
         "number": "03",
-        "title": "Overfladeklar finish",
-        "description": "Fra klasse\u00a0A-forkromning til præcisionslakerede overflader — vores støbninger er designet til synlige applikationer, hvor overfladekvalitet betyder alt."
+        "label": "Bearbejd",
+        "title": "CNC-efterbearbejdning",
+        "description": "Intern fræsning, drejning, slibning og gevindskæring til sluttolerance.",
+        "specs": "Fuld CNC \u00b7 Stramme sekundære tolerancer"
       },
       {
         "number": "04",
-        "title": "Én ansvarlig partner",
-        "description": "Støbning, CNC-bearbejdning, overfladebehandling, inspektion og montage under ét tag. Én kontaktperson, ét kvalitetssystem, kortere leveringstider."
+        "label": "Finish",
+        "title": "Overfladebehandling",
+        "description": "Fra klasse\u00a0A kosmetisk forkromning til funktionel korrosionsbeskyttelse.",
+        "specs": "Krom \u00b7 Pulverlak \u00b7 Vådlak \u00b7 Lasergravering"
       },
       {
         "number": "05",
-        "title": "Fra prototype til fuld produktion",
-        "description": "Det samme team og værktøj håndterer dit projekt fra en 100-styk valideringsserie helt op til 5\u00a0millioner emner om året i fast produktion."
+        "label": "Inspicér",
+        "title": "Kvalitetssikring",
+        "description": "Hvert emne CMM-verificeret og SPC-overvåget, før det forlader bygningen.",
+        "specs": "ISO 9001 siden '93 \u00b7 CMM \u00b7 SPC \u00b7 PPAP"
       },
       {
         "number": "06",
-        "title": "Pålidelig levering",
-        "description": "Kanban-aftaler, forecast-planlægning og en track record opbygget over 55 år. Når vi forpligter os til en tidsplan, leverer vi."
+        "label": "Levér",
+        "title": "Montage & forsyning",
+        "description": "Vi leverer færdige produkter efter din tidsplan, ikke løse dele.",
+        "specs": "Kanban \u00b7 Forecast-planlægning \u00b7 Færdigvarer"
       }
     ],
-    "cta": "Drøft dit projekt"
+    "cta": "Start med en tegning",
+    "allServices": "Se alle ydelser"
   },
   "cases": {
     "eyebrow": "Kundeeksempler",
@@ -152,17 +104,57 @@
       {
         "title": "Snæverttolerante indvendige dele til elværktøj, som ingen andre ville tilbyde på",
         "client": "DeWalt",
-        "metric": "Kompleks geometri, højvolumen serieproduktion"
+        "metric": "\u00b10,05\u2009mm tolerancer \u00b7 Højvolumen-serieproduktion",
+        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. '99,2% first-pass yield' eller 'X mio. dele leveret'"
       },
       {
         "title": "Støbning af en designikon — hvor overfladeperfektionen er ufravigelig",
         "client": "One Collection",
-        "metric": "Synlige beslag til en klassisk Finn Juhl-stol"
+        "metric": "Klasse\u00a0A-forkromning \u00b7 Finn Juhl-spisebord",
+        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'I produktion siden 2005' eller 'Nul reklamationer'"
       },
       {
-        "title": "Hjemtagning af en del der fejlede i udlandet — med bedre specifikationer end originalen",
-        "client": "Industriel partner",
-        "metric": "Komplet lokal værdikæde, strammere tolerancer end import"
+        "title": "Præcisions-motorrammer til Europas førende ovenlysproducent",
+        "client": "VELUX",
+        "metric": "Komplet lokal værdikæde \u00b7 Automatiseret produktion",
+        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'X emner om året' eller 'Løbende leverance siden ÅÅÅÅ'"
+      }
+    ]
+  },
+  "industries": {
+    "eyebrow": "Brancher",
+    "heading": "Betroet på tværs af sektorer",
+    "description": "55+ års zinktrykstøbning til brancher, hvor præcision, overfladekvalitet og pålidelighed er ufravigelige.",
+    "items": [
+      {
+        "name": "Møbler & design",
+        "description": "Synlige beslag og strukturelle komponenter til førende skandinaviske designmærker.",
+        "clients": "Fritz Hansen \u00b7 One Collection \u00b7 Montana \u00b7 HOWE"
+      },
+      {
+        "name": "Belysning",
+        "description": "Præcisionsbeslag, kabinetter og køleplader til arkitektonisk og forbrugerbelysning.",
+        "clients": "Frandsen \u00b7 Belux"
+      },
+      {
+        "name": "Byggeri & HVAC",
+        "description": "Motorrammer, vinduesbeslag og ventilationskomponenter bygget til lang levetid.",
+        "clients": "VELUX \u00b7 ClimaWin"
+      },
+      {
+        "name": "Forbrugerelektronik",
+        "description": "Kosmetiske og funktionelle kabinetter, hvor overfladekvalitet møder dimensionel præcision.",
+        "clients": "Bang & Olufsen"
+      },
+      {
+        "name": "Automotive",
+        "description": "Strukturelle komponenter og interiørdele, der opfylder bilbranchens kvalitets- og sporbarhedskrav.",
+        "clients": "Europæiske Tier 1 & 2-leverandører"
+      },
+      {
+        "name": "Industri & værktøj",
+        "description": "Ergonomiske håndtag, beslag og mekaniske komponenter til professionelt udstyr.",
+        "clients": "DeWalt \u00b7 Ditlev Burke"
       }
     ]
   },
@@ -178,20 +170,58 @@
     ],
     "cta": "Materialeegenskaber & sammenligning"
   },
+  "team": {
+    "eyebrow": "Dine kontakter",
+    "heading": "Tal med dem, der udfører arbejdet",
+    "description": "Ingen callcentre. Ingen account managers, der aldrig har set en støbemaskine. Du taler direkte med de ingeniører og specialister, der håndterer dit projekt.",
+    "members": [
+      {
+        "name": "Jan V. J\u00f8rgensen",
+        "role": "Administrerende direktør",
+        "focus": "Strategi & nøglekunder",
+        "phone": "+45 2343 3667",
+        "email": "jvj@linimatic.dk"
+      },
+      {
+        "name": "Torben M. Jensen",
+        "role": "Teknisk & salg",
+        "focus": "DFM-gennemgang & projektledelse",
+        "phone": "+45 5077 0218",
+        "email": "tmj@linimatic.dk"
+      },
+      {
+        "name": "Ren\u00e9 Johnsen",
+        "role": "Teknisk & salg",
+        "focus": "Nye projekter & kundesupport",
+        "phone": "+45 5077 0211",
+        "email": "rj@linimatic.dk"
+      }
+    ]
+  },
   "clients": {
     "trustedBy": "Betroet af",
+    "testimonial": {
+      "quote": "PLADSHOLDER: Tilføj et ægte kundeudtalelse her. Ideelt fra en teknisk chef eller indkøbsansvarlig hos en navngivet kunde — om Linimatics evne til at håndtere kompleks geometri, deres pålidelighed, eller bekvemmeligheden ved den komplette værdikæde.",
+      "author": "PLADSHOLDER: Kundenavn",
+      "role": "PLADSHOLDER: Titel, Virksomhed"
+    },
     "logos": [
       { "name": "Bang & Olufsen" },
       { "name": "One Collection" },
-      { "name": "Howe" },
+      { "name": "Fritz Hansen" },
+      { "name": "VELUX" },
+      { "name": "HOWE" },
+      { "name": "Montana" },
+      { "name": "Frandsen" },
       { "name": "ClimaWin" }
     ]
   },
   "cta": {
     "heading": "Lad os tale om dit næste projekt.",
-    "description": "Send os dine tegninger eller specifikationer, og vi fortæller dig præcis, hvad der kan lade sig gøre — simpelt eller komplekst. Svar inden for 24\u00a0timer.",
+    "description": "Send os dine tegninger eller specifikationer, og vi fortæller dig præcis, hvad der kan lade sig gøre — simpelt eller komplekst.",
     "getInTouch": "Kontakt os",
-    "phone": "+45 4876 4040"
+    "phone": "+45 4876 4040",
+    "responsePromise": "Svar inden for 24\u00a0timer"
   },
   "footer": {
     "logoAlt": "Linimatic — Innovativ trykstøbning",

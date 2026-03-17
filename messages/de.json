@@ -41,108 +41,60 @@
       { "value": "1967", "label": "Gegründet" },
       { "value": "12M+", "label": "Teile / Jahr" },
       { "value": "12", "label": "Druckgussmaschinen" },
-      { "value": "ISO 9001", "label": "Zertifiziert" },
+      { "value": "ISO 9001", "label": "Seit 1993" },
       { "value": "50+", "label": "Spezialisten" }
     ]
   },
-  "services": {
-    "eyebrow": "Kompetenzen",
-    "heading": "Zinkdruckguss — Komplettservice",
-    "description": "Jeder Schritt vom Konzept bis zum fertigen Bauteil unter einem Dach. Eine Gießerei. Keine Zwischenstationen.",
-    "coreProcessLabel": "Kernprozess",
-    "viewAllServices": "Alle Leistungen ansehen",
-    "items": [
-      {
-        "name": "Prototypen",
-        "description": "Schnelle Prototypenfertigung und Kleinserienfertigung zur Designvalidierung."
-      },
-      {
-        "name": "Gießerei",
-        "description": "Warmkammer-Zinkdruckguss auf Maschinen von 80 bis 400 Tonnen."
-      },
-      {
-        "name": "Nachbearbeitung",
-        "description": "CNC-Bearbeitung, Entgraten und Präzisionsbeschnitt."
-      },
-      {
-        "name": "Oberflächenbehandlung",
-        "description": "Verchromung, Lackierung, Pulverbeschichtung und Eloxierung."
-      },
-      {
-        "name": "Qualitätssicherung",
-        "description": "ISO 9001-zertifizierte KMG-Inspektion und SPC."
-      },
-      {
-        "name": "Montage",
-        "description": "Bauteilmontage — wir liefern fertige Produkte, nicht nur Einzelteile."
-      }
-    ],
-    "imageAlts": {
-      "cncMachining": "CNC-Bearbeitung eines Präzisions-Zinkdruckgussteils"
-    }
-  },
-  "whyLinimatic": {
-    "eyebrow": "Warum Linimatic",
-    "heading": "Gemacht für die Aufträge, vor denen andere zurückschrecken.",
-    "description": "Über 55 Jahre ausschließlicher Fokus auf Zinkdruckguss. Keine allgemeine Metallbearbeitung. Kein Aluminium nebenbei. Jede Maschine, jeder Bediener, jeder Prozess ist auf ein Material optimiert — sodass wir bei schwieriger Geometrie nicht improvisieren, sondern auf jahrzehntelang bewährte Lösungen zurückgreifen.",
-    "imageAlt": "CNC-Bearbeitung eines Zinkdruckgussteils",
-    "bulletPoints": [
-      {
-        "title": "Expertise bei komplexer Geometrie",
-        "description": "Dünne Wände, tiefe Rippen, komplizierte Kerne — die Merkmale, die anspruchsvolle Teile von einfachen unterscheiden"
-      },
-      {
-        "title": "\u00b10,05 mm Wiederholgenauigkeit",
-        "description": "Gleichbleibende Toleranzen über Produktionsläufe von 10.000 bis 5.000.000 Teilen"
-      },
-      {
-        "title": "Lückenlose Wertschöpfungskette",
-        "description": "Guss, CNC, Beschichtung und Montage in einer Einrichtung — kein Koordinierungsrisiko zwischen Lieferanten"
-      },
-      {
-        "title": "Qualität, die Reklamationen eliminiert",
-        "description": "ISO 9001-zertifiziert, KMG-verifiziert, SPC-überwacht — Probleme werden erkannt, bevor sie versendet werden"
-      }
-    ],
-    "ourStory": "Unsere Geschichte"
-  },
-  "whereWeShine": {
-    "eyebrow": "Wo wir glänzen",
-    "heading": "Was uns unterscheidet",
-    "description": "Wir fertigen alles, von einfachen Halterungen bis zu den anspruchsvollsten Präzisionsbauteilen. Hier zeigt sich, was 55\u00a0Jahre Spezialisierung wirklich bedeuten.",
-    "items": [
+  "valueChain": {
+    "eyebrow": "Ein Dach. Keine Zwischenstationen.",
+    "heading": "Ihr Bauteil, von der Zeichnung bis zur Lieferung",
+    "description": "Geben Sie uns eine CAD-Datei. Wir liefern ein fertiges, geprüftes Bauteil — gegossen, bearbeitet, beschichtet und montiert in einer einzigen Anlage. Keine Lieferantenkoordination. Keine Qualitätslücken zwischen den Schritten.",
+    "steps": [
       {
         "number": "01",
-        "title": "Komplexe Geometrie",
-        "description": "Dünne Wände, tiefe Rippen, Hinterschnitte — Zinkdruckguss ermöglicht bemerkenswerte Geometrien, und unser Werkzeugbau-Team hat jahrzehntelange Erfahrung, es beim ersten Mal richtig zu machen."
+        "label": "Design",
+        "title": "DFM-Prüfung & Prototypen",
+        "description": "Senden Sie Ihre CAD-Dateien. Wir prüfen, simulieren und optimieren — erste Muster in 3\u20134 Wochen.",
+        "specs": "48h Antwort \u00b7 Simulationsoptimiert \u00b7 50\u201310.000 Stk."
       },
       {
         "number": "02",
-        "title": "Gleichbleibende Präzision",
-        "description": "Toleranzen bis \u00b10,05\u00a0mm über den gesamten Produktionslauf. Ob Teil 50 oder Teil 500.000 — die Qualität ist identisch."
+        "label": "Gießen",
+        "title": "Warmkammer-Druckguss",
+        "description": "12 automatisierte Maschinen mit Roboterhandling. Teile von 1\u2009g bis 3\u2009kg, 24-Stunden-Betrieb.",
+        "specs": "80\u2013400T \u00b7 Zamak 2/3/5 \u00b7 \u00b10,05\u2009mm im Guss"
       },
       {
         "number": "03",
-        "title": "Oberflächenfertige Qualität",
-        "description": "Von Klasse-A-Verchromung bis zu präzisionslackierten Oberflächen — unsere Gussteile sind für sichtbare Anwendungen konzipiert, bei denen Oberflächenqualität zählt."
+        "label": "Bearbeiten",
+        "title": "CNC-Nachbearbeitung",
+        "description": "Hauseigenes Fräsen, Drehen, Schleifen und Gewindeschneiden bis zur Endtoleranz.",
+        "specs": "Volle CNC \u00b7 Enge sekundäre Toleranzen"
       },
       {
         "number": "04",
-        "title": "Ein verantwortlicher Partner",
-        "description": "Guss, CNC-Bearbeitung, Oberflächenbeschichtung, Inspektion und Montage unter einem Dach. Ein Ansprechpartner, ein Qualitätssystem, kürzere Lieferzeiten."
+        "label": "Finish",
+        "title": "Oberflächenbehandlung",
+        "description": "Von Klasse-A-Kosmetikchrom bis zu funktionalem Korrosionsschutz.",
+        "specs": "Chrom \u00b7 Pulverlack \u00b7 Nasslack \u00b7 Lasergravur"
       },
       {
         "number": "05",
-        "title": "Vom Prototyp bis zur Großserie",
-        "description": "Dasselbe Team und Werkzeug betreut Ihr Projekt von einer 100-Stück-Validierungsserie bis hin zu 5\u00a0Millionen Einheiten pro Jahr in der Serienproduktion."
+        "label": "Prüfen",
+        "title": "Qualitätssicherung",
+        "description": "Jedes Teil KMG-geprüft und SPC-überwacht, bevor es das Haus verlässt.",
+        "specs": "ISO 9001 seit '93 \u00b7 KMG \u00b7 SPC \u00b7 PPAP"
       },
       {
         "number": "06",
-        "title": "Zuverlässige Lieferung",
-        "description": "Kanban-Vereinbarungen, Forecast-Planung und eine über 55 Jahre aufgebaute Erfolgsbilanz. Wenn wir uns auf einen Zeitplan festlegen, liefern wir."
+        "label": "Liefern",
+        "title": "Montage & Versorgung",
+        "description": "Wir liefern fertige Produkte nach Ihrem Zeitplan, nicht lose Teile.",
+        "specs": "Kanban \u00b7 Forecast-Planung \u00b7 Fertigware"
       }
     ],
-    "cta": "Ihr Projekt besprechen"
+    "cta": "Mit einer Zeichnung starten",
+    "allServices": "Alle Leistungen entdecken"
   },
   "cases": {
     "eyebrow": "Referenzen",
@@ -152,17 +104,57 @@
       {
         "title": "Engtolerierte Elektrowerkzeug-Innenteile, die keine andere Gießerei anbieten wollte",
         "client": "DeWalt",
-        "metric": "Komplexe Geometrie, Großserien-Produktion"
+        "metric": "\u00b10,05\u2009mm Toleranzen \u00b7 Großserien-Produktion",
+        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. \u201999,2\u2009% Erstdurchlauf-Ausbeute\u2019 oder \u2018X Mio. Teile geliefert\u2019"
       },
       {
         "title": "Guss einer Designikone — wo Oberflächenperfektion nicht verhandelbar ist",
         "client": "One Collection",
-        "metric": "Sichtbare Beschläge für einen klassischen Finn-Juhl-Stuhl"
+        "metric": "Klasse-A-Verchromung \u00b7 Finn-Juhl-Esstisch",
+        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. \u2018In Produktion seit 2005\u2019 oder \u2018Null Reklamationen\u2019"
       },
       {
-        "title": "Rückverlagerung eines Teils, das im Ausland scheiterte — mit besseren Spezifikationen als das Original",
-        "client": "Industriepartner",
-        "metric": "Komplette lokale Wertschöpfungskette, engere Toleranzen als Import"
+        "title": "Präzisions-Motorrahmen für Europas führenden Dachfensterhersteller",
+        "client": "VELUX",
+        "metric": "Komplette lokale Wertschöpfungskette \u00b7 Automatisierte Produktion",
+        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. \u2018X Teile pro Jahr\u2019 oder \u2018Kontinuierliche Belieferung seit JJJJ\u2019"
+      }
+    ]
+  },
+  "industries": {
+    "eyebrow": "Branchen",
+    "heading": "Vertraut in allen Sektoren",
+    "description": "Über 55 Jahre Zinkdruckguss für Branchen, in denen Präzision, Oberflächenqualität und Zuverlässigkeit unverzichtbar sind.",
+    "items": [
+      {
+        "name": "Möbel & Design",
+        "description": "Sichtbare Beschläge und Strukturbauteile für führende skandinavische Designmarken.",
+        "clients": "Fritz Hansen \u00b7 One Collection \u00b7 Montana \u00b7 HOWE"
+      },
+      {
+        "name": "Beleuchtung",
+        "description": "Präzisionsbeschläge, Gehäuse und Kühlkörper für Architektur- und Konsumentenbeleuchtung.",
+        "clients": "Frandsen \u00b7 Belux"
+      },
+      {
+        "name": "Bau & HVAC",
+        "description": "Motorrahmen, Fensterbeschläge und Lüftungskomponenten für lange Lebensdauer.",
+        "clients": "VELUX \u00b7 ClimaWin"
+      },
+      {
+        "name": "Unterhaltungselektronik",
+        "description": "Kosmetische und funktionale Gehäuse, bei denen Oberflächenqualität auf Maßpräzision trifft.",
+        "clients": "Bang & Olufsen"
+      },
+      {
+        "name": "Automotive",
+        "description": "Strukturelle und Innenraum-Komponenten, die automotive Qualitäts- und Rückverfolgbarkeitsstandards erfüllen.",
+        "clients": "Europäische Tier-1- & Tier-2-Zulieferer"
+      },
+      {
+        "name": "Industrie & Werkzeuge",
+        "description": "Ergonomische Griffe, Halterungen und mechanische Komponenten für professionelle Ausrüstung.",
+        "clients": "DeWalt \u00b7 Ditlev Burke"
       }
     ]
   },
@@ -178,20 +170,58 @@
     ],
     "cta": "Materialeigenschaften & Vergleich"
   },
+  "team": {
+    "eyebrow": "Ihre Ansprechpartner",
+    "heading": "Sprechen Sie mit den Menschen, die die Arbeit machen",
+    "description": "Keine Callcenter. Keine Account Manager, die noch nie eine Gießmaschine gesehen haben. Sie sprechen direkt mit den Ingenieuren und Spezialisten, die Ihr Projekt betreuen.",
+    "members": [
+      {
+        "name": "Jan V. J\u00f8rgensen",
+        "role": "Geschäftsführer",
+        "focus": "Strategie & Schlüsselkunden",
+        "phone": "+45 2343 3667",
+        "email": "jvj@linimatic.dk"
+      },
+      {
+        "name": "Torben M. Jensen",
+        "role": "Technik & Vertrieb",
+        "focus": "DFM-Prüfung & Projektleitung",
+        "phone": "+45 5077 0218",
+        "email": "tmj@linimatic.dk"
+      },
+      {
+        "name": "Ren\u00e9 Johnsen",
+        "role": "Technik & Vertrieb",
+        "focus": "Neue Projekte & Kundenbetreuung",
+        "phone": "+45 5077 0211",
+        "email": "rj@linimatic.dk"
+      }
+    ]
+  },
   "clients": {
     "trustedBy": "Vertraut von",
+    "testimonial": {
+      "quote": "PLATZHALTER: Fügen Sie hier ein echtes Kundenzitat ein. Idealerweise von einem technischen Leiter oder Einkaufsverantwortlichen eines namentlich genannten Kunden — über Linimatics Fähigkeit, komplexe Geometrien zu bewältigen, ihre Zuverlässigkeit oder den Vorteil der kompletten Wertschöpfungskette.",
+      "author": "PLATZHALTER: Kundenname",
+      "role": "PLATZHALTER: Position, Unternehmen"
+    },
     "logos": [
       { "name": "Bang & Olufsen" },
       { "name": "One Collection" },
-      { "name": "Howe" },
+      { "name": "Fritz Hansen" },
+      { "name": "VELUX" },
+      { "name": "HOWE" },
+      { "name": "Montana" },
+      { "name": "Frandsen" },
       { "name": "ClimaWin" }
     ]
   },
   "cta": {
     "heading": "Lassen Sie uns über Ihr nächstes Projekt sprechen.",
-    "description": "Senden Sie uns Ihre Zeichnungen oder Spezifikationen und wir sagen Ihnen genau, was machbar ist — einfach oder komplex. Antwort innerhalb von 24\u00a0Stunden.",
+    "description": "Senden Sie uns Ihre Zeichnungen oder Spezifikationen und wir sagen Ihnen genau, was machbar ist — einfach oder komplex.",
     "getInTouch": "Kontakt aufnehmen",
-    "phone": "+45 4876 4040"
+    "phone": "+45 4876 4040",
+    "responsePromise": "Antwort innerhalb von 24\u00a0Stunden"
   },
   "footer": {
     "logoAlt": "Linimatic — Innovativer Zinkdruckguss",

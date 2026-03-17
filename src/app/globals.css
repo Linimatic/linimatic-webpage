@@ -93,6 +93,20 @@ h1, h2, h3, h4, h5, h6 {
 .delay-4 { animation-delay: 0.4s; }
 .delay-5 { animation-delay: 0.5s; }
 
+/* Infinite logo carousel scroll */
+@keyframes logoScroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-logo-scroll {
+  animation: logoScroll 30s linear infinite;
+}
+
+.animate-logo-scroll:hover {
+  animation-play-state: paused;
+}
+
 /* Noise grain overlay for texture */
 .grain::after {
   content: '';

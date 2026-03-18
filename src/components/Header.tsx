@@ -20,6 +20,7 @@ const navKeys = [
   { key: "cases", href: "/cases" },
   { key: "whyZinc", href: "/why-zinc" },
   { key: "about", href: "/about" },
+  { key: "jobs", href: "/jobs" },
   { key: "contact", href: "/contact" },
 ];
 
@@ -28,7 +29,9 @@ export function Header() {
   const [servicesOpen, setServicesOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const t = useTranslations("header");
+  const tJobs = useTranslations("jobsPage");
   const locale = useLocale();
+  const jobCount = (tJobs.raw("positions") as unknown[]).length;
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -119,11 +122,16 @@ export function Header() {
                 <Link
                   key={item.key}
                   href={item.href}
-                  className={`px-5 py-2 text-[13px] font-medium tracking-wide uppercase transition-colors ${
+                  className={`flex items-center gap-1.5 px-5 py-2 text-[13px] font-medium tracking-wide uppercase transition-colors ${
                     scrolled ? "text-zinc-600 hover:text-zinc-900" : "text-zinc-300 hover:text-white"
                   }`}
                 >
                   {t(`nav.${item.key}`)}
+                  {item.key === "jobs" && jobCount > 0 && (
+                    <span className="inline-flex items-center justify-center min-w-[18px] h-[18px] px-1 text-[10px] font-bold leading-none text-zinc-950 bg-ember rounded-sm font-[family-name:var(--font-mono)]">
+                      {jobCount}
+                    </span>
+                  )}
                 </Link>
               )
             )}
@@ -184,10 +192,15 @@ export function Header() {
               <Link
                 key={item.key}
                 href={item.href}
-                className="block px-4 py-3 text-base font-medium text-zinc-300 hover:text-white hover:bg-zinc-900 transition-colors"
+                className="flex items-center gap-2 px-4 py-3 text-base font-medium text-zinc-300 hover:text-white hover:bg-zinc-900 transition-colors"
                 onClick={() => setMobileOpen(false)}
               >
                 {t(`nav.${item.key}`)}
+                {item.key === "jobs" && jobCount > 0 && (
+                  <span className="inline-flex items-center justify-center min-w-[18px] h-[18px] px-1 text-[10px] font-bold leading-none text-zinc-950 bg-ember rounded-sm font-[family-name:var(--font-mono)]">
+                    {jobCount}
+                  </span>
+                )}
               </Link>
             ))}
             {/* Mobile Language Switcher */}

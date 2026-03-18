@@ -6,6 +6,7 @@
       "cases": "Cases",
       "whyZinc": "Hvorfor zink",
       "about": "Om os",
+      "jobs": "Karriere",
       "contact": "Kontakt"
     },
     "servicesList": {
@@ -191,6 +192,7 @@
       "aboutUs": "Om os",
       "cases": "Cases",
       "whyZinc": "Hvorfor zink",
+      "careers": "Karriere",
       "zinkers": "Zinkers"
     },
     "contactHeading": "Kontakt",
@@ -1078,5 +1080,83 @@
       "ctaDescription": "Fortæl os, hvad du skal have leveret, hvor ofte og i hvilken emballage. Vi designer en forsyningsmodel, der passer til din produktionsplan.",
       "ctaButton": "Drøft dine forsyningsbehov"
     }
+  },
+  "jobsPage": {
+    "breadcrumb": "Karriere",
+    "eyebrow": "Bliv en del af holdet",
+    "heading": "Byg din karriere inden for præcisionsfremstilling",
+    "description": "Linimatic er Danmarks største dedikerede zinktrykstøberi. Vi er et hold på 50+ specialister, der er stolte af at løse de produktionsudfordringer, andre takker nej til. Hvis du vil arbejde med både hænder og hoved, i en virksomhed hvor ekspertise betyder noget, vil vi gerne høre fra dig.",
+    "heroImageAlt": "Linimatic fabriksgulv i Helsinge, Danmark",
+    "whyHeading": "Hvorfor Linimatic?",
+    "whyDescription": "Vi holder til i Helsinge, Nordsjælland \u2014 tæt nok på København til at pendle, langt nok væk til at undgå støjen. Her er, hvad der gør os anderledes.",
+    "perks": [
+      {
+        "title": "Ægte håndværk",
+        "description": "Du arbejder med flydende metal, præcisionsmaskiner og snævre tolerancer. Hvert emne du laver, ender i et rigtigt produkt \u2014 fra Fritz Hansen-stole til VELUX-ovenlysvinduer."
+      },
+      {
+        "title": "Stabil og voksende",
+        "description": "Grundlagt i 1967 og stadig i fuld fart. Vi investerer i mennesker og udstyr på lang sigt, ikke næste kvartal."
+      },
+      {
+        "title": "Lille team, stor effekt",
+        "description": "50+ medarbejdere betyder, at du ikke er et nummer. Du kender dine kolleger, du ser hele værdikæden, og dit arbejde er synligt."
+      },
+      {
+        "title": "Løbende udvikling",
+        "description": "Nye maskiner, nye legeringer, nye processer \u2014 faget udvikler sig, og vi udvikler os med det. Træning og kompetenceudvikling er en del af jobbet."
+      }
+    ],
+    "positionsEyebrow": "Ledige stillinger",
+    "positionsHeading": "Aktuelle åbninger",
+    "responsibilitiesLabel": "Det skal du lave",
+    "requirementsLabel": "Det ser vi efter",
+    "applyButton": "Ansøg nu",
+    "applySubject": "Ansøgning \u2014 {position} \u2014 Linimatic",
+    "noPositions": "Ingen ledige stillinger lige nu \u2014 men vi er altid interesserede i at høre fra dygtige folk. Send en uopfordret ansøgning herunder.",
+    "positions": [
+      {
+        "title": "Maskinarbejder / Industritekniker eller Værktøjsmager",
+        "department": "Værktøjsafdelingen",
+        "type": "Fuldtid",
+        "description": "Vi planlægger et generationsskifte i vores værktøjsafdeling, da to erfarne kolleger nærmer sig pension. Vi søger en ny kollega, der kan oplæres grundigt og overtage deres specialviden. Erfaring med trykstøbeforme er en fordel, men ikke et krav.",
+        "responsibilities": [
+          "Klargøring og vedligeholdelse af trykstøbeforme og stanseværktøj",
+          "Fejlfinding på produktionsproblemer relateret til værktøj",
+          "Indkøb af udvalgte sliddele og forbrugsvarer",
+          "Samarbejde med produktion og ingeniørafdelingen"
+        ],
+        "requirements": [
+          "Uddannet maskinarbejder, værktøjsmager eller industritekniker \u2014 eller relevant teknisk baggrund",
+          "Mekanisk anlagt med øje for detaljen",
+          "Ansvarsbevidst og motiveret for at udvikle dyb specialistviden",
+          "Dansk arbejdssprog"
+        ]
+      },
+      {
+        "title": "Medarbejder til produktion",
+        "department": "Støberiet",
+        "type": "Fuldtid",
+        "description": "Bliv en del af vores støberiteam og betjen zinktrykstøbningsmaskiner og produktionsudstyr. Det er en entry-level produktionsrolle med en klar vej til at blive maskinopsætter gennem oplæring, interne kurser og robotprogrammeringscertificering.",
+        "responsibilities": [
+          "Betjening af zinktrykstøbningsmaskiner og produktionsudstyr",
+          "Fjernelse af emner fra maskiner, stempling eller afbrydning efter behov",
+          "Kvalitetskontrol efter skriftlige procedurer",
+          "Montagearbejde på færdige komponenter",
+          "Egenkontrol af arbejdskvalitet gennem produktionen"
+        ],
+        "requirements": [
+          "Villighed til at lære nyt \u2014 ingen forudgående trykstøbningserfaring nødvendig",
+          "Teknisk snilde og gode organisatoriske vaner",
+          "Gode samarbejdsevner",
+          "Forpligtelse til kvalitetsstandarder",
+          "Dansk sprogfærdighed (tale, læse, skrive)"
+        ]
+      }
+    ],
+    "openApplicationHeading": "Ser du ikke din rolle?",
+    "openApplicationDescription": "Vi er altid interesserede i at høre fra dygtige folk inden for produktion, ingeniørarbejde, kvalitet og salg. Send os dit CV og fortæl, hvad du kan bidrage med.",
+    "openApplicationButton": "Send uopfordret ansøgning",
+    "learnMoreButton": "Læs mere om os"
   }
 }

@@ -6,6 +6,7 @@
       "cases": "Referenzen",
       "whyZinc": "Warum Zink",
       "about": "Über uns",
+      "jobs": "Karriere",
       "contact": "Kontakt"
     },
     "servicesList": {
@@ -191,6 +192,7 @@
       "aboutUs": "Über uns",
       "cases": "Referenzen",
       "whyZinc": "Warum Zink",
+      "careers": "Karriere",
       "zinkers": "Zinkers"
     },
     "contactHeading": "Kontakt",
@@ -1078,5 +1080,83 @@
       "ctaDescription": "Sagen Sie uns, was Sie geliefert brauchen, wie oft und in welcher Verpackung. Wir entwerfen ein Versorgungsmodell, das zu Ihrem Produktionsplan passt.",
       "ctaButton": "Versorgungsbedarf besprechen"
     }
+  },
+  "jobsPage": {
+    "breadcrumb": "Karriere",
+    "eyebrow": "Werden Sie Teil unseres Teams",
+    "heading": "Starten Sie Ihre Karriere in der Präzisionsfertigung",
+    "description": "Linimatic ist Dänemarks größte spezialisierte Zinkdruckgießerei. Wir sind ein Team von über 50 Spezialisten, die stolz darauf sind, Fertigungsherausforderungen zu lösen, die andere ablehnen. Wenn Sie mit Händen und Kopf arbeiten möchten, in einem Unternehmen, in dem Expertise zählt, freuen wir uns auf Ihre Bewerbung.",
+    "heroImageAlt": "Linimatic Produktionshalle in Helsinge, Dänemark",
+    "whyHeading": "Warum Linimatic?",
+    "whyDescription": "Unser Standort ist Helsinge, Nordseeland \u2014 nah genug an Kopenhagen zum Pendeln, weit genug entfernt für Ruhe. Das macht uns besonders.",
+    "perks": [
+      {
+        "title": "Echtes Handwerk",
+        "description": "Sie arbeiten mit flüssigem Metall, Präzisionsmaschinen und engen Toleranzen. Jedes Teil, das Sie fertigen, wird zu einem echten Produkt \u2014 von Fritz Hansen-Stühlen bis zu VELUX-Dachfenstern."
+      },
+      {
+        "title": "Stabil und wachsend",
+        "description": "Gegründet 1967 und immer noch stark. Wir investieren langfristig in Menschen und Ausrüstung, nicht für das nächste Quartal."
+      },
+      {
+        "title": "Kleines Team, große Wirkung",
+        "description": "Über 50 Mitarbeiter bedeutet, dass Sie keine Nummer sind. Sie kennen Ihre Kollegen, sehen die gesamte Wertschöpfungskette und Ihre Arbeit ist sichtbar."
+      },
+      {
+        "title": "Kontinuierliche Entwicklung",
+        "description": "Neue Maschinen, neue Legierungen, neue Verfahren \u2014 das Fachgebiet entwickelt sich und wir uns mit. Schulung und Kompetenzentwicklung gehören zum Job."
+      }
+    ],
+    "positionsEyebrow": "Offene Stellen",
+    "positionsHeading": "Aktuelle Stellenangebote",
+    "responsibilitiesLabel": "Ihre Aufgaben",
+    "requirementsLabel": "Was wir suchen",
+    "applyButton": "Jetzt bewerben",
+    "applySubject": "Bewerbung \u2014 {position} \u2014 Linimatic",
+    "noPositions": "Derzeit keine offenen Stellen \u2014 aber wir sind immer an qualifizierten Fachkräften interessiert. Senden Sie uns eine Initiativbewerbung.",
+    "positions": [
+      {
+        "title": "Maschinist / Industrietechniker oder Werkzeugmacher",
+        "department": "Werkzeugabteilung",
+        "type": "Vollzeit",
+        "description": "Wir planen einen Generationswechsel in unserer Werkzeugabteilung, da zwei erfahrene Kollegen sich dem Ruhestand nähern. Wir suchen einen neuen Mitarbeiter, der gründlich eingearbeitet und das Spezialwissen übernehmen kann. Erfahrung mit Druckgussformen ist von Vorteil, aber nicht erforderlich.",
+        "responsibilities": [
+          "Vorbereitung und Wartung von Druckgussformen und Stanzwerkzeugen",
+          "Fehlerbehebung bei produktionsbezogenen Werkzeugproblemen",
+          "Einkauf ausgewählter Verschleißteile und Verbrauchsmaterialien",
+          "Zusammenarbeit mit Produktion und Ingenieurabteilung"
+        ],
+        "requirements": [
+          "Ausgebildeter Maschinist, Werkzeugmacher oder Industrietechniker \u2014 oder relevanter technischer Hintergrund",
+          "Mechanisch begabt mit Auge fürs Detail",
+          "Verantwortungsbewusst und motiviert, tiefes Fachwissen zu entwickeln",
+          "Dänische oder englische Arbeitskenntnisse"
+        ]
+      },
+      {
+        "title": "Produktionsmitarbeiter",
+        "department": "Gießerei",
+        "type": "Vollzeit",
+        "description": "Werden Sie Teil unseres Gießereiteams und bedienen Sie Zinkdruckgussmaschinen und Produktionsanlagen. Dies ist eine Einstiegsposition mit einem klaren Karrierepfad zum Maschineneinrichter durch Einarbeitung, interne Kurse und Roboterprogrammierungszertifizierung.",
+        "responsibilities": [
+          "Bedienung von Zinkdruckgussmaschinen und Produktionsanlagen",
+          "Entnahme von Bauteilen aus Maschinen, Stanzen oder Beschneiden nach Bedarf",
+          "Qualitätskontrolle nach schriftlichen Verfahren",
+          "Montagearbeiten an Fertigbauteilen",
+          "Eigenüberwachung der Arbeitsqualität während der Produktion"
+        ],
+        "requirements": [
+          "Bereitschaft, Neues zu lernen \u2014 keine vorherige Druckgusserfahrung nötig",
+          "Technisches Geschick und gute organisatorische Gewohnheiten",
+          "Ausgeprägte Teamfähigkeit",
+          "Verpflichtung zu Qualitätsstandards",
+          "Dänische Sprachkenntnisse (Sprechen, Lesen, Schreiben)"
+        ]
+      }
+    ],
+    "openApplicationHeading": "Ihre Rolle nicht dabei?",
+    "openApplicationDescription": "Wir sind immer an qualifizierten Fachkräften in den Bereichen Fertigung, Technik, Qualität und Vertrieb interessiert. Senden Sie uns Ihren Lebenslauf und erzählen Sie uns, was Sie mitbringen.",
+    "openApplicationButton": "Initiativbewerbung senden",
+    "learnMoreButton": "Mehr über uns erfahren"
   }
 }

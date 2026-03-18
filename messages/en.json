@@ -6,6 +6,7 @@
       "cases": "Cases",
       "whyZinc": "Why Zinc",
       "about": "About",
+      "jobs": "Careers",
       "contact": "Contact"
     },
     "servicesList": {
@@ -128,21 +129,18 @@
       {
         "name": "Jan V. J\u00f8rgensen",
         "role": "Managing Director",
-        "focus": "Strategy & key accounts",
         "phone": "+45 2343 3667",
         "email": "jvj@linimatic.dk"
       },
       {
         "name": "Torben M. Jensen",
         "role": "Technical & Sales",
-        "focus": "DFM review & project engineering",
         "phone": "+45 5077 0218",
         "email": "tmj@linimatic.dk"
       },
       {
         "name": "Ren\u00e9 Johnsen",
         "role": "Technical & Sales",
-        "focus": "New projects & customer support",
         "phone": "+45 5077 0211",
         "email": "rj@linimatic.dk"
       }
@@ -191,6 +189,7 @@
       "aboutUs": "About Us",
       "cases": "Cases",
       "whyZinc": "Why Zinc",
+      "careers": "Careers",
       "zinkers": "Zinkers"
     },
     "contactHeading": "Contact",
@@ -1078,5 +1077,83 @@
       "ctaDescription": "Tell us what you need delivered, how often, and in what packaging. We\u2019ll design a supply model that fits your production schedule.",
       "ctaButton": "Discuss Your Supply Needs"
     }
+  },
+  "jobsPage": {
+    "breadcrumb": "Careers",
+    "eyebrow": "Join Our Team",
+    "heading": "Build your career in precision manufacturing",
+    "description": "Linimatic is Denmark\u2019s largest dedicated zinc die-casting foundry. We\u2019re a team of 50+ specialists who take pride in solving manufacturing challenges that others turn away from. If you want to work with your hands and your head, in a company where expertise matters, we\u2019d like to hear from you.",
+    "heroImageAlt": "Linimatic factory floor in Helsinge, Denmark",
+    "whyHeading": "Why Linimatic?",
+    "whyDescription": "We\u2019re based in Helsinge, North Zealand \u2014 close enough to Copenhagen to commute, far enough to avoid the noise. Here\u2019s what makes working here different.",
+    "perks": [
+      {
+        "title": "Real craftsmanship",
+        "description": "You work with molten metal, precision machines, and tight tolerances. Every part you make goes into a real product \u2014 from Fritz Hansen chairs to VELUX skylights."
+      },
+      {
+        "title": "Stable & growing",
+        "description": "Founded in 1967 and still going strong. We invest in people and equipment for the long term, not the next quarter."
+      },
+      {
+        "title": "Small team, big impact",
+        "description": "50+ people means you\u2019re not a number. You know your colleagues, you see the full value chain, and your work is visible."
+      },
+      {
+        "title": "Continuous development",
+        "description": "New machines, new alloys, new processes \u2014 the field evolves and we evolve with it. Training and skill development are part of the job."
+      }
+    ],
+    "positionsEyebrow": "Open Positions",
+    "positionsHeading": "Current openings",
+    "responsibilitiesLabel": "What you\u2019ll do",
+    "requirementsLabel": "What we\u2019re looking for",
+    "applyButton": "Apply Now",
+    "applySubject": "Application \u2014 {position} \u2014 Linimatic",
+    "noPositions": "No open positions right now \u2014 but we\u2019re always interested in hearing from skilled people. Send us an open application below.",
+    "positions": [
+      {
+        "title": "Machinist / Industrial Technician or Toolmaker",
+        "department": "Tool Shop",
+        "type": "Full-time",
+        "description": "We\u2019re planning a generational transition in our tool shop as two experienced colleagues approach retirement. We\u2019re looking for a new team member who can be thoroughly trained and take over their specialist knowledge. Prior experience with die-casting moulds is an advantage but not a requirement.",
+        "responsibilities": [
+          "Preparation and maintenance of die-casting moulds and stamping tools",
+          "Troubleshooting production issues related to tooling",
+          "Purchasing selected wear parts and consumables",
+          "Collaboration with production and engineering departments"
+        ],
+        "requirements": [
+          "Trained machinist, toolmaker, or industrial technician \u2014 or relevant technical background",
+          "Mechanically inclined with attention to detail",
+          "Responsible and motivated to develop deep specialist expertise",
+          "Danish or English working proficiency"
+        ]
+      },
+      {
+        "title": "Production Operator",
+        "department": "Foundry",
+        "type": "Full-time",
+        "description": "Join our foundry team operating zinc die-casting machines and production equipment. This is an entry-level production role with a clear path to becoming a machine setup specialist through on-the-job training, internal courses, and robot programming certification.",
+        "responsibilities": [
+          "Operate zinc die-casting machines and production equipment",
+          "Remove components from machines, stamp or trim as needed",
+          "Perform quality control inspections per written procedures",
+          "Assembly work on finished components",
+          "Self-monitor work quality throughout production"
+        ],
+        "requirements": [
+          "Willingness to learn new skills \u2014 no prior die-casting experience needed",
+          "Technical aptitude and good organisational habits",
+          "Strong collaborative abilities",
+          "Commitment to quality standards",
+          "Danish language proficiency (speaking, reading, writing)"
+        ]
+      }
+    ],
+    "openApplicationHeading": "Don\u2019t see your role?",
+    "openApplicationDescription": "We\u2019re always interested in hearing from skilled people in manufacturing, engineering, quality, and sales. Send us your CV and tell us what you bring to the table.",
+    "openApplicationButton": "Send Open Application",
+    "learnMoreButton": "Learn More About Us"
   }
 }

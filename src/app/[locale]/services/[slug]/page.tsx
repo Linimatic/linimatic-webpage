@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
@@ -18,37 +19,43 @@ type ServiceSlug = (typeof SERVICE_SLUGS)[number];
 
 const SERVICE_META: Record<
   ServiceSlug,
-  { titleKey: string; descriptionKey: string; relatedServices: ServiceSlug[] }
+  { titleKey: string; descriptionKey: string; relatedServices: ServiceSlug[]; image: string }
 > = {
   prototyping: {
     titleKey: "prototyping",
     descriptionKey: "prototyping",
     relatedServices: ["die-casting", "surface-treatment"],
+    image: "/images/services/design-simulation.jpg",
   },
   "die-casting": {
     titleKey: "dieCasting",
     descriptionKey: "dieCasting",
     relatedServices: ["post-processing", "surface-treatment", "quality"],
+    image: "/images/services/frech-machine-2021.jpg",
   },
   "post-processing": {
     titleKey: "postProcessing",
     descriptionKey: "postProcessing",
     relatedServices: ["die-casting", "surface-treatment"],
+    image: "/images/services/cnc-post-processing.jpg",
   },
   "surface-treatment": {
     titleKey: "surfaceTreatment",
     descriptionKey: "surfaceTreatment",
     relatedServices: ["die-casting", "quality"],
+    image: "/images/services/surface-coating-chrome.jpg",
   },
   quality: {
     titleKey: "quality",
     descriptionKey: "quality",
     relatedServices: ["die-casting", "assembly"],
+    image: "/images/services/quality-assurance.jpg",
   },
   assembly: {
     titleKey: "assembly",
     descriptionKey: "assembly",
     relatedServices: ["quality", "surface-treatment"],
+    image: "/images/services/assembly.jpg",
   },
 };
 
@@ -171,21 +178,36 @@ export default async function ServiceDetailPage({
       />
 
       {/* Hero */}
-      <section className="bg-zinc-50 pb-16">
-        <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-          <div className="max-w-3xl">
-            <div className="flex items-center gap-4 mb-6">
-              <div className="w-8 h-px bg-ember" />
-              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
-                {t("eyebrow")}
-              </span>
+      <section className="bg-zinc-50 overflow-hidden">
+        <div className="mx-auto max-w-[1800px]">
+          <div className="grid grid-cols-1 lg:grid-cols-2">
+            {/* Text */}
+            <div className="px-6 sm:px-10 lg:px-16 xl:px-20 py-16 lg:py-24 flex flex-col justify-center">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-8 h-px bg-ember" />
+                <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+                  {t("eyebrow")}
+                </span>
+              </div>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
+                {t("title")}
+              </h1>
+              <p className="mt-6 text-lg sm:text-xl text-zinc-600 leading-relaxed max-w-2xl">
+                {t("overview")}
+              </p>
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
-              {t("title")}
-            </h1>
-            <p className="mt-6 text-lg sm:text-xl text-zinc-600 leading-relaxed max-w-2xl">
-              {t("overview")}
-            </p>
+            {/* Image */}
+            <div className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[480px]">
+              <Image
+                src={meta.image}
+                alt={t("title")}
+                fill
+                priority
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+              <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-zinc-50 to-transparent hidden lg:block" />
+            </div>
           </div>
         </div>
       </section>

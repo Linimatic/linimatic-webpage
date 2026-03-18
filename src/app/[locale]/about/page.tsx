@@ -51,7 +51,6 @@ export default async function AboutPage({
   const teamMembers = t.raw("team.members") as Array<{
     name: string;
     role: string;
-    focus: string;
     phone: string;
     email: string;
   }>;
@@ -214,7 +213,6 @@ export default async function AboutPage({
                   {member.name}
                 </h3>
                 <p className="text-sm text-zinc-500">{member.role}</p>
-                <p className="text-xs text-zinc-400 mt-1">{member.focus}</p>
                 <div className="mt-3 flex flex-col gap-1">
                   <a
                     href={`tel:${member.phone.replace(/\s/g, "")}`}

@@ -64,7 +64,6 @@ export default async function ContactPage({
   const teamMembers = t.raw("team") as Array<{
     name: string;
     role: string;
-    focus: string;
     phone: string;
     email: string;
   }>;
@@ -292,9 +291,6 @@ export default async function ContactPage({
                           {member.name}
                         </h3>
                         <p className="text-xs text-zinc-500">{member.role}</p>
-                        <p className="text-[11px] text-zinc-400 mt-0.5">
-                          {member.focus}
-                        </p>
                         <div className="mt-1.5 flex flex-col gap-0.5">
                           <a
                             href={`tel:${member.phone.replace(/\s/g, "")}`}

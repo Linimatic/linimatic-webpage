@@ -53,7 +53,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
   const chainSteps = t.raw('valueChain.steps') as Array<{number: string; label: string; title: string; description: string; specs: string}>;
   const clientNames = t.raw('clients.logos') as Array<{name: string}>;
   const industryTags = t.raw('industryTags') as string[];
-  const teamMembers = t.raw('team.members') as Array<{name: string; role: string; focus: string; phone: string; email: string}>;
+  const teamMembers = t.raw('team.members') as Array<{name: string; role: string; phone: string; email: string}>;
 
   const isPlaceholder = (text: string) => text.startsWith('PLACEHOLDER') || text.startsWith('PLADSHOLDER') || text.startsWith('PLATZHALTER');
 
@@ -123,6 +123,55 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                 </div>
               ))}
             </div>
+
+            {/* Client logos — carousel on dark background */}
+            <div className="border-t border-zinc-800 py-8">
+              <div className="text-center mb-5">
+                <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">{t('clients.trustedBy')}</span>
+              </div>
+              <div className="relative max-w-3xl mx-auto overflow-hidden">
+                {/* Fade edges — dark variant */}
+                <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-zinc-950 to-transparent z-10 pointer-events-none" />
+                <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-zinc-950 to-transparent z-10 pointer-events-none" />
+
+                {/* Each copy must have identical width — use margin-right on every item (including last) for seamless loop */}
+                <div className="flex animate-logo-scroll w-max">
+                  {[0, 1].map((copy) => (
+                    <div key={copy} className="flex items-center shrink-0" aria-hidden={copy === 1}>
+                      {clientNames.map((client) => {
+                        const logoEntry = clientLogoMap[client.name];
+                        if (logoEntry) {
+                          return (
+                            <Image
+                              key={`${client.name}-${copy}`}
+                              src={logoEntry.logo}
+                              alt={client.name}
+                              width={logoEntry.width}
+                              height={logoEntry.height}
+                              className="h-6 sm:h-7 w-auto object-contain brightness-0 invert opacity-30 hover:opacity-60 transition-opacity duration-300 shrink-0 mr-12"
+                            />
+                          );
+                        }
+                        return (
+                          <span key={`${client.name}-${copy}`} className="text-sm sm:text-base font-semibold text-zinc-600 hover:text-zinc-400 transition-colors font-[family-name:var(--font-display)] tracking-tight whitespace-nowrap shrink-0 mr-12">
+                            {client.name}
+                          </span>
+                        );
+                      })}
+                    </div>
+                  ))}
+                </div>
+              </div>
+              {/* Industry tags */}
+              <div className="mt-5 flex flex-wrap items-center justify-center gap-x-1 gap-y-1 text-[10px] tracking-[0.15em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
+                {industryTags.map((tag, i) => (
+                  <span key={tag}>
+                    {i > 0 && <span className="mx-2 text-zinc-700">·</span>}
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -138,14 +187,12 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                 {t('valueChain.eyebrow')}
               </span>
             </div>
-            <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
-              <h2 className="text-4xl sm:text-5xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
-                {t('valueChain.heading')}
-              </h2>
-              <p className="text-base text-zinc-500 leading-relaxed max-w-md">
-                {t('valueChain.description')}
-              </p>
-            </div>
+            <h2 className="text-4xl sm:text-5xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
+              {t('valueChain.heading')}
+            </h2>
+            <p className="mt-4 text-base text-zinc-500 leading-relaxed max-w-2xl">
+              {t('valueChain.description')}
+            </p>
           </div>
 
           {/* Connected value chain — 6 steps horizontal flow */}
@@ -191,18 +238,17 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
         </div>
       </section>
 
-      {/* ═══════════════════════════════════ TESTIMONIAL + LOGO CAROUSEL ═══════════════════════════════════ */}
-      <section className="bg-zinc-50 py-16 border-y border-zinc-200 overflow-hidden">
+      {/* ═══════════════════════════════════ TESTIMONIAL ═══════════════════════════════════ */}
+      <section className="bg-zinc-50 py-16 border-y border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-          {/* Testimonial — placeholder */}
           {isPlaceholder(t('clients.testimonial.quote')) ? (
-            <div className="max-w-3xl mx-auto mb-12">
+            <div className="max-w-3xl mx-auto">
               <Placeholder>
                 <strong>Customer testimonial needed.</strong> A quote from an engineering director or procurement manager at a named client (e.g. Fritz Hansen, VELUX, B&O) about reliability, complex geometry expertise, or the one-roof value chain. This single element can be more persuasive than any other section on the page.
               </Placeholder>
             </div>
           ) : (
-            <div className="max-w-3xl mx-auto text-center mb-12">
+            <div className="max-w-3xl mx-auto text-center">
               <svg className="h-8 w-8 text-ember/30 mx-auto mb-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151C7.563 6.068 6 8.789 6 11h4v10H0z" />
               </svg>
@@ -215,56 +261,6 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
               </div>
             </div>
           )}
-        </div>
-
-        {/* Industry tags — Henrik's 10-second scan */}
-        <div className="mt-6 flex flex-wrap items-center justify-center gap-x-1 gap-y-1 text-[11px] tracking-[0.15em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
-          {industryTags.map((tag, i) => (
-            <span key={tag}>
-              {i > 0 && <span className="mx-2 text-zinc-300">·</span>}
-              {tag}
-            </span>
-          ))}
-        </div>
-
-        {/* Logo carousel — infinite scroll, centered narrow */}
-        <div className="mt-4 mx-auto max-w-6xl px-4">
-          <div className="text-center mb-6">
-            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">{t('clients.trustedBy')}</span>
-          </div>
-          <div className="relative overflow-hidden">
-            {/* Fade edges */}
-            <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-zinc-50 to-transparent z-10 pointer-events-none" />
-            <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-zinc-50 to-transparent z-10 pointer-events-none" />
-
-            {/* Scrolling track — duplicated for seamless loop */}
-            <div className="flex animate-logo-scroll w-max">
-              {[0, 1].map((copy) => (
-                <div key={copy} className="flex items-center gap-16 shrink-0 px-8" aria-hidden={copy === 1}>
-                  {clientNames.map((client) => {
-                    const logoEntry = clientLogoMap[client.name];
-                    if (logoEntry) {
-                      return (
-                        <Image
-                          key={`${client.name}-${copy}`}
-                          src={logoEntry.logo}
-                          alt={client.name}
-                          width={Math.round(logoEntry.width * 1.4)}
-                          height={Math.round(logoEntry.height * 1.4)}
-                          className="h-10 sm:h-12 w-auto object-contain grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-500 shrink-0"
-                        />
-                      );
-                    }
-                    return (
-                      <span key={`${client.name}-${copy}`} className="text-xl sm:text-2xl font-semibold text-zinc-300 hover:text-zinc-600 transition-colors font-[family-name:var(--font-display)] tracking-tight whitespace-nowrap shrink-0">
-                        {client.name}
-                      </span>
-                    );
-                  })}
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </section>
 
@@ -339,7 +335,6 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                 </div>
                 <h3 className="text-base font-semibold text-zinc-900 font-[family-name:var(--font-display)]">{member.name}</h3>
                 <p className="text-sm text-zinc-500">{member.role}</p>
-                <p className="text-xs text-zinc-400 mt-1">{member.focus}</p>
                 <div className="mt-3 flex flex-col gap-1">
                   <a href={`tel:${member.phone.replace(/\s/g, '')}`} className="text-xs text-zinc-400 hover:text-ember transition-colors font-[family-name:var(--font-mono)]">{member.phone}</a>
                   <a href={`mailto:${member.email}`} className="text-xs text-zinc-400 hover:text-ember transition-colors">{member.email}</a>

@@ -550,7 +550,8 @@
       "p1": "Zinc is infinitely recyclable. At Linimatic, virtually all casting scrap — runners, overflows, and reject parts — is remelted and fed back into production. Our closed-loop recycling means near-zero zinc waste leaves the facility. The low melting point of zinc (385\u00b0C vs. 660\u00b0C for aluminium) translates directly to lower energy consumption per casting cycle.",
       "p2": "We invest in energy-efficient equipment, LED facility lighting, and heat recovery systems. Our lead-free Zinkers product line demonstrates that environmental responsibility and product performance are not trade-offs. For procurement teams with sustainability reporting requirements, we provide verified data on recycling rates, energy consumption, and waste metrics."
     },
-    "industriesHeading": "Brancher vi betjener",
+    "industriesHeading": "Betroet på tværs af brancher",
+    "industriesDescription": "Zinktrykstøbning er relevant for alle industrier, hvor præcision, overfladekvalitet og pålidelighed er afgørende. Her er nogle af de sektorer vi arbejder med\u2009\u2014\u2009men er din branche ikke nævnt, vil vi stadig gerne høre fra dig.",
     "industries": [
       {
         "name": "Møbler & design",
@@ -697,5 +698,385 @@
     "ctaHeading": "Har du en lignende udfordring?",
     "ctaDescription": "Send os dine tegninger, og vi fortæller dig, hvad der kan lade sig gøre. De projekter, andre kalder vanskelige, er dem, vi har bygget denne virksomhed op omkring.",
     "ctaButton": "Drøft dit projekt"
+  },
+  "serviceDetail": {
+    "prototyping": {
+      "title": "Prototyper & designgennemgang",
+      "eyebrow": "Fra koncept til første prøve",
+      "overview": "Zinc die-casting prototyping starts with a DFM review of your CAD file, with engineering feedback delivered within 48 hours. Linimatic produces first samples in 3\u20134 weeks using rapid tooling, bridging the gap between design intent and series production. Whether you are developing a new component from scratch or converting an existing part from plastic or machined metal to zinc die-casting, our prototyping process validates geometry, tolerances, and surface finish before committing to production tooling.",
+      "processHeading": "Sådan går vi fra tegning til første prøve",
+      "process": [
+        {
+          "step": "DFM-gennemgang",
+          "description": "Send your CAD file in STEP, IGES, Solidworks, or Parasolid format. Our engineers review wall thickness, draft angles, undercuts, and parting lines \u2014 and return detailed DFM feedback within 48 hours."
+        },
+        {
+          "step": "Simulering & optimering",
+          "description": "Mold flow analysis identifies potential fill issues, porosity risks, and thermal imbalances before any steel is cut. We recommend geometry changes that improve castability without compromising function."
+        },
+        {
+          "step": "Hurtigværktøj",
+          "description": "Pre-series tooling is designed for 50\u201310,000 parts, allowing functional testing and market validation before investing in multi-cavity production dies. Gravity casting and soft tooling options are available for earliest samples."
+        },
+        {
+          "step": "Første prøver & validering",
+          "description": "First samples are dimensionally inspected against your specification. We provide measurement reports and iterate on tool corrections until every dimension is within tolerance."
+        }
+      ],
+      "specsEyebrow": "Tekniske specifikationer",
+      "specsHeading": "Prototypekapabiliteter i overblik",
+      "specs": [
+        { "label": "DFM-responstid", "value": "48 timer" },
+        { "label": "Første prøver", "value": "3\u20134 uger" },
+        { "label": "Forserievolumen", "value": "50\u201310.000 stk." },
+        { "label": "Filformater", "value": "STEP / IGES / SW / Parasolid" },
+        { "label": "Simulering", "value": "Formfyldningsanalyse" },
+        { "label": "Værktøjsejerskab", "value": "Kundeeje" }
+      ],
+      "advantagesHeading": "Hvorfor prototypen bør laves hos dit produktionsstøberi",
+      "advantages": {
+        "p1": "Many companies prototype with one supplier and transfer to another for series production. This creates a disconnect \u2014 the prototype tool was optimised for a different machine, different alloy temperature, different injection parameters. At Linimatic, your prototype runs on the same machines, with the same alloys and the same process parameters as your production parts. What works in prototyping works in series.",
+        "p2": "We also handle process conversion projects: parts currently machined from solid, injection-moulded in plastic, or cast in aluminium that could benefit from zinc die-casting\u2019s tighter tolerances, better surface finish, and lower per-part cost at volume. Our DFM review will tell you honestly whether conversion makes sense \u2014 and what the redesign implications are."
+      },
+      "faqHeading": "Ofte stillede spørgsmål",
+      "faq": [
+        {
+          "question": "Hvor hurtigt kan jeg få en zinktrykstøbt prototype?",
+          "answer": "First samples are typically delivered in 3\u20134 weeks from approved DFM. Rush timelines may be possible depending on part complexity \u2014 contact us with your deadline and we will confirm feasibility."
+        },
+        {
+          "question": "Hvad er DFM for trykstøbning?",
+          "answer": "Design for Manufacturability (DFM) is an engineering review of your part geometry to ensure it can be reliably die-cast. We evaluate wall thickness uniformity, draft angles, undercut feasibility, parting line placement, and gate locations \u2014 and recommend changes that improve castability, reduce tooling cost, or extend die life."
+        },
+        {
+          "question": "Kan I konvertere min plastdel til zink?",
+          "answer": "Yes. Zinc die-casting often replaces injection-moulded plastic when higher stiffness, better thermal conductivity, EMI shielding, or a premium cosmetic finish is needed. We review your existing design, identify modifications required for die-casting (draft, wall thickness, radii), and advise on the cost-benefit trade-off."
+        },
+        {
+          "question": "Hvem ejer støbeværktøjet?",
+          "answer": "You do. All tooling produced by Linimatic is customer-owned property. Tools are stored and maintained at our facility for the duration of production. If you need to transfer a tool from another foundry, we can evaluate compatibility with our machines and alloy specifications."
+        },
+        {
+          "question": "Hvad er den mindste vægtykkelse for zinktrykstøbning?",
+          "answer": "Zinc die-casting can achieve wall thicknesses down to 0.6\u2009mm \u2014 thinner than any other metal die-casting process. However, the optimal wall thickness depends on part geometry, flow length, and structural requirements. Our DFM review will recommend the best wall thickness for your specific design."
+        }
+      ],
+      "relatedHeading": "Relaterede ydelser",
+      "ctaHeading": "Klar til at starte prototypen?",
+      "ctaDescription": "Send os din CAD-fil, og vi returnerer en DFM-gennemgang inden for 48 timer — med ærlig feedback om geometri, tolerancer og tidsplan.",
+      "ctaButton": "Send din tegning"
+    },
+    "dieCasting": {
+      "title": "Varmkammer-trykstøbning",
+      "eyebrow": "Danmarks største zinkstøberi",
+      "overview": "Linimatic operates 12 automated hot-chamber die-casting machines ranging from 80 to 400 tonnes, producing zinc components from 1\u2009g to 3\u2009kg with as-cast tolerances to \u00b10.05\u2009mm. Our foundry runs 24-hour operation with robotic part extraction, casting in Zamak 2, 3, and 5 alloys. Cycle times range from 10 to 45 seconds depending on part complexity, with shot-by-shot consistency monitored by real-time SPC. This is Denmark\u2019s largest dedicated zinc die-casting operation.",
+      "processHeading": "Fra smeltet legering til færdigt støbeemne",
+      "process": [
+        {
+          "step": "Legeringsforberedelse",
+          "description": "Zamak alloy is held molten in the machine\u2019s integrated furnace at precisely controlled temperature. Hot-chamber technology eliminates the ladling step used in aluminium casting, enabling faster cycles and more consistent shot quality."
+        },
+        {
+          "step": "Højtryksinjektion",
+          "description": "Molten zinc is injected into hardened steel dies at pressures up to 200\u2009MPa. Fill times under 50\u2009ms ensure complete cavity fill even in thin-walled and complex geometries, with minimal porosity."
+        },
+        {
+          "step": "Robotudtrækning & afgratning",
+          "description": "Parts are extracted by robotic arms within seconds of solidification. Runners and overflows are automatically separated and returned to the furnace for remelting \u2014 near-zero material waste."
+        },
+        {
+          "step": "Procesinspektion",
+          "description": "SPC monitoring tracks critical dimensions on every shot. Deviations trigger automatic alerts and parameter adjustments, ensuring consistent quality across 24-hour production runs."
+        }
+      ],
+      "specsEyebrow": "Tekniske specifikationer",
+      "specsHeading": "Støberikapabiliteter og legeringsdata",
+      "specs": [
+        { "label": "Maskiner", "value": "12 automatiserede" },
+        { "label": "Lukkekraft", "value": "80\u2013400T" },
+        { "label": "Emnevægt", "value": "1\u2009g \u2013 3\u2009kg" },
+        { "label": "Tolerance i støbning", "value": "\u00b10,05\u2009mm" },
+        { "label": "Cyklustid", "value": "10\u201345 sekunder" },
+        { "label": "Legeringer", "value": "Zamak 2 / 3 / 5" },
+        { "label": "Drift", "value": "24 timer" },
+        { "label": "Værktøjslevetid", "value": "1M+ skud" }
+      ],
+      "advantagesHeading": "Hvorfor Linimatics støberi leverer, hvad andre ikke kan",
+      "advantages": {
+        "p1": "Scale and specialisation matter in die-casting. Our 12 machines cover the full tonnage range from 80T for small precision components to 400T for large structural parts, all with robotic handling and real-time SPC. This is not a general foundry that also does zinc \u2014 zinc die-casting is all we do, and we\u2019ve done it since 1967. That singular focus translates into deeper process knowledge, tighter tolerances, and fewer rejected parts.",
+        "p2": "The integrated value chain means your cast part moves directly to CNC machining, surface treatment, and inspection without leaving the building. No transport between suppliers, no lost traceability, no weeks waiting for the next step. For customers running just-in-time production, this single-facility model eliminates the supply chain variability that causes line stoppages."
+      },
+      "faqHeading": "Ofte stillede spørgsmål",
+      "faq": [
+        {
+          "question": "Hvad er varmkammer-trykstøbning?",
+          "answer": "Hot-chamber die-casting is a process where the injection mechanism is submerged in the molten metal. This eliminates the separate ladling step required in cold-chamber (aluminium) casting, enabling faster cycle times and more consistent shot weights. It is the preferred process for zinc and zinc alloys due to zinc\u2019s lower melting point (385\u00b0C)."
+        },
+        {
+          "question": "Hvilken Zamak-legering skal jeg bruge?",
+          "answer": "Zamak 3 is the most widely used zinc die-casting alloy \u2014 excellent all-round properties and the best plating characteristics. Zamak 5 offers higher tensile strength (331\u2009MPa vs. 283\u2009MPa) for structural applications. Zamak 2 provides the highest strength (397\u2009MPa) and hardness for bearing surfaces and heavy-duty components. We advise on alloy selection during DFM review."
+        },
+        {
+          "question": "Hvilke emnestørrelser kan I støbe?",
+          "answer": "We cast parts from 1\u2009g to 3\u2009kg across our 12-machine range. The optimal machine is selected based on part weight, projected area, and the required clamping force. Multi-cavity dies are used for smaller parts to maximise throughput."
+        },
+        {
+          "question": "Hvor længe holder et zinktrykstøbeværktøj?",
+          "answer": "Zinc die-casting tools routinely exceed 1 million shots \u2014 5 to 10 times longer than aluminium die-casting tools. This is because zinc\u2019s lower casting temperature (385\u00b0C vs. 660\u00b0C for aluminium) creates significantly less thermal stress on the die steel. All tools are maintained under our preventive maintenance programme."
+        },
+        {
+          "question": "Hvilke tolerancer kan zinktrykstøbning opnå?",
+          "answer": "As-cast tolerances to \u00b10.05\u2009mm are standard on our machines. For features requiring tighter control, secondary CNC machining can achieve even higher precision. We publish tolerance recommendations by feature type (linear, bore, flatness) during DFM review."
+        }
+      ],
+      "relatedHeading": "Relaterede ydelser",
+      "ctaHeading": "Få et støbetilbud",
+      "ctaDescription": "Send os din emnetegning og volumenforventning. Vi anbefaler den rette legering, estimerer værktøjsomkostningen og giver dig en stykomkostning — inden for 48 timer.",
+      "ctaButton": "Få et støbetilbud"
+    },
+    "postProcessing": {
+      "title": "CNC-efterbearbejdning",
+      "eyebrow": "Intern præcisionsbearbejdning",
+      "overview": "Linimatic\u2019s in-house CNC post-processing takes zinc die-cast parts from as-cast accuracy to final tolerance without the parts ever leaving the building. Our machining centre handles milling, turning, drilling, threading, deburring, and tumbling \u2014 all under the same quality system as casting and inspection. For features that require tighter control than the \u00b10.05\u2009mm achievable as-cast, secondary CNC machining delivers the precision your design demands.",
+      "processHeading": "Fra støbeemne til færdig dimension",
+      "process": [
+        {
+          "step": "Procesplanlægning",
+          "description": "Machining operations are planned during DFM review, before the die is even cut. Fixturing, datum selection, and operation sequencing are designed to minimise setups and maintain the tightest possible tolerances."
+        },
+        {
+          "step": "CNC-bearbejdning",
+          "description": "Multi-axis CNC milling and turning centres machine critical features: bores, threads, mating surfaces, and tight-tolerance dimensions that exceed as-cast capability."
+        },
+        {
+          "step": "Afgratning & finishing",
+          "description": "Automated deburring removes flash and sharp edges. Tumbling and vibratory finishing achieve uniform surface quality across production volumes. Manual deburring is available for complex geometries."
+        },
+        {
+          "step": "Procesverifikation",
+          "description": "Machined dimensions are verified against specification using calibrated gauges and CMM spot-checks. SPC data from machining feeds back into process parameters for continuous improvement."
+        }
+      ],
+      "specsEyebrow": "Tekniske specifikationer",
+      "specsHeading": "Bearbejdningskapabiliteter",
+      "specs": [
+        { "label": "Operationer", "value": "Fræs / Drej / Bor / Gevind" },
+        { "label": "Afgratning", "value": "Auto / Tromling / Manuel" },
+        { "label": "Tolerance i støbning", "value": "\u00b10,05\u2009mm" },
+        { "label": "Efterbearbejdet", "value": "Strammere på forespørgsel" },
+        { "label": "Placering", "value": "Samme bygning som støberiet" },
+        { "label": "Sporbarhed", "value": "Batchniveau bevaret" }
+      ],
+      "advantagesHeading": "Hvorfor intern bearbejdning ændrer resultatet",
+      "advantages": {
+        "p1": "When casting and machining happen in the same building under the same quality system, you eliminate the most common sources of dimensional variation in outsourced machining: transport handling damage, re-fixturing errors, and communication gaps between the foundry and the machine shop. At Linimatic, the machining team reviews every new casting design alongside the die engineers, ensuring that as-cast datums, clamping surfaces, and machining allowances are optimised from day one.",
+        "p2": "This integration also compresses lead time. Parts move from casting to machining in hours, not weeks. There is no queue at an external supplier, no logistics coordination, and no risk of parts sitting in a warehouse between steps. For customers on tight production schedules, the difference between a three-week and a three-day handoff between casting and machining can determine whether they meet their own delivery commitments."
+      },
+      "faqHeading": "Ofte stillede spørgsmål",
+      "faq": [
+        {
+          "question": "Skal zinktrykstøbte emner bearbejdes?",
+          "answer": "Not always. Many features can be cast to final tolerance (\u00b10.05\u2009mm as-cast). However, machining is typically required for threaded holes, precision bores, critical mating surfaces, or any feature where the design tolerance is tighter than what the casting process can reliably achieve."
+        },
+        {
+          "question": "Hvilke tolerancer kan sekundær bearbejdning opnå?",
+          "answer": "Secondary CNC machining on zinc die-cast parts can achieve tolerances significantly tighter than the \u00b10.05\u2009mm as-cast standard. The achievable tolerance depends on the specific feature type, part geometry, and fixturing. We specify achievable tolerances during DFM review."
+        },
+        {
+          "question": "Hvilke afgratningsmetoder bruger I?",
+          "answer": "We use automated deburring, vibratory tumbling, and manual deburring depending on part complexity and surface requirements. Tumbling is standard for high-volume production. Manual deburring is used for parts with complex geometries or critical cosmetic surfaces that cannot tolerate tumbling marks."
+        }
+      ],
+      "relatedHeading": "Relaterede ydelser",
+      "ctaHeading": "Brug for præcision ud over støbetolerancen?",
+      "ctaDescription": "Fortæl os, hvilke features der kræver strammere tolerancer, og vi planlægger bearbejdningsstrategien sammen med værktøjsdesignet — før der skæres i stål.",
+      "ctaButton": "Drøft dine tolerancer"
+    },
+    "surfaceTreatment": {
+      "title": "Overfladebehandling & coating",
+      "eyebrow": "Finishen der definerer produktet",
+      "overview": "Linimatic offers a full range of surface treatments for zinc die-cast components: chromium plating, powder coating, wet painting, e-coating, and laser engraving. Our as-cast surface quality of 0.8\u2009Ra\u2009\u03bcm means parts are chrome-ready straight from the die \u2014 no intermediate polishing required. Whether your component needs Class A cosmetic chrome for a designer furniture piece or functional corrosion protection for an outdoor application, we manage the entire finishing process in coordination with casting and machining.",
+      "processHeading": "Fra råemne til færdig overflade",
+      "process": [
+        {
+          "step": "Overfladeevurdering",
+          "description": "Every part is evaluated for surface quality before treatment. As-cast zinc achieves 0.8\u2009Ra\u2009\u03bcm \u2014 smooth enough for direct chrome plating. Parts requiring coating are cleaned and pre-treated to ensure optimal adhesion."
+        },
+        {
+          "step": "Behandlingsvalg",
+          "description": "We recommend the right finish based on your requirements: decorative appearance, corrosion resistance, colour matching, UV stability, or conductivity. Multi-layer finishes (e.g., copper-nickel-chrome) are available for the highest cosmetic standards."
+        },
+        {
+          "step": "Applikation & hærdning",
+          "description": "Each treatment follows process-specific protocols for temperature, thickness, and curing time. Coating thickness is measured and documented to ensure consistency across production batches."
+        },
+        {
+          "step": "Kvalitetsverifikation",
+          "description": "Finished parts are inspected for adhesion, thickness, colour consistency, and visual defects. Salt spray testing validates corrosion resistance for outdoor and harsh-environment applications."
+        }
+      ],
+      "specsEyebrow": "Tekniske specifikationer",
+      "specsHeading": "Tilgængelige overfladebehandlinger og kapabiliteter",
+      "specs": [
+        { "label": "Forkromning", "value": "Dekorativ & funktionel" },
+        { "label": "Pulverlakering", "value": "Fuld RAL-palette" },
+        { "label": "Vådlakering", "value": "Farvetilpasset" },
+        { "label": "E-coating", "value": "Katodisk elektrocoating" },
+        { "label": "Lasergravering", "value": "Logoer / mærkninger / koder" },
+        { "label": "Overflade i støbning", "value": "0,8 Ra \u03bcm" }
+      ],
+      "advantagesHeading": "Hvorfor overfladebehandling fra din støberipartner betyder noget",
+      "advantages": {
+        "p1": "Surface quality begins at the die, not at the coating line. The 0.8\u2009Ra\u2009\u03bcm as-cast surface finish Linimatic achieves is the result of precisely maintained die steel, optimised injection parameters, and controlled cooling. This means chrome plating can be applied directly without the polishing step that adds cost and lead time at foundries with rougher casting surfaces. For designers specifying Class A cosmetic finishes, this as-cast quality is the critical differentiator.",
+        "p2": "Because we manage coating in coordination with casting and machining, we control the entire quality chain. A surface defect introduced during transport to an external coater is eliminated. Colour matching is verified against master samples stored at our facility. And if a coating issue is identified during inspection, we can trace it back to the specific casting batch and process parameters \u2014 without the finger-pointing between separate suppliers."
+      },
+      "faqHeading": "Ofte stillede spørgsmål",
+      "faq": [
+        {
+          "question": "Hvilke overfladebehandlinger er tilgængelige for zinktrykstøbte emner?",
+          "answer": "We offer chromium plating (decorative and functional), powder coating (full RAL colour range), wet painting (colour-matched), e-coating (cathodic electrocoat for corrosion protection), and laser engraving for logos, part numbers, and traceability codes."
+        },
+        {
+          "question": "Hvordan fungerer forkromning på zamak?",
+          "answer": "Zinc die-castings are plated through a multi-layer electroplating process: copper strike, acid copper, semi-bright nickel, bright nickel, and decorative chromium. The 0.8\u2009Ra\u2009\u03bcm as-cast surface of zamak allows direct plating without intermediate polishing, making zinc the preferred substrate for chrome-finished components."
+        },
+        {
+          "question": "Hvilken coating er bedst til udendørs brug?",
+          "answer": "For outdoor applications, e-coating provides excellent corrosion resistance with uniform coverage including recesses and internal features. Powder coating is also effective for outdoor use, offering UV stability and impact resistance. We can advise on salt spray test requirements for your specific environment."
+        },
+        {
+          "question": "Kan zinktrykstøbte emner opnå klasse A kosmetisk finish?",
+          "answer": "Yes. Zinc die-casting achieves 0.8\u2009Ra\u2009\u03bcm surface finish as-cast \u2014 smooth enough for Class A decorative chrome without polishing. This is one of zinc\u2019s strongest advantages over aluminium and magnesium, which typically require extensive surface preparation before plating."
+        }
+      ],
+      "relatedHeading": "Relaterede ydelser",
+      "ctaHeading": "Brug for en bestemt finish?",
+      "ctaDescription": "Fortæl os dine overfladekrav — dekorative, funktionelle eller begge — og vi anbefaler den rette behandling til din applikation og dit volumen.",
+      "ctaButton": "Drøft overfladebehandling"
+    },
+    "quality": {
+      "title": "Kvalitet & certificering",
+      "eyebrow": "ISO 9001-certificeret siden 1993",
+      "overview": "Linimatic has held ISO 9001 certification since 1993 \u2014 over 30 years of independently audited quality management covering every step from incoming material to final shipment. Our quality system is built on CMM-verified dimensional inspection, real-time SPC process monitoring, full PPAP documentation capability, and batch-level traceability on every component we ship. This is not a checkbox exercise \u2014 it is the operational discipline that enables \u00b10.05\u2009mm tolerances at volume.",
+      "processHeading": "Sådan sikrer vi kvalitet i hvert trin",
+      "process": [
+        {
+          "step": "Indgangskontrol",
+          "description": "Every alloy batch is verified against material certificates before entering production. Composition is confirmed and traceability is established from raw material through to finished component."
+        },
+        {
+          "step": "SPC-overvågning i proces",
+          "description": "Statistical process control runs in real time on every die-casting machine. Critical dimensions are measured at defined intervals and plotted against control limits. Process drift is detected and corrected before out-of-spec parts are produced."
+        },
+        {
+          "step": "CMM-dimensionskontrol",
+          "description": "Coordinate measuring machines verify part dimensions against 3D CAD models and GD&T specifications. First article inspection reports are generated for every new tool and after every tool modification."
+        },
+        {
+          "step": "Slutinspektion & dokumentation",
+          "description": "Finished components are inspected per the control plan before shipment. Inspection records, material certificates, and dimensional reports are archived and available on request. PPAP documentation is provided for automotive and other regulated customers."
+        }
+      ],
+      "specsEyebrow": "Tekniske specifikationer",
+      "specsHeading": "Kvalitetsinfrastruktur",
+      "specs": [
+        { "label": "Certificering", "value": "ISO 9001 siden 1993" },
+        { "label": "Dimensionskontrol", "value": "CMM (3D-koordinat)" },
+        { "label": "Processtyring", "value": "SPC i realtid" },
+        { "label": "Dokumentation", "value": "PPAP niveau 1\u20133" },
+        { "label": "Sporbarhed", "value": "Batchniveau, fuld kæde" },
+        { "label": "Første emne", "value": "ISIR / FAI-rapporter" }
+      ],
+      "advantagesHeading": "Hvorfor kvalitetsdybde betyder noget for din forsyningskæde",
+      "advantages": {
+        "p1": "A quality page with an ISO logo and a vague paragraph about \u201ccontinuous improvement\u201d tells a procurement professional nothing. What matters is whether the supplier can produce a PPAP package, whether SPC is actually running on the machines, and whether traceability data can be retrieved when a customer issue arises two years after delivery. At Linimatic, the answer to all three is yes \u2014 because our quality system was not bolted on for certification purposes; it was built to run a precision foundry.",
+        "p2": "The integrated value chain amplifies quality control. Because casting, machining, and surface treatment all happen under one roof, a single SPC system governs the entire process. Dimensional data from the casting machine feeds directly into machining parameters. Coating thickness is verified against the same CMM that checked the casting. There are no quality gaps between suppliers \u2014 because there are no other suppliers."
+      },
+      "faqHeading": "Ofte stillede spørgsmål",
+      "faq": [
+        {
+          "question": "Hvilke kvalitetscertificeringer har Linimatic?",
+          "answer": "Linimatic has been ISO 9001 certified since 1993 \u2014 over 30 years of uninterrupted, independently audited quality management. The certification covers the complete value chain: incoming material inspection, die-casting, CNC machining, surface treatment, assembly, and final inspection."
+        },
+        {
+          "question": "Kan I levere PPAP-dokumentation?",
+          "answer": "Yes. We provide PPAP documentation at Levels 1 through 3 for automotive and other regulated-industry customers. This includes dimensional results, material certifications, process flow diagrams, control plans, and measurement system analysis."
+        },
+        {
+          "question": "Hvordan sikrer I dimensionsnøjagtighed?",
+          "answer": "Dimensional accuracy is ensured through three layers: CMM-verified first article inspection for every new and modified tool, real-time SPC monitoring during production, and final inspection per the control plan before shipment. Process drift is detected and corrected in real time, before out-of-spec parts reach the end of the line."
+        },
+        {
+          "question": "Hvilken sporbarhed leverer I pr. batch?",
+          "answer": "Every batch is traceable from raw material (alloy heat number, supplier certificate) through casting (machine, die, date, shift, process parameters) to machining, coating, inspection, and shipment. If a quality issue surfaces in the field, we can identify every other part produced under the same conditions."
+        }
+      ],
+      "relatedHeading": "Relaterede ydelser",
+      "ctaHeading": "Vil du auditere vores kvalitetssystem?",
+      "ctaDescription": "Vi byder kundeaudits og besøg velkommen. Kontakt os for at planlægge en kvalitetsgennemgang eller anmode om vores aktuelle ISO-certifikat og kapabilitetsdokumentation.",
+      "ctaButton": "Anmod om kvalitetsdokumentation"
+    },
+    "assembly": {
+      "title": "Montage & forsyningskæde",
+      "eyebrow": "Færdige produkter, ikke løse dele",
+      "overview": "Linimatic delivers finished, assembled components on your production schedule \u2014 not loose castings that require further handling at your facility. Our assembly services include sub-assembly, insert pressing, multi-component assembly, and custom packaging. Combined with kanban delivery, JIT supply, and forecast-based call-off scheduling, we function as a seamless extension of your production line. One purchase order, one supplier, one shipment of ready-to-install components.",
+      "processHeading": "Fra komponent til leveret produkt",
+      "process": [
+        {
+          "step": "Montageplanlægning",
+          "description": "We design the assembly process during project launch: fixture design, operation sequencing, component sourcing, and quality checkpoints. Assembly instructions are documented and controlled under our ISO 9001 system."
+        },
+        {
+          "step": "Undermontage & presning",
+          "description": "Insert pressing, fastening, multi-component assembly, and functional testing are performed in our facility. Components cast, machined, and coated in-house are assembled alongside customer-supplied parts."
+        },
+        {
+          "step": "Emballering & mærkning",
+          "description": "Standard, custom, or branded packaging options ensure parts arrive ready for your production line or end customer. Labelling includes barcodes, lot numbers, and customer-specific markings."
+        },
+        {
+          "step": "Levering & genopfyldning",
+          "description": "Kanban, JIT, and consignment stock models are supported. Deliveries are scheduled against your forecast, with call-offs managed through our ERP system. EDI integration is available for automated order processing."
+        }
+      ],
+      "specsEyebrow": "Tekniske specifikationer",
+      "specsHeading": "Forsyningskædekapabiliteter",
+      "specs": [
+        { "label": "Montage", "value": "Undermontage / indpresning" },
+        { "label": "Leveringsmodel", "value": "Kanban / JIT / konsignation" },
+        { "label": "Emballage", "value": "Standard / special / brandet" },
+        { "label": "Planlægning", "value": "Forecast-baserede afkald" },
+        { "label": "Integration", "value": "ERP / EDI-kompatibel" },
+        { "label": "Kvalitet", "value": "ISO 9001-styret" }
+      ],
+      "advantagesHeading": "Hvorfor indkøbsteams vælger en integreret leverandør",
+      "advantages": {
+        "p1": "Every supplier in a multi-tier supply chain adds lead time, coordination effort, and quality risk. When casting, machining, coating, inspection, and assembly all happen in one facility, procurement manages one supplier relationship instead of four or five. One purchase order, one quality agreement, one delivery schedule, one company accountable when something needs to change. For Henrik managing a supplier portfolio of fifty vendors, reducing five to one for a component family is a material improvement.",
+        "p2": "Our ERP system manages inventory levels, production scheduling, and delivery forecasts. For customers with stable demand patterns, kanban replenishment eliminates purchase order cycles entirely \u2014 we produce and deliver against agreed stock levels. For variable-demand customers, forecast-based call-offs with buffer stock provide flexibility without the risk of supply interruption. The result: your production line runs, and the parts are there when you need them."
+      },
+      "faqHeading": "Ofte stillede spørgsmål",
+      "faq": [
+        {
+          "question": "Kan I levere monterede komponenter?",
+          "answer": "Yes. We perform sub-assembly, insert pressing, multi-component assembly, and functional testing in our facility. Finished assemblies are shipped ready for installation in your product, eliminating assembly steps at your end."
+        },
+        {
+          "question": "Tilbyder I kanban- eller JIT-levering?",
+          "answer": "Yes. We support kanban replenishment, just-in-time delivery, and consignment stock models. Delivery frequency and buffer stock levels are agreed during project setup and managed through our ERP system."
+        },
+        {
+          "question": "Hvilket ERP-system bruger I?",
+          "answer": "We use a modern ERP system that manages production planning, inventory, quality, and logistics. EDI integration is available for automated purchase order processing, delivery scheduling, and invoice handling."
+        },
+        {
+          "question": "Hvilke emballagemuligheder tilbyder I?",
+          "answer": "We offer standard bulk packaging, custom-designed packaging to protect specific part geometries, and branded packaging for end-customer-ready shipments. Packaging design is agreed during project setup and documented in the control plan."
+        }
+      ],
+      "relatedHeading": "Relaterede ydelser",
+      "ctaHeading": "Forenkl din forsyningskæde",
+      "ctaDescription": "Fortæl os, hvad du skal have leveret, hvor ofte og i hvilken emballage. Vi designer en forsyningsmodel, der passer til din produktionsplan.",
+      "ctaButton": "Drøft dine forsyningsbehov"
+    }
   }
 }

@@ -166,12 +166,15 @@ export default async function AboutPage({
       {/* Industries Served */}
       <section className="bg-white py-20 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-          <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)] mb-10">
+          <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)] mb-4">
             {t("industriesHeading")}
           </h2>
+          <p className="text-base text-zinc-500 leading-relaxed max-w-2xl mb-10">
+            {t("industriesDescription")}
+          </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {industries.map((industry) => (
-              <div key={industry.name} className="pb-6 border-b border-zinc-200 last:border-0">
+              <div key={industry.name} className="pb-6 border-b border-zinc-200">
                 <h3 className="text-base font-semibold text-zinc-900 font-[family-name:var(--font-display)]">
                   {industry.name}
                 </h3>

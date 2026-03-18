@@ -80,7 +80,8 @@ export function Header() {
                     </svg>
                   </Link>
                   {servicesOpen && (
-                    <div className={`absolute top-full left-0 mt-2 w-80 rounded-sm shadow-2xl p-1.5 ${
+                    <div className={`absolute top-full left-0 pt-2 w-80`}>
+                    <div className={`rounded-sm shadow-2xl p-1.5 ${
                       scrolled
                         ? "bg-white border border-zinc-200"
                         : "bg-zinc-900 border border-zinc-700/50"
@@ -110,6 +111,7 @@ export function Header() {
                           {t(`servicesList.${service.key}`)}
                         </Link>
                       ))}
+                    </div>
                     </div>
                   )}
                 </div>

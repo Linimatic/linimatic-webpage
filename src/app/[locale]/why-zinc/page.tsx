@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
@@ -83,19 +84,31 @@ export default async function WhyZincPage({
       {/* Hero */}
       <section className="bg-zinc-50 pb-20">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-          <div className="max-w-3xl">
-            <div className="flex items-center gap-4 mb-6">
-              <div className="w-8 h-px bg-ember" />
-              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
-                {t("eyebrow")}
-              </span>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-8 h-px bg-ember" />
+                <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+                  {t("eyebrow")}
+                </span>
+              </div>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
+                {t("heading")}
+              </h1>
+              <p className="mt-6 text-lg sm:text-xl text-zinc-600 leading-relaxed">
+                {t("intro")}
+              </p>
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
-              {t("heading")}
-            </h1>
-            <p className="mt-6 text-lg sm:text-xl text-zinc-600 leading-relaxed max-w-2xl">
-              {t("intro")}
-            </p>
+            <div className="flex items-center justify-center">
+              <Image
+                src="/images/products/Zn-element.png"
+                alt={t("heroImageAlt")}
+                width={1200}
+                height={1200}
+                className="w-full max-w-lg lg:max-w-xl object-contain"
+                sizes="(max-width: 1024px) 100vw, 700px"
+              />
+            </div>
           </div>
         </div>
       </section>

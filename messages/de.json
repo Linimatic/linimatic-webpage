@@ -30,7 +30,7 @@
     "headline2": "in",
     "headlineAccent": "Zink",
     "tagline": "Das Beste für das Komplexeste.",
-    "description": "Dänemarks größte spezialisierte Zinkdruckgießerei. Von einfachen Halterungen bis zu den anspruchsvollsten Geometrien — Toleranzen bis \u00b10,05\u00a0mm, mit Guss, Bearbeitung, Beschichtung und Montage unter einem Dach.",
+    "description": "Dänemarks größte spezialisierte Zinkdruckgießerei. Von einfachen Halterungen bis zu den anspruchsvollsten Geometrien — die Teile, die andere nicht können — Toleranzen bis \u00b10,05\u00a0mm, mit Guss, Bearbeitung, Beschichtung und Montage unter einem Dach.",
     "heroImageAlt": "Präzisions-Zinkdruckgussform mit Messinganschlüssen",
     "ctaPrimary": "Stellen Sie uns Ihre Herausforderung",
     "ctaSecondary": "Unsere Leistungen"
@@ -131,7 +131,7 @@
         "role": "Geschäftsführer",
         "focus": "Strategie & Schlüsselkunden",
         "phone": "+45 2343 3667",
-        "email": "jvj@linimatic.dk"
+        "email": "jaj@linimatic.dk"
       },
       {
         "name": "Torben M. Jensen",
@@ -176,7 +176,7 @@
   },
   "footer": {
     "logoAlt": "Linimatic — Innovativer Zinkdruckguss",
-    "brandDescription": "Dänemarks größte spezialisierte Zinkdruckgießerei. Präzisions-Zamak-Bauteile vom Prototyp bis zur Serienproduktion.",
+    "brandDescription": "Dänemarks größte spezialisierte Zinkdruckgießerei. Präzisions-Zamak-Bauteile \u2014 gefertigt in Dänemark, vom Prototyp bis zur Serienproduktion.",
     "linkedInAriaLabel": "Linimatic auf LinkedIn",
     "servicesHeading": "Leistungen",
     "serviceLinks": [
@@ -242,37 +242,37 @@
     "breadcrumb": "Leistungen",
     "eyebrow": "Komplette Wertschöpfungskette",
     "heading": "Alles unter einem Dach.",
-    "description": "Most foundries cast your part and hand it off. We cast it, machine it, coat it, inspect it, and deliver it — from a single facility with a single point of contact. No outsourced steps. No quality gaps between suppliers. Faster turnaround and consistent results from first article to millionth.",
+    "description": "Die meisten Gießereien gießen Ihr Bauteil und reichen es weiter. Wir gießen es, bearbeiten es, beschichten es, prüfen es und liefern es \u2014 aus einer einzigen Anlage mit einem einzigen Ansprechpartner. Keine ausgelagerten Schritte. Keine Qualitätslücken zwischen Lieferanten. Schnellere Durchlaufzeiten und gleichbleibende Ergebnisse vom ersten bis zum millionsten Bauteil.",
     "valueChainHeading": "Von der Zeichnung zum fertigen Bauteil",
     "items": [
       {
         "title": "DFM-Prüfung & Prototypen",
-        "description": "Send your CAD files. We analyse geometry, simulate fill, and recommend design optimisations. First samples in 3–4 weeks, with full DFM feedback within 48 hours.",
+        "description": "Senden Sie Ihre CAD-Dateien. Wir analysieren die Geometrie, simulieren die Füllung und empfehlen Designoptimierungen. Erste Muster in 3–4 Wochen mit vollem DFM-Feedback innerhalb von 48 Stunden.",
         "specs": "48h Antwort · STEP/IGES/Solidworks · 50–10.000 Stk."
       },
       {
         "title": "Warmkammer-Druckguss",
-        "description": "12 automated machines with robotic extraction running 24 hours. Parts from 1\u2009g to 3\u2009kg in Zamak 2, 3, and 5 with as-cast tolerances to \u00b10.05\u2009mm.",
+        "description": "12 automatisierte Maschinen mit Roboterauswurf im 24-Stunden-Betrieb. Teile von 1\u2009g bis 3\u2009kg in Zamak 2, 3 und 5 mit Gussmaßtoleranzen bis \u00b10,05\u2009mm.",
         "specs": "80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm im Guss"
       },
       {
         "title": "CNC-Nachbearbeitung",
-        "description": "In-house milling, turning, drilling, threading, and deburring. Parts go from casting to machining without leaving the building — preserving traceability and cutting lead time.",
+        "description": "Hauseigenes Fräsen, Drehen, Bohren, Gewindeschneiden und Entgraten. Teile gehen vom Guss zur Bearbeitung, ohne das Gebäude zu verlassen \u2014 Rückverfolgbarkeit erhalten, Durchlaufzeit verkürzt.",
         "specs": "Volle CNC · Gleitschleifen · Enge sekundäre Toleranzen"
       },
       {
         "title": "Oberflächenbehandlung & Beschichtung",
-        "description": "Chromium plating, powder coating, wet painting, e-coating, and laser engraving. Class\u00a0A cosmetic finishes from a chrome-ready as-cast surface at 0.8\u2009Ra\u2009\u03bcm.",
+        "description": "Verchromen, Pulverlackieren, Nasslackieren, E-Coat und Lasergravur. Klasse\u00a0A-Oberflächen direkt aus dem Gusswerkzeug bei 0,8\u2009Ra\u2009\u03bcm.",
         "specs": "Chrom · Pulverlack · Nasslack · Lasergravur"
       },
       {
         "title": "Qualität & Inspektion",
-        "description": "CMM-verified dimensions, SPC-monitored process control, and full PPAP documentation. ISO 9001 certified since 1993 — over 30 years of audited quality systems.",
+        "description": "KMG-verifizierte Maße, SPC-überwachte Prozesssteuerung und vollständige PPAP-Dokumentation. ISO 9001-zertifiziert seit 1993 \u2014 über 30 Jahre auditierte Qualitätssysteme.",
         "specs": "ISO 9001 · KMG · SPC · PPAP · Volle Rückverfolgbarkeit"
       },
       {
         "title": "Montage & Lieferkette",
-        "description": "Sub-assembly, insert pressing, and multi-component assembly. Kanban delivery, forecast planning, and consignment stock — we ship finished products on your schedule.",
+        "description": "Unterbaugruppen, Einpressverbindungen und Mehrkomponenten-Montage. Kanban-Lieferung, Forecast-Planung und Konsignationslager \u2014 wir versenden fertige Produkte nach Ihrem Zeitplan.",
         "specs": "Kanban · JIT · Forecast-Planung · Sonderverpackung"
       }
     ],
@@ -314,19 +314,19 @@
       }
     ],
     "diffHeading": "Warum das integrierte Modell zählt",
-    "diffDescription": "Competitors outsource post-processing, coating, or assembly to third parties. Every handoff introduces delay, variation, and finger-pointing when something goes wrong. Our model eliminates all of that.",
+    "diffDescription": "Wettbewerber lagern Nachbearbeitung, Beschichtung oder Montage an Dritte aus. Jede Übergabe bringt Verzögerungen, Schwankungen und gegenseitige Schuldzuweisungen, wenn etwas schief geht. Unser Modell eliminiert all das.",
     "differentiators": [
       {
         "title": "Keine Zwischenstationen",
-        "text": "Your part never leaves our facility between casting and shipment. No transport damage, no lost traceability, no communication gaps between suppliers."
+        "text": "Ihr Bauteil verlässt unsere Anlage nie zwischen Guss und Versand. Kein Transportschaden, keine verlorene Rückverfolgbarkeit, keine Kommunikationslücken zwischen Lieferanten."
       },
       {
         "title": "Gleichbleibende Qualität",
-        "text": "One quality system governs every step. SPC data from casting feeds directly into machining parameters. Coating specs are verified against the same CMM that checked the casting."
+        "text": "Ein Qualitätssystem regelt jeden Schritt. SPC-Daten aus dem Guss fließen direkt in die Bearbeitungsparameter. Beschichtungsspezifikationen werden gegen dasselbe KMG verifiziert, das den Guss geprüft hat."
       },
       {
         "title": "Ein verantwortlicher Partner",
-        "text": "One purchase order, one point of contact, one company accountable for the finished component. When your production line depends on our parts, that simplicity matters."
+        "text": "Ein Auftrag, ein Ansprechpartner, ein Unternehmen verantwortlich für das fertige Bauteil. Wenn Ihre Produktionslinie von unseren Teilen abhängt, ist diese Einfachheit entscheidend."
       }
     ],
     "ctaHeading": "Bringen Sie uns Ihre Zeichnung.",
@@ -519,9 +519,9 @@
     "eyebrow": "Seit 1967",
     "heading": "Dänemarks größte spezialisierte Zinkdruckgießerei.",
     "story": {
-      "p1": "Linimatic was founded in 1967 in Helsinge, North Zealand, with a single purpose: to master zinc die-casting. Not as a sideline to aluminium or plastics, but as the sole focus of the entire operation. Nearly six decades later, that focus has made us Denmark's largest dedicated zinc foundry — and the partner manufacturers turn to when the geometry is too complex, the tolerances too tight, or the surface requirements too demanding for other foundries to quote.",
-      "p2": "We built the full value chain under one roof because the alternative — outsourcing machining to one supplier, coating to another, assembly to a third — creates gaps. Gaps in quality, gaps in accountability, gaps in delivery schedules. Our model eliminates all of that. One facility, one quality system, one team responsible from first sample to final shipment.",
-      "p3": "\"The best for the most complex\" is not a marketing line. It's a filter we apply to every investment decision, every hire, every machine purchase. We don't compete on being the cheapest. We compete on being the partner you trust when the part absolutely has to be right."
+      "p1": "Linimatic wurde 1967 in Helsinge, Nordseeland, mit einem einzigen Ziel gegründet: den Zinkdruckguss zu meistern. Nicht als Nebentätigkeit zu Aluminium oder Kunststoff, sondern als einziger Fokus des gesamten Betriebs. Fast sechs Jahrzehnte später hat uns dieser Fokus zu Dänemarks größter spezialisierter Zinkgießerei gemacht \u2014 und zum Partner, an den sich Hersteller wenden, wenn die Geometrie zu komplex, die Toleranzen zu eng oder die Oberflächenanforderungen zu anspruchsvoll für andere Gießereien sind.",
+      "p2": "Wir haben die vollständige Wertschöpfungskette unter einem Dach aufgebaut, weil die Alternative \u2014 Zerspanung an einen Lieferanten, Beschichtung an einen anderen, Montage an einen dritten auslagern \u2014 Lücken schafft. Lücken in der Qualität, Lücken in der Verantwortlichkeit, Lücken in den Lieferplänen. Unser Modell eliminiert all das. Eine Anlage, ein Qualitätssystem, ein Team verantwortlich vom ersten Muster bis zur endgültigen Lieferung \u2014 alles gefertigt in Dänemark.",
+      "p3": "\"Das Beste für das Komplexeste\" ist keine Marketingfloskel. Es ist der Filter, den wir auf jede Investitionsentscheidung, jede Einstellung, jeden Maschinenkauf anwenden. Wir konkurrieren nicht damit, der Günstigste zu sein. Wir konkurrieren damit, der Partner zu sein, dem Sie vertrauen, wenn das Teil absolut stimmen muss."
     },
     "facilityAlt": "Linimatic Produktionsstätte in Helsinge, Dänemark",
     "stats": [
@@ -590,7 +590,7 @@
           "role": "Geschäftsführer",
           "focus": "Strategie & Schlüsselkunden",
           "phone": "+45 2343 3667",
-          "email": "jvj@linimatic.dk"
+          "email": "jaj@linimatic.dk"
         },
         {
           "name": "Torben M. Jensen",
@@ -644,7 +644,7 @@
         "role": "Geschäftsführer",
         "focus": "Strategie & Schlüsselkunden",
         "phone": "+45 2343 3667",
-        "email": "jvj@linimatic.dk"
+        "email": "jaj@linimatic.dk"
       },
       {
         "name": "Torben M. Jensen",
@@ -670,7 +670,7 @@
     "breadcrumb": "Referenzen",
     "eyebrow": "Referenzen",
     "heading": "Schwierige Aufgaben, geliefert.",
-    "description": "Every project on this page was one another foundry turned down, deprioritised, or couldn't hold tolerance on. Complex geometry, demanding surface requirements, and tight production schedules are where we do our best work.",
+    "description": "Jedes Projekt auf dieser Seite wurde von einer anderen Gießerei abgelehnt, zurückgestellt oder konnte die Toleranz nicht halten. Komplexe Geometrie, anspruchsvolle Oberflächenanforderungen und enge Produktionspläne \u2014 genau dort erbringen wir unsere beste Arbeit.",
     "industries": ["Automotive", "Möbel & Design", "Beleuchtung", "Bau & HVAC", "Elektronik", "Industrie"],
     "items": [
       {

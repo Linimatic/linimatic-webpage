@@ -30,7 +30,7 @@
     "headline2": "in",
     "headlineAccent": "zinc",
     "tagline": "The best for the most complex.",
-    "description": "Denmark\u2019s largest dedicated zinc die-casting foundry. From simple brackets to the most intricate geometries \u2014 tolerances to \u00b10.05\u00a0mm, with casting, machining, coating, and assembly all under one roof.",
+    "description": "Denmark\u2019s largest dedicated zinc die-casting foundry. From simple brackets to the most intricate geometries \u2014 the parts others can\u2019t make \u2014 tolerances to \u00b10.05\u00a0mm, with casting, machining, coating, and assembly all under one roof.",
     "heroImageAlt": "Precision zinc die-casting mold with brass fittings",
     "ctaPrimary": "Bring Us Your Challenge",
     "ctaSecondary": "Our Services"
@@ -130,7 +130,7 @@
         "name": "Jan V. J\u00f8rgensen",
         "role": "Managing Director",
         "phone": "+45 2343 3667",
-        "email": "jvj@linimatic.dk"
+        "email": "jaj@linimatic.dk"
       },
       {
         "name": "Torben M. Jensen",
@@ -173,7 +173,7 @@
   },
   "footer": {
     "logoAlt": "Linimatic \u2014 Innovative Die Casting",
-    "brandDescription": "Denmark\u2019s largest dedicated zinc die-casting foundry. Precision zamak components from prototype to series production.",
+    "brandDescription": "Denmark\u2019s largest dedicated zinc die-casting foundry. Precision zamak components \u2014 manufactured in Denmark, from prototype to series production.",
     "linkedInAriaLabel": "Linimatic on LinkedIn",
     "servicesHeading": "Services",
     "serviceLinks": [
@@ -587,7 +587,7 @@
           "role": "Managing Director",
           "focus": "Strategy & key accounts",
           "phone": "+45 2343 3667",
-          "email": "jvj@linimatic.dk"
+          "email": "jaj@linimatic.dk"
         },
         {
           "name": "Torben M. Jensen",
@@ -641,7 +641,7 @@
         "role": "Managing Director",
         "focus": "Strategy & key accounts",
         "phone": "+45 2343 3667",
-        "email": "jvj@linimatic.dk"
+        "email": "jaj@linimatic.dk"
       },
       {
         "name": "Torben M. Jensen",

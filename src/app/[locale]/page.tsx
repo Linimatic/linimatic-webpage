@@ -162,15 +162,6 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                   ))}
                 </div>
               </div>
-              {/* Industry tags */}
-              <div className="mt-5 flex flex-wrap items-center justify-center gap-x-1 gap-y-1 text-[10px] tracking-[0.15em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
-                {industryTags.map((tag, i) => (
-                  <span key={tag}>
-                    {i > 0 && <span className="mx-2 text-zinc-700">·</span>}
-                    {tag}
-                  </span>
-                ))}
-              </div>
             </div>
           </div>
         </div>

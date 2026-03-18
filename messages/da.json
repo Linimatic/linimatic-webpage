@@ -9,14 +9,12 @@
       "contact": "Kontakt"
     },
     "servicesList": {
-      "prototypesPreSeries": "Prototyper & forserier",
-      "castingFoundry": "Støberiet",
-      "castingToolsStorage": "Støbeværktøj & opbevaring",
-      "designOptimization": "Design & optimering",
-      "postProcessing": "Efterbearbejdning",
-      "surfaceCoating": "Overfladebehandling",
-      "qualityAssurance": "Kvalitetssikring",
-      "assembly": "Montage"
+      "prototyping": "Prototyper & designgennemgang",
+      "dieCasting": "Varmkammer-trykstøbning",
+      "postProcessing": "CNC-efterbearbejdning",
+      "surfaceTreatment": "Overfladebehandling & coating",
+      "quality": "Kvalitet & certificering",
+      "assembly": "Montage & forsyningskæde"
     },
     "allServices": "Alle ydelser",
     "phone": "+45 4876 4040",
@@ -54,43 +52,43 @@
         "number": "01",
         "label": "Design",
         "title": "DFM-gennemgang & prototyper",
-        "description": "Send dine CAD-filer. Vi gennemgår, simulerer og optimerer — første prøver på 3\u20134 uger.",
-        "specs": "48t respons \u00b7 Simuleringsoptimeret \u00b7 50\u201310.000 stk."
+        "description": "Send dine CAD-filer. Vi gennemgår, simulerer og optimerer — første prøver på 3–4 uger.",
+        "specs": "48t respons · Simuleringsoptimeret · 50–10.000 stk."
       },
       {
         "number": "02",
         "label": "Støb",
         "title": "Varmkammer-trykstøbning",
         "description": "12 automatiserede maskiner med robothåndtering. Emner fra 1\u2009g til 3\u2009kg, 24-timers drift.",
-        "specs": "80\u2013400T \u00b7 Zamak 2/3/5 \u00b7 \u00b10,05\u2009mm i støbning"
+        "specs": "80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm i støbning"
       },
       {
         "number": "03",
         "label": "Bearbejd",
         "title": "CNC-efterbearbejdning",
         "description": "Intern fræsning, drejning, slibning og gevindskæring til sluttolerance.",
-        "specs": "Fuld CNC \u00b7 Stramme sekundære tolerancer"
+        "specs": "Fuld CNC · Stramme sekundære tolerancer"
       },
       {
         "number": "04",
         "label": "Finish",
         "title": "Overfladebehandling",
         "description": "Fra klasse\u00a0A kosmetisk forkromning til funktionel korrosionsbeskyttelse.",
-        "specs": "Krom \u00b7 Pulverlak \u00b7 Vådlak \u00b7 Lasergravering"
+        "specs": "Krom · Pulverlak · Vådlak · Lasergravering"
       },
       {
         "number": "05",
         "label": "Inspicér",
         "title": "Kvalitetssikring",
         "description": "Hvert emne CMM-verificeret og SPC-overvåget, før det forlader bygningen.",
-        "specs": "ISO 9001 siden '93 \u00b7 CMM \u00b7 SPC \u00b7 PPAP"
+        "specs": "ISO 9001 siden '93 · CMM · SPC · PPAP"
       },
       {
         "number": "06",
         "label": "Levér",
         "title": "Montage & forsyning",
         "description": "Vi leverer færdige produkter efter din tidsplan, ikke løse dele.",
-        "specs": "Kanban \u00b7 Forecast-planlægning \u00b7 Færdigvarer"
+        "specs": "Kanban · Forecast-planlægning · Færdigvarer"
       }
     ],
     "cta": "Start med en tegning",
@@ -104,79 +102,31 @@
       {
         "title": "Snæverttolerante indvendige dele til elværktøj, som ingen andre ville tilbyde på",
         "client": "DeWalt",
-        "metric": "\u00b10,05\u2009mm tolerancer \u00b7 Højvolumen-serieproduktion",
+        "metric": "\u00b10,05\u2009mm tolerancer · Højvolumen-serieproduktion",
         "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. '99,2% first-pass yield' eller 'X mio. dele leveret'"
       },
       {
         "title": "Støbning af en designikon — hvor overfladeperfektionen er ufravigelig",
         "client": "One Collection",
-        "metric": "Klasse\u00a0A-forkromning \u00b7 Finn Juhl-spisebord",
+        "metric": "Klasse\u00a0A-forkromning · Finn Juhl-spisebord",
         "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'I produktion siden 2005' eller 'Nul reklamationer'"
       },
       {
         "title": "Præcisions-motorrammer til Europas førende ovenlysproducent",
         "client": "VELUX",
-        "metric": "Komplet lokal værdikæde \u00b7 Automatiseret produktion",
+        "metric": "Komplet lokal værdikæde · Automatiseret produktion",
         "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'X emner om året' eller 'Løbende leverance siden ÅÅÅÅ'"
       }
     ]
   },
-  "industries": {
-    "eyebrow": "Brancher",
-    "heading": "Betroet på tværs af sektorer",
-    "description": "55+ års zinktrykstøbning til brancher, hvor præcision, overfladekvalitet og pålidelighed er ufravigelige.",
-    "items": [
-      {
-        "name": "Møbler & design",
-        "description": "Synlige beslag og strukturelle komponenter til førende skandinaviske designmærker.",
-        "clients": "Fritz Hansen \u00b7 One Collection \u00b7 Montana \u00b7 HOWE"
-      },
-      {
-        "name": "Belysning",
-        "description": "Præcisionsbeslag, kabinetter og køleplader til arkitektonisk og forbrugerbelysning.",
-        "clients": "Frandsen \u00b7 Belux"
-      },
-      {
-        "name": "Byggeri & HVAC",
-        "description": "Motorrammer, vinduesbeslag og ventilationskomponenter bygget til lang levetid.",
-        "clients": "VELUX \u00b7 ClimaWin"
-      },
-      {
-        "name": "Forbrugerelektronik",
-        "description": "Kosmetiske og funktionelle kabinetter, hvor overfladekvalitet møder dimensionel præcision.",
-        "clients": "Bang & Olufsen"
-      },
-      {
-        "name": "Automotive",
-        "description": "Strukturelle komponenter og interiørdele, der opfylder bilbranchens kvalitets- og sporbarhedskrav.",
-        "clients": "Europæiske Tier 1 & 2-leverandører"
-      },
-      {
-        "name": "Industri & værktøj",
-        "description": "Ergonomiske håndtag, beslag og mekaniske komponenter til professionelt udstyr.",
-        "clients": "DeWalt \u00b7 Ditlev Burke"
-      }
-    ]
-  },
-  "whyZinc": {
-    "eyebrow": "Materialefordel",
-    "heading": "Hvorfor zinktrykstøbning?",
-    "description": "Overlegen præcision, længere værktøjslevetid, hurtigere produktionscyklusser og enestående overfladekvalitet — bedre end aluminium og plast.",
-    "specs": [
-      { "value": "\u00b10,05", "unit": "mm", "label": "Tolerancer" },
-      { "value": "1M+", "unit": "", "label": "Skud pr. form" },
-      { "value": "10\u201345", "unit": "sek", "label": "Cyklustider" },
-      { "value": "0,8", "unit": "Ra \u03bcm", "label": "Overfladefinish" }
-    ],
-    "cta": "Materialeegenskaber & sammenligning"
-  },
+  "industryTags": ["Automotive", "Møbler & design", "Belysning", "Byggeri & HVAC", "Elektronik", "Industri"],
   "team": {
     "eyebrow": "Dine kontakter",
     "heading": "Tal med dem, der udfører arbejdet",
     "description": "Ingen callcentre. Ingen account managers, der aldrig har set en støbemaskine. Du taler direkte med de ingeniører og specialister, der håndterer dit projekt.",
     "members": [
       {
-        "name": "Jan V. J\u00f8rgensen",
+        "name": "Jan V. Jørgensen",
         "role": "Administrerende direktør",
         "focus": "Strategi & nøglekunder",
         "phone": "+45 2343 3667",
@@ -190,7 +140,7 @@
         "email": "tmj@linimatic.dk"
       },
       {
-        "name": "Ren\u00e9 Johnsen",
+        "name": "René Johnsen",
         "role": "Teknisk & salg",
         "focus": "Nye projekter & kundesupport",
         "phone": "+45 5077 0211",
@@ -229,20 +179,18 @@
     "linkedInAriaLabel": "Linimatic på LinkedIn",
     "servicesHeading": "Ydelser",
     "serviceLinks": [
-      "Prototyper",
-      "Støberiet",
-      "Efterbearbejdning",
-      "Overfladebehandling",
-      "Kvalitetssikring",
-      "Montage"
+      "Prototyper & designgennemgang",
+      "Varmkammer-trykstøbning",
+      "CNC-efterbearbejdning",
+      "Overfladebehandling & coating",
+      "Kvalitet & certificering",
+      "Montage & forsyningskæde"
     ],
     "companyHeading": "Virksomhed",
     "companyLinks": {
       "aboutUs": "Om os",
       "cases": "Cases",
       "whyZinc": "Hvorfor zink",
-      "news": "Nyheder",
-      "careers": "Job",
       "zinkers": "Zinkers"
     },
     "contactHeading": "Kontakt",
@@ -253,7 +201,7 @@
     },
     "phone": "+45 4876 4040",
     "email": "info@linimatic.dk",
-    "copyright": "\u00a9 {year} Linimatic A/S \u00b7 CVR DK-20254386",
+    "copyright": "\u00a9 {year} Linimatic A/S · CVR DK-20254386",
     "privacy": "Privatlivspolitik",
     "cookies": "Cookiepolitik"
   },
@@ -287,5 +235,467 @@
       "toggleAriaLabel": "Slå marketingcookies til/fra",
       "description": "Bruges til at vise relevante annoncer og måle kampagneeffektivitet."
     }
+  },
+  "services": {
+    "breadcrumb": "Ydelser",
+    "eyebrow": "Komplet værdikæde",
+    "heading": "Alt under ét tag.",
+    "description": "Most foundries cast your part and hand it off. We cast it, machine it, coat it, inspect it, and deliver it — from a single facility with a single point of contact. No outsourced steps. No quality gaps between suppliers. Faster turnaround and consistent results from first article to millionth.",
+    "valueChainHeading": "Fra tegning til færdigt emne",
+    "items": [
+      {
+        "title": "DFM-gennemgang & prototyper",
+        "description": "Send your CAD files. We analyse geometry, simulate fill, and recommend design optimisations. First samples in 3–4 weeks, with full DFM feedback within 48 hours.",
+        "specs": "48t respons · STEP/IGES/Solidworks · 50–10.000 stk."
+      },
+      {
+        "title": "Varmkammer-trykstøbning",
+        "description": "12 automated machines with robotic extraction running 24 hours. Parts from 1\u2009g to 3\u2009kg in Zamak 2, 3, and 5 with as-cast tolerances to \u00b10.05\u2009mm.",
+        "specs": "80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm i støbning"
+      },
+      {
+        "title": "CNC-efterbearbejdning",
+        "description": "In-house milling, turning, drilling, threading, and deburring. Parts go from casting to machining without leaving the building — preserving traceability and cutting lead time.",
+        "specs": "Fuld CNC · Tromling · Stramme sekundære tolerancer"
+      },
+      {
+        "title": "Overfladebehandling & coating",
+        "description": "Chromium plating, powder coating, wet painting, e-coating, and laser engraving. Class\u00a0A cosmetic finishes from a chrome-ready as-cast surface at 0.8\u2009Ra\u2009\u03bcm.",
+        "specs": "Krom · Pulverlak · Vådlak · Lasergravering"
+      },
+      {
+        "title": "Kvalitet & inspektion",
+        "description": "CMM-verified dimensions, SPC-monitored process control, and full PPAP documentation. ISO 9001 certified since 1993 — over 30 years of audited quality systems.",
+        "specs": "ISO 9001 · CMM · SPC · PPAP · Fuld sporbarhed"
+      },
+      {
+        "title": "Montage & forsyningskæde",
+        "description": "Sub-assembly, insert pressing, and multi-component assembly. Kanban delivery, forecast planning, and consignment stock — we ship finished products on your schedule.",
+        "specs": "Kanban · JIT · Forecast-planlægning · Specialemballage"
+      }
+    ],
+    "matrixEyebrow": "Overblik",
+    "matrixHeading": "Kapabilitetsmatrix",
+    "matrixCol1": "Kapabilitet",
+    "matrixCol2": "Nøglespecifikationer",
+    "matrixCol3": "Certificeringer",
+    "capabilities": [
+      {
+        "service": "Prototyper & DFM",
+        "keySpecs": "Første prøver på 3–4 uger · 48t respons · Formfyldningssimulering",
+        "certifications": "—"
+      },
+      {
+        "service": "Varmkammer-trykstøbning",
+        "keySpecs": "12 maskiner, 80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm · 1g–3kg",
+        "certifications": "ISO 9001"
+      },
+      {
+        "service": "CNC-efterbearbejdning",
+        "keySpecs": "Fræsning · Drejning · Boring · Gevindskæring · Afgratning",
+        "certifications": "—"
+      },
+      {
+        "service": "Overfladebehandling & coating",
+        "keySpecs": "Krom · Pulverlak · Vådlak · E-coat · Lasergravering",
+        "certifications": "—"
+      },
+      {
+        "service": "Kvalitet & inspektion",
+        "keySpecs": "CMM · SPC · PPAP · Første-emne-inspektion · Fuld sporbarhed",
+        "certifications": "ISO 9001 siden 1993"
+      },
+      {
+        "service": "Montage & forsyningskæde",
+        "keySpecs": "Undermontage · Kanban · JIT-levering · Specialemballage",
+        "certifications": "—"
+      }
+    ],
+    "diffHeading": "Hvorfor den integrerede model betyder noget",
+    "diffDescription": "Competitors outsource post-processing, coating, or assembly to third parties. Every handoff introduces delay, variation, and finger-pointing when something goes wrong. Our model eliminates all of that.",
+    "differentiators": [
+      {
+        "title": "Nul mellemled",
+        "text": "Your part never leaves our facility between casting and shipment. No transport damage, no lost traceability, no communication gaps between suppliers."
+      },
+      {
+        "title": "Ensartet kvalitet",
+        "text": "One quality system governs every step. SPC data from casting feeds directly into machining parameters. Coating specs are verified against the same CMM that checked the casting."
+      },
+      {
+        "title": "Én ansvarlig partner",
+        "text": "One purchase order, one point of contact, one company accountable for the finished component. When your production line depends on our parts, that simplicity matters."
+      }
+    ],
+    "ctaHeading": "Bring os din tegning.",
+    "ctaDescription": "Send dine CAD-filer eller specifikationer. Vi fortæller dig præcis, hvad der kan lade sig gøre, og giver dig et tilbud inden for 48 timer.",
+    "ctaButton": "Få et tilbud"
+  },
+  "whyZincPage": {
+    "breadcrumb": "Hvorfor zink",
+    "eyebrow": "Materialefordel",
+    "heading": "Hvorfor zinktrykstøbning?",
+    "intro": "Zinc die-casting is a high-speed, high-precision manufacturing process that produces net-shape metal components with tolerances to \u00b10.05\u2009mm, chrome-ready surface finish, and cycle times under 45 seconds. It outperforms aluminum and plastic injection moulding in geometric complexity, dimensional accuracy, and cost-efficiency at volume — delivering stronger parts with longer tool life and less secondary processing. For engineers designing components that demand tight tolerances, thin walls, or Class\u00a0A cosmetic surfaces, zinc is the material that eliminates compromises.",
+    "advantagesHeading": "Seks grunde til at ingeniører vælger zink",
+    "advantages": [
+      {
+        "value": "\u00b10,05",
+        "unit": "mm",
+        "label": "Opnåelige tolerancer",
+        "description": "Tighter as-cast accuracy than aluminum or plastic. Many features need no secondary machining at all, reducing cost and lead time."
+      },
+      {
+        "value": "1M+",
+        "unit": "skud",
+        "label": "Værktøjslevetid",
+        "description": "Zinc dies last 5–10\u00d7 longer than aluminum dies. Lower tooling cost per part and fewer production interruptions for tool replacement."
+      },
+      {
+        "value": "10–45",
+        "unit": "sek",
+        "label": "Cyklustid",
+        "description": "The fastest metal die-casting process. Hot-chamber technology keeps zinc molten in the machine, eliminating the ladling step that slows aluminum casting."
+      },
+      {
+        "value": "0,8",
+        "unit": "Ra \u03bcm",
+        "label": "Overfladefinish",
+        "description": "Chrome-ready straight from the die. No polishing or additional surface preparation needed for decorative finishes."
+      },
+      {
+        "value": "0,6",
+        "unit": "mm",
+        "label": "Minimum vægtykkelse",
+        "description": "Thinner walls than any other metal die-casting process. Enables intricate geometries and lightweight designs impossible in aluminum."
+      },
+      {
+        "value": "100%",
+        "unit": "",
+        "label": "Genanvendeligt",
+        "description": "Zinc is infinitely recyclable with no loss of material properties. Lower melting point means less energy consumed per casting cycle."
+      }
+    ],
+    "comparison": {
+      "heading": "Zink vs. alternativerne",
+      "description": "Side-by-side comparison of zinc die-casting against aluminum, magnesium, and plastic injection moulding. The data explains why zinc wins when precision, surface quality, and tool economics are the deciding factors.",
+      "headers": ["Egenskab", "Zink", "Aluminium", "Magnesium", "Plast"],
+      "rows": [
+        {
+          "property": "Opnåelig tolerance",
+          "zinc": "\u00b10,05 mm",
+          "aluminum": "\u00b10,1 mm",
+          "magnesium": "\u00b10,08 mm",
+          "plastic": "\u00b10,1 mm"
+        },
+        {
+          "property": "Værktøjslevetid (skud)",
+          "zinc": "1M+",
+          "aluminum": "100–200K",
+          "magnesium": "200–300K",
+          "plastic": "500K–1M"
+        },
+        {
+          "property": "Cyklustid",
+          "zinc": "10–45s",
+          "aluminum": "30–120s",
+          "magnesium": "20–60s",
+          "plastic": "15–60s"
+        },
+        {
+          "property": "Min. vægtykkelse",
+          "zinc": "0,6 mm",
+          "aluminum": "1,5 mm",
+          "magnesium": "1,0 mm",
+          "plastic": "0,5 mm"
+        },
+        {
+          "property": "Overfladefinish (Ra)",
+          "zinc": "0,8 \u03bcm",
+          "aluminum": "1,6 \u03bcm",
+          "magnesium": "1,2 \u03bcm",
+          "plastic": "0,2 \u03bcm"
+        },
+        {
+          "property": "Trækstyrke",
+          "zinc": "280–400 MPa",
+          "aluminum": "150–300 MPa",
+          "magnesium": "200–250 MPa",
+          "plastic": "30–80 MPa"
+        },
+        {
+          "property": "Genanvendelighed",
+          "zinc": "100%",
+          "aluminum": "100%",
+          "magnesium": "100%",
+          "plastic": "Begrænset"
+        }
+      ]
+    },
+    "alloys": {
+      "heading": "Zamak-legeringsguide",
+      "description": "Zamak alloys are zinc-aluminium alloys optimised for die-casting. The right alloy depends on your part's mechanical requirements, surface finish needs, and casting complexity. We cast all four standard grades and advise on selection during DFM review.",
+      "colAlloy": "Legering",
+      "colTensile": "Trækstyrke",
+      "colElongation": "Forlængelse",
+      "colHardness": "Hårdhed (Brinell)",
+      "colUse": "Primær anvendelse",
+      "rows": [
+        {
+          "name": "Zamak 2",
+          "tensile": "397 MPa",
+          "elongation": "7%",
+          "hardness": "100",
+          "use": "High-strength structural components, die-cast bearings, heavy-duty hardware"
+        },
+        {
+          "name": "Zamak 3",
+          "tensile": "283 MPa",
+          "elongation": "10%",
+          "hardness": "82",
+          "use": "General purpose — the most widely cast zinc alloy. Excellent plating characteristics."
+        },
+        {
+          "name": "Zamak 5",
+          "tensile": "331 MPa",
+          "elongation": "7%",
+          "hardness": "91",
+          "use": "Higher strength than Zamak 3 with good ductility. Automotive and industrial components."
+        },
+        {
+          "name": "Zamak 7",
+          "tensile": "283 MPa",
+          "elongation": "13%",
+          "hardness": "80",
+          "use": "Superior casting fluidity for thin-walled and complex-geometry parts. Lower magnesium for ductility."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Ofte stillede spørgsmål",
+      "items": [
+        {
+          "question": "Hvad er zinktrykstøbning?",
+          "answer": "Zinc die-casting is a manufacturing process where molten zinc alloy is injected under high pressure into a steel die. The hot-chamber process keeps the alloy molten inside the machine, enabling cycle times as fast as 10 seconds. The result is a net-shape metal component with tight tolerances, excellent surface finish, and high repeatability — suitable for production volumes from hundreds to millions of parts."
+        },
+        {
+          "question": "Er zinktrykstøbning stærkere end aluminium?",
+          "answer": "Yes, in terms of tensile strength. Zamak alloys range from 283 to 397 MPa, while most die-cast aluminium alloys deliver 150–300 MPa. Zinc also achieves tighter as-cast tolerances (\u00b10.05\u2009mm vs. \u00b10.1\u2009mm) and produces chrome-ready surfaces without secondary polishing. However, aluminium is lighter (2.7 g/cm\u00b3 vs. 6.6 g/cm\u00b3), so the choice depends on whether strength-to-weight ratio or absolute precision is the priority."
+        },
+        {
+          "question": "Hvad er en Zamak-legering?",
+          "answer": "Zamak is a family of zinc-aluminium alloys specifically developed for die-casting. The name comes from the German abbreviations of its constituents: Zink, Aluminium, Magnesium, and Kupfer (copper). The four standard grades — Zamak 2, 3, 5, and 7 — offer different balances of strength, ductility, and castability. Zamak 3 is the most widely used, while Zamak 2 provides the highest strength."
+        },
+        {
+          "question": "Hvad koster zinktrykstøbning?",
+          "answer": "Tooling cost depends on part complexity and number of cavities, typically ranging from \u20ac10,000 to \u20ac80,000. However, zinc dies last over 1 million shots — 5–10\u00d7 longer than aluminium dies — dramatically reducing per-part tooling cost at volume. Piece prices depend on part weight, alloy, cycle time, and secondary operations. Send us your drawing for a specific quote — we respond within 48 hours."
+        },
+        {
+          "question": "Hvilke industrier bruger zinktrykstøbning?",
+          "answer": "Zinc die-cast components are used across automotive (structural and interior parts), furniture and design (visible fittings, handles), lighting (brackets, housings, heat sinks), building and HVAC (window fittings, motor frames), consumer electronics (precision housings), and industrial equipment (ergonomic handles, brackets). Any application requiring tight tolerances, complex geometry, or decorative surface finish is a candidate."
+        },
+        {
+          "question": "Kan zinktrykstøbte emner forkrommes?",
+          "answer": "Yes, and this is one of zinc's strongest advantages. Zinc die-castings achieve 0.8\u2009Ra\u2009\u03bcm surface finish straight from the die — smooth enough for direct chrome plating without intermediate polishing. This makes zinc the preferred material for visible, decorative components in furniture, lighting, and consumer products where a flawless chrome finish is mandatory."
+        },
+        {
+          "question": "Er zinktrykstøbning miljøvenligt?",
+          "answer": "Zinc is 100% recyclable with no degradation of material properties. Its lower melting point (385\u00b0C vs. 660\u00b0C for aluminium) means less energy per casting cycle. At Linimatic, virtually all casting scrap — runners, overflows, and reject parts — is remelted and reused directly in production. We also offer lead-free zinc alloys through our Zinkers product line."
+        },
+        {
+          "question": "Hvad er forskellen mellem zink og Zamak?",
+          "answer": "Zinc is the base element. Zamak is a specific family of zinc alloys engineered for die-casting, containing precisely controlled amounts of aluminium (3.5–4.3%), magnesium, and in some grades, copper. Pure zinc is too soft for most engineering applications — the alloying elements in Zamak provide the strength, hardness, and castability that make precision die-casting possible."
+        }
+      ]
+    },
+    "ctaHeading": "Stadig i tvivl? Tal med vores ingeniører.",
+    "ctaDescription": "Vi fortæller dig ærligt, om zink er det rigtige til dit emne — eller anbefaler et alternativ, hvis det ikke er. Intet salgspres, bare teknisk ekspertise.",
+    "ctaButton": "Drøft dit projekt"
+  },
+  "aboutPage": {
+    "breadcrumb": "Om os",
+    "eyebrow": "Siden 1967",
+    "heading": "Danmarks største dedikerede zinktrykstøberi.",
+    "story": {
+      "p1": "Linimatic was founded in 1967 in Helsinge, North Zealand, with a single purpose: to master zinc die-casting. Not as a sideline to aluminium or plastics, but as the sole focus of the entire operation. Nearly six decades later, that focus has made us Denmark's largest dedicated zinc foundry — and the partner manufacturers turn to when the geometry is too complex, the tolerances too tight, or the surface requirements too demanding for other foundries to quote.",
+      "p2": "We built the full value chain under one roof because the alternative — outsourcing machining to one supplier, coating to another, assembly to a third — creates gaps. Gaps in quality, gaps in accountability, gaps in delivery schedules. Our model eliminates all of that. One facility, one quality system, one team responsible from first sample to final shipment.",
+      "p3": "\"The best for the most complex\" is not a marketing line. It's a filter we apply to every investment decision, every hire, every machine purchase. We don't compete on being the cheapest. We compete on being the partner you trust when the part absolutely has to be right."
+    },
+    "facilityAlt": "Linimatics produktionsfacilitet i Helsinge, Danmark",
+    "stats": [
+      { "value": "1967", "label": "Grundlagt" },
+      { "value": "12M+", "label": "Emner / år" },
+      { "value": "12", "label": "Støbemaskiner" },
+      { "value": "ISO 9001", "label": "Siden 1993" },
+      { "value": "50+", "label": "Specialister" }
+    ],
+    "certificationsEyebrow": "Standarder",
+    "certificationsHeading": "Certificeringer & compliance",
+    "certifications": [
+      {
+        "name": "ISO 9001 — Kvalitetsledelse",
+        "detail": "Certified since 1993 — over 30 years of independently audited quality management. Covers the complete value chain from incoming material through casting, machining, surface treatment, assembly, and final inspection."
+      },
+      {
+        "name": "Miljøcompliance",
+        "detail": "Compliant with EU environmental regulations including REACH and RoHS. Active waste reduction and energy management programmes. Zinc scrap is recycled directly in production with near-zero material waste."
+      },
+      {
+        "name": "Materialecertificeringer",
+        "detail": "Full material traceability on all Zamak alloys. Incoming material certificates verified against specification. Batch-level traceability from raw material through to finished component."
+      }
+    ],
+    "sustainabilityEyebrow": "Ansvar",
+    "sustainabilityHeading": "Bæredygtighed der er målt, ikke påstået",
+    "sustainability": {
+      "p1": "Zinc is infinitely recyclable. At Linimatic, virtually all casting scrap — runners, overflows, and reject parts — is remelted and fed back into production. Our closed-loop recycling means near-zero zinc waste leaves the facility. The low melting point of zinc (385\u00b0C vs. 660\u00b0C for aluminium) translates directly to lower energy consumption per casting cycle.",
+      "p2": "We invest in energy-efficient equipment, LED facility lighting, and heat recovery systems. Our lead-free Zinkers product line demonstrates that environmental responsibility and product performance are not trade-offs. For procurement teams with sustainability reporting requirements, we provide verified data on recycling rates, energy consumption, and waste metrics."
+    },
+    "industriesHeading": "Brancher vi betjener",
+    "industries": [
+      {
+        "name": "Møbler & design",
+        "clients": "Fritz Hansen · One Collection · Montana · HOWE"
+      },
+      {
+        "name": "Belysning",
+        "clients": "Frandsen · Belux"
+      },
+      {
+        "name": "Byggeri & HVAC",
+        "clients": "VELUX · ClimaWin"
+      },
+      {
+        "name": "Forbrugerelektronik",
+        "clients": "Bang & Olufsen"
+      },
+      {
+        "name": "Automotive",
+        "clients": "Europæiske Tier 1 & 2-leverandører"
+      },
+      {
+        "name": "Industri & værktøj",
+        "clients": "DeWalt · Ditlev Burke"
+      }
+    ],
+    "team": {
+      "heading": "Tal med dem, der udfører arbejdet",
+      "description": "Ingen callcentre. Ingen account managers, der aldrig har set en støbemaskine. Du taler direkte med de ingeniører og specialister, der håndterer dit projekt.",
+      "members": [
+        {
+          "name": "Jan V. Jørgensen",
+          "role": "Administrerende direktør",
+          "focus": "Strategi & nøglekunder",
+          "phone": "+45 2343 3667",
+          "email": "jvj@linimatic.dk"
+        },
+        {
+          "name": "Torben M. Jensen",
+          "role": "Teknisk & salg",
+          "focus": "DFM-gennemgang & projektledelse",
+          "phone": "+45 5077 0218",
+          "email": "tmj@linimatic.dk"
+        },
+        {
+          "name": "René Johnsen",
+          "role": "Teknisk & salg",
+          "focus": "Nye projekter & kundesupport",
+          "phone": "+45 5077 0211",
+          "email": "rj@linimatic.dk"
+        }
+      ]
+    },
+    "ctaHeading": "Besøg os i Helsinge.",
+    "ctaDescription": "Se faciliteten, mød teamet, og drøft dit projekt ansigt til ansigt. Vi ligger 60\u2009km nord for København.",
+    "ctaButton": "Kontakt os"
+  },
+  "contactPage": {
+    "breadcrumb": "Kontakt",
+    "eyebrow": "Kontakt os",
+    "heading": "Lad os drøfte dit projekt.",
+    "description": "Send os dine tegninger eller specifikationer, og vi vender tilbage med en detaljeret vurdering. Ingen generiske tilbud — reel teknisk feedback fra de mennesker, der håndterer dit projekt.",
+    "responsePromise": "Svar inden for 24 timer",
+    "form": {
+      "name": "Navn",
+      "company": "Virksomhed",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "subject": "Emne",
+      "subjectNew": "Nyt projekt",
+      "subjectExisting": "Eksisterende projekt",
+      "subjectGeneral": "Generel henvendelse",
+      "volume": "Forventet volumen",
+      "volumeSelect": "Vælg volumeninterval",
+      "volumePrototype": "Prototype (<1.000 stk.)",
+      "volumeLow": "Lavt volumen (1.000–100.000 stk.)",
+      "volumeHigh": "Højt volumen (100.000+ stk.)",
+      "message": "Projektbeskrivelse",
+      "fileUpload": "Tekniske tegninger",
+      "fileFormats": "STEP · IGES · Solidworks · Parasolid · PDF · DWG · DXF",
+      "submit": "Send forespørgsel"
+    },
+    "directContacts": "Direkte kontakter",
+    "team": [
+      {
+        "name": "Jan V. Jørgensen",
+        "role": "Administrerende direktør",
+        "focus": "Strategi & nøglekunder",
+        "phone": "+45 2343 3667",
+        "email": "jvj@linimatic.dk"
+      },
+      {
+        "name": "Torben M. Jensen",
+        "role": "Teknisk & salg",
+        "focus": "DFM-gennemgang & projektledelse",
+        "phone": "+45 5077 0218",
+        "email": "tmj@linimatic.dk"
+      },
+      {
+        "name": "René Johnsen",
+        "role": "Teknisk & salg",
+        "focus": "Nye projekter & kundesupport",
+        "phone": "+45 5077 0211",
+        "email": "rj@linimatic.dk"
+      }
+    ],
+    "companyDetails": "Virksomhedsoplysninger",
+    "hours": "Åbningstider",
+    "hoursWeekday": "Mandag–fredag: 07:00–16:00",
+    "hoursWeekend": "Lørdag–søndag: Lukket"
+  },
+  "casesPage": {
+    "breadcrumb": "Cases",
+    "eyebrow": "Kundeeksempler",
+    "heading": "Vanskelige opgaver, leveret.",
+    "description": "Every project on this page was one another foundry turned down, deprioritised, or couldn't hold tolerance on. Complex geometry, demanding surface requirements, and tight production schedules are where we do our best work.",
+    "industries": ["Automotive", "Møbler & design", "Belysning", "Byggeri & HVAC", "Elektronik", "Industri"],
+    "items": [
+      {
+        "slug": "dewalt",
+        "client": "DeWalt",
+        "title": "Snæverttolerante indvendige dele til elværktøj, som ingen andre ville tilbyde på",
+        "industry": "Industri & værktøj",
+        "metric": "\u00b10,05\u2009mm tolerancer · Højvolumen-serieproduktion",
+        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. '99,2% first-pass yield' eller 'X mio. dele leveret'"
+      },
+      {
+        "slug": "one-collection",
+        "client": "One Collection",
+        "title": "Støbning af en designikon — hvor overfladeperfektionen er ufravigelig",
+        "industry": "Møbler & design",
+        "metric": "Klasse\u00a0A-forkromning · Finn Juhl-spisebord",
+        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'I produktion siden 2005' eller 'Nul reklamationer'"
+      },
+      {
+        "slug": "velux",
+        "client": "VELUX",
+        "title": "Præcisions-motorrammer til Europas førende ovenlysproducent",
+        "industry": "Byggeri & HVAC",
+        "metric": "Komplet lokal værdikæde · Automatiseret produktion",
+        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'X emner om året' eller 'Løbende leverance siden ÅÅÅÅ'"
+      }
+    ],
+    "ctaHeading": "Har du en lignende udfordring?",
+    "ctaDescription": "Send os dine tegninger, og vi fortæller dig, hvad der kan lade sig gøre. De projekter, andre kalder vanskelige, er dem, vi har bygget denne virksomhed op omkring.",
+    "ctaButton": "Drøft dit projekt"
   }
 }

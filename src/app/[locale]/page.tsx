@@ -51,9 +51,8 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
   const statsItems = t.raw('stats.items') as Array<{value: string; label: string}>;
   const caseItems = t.raw('cases.items') as Array<{title: string; client: string; metric: string; result: string}>;
   const chainSteps = t.raw('valueChain.steps') as Array<{number: string; label: string; title: string; description: string; specs: string}>;
-  const whyZincSpecs = t.raw('whyZinc.specs') as Array<{value: string; unit: string; label: string}>;
-  const industryItems = t.raw('industries.items') as Array<{name: string; description: string; clients: string}>;
   const clientNames = t.raw('clients.logos') as Array<{name: string}>;
+  const industryTags = t.raw('industryTags') as string[];
   const teamMembers = t.raw('team.members') as Array<{name: string; role: string; focus: string; phone: string; email: string}>;
 
   const isPlaceholder = (text: string) => text.startsWith('PLACEHOLDER') || text.startsWith('PLADSHOLDER') || text.startsWith('PLATZHALTER');
@@ -152,26 +151,26 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
           {/* Connected value chain — 6 steps horizontal flow */}
           <div className="relative">
             {/* Connecting line (desktop) */}
-            <div className="hidden lg:block absolute top-6 left-6 right-6 h-px bg-zinc-200" />
+            <div className="hidden lg:block absolute top-8 left-8 right-8 h-px bg-zinc-200" />
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-0">
               {chainSteps.map((step, i) => (
-                <div key={step.number} className="relative">
+                <div key={step.number} className="relative flex flex-col">
                   {/* Step node */}
                   <div className="relative z-10 flex items-center gap-3 mb-5 lg:mb-6">
-                    <div className="w-12 h-12 flex flex-col items-center justify-center bg-zinc-950 text-white flex-shrink-0">
-                      <span className="text-[8px] tracking-[0.2em] uppercase text-ember font-[family-name:var(--font-mono)] leading-none">{step.label}</span>
-                      <span className="text-base font-bold font-[family-name:var(--font-mono)] leading-none mt-px">{step.number}</span>
+                    <div className="w-16 h-16 flex flex-col items-center justify-center bg-zinc-950 text-white flex-shrink-0 px-1">
+                      <span className="text-[9px] tracking-[0.04em] uppercase text-ember font-[family-name:var(--font-mono)] leading-none text-center">{step.label}</span>
+                      <span className="text-lg font-bold font-[family-name:var(--font-mono)] leading-none mt-1.5">{step.number}</span>
                     </div>
                     {i < chainSteps.length - 1 && (
                       <div className="flex-1 h-px bg-zinc-200 lg:hidden" />
                     )}
                   </div>
                   {/* Content */}
-                  <div className="pr-4 lg:pr-5 pb-8 lg:pb-0">
+                  <div className="pr-4 lg:pr-5 pb-8 lg:pb-0 flex flex-col flex-1">
                     <h3 className="text-sm font-semibold text-zinc-900 font-[family-name:var(--font-display)] tracking-tight mb-1.5">{step.title}</h3>
-                    <p className="text-[13px] text-zinc-400 leading-relaxed mb-2">{step.description}</p>
-                    <p className="text-[10px] tracking-[0.05em] text-ember font-[family-name:var(--font-mono)]">{step.specs}</p>
+                    <p className="text-[13px] text-zinc-400 leading-relaxed">{step.description}</p>
+                    <p className="mt-auto pt-3 text-[10px] tracking-[0.05em] text-ember font-[family-name:var(--font-mono)]">{step.specs}</p>
                   </div>
                 </div>
               ))}
@@ -218,20 +217,30 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
           )}
         </div>
 
+        {/* Industry tags — Henrik's 10-second scan */}
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-x-1 gap-y-1 text-[11px] tracking-[0.15em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+          {industryTags.map((tag, i) => (
+            <span key={tag}>
+              {i > 0 && <span className="mx-2 text-zinc-300">·</span>}
+              {tag}
+            </span>
+          ))}
+        </div>
+
         {/* Logo carousel — infinite scroll, centered narrow */}
-        <div className="mt-4 mx-auto max-w-3xl">
+        <div className="mt-4 mx-auto max-w-6xl px-4">
           <div className="text-center mb-6">
             <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">{t('clients.trustedBy')}</span>
           </div>
-          <div className="relative">
+          <div className="relative overflow-hidden">
             {/* Fade edges */}
-            <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-zinc-50 to-transparent z-10" />
-            <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-zinc-50 to-transparent z-10" />
+            <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-zinc-50 to-transparent z-10 pointer-events-none" />
+            <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-zinc-50 to-transparent z-10 pointer-events-none" />
 
             {/* Scrolling track — duplicated for seamless loop */}
-            <div className="flex animate-logo-scroll">
+            <div className="flex animate-logo-scroll w-max">
               {[0, 1].map((copy) => (
-                <div key={copy} className="flex items-center gap-20 shrink-0 px-10" aria-hidden={copy === 1}>
+                <div key={copy} className="flex items-center gap-16 shrink-0 px-8" aria-hidden={copy === 1}>
                   {clientNames.map((client) => {
                     const logoEntry = clientLogoMap[client.name];
                     if (logoEntry) {
@@ -299,69 +308,6 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                 </div>
               </Link>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════════════════════════ INDUSTRIES ═══════════════════════════════════ */}
-      <section className="bg-zinc-100 py-24 sm:py-32 relative overflow-hidden">
-        <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <div className="flex items-center justify-center gap-4 mb-5">
-              <div className="w-8 h-px bg-ember" />
-              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">{t('industries.eyebrow')}</span>
-              <div className="w-8 h-px bg-ember" />
-            </div>
-            <h2 className="text-4xl sm:text-5xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">{t('industries.heading')}</h2>
-            <p className="mt-6 text-lg text-zinc-500 leading-relaxed">{t('industries.description')}</p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-zinc-300">
-            {industryItems.map((item) => (
-              <div key={item.name} className="bg-white p-8 sm:p-10">
-                <h3 className="text-lg font-semibold text-zinc-900 font-[family-name:var(--font-display)] tracking-tight">{item.name}</h3>
-                <p className="mt-3 text-sm text-zinc-500 leading-relaxed">{item.description}</p>
-                <p className="mt-4 text-[11px] tracking-[0.1em] uppercase text-ember font-[family-name:var(--font-mono)]">{item.clients}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════════════════════════ WHY ZINC ═══════════════════════════════════ */}
-      <section className="bg-white py-24 sm:py-32 relative overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute -top-20 -right-20 w-[600px] h-[600px] border border-zinc-200 rounded-full opacity-40" />
-          <div className="absolute -bottom-40 -left-40 w-[800px] h-[800px] border border-zinc-200 rounded-full opacity-30" />
-        </div>
-        <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-          <div className="text-center max-w-3xl mx-auto mb-20">
-            <div className="flex items-center justify-center gap-4 mb-5">
-              <div className="w-8 h-px bg-ember" />
-              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">{t('whyZinc.eyebrow')}</span>
-              <div className="w-8 h-px bg-ember" />
-            </div>
-            <h2 className="text-4xl sm:text-5xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">{t('whyZinc.heading')}</h2>
-            <p className="mt-6 text-lg text-zinc-500 leading-relaxed">{t('whyZinc.description')}</p>
-          </div>
-
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-zinc-200">
-            {whyZincSpecs.map((spec) => (
-              <div key={spec.label} className="bg-white p-8 sm:p-10 text-center">
-                <div className="font-[family-name:var(--font-mono)] text-zinc-900">
-                  <span className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">{spec.value}</span>
-                  {spec.unit && <span className="text-lg sm:text-xl text-zinc-400 ml-1">{spec.unit}</span>}
-                </div>
-                <div className="mt-3 text-[11px] tracking-[0.2em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">{spec.label}</div>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-12 flex justify-center">
-            <Link href="/why-zinc" className="group inline-flex items-center gap-3 border border-zinc-400 hover:border-zinc-900 px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-700 hover:text-zinc-950 transition-all">
-              {t('whyZinc.cta')}
-              <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
-            </Link>
           </div>
         </div>
       </section>

@@ -3,11 +3,11 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 
 const serviceHrefs = [
-  "/services/prototypes",
-  "/services/casting-foundry",
+  "/services/prototyping",
+  "/services/die-casting",
   "/services/post-processing",
-  "/services/surface-coating",
-  "/services/quality-assurance",
+  "/services/surface-treatment",
+  "/services/quality",
   "/services/assembly",
 ];
 
@@ -15,8 +15,6 @@ const companyLinkEntries: { key: string; href: string }[] = [
   { key: "aboutUs", href: "/about" },
   { key: "cases", href: "/cases" },
   { key: "whyZinc", href: "/why-zinc" },
-  { key: "news", href: "/news" },
-  { key: "careers", href: "/jobs" },
   { key: "zinkers", href: "/zinkers" },
 ];
 

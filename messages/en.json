@@ -9,14 +9,12 @@
       "contact": "Contact"
     },
     "servicesList": {
-      "prototypesPreSeries": "Prototypes & Pre-series",
-      "castingFoundry": "Casting Foundry",
-      "castingToolsStorage": "Casting Tools & Storage",
-      "designOptimization": "Design & Optimization",
-      "postProcessing": "Post-Processing",
-      "surfaceCoating": "Surface Coating",
-      "qualityAssurance": "Quality Assurance",
-      "assembly": "Assembly"
+      "prototyping": "Prototyping & Design Review",
+      "dieCasting": "Hot-Chamber Die Casting",
+      "postProcessing": "CNC Post-Processing",
+      "surfaceTreatment": "Surface Treatment & Coating",
+      "quality": "Quality & Certification",
+      "assembly": "Assembly & Supply Chain"
     },
     "allServices": "All Services",
     "phone": "+45 4876 4040",
@@ -121,55 +119,7 @@
       }
     ]
   },
-  "industries": {
-    "eyebrow": "Industries",
-    "heading": "Trusted across sectors",
-    "description": "55+ years of zinc die-casting for industries where precision, surface quality, and reliability are non-negotiable.",
-    "items": [
-      {
-        "name": "Furniture & Design",
-        "description": "Visible fittings and structural components for premium Scandinavian design brands.",
-        "clients": "Fritz Hansen \u00b7 One Collection \u00b7 Montana \u00b7 HOWE"
-      },
-      {
-        "name": "Lighting",
-        "description": "Precision brackets, housings, and heat sinks for architectural and consumer lighting.",
-        "clients": "Frandsen \u00b7 Belux"
-      },
-      {
-        "name": "Building & HVAC",
-        "description": "Motor frames, window fittings, and ventilation components built for long service life.",
-        "clients": "VELUX \u00b7 ClimaWin"
-      },
-      {
-        "name": "Consumer Electronics",
-        "description": "Cosmetic and structural housings where surface quality meets dimensional precision.",
-        "clients": "Bang & Olufsen"
-      },
-      {
-        "name": "Automotive",
-        "description": "Structural and interior components meeting automotive quality and traceability standards.",
-        "clients": "European Tier 1 & 2 suppliers"
-      },
-      {
-        "name": "Industrial & Tools",
-        "description": "Ergonomic handles, brackets, and mechanical components for professional equipment.",
-        "clients": "DeWalt \u00b7 Ditlev Burke"
-      }
-    ]
-  },
-  "whyZinc": {
-    "eyebrow": "Material Advantage",
-    "heading": "Why zinc die-casting?",
-    "description": "Superior precision, longer tooling life, faster production cycles, and exceptional surface quality \u2014 outperforming aluminum and plastic alternatives.",
-    "specs": [
-      { "value": "\u00b10.05", "unit": "mm", "label": "Achievable Tolerances" },
-      { "value": "1M+", "unit": "", "label": "Shots Per Die" },
-      { "value": "10\u201345", "unit": "sec", "label": "Cycle Times" },
-      { "value": "0.8", "unit": "Ra \u03bcm", "label": "Surface Finish" }
-    ],
-    "cta": "Material Properties & Comparison"
-  },
+  "industryTags": ["Automotive", "Furniture & Design", "Lighting", "Building & HVAC", "Electronics", "Industrial"],
   "team": {
     "eyebrow": "Your Contacts",
     "heading": "Talk to the people who do the work",
@@ -229,20 +179,18 @@
     "linkedInAriaLabel": "Linimatic on LinkedIn",
     "servicesHeading": "Services",
     "serviceLinks": [
-      "Prototypes",
-      "Casting Foundry",
-      "Post-Processing",
-      "Surface Coating",
-      "Quality Assurance",
-      "Assembly"
+      "Prototyping & Design Review",
+      "Hot-Chamber Die Casting",
+      "CNC Post-Processing",
+      "Surface Treatment & Coating",
+      "Quality & Certification",
+      "Assembly & Supply Chain"
     ],
     "companyHeading": "Company",
     "companyLinks": {
       "aboutUs": "About Us",
       "cases": "Cases",
       "whyZinc": "Why Zinc",
-      "news": "News",
-      "careers": "Careers",
       "zinkers": "Zinkers"
     },
     "contactHeading": "Contact",
@@ -287,5 +235,467 @@
       "toggleAriaLabel": "Toggle marketing cookies",
       "description": "Used to deliver relevant advertisements and track campaign effectiveness."
     }
+  },
+  "services": {
+    "breadcrumb": "Services",
+    "eyebrow": "Full Value Chain",
+    "heading": "Everything under one roof.",
+    "description": "Most foundries cast your part and hand it off. We cast it, machine it, coat it, inspect it, and deliver it \u2014 from a single facility with a single point of contact. No outsourced steps. No quality gaps between suppliers. Faster turnaround and consistent results from first article to millionth.",
+    "valueChainHeading": "From drawing to delivered component",
+    "items": [
+      {
+        "title": "DFM Review & Prototyping",
+        "description": "Send your CAD files. We analyse geometry, simulate fill, and recommend design optimisations. First samples in 3\u20134 weeks, with full DFM feedback within 48 hours.",
+        "specs": "48h response \u00b7 STEP/IGES/Solidworks \u00b7 50\u201310,000 pcs"
+      },
+      {
+        "title": "Hot-Chamber Die Casting",
+        "description": "12 automated machines with robotic extraction running 24 hours. Parts from 1\u2009g to 3\u2009kg in Zamak 2, 3, and 5 with as-cast tolerances to \u00b10.05\u2009mm.",
+        "specs": "80\u2013400T \u00b7 Zamak 2/3/5 \u00b7 \u00b10.05\u2009mm as-cast"
+      },
+      {
+        "title": "CNC Post-Processing",
+        "description": "In-house milling, turning, drilling, threading, and deburring. Parts go from casting to machining without leaving the building \u2014 preserving traceability and cutting lead time.",
+        "specs": "Full CNC \u00b7 Tumbling \u00b7 Tight secondary tolerances"
+      },
+      {
+        "title": "Surface Treatment & Coating",
+        "description": "Chromium plating, powder coating, wet painting, e-coating, and laser engraving. Class\u00a0A cosmetic finishes from a chrome-ready as-cast surface at 0.8\u2009Ra\u2009\u03bcm.",
+        "specs": "Chrome \u00b7 Powder coat \u00b7 Wet paint \u00b7 Laser engrave"
+      },
+      {
+        "title": "Quality & Inspection",
+        "description": "CMM-verified dimensions, SPC-monitored process control, and full PPAP documentation. ISO 9001 certified since 1993 \u2014 over 30 years of audited quality systems.",
+        "specs": "ISO 9001 \u00b7 CMM \u00b7 SPC \u00b7 PPAP \u00b7 Full traceability"
+      },
+      {
+        "title": "Assembly & Supply Chain",
+        "description": "Sub-assembly, insert pressing, and multi-component assembly. Kanban delivery, forecast planning, and consignment stock \u2014 we ship finished products on your schedule.",
+        "specs": "Kanban \u00b7 JIT \u00b7 Forecast planning \u00b7 Custom packaging"
+      }
+    ],
+    "matrixEyebrow": "At a Glance",
+    "matrixHeading": "Capability matrix",
+    "matrixCol1": "Capability",
+    "matrixCol2": "Key Specs",
+    "matrixCol3": "Certifications",
+    "capabilities": [
+      {
+        "service": "Prototyping & DFM",
+        "keySpecs": "First samples in 3\u20134 weeks \u00b7 48h response \u00b7 Mold flow simulation",
+        "certifications": "\u2014"
+      },
+      {
+        "service": "Hot-Chamber Die Casting",
+        "keySpecs": "12 machines, 80\u2013400T \u00b7 Zamak 2/3/5 \u00b7 \u00b10.05\u2009mm \u00b7 1g\u20133kg",
+        "certifications": "ISO 9001"
+      },
+      {
+        "service": "CNC Post-Processing",
+        "keySpecs": "Milling \u00b7 Turning \u00b7 Drilling \u00b7 Threading \u00b7 Deburring",
+        "certifications": "\u2014"
+      },
+      {
+        "service": "Surface Treatment & Coating",
+        "keySpecs": "Chrome \u00b7 Powder coat \u00b7 Wet paint \u00b7 E-coat \u00b7 Laser engrave",
+        "certifications": "\u2014"
+      },
+      {
+        "service": "Quality & Inspection",
+        "keySpecs": "CMM \u00b7 SPC \u00b7 PPAP \u00b7 First article inspection \u00b7 Full traceability",
+        "certifications": "ISO 9001 since 1993"
+      },
+      {
+        "service": "Assembly & Supply Chain",
+        "keySpecs": "Sub-assembly \u00b7 Kanban \u00b7 JIT delivery \u00b7 Custom packaging",
+        "certifications": "\u2014"
+      }
+    ],
+    "diffHeading": "Why the integrated model matters",
+    "diffDescription": "Competitors outsource post-processing, coating, or assembly to third parties. Every handoff introduces delay, variation, and finger-pointing when something goes wrong. Our model eliminates all of that.",
+    "differentiators": [
+      {
+        "title": "Zero Handoffs",
+        "text": "Your part never leaves our facility between casting and shipment. No transport damage, no lost traceability, no communication gaps between suppliers."
+      },
+      {
+        "title": "Consistent Quality",
+        "text": "One quality system governs every step. SPC data from casting feeds directly into machining parameters. Coating specs are verified against the same CMM that checked the casting."
+      },
+      {
+        "title": "Single Responsible Partner",
+        "text": "One purchase order, one point of contact, one company accountable for the finished component. When your production line depends on our parts, that simplicity matters."
+      }
+    ],
+    "ctaHeading": "Bring us your drawing.",
+    "ctaDescription": "Send your CAD files or specifications. We\u2019ll tell you exactly what\u2019s achievable and give you a quote within 48 hours.",
+    "ctaButton": "Get a Quote"
+  },
+  "whyZincPage": {
+    "breadcrumb": "Why Zinc",
+    "eyebrow": "Material Advantage",
+    "heading": "Why zinc die-casting?",
+    "intro": "Zinc die-casting is a high-speed, high-precision manufacturing process that produces net-shape metal components with tolerances to \u00b10.05\u2009mm, chrome-ready surface finish, and cycle times under 45 seconds. It outperforms aluminum and plastic injection moulding in geometric complexity, dimensional accuracy, and cost-efficiency at volume \u2014 delivering stronger parts with longer tool life and less secondary processing. For engineers designing components that demand tight tolerances, thin walls, or Class\u00a0A cosmetic surfaces, zinc is the material that eliminates compromises.",
+    "advantagesHeading": "Six reasons engineers specify zinc",
+    "advantages": [
+      {
+        "value": "\u00b10.05",
+        "unit": "mm",
+        "label": "Achievable Tolerances",
+        "description": "Tighter as-cast accuracy than aluminum or plastic. Many features need no secondary machining at all, reducing cost and lead time."
+      },
+      {
+        "value": "1M+",
+        "unit": "shots",
+        "label": "Die Life",
+        "description": "Zinc dies last 5\u201310\u00d7 longer than aluminum dies. Lower tooling cost per part and fewer production interruptions for tool replacement."
+      },
+      {
+        "value": "10\u201345",
+        "unit": "sec",
+        "label": "Cycle Time",
+        "description": "The fastest metal die-casting process. Hot-chamber technology keeps zinc molten in the machine, eliminating the ladling step that slows aluminum casting."
+      },
+      {
+        "value": "0.8",
+        "unit": "Ra \u03bcm",
+        "label": "Surface Finish",
+        "description": "Chrome-ready straight from the die. No polishing or additional surface preparation needed for decorative finishes."
+      },
+      {
+        "value": "0.6",
+        "unit": "mm",
+        "label": "Minimum Wall Thickness",
+        "description": "Thinner walls than any other metal die-casting process. Enables intricate geometries and lightweight designs impossible in aluminum."
+      },
+      {
+        "value": "100%",
+        "unit": "",
+        "label": "Recyclable",
+        "description": "Zinc is infinitely recyclable with no loss of material properties. Lower melting point means less energy consumed per casting cycle."
+      }
+    ],
+    "comparison": {
+      "heading": "Zinc vs. the alternatives",
+      "description": "Side-by-side comparison of zinc die-casting against aluminum, magnesium, and plastic injection moulding. The data explains why zinc wins when precision, surface quality, and tool economics are the deciding factors.",
+      "headers": ["Property", "Zinc", "Aluminum", "Magnesium", "Plastic"],
+      "rows": [
+        {
+          "property": "Achievable Tolerance",
+          "zinc": "\u00b10.05 mm",
+          "aluminum": "\u00b10.1 mm",
+          "magnesium": "\u00b10.08 mm",
+          "plastic": "\u00b10.1 mm"
+        },
+        {
+          "property": "Die Life (shots)",
+          "zinc": "1M+",
+          "aluminum": "100\u2013200K",
+          "magnesium": "200\u2013300K",
+          "plastic": "500K\u20131M"
+        },
+        {
+          "property": "Cycle Time",
+          "zinc": "10\u201345s",
+          "aluminum": "30\u2013120s",
+          "magnesium": "20\u201360s",
+          "plastic": "15\u201360s"
+        },
+        {
+          "property": "Min. Wall Thickness",
+          "zinc": "0.6 mm",
+          "aluminum": "1.5 mm",
+          "magnesium": "1.0 mm",
+          "plastic": "0.5 mm"
+        },
+        {
+          "property": "Surface Finish (Ra)",
+          "zinc": "0.8 \u03bcm",
+          "aluminum": "1.6 \u03bcm",
+          "magnesium": "1.2 \u03bcm",
+          "plastic": "0.2 \u03bcm"
+        },
+        {
+          "property": "Tensile Strength",
+          "zinc": "280\u2013400 MPa",
+          "aluminum": "150\u2013300 MPa",
+          "magnesium": "200\u2013250 MPa",
+          "plastic": "30\u201380 MPa"
+        },
+        {
+          "property": "Recyclability",
+          "zinc": "100%",
+          "aluminum": "100%",
+          "magnesium": "100%",
+          "plastic": "Limited"
+        }
+      ]
+    },
+    "alloys": {
+      "heading": "Zamak alloy guide",
+      "description": "Zamak alloys are zinc-aluminium alloys optimised for die-casting. The right alloy depends on your part\u2019s mechanical requirements, surface finish needs, and casting complexity. We cast all four standard grades and advise on selection during DFM review.",
+      "colAlloy": "Alloy",
+      "colTensile": "Tensile Strength",
+      "colElongation": "Elongation",
+      "colHardness": "Hardness (Brinell)",
+      "colUse": "Primary Use",
+      "rows": [
+        {
+          "name": "Zamak 2",
+          "tensile": "397 MPa",
+          "elongation": "7%",
+          "hardness": "100",
+          "use": "High-strength structural components, die-cast bearings, heavy-duty hardware"
+        },
+        {
+          "name": "Zamak 3",
+          "tensile": "283 MPa",
+          "elongation": "10%",
+          "hardness": "82",
+          "use": "General purpose \u2014 the most widely cast zinc alloy. Excellent plating characteristics."
+        },
+        {
+          "name": "Zamak 5",
+          "tensile": "331 MPa",
+          "elongation": "7%",
+          "hardness": "91",
+          "use": "Higher strength than Zamak 3 with good ductility. Automotive and industrial components."
+        },
+        {
+          "name": "Zamak 7",
+          "tensile": "283 MPa",
+          "elongation": "13%",
+          "hardness": "80",
+          "use": "Superior casting fluidity for thin-walled and complex-geometry parts. Lower magnesium for ductility."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently asked questions",
+      "items": [
+        {
+          "question": "What is zinc die-casting?",
+          "answer": "Zinc die-casting is a manufacturing process where molten zinc alloy is injected under high pressure into a steel die. The hot-chamber process keeps the alloy molten inside the machine, enabling cycle times as fast as 10 seconds. The result is a net-shape metal component with tight tolerances, excellent surface finish, and high repeatability \u2014 suitable for production volumes from hundreds to millions of parts."
+        },
+        {
+          "question": "Is zinc die-casting stronger than aluminium?",
+          "answer": "Yes, in terms of tensile strength. Zamak alloys range from 283 to 397 MPa, while most die-cast aluminium alloys deliver 150\u2013300 MPa. Zinc also achieves tighter as-cast tolerances (\u00b10.05\u2009mm vs. \u00b10.1\u2009mm) and produces chrome-ready surfaces without secondary polishing. However, aluminium is lighter (2.7 g/cm\u00b3 vs. 6.6 g/cm\u00b3), so the choice depends on whether strength-to-weight ratio or absolute precision is the priority."
+        },
+        {
+          "question": "What is a Zamak alloy?",
+          "answer": "Zamak is a family of zinc-aluminium alloys specifically developed for die-casting. The name comes from the German abbreviations of its constituents: Zink, Aluminium, Magnesium, and Kupfer (copper). The four standard grades \u2014 Zamak 2, 3, 5, and 7 \u2014 offer different balances of strength, ductility, and castability. Zamak 3 is the most widely used, while Zamak 2 provides the highest strength."
+        },
+        {
+          "question": "How much does zinc die-casting cost?",
+          "answer": "Tooling cost depends on part complexity and number of cavities, typically ranging from \u20ac10,000 to \u20ac80,000. However, zinc dies last over 1 million shots \u2014 5\u201310\u00d7 longer than aluminium dies \u2014 dramatically reducing per-part tooling cost at volume. Piece prices depend on part weight, alloy, cycle time, and secondary operations. Send us your drawing for a specific quote \u2014 we respond within 48 hours."
+        },
+        {
+          "question": "What industries use zinc die-casting?",
+          "answer": "Zinc die-cast components are used across automotive (structural and interior parts), furniture and design (visible fittings, handles), lighting (brackets, housings, heat sinks), building and HVAC (window fittings, motor frames), consumer electronics (precision housings), and industrial equipment (ergonomic handles, brackets). Any application requiring tight tolerances, complex geometry, or decorative surface finish is a candidate."
+        },
+        {
+          "question": "Can zinc die-cast parts be chrome plated?",
+          "answer": "Yes, and this is one of zinc\u2019s strongest advantages. Zinc die-castings achieve 0.8\u2009Ra\u2009\u03bcm surface finish straight from the die \u2014 smooth enough for direct chrome plating without intermediate polishing. This makes zinc the preferred material for visible, decorative components in furniture, lighting, and consumer products where a flawless chrome finish is mandatory."
+        },
+        {
+          "question": "Is zinc die-casting environmentally friendly?",
+          "answer": "Zinc is 100% recyclable with no degradation of material properties. Its lower melting point (385\u00b0C vs. 660\u00b0C for aluminium) means less energy per casting cycle. At Linimatic, virtually all casting scrap \u2014 runners, overflows, and reject parts \u2014 is remelted and reused directly in production. We also offer lead-free zinc alloys through our Zinkers product line."
+        },
+        {
+          "question": "What is the difference between zinc and Zamak?",
+          "answer": "Zinc is the base element. Zamak is a specific family of zinc alloys engineered for die-casting, containing precisely controlled amounts of aluminium (3.5\u20134.3%), magnesium, and in some grades, copper. Pure zinc is too soft for most engineering applications \u2014 the alloying elements in Zamak provide the strength, hardness, and castability that make precision die-casting possible."
+        }
+      ]
+    },
+    "ctaHeading": "Still deciding? Talk to our engineers.",
+    "ctaDescription": "We\u2019ll tell you honestly whether zinc is right for your part \u2014 or recommend an alternative if it isn\u2019t. No sales pressure, just engineering expertise.",
+    "ctaButton": "Discuss Your Project"
+  },
+  "aboutPage": {
+    "breadcrumb": "About",
+    "eyebrow": "Since 1967",
+    "heading": "Denmark\u2019s largest dedicated zinc die-casting foundry.",
+    "story": {
+      "p1": "Linimatic was founded in 1967 in Helsinge, North Zealand, with a single purpose: to master zinc die-casting. Not as a sideline to aluminium or plastics, but as the sole focus of the entire operation. Nearly six decades later, that focus has made us Denmark\u2019s largest dedicated zinc foundry \u2014 and the partner manufacturers turn to when the geometry is too complex, the tolerances too tight, or the surface requirements too demanding for other foundries to quote.",
+      "p2": "We built the full value chain under one roof because the alternative \u2014 outsourcing machining to one supplier, coating to another, assembly to a third \u2014 creates gaps. Gaps in quality, gaps in accountability, gaps in delivery schedules. Our model eliminates all of that. One facility, one quality system, one team responsible from first sample to final shipment.",
+      "p3": "\"The best for the most complex\" is not a marketing line. It\u2019s a filter we apply to every investment decision, every hire, every machine purchase. We don\u2019t compete on being the cheapest. We compete on being the partner you trust when the part absolutely has to be right."
+    },
+    "facilityAlt": "Linimatic production facility in Helsinge, Denmark",
+    "stats": [
+      { "value": "1967", "label": "Founded" },
+      { "value": "12M+", "label": "Parts / Year" },
+      { "value": "12", "label": "Die-Cast Machines" },
+      { "value": "ISO 9001", "label": "Since 1993" },
+      { "value": "50+", "label": "Specialists" }
+    ],
+    "certificationsEyebrow": "Standards",
+    "certificationsHeading": "Certifications & compliance",
+    "certifications": [
+      {
+        "name": "ISO 9001 \u2014 Quality Management",
+        "detail": "Certified since 1993 \u2014 over 30 years of independently audited quality management. Covers the complete value chain from incoming material through casting, machining, surface treatment, assembly, and final inspection."
+      },
+      {
+        "name": "Environmental Compliance",
+        "detail": "Compliant with EU environmental regulations including REACH and RoHS. Active waste reduction and energy management programmes. Zinc scrap is recycled directly in production with near-zero material waste."
+      },
+      {
+        "name": "Material Certifications",
+        "detail": "Full material traceability on all Zamak alloys. Incoming material certificates verified against specification. Batch-level traceability from raw material through to finished component."
+      }
+    ],
+    "sustainabilityEyebrow": "Responsibility",
+    "sustainabilityHeading": "Sustainability that\u2019s measured, not claimed",
+    "sustainability": {
+      "p1": "Zinc is infinitely recyclable. At Linimatic, virtually all casting scrap \u2014 runners, overflows, and reject parts \u2014 is remelted and fed back into production. Our closed-loop recycling means near-zero zinc waste leaves the facility. The low melting point of zinc (385\u00b0C vs. 660\u00b0C for aluminium) translates directly to lower energy consumption per casting cycle.",
+      "p2": "We invest in energy-efficient equipment, LED facility lighting, and heat recovery systems. Our lead-free Zinkers product line demonstrates that environmental responsibility and product performance are not trade-offs. For procurement teams with sustainability reporting requirements, we provide verified data on recycling rates, energy consumption, and waste metrics."
+    },
+    "industriesHeading": "Industries we serve",
+    "industries": [
+      {
+        "name": "Furniture & Design",
+        "clients": "Fritz Hansen \u00b7 One Collection \u00b7 Montana \u00b7 HOWE"
+      },
+      {
+        "name": "Lighting",
+        "clients": "Frandsen \u00b7 Belux"
+      },
+      {
+        "name": "Building & HVAC",
+        "clients": "VELUX \u00b7 ClimaWin"
+      },
+      {
+        "name": "Consumer Electronics",
+        "clients": "Bang & Olufsen"
+      },
+      {
+        "name": "Automotive",
+        "clients": "European Tier 1 & 2 suppliers"
+      },
+      {
+        "name": "Industrial & Tools",
+        "clients": "DeWalt \u00b7 Ditlev Burke"
+      }
+    ],
+    "team": {
+      "heading": "Talk to the people who do the work",
+      "description": "No call centres. No account managers who\u2019ve never seen a casting machine. You talk directly to the engineers and specialists who handle your project.",
+      "members": [
+        {
+          "name": "Jan V. J\u00f8rgensen",
+          "role": "Managing Director",
+          "focus": "Strategy & key accounts",
+          "phone": "+45 2343 3667",
+          "email": "jvj@linimatic.dk"
+        },
+        {
+          "name": "Torben M. Jensen",
+          "role": "Technical & Sales",
+          "focus": "DFM review & project engineering",
+          "phone": "+45 5077 0218",
+          "email": "tmj@linimatic.dk"
+        },
+        {
+          "name": "Ren\u00e9 Johnsen",
+          "role": "Technical & Sales",
+          "focus": "New projects & customer support",
+          "phone": "+45 5077 0211",
+          "email": "rj@linimatic.dk"
+        }
+      ]
+    },
+    "ctaHeading": "Visit us in Helsinge.",
+    "ctaDescription": "See the facility, meet the team, and discuss your project face to face. We\u2019re 60\u2009km north of Copenhagen.",
+    "ctaButton": "Get in Touch"
+  },
+  "contactPage": {
+    "breadcrumb": "Contact",
+    "eyebrow": "Get in Touch",
+    "heading": "Let\u2019s discuss your project.",
+    "description": "Send us your drawings or specifications and we\u2019ll respond with a detailed assessment. No generic quotes \u2014 real engineering feedback from the people who will handle your project.",
+    "responsePromise": "Response within 24 hours",
+    "form": {
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "subjectNew": "New Project",
+      "subjectExisting": "Existing Project",
+      "subjectGeneral": "General Inquiry",
+      "volume": "Expected Volume",
+      "volumeSelect": "Select volume range",
+      "volumePrototype": "Prototype (<1,000 pcs)",
+      "volumeLow": "Low volume (1,000\u2013100,000 pcs)",
+      "volumeHigh": "High volume (100,000+ pcs)",
+      "message": "Project Description",
+      "fileUpload": "Technical Drawings",
+      "fileFormats": "STEP \u00b7 IGES \u00b7 Solidworks \u00b7 Parasolid \u00b7 PDF \u00b7 DWG \u00b7 DXF",
+      "submit": "Send Inquiry"
+    },
+    "directContacts": "Direct Contacts",
+    "team": [
+      {
+        "name": "Jan V. J\u00f8rgensen",
+        "role": "Managing Director",
+        "focus": "Strategy & key accounts",
+        "phone": "+45 2343 3667",
+        "email": "jvj@linimatic.dk"
+      },
+      {
+        "name": "Torben M. Jensen",
+        "role": "Technical & Sales",
+        "focus": "DFM review & project engineering",
+        "phone": "+45 5077 0218",
+        "email": "tmj@linimatic.dk"
+      },
+      {
+        "name": "Ren\u00e9 Johnsen",
+        "role": "Technical & Sales",
+        "focus": "New projects & customer support",
+        "phone": "+45 5077 0211",
+        "email": "rj@linimatic.dk"
+      }
+    ],
+    "companyDetails": "Company Details",
+    "hours": "Office Hours",
+    "hoursWeekday": "Monday\u2013Friday: 07:00\u201316:00",
+    "hoursWeekend": "Saturday\u2013Sunday: Closed"
+  },
+  "casesPage": {
+    "breadcrumb": "Cases",
+    "eyebrow": "Case Studies",
+    "heading": "Difficult problems, delivered.",
+    "description": "Every project on this page was one another foundry turned down, deprioritised, or couldn\u2019t hold tolerance on. Complex geometry, demanding surface requirements, and tight production schedules are where we do our best work.",
+    "industries": ["Automotive", "Furniture & Design", "Lighting", "Building & HVAC", "Electronics", "Industrial"],
+    "items": [
+      {
+        "slug": "dewalt",
+        "client": "DeWalt",
+        "title": "Tight-tolerance power tool internals no other foundry would quote",
+        "industry": "Industrial & Tools",
+        "metric": "\u00b10.05\u2009mm tolerances \u00b7 High-volume series",
+        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u201999.2% first-pass yield\u2019 or \u2018X million parts delivered\u2019"
+      },
+      {
+        "slug": "one-collection",
+        "client": "One Collection",
+        "title": "Casting a design icon \u2014 where surface perfection is non-negotiable",
+        "industry": "Furniture & Design",
+        "metric": "Class\u00a0A chrome finish \u00b7 Finn Juhl dining table",
+        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u2018In production since 2005\u2019 or \u2018Zero field returns\u2019"
+      },
+      {
+        "slug": "velux",
+        "client": "VELUX",
+        "title": "Precision motor frames for Europe\u2019s leading skylight manufacturer",
+        "industry": "Building & HVAC",
+        "metric": "Full local value chain \u00b7 Automated production",
+        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u2018X parts per year\u2019 or \u2018Continuous supply since YYYY\u2019"
+      }
+    ],
+    "ctaHeading": "Have a similar challenge?",
+    "ctaDescription": "Send us your drawings and we\u2019ll tell you what\u2019s achievable. The projects others call difficult are the ones we built this company around.",
+    "ctaButton": "Discuss Your Project"
   }
 }

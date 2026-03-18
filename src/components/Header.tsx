@@ -7,13 +7,11 @@ import { useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 
 const serviceKeys = [
-  { key: "prototypesPreSeries", href: "/services/prototypes" },
-  { key: "castingFoundry", href: "/services/casting-foundry" },
-  { key: "castingToolsStorage", href: "/services/casting-tools" },
-  { key: "designOptimization", href: "/services/design-optimization" },
+  { key: "prototyping", href: "/services/prototyping" },
+  { key: "dieCasting", href: "/services/die-casting" },
   { key: "postProcessing", href: "/services/post-processing" },
-  { key: "surfaceCoating", href: "/services/surface-coating" },
-  { key: "qualityAssurance", href: "/services/quality-assurance" },
+  { key: "surfaceTreatment", href: "/services/surface-treatment" },
+  { key: "quality", href: "/services/quality" },
   { key: "assembly", href: "/services/assembly" },
 ];
 

@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
-import { Instrument_Sans, Source_Sans_3, JetBrains_Mono } from "next/font/google";
+import {
+  Instrument_Sans,
+  Source_Sans_3,
+  JetBrains_Mono,
+} from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
@@ -31,7 +35,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Linimatic A/S — Zinc Die-Casting Foundry in Denmark",
+    default: "Linimatic A/S — Denmark's Zinc Die-Casting Experts",
     template: "%s | Linimatic A/S",
   },
   description:
@@ -41,6 +45,36 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_DK",
     siteName: "Linimatic A/S",
+    images: [
+      {
+        url: "/images/og/linimatic-default.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Linimatic A/S — Zinc Die-Casting Foundry in Denmark",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://linimatic.dk/en",
+    languages: {
+      da: "https://linimatic.dk/da",
+      en: "https://linimatic.dk/en",
+      de: "https://linimatic.dk/de",
+      "x-default": "https://linimatic.dk/en",
+    },
   },
 };
 
@@ -54,6 +88,7 @@ const organizationSchema = {
     "Denmark's largest dedicated zinc die-casting foundry. Precision zamak components from prototype to series production since 1967.",
   url: "https://linimatic.dk",
   logo: "https://linimatic.dk/images/brand/linimatic-logo.png",
+  image: "https://linimatic.dk/images/og/linimatic-default.jpg",
   foundingDate: "1967",
   address: {
     "@type": "PostalAddress",
@@ -69,6 +104,7 @@ const organizationSchema = {
     longitude: 12.1648,
   },
   telephone: "+45 4876 4040",
+  email: "info@linimatic.dk",
   vatID: "DK-20254386",
   numberOfEmployees: {
     "@type": "QuantitativeValue",
@@ -82,7 +118,15 @@ const organizationSchema = {
     "Surface treatment",
     "CNC machining",
     "Quality assurance",
+    "Prototyping",
+    "Design for manufacturing",
   ],
+  sameAs: ["https://www.linkedin.com/company/linimatic"],
+  areaServed: {
+    "@type": "GeoShape",
+    name: "Europe",
+  },
+  priceRange: "$$$$",
 };
 
 export function generateStaticParams() {

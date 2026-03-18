@@ -9,14 +9,12 @@
       "contact": "Kontakt"
     },
     "servicesList": {
-      "prototypesPreSeries": "Prototypen & Vorserie",
-      "castingFoundry": "Gießerei",
-      "castingToolsStorage": "Gießwerkzeuge & Lagerung",
-      "designOptimization": "Design & Optimierung",
-      "postProcessing": "Nachbearbeitung",
-      "surfaceCoating": "Oberflächenbehandlung",
-      "qualityAssurance": "Qualitätssicherung",
-      "assembly": "Montage"
+      "prototyping": "Prototypen & Designprüfung",
+      "dieCasting": "Warmkammer-Druckguss",
+      "postProcessing": "CNC-Nachbearbeitung",
+      "surfaceTreatment": "Oberflächenbehandlung & Beschichtung",
+      "quality": "Qualität & Zertifizierung",
+      "assembly": "Montage & Lieferkette"
     },
     "allServices": "Alle Leistungen",
     "phone": "+45 4876 4040",
@@ -54,43 +52,43 @@
         "number": "01",
         "label": "Design",
         "title": "DFM-Prüfung & Prototypen",
-        "description": "Senden Sie Ihre CAD-Dateien. Wir prüfen, simulieren und optimieren — erste Muster in 3\u20134 Wochen.",
-        "specs": "48h Antwort \u00b7 Simulationsoptimiert \u00b7 50\u201310.000 Stk."
+        "description": "Senden Sie Ihre CAD-Dateien. Wir prüfen, simulieren und optimieren — erste Muster in 3–4 Wochen.",
+        "specs": "48h Antwort · Simulationsoptimiert · 50–10.000 Stk."
       },
       {
         "number": "02",
         "label": "Gießen",
         "title": "Warmkammer-Druckguss",
         "description": "12 automatisierte Maschinen mit Roboterhandling. Teile von 1\u2009g bis 3\u2009kg, 24-Stunden-Betrieb.",
-        "specs": "80\u2013400T \u00b7 Zamak 2/3/5 \u00b7 \u00b10,05\u2009mm im Guss"
+        "specs": "80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm im Guss"
       },
       {
         "number": "03",
         "label": "Bearbeiten",
         "title": "CNC-Nachbearbeitung",
         "description": "Hauseigenes Fräsen, Drehen, Schleifen und Gewindeschneiden bis zur Endtoleranz.",
-        "specs": "Volle CNC \u00b7 Enge sekundäre Toleranzen"
+        "specs": "Volle CNC · Enge sekundäre Toleranzen"
       },
       {
         "number": "04",
         "label": "Finish",
         "title": "Oberflächenbehandlung",
         "description": "Von Klasse-A-Kosmetikchrom bis zu funktionalem Korrosionsschutz.",
-        "specs": "Chrom \u00b7 Pulverlack \u00b7 Nasslack \u00b7 Lasergravur"
+        "specs": "Chrom · Pulverlack · Nasslack · Lasergravur"
       },
       {
         "number": "05",
         "label": "Prüfen",
         "title": "Qualitätssicherung",
         "description": "Jedes Teil KMG-geprüft und SPC-überwacht, bevor es das Haus verlässt.",
-        "specs": "ISO 9001 seit '93 \u00b7 KMG \u00b7 SPC \u00b7 PPAP"
+        "specs": "ISO 9001 seit '93 · KMG · SPC · PPAP"
       },
       {
         "number": "06",
         "label": "Liefern",
         "title": "Montage & Versorgung",
         "description": "Wir liefern fertige Produkte nach Ihrem Zeitplan, nicht lose Teile.",
-        "specs": "Kanban \u00b7 Forecast-Planung \u00b7 Fertigware"
+        "specs": "Kanban · Forecast-Planung · Fertigware"
       }
     ],
     "cta": "Mit einer Zeichnung starten",
@@ -104,79 +102,31 @@
       {
         "title": "Engtolerierte Elektrowerkzeug-Innenteile, die keine andere Gießerei anbieten wollte",
         "client": "DeWalt",
-        "metric": "\u00b10,05\u2009mm Toleranzen \u00b7 Großserien-Produktion",
-        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. \u201999,2\u2009% Erstdurchlauf-Ausbeute\u2019 oder \u2018X Mio. Teile geliefert\u2019"
+        "metric": "\u00b10,05\u2009mm Toleranzen · Großserien-Produktion",
+        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. '99,2\u2009% Erstdurchlauf-Ausbeute' oder 'X Mio. Teile geliefert'"
       },
       {
         "title": "Guss einer Designikone — wo Oberflächenperfektion nicht verhandelbar ist",
         "client": "One Collection",
-        "metric": "Klasse-A-Verchromung \u00b7 Finn-Juhl-Esstisch",
-        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. \u2018In Produktion seit 2005\u2019 oder \u2018Null Reklamationen\u2019"
+        "metric": "Klasse-A-Verchromung · Finn-Juhl-Esstisch",
+        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. 'In Produktion seit 2005' oder 'Null Reklamationen'"
       },
       {
         "title": "Präzisions-Motorrahmen für Europas führenden Dachfensterhersteller",
         "client": "VELUX",
-        "metric": "Komplette lokale Wertschöpfungskette \u00b7 Automatisierte Produktion",
-        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. \u2018X Teile pro Jahr\u2019 oder \u2018Kontinuierliche Belieferung seit JJJJ\u2019"
+        "metric": "Komplette lokale Wertschöpfungskette · Automatisierte Produktion",
+        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. 'X Teile pro Jahr' oder 'Kontinuierliche Belieferung seit JJJJ'"
       }
     ]
   },
-  "industries": {
-    "eyebrow": "Branchen",
-    "heading": "Vertraut in allen Sektoren",
-    "description": "Über 55 Jahre Zinkdruckguss für Branchen, in denen Präzision, Oberflächenqualität und Zuverlässigkeit unverzichtbar sind.",
-    "items": [
-      {
-        "name": "Möbel & Design",
-        "description": "Sichtbare Beschläge und Strukturbauteile für führende skandinavische Designmarken.",
-        "clients": "Fritz Hansen \u00b7 One Collection \u00b7 Montana \u00b7 HOWE"
-      },
-      {
-        "name": "Beleuchtung",
-        "description": "Präzisionsbeschläge, Gehäuse und Kühlkörper für Architektur- und Konsumentenbeleuchtung.",
-        "clients": "Frandsen \u00b7 Belux"
-      },
-      {
-        "name": "Bau & HVAC",
-        "description": "Motorrahmen, Fensterbeschläge und Lüftungskomponenten für lange Lebensdauer.",
-        "clients": "VELUX \u00b7 ClimaWin"
-      },
-      {
-        "name": "Unterhaltungselektronik",
-        "description": "Kosmetische und funktionale Gehäuse, bei denen Oberflächenqualität auf Maßpräzision trifft.",
-        "clients": "Bang & Olufsen"
-      },
-      {
-        "name": "Automotive",
-        "description": "Strukturelle und Innenraum-Komponenten, die automotive Qualitäts- und Rückverfolgbarkeitsstandards erfüllen.",
-        "clients": "Europäische Tier-1- & Tier-2-Zulieferer"
-      },
-      {
-        "name": "Industrie & Werkzeuge",
-        "description": "Ergonomische Griffe, Halterungen und mechanische Komponenten für professionelle Ausrüstung.",
-        "clients": "DeWalt \u00b7 Ditlev Burke"
-      }
-    ]
-  },
-  "whyZinc": {
-    "eyebrow": "Materialvorteil",
-    "heading": "Warum Zinkdruckguss?",
-    "description": "Überlegene Präzision, längere Werkzeugstandzeit, schnellere Produktionszyklen und außergewöhnliche Oberflächenqualität — besser als Aluminium- und Kunststoffalternativen.",
-    "specs": [
-      { "value": "\u00b10,05", "unit": "mm", "label": "Erreichbare Toleranzen" },
-      { "value": "1M+", "unit": "", "label": "Schuss pro Werkzeug" },
-      { "value": "10\u201345", "unit": "Sek.", "label": "Zykluszeiten" },
-      { "value": "0,8", "unit": "Ra \u03bcm", "label": "Oberflächengüte" }
-    ],
-    "cta": "Materialeigenschaften & Vergleich"
-  },
+  "industryTags": ["Automotive", "Möbel & Design", "Beleuchtung", "Bau & HVAC", "Elektronik", "Industrie"],
   "team": {
     "eyebrow": "Ihre Ansprechpartner",
     "heading": "Sprechen Sie mit den Menschen, die die Arbeit machen",
     "description": "Keine Callcenter. Keine Account Manager, die noch nie eine Gießmaschine gesehen haben. Sie sprechen direkt mit den Ingenieuren und Spezialisten, die Ihr Projekt betreuen.",
     "members": [
       {
-        "name": "Jan V. J\u00f8rgensen",
+        "name": "Jan V. Jørgensen",
         "role": "Geschäftsführer",
         "focus": "Strategie & Schlüsselkunden",
         "phone": "+45 2343 3667",
@@ -190,7 +140,7 @@
         "email": "tmj@linimatic.dk"
       },
       {
-        "name": "Ren\u00e9 Johnsen",
+        "name": "René Johnsen",
         "role": "Technik & Vertrieb",
         "focus": "Neue Projekte & Kundenbetreuung",
         "phone": "+45 5077 0211",
@@ -229,20 +179,18 @@
     "linkedInAriaLabel": "Linimatic auf LinkedIn",
     "servicesHeading": "Leistungen",
     "serviceLinks": [
-      "Prototypen",
-      "Gießerei",
-      "Nachbearbeitung",
-      "Oberflächenbehandlung",
-      "Qualitätssicherung",
-      "Montage"
+      "Prototypen & Designprüfung",
+      "Warmkammer-Druckguss",
+      "CNC-Nachbearbeitung",
+      "Oberflächenbehandlung & Beschichtung",
+      "Qualität & Zertifizierung",
+      "Montage & Lieferkette"
     ],
     "companyHeading": "Unternehmen",
     "companyLinks": {
       "aboutUs": "Über uns",
       "cases": "Referenzen",
       "whyZinc": "Warum Zink",
-      "news": "Neuigkeiten",
-      "careers": "Karriere",
       "zinkers": "Zinkers"
     },
     "contactHeading": "Kontakt",
@@ -253,7 +201,7 @@
     },
     "phone": "+45 4876 4040",
     "email": "info@linimatic.dk",
-    "copyright": "\u00a9 {year} Linimatic A/S \u00b7 USt-IdNr. DK-20254386",
+    "copyright": "\u00a9 {year} Linimatic A/S · USt-IdNr. DK-20254386",
     "privacy": "Datenschutz",
     "cookies": "Cookies"
   },
@@ -287,5 +235,467 @@
       "toggleAriaLabel": "Marketing-Cookies umschalten",
       "description": "Werden verwendet, um relevante Werbung zu zeigen und die Kampagneneffektivität zu messen."
     }
+  },
+  "services": {
+    "breadcrumb": "Leistungen",
+    "eyebrow": "Komplette Wertschöpfungskette",
+    "heading": "Alles unter einem Dach.",
+    "description": "Most foundries cast your part and hand it off. We cast it, machine it, coat it, inspect it, and deliver it — from a single facility with a single point of contact. No outsourced steps. No quality gaps between suppliers. Faster turnaround and consistent results from first article to millionth.",
+    "valueChainHeading": "Von der Zeichnung zum fertigen Bauteil",
+    "items": [
+      {
+        "title": "DFM-Prüfung & Prototypen",
+        "description": "Send your CAD files. We analyse geometry, simulate fill, and recommend design optimisations. First samples in 3–4 weeks, with full DFM feedback within 48 hours.",
+        "specs": "48h Antwort · STEP/IGES/Solidworks · 50–10.000 Stk."
+      },
+      {
+        "title": "Warmkammer-Druckguss",
+        "description": "12 automated machines with robotic extraction running 24 hours. Parts from 1\u2009g to 3\u2009kg in Zamak 2, 3, and 5 with as-cast tolerances to \u00b10.05\u2009mm.",
+        "specs": "80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm im Guss"
+      },
+      {
+        "title": "CNC-Nachbearbeitung",
+        "description": "In-house milling, turning, drilling, threading, and deburring. Parts go from casting to machining without leaving the building — preserving traceability and cutting lead time.",
+        "specs": "Volle CNC · Gleitschleifen · Enge sekundäre Toleranzen"
+      },
+      {
+        "title": "Oberflächenbehandlung & Beschichtung",
+        "description": "Chromium plating, powder coating, wet painting, e-coating, and laser engraving. Class\u00a0A cosmetic finishes from a chrome-ready as-cast surface at 0.8\u2009Ra\u2009\u03bcm.",
+        "specs": "Chrom · Pulverlack · Nasslack · Lasergravur"
+      },
+      {
+        "title": "Qualität & Inspektion",
+        "description": "CMM-verified dimensions, SPC-monitored process control, and full PPAP documentation. ISO 9001 certified since 1993 — over 30 years of audited quality systems.",
+        "specs": "ISO 9001 · KMG · SPC · PPAP · Volle Rückverfolgbarkeit"
+      },
+      {
+        "title": "Montage & Lieferkette",
+        "description": "Sub-assembly, insert pressing, and multi-component assembly. Kanban delivery, forecast planning, and consignment stock — we ship finished products on your schedule.",
+        "specs": "Kanban · JIT · Forecast-Planung · Sonderverpackung"
+      }
+    ],
+    "matrixEyebrow": "Auf einen Blick",
+    "matrixHeading": "Fähigkeitenmatrix",
+    "matrixCol1": "Fähigkeit",
+    "matrixCol2": "Schlüsselspezifikationen",
+    "matrixCol3": "Zertifizierungen",
+    "capabilities": [
+      {
+        "service": "Prototypen & DFM",
+        "keySpecs": "Erste Muster in 3–4 Wochen · 48h Antwort · Formfüllungssimulation",
+        "certifications": "—"
+      },
+      {
+        "service": "Warmkammer-Druckguss",
+        "keySpecs": "12 Maschinen, 80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm · 1g–3kg",
+        "certifications": "ISO 9001"
+      },
+      {
+        "service": "CNC-Nachbearbeitung",
+        "keySpecs": "Fräsen · Drehen · Bohren · Gewindeschneiden · Entgraten",
+        "certifications": "—"
+      },
+      {
+        "service": "Oberflächenbehandlung & Beschichtung",
+        "keySpecs": "Chrom · Pulverlack · Nasslack · E-Coat · Lasergravur",
+        "certifications": "—"
+      },
+      {
+        "service": "Qualität & Inspektion",
+        "keySpecs": "KMG · SPC · PPAP · Erstmusterprüfung · Volle Rückverfolgbarkeit",
+        "certifications": "ISO 9001 seit 1993"
+      },
+      {
+        "service": "Montage & Lieferkette",
+        "keySpecs": "Unterbaugruppen · Kanban · JIT-Lieferung · Sonderverpackung",
+        "certifications": "—"
+      }
+    ],
+    "diffHeading": "Warum das integrierte Modell zählt",
+    "diffDescription": "Competitors outsource post-processing, coating, or assembly to third parties. Every handoff introduces delay, variation, and finger-pointing when something goes wrong. Our model eliminates all of that.",
+    "differentiators": [
+      {
+        "title": "Keine Zwischenstationen",
+        "text": "Your part never leaves our facility between casting and shipment. No transport damage, no lost traceability, no communication gaps between suppliers."
+      },
+      {
+        "title": "Gleichbleibende Qualität",
+        "text": "One quality system governs every step. SPC data from casting feeds directly into machining parameters. Coating specs are verified against the same CMM that checked the casting."
+      },
+      {
+        "title": "Ein verantwortlicher Partner",
+        "text": "One purchase order, one point of contact, one company accountable for the finished component. When your production line depends on our parts, that simplicity matters."
+      }
+    ],
+    "ctaHeading": "Bringen Sie uns Ihre Zeichnung.",
+    "ctaDescription": "Senden Sie Ihre CAD-Dateien oder Spezifikationen. Wir sagen Ihnen genau, was machbar ist, und erstellen Ihnen innerhalb von 48 Stunden ein Angebot.",
+    "ctaButton": "Angebot anfordern"
+  },
+  "whyZincPage": {
+    "breadcrumb": "Warum Zink",
+    "eyebrow": "Materialvorteil",
+    "heading": "Warum Zinkdruckguss?",
+    "intro": "Zinc die-casting is a high-speed, high-precision manufacturing process that produces net-shape metal components with tolerances to \u00b10.05\u2009mm, chrome-ready surface finish, and cycle times under 45 seconds. It outperforms aluminum and plastic injection moulding in geometric complexity, dimensional accuracy, and cost-efficiency at volume — delivering stronger parts with longer tool life and less secondary processing. For engineers designing components that demand tight tolerances, thin walls, or Class\u00a0A cosmetic surfaces, zinc is the material that eliminates compromises.",
+    "advantagesHeading": "Sechs Gründe, warum Ingenieure Zink spezifizieren",
+    "advantages": [
+      {
+        "value": "\u00b10,05",
+        "unit": "mm",
+        "label": "Erreichbare Toleranzen",
+        "description": "Tighter as-cast accuracy than aluminum or plastic. Many features need no secondary machining at all, reducing cost and lead time."
+      },
+      {
+        "value": "1M+",
+        "unit": "Schuss",
+        "label": "Werkzeugstandzeit",
+        "description": "Zinc dies last 5–10\u00d7 longer than aluminum dies. Lower tooling cost per part and fewer production interruptions for tool replacement."
+      },
+      {
+        "value": "10–45",
+        "unit": "Sek.",
+        "label": "Zykluszeit",
+        "description": "The fastest metal die-casting process. Hot-chamber technology keeps zinc molten in the machine, eliminating the ladling step that slows aluminum casting."
+      },
+      {
+        "value": "0,8",
+        "unit": "Ra \u03bcm",
+        "label": "Oberflächengüte",
+        "description": "Chrome-ready straight from the die. No polishing or additional surface preparation needed for decorative finishes."
+      },
+      {
+        "value": "0,6",
+        "unit": "mm",
+        "label": "Minimale Wandstärke",
+        "description": "Thinner walls than any other metal die-casting process. Enables intricate geometries and lightweight designs impossible in aluminum."
+      },
+      {
+        "value": "100%",
+        "unit": "",
+        "label": "Recyclingfähig",
+        "description": "Zinc is infinitely recyclable with no loss of material properties. Lower melting point means less energy consumed per casting cycle."
+      }
+    ],
+    "comparison": {
+      "heading": "Zink vs. die Alternativen",
+      "description": "Side-by-side comparison of zinc die-casting against aluminum, magnesium, and plastic injection moulding. The data explains why zinc wins when precision, surface quality, and tool economics are the deciding factors.",
+      "headers": ["Eigenschaft", "Zink", "Aluminium", "Magnesium", "Kunststoff"],
+      "rows": [
+        {
+          "property": "Erreichbare Toleranz",
+          "zinc": "\u00b10,05 mm",
+          "aluminum": "\u00b10,1 mm",
+          "magnesium": "\u00b10,08 mm",
+          "plastic": "\u00b10,1 mm"
+        },
+        {
+          "property": "Werkzeugstandzeit (Schuss)",
+          "zinc": "1M+",
+          "aluminum": "100–200K",
+          "magnesium": "200–300K",
+          "plastic": "500K–1M"
+        },
+        {
+          "property": "Zykluszeit",
+          "zinc": "10–45s",
+          "aluminum": "30–120s",
+          "magnesium": "20–60s",
+          "plastic": "15–60s"
+        },
+        {
+          "property": "Min. Wandstärke",
+          "zinc": "0,6 mm",
+          "aluminum": "1,5 mm",
+          "magnesium": "1,0 mm",
+          "plastic": "0,5 mm"
+        },
+        {
+          "property": "Oberflächengüte (Ra)",
+          "zinc": "0,8 \u03bcm",
+          "aluminum": "1,6 \u03bcm",
+          "magnesium": "1,2 \u03bcm",
+          "plastic": "0,2 \u03bcm"
+        },
+        {
+          "property": "Zugfestigkeit",
+          "zinc": "280–400 MPa",
+          "aluminum": "150–300 MPa",
+          "magnesium": "200–250 MPa",
+          "plastic": "30–80 MPa"
+        },
+        {
+          "property": "Recyclingfähigkeit",
+          "zinc": "100%",
+          "aluminum": "100%",
+          "magnesium": "100%",
+          "plastic": "Begrenzt"
+        }
+      ]
+    },
+    "alloys": {
+      "heading": "Zamak-Legierungsführer",
+      "description": "Zamak alloys are zinc-aluminium alloys optimised for die-casting. The right alloy depends on your part's mechanical requirements, surface finish needs, and casting complexity. We cast all four standard grades and advise on selection during DFM review.",
+      "colAlloy": "Legierung",
+      "colTensile": "Zugfestigkeit",
+      "colElongation": "Dehnung",
+      "colHardness": "Härte (Brinell)",
+      "colUse": "Primäre Verwendung",
+      "rows": [
+        {
+          "name": "Zamak 2",
+          "tensile": "397 MPa",
+          "elongation": "7%",
+          "hardness": "100",
+          "use": "High-strength structural components, die-cast bearings, heavy-duty hardware"
+        },
+        {
+          "name": "Zamak 3",
+          "tensile": "283 MPa",
+          "elongation": "10%",
+          "hardness": "82",
+          "use": "General purpose — the most widely cast zinc alloy. Excellent plating characteristics."
+        },
+        {
+          "name": "Zamak 5",
+          "tensile": "331 MPa",
+          "elongation": "7%",
+          "hardness": "91",
+          "use": "Higher strength than Zamak 3 with good ductility. Automotive and industrial components."
+        },
+        {
+          "name": "Zamak 7",
+          "tensile": "283 MPa",
+          "elongation": "13%",
+          "hardness": "80",
+          "use": "Superior casting fluidity for thin-walled and complex-geometry parts. Lower magnesium for ductility."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Häufig gestellte Fragen",
+      "items": [
+        {
+          "question": "Was ist Zinkdruckguss?",
+          "answer": "Zinc die-casting is a manufacturing process where molten zinc alloy is injected under high pressure into a steel die. The hot-chamber process keeps the alloy molten inside the machine, enabling cycle times as fast as 10 seconds. The result is a net-shape metal component with tight tolerances, excellent surface finish, and high repeatability — suitable for production volumes from hundreds to millions of parts."
+        },
+        {
+          "question": "Ist Zinkdruckguss stärker als Aluminium?",
+          "answer": "Yes, in terms of tensile strength. Zamak alloys range from 283 to 397 MPa, while most die-cast aluminium alloys deliver 150–300 MPa. Zinc also achieves tighter as-cast tolerances (\u00b10.05\u2009mm vs. \u00b10.1\u2009mm) and produces chrome-ready surfaces without secondary polishing. However, aluminium is lighter (2.7 g/cm\u00b3 vs. 6.6 g/cm\u00b3), so the choice depends on whether strength-to-weight ratio or absolute precision is the priority."
+        },
+        {
+          "question": "Was ist eine Zamak-Legierung?",
+          "answer": "Zamak is a family of zinc-aluminium alloys specifically developed for die-casting. The name comes from the German abbreviations of its constituents: Zink, Aluminium, Magnesium, and Kupfer (copper). The four standard grades — Zamak 2, 3, 5, and 7 — offer different balances of strength, ductility, and castability. Zamak 3 is the most widely used, while Zamak 2 provides the highest strength."
+        },
+        {
+          "question": "Was kostet Zinkdruckguss?",
+          "answer": "Tooling cost depends on part complexity and number of cavities, typically ranging from \u20ac10,000 to \u20ac80,000. However, zinc dies last over 1 million shots — 5–10\u00d7 longer than aluminium dies — dramatically reducing per-part tooling cost at volume. Piece prices depend on part weight, alloy, cycle time, and secondary operations. Send us your drawing for a specific quote — we respond within 48 hours."
+        },
+        {
+          "question": "Welche Industrien nutzen Zinkdruckguss?",
+          "answer": "Zinc die-cast components are used across automotive (structural and interior parts), furniture and design (visible fittings, handles), lighting (brackets, housings, heat sinks), building and HVAC (window fittings, motor frames), consumer electronics (precision housings), and industrial equipment (ergonomic handles, brackets). Any application requiring tight tolerances, complex geometry, or decorative surface finish is a candidate."
+        },
+        {
+          "question": "Können Zinkdruckgussteile verchromt werden?",
+          "answer": "Yes, and this is one of zinc's strongest advantages. Zinc die-castings achieve 0.8\u2009Ra\u2009\u03bcm surface finish straight from the die — smooth enough for direct chrome plating without intermediate polishing. This makes zinc the preferred material for visible, decorative components in furniture, lighting, and consumer products where a flawless chrome finish is mandatory."
+        },
+        {
+          "question": "Ist Zinkdruckguss umweltfreundlich?",
+          "answer": "Zinc is 100% recyclable with no degradation of material properties. Its lower melting point (385\u00b0C vs. 660\u00b0C for aluminium) means less energy per casting cycle. At Linimatic, virtually all casting scrap — runners, overflows, and reject parts — is remelted and reused directly in production. We also offer lead-free zinc alloys through our Zinkers product line."
+        },
+        {
+          "question": "Was ist der Unterschied zwischen Zink und Zamak?",
+          "answer": "Zinc is the base element. Zamak is a specific family of zinc alloys engineered for die-casting, containing precisely controlled amounts of aluminium (3.5–4.3%), magnesium, and in some grades, copper. Pure zinc is too soft for most engineering applications — the alloying elements in Zamak provide the strength, hardness, and castability that make precision die-casting possible."
+        }
+      ]
+    },
+    "ctaHeading": "Noch unentschieden? Sprechen Sie mit unseren Ingenieuren.",
+    "ctaDescription": "Wir sagen Ihnen ehrlich, ob Zink für Ihr Bauteil richtig ist — oder empfehlen eine Alternative, wenn nicht. Kein Verkaufsdruck, nur Ingenieurkompetenz.",
+    "ctaButton": "Projekt besprechen"
+  },
+  "aboutPage": {
+    "breadcrumb": "Über uns",
+    "eyebrow": "Seit 1967",
+    "heading": "Dänemarks größte spezialisierte Zinkdruckgießerei.",
+    "story": {
+      "p1": "Linimatic was founded in 1967 in Helsinge, North Zealand, with a single purpose: to master zinc die-casting. Not as a sideline to aluminium or plastics, but as the sole focus of the entire operation. Nearly six decades later, that focus has made us Denmark's largest dedicated zinc foundry — and the partner manufacturers turn to when the geometry is too complex, the tolerances too tight, or the surface requirements too demanding for other foundries to quote.",
+      "p2": "We built the full value chain under one roof because the alternative — outsourcing machining to one supplier, coating to another, assembly to a third — creates gaps. Gaps in quality, gaps in accountability, gaps in delivery schedules. Our model eliminates all of that. One facility, one quality system, one team responsible from first sample to final shipment.",
+      "p3": "\"The best for the most complex\" is not a marketing line. It's a filter we apply to every investment decision, every hire, every machine purchase. We don't compete on being the cheapest. We compete on being the partner you trust when the part absolutely has to be right."
+    },
+    "facilityAlt": "Linimatic Produktionsstätte in Helsinge, Dänemark",
+    "stats": [
+      { "value": "1967", "label": "Gegründet" },
+      { "value": "12M+", "label": "Teile / Jahr" },
+      { "value": "12", "label": "Druckgussmaschinen" },
+      { "value": "ISO 9001", "label": "Seit 1993" },
+      { "value": "50+", "label": "Spezialisten" }
+    ],
+    "certificationsEyebrow": "Standards",
+    "certificationsHeading": "Zertifizierungen & Compliance",
+    "certifications": [
+      {
+        "name": "ISO 9001 — Qualitätsmanagement",
+        "detail": "Certified since 1993 — over 30 years of independently audited quality management. Covers the complete value chain from incoming material through casting, machining, surface treatment, assembly, and final inspection."
+      },
+      {
+        "name": "Umwelt-Compliance",
+        "detail": "Compliant with EU environmental regulations including REACH and RoHS. Active waste reduction and energy management programmes. Zinc scrap is recycled directly in production with near-zero material waste."
+      },
+      {
+        "name": "Materialzertifizierungen",
+        "detail": "Full material traceability on all Zamak alloys. Incoming material certificates verified against specification. Batch-level traceability from raw material through to finished component."
+      }
+    ],
+    "sustainabilityEyebrow": "Verantwortung",
+    "sustainabilityHeading": "Nachhaltigkeit, die gemessen wird, nicht behauptet",
+    "sustainability": {
+      "p1": "Zinc is infinitely recyclable. At Linimatic, virtually all casting scrap — runners, overflows, and reject parts — is remelted and fed back into production. Our closed-loop recycling means near-zero zinc waste leaves the facility. The low melting point of zinc (385\u00b0C vs. 660\u00b0C for aluminium) translates directly to lower energy consumption per casting cycle.",
+      "p2": "We invest in energy-efficient equipment, LED facility lighting, and heat recovery systems. Our lead-free Zinkers product line demonstrates that environmental responsibility and product performance are not trade-offs. For procurement teams with sustainability reporting requirements, we provide verified data on recycling rates, energy consumption, and waste metrics."
+    },
+    "industriesHeading": "Branchen, die wir bedienen",
+    "industries": [
+      {
+        "name": "Möbel & Design",
+        "clients": "Fritz Hansen · One Collection · Montana · HOWE"
+      },
+      {
+        "name": "Beleuchtung",
+        "clients": "Frandsen · Belux"
+      },
+      {
+        "name": "Bau & HVAC",
+        "clients": "VELUX · ClimaWin"
+      },
+      {
+        "name": "Unterhaltungselektronik",
+        "clients": "Bang & Olufsen"
+      },
+      {
+        "name": "Automotive",
+        "clients": "Europäische Tier-1- & Tier-2-Zulieferer"
+      },
+      {
+        "name": "Industrie & Werkzeuge",
+        "clients": "DeWalt · Ditlev Burke"
+      }
+    ],
+    "team": {
+      "heading": "Sprechen Sie mit den Menschen, die die Arbeit machen",
+      "description": "Keine Callcenter. Keine Account Manager, die noch nie eine Gießmaschine gesehen haben. Sie sprechen direkt mit den Ingenieuren und Spezialisten, die Ihr Projekt betreuen.",
+      "members": [
+        {
+          "name": "Jan V. Jørgensen",
+          "role": "Geschäftsführer",
+          "focus": "Strategie & Schlüsselkunden",
+          "phone": "+45 2343 3667",
+          "email": "jvj@linimatic.dk"
+        },
+        {
+          "name": "Torben M. Jensen",
+          "role": "Technik & Vertrieb",
+          "focus": "DFM-Prüfung & Projektleitung",
+          "phone": "+45 5077 0218",
+          "email": "tmj@linimatic.dk"
+        },
+        {
+          "name": "René Johnsen",
+          "role": "Technik & Vertrieb",
+          "focus": "Neue Projekte & Kundenbetreuung",
+          "phone": "+45 5077 0211",
+          "email": "rj@linimatic.dk"
+        }
+      ]
+    },
+    "ctaHeading": "Besuchen Sie uns in Helsinge.",
+    "ctaDescription": "Besichtigen Sie die Anlage, treffen Sie das Team und besprechen Sie Ihr Projekt persönlich. Wir sind 60\u2009km nördlich von Kopenhagen.",
+    "ctaButton": "Kontakt aufnehmen"
+  },
+  "contactPage": {
+    "breadcrumb": "Kontakt",
+    "eyebrow": "Kontakt aufnehmen",
+    "heading": "Lassen Sie uns Ihr Projekt besprechen.",
+    "description": "Senden Sie uns Ihre Zeichnungen oder Spezifikationen und wir antworten mit einer detaillierten Bewertung. Keine generischen Angebote — echtes Ingenieur-Feedback von den Menschen, die Ihr Projekt betreuen.",
+    "responsePromise": "Antwort innerhalb von 24 Stunden",
+    "form": {
+      "name": "Name",
+      "company": "Unternehmen",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "subject": "Betreff",
+      "subjectNew": "Neues Projekt",
+      "subjectExisting": "Bestehendes Projekt",
+      "subjectGeneral": "Allgemeine Anfrage",
+      "volume": "Erwartetes Volumen",
+      "volumeSelect": "Volumenbereich wählen",
+      "volumePrototype": "Prototyp (<1.000 Stk.)",
+      "volumeLow": "Kleinserie (1.000–100.000 Stk.)",
+      "volumeHigh": "Großserie (100.000+ Stk.)",
+      "message": "Projektbeschreibung",
+      "fileUpload": "Technische Zeichnungen",
+      "fileFormats": "STEP · IGES · Solidworks · Parasolid · PDF · DWG · DXF",
+      "submit": "Anfrage senden"
+    },
+    "directContacts": "Direkte Ansprechpartner",
+    "team": [
+      {
+        "name": "Jan V. Jørgensen",
+        "role": "Geschäftsführer",
+        "focus": "Strategie & Schlüsselkunden",
+        "phone": "+45 2343 3667",
+        "email": "jvj@linimatic.dk"
+      },
+      {
+        "name": "Torben M. Jensen",
+        "role": "Technik & Vertrieb",
+        "focus": "DFM-Prüfung & Projektleitung",
+        "phone": "+45 5077 0218",
+        "email": "tmj@linimatic.dk"
+      },
+      {
+        "name": "René Johnsen",
+        "role": "Technik & Vertrieb",
+        "focus": "Neue Projekte & Kundenbetreuung",
+        "phone": "+45 5077 0211",
+        "email": "rj@linimatic.dk"
+      }
+    ],
+    "companyDetails": "Firmenangaben",
+    "hours": "Öffnungszeiten",
+    "hoursWeekday": "Montag–Freitag: 07:00–16:00",
+    "hoursWeekend": "Samstag–Sonntag: Geschlossen"
+  },
+  "casesPage": {
+    "breadcrumb": "Referenzen",
+    "eyebrow": "Referenzen",
+    "heading": "Schwierige Aufgaben, geliefert.",
+    "description": "Every project on this page was one another foundry turned down, deprioritised, or couldn't hold tolerance on. Complex geometry, demanding surface requirements, and tight production schedules are where we do our best work.",
+    "industries": ["Automotive", "Möbel & Design", "Beleuchtung", "Bau & HVAC", "Elektronik", "Industrie"],
+    "items": [
+      {
+        "slug": "dewalt",
+        "client": "DeWalt",
+        "title": "Engtolerierte Elektrowerkzeug-Innenteile, die keine andere Gießerei anbieten wollte",
+        "industry": "Industrie & Werkzeuge",
+        "metric": "\u00b10,05\u2009mm Toleranzen · Großserien-Produktion",
+        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. '99,2\u2009% Erstdurchlauf-Ausbeute' oder 'X Mio. Teile geliefert'"
+      },
+      {
+        "slug": "one-collection",
+        "client": "One Collection",
+        "title": "Guss einer Designikone — wo Oberflächenperfektion nicht verhandelbar ist",
+        "industry": "Möbel & Design",
+        "metric": "Klasse-A-Verchromung · Finn-Juhl-Esstisch",
+        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. 'In Produktion seit 2005' oder 'Null Reklamationen'"
+      },
+      {
+        "slug": "velux",
+        "client": "VELUX",
+        "title": "Präzisions-Motorrahmen für Europas führenden Dachfensterhersteller",
+        "industry": "Bau & HVAC",
+        "metric": "Komplette lokale Wertschöpfungskette · Automatisierte Produktion",
+        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. 'X Teile pro Jahr' oder 'Kontinuierliche Belieferung seit JJJJ'"
+      }
+    ],
+    "ctaHeading": "Haben Sie eine ähnliche Herausforderung?",
+    "ctaDescription": "Senden Sie uns Ihre Zeichnungen und wir sagen Ihnen, was machbar ist. Die Projekte, die andere als schwierig bezeichnen, sind die, für die wir dieses Unternehmen aufgebaut haben.",
+    "ctaButton": "Projekt besprechen"
   }
 }

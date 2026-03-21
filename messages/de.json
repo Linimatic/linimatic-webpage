@@ -1,4 +1,7 @@
 {
+  "navigation": {
+    "home": "Startseite"
+  },
   "header": {
     "logoAlt": "Linimatic — Innovativer Zinkdruckguss",
     "nav": {
@@ -32,7 +35,7 @@
     "tagline": "Das Beste für das Komplexeste.",
     "description": "Dänemarks größte spezialisierte Zinkdruckgießerei. Von einfachen Halterungen bis zu den anspruchsvollsten Geometrien — die Teile, die andere nicht können — Toleranzen bis \u00b10,05\u00a0mm, mit Guss, Bearbeitung, Beschichtung und Montage unter einem Dach.",
     "heroImageAlt": "Präzisions-Zinkdruckgussform mit Messinganschlüssen",
-    "ctaPrimary": "Stellen Sie uns Ihre Herausforderung",
+    "ctaPrimary": "Bringen Sie uns Ihre Herausforderung",
     "ctaSecondary": "Unsere Leistungen"
   },
   "stats": {
@@ -72,7 +75,7 @@
       },
       {
         "number": "04",
-        "label": "Finish",
+        "label": "Veredeln",
         "title": "Oberflächenbehandlung",
         "description": "Von Klasse-A-Kosmetikchrom bis zu funktionalem Korrosionsschutz.",
         "specs": "Chrom · Pulverlack · Nasslack · Lasergravur"
@@ -150,7 +153,7 @@
     ]
   },
   "clients": {
-    "trustedBy": "Vertraut von",
+    "trustedBy": "Das Vertrauen von",
     "testimonial": {
       "quote": "PLATZHALTER: Fügen Sie hier ein echtes Kundenzitat ein. Idealerweise von einem technischen Leiter oder Einkaufsverantwortlichen eines namentlich genannten Kunden — über Linimatics Fähigkeit, komplexe Geometrien zu bewältigen, ihre Zuverlässigkeit oder den Vorteil der kompletten Wertschöpfungskette.",
       "author": "PLATZHALTER: Kundenname",
@@ -338,49 +341,49 @@
     "eyebrow": "Materialvorteil",
     "heading": "Warum Zinkdruckguss?",
     "heroImageAlt": "Zwei Zinkdruckgussteile mit verchromter und pulverbeschichteter Oberfläche",
-    "intro": "Zinc die-casting is a high-speed, high-precision manufacturing process that produces net-shape metal components with tolerances to \u00b10.05\u2009mm, chrome-ready surface finish, and cycle times under 45 seconds. It outperforms aluminum and plastic injection moulding in geometric complexity, dimensional accuracy, and cost-efficiency at volume — delivering stronger parts with longer tool life and less secondary processing. For engineers designing components that demand tight tolerances, thin walls, or Class\u00a0A cosmetic surfaces, zinc is the material that eliminates compromises.",
+    "intro": "Zinkdruckguss ist ein hochgeschwindigkeits- und hochpräzises Fertigungsverfahren, das endkonturnahe Metallbauteile mit Toleranzen bis ±0,05\u2009mm, chromierferter Oberfläche und Zykluszeiten unter 45 Sekunden produziert. In geometrischer Komplexität, Maßhaltigkeit und Kosteneffizienz bei großen Stückzahlen übertrifft Zink sowohl Aluminium als auch Kunststoff-Spritzguss — mit festeren Bauteilen, längerer Werkzeugstandzeit und weniger Nachbearbeitungsaufwand. Für Konstrukteure, die Bauteile mit engen Toleranzen, dünnen Wänden oder Klasse-A-Oberflächen entwickeln, ist Zink das Material, das Kompromisse überflüssig macht.",
     "advantagesHeading": "Sechs Gründe, warum Ingenieure Zink spezifizieren",
     "advantages": [
       {
         "value": "\u00b10,05",
         "unit": "mm",
         "label": "Erreichbare Toleranzen",
-        "description": "Tighter as-cast accuracy than aluminum or plastic. Many features need no secondary machining at all, reducing cost and lead time."
+        "description": "Höhere Gussmaßgenauigkeit als bei Aluminium oder Kunststoff. Viele Merkmale benötigen keinerlei Nachbearbeitung, was Kosten und Lieferzeit reduziert."
       },
       {
         "value": "1M+",
         "unit": "Schuss",
         "label": "Werkzeugstandzeit",
-        "description": "Zinc dies last 5–10\u00d7 longer than aluminum dies. Lower tooling cost per part and fewer production interruptions for tool replacement."
+        "description": "Zinkdruckguss-Werkzeuge halten 5–10-mal länger als Aluminium-Werkzeuge. Niedrigere Werkzeugkosten pro Bauteil und weniger Produktionsunterbrechungen durch Werkzeugwechsel."
       },
       {
         "value": "10–45",
         "unit": "Sek.",
         "label": "Zykluszeit",
-        "description": "The fastest metal die-casting process. Hot-chamber technology keeps zinc molten in the machine, eliminating the ladling step that slows aluminum casting."
+        "description": "Das schnellste metallische Druckgussverfahren. Die Warmkammer-Technologie hält Zink geschmolzen in der Maschine und eliminiert den Schöpfschritt, der Aluminium-Guss verlangsamt."
       },
       {
         "value": "0,8",
         "unit": "Ra \u03bcm",
         "label": "Oberflächengüte",
-        "description": "Chrome-ready straight from the die. No polishing or additional surface preparation needed for decorative finishes."
+        "description": "Direkt aus dem Werkzeug chromierbereit. Kein Polieren oder zusätzliche Oberflächenvorbereitung für dekorative Veredelungen erforderlich."
       },
       {
         "value": "0,6",
         "unit": "mm",
         "label": "Minimale Wandstärke",
-        "description": "Thinner walls than any other metal die-casting process. Enables intricate geometries and lightweight designs impossible in aluminum."
+        "description": "Dünnere Wände als bei jedem anderen metallischen Druckgussverfahren. Ermöglicht filigrane Geometrien und Leichtbaukonstruktionen, die in Aluminium nicht realisierbar wären."
       },
       {
         "value": "100%",
         "unit": "",
         "label": "Recyclingfähig",
-        "description": "Zinc is infinitely recyclable with no loss of material properties. Lower melting point means less energy consumed per casting cycle."
+        "description": "Zink ist unendlich oft recyclebar ohne Verlust der Materialeigenschaften. Der niedrigere Schmelzpunkt bedeutet weniger Energieverbrauch pro Gießzyklus."
       }
     ],
     "comparison": {
       "heading": "Zink vs. die Alternativen",
-      "description": "Side-by-side comparison of zinc die-casting against aluminum, magnesium, and plastic injection moulding. The data explains why zinc wins when precision, surface quality, and tool economics are the deciding factors.",
+      "description": "Direkter Vergleich von Zinkdruckguss gegenüber Aluminium, Magnesium und Kunststoff-Spritzguss. Die Daten zeigen, warum Zink die Nase vorn hat, wenn Präzision, Oberflächenqualität und Werkzeugwirtschaftlichkeit die entscheidenden Faktoren sind.",
       "headers": ["Eigenschaft", "Zink", "Aluminium", "Magnesium", "Kunststoff"],
       "rows": [
         {
@@ -435,8 +438,8 @@
       ]
     },
     "alloys": {
-      "heading": "Zamak-Legierungsführer",
-      "description": "Zamak alloys are zinc-aluminium alloys optimised for die-casting. The right alloy depends on your part's mechanical requirements, surface finish needs, and casting complexity. We cast all four standard grades and advise on selection during DFM review.",
+      "heading": "Zamak-Legierungsübersicht",
+      "description": "Zamak-Legierungen sind Zink-Aluminium-Legierungen, die für den Druckguss optimiert sind. Die richtige Legierung hängt von den mechanischen Anforderungen Ihres Bauteils, den Anforderungen an die Oberflächenqualität und der Giesskomplexität ab. Wir gießen alle vier Standardgüten und beraten Sie bei der Auswahl im Rahmen der DFM-Prüfung.",
       "colAlloy": "Legierung",
       "colTensile": "Zugfestigkeit",
       "colElongation": "Dehnung",
@@ -448,28 +451,28 @@
           "tensile": "397 MPa",
           "elongation": "7%",
           "hardness": "100",
-          "use": "High-strength structural components, die-cast bearings, heavy-duty hardware"
+          "use": "Hochfeste Strukturbauteile, Druckguss-Lager, Schwerlast-Beschläge"
         },
         {
           "name": "Zamak 3",
           "tensile": "283 MPa",
           "elongation": "10%",
           "hardness": "82",
-          "use": "General purpose — the most widely cast zinc alloy. Excellent plating characteristics."
+          "use": "Allzweck-Legierung — die am häufigsten vergossene Zinklegierung. Hervorragende Beschichtungseigenschaften."
         },
         {
           "name": "Zamak 5",
           "tensile": "331 MPa",
           "elongation": "7%",
           "hardness": "91",
-          "use": "Higher strength than Zamak 3 with good ductility. Automotive and industrial components."
+          "use": "Höhere Festigkeit als Zamak 3 bei guter Duktilität. Automotive- und Industriebauteile."
         },
         {
           "name": "Zamak 7",
           "tensile": "283 MPa",
           "elongation": "13%",
           "hardness": "80",
-          "use": "Superior casting fluidity for thin-walled and complex-geometry parts. Lower magnesium for ductility."
+          "use": "Überlegene Gießfähigkeit für dünnwandige und geometrisch komplexe Bauteile. Reduzierter Magnesiumanteil für erhöhte Duktilität."
         }
       ]
     },
@@ -478,35 +481,35 @@
       "items": [
         {
           "question": "Was ist Zinkdruckguss?",
-          "answer": "Zinc die-casting is a manufacturing process where molten zinc alloy is injected under high pressure into a steel die. The hot-chamber process keeps the alloy molten inside the machine, enabling cycle times as fast as 10 seconds. The result is a net-shape metal component with tight tolerances, excellent surface finish, and high repeatability — suitable for production volumes from hundreds to millions of parts."
+          "answer": "Zinkdruckguss ist ein Fertigungsverfahren, bei dem flüssige Zinklegierung unter hohem Druck in ein Stahlwerkzeug eingespritzt wird. Die Warmkammer-Technologie hält die Legierung geschmolzen innerhalb der Maschine und ermöglicht Zykluszeiten von bis zu 10 Sekunden. Das Ergebnis ist ein endkonturnahes Metallbauteil mit engen Toleranzen, exzellenter Oberfläche und hoher Wiederholgenauigkeit — geeignet für Produktionsvolumina von Hunderten bis Millionen von Teilen."
         },
         {
           "question": "Ist Zinkdruckguss stärker als Aluminium?",
-          "answer": "Yes, in terms of tensile strength. Zamak alloys range from 283 to 397 MPa, while most die-cast aluminium alloys deliver 150–300 MPa. Zinc also achieves tighter as-cast tolerances (\u00b10.05\u2009mm vs. \u00b10.1\u2009mm) and produces chrome-ready surfaces without secondary polishing. However, aluminium is lighter (2.7 g/cm\u00b3 vs. 6.6 g/cm\u00b3), so the choice depends on whether strength-to-weight ratio or absolute precision is the priority."
+          "answer": "Ja, hinsichtlich der Zugfestigkeit. Zamak-Legierungen erreichen 283 bis 397 MPa, während die meisten Aluminium-Druckgusslegierungen 150–300 MPa liefern. Zink erzielt zudem engere Gussmaßtoleranzen (±0,05\u2009mm gegenüber ±0,1\u2009mm) und liefert chromierfertige Oberflächen ohne Nachpolieren. Aluminium ist jedoch leichter (2,7 g/cm³ gegenüber 6,6 g/cm³), sodass die Wahl davon abhängt, ob Festigkeit-Gewicht-Verhältnis oder absolute Präzision Vorrang hat."
         },
         {
           "question": "Was ist eine Zamak-Legierung?",
-          "answer": "Zamak is a family of zinc-aluminium alloys specifically developed for die-casting. The name comes from the German abbreviations of its constituents: Zink, Aluminium, Magnesium, and Kupfer (copper). The four standard grades — Zamak 2, 3, 5, and 7 — offer different balances of strength, ductility, and castability. Zamak 3 is the most widely used, while Zamak 2 provides the highest strength."
+          "answer": "Zamak ist eine Familie von Zink-Aluminium-Legierungen, die speziell für den Druckguss entwickelt wurden. Der Name leitet sich von den deutschen Anfangsbuchstaben der Bestandteile ab: Zink, Aluminium, Magnesium und Kupfer. Die vier Standardgüten — Zamak 2, 3, 5 und 7 — bieten unterschiedliche Kombinationen aus Festigkeit, Duktilität und Gießbarkeit. Zamak 3 ist die am häufigsten verwendete Legierung, während Zamak 2 die höchste Festigkeit bietet."
         },
         {
           "question": "Was kostet Zinkdruckguss?",
-          "answer": "Tooling cost depends on part complexity and number of cavities, typically ranging from \u20ac10,000 to \u20ac80,000. However, zinc dies last over 1 million shots — 5–10\u00d7 longer than aluminium dies — dramatically reducing per-part tooling cost at volume. Piece prices depend on part weight, alloy, cycle time, and secondary operations. Send us your drawing for a specific quote — we respond within 48 hours."
+          "answer": "Die Werkzeugkosten hängen von der Bauteilkomplexität und der Anzahl der Kavitäten ab und liegen typischerweise zwischen 10.000 und 80.000 Euro. Zinkdruckguss-Werkzeuge halten jedoch über 1 Million Schuss — 5–10-mal länger als Aluminium-Werkzeuge — was die werkzeugbezogenen Stückkosten bei großen Volumina drastisch senkt. Stückpreise hängen von Bauteilgewicht, Legierung, Zykluszeit und Nebenoperationen ab. Senden Sie uns Ihre Zeichnung für ein konkretes Angebot — wir antworten innerhalb von 48 Stunden."
         },
         {
           "question": "Welche Industrien nutzen Zinkdruckguss?",
-          "answer": "Zinc die-cast components are used across automotive (structural and interior parts), furniture and design (visible fittings, handles), lighting (brackets, housings, heat sinks), building and HVAC (window fittings, motor frames), consumer electronics (precision housings), and industrial equipment (ergonomic handles, brackets). Any application requiring tight tolerances, complex geometry, or decorative surface finish is a candidate."
+          "answer": "Zinkdruckguss-Bauteile werden in der Automobilindustrie (Struktur- und Innenteile), im Möbel- und Designbereich (sichtbare Beschläge, Griffe), in der Beleuchtung (Halterungen, Gehäuse, Kühlkörper), im Bau- und HVAC-Bereich (Fensterbeschläge, Motorrahmen), in der Unterhaltungselektronik (Präzisionsgehäuse) sowie in der Investitionsgüterindustrie (ergonomische Griffe, Halterungen) eingesetzt. Jede Anwendung, die enge Toleranzen, komplexe Geometrien oder dekorative Oberflächen erfordert, kommt in Frage."
         },
         {
           "question": "Können Zinkdruckgussteile verchromt werden?",
-          "answer": "Yes, and this is one of zinc's strongest advantages. Zinc die-castings achieve 0.8\u2009Ra\u2009\u03bcm surface finish straight from the die — smooth enough for direct chrome plating without intermediate polishing. This makes zinc the preferred material for visible, decorative components in furniture, lighting, and consumer products where a flawless chrome finish is mandatory."
+          "answer": "Ja, und das ist einer der stärksten Vorteile von Zink. Zinkdruckgussteile erzielen direkt aus dem Werkzeug eine Oberflächengüte von 0,8\u2009Ra\u2009µm — glatt genug für die direkte Verchromung ohne Zwischenpolieren. Das macht Zink zum bevorzugten Werkstoff für sichtbare, dekorative Bauteile in Möbeln, Beleuchtung und Konsumgütern, bei denen ein makelloses Chromfinish unabdingbar ist."
         },
         {
           "question": "Ist Zinkdruckguss umweltfreundlich?",
-          "answer": "Zinc is 100% recyclable with no degradation of material properties. Its lower melting point (385\u00b0C vs. 660\u00b0C for aluminium) means less energy per casting cycle. At Linimatic, virtually all casting scrap — runners, overflows, and reject parts — is remelted and reused directly in production. We also offer lead-free zinc alloys through our Zinkers product line."
+          "answer": "Zink ist zu 100 % recyclebar ohne Beeinträchtigung der Materialeigenschaften. Der niedrigere Schmelzpunkt (385 °C gegenüber 660 °C bei Aluminium) bedeutet weniger Energieverbrauch pro Gießzyklus. Bei Linimatic wird nahezu der gesamte Gussausschuss — Angüsse, Überläufe und Ausschussteile — direkt in der Produktion wieder eingeschmolzen und wiederverwendet. Über unsere Zinkers-Produktlinie bieten wir zudem bleifreie Zinklegierungen an."
         },
         {
           "question": "Was ist der Unterschied zwischen Zink und Zamak?",
-          "answer": "Zinc is the base element. Zamak is a specific family of zinc alloys engineered for die-casting, containing precisely controlled amounts of aluminium (3.5–4.3%), magnesium, and in some grades, copper. Pure zinc is too soft for most engineering applications — the alloying elements in Zamak provide the strength, hardness, and castability that make precision die-casting possible."
+          "answer": "Zink ist das Grundelement. Zamak ist eine spezifische Familie von Zinklegierungen, die für den Druckguss entwickelt wurden und präzise abgestimmte Anteile von Aluminium (3,5–4,3 %), Magnesium und in einigen Güten Kupfer enthalten. Reines Zink ist für die meisten technischen Anwendungen zu weich — die Legierungselemente in Zamak verleihen die Festigkeit, Härte und Gießbarkeit, die Präzisionsdruckguss erst ermöglichen."
         }
       ]
     },
@@ -536,22 +539,22 @@
     "certifications": [
       {
         "name": "ISO 9001 — Qualitätsmanagement",
-        "detail": "Certified since 1993 — over 30 years of independently audited quality management. Covers the complete value chain from incoming material through casting, machining, surface treatment, assembly, and final inspection."
+        "detail": "Zertifiziert seit 1993 — über 30 Jahre unabhängig auditiertes Qualitätsmanagement. Abdeckung der vollständigen Wertschöpfungskette von der Wareneingangskontrolle über Guss, Zerspanung, Oberflächenbehandlung und Montage bis zur Endkontrolle."
       },
       {
         "name": "Umwelt-Compliance",
-        "detail": "Compliant with EU environmental regulations including REACH and RoHS. Active waste reduction and energy management programmes. Zinc scrap is recycled directly in production with near-zero material waste."
+        "detail": "Konform mit EU-Umweltvorschriften, einschließlich REACH und RoHS. Aktive Programme zur Abfallreduzierung und zum Energiemanagement. Zinkschrott wird direkt in der Produktion wiederverwertet — nahezu ohne Materialverlust."
       },
       {
         "name": "Materialzertifizierungen",
-        "detail": "Full material traceability on all Zamak alloys. Incoming material certificates verified against specification. Batch-level traceability from raw material through to finished component."
+        "detail": "Vollständige Materialrückverfolgbarkeit für alle Zamak-Legierungen. Wareneingangszertifikate werden gegen die Spezifikation geprüft. Chargenniveau-Rückverfolgbarkeit vom Rohmaterial bis zum Fertigteil."
       }
     ],
     "sustainabilityEyebrow": "Verantwortung",
     "sustainabilityHeading": "Nachhaltigkeit, die gemessen wird, nicht behauptet",
     "sustainability": {
-      "p1": "Zinc is infinitely recyclable. At Linimatic, virtually all casting scrap — runners, overflows, and reject parts — is remelted and fed back into production. Our closed-loop recycling means near-zero zinc waste leaves the facility. The low melting point of zinc (385\u00b0C vs. 660\u00b0C for aluminium) translates directly to lower energy consumption per casting cycle.",
-      "p2": "We invest in energy-efficient equipment, LED facility lighting, and heat recovery systems. Our lead-free Zinkers product line demonstrates that environmental responsibility and product performance are not trade-offs. For procurement teams with sustainability reporting requirements, we provide verified data on recycling rates, energy consumption, and waste metrics."
+      "p1": "Zink ist unendlich oft recyclebar. Bei Linimatic wird nahezu der gesamte Gussausschuss — Angüsse, Überläufe und Ausschussteile — wieder eingeschmolzen und in die Produktion zurückgeführt. Unser geschlossener Recyclingkreislauf bedeutet, dass kaum Zinkabfall das Werk verlässt. Der niedrige Schmelzpunkt von Zink (385 °C gegenüber 660 °C bei Aluminium) führt direkt zu einem geringeren Energieverbrauch pro Gießzyklus.",
+      "p2": "Wir investieren in energieeffiziente Anlagen, LED-Hallenbeleuchtung und Wärmerückgewinnungssysteme. Unsere bleifreie Zinkers-Produktlinie zeigt, dass Umweltverantwortung und Produktleistung keine Gegensätze sind. Für Einkaufsteams mit Nachhaltigkeitsberichtspflichten stellen wir verifizierte Daten zu Recyclingquoten, Energieverbrauch und Abfallkennzahlen zur Verfügung."
     },
     "industriesHeading": "Vertraut in allen Branchen",
     "industriesDescription": "Zinkdruckguss eignet sich für jede Branche, in der Präzision, Oberflächenqualität und Zuverlässigkeit entscheidend sind. Hier sind einige Sektoren, in denen wir tätig sind\u2009\u2014\u2009aber auch wenn Ihre Branche nicht aufgeführt ist, freuen wir uns auf Ihre Anfrage.",
@@ -635,7 +638,16 @@
       "message": "Projektbeschreibung",
       "fileUpload": "Technische Zeichnungen",
       "fileFormats": "STEP · IGES · Solidworks · Parasolid · PDF · DWG · DXF",
-      "submit": "Anfrage senden"
+      "submit": "Anfrage senden",
+      "sending": "Wird gesendet...",
+      "successTitle": "Nachricht gesendet",
+      "successMessage": "Vielen Dank für Ihre Anfrage. Wir antworten innerhalb von 24 Stunden an Werktagen.",
+      "error": {
+        "missing_fields": "Bitte füllen Sie alle Pflichtfelder aus.",
+        "invalid_email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+        "too_long": "Ein oder mehrere Felder überschreiten die maximale Länge.",
+        "send_failed": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie direkt an info@linimatic.dk."
+      }
     },
     "directContacts": "Direkte Ansprechpartner",
     "team": [
@@ -662,7 +674,7 @@
       }
     ],
     "companyDetails": "Firmenangaben",
-    "hours": "Öffnungszeiten",
+    "hours": "Geschäftszeiten",
     "hoursWeekday": "Montag–Freitag: 07:00–16:00",
     "hoursWeekend": "Samstag–Sonntag: Geschlossen"
   },
@@ -706,24 +718,24 @@
     "prototyping": {
       "title": "Prototypen & Designpr\u00fcfung",
       "eyebrow": "Vom Konzept zum ersten Muster",
-      "overview": "Zinc die-casting prototyping starts with a DFM review of your CAD file, with engineering feedback delivered within 48 hours. Linimatic produces first samples in 3\u20134 weeks using rapid tooling, bridging the gap between design intent and series production. Whether you are developing a new component from scratch or converting an existing part from plastic or machined metal to zinc die-casting, our prototyping process validates geometry, tolerances, and surface finish before committing to production tooling.",
+      "overview": "Die Prototypenentwicklung im Zinkdruckguss beginnt mit einer DFM-Prüfung Ihrer CAD-Datei, wobei das Ingenieur-Feedback innerhalb von 48 Stunden geliefert wird. Linimatic produziert erste Muster in 3–4 Wochen mittels Schnellwerkzeug und überbrückt damit die Lücke zwischen Designabsicht und Serienproduktion. Ob Sie ein neues Bauteil von Grund auf entwickeln oder ein bestehendes Teil von Kunststoff oder zerspantem Metall auf Zinkdruckguss umstellen — unser Prototypenprozess validiert Geometrie, Toleranzen und Oberfläche, bevor Sie sich auf das Produktionswerkzeug festlegen.",
       "processHeading": "So gehen wir von der Zeichnung zum ersten Muster",
       "process": [
         {
           "step": "DFM-Pr\u00fcfung",
-          "description": "Send your CAD file in STEP, IGES, Solidworks, or Parasolid format. Our engineers review wall thickness, draft angles, undercuts, and parting lines \u2014 and return detailed DFM feedback within 48 hours."
+          "description": "Senden Sie Ihre CAD-Datei im Format STEP, IGES, Solidworks oder Parasolid. Unsere Ingenieure prüfen Wandstärken, Entformungswinkel, Hinterschneidungen und Trennebenen — und liefern innerhalb von 48 Stunden detailliertes DFM-Feedback."
         },
         {
           "step": "Simulation & Optimierung",
-          "description": "Mold flow analysis identifies potential fill issues, porosity risks, and thermal imbalances before any steel is cut. We recommend geometry changes that improve castability without compromising function."
+          "description": "Die Formfüllsimulation identifiziert potenzielle Füllprobleme, Porositätsrisiken und thermische Ungleichgewichte, bevor Stahl geschnitten wird. Wir empfehlen Geometrieänderungen, die die Gießbarkeit verbessern, ohne die Funktion zu beeinträchtigen."
         },
         {
           "step": "Schnellwerkzeug",
-          "description": "Pre-series tooling is designed for 50\u201310,000 parts, allowing functional testing and market validation before investing in multi-cavity production dies. Gravity casting and soft tooling options are available for earliest samples."
+          "description": "Vorseriewerkzeuge sind für 50–10.000 Teile ausgelegt und ermöglichen Funktionsprüfungen und Marktvalidierungen, bevor in mehrkavitätige Produktionswerkzeuge investiert wird. Schwerkraftguss- und Weichformoptionen sind für früheste Muster verfügbar."
         },
         {
           "step": "Erste Muster & Validierung",
-          "description": "First samples are dimensionally inspected against your specification. We provide measurement reports and iterate on tool corrections until every dimension is within tolerance."
+          "description": "Erstmuster werden maßlich gegen Ihre Spezifikation geprüft. Wir erstellen Messberichte und iterieren Werkzeugkorrekturen, bis jedes Maß innerhalb der Toleranz liegt."
         }
       ],
       "specsEyebrow": "Technische Spezifikationen",
@@ -738,30 +750,30 @@
       ],
       "advantagesHeading": "Warum Sie beim Produktionsgie\u00dfer prototypen sollten",
       "advantages": {
-        "p1": "Many companies prototype with one supplier and transfer to another for series production. This creates a disconnect \u2014 the prototype tool was optimised for a different machine, different alloy temperature, different injection parameters. At Linimatic, your prototype runs on the same machines, with the same alloys and the same process parameters as your production parts. What works in prototyping works in series.",
-        "p2": "We also handle process conversion projects: parts currently machined from solid, injection-moulded in plastic, or cast in aluminium that could benefit from zinc die-casting\u2019s tighter tolerances, better surface finish, and lower per-part cost at volume. Our DFM review will tell you honestly whether conversion makes sense \u2014 and what the redesign implications are."
+        "p1": "Viele Unternehmen lassen Prototypen bei einem Lieferanten fertigen und wechseln dann für die Serienproduktion zu einem anderen. Das schafft eine Diskontinuität — das Prototypenwerkzeug war für eine andere Maschine, eine andere Legierungstemperatur und andere Einspritzparameter optimiert. Bei Linimatic läuft Ihr Prototyp auf denselben Maschinen, mit denselben Legierungen und denselben Prozessparametern wie Ihre Serienteile. Was im Prototyping funktioniert, funktioniert auch in der Serie.",
+        "p2": "Wir übernehmen auch Verfahrensumstellungsprojekte: Teile, die derzeit aus dem Vollen gefräst, im Kunststoff-Spritzguss hergestellt oder aus Aluminium gegossen werden, können von den engeren Toleranzen, der besseren Oberflächenqualität und den niedrigeren Stückkosten des Zinkdruckgusses bei hohen Volumina profitieren. Unsere DFM-Prüfung sagt Ihnen ehrlich, ob eine Umstellung sinnvoll ist — und welche Konsequenzen die Neukonstruktion hat."
       },
       "faqHeading": "H\u00e4ufig gestellte Fragen",
       "faq": [
         {
           "question": "Wie schnell kann ich einen Zinkdruckguss-Prototyp bekommen?",
-          "answer": "First samples are typically delivered in 3\u20134 weeks from approved DFM. Rush timelines may be possible depending on part complexity \u2014 contact us with your deadline and we will confirm feasibility."
+          "answer": "Erstmuster werden typischerweise 3–4 Wochen nach freigegebener DFM-Prüfung geliefert. Eillieferungen können je nach Bauteilkomplexität möglich sein — kontaktieren Sie uns mit Ihrem Termin und wir bestätigen die Machbarkeit."
         },
         {
           "question": "Was ist DFM f\u00fcr Druckguss?",
-          "answer": "Design for Manufacturability (DFM) is an engineering review of your part geometry to ensure it can be reliably die-cast. We evaluate wall thickness uniformity, draft angles, undercut feasibility, parting line placement, and gate locations \u2014 and recommend changes that improve castability, reduce tooling cost, or extend die life."
+          "answer": "Design for Manufacturability (DFM) ist eine ingenieurtechnische Prüfung Ihrer Bauteilgeometrie, um sicherzustellen, dass diese zuverlässig gegossen werden kann. Wir bewerten die Gleichmäßigkeit der Wandstärke, Entformungswinkel, Machbarkeit von Hinterschneidungen, Lage der Trennebene und Angussposition — und empfehlen Änderungen, die die Gießbarkeit verbessern, die Werkzeugkosten senken oder die Werkzeugstandzeit verlängern."
         },
         {
           "question": "K\u00f6nnen Sie mein Kunststoffteil auf Zink umstellen?",
-          "answer": "Yes. Zinc die-casting often replaces injection-moulded plastic when higher stiffness, better thermal conductivity, EMI shielding, or a premium cosmetic finish is needed. We review your existing design, identify modifications required for die-casting (draft, wall thickness, radii), and advise on the cost-benefit trade-off."
+          "answer": "Ja. Zinkdruckguss ersetzt häufig Kunststoff-Spritzguss, wenn höhere Steifigkeit, bessere Wärmeleitfähigkeit, EMV-Abschirmung oder eine hochwertige Designoberfläche benötigt werden. Wir prüfen Ihr bestehendes Design, identifizieren die für den Druckguss erforderlichen Modifikationen (Entformungsschrägen, Wandstärken, Radien) und beraten Sie zu den Kosten-Nutzen-Abwägungen."
         },
         {
           "question": "Wem geh\u00f6rt das Gie\u00dfwerkzeug?",
-          "answer": "You do. All tooling produced by Linimatic is customer-owned property. Tools are stored and maintained at our facility for the duration of production. If you need to transfer a tool from another foundry, we can evaluate compatibility with our machines and alloy specifications."
+          "answer": "Sie. Alle von Linimatic gefertigten Werkzeuge sind Kundeneigentum. Die Werkzeuge werden für die Dauer der Produktion in unserer Anlage gelagert und gewartet. Wenn Sie ein Werkzeug von einer anderen Gießerei übernehmen möchten, können wir die Kompatibilität mit unseren Maschinen und Legierungsspezifikationen prüfen."
         },
         {
           "question": "Was ist die minimale Wandst\u00e4rke f\u00fcr Zinkdruckguss?",
-          "answer": "Zinc die-casting can achieve wall thicknesses down to 0.6\u2009mm \u2014 thinner than any other metal die-casting process. However, the optimal wall thickness depends on part geometry, flow length, and structural requirements. Our DFM review will recommend the best wall thickness for your specific design."
+          "answer": "Zinkdruckguss kann Wandstärken bis zu 0,6\u2009mm erreichen — dünner als bei jedem anderen metallischen Druckgussverfahren. Die optimale Wandstärke hängt jedoch von der Bauteilgeometrie, der Fließweglänge und den strukturellen Anforderungen ab. Unsere DFM-Prüfung empfiehlt die beste Wandstärke für Ihr spezifisches Design."
         }
       ],
       "relatedHeading": "Verwandte Leistungen",
@@ -772,24 +784,24 @@
     "dieCasting": {
       "title": "Warmkammer-Druckguss",
       "eyebrow": "D\u00e4nemarks gr\u00f6\u00dfte Zinkgie\u00dferei",
-      "overview": "Linimatic operates 12 automated hot-chamber die-casting machines ranging from 80 to 400 tonnes, producing zinc components from 1\u2009g to 3\u2009kg with as-cast tolerances to \u00b10.05\u2009mm. Our foundry runs 24-hour operation with robotic part extraction, casting in Zamak 2, 3, and 5 alloys. Cycle times range from 10 to 45 seconds depending on part complexity, with shot-by-shot consistency monitored by real-time SPC. This is Denmark\u2019s largest dedicated zinc die-casting operation.",
+      "overview": "Linimatic betreibt 12 automatisierte Warmkammer-Druckgussmaschinen mit Schließkräften von 80 bis 400 Tonnen und produziert Zinkbauteile von 1\u2009g bis 3\u2009kg mit Gussmaßtoleranzen bis ±0,05\u2009mm. Unsere Gießerei arbeitet im 24-Stunden-Betrieb mit Roboter-Teileentnahme und gießt in den Legierungen Zamak 2, 3 und 5. Die Zykluszeiten liegen je nach Bauteilkomplexität zwischen 10 und 45 Sekunden, die Schuss-für-Schuss-Konsistenz wird durch Echtzeit-SPC überwacht. Das ist Dänemarks größter spezialisierter Zinkdruckgussbetrieb.",
       "processHeading": "Von der fl\u00fcssigen Legierung zum fertigen Gussteil",
       "process": [
         {
           "step": "Legierungsvorbereitung",
-          "description": "Zamak alloy is held molten in the machine\u2019s integrated furnace at precisely controlled temperature. Hot-chamber technology eliminates the ladling step used in aluminium casting, enabling faster cycles and more consistent shot quality."
+          "description": "Zamak-Legierung wird im integrierten Ofen der Maschine bei präzise geregelter Temperatur geschmolzen gehalten. Die Warmkammer-Technologie eliminiert den bei Aluminiumguss erforderlichen Schöpfschritt und ermöglicht schnellere Zyklen und gleichmäßigere Schussqualität."
         },
         {
           "step": "Hochdruckinjektion",
-          "description": "Molten zinc is injected into hardened steel dies at pressures up to 200\u2009MPa. Fill times under 50\u2009ms ensure complete cavity fill even in thin-walled and complex geometries, with minimal porosity."
+          "description": "Flüssiges Zink wird mit Drücken von bis zu 200\u2009MPa in gehärtete Stahlwerkzeuge eingespritzt. Füllzeiten unter 50\u2009ms gewährleisten eine vollständige Kavitätsfüllung auch bei dünnwandigen und geometrisch komplexen Teilen mit minimaler Porosität."
         },
         {
           "step": "Roboterentnahme & Entgraten",
-          "description": "Parts are extracted by robotic arms within seconds of solidification. Runners and overflows are automatically separated and returned to the furnace for remelting \u2014 near-zero material waste."
+          "description": "Teile werden innerhalb von Sekunden nach der Erstarrung von Roboterarmen entnommen. Angüsse und Überläufe werden automatisch getrennt und zum Wiedereinschmelzen in den Ofen zurückgeführt — nahezu kein Materialabfall."
         },
         {
           "step": "Prozessinspektion",
-          "description": "SPC monitoring tracks critical dimensions on every shot. Deviations trigger automatic alerts and parameter adjustments, ensuring consistent quality across 24-hour production runs."
+          "description": "Die SPC-Überwachung verfolgt kritische Maße bei jedem Schuss. Abweichungen lösen automatische Alarme und Parameteranpassungen aus und gewährleisten gleichbleibende Qualität über 24-stündige Produktionsläufe hinweg."
         }
       ],
       "specsEyebrow": "Technische Spezifikationen",
@@ -806,30 +818,30 @@
       ],
       "advantagesHeading": "Warum Linimatics Gie\u00dferei liefert, was andere nicht k\u00f6nnen",
       "advantages": {
-        "p1": "Scale and specialisation matter in die-casting. Our 12 machines cover the full tonnage range from 80T for small precision components to 400T for large structural parts, all with robotic handling and real-time SPC. This is not a general foundry that also does zinc \u2014 zinc die-casting is all we do, and we\u2019ve done it since 1967. That singular focus translates into deeper process knowledge, tighter tolerances, and fewer rejected parts.",
-        "p2": "The integrated value chain means your cast part moves directly to CNC machining, surface treatment, and inspection without leaving the building. No transport between suppliers, no lost traceability, no weeks waiting for the next step. For customers running just-in-time production, this single-facility model eliminates the supply chain variability that causes line stoppages."
+        "p1": "Im Druckguss zählen Größe und Spezialisierung. Unsere 12 Maschinen decken den gesamten Tonnagebereich ab — von 80T für kleine Präzisionsbauteile bis 400T für große Strukturteile — alle mit Roboterhandling und Echtzeit-SPC. Wir sind keine allgemeine Gießerei, die auch Zink verarbeitet — Zinkdruckguss ist alles, was wir tun, und wir tun es seit 1967. Dieser einzigartige Fokus übersetzt sich in tieferes Prozesswissen, engere Toleranzen und weniger Ausschussteile.",
+        "p2": "Die integrierte Wertschöpfungskette bedeutet, dass Ihr Gussteil direkt zur CNC-Nachbearbeitung, Oberflächenbehandlung und Kontrolle gelangt, ohne das Gebäude zu verlassen. Kein Transport zwischen Lieferanten, kein Verlust der Rückverfolgbarkeit, keine wochenlange Wartezeit auf den nächsten Schritt. Für Kunden mit Just-in-time-Produktion eliminiert dieses Ein-Standort-Modell die Lieferkettenschwankungen, die Bandstillstände verursachen."
       },
       "faqHeading": "H\u00e4ufig gestellte Fragen",
       "faq": [
         {
           "question": "Was ist Warmkammer-Druckguss?",
-          "answer": "Hot-chamber die-casting is a process where the injection mechanism is submerged in the molten metal. This eliminates the separate ladling step required in cold-chamber (aluminium) casting, enabling faster cycle times and more consistent shot weights. It is the preferred process for zinc and zinc alloys due to zinc\u2019s lower melting point (385\u00b0C)."
+          "answer": "Warmkammer-Druckguss ist ein Verfahren, bei dem der Einspritzmechanismus in das flüssige Metall eingetaucht ist. Dadurch entfällt der separate Schöpfschritt, der beim Kaltkammer-(Aluminium-)Guss erforderlich ist, was schnellere Zykluszeiten und gleichmäßigere Schussgewichte ermöglicht. Es ist das bevorzugte Verfahren für Zink und Zinklegierungen aufgrund des niedrigen Schmelzpunkts von Zink (385 °C)."
         },
         {
           "question": "Welche Zamak-Legierung sollte ich verwenden?",
-          "answer": "Zamak 3 is the most widely used zinc die-casting alloy \u2014 excellent all-round properties and the best plating characteristics. Zamak 5 offers higher tensile strength (331\u2009MPa vs. 283\u2009MPa) for structural applications. Zamak 2 provides the highest strength (397\u2009MPa) and hardness for bearing surfaces and heavy-duty components. We advise on alloy selection during DFM review."
+          "answer": "Zamak 3 ist die am häufigsten verwendete Zinkdruckguss-Legierung — ausgezeichnete Allround-Eigenschaften und die besten Beschichtungscharakteristiken. Zamak 5 bietet höhere Zugfestigkeit (331\u2009MPa gegenüber 283\u2009MPa) für Strukturanwendungen. Zamak 2 liefert die höchste Festigkeit (397\u2009MPa) und Härte für Lagerflächen und Schwerlastkomponenten. Wir beraten bei der Legierungsauswahl im Rahmen der DFM-Prüfung."
         },
         {
           "question": "Welche Teilegr\u00f6\u00dfen k\u00f6nnen Sie gie\u00dfen?",
-          "answer": "We cast parts from 1\u2009g to 3\u2009kg across our 12-machine range. The optimal machine is selected based on part weight, projected area, and the required clamping force. Multi-cavity dies are used for smaller parts to maximise throughput."
+          "answer": "Wir gießen Teile von 1\u2009g bis 3\u2009kg auf unserem 12-Maschinen-Park. Die optimale Maschine wird anhand von Teilgewicht, projizierter Fläche und erforderlicher Schließkraft ausgewählt. Mehrkavitätenwerkzeuge werden für kleinere Teile eingesetzt, um den Durchsatz zu maximieren."
         },
         {
           "question": "Wie lange h\u00e4lt ein Zinkdruckguss-Werkzeug?",
-          "answer": "Zinc die-casting tools routinely exceed 1 million shots \u2014 5 to 10 times longer than aluminium die-casting tools. This is because zinc\u2019s lower casting temperature (385\u00b0C vs. 660\u00b0C for aluminium) creates significantly less thermal stress on the die steel. All tools are maintained under our preventive maintenance programme."
+          "answer": "Zinkdruckguss-Werkzeuge überschreiten regelmäßig 1 Million Schuss — 5 bis 10-mal länger als Aluminium-Druckguss-Werkzeuge. Der Grund ist, dass Zinks niedrigere Gießtemperatur (385 °C gegenüber 660 °C bei Aluminium) erheblich weniger Thermospannungen im Werkzeugstahl erzeugt. Alle Werkzeuge werden im Rahmen unseres Wartungsprogramms gepflegt."
         },
         {
           "question": "Welche Toleranzen kann Zinkdruckguss erreichen?",
-          "answer": "As-cast tolerances to \u00b10.05\u2009mm are standard on our machines. For features requiring tighter control, secondary CNC machining can achieve even higher precision. We publish tolerance recommendations by feature type (linear, bore, flatness) during DFM review."
+          "answer": "Gussmaßtoleranzen bis ±0,05\u2009mm sind auf unseren Maschinen Standard. Für Merkmale, die engere Kontrolle erfordern, kann die CNC-Nachbearbeitung noch höhere Präzision erzielen. Wir erstellen Toleranzempfehlungen nach Merkmaltyp (linear, Bohrung, Ebenheit) im Rahmen der DFM-Prüfung."
         }
       ],
       "relatedHeading": "Verwandte Leistungen",
@@ -840,24 +852,24 @@
     "postProcessing": {
       "title": "CNC-Nachbearbeitung",
       "eyebrow": "Hauseigene Pr\u00e4zisionsbearbeitung",
-      "overview": "Linimatic\u2019s in-house CNC post-processing takes zinc die-cast parts from as-cast accuracy to final tolerance without the parts ever leaving the building. Our machining centre handles milling, turning, drilling, threading, deburring, and tumbling \u2014 all under the same quality system as casting and inspection. For features that require tighter control than the \u00b10.05\u2009mm achievable as-cast, secondary CNC machining delivers the precision your design demands.",
+      "overview": "Linimatics hauseigene CNC-Nachbearbeitung bringt Zinkdruckgussteile von der Gussmaßgenauigkeit zur Endtoleranz, ohne dass die Teile je das Gebäude verlassen. Unser Bearbeitungszentrum übernimmt Fräsen, Drehen, Bohren, Gewindeschneiden, Entgraten und Gleitschleifen — alles unter demselben Qualitätssystem wie Guss und Inspektion. Für Merkmale, die eine engere Kontrolle als die im Gussprozess erreichbaren ±0,05\u2009mm erfordern, liefert die CNC-Nachbearbeitung die von Ihrer Konstruktion geforderte Präzision.",
       "processHeading": "Vom Gussteil zur fertigen Ma\u00dfhaltigkeit",
       "process": [
         {
           "step": "Prozessplanung",
-          "description": "Machining operations are planned during DFM review, before the die is even cut. Fixturing, datum selection, and operation sequencing are designed to minimise setups and maintain the tightest possible tolerances."
+          "description": "Bearbeitungsoperationen werden während der DFM-Prüfung geplant, noch bevor das Werkzeug gefräst wird. Vorrichtungsdesign, Bezugspunktauswahl und Operationsreihenfolge werden so ausgelegt, dass Rüstaufwände minimiert und die engstmöglichen Toleranzen gehalten werden."
         },
         {
           "step": "CNC-Bearbeitung",
-          "description": "Multi-axis CNC milling and turning centres machine critical features: bores, threads, mating surfaces, and tight-tolerance dimensions that exceed as-cast capability."
+          "description": "Mehrachsige CNC-Fräs- und Drehzentren bearbeiten kritische Merkmale: Bohrungen, Gewinde, Passungsflächen und engtolerierte Maße, die die Gussmöglichkeiten überschreiten."
         },
         {
           "step": "Entgraten & Finish",
-          "description": "Automated deburring removes flash and sharp edges. Tumbling and vibratory finishing achieve uniform surface quality across production volumes. Manual deburring is available for complex geometries."
+          "description": "Automatisches Entgraten beseitigt Grate und scharfe Kanten. Gleitschleifen und Vibrationsfinish erzielen gleichmäßige Oberflächenqualität über die gesamte Produktionsmenge. Manuelles Entgraten ist für komplexe Geometrien verfügbar."
         },
         {
           "step": "Prozessverifikation",
-          "description": "Machined dimensions are verified against specification using calibrated gauges and CMM spot-checks. SPC data from machining feeds back into process parameters for continuous improvement."
+          "description": "Bearbeitete Maße werden mit kalibrierten Lehren und KMG-Stichproben gegen die Spezifikation geprüft. SPC-Daten aus der Bearbeitung fließen in die Prozessparameter zurück für kontinuierliche Verbesserung."
         }
       ],
       "specsEyebrow": "Technische Spezifikationen",
@@ -872,22 +884,22 @@
       ],
       "advantagesHeading": "Warum hauseigene Bearbeitung das Ergebnis ver\u00e4ndert",
       "advantages": {
-        "p1": "When casting and machining happen in the same building under the same quality system, you eliminate the most common sources of dimensional variation in outsourced machining: transport handling damage, re-fixturing errors, and communication gaps between the foundry and the machine shop. At Linimatic, the machining team reviews every new casting design alongside the die engineers, ensuring that as-cast datums, clamping surfaces, and machining allowances are optimised from day one.",
-        "p2": "This integration also compresses lead time. Parts move from casting to machining in hours, not weeks. There is no queue at an external supplier, no logistics coordination, and no risk of parts sitting in a warehouse between steps. For customers on tight production schedules, the difference between a three-week and a three-day handoff between casting and machining can determine whether they meet their own delivery commitments."
+        "p1": "Wenn Guss und Zerspanung im selben Gebäude unter demselben Qualitätssystem stattfinden, eliminieren Sie die häufigsten Quellen maßlicher Abweichungen bei ausgelagerter Bearbeitung: Transportschäden, Fehler bei der Neuaufspannung und Kommunikationslücken zwischen Gießerei und Bearbeitungsbetrieb. Bei Linimatic prüft das Bearbeitungsteam jedes neue Gussteildesign gemeinsam mit den Werkzeugkonstrukteuren und stellt sicher, dass Gussteil-Bezugspunkte, Aufspannflächen und Bearbeitungszugaben von Anfang an optimiert sind.",
+        "p2": "Diese Integration verkürzt auch die Durchlaufzeit. Teile wechseln in Stunden, nicht in Wochen vom Guss zur Bearbeitung. Es gibt keine Warteschlange bei einem externen Lieferanten, keine Logistikkoordination und kein Risiko, dass Teile zwischen den Schritten in einem Lager liegen. Für Kunden mit engen Produktionsplänen kann der Unterschied zwischen drei Wochen und drei Tagen Übergabe zwischen Guss und Bearbeitung darüber entscheiden, ob sie ihre eigenen Lieferverpflichtungen erfüllen."
       },
       "faqHeading": "H\u00e4ufig gestellte Fragen",
       "faq": [
         {
           "question": "M\u00fcssen Zinkdruckgussteile bearbeitet werden?",
-          "answer": "Not always. Many features can be cast to final tolerance (\u00b10.05\u2009mm as-cast). However, machining is typically required for threaded holes, precision bores, critical mating surfaces, or any feature where the design tolerance is tighter than what the casting process can reliably achieve."
+          "answer": "Nicht immer. Viele Merkmale können auf Endtoleranz gegossen werden (±0,05\u2009mm im Guss). Bearbeitung ist jedoch typischerweise für Gewindebohrungen, Präzisionsbohrungen, kritische Passungsflächen oder jedes Merkmal erforderlich, bei dem die Konstruktionstoleranz enger ist als das, was der Gussprozess zuverlässig erreichen kann."
         },
         {
           "question": "Welche Toleranzen kann die Nachbearbeitung erreichen?",
-          "answer": "Secondary CNC machining on zinc die-cast parts can achieve tolerances significantly tighter than the \u00b10.05\u2009mm as-cast standard. The achievable tolerance depends on the specific feature type, part geometry, and fixturing. We specify achievable tolerances during DFM review."
+          "answer": "CNC-Nachbearbeitung von Zinkdruckgussteilen kann Toleranzen erheblich enger als den Gussstandard von ±0,05\u2009mm erreichen. Die erreichbare Toleranz hängt vom spezifischen Merkmaltyp, der Bauteilgeometrie und der Aufspannung ab. Wir spezifizieren erreichbare Toleranzen während der DFM-Prüfung."
         },
         {
           "question": "Welche Entgratungsmethoden verwenden Sie?",
-          "answer": "We use automated deburring, vibratory tumbling, and manual deburring depending on part complexity and surface requirements. Tumbling is standard for high-volume production. Manual deburring is used for parts with complex geometries or critical cosmetic surfaces that cannot tolerate tumbling marks."
+          "answer": "Wir verwenden automatisches Entgraten, Vibrationsgleitschleifen und manuelles Entgraten je nach Bauteilkomplexität und Oberflächenanforderungen. Gleitschleifen ist Standard für die Hochvolumenproduktion. Manuelles Entgraten wird für Teile mit komplexen Geometrien oder kritischen Sichtoberflächen verwendet, die keine Schleifspuren vertragen."
         }
       ],
       "relatedHeading": "Verwandte Leistungen",
@@ -898,24 +910,24 @@
     "surfaceTreatment": {
       "title": "Oberfl\u00e4chenbehandlung & Beschichtung",
       "eyebrow": "Das Finish, das das Produkt definiert",
-      "overview": "Linimatic offers a full range of surface treatments for zinc die-cast components: chromium plating, powder coating, wet painting, e-coating, and laser engraving. Our as-cast surface quality of 0.8\u2009Ra\u2009\u03bcm means parts are chrome-ready straight from the die \u2014 no intermediate polishing required. Whether your component needs Class A cosmetic chrome for a designer furniture piece or functional corrosion protection for an outdoor application, we manage the entire finishing process in coordination with casting and machining.",
+      "overview": "Linimatic bietet ein vollständiges Spektrum an Oberflächenbehandlungen für Zinkdruckguss-Bauteile: Verchromung, Pulverlackierung, Nasslackierung, E-Coat und Lasergravur. Unsere Gussoberflächenqualität von 0,8\u2009Ra\u2009µm bedeutet, dass Teile direkt aus dem Werkzeug chromierbereit sind — kein Zwischenpolieren erforderlich. Ob Ihr Bauteil Klasse-A-Kosmetikchrom für ein Designmöbelstück oder funktionalen Korrosionsschutz für eine Außenanwendung benötigt — wir managen den gesamten Veredlungsprozess in Abstimmung mit Guss und Zerspanung.",
       "processHeading": "Vom Rohgussteil zur fertigen Oberfl\u00e4che",
       "process": [
         {
           "step": "Oberfl\u00e4chenbewertung",
-          "description": "Every part is evaluated for surface quality before treatment. As-cast zinc achieves 0.8\u2009Ra\u2009\u03bcm \u2014 smooth enough for direct chrome plating. Parts requiring coating are cleaned and pre-treated to ensure optimal adhesion."
+          "description": "Jedes Teil wird vor der Behandlung auf Oberflächenqualität bewertet. Zink im Gussprozess erreicht 0,8\u2009Ra\u2009µm — glatt genug für die direkte Verchromung. Teile, die eine Beschichtung erfordern, werden gereinigt und vorbehandelt, um optimale Haftung sicherzustellen."
         },
         {
           "step": "Behandlungsauswahl",
-          "description": "We recommend the right finish based on your requirements: decorative appearance, corrosion resistance, colour matching, UV stability, or conductivity. Multi-layer finishes (e.g., copper-nickel-chrome) are available for the highest cosmetic standards."
+          "description": "Wir empfehlen das passende Finish auf Basis Ihrer Anforderungen: dekorative Optik, Korrosionsschutz, Farbabstimmung, UV-Stabilität oder elektrische Leitfähigkeit. Mehrschichtfinishes (z. B. Kupfer-Nickel-Chrom) sind für höchste Ansprüche an die Optik verfügbar."
         },
         {
           "step": "Applikation & H\u00e4rtung",
-          "description": "Each treatment follows process-specific protocols for temperature, thickness, and curing time. Coating thickness is measured and documented to ensure consistency across production batches."
+          "description": "Jede Behandlung folgt prozessspezifischen Protokollen für Temperatur, Schichtdicke und Aushärtezeit. Die Schichtdicke wird gemessen und dokumentiert, um Konsistenz über Produktionschargen hinweg sicherzustellen."
         },
         {
           "step": "Qualit\u00e4tsverifikation",
-          "description": "Finished parts are inspected for adhesion, thickness, colour consistency, and visual defects. Salt spray testing validates corrosion resistance for outdoor and harsh-environment applications."
+          "description": "Fertigteile werden auf Haftung, Schichtdicke, Farbkonsistenz und Sichtfehler geprüft. Salzsprühnebelprüfung validiert die Korrosionsbeständigkeit für Außen- und Rauumgebungsanwendungen."
         }
       ],
       "specsEyebrow": "Technische Spezifikationen",
@@ -930,26 +942,26 @@
       ],
       "advantagesHeading": "Warum Oberfl\u00e4chenbehandlung vom Gie\u00dfereipartner wichtig ist",
       "advantages": {
-        "p1": "Surface quality begins at the die, not at the coating line. The 0.8\u2009Ra\u2009\u03bcm as-cast surface finish Linimatic achieves is the result of precisely maintained die steel, optimised injection parameters, and controlled cooling. This means chrome plating can be applied directly without the polishing step that adds cost and lead time at foundries with rougher casting surfaces. For designers specifying Class A cosmetic finishes, this as-cast quality is the critical differentiator.",
-        "p2": "Because we manage coating in coordination with casting and machining, we control the entire quality chain. A surface defect introduced during transport to an external coater is eliminated. Colour matching is verified against master samples stored at our facility. And if a coating issue is identified during inspection, we can trace it back to the specific casting batch and process parameters \u2014 without the finger-pointing between separate suppliers."
+        "p1": "Oberflächenqualität beginnt am Werkzeug, nicht an der Beschichtungslinie. Die 0,8\u2009Ra\u2009µm Gussoberflächenqualität, die Linimatic erzielt, ist das Ergebnis präzise gewarteten Werkzeugstahls, optimierter Einspritzparameter und kontrollierter Kühlung. Das bedeutet, dass Verchromung direkt ohne den Polierschritt aufgebracht werden kann, der bei Gießereien mit raueren Gussoberflächen Kosten und Lieferzeit erhöht. Für Konstrukteure, die Klasse-A-Oberflächen spezifizieren, ist diese Gussqualität der entscheidende Differenzierungsfaktor.",
+        "p2": "Da wir die Beschichtung in Abstimmung mit Guss und Zerspanung managen, kontrollieren wir die gesamte Qualitätskette. Ein Oberflächenfehler, der beim Transport zu einem externen Beschichter entsteht, existiert bei uns nicht. Farbabstimmung wird gegen Referenzmuster geprüft, die in unserer Anlage aufbewahrt werden. Und wenn bei der Inspektion ein Beschichtungsproblem identifiziert wird, können wir es auf die spezifische Gusscharge und Prozessparameter zurückverfolgen — ohne gegenseitige Schuldzuweisungen zwischen separaten Lieferanten."
       },
       "faqHeading": "H\u00e4ufig gestellte Fragen",
       "faq": [
         {
           "question": "Welche Oberfl\u00e4chenbehandlungen sind f\u00fcr Zinkdruckgussteile verf\u00fcgbar?",
-          "answer": "We offer chromium plating (decorative and functional), powder coating (full RAL colour range), wet painting (colour-matched), e-coating (cathodic electrocoat for corrosion protection), and laser engraving for logos, part numbers, and traceability codes."
+          "answer": "Wir bieten Verchromung (dekorativ und funktional), Pulverlackierung (volle RAL-Farbpalette), Nasslackierung (farbabgestimmt), E-Coat (kathodische Elektrotauchlackierung für Korrosionsschutz) und Lasergravur für Logos, Teilenummern und Rückverfolgbarkeitscodes."
         },
         {
           "question": "Wie funktioniert Verchromung auf Zamak?",
-          "answer": "Zinc die-castings are plated through a multi-layer electroplating process: copper strike, acid copper, semi-bright nickel, bright nickel, and decorative chromium. The 0.8\u2009Ra\u2009\u03bcm as-cast surface of zamak allows direct plating without intermediate polishing, making zinc the preferred substrate for chrome-finished components."
+          "answer": "Zinkdruckgussteile werden in einem mehrschichtigen galvanischen Verfahren beschichtet: Kupfer-Strike, Sauerglanz-Kupfer, Halbglanzsnickel, Glanznieckel und dekoratives Chrom. Die Gussoberflächengüte von 0,8\u2009Ra\u2009µm des Zamaks ermöglicht die direkte Galvanisierung ohne Zwischenpolieren und macht Zink zum bevorzugten Substrat für verchromte Bauteile."
         },
         {
           "question": "Welche Beschichtung ist f\u00fcr Au\u00dfenbereich am besten?",
-          "answer": "For outdoor applications, e-coating provides excellent corrosion resistance with uniform coverage including recesses and internal features. Powder coating is also effective for outdoor use, offering UV stability and impact resistance. We can advise on salt spray test requirements for your specific environment."
+          "answer": "Für Außenanwendungen bietet E-Coat ausgezeichneten Korrosionsschutz mit gleichmäßiger Abdeckung einschließlich Vertiefungen und innerer Merkmale. Pulverlackierung ist ebenfalls effektiv für den Außeneinsatz und bietet UV-Stabilität und Schlagfestigkeit. Wir können Sie zu den Salzsprühnebelanforderungen für Ihre spezifische Umgebung beraten."
         },
         {
           "question": "K\u00f6nnen Zinkdruckgussteile eine Klasse-A-Kosmetikoberfläche erreichen?",
-          "answer": "Yes. Zinc die-casting achieves 0.8\u2009Ra\u2009\u03bcm surface finish as-cast \u2014 smooth enough for Class A decorative chrome without polishing. This is one of zinc\u2019s strongest advantages over aluminium and magnesium, which typically require extensive surface preparation before plating."
+          "answer": "Ja. Zinkdruckguss erreicht im Gussprozess eine Oberflächengüte von 0,8\u2009Ra\u2009µm — glatt genug für Klasse-A-Dekorchrom ohne Polieren. Das ist einer der stärksten Vorteile von Zink gegenüber Aluminium und Magnesium, die vor der Galvanisierung typischerweise umfangreiche Oberflächenvorbereitung erfordern."
         }
       ],
       "relatedHeading": "Verwandte Leistungen",
@@ -960,24 +972,24 @@
     "quality": {
       "title": "Qualit\u00e4t & Zertifizierung",
       "eyebrow": "ISO 9001 zertifiziert seit 1993",
-      "overview": "Linimatic has held ISO 9001 certification since 1993 \u2014 over 30 years of independently audited quality management covering every step from incoming material to final shipment. Our quality system is built on CMM-verified dimensional inspection, real-time SPC process monitoring, full PPAP documentation capability, and batch-level traceability on every component we ship. This is not a checkbox exercise \u2014 it is the operational discipline that enables \u00b10.05\u2009mm tolerances at volume.",
+      "overview": "Linimatic ist seit 1993 ISO 9001-zertifiziert — über 30 Jahre unabhängig auditiertes Qualitätsmanagement, das jeden Schritt von der Wareneingangskontrolle bis zum Versand abdeckt. Unser Qualitätssystem basiert auf KMG-verifizierter Maßprüfung, Echtzeit-SPC-Prozessüberwachung, vollständiger PPAP-Dokumentationsfähigkeit und Chargenniveau-Rückverfolgbarkeit bei jedem Bauteil, das wir liefern. Das ist keine Papierübung — es ist die operative Disziplin, die Toleranzen von ±0,05\u2009mm im Großserienmaßstab ermöglicht.",
       "processHeading": "So sichern wir Qualit\u00e4t in jedem Schritt",
       "process": [
         {
           "step": "Wareneingangskontrolle",
-          "description": "Every alloy batch is verified against material certificates before entering production. Composition is confirmed and traceability is established from raw material through to finished component."
+          "description": "Jede Legierungscharge wird vor dem Eingang in die Produktion gegen Materialzertifikate geprüft. Die Zusammensetzung wird bestätigt und die Rückverfolgbarkeit vom Rohmaterial bis zum Fertigteil eingerichtet."
         },
         {
           "step": "SPC-\u00dcberwachung im Prozess",
-          "description": "Statistical process control runs in real time on every die-casting machine. Critical dimensions are measured at defined intervals and plotted against control limits. Process drift is detected and corrected before out-of-spec parts are produced."
+          "description": "Statistische Prozessregelung läuft in Echtzeit auf jeder Druckgussmaschine. Kritische Maße werden in definierten Intervallen gemessen und gegen Eingriffsgrenzen aufgetragen. Prozessabweichungen werden erkannt und korrigiert, bevor Teile außerhalb der Spezifikation entstehen."
         },
         {
           "step": "KMG-Dimensionskontrolle",
-          "description": "Coordinate measuring machines verify part dimensions against 3D CAD models and GD&T specifications. First article inspection reports are generated for every new tool and after every tool modification."
+          "description": "Koordinatenmessmaschinen prüfen Bauteilmaße gegen 3D-CAD-Modelle und GD&T-Spezifikationen. Erstmusterprüfberichte werden für jedes neue Werkzeug und nach jeder Werkzeugmodifikation erstellt."
         },
         {
           "step": "Endkontrolle & Dokumentation",
-          "description": "Finished components are inspected per the control plan before shipment. Inspection records, material certificates, and dimensional reports are archived and available on request. PPAP documentation is provided for automotive and other regulated customers."
+          "description": "Fertige Bauteile werden gemäß dem Prüfplan vor dem Versand kontrolliert. Prüfprotokolle, Materialzertifikate und Maßberichte werden archiviert und sind auf Anfrage verfügbar. PPAP-Dokumentation wird für Automotive- und andere regulierte Kunden bereitgestellt."
         }
       ],
       "specsEyebrow": "Technische Spezifikationen",
@@ -992,26 +1004,26 @@
       ],
       "advantagesHeading": "Warum Qualit\u00e4tstiefe f\u00fcr Ihre Lieferkette entscheidend ist",
       "advantages": {
-        "p1": "A quality page with an ISO logo and a vague paragraph about \u201ccontinuous improvement\u201d tells a procurement professional nothing. What matters is whether the supplier can produce a PPAP package, whether SPC is actually running on the machines, and whether traceability data can be retrieved when a customer issue arises two years after delivery. At Linimatic, the answer to all three is yes \u2014 because our quality system was not bolted on for certification purposes; it was built to run a precision foundry.",
-        "p2": "The integrated value chain amplifies quality control. Because casting, machining, and surface treatment all happen under one roof, a single SPC system governs the entire process. Dimensional data from the casting machine feeds directly into machining parameters. Coating thickness is verified against the same CMM that checked the casting. There are no quality gaps between suppliers \u2014 because there are no other suppliers."
+        "p1": "Eine Qualitätsseite mit einem ISO-Logo und einem vagen Absatz über \"kontinuierliche Verbesserung\" sagt einem Einkaufsverantwortlichen nichts. Was zählt, ist, ob der Lieferant ein PPAP-Paket erstellen kann, ob SPC tatsächlich auf den Maschinen läuft und ob Rückverfolgbarkeitsdaten abgerufen werden können, wenn zwei Jahre nach der Lieferung ein Kundenproblem auftritt. Bei Linimatic lautet die Antwort auf alle drei Fragen: Ja — weil unser Qualitätssystem nicht nachträglich für Zertifizierungszwecke aufgesetzt wurde, sondern um eine Präzisionsgießerei zu betreiben.",
+        "p2": "Die integrierte Wertschöpfungskette verstärkt die Qualitätskontrolle. Da Guss, Zerspanung und Oberflächenbehandlung alle unter einem Dach stattfinden, regelt ein einziges SPC-System den gesamten Prozess. Maßdaten der Gießmaschine fließen direkt in die Bearbeitungsparameter ein. Schichtdicken werden gegen dieselbe KMG geprüft, die den Guss kontrolliert hat. Es gibt keine Qualitätslücken zwischen Lieferanten — weil es keine anderen Lieferanten gibt."
       },
       "faqHeading": "H\u00e4ufig gestellte Fragen",
       "faq": [
         {
           "question": "Welche Qualit\u00e4tszertifizierungen hat Linimatic?",
-          "answer": "Linimatic has been ISO 9001 certified since 1993 \u2014 over 30 years of uninterrupted, independently audited quality management. The certification covers the complete value chain: incoming material inspection, die-casting, CNC machining, surface treatment, assembly, and final inspection."
+          "answer": "Linimatic ist seit 1993 ISO 9001-zertifiziert — über 30 Jahre ununterbrochenes, unabhängig auditiertes Qualitätsmanagement. Die Zertifizierung deckt die vollständige Wertschöpfungskette ab: Wareneingangskontrolle, Druckguss, CNC-Zerspanung, Oberflächenbehandlung, Montage und Endkontrolle."
         },
         {
           "question": "K\u00f6nnen Sie PPAP-Dokumentation liefern?",
-          "answer": "Yes. We provide PPAP documentation at Levels 1 through 3 for automotive and other regulated-industry customers. This includes dimensional results, material certifications, process flow diagrams, control plans, and measurement system analysis."
+          "answer": "Ja. Wir stellen PPAP-Dokumentation auf den Stufen 1 bis 3 für Automotive- und andere regulierte Branchenkunden bereit. Dazu gehören Maßergebnisse, Materialzertifikate, Prozessablaufdiagramme, Prüfpläne und Messsystemanalysen."
         },
         {
           "question": "Wie sichern Sie die Ma\u00dfgenauigkeit?",
-          "answer": "Dimensional accuracy is ensured through three layers: CMM-verified first article inspection for every new and modified tool, real-time SPC monitoring during production, and final inspection per the control plan before shipment. Process drift is detected and corrected in real time, before out-of-spec parts reach the end of the line."
+          "answer": "Maßgenauigkeit wird durch drei Ebenen sichergestellt: KMG-verifizierte Erstmusterprüfung für jedes neue und modifizierte Werkzeug, Echtzeit-SPC-Überwachung während der Produktion und Endkontrolle gemäß Prüfplan vor dem Versand. Prozessabweichungen werden in Echtzeit erkannt und korrigiert, bevor fehlerhafte Teile das Bandende erreichen."
         },
         {
           "question": "Welche R\u00fcckverfolgbarkeit bieten Sie pro Charge?",
-          "answer": "Every batch is traceable from raw material (alloy heat number, supplier certificate) through casting (machine, die, date, shift, process parameters) to machining, coating, inspection, and shipment. If a quality issue surfaces in the field, we can identify every other part produced under the same conditions."
+          "answer": "Jede Charge ist vom Rohmaterial (Legierungs-Schmelznummer, Lieferantenzertifikat) über den Guss (Maschine, Werkzeug, Datum, Schicht, Prozessparameter) bis zur Zerspanung, Beschichtung, Inspektion und dem Versand rückverfolgbar. Wenn ein Qualitätsproblem im Feld auftritt, können wir jedes andere Teil identifizieren, das unter denselben Bedingungen produziert wurde."
         }
       ],
       "relatedHeading": "Verwandte Leistungen",
@@ -1022,24 +1034,24 @@
     "assembly": {
       "title": "Montage & Lieferkette",
       "eyebrow": "Fertige Produkte, nicht lose Teile",
-      "overview": "Linimatic delivers finished, assembled components on your production schedule \u2014 not loose castings that require further handling at your facility. Our assembly services include sub-assembly, insert pressing, multi-component assembly, and custom packaging. Combined with kanban delivery, JIT supply, and forecast-based call-off scheduling, we function as a seamless extension of your production line. One purchase order, one supplier, one shipment of ready-to-install components.",
+      "overview": "Linimatic liefert fertig montierte Bauteile nach Ihrem Produktionsplan — keine losen Gussteile, die in Ihrer Anlage weiterbearbeitet werden müssen. Unsere Montageleistungen umfassen Unterbaugruppen, Einpressverbindungen, Mehrkomponentenmontage und Sonderverpackung. Kombiniert mit Kanban-Lieferung, JIT-Versorgung und prognosebasierter Abrufplanung fungieren wir als nahtlose Verlängerung Ihrer Produktionslinie. Ein Auftrag, ein Lieferant, eine Lieferung einbaufertiger Bauteile.",
       "processHeading": "Von der Komponente zum gelieferten Produkt",
       "process": [
         {
           "step": "Montageplanung",
-          "description": "We design the assembly process during project launch: fixture design, operation sequencing, component sourcing, and quality checkpoints. Assembly instructions are documented and controlled under our ISO 9001 system."
+          "description": "Wir gestalten den Montageprozess beim Projektstart: Vorrichtungsdesign, Operationsreihenfolge, Komponentenbeschaffung und Qualitätsprüfpunkte. Montageanleitungen werden unter unserem ISO 9001-System dokumentiert und kontrolliert."
         },
         {
           "step": "Unterbaugruppen & Einpressen",
-          "description": "Insert pressing, fastening, multi-component assembly, and functional testing are performed in our facility. Components cast, machined, and coated in-house are assembled alongside customer-supplied parts."
+          "description": "Einpressverbindungen, Verschraubung, Mehrkomponentenmontage und Funktionsprüfungen werden in unserer Anlage durchgeführt. Im Haus gegossene, bearbeitete und beschichtete Komponenten werden gemeinsam mit kundenseitig beigestellten Teilen montiert."
         },
         {
           "step": "Verpackung & Kennzeichnung",
-          "description": "Standard, custom, or branded packaging options ensure parts arrive ready for your production line or end customer. Labelling includes barcodes, lot numbers, and customer-specific markings."
+          "description": "Standard-, Sonder- oder Markenverpackungsoptionen stellen sicher, dass Teile produktionsbereit bei Ihrer Fertigungslinie oder Ihrem Endkunden ankommen. Die Beschriftung umfasst Barcodes, Chargennummern und kundenspezifische Kennzeichnungen."
         },
         {
           "step": "Lieferung & Nachschub",
-          "description": "Kanban, JIT, and consignment stock models are supported. Deliveries are scheduled against your forecast, with call-offs managed through our ERP system. EDI integration is available for automated order processing."
+          "description": "Kanban-, JIT- und Konsignationslagermodelle werden unterstützt. Lieferungen werden gegen Ihre Prognose geplant, Abrufe werden über unser ERP-System gesteuert. EDI-Integration ist für automatisierte Auftragsabwicklung verfügbar."
         }
       ],
       "specsEyebrow": "Technische Spezifikationen",
@@ -1054,26 +1066,26 @@
       ],
       "advantagesHeading": "Warum Einkaufsteams einen integrierten Lieferanten w\u00e4hlen",
       "advantages": {
-        "p1": "Every supplier in a multi-tier supply chain adds lead time, coordination effort, and quality risk. When casting, machining, coating, inspection, and assembly all happen in one facility, procurement manages one supplier relationship instead of four or five. One purchase order, one quality agreement, one delivery schedule, one company accountable when something needs to change. For Henrik managing a supplier portfolio of fifty vendors, reducing five to one for a component family is a material improvement.",
-        "p2": "Our ERP system manages inventory levels, production scheduling, and delivery forecasts. For customers with stable demand patterns, kanban replenishment eliminates purchase order cycles entirely \u2014 we produce and deliver against agreed stock levels. For variable-demand customers, forecast-based call-offs with buffer stock provide flexibility without the risk of supply interruption. The result: your production line runs, and the parts are there when you need them."
+        "p1": "Jeder Lieferant in einer mehrstufigen Lieferkette erhöht Lieferzeit, Koordinationsaufwand und Qualitätsrisiko. Wenn Guss, Zerspanung, Beschichtung, Inspektion und Montage alle in einer Anlage stattfinden, verwaltet der Einkauf eine Lieferantenbeziehung statt vier oder fünf. Ein Bestellauftrag, eine Qualitätsvereinbarung, ein Lieferzeitplan, ein Unternehmen verantwortlich, wenn etwas geändert werden muss. Für einen Einkaufsverantwortlichen, der ein Lieferantenportfolio von fünfzig Lieferanten betreut, ist die Reduzierung von fünf auf einen für eine Bauteilfamilie eine spürbare Verbesserung.",
+        "p2": "Unser ERP-System verwaltet Lagerbestände, Produktionsplanung und Lieferprognosen. Für Kunden mit stabilen Bedarfsmustern eliminiert Kanban-Nachschub Bestellzyklen vollständig — wir produzieren und liefern gegen vereinbarte Lagerbestände. Für Kunden mit variablem Bedarf bieten prognosebasierte Abrufe mit Pufferlager Flexibilität ohne das Risiko einer Versorgungsunterbrechung. Das Ergebnis: Ihre Produktionslinie läuft, und die Teile sind da, wenn Sie sie brauchen."
       },
       "faqHeading": "H\u00e4ufig gestellte Fragen",
       "faq": [
         {
           "question": "K\u00f6nnen Sie montierte Bauteile liefern?",
-          "answer": "Yes. We perform sub-assembly, insert pressing, multi-component assembly, and functional testing in our facility. Finished assemblies are shipped ready for installation in your product, eliminating assembly steps at your end."
+          "answer": "Ja. Wir führen Unterbaugruppen, Einpressverbindungen, Mehrkomponentenmontage und Funktionsprüfungen in unserer Anlage durch. Fertige Baugruppen werden einbaufertig für Ihr Produkt versandt und eliminieren Montageschritte auf Ihrer Seite."
         },
         {
           "question": "Bieten Sie Kanban- oder JIT-Lieferung an?",
-          "answer": "Yes. We support kanban replenishment, just-in-time delivery, and consignment stock models. Delivery frequency and buffer stock levels are agreed during project setup and managed through our ERP system."
+          "answer": "Ja. Wir unterstützen Kanban-Nachschub, Just-in-time-Lieferung und Konsignationslagermodelle. Lieferhäufigkeit und Pufferlagerbestände werden beim Projektstart vereinbart und über unser ERP-System gesteuert."
         },
         {
           "question": "Welches ERP-System verwenden Sie?",
-          "answer": "We use a modern ERP system that manages production planning, inventory, quality, and logistics. EDI integration is available for automated purchase order processing, delivery scheduling, and invoice handling."
+          "answer": "Wir verwenden ein modernes ERP-System, das Produktionsplanung, Lagerbestand, Qualität und Logistik verwaltet. EDI-Integration ist für automatisierte Auftragsabwicklung, Lieferplanung und Rechnungsbearbeitung verfügbar."
         },
         {
           "question": "Welche Verpackungsoptionen bieten Sie an?",
-          "answer": "We offer standard bulk packaging, custom-designed packaging to protect specific part geometries, and branded packaging for end-customer-ready shipments. Packaging design is agreed during project setup and documented in the control plan."
+          "answer": "Wir bieten Standard-Schüttgutverpackung, maßgeschneiderte Verpackung zum Schutz spezifischer Bauteilgeometrien und Markenverpackung für endkundenfertige Lieferungen. Das Verpackungsdesign wird beim Projektstart vereinbart und im Prüfplan dokumentiert."
         }
       ],
       "relatedHeading": "Verwandte Leistungen",
@@ -1159,5 +1171,95 @@
     "openApplicationDescription": "Wir sind immer an qualifizierten Fachkräften in den Bereichen Fertigung, Technik, Qualität und Vertrieb interessiert. Senden Sie uns Ihren Lebenslauf und erzählen Sie uns, was Sie mitbringen.",
     "openApplicationButton": "Initiativbewerbung senden",
     "learnMoreButton": "Mehr über uns erfahren"
+  },
+  "privacyPage": {
+    "eyebrow": "Rechtliches",
+    "title": "Datenschutzrichtlinie",
+    "lastUpdated": "Zuletzt aktualisiert: März 2026",
+    "dataControllerHeading": "Verantwortlicher",
+    "dataControllerIntro": "Linimatic A/S ist der Verantwortliche für personenbezogene Daten, die über diese Website erhoben werden.",
+    "whatWeCollectHeading": "Welche Daten wir erheben",
+    "whatWeCollectIntro": "Wir können die folgenden personenbezogenen Daten über unsere Website erheben:",
+    "collectItems": [
+      "Kontaktformular: Name, Unternehmen, E-Mail, Telefonnummer und Projektbeschreibung bei Angebotsanfragen oder Kontaktaufnahme.",
+      "Bewerbungen: Name, Kontaktdaten, Lebenslauf und Anschreiben bei Stellenbewerbungen.",
+      "Technische Daten: IP-Adresse, Browsertyp, Betriebssystem und Surfverhalten, die automatisch durch Cookies erfasst werden (mit Ihrer Zustimmung).",
+      "Kommunikationsdaten: Aufzeichnungen der Korrespondenz bei Kontakt per E-Mail oder Telefon."
+    ],
+    "legalBasisHeading": "Rechtsgrundlage der Verarbeitung",
+    "legalBasisIntro": "Gemäß der Datenschutz-Grundverordnung (DSGVO) verarbeiten wir personenbezogene Daten auf Grundlage von:",
+    "legalBasisItems": [
+      "Einwilligung (Art. 6 Abs. 1 lit. a): Für Analyse- und Marketing-Cookies sowie für Newsletter-Abonnements.",
+      "Vertragserfüllung (Art. 6 Abs. 1 lit. b): Zur Bearbeitung von Angebotsanfragen und zur Beantwortung von Kundenanfragen.",
+      "Berechtigtes Interesse (Art. 6 Abs. 1 lit. f): Zur Verbesserung unserer Website, Gewährleistung der Sicherheit und Kommunikation über unsere Leistungen.",
+      "Rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c): Zur Einhaltung steuerlicher, buchhalterischer und anderer gesetzlicher Anforderungen."
+    ],
+    "howWeUseHeading": "Wie wir Ihre Daten verwenden",
+    "howWeUseItems": [
+      "Zur Beantwortung von Angebotsanfragen und Kundenanfragen",
+      "Zur Bearbeitung von Bewerbungen",
+      "Zur Verbesserung unserer Website und Leistungen (mit Einwilligung)",
+      "Zur Einhaltung rechtlicher und regulatorischer Verpflichtungen",
+      "Zum Schutz unserer berechtigten Geschäftsinteressen"
+    ],
+    "retentionHeading": "Datenspeicherung",
+    "retentionIntro": "Wir speichern personenbezogene Daten nur so lange, wie es für die beschriebenen Zwecke erforderlich ist oder gesetzlich vorgeschrieben. Im Einzelnen:",
+    "retentionItems": [
+      "Angebotsanfragen: 2 Jahre ab letztem Kontakt gespeichert, oder länger bei bestehender Geschäftsbeziehung.",
+      "Bewerbungen: 6 Monate nach Besetzung der Stelle gespeichert, sofern Sie nicht einer längeren Speicherung zustimmen.",
+      "Analysedaten: Innerhalb von 26 Monaten aggregiert und anonymisiert.",
+      "Buchhaltungsunterlagen: 5 Jahre gemäß dänischem Buchführungsgesetz gespeichert."
+    ],
+    "dataSharingHeading": "Datenweitergabe",
+    "dataSharingIntro": "Wir verkaufen Ihre personenbezogenen Daten nicht. Wir können Daten teilen mit:",
+    "dataSharingItems": [
+      "Dienstleistern: Hosting-, E-Mail- und Analyseanbietern, die Daten in unserem Auftrag gemäß Auftragsverarbeitungsverträgen verarbeiten.",
+      "Behörden: Wenn gesetzlich vorgeschrieben oder zum Schutz unserer Rechte."
+    ],
+    "dataSharingNote": "Alle Auftragsverarbeiter befinden sich innerhalb der EU/des EWR. Sollte eine Datenübermittlung außerhalb der EU/des EWR erforderlich sein, stellen wir angemessene Schutzmaßnahmen sicher (z.B. Standardvertragsklauseln).",
+    "yourRightsHeading": "Ihre Rechte",
+    "yourRightsIntro": "Gemäß der DSGVO haben Sie das Recht auf:",
+    "yourRightsItems": [
+      "Auskunft — Fordern Sie eine Kopie der personenbezogenen Daten an, die wir über Sie gespeichert haben.",
+      "Berichtigung — Fordern Sie die Korrektur unrichtiger Daten an.",
+      "Löschung — Fordern Sie die Löschung Ihrer Daten an (\u201eRecht auf Vergessenwerden\u201c).",
+      "Einschränkung — Fordern Sie die Einschränkung der Datenverarbeitung an.",
+      "Datenübertragbarkeit — Fordern Sie Ihre Daten in einem strukturierten, maschinenlesbaren Format an.",
+      "Widerspruch — Widersprechen Sie der Verarbeitung auf Grundlage berechtigter Interessen.",
+      "Widerruf der Einwilligung — Widerrufen Sie eine zuvor erteilte Einwilligung jederzeit."
+    ],
+    "yourRightsContact": "Zur Ausübung dieser Rechte kontaktieren Sie uns unter info@linimatic.dk. Wir antworten innerhalb von 30 Tagen.",
+    "complaintsHeading": "Beschwerden",
+    "complaintsText": "Wenn Sie der Ansicht sind, dass Ihre Datenschutzrechte verletzt wurden, haben Sie das Recht, eine Beschwerde bei der dänischen Datenschutzbehörde (Datatilsynet) einzureichen:",
+    "changesHeading": "Änderungen dieser Richtlinie",
+    "changesText": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Das Datum \u201ezuletzt aktualisiert\u201c oben zeigt die jüngste Überarbeitung an. Wir empfehlen Ihnen, diese Seite regelmäßig zu überprüfen."
+  },
+  "cookiePolicyPage": {
+    "eyebrow": "Rechtliches",
+    "title": "Cookie-Richtlinie",
+    "lastUpdated": "Zuletzt aktualisiert: März 2026",
+    "whatAreCookiesHeading": "Was sind Cookies?",
+    "whatAreCookiesText": "Cookies sind kleine Textdateien, die auf Ihrem Gerät platziert werden, wenn Sie eine Website besuchen. Sie werden häufig verwendet, um Websites effizienter zu gestalten und den Webseitenbetreibern Informationen zu liefern. Gemäß EU-Regulierung (ePrivacy-Richtlinie und DSGVO) sind wir verpflichtet, Ihre Einwilligung einzuholen, bevor wir nicht-essenzielle Cookies setzen.",
+    "howWeUseHeading": "Wie wir Cookies verwenden",
+    "howWeUseText": "Wir unterteilen Cookies in drei Kategorien. Sie können Ihre Einstellungen jederzeit über die Cookie-Einstellungen auf unserer Website verwalten.",
+    "necessaryHeading": "Notwendige Cookies",
+    "necessaryText": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website unerlässlich. Sie ermöglichen grundlegende Funktionen wie Seitennavigation, sichere Bereiche und das Speichern Ihrer Cookie-Einstellungen. Die Website kann ohne diese Cookies nicht ordnungsgemäß funktionieren, und sie können nicht deaktiviert werden.",
+    "tableCookie": "Cookie",
+    "tablePurpose": "Zweck",
+    "tableDuration": "Dauer",
+    "consentCookiePurpose": "Speichert Ihre Cookie-Einstellungen",
+    "consentCookieDuration": "1 Jahr",
+    "analyticsHeading": "Analyse-Cookies",
+    "analyticsText": "Diese Cookies helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, indem sie Informationen anonym sammeln und melden. Dies hilft uns, die Website-Erfahrung für alle Nutzer zu verbessern.",
+    "marketingHeading": "Marketing-Cookies",
+    "marketingText": "Diese Cookies werden verwendet, um Besucher über Websites hinweg zu verfolgen, um die Anzeige relevanter Werbung zu ermöglichen. Sie werden in der Regel von Werbenetzwerken mit unserer Genehmigung platziert.",
+    "managingHeading": "Verwaltung Ihrer Einstellungen",
+    "managingText1": "Wenn Sie unsere Website zum ersten Mal besuchen, erscheint ein Cookie-Banner, mit dem Sie alle Cookies akzeptieren, alle nicht-essenziellen Cookies ablehnen oder Ihre Einstellungen nach Kategorie anpassen können.",
+    "managingText2": "Sie können Ihre Cookie-Einstellungen jederzeit ändern, indem Sie Ihre Browser-Cookies löschen und die Seite erneut besuchen, wodurch das Einwilligungsbanner erneut erscheint.",
+    "managingText3": "Sie können Cookies auch über Ihre Browsereinstellungen steuern. Die meisten Browser ermöglichen es Ihnen, Cookies abzulehnen oder zu löschen. Die Methoden variieren je nach Browser — konsultieren Sie die Hilfe-Dokumentation Ihres Browsers.",
+    "thirdPartyHeading": "Drittanbieter-Cookies",
+    "thirdPartyText": "Einige Cookies werden von Drittanbieterdiensten platziert, die auf unseren Seiten erscheinen. Wir kontrollieren die Verwendung dieser Cookies nicht. Relevante Drittanbieter umfassen Analyse- und Werbeplattformen. Deren jeweilige Datenschutzrichtlinien regeln deren Datennutzung.",
+    "contactHeading": "Kontakt",
+    "contactText": "Bei Fragen zu unserer Verwendung von Cookies kontaktieren Sie uns unter:"
   }
 }

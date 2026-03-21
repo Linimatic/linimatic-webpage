@@ -52,7 +52,6 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
   const caseItems = t.raw('cases.items') as Array<{title: string; client: string; metric: string; result: string}>;
   const chainSteps = t.raw('valueChain.steps') as Array<{number: string; label: string; title: string; description: string; specs: string}>;
   const clientNames = t.raw('clients.logos') as Array<{name: string}>;
-  const industryTags = t.raw('industryTags') as string[];
   const teamMembers = t.raw('team.members') as Array<{name: string; role: string; phone: string; email: string}>;
 
   const isPlaceholder = (text: string) => text.startsWith('PLACEHOLDER') || text.startsWith('PLADSHOLDER') || text.startsWith('PLATZHALTER');

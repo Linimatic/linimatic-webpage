@@ -1,4 +1,7 @@
 {
+  "navigation": {
+    "home": "Forside"
+  },
   "header": {
     "logoAlt": "Linimatic — Innovativ trykstøbning",
     "nav": {
@@ -101,7 +104,7 @@
     "allCases": "Alle cases",
     "items": [
       {
-        "title": "Snæverttolerante indvendige dele til elværktøj, som ingen andre ville tilbyde på",
+        "title": "Indvendige dele med snævre tolerancer til elværktøj, som ingen andre ville byde på",
         "client": "DeWalt",
         "metric": "\u00b10,05\u2009mm tolerancer · Højvolumen-serieproduktion",
         "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. '99,2% first-pass yield' eller 'X mio. dele leveret'"
@@ -262,11 +265,11 @@
       },
       {
         "title": "Overfladebehandling & coating",
-        "description": "Forkromning, pulverlakering, vådlakering, e-coating og lasergravering. Klasse\u00a0A kosmetiske finishes fra en kromsæt støbningssurface på 0,8\u2009Ra\u2009\u03bcm.",
+        "description": "Forkromning, pulverlakering, vådlakering, e-coating og lasergravering. Klasse\u00a0A kosmetiske finishes fra en kromklar støbeoverflade på 0,8\u2009Ra\u2009\u03bcm.",
         "specs": "Krom · Pulverlak · Vådlak · Lasergravering"
       },
       {
-        "title": "Kvalitet & inspektion",
+        "title": "Kvalitet & certificering",
         "description": "CMM-verificerede dimensioner, SPC-overvåget processtyring og fuld PPAP-dokumentation. ISO 9001-certificeret siden 1993 — over 30 år med auditerede kvalitetssystemer.",
         "specs": "ISO 9001 · CMM · SPC · PPAP · Fuld sporbarhed"
       },
@@ -303,7 +306,7 @@
         "certifications": "—"
       },
       {
-        "service": "Kvalitet & inspektion",
+        "service": "Kvalitet & certificering",
         "keySpecs": "CMM · SPC · PPAP · Første-emne-inspektion · Fuld sporbarhed",
         "certifications": "ISO 9001 siden 1993"
       },
@@ -338,7 +341,7 @@
     "eyebrow": "Materialefordel",
     "heading": "Hvorfor zinktrykstøbning?",
     "heroImageAlt": "To zinktrykstøbte emner med forkromet og pulverlakeret overflade",
-    "intro": "Zinktrykstøbning er en højhastigheds- og højpræcisionsproces, der producerer netformsmetalemner med tolerancer ned til \u00b10,05\u2009mm, kromsæt overfladefinish og cyklustider under 45 sekunder. Det overgår aluminium og plastinjektion i geometrisk kompleksitet, dimensionsnøjagtighed og omkostningseffektivitet ved volumen — og leverer stærkere emner med længere værktøjslevetid og mindre sekundærbearbejdning. For ingeniører, der designer komponenter med stramme tolerancer, tynde vægge eller Klasse\u00a0A kosmetiske overflader, er zink det materiale, der eliminerer kompromiser.",
+    "intro": "Zinktrykstøbning er en højhastigheds- og højpræcisionsproces, der producerer metalemner i netform med tolerancer ned til \u00b10,05\u2009mm, kromklar overfladefinish og cyklustider under 45 sekunder. Det overgår aluminium og plastinjektion i geometrisk kompleksitet, dimensionsnøjagtighed og omkostningseffektivitet ved volumen — og leverer stærkere emner med længere værktøjslevetid og mindre sekundærbearbejdning. For ingeniører, der designer komponenter med stramme tolerancer, tynde vægge eller Klasse\u00a0A kosmetiske overflader, er zink det materiale, der eliminerer kompromiser.",
     "advantagesHeading": "Seks grunde til at ingeniører vælger zink",
     "advantages": [
       {
@@ -357,7 +360,7 @@
         "value": "10–45",
         "unit": "sek",
         "label": "Cyklustid",
-        "description": "Den hurtigste metaltrykstøbningsproces. Varmkammerteknologi holder zinken smeltet i maskinen og eliminerer det slevseparat, der bremser aluminiumstøbning."
+        "description": "Den hurtigste metaltrykstøbningsproces. Varmkammerteknologi holder zinken smeltet i maskinen og eliminerer den manuelle øsning, der bremser aluminiumstøbning."
       },
       {
         "value": "0,8",
@@ -448,7 +451,7 @@
           "tensile": "397 MPa",
           "elongation": "7%",
           "hardness": "100",
-          "use": "Højstyrkede strukturelle emner, trykstøbte lejer, tungtvægtsfittings"
+          "use": "Højstyrkede strukturelle emner, trykstøbte lejer, tungbelastede beslag"
         },
         {
           "name": "Zamak 3",
@@ -478,11 +481,11 @@
       "items": [
         {
           "question": "Hvad er zinktrykstøbning?",
-          "answer": "Zinktrykstøbning er en fremstillingsproces, hvor smeltet zinklegering injiceres under højt tryk ind i en stålform. Varmkammerprocessen holder legeringen smeltet inde i maskinen, hvilket muliggør cyklustider på helt ned til 10 sekunder. Resultatet er et netformsmetalemne med stramme tolerancer, fremragende overfladefinish og høj gentagelighed — egnet til produktionsvolumener fra hundredvis til millioner af emner."
+          "answer": "Zinktrykstøbning er en fremstillingsproces, hvor smeltet zinklegering injiceres under højt tryk ind i en stålform. Varmkammerprocessen holder legeringen smeltet inde i maskinen, hvilket muliggør cyklustider på helt ned til 10 sekunder. Resultatet er et metalemne i netform med stramme tolerancer, fremragende overfladefinish og høj gentagelighed — egnet til produktionsvolumener fra hundredvis til millioner af emner."
         },
         {
           "question": "Er zinktrykstøbning stærkere end aluminium?",
-          "answer": "Ja, hvad angår trækstyrke. Zamak-legeringer varierer fra 283 til 397 MPa, mens de fleste trykstøbte aluminiumlegeringer leverer 150–300 MPa. Zink opnår også strammere tolerancer i støbning (\u00b10,05\u2009mm vs. \u00b10,1\u2009mm) og producerer kromsætte overflader uden sekundær polering. Aluminium er dog lettere (2,7 g/cm\u00b3 vs. 6,6 g/cm\u00b3), så valget afhænger af, om styrke-til-vægt-forholdet eller absolut præcision er prioriteten."
+          "answer": "Ja, hvad angår trækstyrke. Zamak-legeringer varierer fra 283 til 397 MPa, mens de fleste trykstøbte aluminiumlegeringer leverer 150–300 MPa. Zink opnår også strammere tolerancer i støbning (\u00b10,05\u2009mm vs. \u00b10,1\u2009mm) og producerer kromklare overflader uden sekundær polering. Aluminium er dog lettere (2,7 g/cm\u00b3 vs. 6,6 g/cm\u00b3), så valget afhænger af, om styrke-til-vægt-forholdet eller absolut præcision er prioriteten."
         },
         {
           "question": "Hvad er en Zamak-legering?",
@@ -490,7 +493,7 @@
         },
         {
           "question": "Hvad koster zinktrykstøbning?",
-          "answer": "Værktøjsomkostningen afhænger af emtets kompleksitet og antal hulrum og varierer typisk fra 80.000 til 600.000 kr. Zinkforme holder dog over 1 million skud — 5–10\u00d7 længere end aluminiumforme — hvilket dramatisk reducerer pr.-emne-værktøjsomkostningen ved volumen. Stykpriser afhænger af emnvægt, legering, cyklustid og sekundære operationer. Send os din tegning for et specifikt tilbud — vi svarer inden for 48 timer."
+          "answer": "Værktøjsomkostningen afhænger af emtets kompleksitet og antal hulrum og varierer typisk fra 80.000 til 600.000 kr. Zinkforme holder dog over 1 million skud — 5–10\u00d7 længere end aluminiumforme — hvilket dramatisk reducerer pr.-emne-værktøjsomkostningen ved volumen. Stykpriser afhænger af emnevægt, legering, cyklustid og sekundære operationer. Send os din tegning for et specifikt tilbud — vi svarer inden for 48 timer."
         },
         {
           "question": "Hvilke industrier bruger zinktrykstøbning?",
@@ -498,7 +501,7 @@
         },
         {
           "question": "Kan zinktrykstøbte emner forkrommes?",
-          "answer": "Ja, og det er en af zinks stærkeste fordele. Zinktrykstøbninger opnår 0,8\u2009Ra\u2009\u03bcm overfladefinish direkte fra formen — glat nok til direkte forkromning uden mellempolering. Det gør zink til det foretrukne materiale til synlige, dekorative komponenter i møbler, belysning og forbrugerprodukter, hvor en fejlfri kromsurface er ufravigelig."
+          "answer": "Ja, og det er en af zinks stærkeste fordele. Zinktrykstøbninger opnår 0,8\u2009Ra\u2009\u03bcm overfladefinish direkte fra formen — glat nok til direkte forkromning uden mellempolering. Det gør zink til det foretrukne materiale til synlige, dekorative komponenter i møbler, belysning og forbrugerprodukter, hvor en fejlfri kromoverflade er ufravigelig."
         },
         {
           "question": "Er zinktrykstøbning miljøvenligt?",
@@ -635,7 +638,16 @@
       "message": "Projektbeskrivelse",
       "fileUpload": "Tekniske tegninger",
       "fileFormats": "STEP · IGES · Solidworks · Parasolid · PDF · DWG · DXF",
-      "submit": "Send forespørgsel"
+      "submit": "Send forespørgsel",
+      "sending": "Sender...",
+      "successTitle": "Besked sendt",
+      "successMessage": "Tak for din henvendelse. Vi svarer inden for 24 timer på hverdage.",
+      "error": {
+        "missing_fields": "Udfyld venligst alle påkrævede felter.",
+        "invalid_email": "Indtast venligst en gyldig e-mailadresse.",
+        "too_long": "Et eller flere felter overskrider den maksimale længde.",
+        "send_failed": "Din besked kunne ikke sendes. Prøv igen eller skriv direkte til info@linimatic.dk."
+      }
     },
     "directContacts": "Direkte kontakter",
     "team": [
@@ -676,7 +688,7 @@
       {
         "slug": "dewalt",
         "client": "DeWalt",
-        "title": "Snæverttolerante indvendige dele til elværktøj, som ingen andre ville tilbyde på",
+        "title": "Indvendige dele med snævre tolerancer til elværktøj, som ingen andre ville byde på",
         "industry": "Industri & værktøj",
         "metric": "\u00b10,05\u2009mm tolerancer · Højvolumen-serieproduktion",
         "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. '99,2% first-pass yield' eller 'X mio. dele leveret'"
@@ -719,11 +731,11 @@
         },
         {
           "step": "Hurtigværktøj",
-          "description": "Forserie-værktøj er designet til 50–10.000 emner og muliggør funktionstest og markedsvalidering, inden der investeres i flerhuller-produktionsforme. Tyngdestøbning og blødtværktøjsmuligheder er tilgængelige til de tidligste prøver."
+          "description": "Forserie-værktøj er designet til 50–10.000 emner og muliggør funktionstest og markedsvalidering, inden der investeres i flerhuller-produktionsforme. Tyngdestøbning og blødværktøj er tilgængeligt til de tidligste prøver."
         },
         {
           "step": "Første prøver & validering",
-          "description": "Første prøver måles dimensionelt mod din specifikation. Vi leverer målingerapporter og itererer på rettelser af formen, indtil alle dimensioner er inden for tolerance."
+          "description": "Første prøver måles dimensionelt mod din specifikation. Vi leverer målerapporter og itererer på rettelser af formen, indtil alle dimensioner er inden for tolerance."
         }
       ],
       "specsEyebrow": "Tekniske specifikationer",
@@ -749,7 +761,7 @@
         },
         {
           "question": "Hvad er DFM for trykstøbning?",
-          "answer": "Design for Manufacturability (DFM) er en teknisk gennemgang af din emngeometri for at sikre, at den pålideligt kan trykstøbes. Vi evaluerer vægtykkelsesensartethed, trækningsvinkler, underskæringsfeasibilitet, delingsfugeplacement og indløbsplaceringer — og anbefaler ændringer, der forbedrer støbbarhed, reducerer værktøjsomkostninger eller forlænger formlevetiden."
+          "answer": "Design for Manufacturability (DFM) er en teknisk gennemgang af din emnegeometri for at sikre, at den pålideligt kan trykstøbes. Vi evaluerer vægtykkelsesensartethed, trækningsvinkler, underskæringsfeasibilitet, delingsfugeplacering og indløbsplaceringer — og anbefaler ændringer, der forbedrer støbbarhed, reducerer værktøjsomkostninger eller forlænger formlevetiden."
         },
         {
           "question": "Kan I konvertere min plastdel til zink?",
@@ -761,7 +773,7 @@
         },
         {
           "question": "Hvad er den mindste vægtykkelse for zinktrykstøbning?",
-          "answer": "Zinktrykstøbning kan opnå vægtykkelser ned til 0,6\u2009mm — tyndere end enhver anden metaltrykstøbningsproces. Den optimale vægtykkelse afhænger dog af emngeometri, strømlængde og strukturkrav. Vores DFM-gennemgang anbefaler den bedste vægtykkelse til dit specifikke design."
+          "answer": "Zinktrykstøbning kan opnå vægtykkelser ned til 0,6\u2009mm — tyndere end enhver anden metaltrykstøbningsproces. Den optimale vægtykkelse afhænger dog af emnegeometri, strømlængde og strukturkrav. Vores DFM-gennemgang anbefaler den bedste vægtykkelse til dit specifikke design."
         }
       ],
       "relatedHeading": "Relaterede ydelser",
@@ -777,7 +789,7 @@
       "process": [
         {
           "step": "Legeringsforberedelse",
-          "description": "Zamak-legering holdes smeltet i maskinens integrerede ovn ved præcist kontrolleret temperatur. Varmkammerteknologi eliminerer det slevseparat, der bruges ved aluminiumstøbning, hvilket muliggør hurtigere cyklusser og mere konsistent skudkvalitet."
+          "description": "Zamak-legering holdes smeltet i maskinens integrerede ovn ved præcist kontrolleret temperatur. Varmkammerteknologi eliminerer den manuelle øsning, der bruges ved aluminiumstøbning, hvilket muliggør hurtigere cyklusser og mere konsistent skudkvalitet."
         },
         {
           "step": "Højtryksinjektion",
@@ -806,14 +818,14 @@
       ],
       "advantagesHeading": "Hvorfor Linimatics støberi leverer, hvad andre ikke kan",
       "advantages": {
-        "p1": "Skala og specialisering er afgørende i trykstøbning. Vores 12 maskiner dækker det fulde tonnageninterval fra 80T til små præcisionsemner til 400T til store strukturdele — alle med robothåndtering og realtids-SPC. Dette er ikke et generelt støberi, der også laver zink — zinktrykstøbning er alt, hvad vi laver, og vi har gjort det siden 1967. Det singulære fokus oversættes til dybere proceskendskab, strammere tolerancer og færre kasserede emner.",
+        "p1": "Skala og specialisering er afgørende i trykstøbning. Vores 12 maskiner dækker det fulde tonnageområde fra 80T til små præcisionsemner til 400T til store strukturdele — alle med robothåndtering og realtids-SPC. Dette er ikke et generelt støberi, der også laver zink — zinktrykstøbning er alt, hvad vi laver, og vi har gjort det siden 1967. Det entydige fokus oversættes til dybere proceskendskab, strammere tolerancer og færre kasserede emner.",
         "p2": "Den integrerede værdikæde betyder, at dit støbte emne bevæger sig direkte til CNC-bearbejdning, overfladebehandling og inspektion uden at forlade bygningen. Ingen transport mellem leverandører, ingen tabt sporbarhed, ingen ugers ventetid på næste trin. For kunder, der kører just-in-time produktion, eliminerer denne ét-facilitet-model den forsyningskædevariabilitet, der forårsager linjestop."
       },
       "faqHeading": "Ofte stillede spørgsmål",
       "faq": [
         {
           "question": "Hvad er varmkammer-trykstøbning?",
-          "answer": "Varmkammer-trykstøbning er en proces, hvor injektionsmekanismen er nedsænket i det smeltede metal. Det eliminerer det separate slevseparat, der kræves ved koldkammer (aluminium)-støbning, og muliggør hurtigere cyklustider og mere konsistente skudvægte. Det er den foretrukne proces til zink og zinklegeringer på grund af zinks lavere smeltepunkt (385\u00b0C)."
+          "answer": "Varmkammer-trykstøbning er en proces, hvor injektionsmekanismen er nedsænket i det smeltede metal. Det eliminerer den separate manuelle øsning, der kræves ved koldkammer (aluminium)-støbning, og muliggør hurtigere cyklustider og mere konsistente skudvægte. Det er den foretrukne proces til zink og zinklegeringer på grund af zinks lavere smeltepunkt (385\u00b0C)."
         },
         {
           "question": "Hvilken Zamak-legering skal jeg bruge?",
@@ -821,7 +833,7 @@
         },
         {
           "question": "Hvilke emnestørrelser kan I støbe?",
-          "answer": "Vi støber emner fra 1\u2009g til 3\u2009kg på tværs af vores 12-maskinersortiment. Den optimale maskine vælges ud fra emnvægt, projiceret areal og den nødvendige lukkekraft. Flerhuller-forme bruges til mindre emner for at maksimere gennemstrømningen."
+          "answer": "Vi støber emner fra 1\u2009g til 3\u2009kg på tværs af vores 12-maskinersortiment. Den optimale maskine vælges ud fra emnevægt, projiceret areal og den nødvendige lukkekraft. Flerhuller-forme bruges til mindre emner for at maksimere gennemstrømningen."
         },
         {
           "question": "Hvor længe holder et zinktrykstøbeværktøj?",
@@ -872,8 +884,8 @@
       ],
       "advantagesHeading": "Hvorfor intern bearbejdning ændrer resultatet",
       "advantages": {
-        "p1": "Når støbning og bearbejdning sker i den samme bygning under det samme kvalitetssystem, eliminerer du de mest almindelige kilder til dimensionsvariation ved outsourcet bearbejdning: transporthåndteringsskader, gen-fastsætningsfejl og kommunikationshuller mellem støberiet og maskinværkstedet. Hos Linimatic gennemgår bearbejdningsteamet hvert nyt støbningsdesign side om side med formingeniørerne, og sikrer, at støbningsdatummer, klempningsoverflader og bearbejdningstillæg er optimeret fra dag ét.",
-        "p2": "Denne integration komprimerer også leveringstiden. Emner bevæger sig fra støbning til bearbejdning på timer, ikke uger. Der er ingen kø hos en ekstern leverandør, ingen logistikkoordinering og ingen risiko for, at emner sidder på et lager mellem trinene. For kunder med stramme produktionsplaner kan forskellen mellem tre ugers og tre dages overdrag mellem støbning og bearbejdning afgøre, om de opfylder deres egne leveringsforpligtelser."
+        "p1": "Når støbning og bearbejdning sker i den samme bygning under det samme kvalitetssystem, eliminerer du de mest almindelige kilder til dimensionsvariation ved outsourcet bearbejdning: transportskader, omspændingsfejl og kommunikationshuller mellem støberiet og maskinværkstedet. Hos Linimatic gennemgår bearbejdningsteamet hvert nyt støbningsdesign side om side med formingeniørerne, og sikrer, at støbningsdatummer, klempningsoverflader og bearbejdningstillæg er optimeret fra dag ét.",
+        "p2": "Denne integration komprimerer også leveringstiden. Emner bevæger sig fra støbning til bearbejdning på timer, ikke uger. Der er ingen kø hos en ekstern leverandør, ingen logistikkoordinering og ingen risiko for, at emner sidder på et lager mellem trinene. For kunder med stramme produktionsplaner kan forskellen mellem tre ugers og tre dages gennemløb mellem støbning og bearbejdning afgøre, om de opfylder deres egne leveringsforpligtelser."
       },
       "faqHeading": "Ofte stillede spørgsmål",
       "faq": [
@@ -883,7 +895,7 @@
         },
         {
           "question": "Hvilke tolerancer kan sekundær bearbejdning opnå?",
-          "answer": "Sekundær CNC-bearbejdning på zinktrykstøbte emner kan opnå tolerancer, der er væsentligt strammere end \u00b10,05\u2009mm i støbning. Den opnåelige tolerance afhænger af den specifikke featuretype, emngeometri og fastsætning. Vi specificerer opnåelige tolerancer under DFM-gennemgangen."
+          "answer": "Sekundær CNC-bearbejdning på zinktrykstøbte emner kan opnå tolerancer, der er væsentligt strammere end \u00b10,05\u2009mm i støbning. Den opnåelige tolerance afhænger af den specifikke featuretype, emnegeometri og fastsætning. Vi specificerer opnåelige tolerancer under DFM-gennemgangen."
         },
         {
           "question": "Hvilke afgratningsmetoder bruger I?",
@@ -898,11 +910,11 @@
     "surfaceTreatment": {
       "title": "Overfladebehandling & coating",
       "eyebrow": "Finishen der definerer produktet",
-      "overview": "Linimatic tilbyder et komplet udvalg af overfladebehandlinger til zinktrykstøbte emner: forkromning, pulverlakering, vådlakering, e-coating og lasergravering. Vores støbningssurface-kvalitet på 0,8\u2009Ra\u2009\u03bcm betyder, at emner er kromsætte direkte fra formen — ingen mellempolering kræves. Uanset om din komponent har brug for Klasse\u00a0A kosmetisk krom til et designermøbelstykke eller funktionel korrosionsbeskyttelse til en udendørs applikation, styrer vi hele finishingprocessen i koordination med støbning og bearbejdning.",
+      "overview": "Linimatic tilbyder et komplet udvalg af overfladebehandlinger til zinktrykstøbte emner: forkromning, pulverlakering, vådlakering, e-coating og lasergravering. Vores støbeoverflade-kvalitet på 0,8\u2009Ra\u2009\u03bcm betyder, at emner er kromklare direkte fra formen — ingen mellempolering kræves. Uanset om din komponent har brug for Klasse\u00a0A kosmetisk krom til et designermøbelstykke eller funktionel korrosionsbeskyttelse til en udendørs applikation, styrer vi hele finishingprocessen i koordination med støbning og bearbejdning.",
       "processHeading": "Fra råemne til færdig overflade",
       "process": [
         {
-          "step": "Overfladeevurdering",
+          "step": "Overfladevurdering",
           "description": "Hvert emne evalueres for overfladekvalitet inden behandling. Støbte zinkemner opnår 0,8\u2009Ra\u2009\u03bcm — glat nok til direkte forkromning. Emner, der kræver coating, renses og forbehandles for at sikre optimal adhesion."
         },
         {
@@ -930,18 +942,18 @@
       ],
       "advantagesHeading": "Hvorfor overfladebehandling fra din støberipartner betyder noget",
       "advantages": {
-        "p1": "Overfladekvalitet begynder ved formen, ikke ved coatinglinjen. Den 0,8\u2009Ra\u2009\u03bcm støbningssurface-finish, som Linimatic opnår, er resultatet af præcist vedligeholdt formstål, optimerede injektionsparametre og kontrolleret afkøling. Det betyder, at forkromning kan påføres direkte uden poleringstrinnet, der tilføjer omkostninger og leveringstid hos støberier med ruere støbningsoverflader. For designere, der specificerer Klasse\u00a0A kosmetiske finishes, er denne støbningskvalitet den afgørende differentiator.",
+        "p1": "Overfladekvalitet begynder ved formen, ikke ved coatinglinjen. Den 0,8\u2009Ra\u2009\u03bcm støbeoverflade-finish, som Linimatic opnår, er resultatet af præcist vedligeholdt formstål, optimerede injektionsparametre og kontrolleret afkøling. Det betyder, at forkromning kan påføres direkte uden poleringstrinnet, der tilføjer omkostninger og leveringstid hos støberier med grovere støbningsoverflader. For designere, der specificerer Klasse\u00a0A kosmetiske finishes, er denne støbningskvalitet den afgørende differentiator.",
         "p2": "Fordi vi styrer coating i koordination med støbning og bearbejdning, kontrollerer vi hele kvalitetskæden. En overfladedefekt introduceret under transport til en ekstern coater elimineres. Farvetilpasning verificeres mod masterprøver opbevaret hos os. Og hvis et coatingproblem identificeres under inspektion, kan vi spore det tilbage til det specifikke støbningsbatch og procesparametre — uden den gensidige bebrejdelse mellem separate leverandører."
       },
       "faqHeading": "Ofte stillede spørgsmål",
       "faq": [
         {
           "question": "Hvilke overfladebehandlinger er tilgængelige for zinktrykstøbte emner?",
-          "answer": "Vi tilbyder forkromning (dekorativ og funktionel), pulverlakering (fuld RAL-farvepallet), vådlakering (farvetilpasset), e-coating (katodisk elektrocoat til korrosionsbeskyttelse) og lasergravering til logoer, delnumre og sporbarhedskoder."
+          "answer": "Vi tilbyder forkromning (dekorativ og funktionel), pulverlakering (fuld RAL-farvepalette), vådlakering (farvetilpasset), e-coating (katodisk elektrocoat til korrosionsbeskyttelse) og lasergravering til logoer, delnumre og sporbarhedskoder."
         },
         {
           "question": "Hvordan fungerer forkromning på zamak?",
-          "answer": "Zinktrykstøbninger belægges gennem en flerlagsbelægningsproces: kobberstrike, syrekovber, halvblankt nikkel, blankt nikkel og dekorativt krom. Den 0,8\u2009Ra\u2009\u03bcm støbningssurface af zamak tillader direkte belægning uden mellempolering, hvilket gør zink til det foretrukne substrat til kromfinishede komponenter."
+          "answer": "Zinktrykstøbninger belægges gennem en flerlagsbelægningsproces: kobberstrike, syrekobber, halvblankt nikkel, blankt nikkel og dekorativt krom. Den 0,8\u2009Ra\u2009\u03bcm støbeoverflade af zamak tillader direkte belægning uden mellempolering, hvilket gør zink til det foretrukne substrat til kromfinishede komponenter."
         },
         {
           "question": "Hvilken coating er bedst til udendørs brug?",
@@ -949,7 +961,7 @@
         },
         {
           "question": "Kan zinktrykstøbte emner opnå klasse A kosmetisk finish?",
-          "answer": "Ja. Zinktrykstøbning opnår 0,8\u2009Ra\u2009\u03bcm overfladefinish i støbning — glat nok til Klasse\u00a0A dekorativt krom uden polering. Det er en af zinks stærkeste fordele over aluminium og magnesium, som typisk kræver omfattende overfladeberedning inden belægning."
+          "answer": "Ja. Zinktrykstøbning opnår 0,8\u2009Ra\u2009\u03bcm overfladefinish i støbning — glat nok til Klasse\u00a0A dekorativt krom uden polering. Det er en af zinks stærkeste fordele over aluminium og magnesium, som typisk kræver omfattende overfladeforberedelse inden belægning."
         }
       ],
       "relatedHeading": "Relaterede ydelser",
@@ -1011,7 +1023,7 @@
         },
         {
           "question": "Hvilken sporbarhed leverer I pr. batch?",
-          "answer": "Hvert batch er sporbart fra råmateriale (legerings-varmetal-nummer, leverandørcertifikat) gennem støbning (maskine, form, dato, skift, procesparametre) til bearbejdning, coating, inspektion og forsendelse. Hvis et kvalitetsproblem opstår i marken, kan vi identificere alle andre emner produceret under de samme betingelser."
+          "answer": "Hvert batch er sporbart fra råmateriale (legeringens chargenummer, leverandørcertifikat) gennem støbning (maskine, form, dato, skift, procesparametre) til bearbejdning, coating, inspektion og forsendelse. Hvis et kvalitetsproblem opstår i marken, kan vi identificere alle andre emner produceret under de samme betingelser."
         }
       ],
       "relatedHeading": "Relaterede ydelser",
@@ -1039,7 +1051,7 @@
         },
         {
           "step": "Levering & genopfyldning",
-          "description": "Kanban-, JIT- og konsignationslagrmodeller understøttes. Leverancer planlægges mod din forecast med afkald styret via vores ERP-system. EDI-integration er tilgængelig til automatiseret ordrebehandling."
+          "description": "Kanban-, JIT- og konsignationslagermodeller understøttes. Leverancer planlægges mod din forecast med afkald styret via vores ERP-system. EDI-integration er tilgængelig til automatiseret ordrebehandling."
         }
       ],
       "specsEyebrow": "Tekniske specifikationer",
@@ -1061,11 +1073,11 @@
       "faq": [
         {
           "question": "Kan I levere monterede komponenter?",
-          "answer": "Ja. Vi udfører undermontage, indpresning, flerkomponent-montage og funktionstest hos os. Færdige samlinger forsendeles klar til installation i dit produkt, hvilket eliminerer monteringstrin hos dig."
+          "answer": "Ja. Vi udfører undermontage, indpresning, flerkomponent-montage og funktionstest hos os. Færdige samlinger forsendes klar til installation i dit produkt, hvilket eliminerer monteringstrin hos dig."
         },
         {
           "question": "Tilbyder I kanban- eller JIT-levering?",
-          "answer": "Ja. Vi understøtter kanban-genopfyldning, just-in-time-levering og konsignationslagrmodeller. Leveringsfrekvens og bufferlagersniveauer aftales under projektopsætning og styres via vores ERP-system."
+          "answer": "Ja. Vi understøtter kanban-genopfyldning, just-in-time-levering og konsignationslagermodeller. Leveringsfrekvens og bufferlagersniveauer aftales under projektopsætning og styres via vores ERP-system."
         },
         {
           "question": "Hvilket ERP-system bruger I?",
@@ -1073,7 +1085,7 @@
         },
         {
           "question": "Hvilke emballagemuligheder tilbyder I?",
-          "answer": "Vi tilbyder standard bulkemballage, specialdesignet emballage til beskyttelse af specifikke emngeometrier og branded emballage til forsendelser klar til slutkunder. Emballagedesign aftales under projektopsætning og dokumenteres i kontrolplanen."
+          "answer": "Vi tilbyder standard bulkemballage, specialdesignet emballage til beskyttelse af specifikke emnegeometrier og branded emballage til forsendelser klar til slutkunder. Emballagedesign aftales under projektopsætning og dokumenteres i kontrolplanen."
         }
       ],
       "relatedHeading": "Relaterede ydelser",
@@ -1159,5 +1171,95 @@
     "openApplicationDescription": "Vi er altid interesserede i at høre fra dygtige folk inden for produktion, ingeniørarbejde, kvalitet og salg. Send os dit CV og fortæl, hvad du kan bidrage med.",
     "openApplicationButton": "Send uopfordret ansøgning",
     "learnMoreButton": "Læs mere om os"
+  },
+  "privacyPage": {
+    "eyebrow": "Juridisk",
+    "title": "Privatlivspolitik",
+    "lastUpdated": "Sidst opdateret: marts 2026",
+    "dataControllerHeading": "Dataansvarlig",
+    "dataControllerIntro": "Linimatic A/S er dataansvarlig for personoplysninger indsamlet via denne hjemmeside.",
+    "whatWeCollectHeading": "Hvilke data vi indsamler",
+    "whatWeCollectIntro": "Vi kan indsamle følgende personoplysninger via vores hjemmeside:",
+    "collectItems": [
+      "Kontaktformular: Navn, virksomhed, e-mail, telefonnummer og projektbeskrivelse, når du anmoder om et tilbud eller kontakter os.",
+      "Jobansøgninger: Navn, kontaktoplysninger, CV og følgebrev ved ansøgning til stillinger.",
+      "Tekniske data: IP-adresse, browsertype, operativsystem og browsingadfærd indsamlet automatisk via cookies (med dit samtykke).",
+      "Kommunikationsdata: Optegnelser over korrespondance, hvis du kontakter os via e-mail eller telefon."
+    ],
+    "legalBasisHeading": "Retsgrundlag for behandling",
+    "legalBasisIntro": "I henhold til databeskyttelsesforordningen (GDPR) behandler vi personoplysninger baseret på:",
+    "legalBasisItems": [
+      "Samtykke (art. 6, stk. 1, litra a): Til analyse- og marketingcookies samt til nyhedsbrevsabonnementer.",
+      "Kontraktmæssig nødvendighed (art. 6, stk. 1, litra b): Til behandling af tilbudsforespørgsler og besvarelse af kundehenvendelser.",
+      "Legitim interesse (art. 6, stk. 1, litra f): Til at forbedre vores hjemmeside, sikre sikkerhed og kommunikere om vores ydelser.",
+      "Retlig forpligtelse (art. 6, stk. 1, litra c): For at overholde skatte-, regnskabs- og andre lovkrav."
+    ],
+    "howWeUseHeading": "Hvordan vi bruger dine data",
+    "howWeUseItems": [
+      "Til at besvare tilbudsforespørgsler og kundehenvendelser",
+      "Til at behandle jobansøgninger",
+      "Til at forbedre vores hjemmeside og ydelser (med samtykke)",
+      "For at overholde juridiske og regulatoriske forpligtelser",
+      "For at beskytte vores legitime forretningsinteresser"
+    ],
+    "retentionHeading": "Opbevaring af data",
+    "retentionIntro": "Vi opbevarer kun personoplysninger så længe det er nødvendigt for de beskrevne formål eller som krævet ved lov. Specifikt:",
+    "retentionItems": [
+      "Tilbudsforespørgsler: Opbevares i 2 år fra sidste kontakt, eller længere hvis et forretningsforhold er etableret.",
+      "Jobansøgninger: Opbevares i 6 måneder efter stillingen er besat, medmindre du samtykker til længere opbevaring.",
+      "Analysedata: Aggregeres og anonymiseres inden for 26 måneder.",
+      "Regnskabsdata: Opbevares i 5 år som krævet af dansk bogføringslov."
+    ],
+    "dataSharingHeading": "Deling af data",
+    "dataSharingIntro": "Vi sælger ikke dine personoplysninger. Vi kan dele data med:",
+    "dataSharingItems": [
+      "Tjenesteudbydere: Hosting-, e-mail- og analyseudbydere, der behandler data på vores vegne under databehandleraftaler.",
+      "Offentlige myndigheder: Når det kræves ved lov eller for at beskytte vores rettigheder."
+    ],
+    "dataSharingNote": "Alle databehandlere er beliggende inden for EU/EØS. Hvis dataoverførsel uden for EU/EØS er nødvendig, sikrer vi passende garantier (f.eks. standardkontraktbestemmelser).",
+    "yourRightsHeading": "Dine rettigheder",
+    "yourRightsIntro": "I henhold til GDPR har du ret til:",
+    "yourRightsItems": [
+      "Indsigt — Anmod om en kopi af de personoplysninger, vi har om dig.",
+      "Berigtigelse — Anmod om rettelse af urigtige data.",
+      "Sletning — Anmod om sletning af dine data (\"retten til at blive glemt\").",
+      "Begrænsning — Anmod om begrænsning af databehandling.",
+      "Dataportabilitet — Anmod om dine data i et struktureret, maskinlæsbart format.",
+      "Indsigelse — Gør indsigelse mod behandling baseret på legitim interesse.",
+      "Tilbagetrækning af samtykke — Træk tidligere givet samtykke tilbage til enhver tid."
+    ],
+    "yourRightsContact": "For at udøve nogen af disse rettigheder, kontakt os på info@linimatic.dk. Vi svarer inden for 30 dage.",
+    "complaintsHeading": "Klager",
+    "complaintsText": "Hvis du mener, at dine databeskyttelsesrettigheder er blevet krænket, har du ret til at indgive en klage til Datatilsynet:",
+    "changesHeading": "Ændringer af denne politik",
+    "changesText": "Vi kan opdatere denne privatlivspolitik fra tid til anden. Datoen \"sidst opdateret\" øverst afspejler den seneste revision. Vi opfordrer dig til at gennemgå denne side regelmæssigt."
+  },
+  "cookiePolicyPage": {
+    "eyebrow": "Juridisk",
+    "title": "Cookiepolitik",
+    "lastUpdated": "Sidst opdateret: marts 2026",
+    "whatAreCookiesHeading": "Hvad er cookies?",
+    "whatAreCookiesText": "Cookies er små tekstfiler, der placeres på din enhed, når du besøger en hjemmeside. De bruges bredt til at få hjemmesider til at fungere mere effektivt og give information til ejerne af hjemmesiden. I henhold til EU-regulering (ePrivacy-direktivet og GDPR) er vi forpligtet til at indhente dit samtykke, inden vi placerer ikke-nødvendige cookies.",
+    "howWeUseHeading": "Hvordan vi bruger cookies",
+    "howWeUseText": "Vi kategoriserer cookies i tre typer. Du kan administrere dine præferencer når som helst via cookieindstillingerne på vores hjemmeside.",
+    "necessaryHeading": "Nødvendige cookies",
+    "necessaryText": "Disse cookies er essentielle for, at hjemmesiden fungerer korrekt. De muliggør grundlæggende funktioner som sidenavigation, sikre områder og husker dine cookiepræferencer. Hjemmesiden kan ikke fungere korrekt uden disse cookies, og de kan ikke deaktiveres.",
+    "tableCookie": "Cookie",
+    "tablePurpose": "Formål",
+    "tableDuration": "Varighed",
+    "consentCookiePurpose": "Gemmer dine cookiepræferencer",
+    "consentCookieDuration": "1 år",
+    "analyticsHeading": "Analysecookies",
+    "analyticsText": "Disse cookies hjælper os med at forstå, hvordan besøgende interagerer med vores hjemmeside ved at indsamle og rapportere information anonymt. Dette hjælper os med at forbedre oplevelsen for alle brugere.",
+    "marketingHeading": "Marketingcookies",
+    "marketingText": "Disse cookies bruges til at spore besøgende på tværs af hjemmesider for at muliggøre visning af relevante annoncer. De placeres typisk af annoncenetværk med vores tilladelse.",
+    "managingHeading": "Administration af dine præferencer",
+    "managingText1": "Når du første gang besøger vores hjemmeside, vises et cookiebanner, der giver dig mulighed for at acceptere alle cookies, afvise alle ikke-nødvendige cookies eller tilpasse dine præferencer efter kategori.",
+    "managingText2": "Du kan ændre dine cookiepræferencer når som helst ved at slette dine browsercookies og besøge siden igen, hvilket vil udløse samtykkebanneret igen.",
+    "managingText3": "Du kan også styre cookies via dine browserindstillinger. De fleste browsere giver dig mulighed for at afvise eller slette cookies. Metoderne varierer fra browser til browser — se din browsers hjælpedokumentation.",
+    "thirdPartyHeading": "Tredjepartscookies",
+    "thirdPartyText": "Nogle cookies placeres af tredjepartstjenester, der vises på vores sider. Vi kontrollerer ikke brugen af disse cookies. Relevante tredjepartsudbydere omfatter analyse- og annonceplatforme. Deres respektive privatlivspolitikker regulerer deres brug af data.",
+    "contactHeading": "Kontakt",
+    "contactText": "Hvis du har spørgsmål om vores brug af cookies, kontakt os på:"
   }
 }

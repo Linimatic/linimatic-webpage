@@ -1,3 +1,4 @@
+import { getTranslations } from "next-intl/server";
 import { JsonLd } from "@/components/JsonLd";
 import { Link } from "@/i18n/routing";
 
@@ -10,8 +11,9 @@ type BreadcrumbsProps = {
   items: Crumb[];
 };
 
-export function Breadcrumbs({ items }: BreadcrumbsProps) {
-  const allCrumbs: Crumb[] = [{ label: "Home", href: "/" }, ...items];
+export async function Breadcrumbs({ items }: BreadcrumbsProps) {
+  const t = await getTranslations("navigation");
+  const allCrumbs: Crumb[] = [{ label: t("home"), href: "/" }, ...items];
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",

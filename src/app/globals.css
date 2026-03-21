@@ -107,6 +107,26 @@ h1, h2, h3, h4, h5, h6 {
   animation-play-state: paused;
 }
 
+/* Focus indicators for keyboard accessibility */
+*:focus-visible {
+  outline: 2px solid var(--color-ember);
+  outline-offset: 2px;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--color-ember);
+  outline-offset: 2px;
+}
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: none;
+  border-color: var(--color-ember);
+  box-shadow: 0 0 0 1px var(--color-ember);
+}
+
 /* Noise grain overlay for texture */
 .grain::after {
   content: '';

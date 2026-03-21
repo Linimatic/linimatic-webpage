@@ -74,40 +74,19 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
-  const { slug } = await params;
+  const { locale, slug } = await params;
   const s = slug as ServiceSlug;
   const meta = SERVICE_META[s];
   if (!meta) return {};
 
-  // We can't easily call getTranslations in generateMetadata without locale param issues,
-  // so we use a simple lookup for meta titles
-  const titles: Record<ServiceSlug, string> = {
-    prototyping: "Prototyping & Design Review — Zinc Die-Casting",
-    "die-casting": "Hot-Chamber Zinc Die Casting — Machines, Alloys & Tolerances",
-    "post-processing": "CNC Post-Processing for Zinc Die-Cast Parts",
-    "surface-treatment": "Surface Treatment & Coating — Chrome, Powder Coat & More",
-    quality: "Quality & Certification — ISO 9001, CMM, SPC, PPAP",
-    assembly: "Assembly & Supply Chain — Turnkey Zinc Components",
-  };
-
-  const descriptions: Record<ServiceSlug, string> = {
-    prototyping:
-      "From CAD to first samples in 3–4 weeks. DFM review, rapid tooling, and bridge to production. Send us your drawing.",
-    "die-casting":
-      "12 automated hot-chamber machines, 80–400T. Zamak 2/3/5 alloys, ±0.05mm tolerances, 24h operation. Denmark's largest zinc foundry.",
-    "post-processing":
-      "In-house CNC milling, turning, threading, and deburring. Parts never leave the building between casting and machining.",
-    "surface-treatment":
-      "Chrome plating, powder coating, wet paint, e-coating, laser engraving. Class A cosmetic finishes on zinc die-cast parts.",
-    quality:
-      "ISO 9001 certified since 1993. CMM inspection, SPC monitoring, PPAP capability, full traceability on every batch.",
-    assembly:
-      "Sub-assembly, kanban delivery, JIT supply. We ship finished products on your schedule, not loose parts.",
-  };
+  const t = await getTranslations({ locale, namespace: "serviceDetail" });
+  const title = t(`${meta.titleKey}.title`);
+  const overview = t(`${meta.titleKey}.overview`);
+  const description = overview.length > 160 ? overview.slice(0, 157) + "..." : overview;
 
   return {
-    title: titles[s],
-    description: descriptions[s],
+    title,
+    description,
     alternates: {
       canonical: `https://linimatic.dk/en/services/${slug}`,
       languages: {

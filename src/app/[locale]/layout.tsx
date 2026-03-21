@@ -11,7 +11,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
 import { CookieConsent } from "@/components/CookieConsent";
-import { Analytics } from "@vercel/analytics/next";
+import { ConsentAnalytics } from "@/components/ConsentAnalytics";
 
 const instrumentSans = Instrument_Sans({
   variable: "--font-instrument-sans",
@@ -156,8 +156,8 @@ export default async function LocaleLayout({
           <main>{children}</main>
           <Footer />
           <CookieConsent />
+          <ConsentAnalytics />
         </NextIntlClientProvider>
-        <Analytics />
       </body>
     </html>
   );

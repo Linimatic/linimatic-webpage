@@ -50,12 +50,8 @@ export default async function JobsPage({
     "@type": "JobPosting",
     title: pos.title,
     description: `${pos.description} Responsibilities: ${pos.responsibilities.join(". ")}. Requirements: ${pos.requirements.join(". ")}.`,
-    datePosted: new Date().toISOString().split("T")[0],
-    validThrough: new Date(
-      Date.now() + 90 * 24 * 60 * 60 * 1000
-    )
-      .toISOString()
-      .split("T")[0],
+    datePosted: "2026-03-01",
+    validThrough: "2026-06-01",
     employmentType: pos.type === "Full-time" || pos.type === "Fuldtid" || pos.type === "Vollzeit" ? "FULL_TIME" : "PART_TIME",
     hiringOrganization: {
       "@type": "Organization",

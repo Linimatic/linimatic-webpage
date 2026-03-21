@@ -32,21 +32,18 @@ function setCookiePreferences(prefs: CookiePreferences) {
 export function CookieConsent() {
   const [visible, setVisible] = useState(false);
   const [showDetails, setShowDetails] = useState(false);
-  const [preferences, setPreferences] = useState<CookiePreferences>({
-    necessary: true,
-    analytics: false,
-    marketing: false,
+  const [preferences, setPreferences] = useState<CookiePreferences>(() => {
+    const saved = getCookiePreferences();
+    return saved ?? { necessary: true, analytics: false, marketing: false };
   });
   const t = useTranslations("cookies");
 
   useEffect(() => {
     const saved = getCookiePreferences();
     if (!saved) {
-      // Small delay so it doesn't flash on page load
       const timer = setTimeout(() => setVisible(true), 1000);
       return () => clearTimeout(timer);
     }
-    setPreferences(saved);
   }, []);
 
   const handleAcceptAll = useCallback(() => {
@@ -230,16 +227,10 @@ export function CookieConsent() {
  * Usage: const { analytics, marketing } = useCookieConsent();
  */
 export function useCookieConsent(): CookiePreferences {
-  const [prefs, setPrefs] = useState<CookiePreferences>({
-    necessary: true,
-    analytics: false,
-    marketing: false,
-  });
-
-  useEffect(() => {
+  const [prefs] = useState<CookiePreferences>(() => {
     const saved = getCookiePreferences();
-    if (saved) setPrefs(saved);
-  }, []);
+    return saved ?? { necessary: true, analytics: false, marketing: false };
+  });
 
   return prefs;
 }

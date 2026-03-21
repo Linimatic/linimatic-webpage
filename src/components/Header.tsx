@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useEffect, Fragment } from "react";
+import { useState, useEffect, useRef, useCallback, Fragment } from "react";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
@@ -28,6 +28,7 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
   const t = useTranslations("header");
   const tJobs = useTranslations("jobsPage");
   const locale = useLocale();
@@ -38,6 +39,40 @@ export function Header() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const handleDropdownKeyDown = useCallback(
+    (e: React.KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setServicesOpen(false);
+        dropdownRef.current?.querySelector("a")?.focus();
+      } else if (e.key === "ArrowDown") {
+        e.preventDefault();
+        if (!servicesOpen) {
+          setServicesOpen(true);
+        } else {
+          const links = dropdownRef.current?.querySelectorAll<HTMLAnchorElement>("div[role='menu'] a");
+          const current = document.activeElement;
+          if (links) {
+            const idx = Array.from(links).indexOf(current as HTMLAnchorElement);
+            links[Math.min(idx + 1, links.length - 1)]?.focus();
+          }
+        }
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        const links = dropdownRef.current?.querySelectorAll<HTMLAnchorElement>("div[role='menu'] a");
+        if (links) {
+          const idx = Array.from(links).indexOf(document.activeElement as HTMLAnchorElement);
+          if (idx <= 0) {
+            setServicesOpen(false);
+            dropdownRef.current?.querySelector("a")?.focus();
+          } else {
+            links[idx - 1]?.focus();
+          }
+        }
+      }
+    },
+    [servicesOpen]
+  );
 
   return (
     <header
@@ -68,35 +103,46 @@ export function Header() {
                 <div
                   key={item.key}
                   className="relative"
+                  ref={dropdownRef}
                   onMouseEnter={() => setServicesOpen(true)}
                   onMouseLeave={() => setServicesOpen(false)}
+                  onKeyDown={handleDropdownKeyDown}
                 >
                   <Link
                     href={item.href}
+                    aria-haspopup="true"
+                    aria-expanded={servicesOpen}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault();
+                        setServicesOpen((o) => !o);
+                      }
+                    }}
                     className={`flex items-center gap-1 px-5 py-2 text-[13px] font-medium tracking-wide uppercase transition-colors ${
                       scrolled ? "text-zinc-600 hover:text-zinc-900" : "text-zinc-300 hover:text-white"
                     }`}
                   >
                     {t(`nav.${item.key}`)}
-                    <svg className="h-3 w-3 opacity-50" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                    <svg className="h-3 w-3 opacity-50" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                     </svg>
                   </Link>
                   {servicesOpen && (
                     <div className={`absolute top-full left-0 pt-2 w-80`}>
-                    <div className={`rounded-sm shadow-2xl p-1.5 ${
+                    <div role="menu" className={`rounded-sm shadow-2xl p-1.5 ${
                       scrolled
                         ? "bg-white border border-zinc-200"
                         : "bg-zinc-900 border border-zinc-700/50"
                     }`}>
                       <Link
                         href="/services"
+                        role="menuitem"
                         className={`flex items-center justify-between px-4 py-2.5 text-sm font-medium text-ember rounded-sm transition-colors ${
                           scrolled ? "hover:bg-zinc-50" : "hover:bg-zinc-800"
                         }`}
                       >
                         {t("allServices")}
-                        <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                        <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                         </svg>
                       </Link>
@@ -105,6 +151,7 @@ export function Header() {
                         <Link
                           key={service.href}
                           href={service.href}
+                          role="menuitem"
                           className={`block px-4 py-2.5 text-sm rounded-sm transition-colors ${
                             scrolled
                               ? "text-zinc-600 hover:text-zinc-900 hover:bg-zinc-50"

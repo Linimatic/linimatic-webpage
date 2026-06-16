@@ -1,4 +1,43 @@
 {
+  "meta": {
+    "home": {
+      "title": "Linimatic A/S — Zinkdruckguss-Gießerei in Dänemark",
+      "description": "Dänemarks größte spezialisierte Zinkdruckguss-Gießerei seit 1967. Präzise Zamak-Bauteile vom Prototyp bis zur Serie — ISO 9001-zertifiziert, aus einer Hand."
+    },
+    "services": {
+      "title": "Zinkdruckguss-Leistungen in Dänemark",
+      "description": "Zinkdruckguss aus einer Hand: Prototyping, Warmkammerguss, CNC-Bearbeitung, Oberflächenveredelung, Qualitätssicherung und Montage in Helsinge, Dänemark."
+    },
+    "whyZinc": {
+      "title": "Warum Zinkdruckguss? Vorteile & Legierungen",
+      "description": "Zinkdruckguss bietet ±0,05 mm Toleranzen, über 1 Mio. Schuss Werkzeugstandzeit und verchromungsfähige Oberflächen. Zink, Aluminium und Kunststoff im Vergleich."
+    },
+    "about": {
+      "title": "Über Linimatic — Zinkdruckguss-Experten seit 1967",
+      "description": "1967 gegründet, ist Linimatic A/S Dänemarks größte spezialisierte Zinkdruckguss-Gießerei — über 50 Spezialisten, ISO 9001, gesamte Wertschöpfung aus einer Hand."
+    },
+    "cases": {
+      "title": "Referenzen — Zinkdruckguss-Projekte",
+      "description": "Zinkdruckguss-Referenzen von DeWalt, One Collection, VELUX u. a. So löst Linimatic komplexe Fertigungsaufgaben mit präzisen Zamak-Bauteilen."
+    },
+    "contact": {
+      "title": "Kontakt Linimatic — Angebot für Zinkdruckguss",
+      "description": "Senden Sie Ihre Zeichnungen für ein kostenloses Zinkdruckguss-Angebot — Antwort binnen 24 Stunden. Rufen Sie +45 4876 4040 an oder besuchen Sie uns in Helsinge."
+    },
+    "jobs": {
+      "title": "Karriere bei Linimatic — Jobs in Dänemark",
+      "description": "Werden Sie Teil von Dänemarks größter Zinkdruckguss-Gießerei. Offene Stellen in Guss, Bearbeitung, Qualität und Technik bei Linimatic A/S in Helsinge."
+    },
+    "zinkers": {
+      "title": "Zinkers — bleifreie Angelgewichte aus Zink",
+      "description": "Linimatic Zinkers sind präzisionsgegossene Angelgewichte aus Zink — bleifrei, umweltfreundlich und langlebig. In verschiedenen Größen und Formen erhältlich."
+    }
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "backHome": "Zurück zur Startseite"
+  },
   "navigation": {
     "home": "Startseite"
   },
@@ -57,7 +96,7 @@
         "label": "Design",
         "title": "DFM-Prüfung & Prototypen",
         "description": "Senden Sie Ihre CAD-Dateien. Wir prüfen, simulieren und optimieren — erste Muster in 3–4 Wochen.",
-        "specs": "48h Antwort · Simulationsoptimiert · 50–10.000 Stk."
+        "specs": "48h Antwort · 50–10.000 Stk."
       },
       {
         "number": "02",
@@ -247,6 +286,9 @@
     "heading": "Alles unter einem Dach.",
     "description": "Die meisten Gießereien gießen Ihr Bauteil und reichen es weiter. Wir gießen es, bearbeiten es, beschichten es, prüfen es und liefern es \u2014 aus einer einzigen Anlage mit einem einzigen Ansprechpartner. Keine ausgelagerten Schritte. Keine Qualitätslücken zwischen Lieferanten. Schnellere Durchlaufzeiten und gleichbleibende Ergebnisse vom ersten bis zum millionsten Bauteil.",
     "valueChainHeading": "Von der Zeichnung zum fertigen Bauteil",
+    "catalogEyebrow": "Kompetenzen",
+    "catalogHeading": "Sechs Disziplinen, ein Dach",
+    "catalogDescription": "Vom ersten Prototyp bis zur fertigen Montage läuft jeder Schritt der Wertschöpfungskette im eigenen Haus in Helsinge. Entdecken Sie jede Kompetenz.",
     "items": [
       {
         "title": "DFM-Prüfung & Prototypen",
@@ -713,6 +755,86 @@
     "ctaHeading": "Haben Sie eine ähnliche Herausforderung?",
     "ctaDescription": "Senden Sie uns Ihre Zeichnungen und wir sagen Ihnen, was machbar ist. Die Projekte, die andere als schwierig bezeichnen, sind die, für die wir dieses Unternehmen aufgebaut haben.",
     "ctaButton": "Projekt besprechen"
+  },
+  "caseDetail": {
+    "challengeHeading": "Die Herausforderung",
+    "approachHeading": "Unser Ansatz",
+    "resultHeading": "Das Ergebnis",
+    "capabilitiesHeading": "Eingesetzte Kompetenzen",
+    "ctaHeading": "Haben Sie ein Teil, das andere nicht anbieten wollen?",
+    "ctaDescription": "Senden Sie uns Ihre Zeichnungen. Die Projekte, die andere Gießereien als schwierig bezeichnen, sind genau die, für die wir dieses Unternehmen aufgebaut haben.",
+    "ctaButton": "Projekt besprechen",
+    "items": {
+      "dewalt": {
+        "metaTitle": "DeWalt — präzise Elektrowerkzeug-Teile",
+        "client": "DeWalt",
+        "industry": "Industrie & Werkzeuge",
+        "title": "Engtolerierte Elektrowerkzeug-Innenteile, die keine andere Gießerei anbieten wollte",
+        "metric": "±0,05 mm Toleranzen · Großserien-Produktion",
+        "overview": "Innenteile für Elektrowerkzeuge erfordern dimensionale Konsistenz, die die meisten Gießereien im Serienbetrieb nicht zuverlässig liefern können. Linimatic hat DeWalt mit Hochvolumen-Zinkdruckgussteilen beliefert, deren Gusstoleranz die gesamte Montagepassung bestimmt.",
+        "challenge": "Innenkomponenten für professionelle Elektrowerkzeuge müssen in enge Raumhüllen passen und präzise mit Bewegungsteilen zusammenwirken — jede Maßabweichung verursacht Klemmen, Geräusche oder Feldausfälle. Die Kombination aus komplexer Innengeometrie, dünnen Wänden und Toleranzen unter 0,1 mm an kritischen Funktionsflächen macht diese Teile schwer zu kalkulieren: Formdesign, Legierungstemperatur, Einspritzgeschwindigkeit und Entnahmesequenz müssen alle aufeinander abgestimmt werden, um das Toleranzfenster über einen langen Produktionslauf wiederholt zu treffen. Die meisten Gießereien kalkulieren hohe Ausschussraten ein oder lehnen schlicht ab.",
+        "approach": "Linimatics Ingenieure prüften die Bauteilgeometrie im DFM und identifizierten die Bezugsstrategie und Anschnittpositionen, die die kritischen Füge-flächen über den gesamten Produktionslauf im Toleranzbereich halten. Die Echtzeit-SPC-Überwachung an den Druckgussmaschinen ermöglicht die sofortige Erkennung und Korrektur von Prozessabweichungen, bevor Ausschussteile entstehen. Die hauseigene CNC-Nachbearbeitung übernimmt die Merkmale, die engere Kontrolle erfordern, als der Gussprozess garantieren kann — alles unter einem einzigen Qualitätssystem, sodass die Rückverfolgbarkeit von der Rohlegierung bis zur Endprüfung lückenlos ist.",
+        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z. B. '99,2 % Erstdurchlauf-Ausbeute' oder 'X Mio. Teile geliefert'",
+        "capabilities": ["die-casting", "post-processing", "quality"]
+      },
+      "one-collection": {
+        "metaTitle": "One Collection — gegossene Designikone",
+        "client": "One Collection",
+        "industry": "Möbel & Design",
+        "title": "Guss einer Designikone — wo Oberflächenperfektion nicht verhandelbar ist",
+        "metric": "Klasse-A-Verchromung · Finn-Juhl-Esstisch",
+        "overview": "Der Finn-Juhl-Esstisch ist eine Möbelikone, bei der die gegossenen Zinkbeschläge auf Augenhöhe sichtbar sind — ein Oberflächenfehler an einem verchromten Bauteil ist kein Qualitätsmangel, sondern eine Reklamation. One Collection benötigte einen Gusspartner, der in der Lage ist, Klasse-A-Kosmetikoberflächen in konsistenter Serienproduktion zu liefern.",
+        "challenge": "Verchromung ist gnadenlos: Jeder Oberflächenfehler im Guss — eine Porositätsgrube, eine Fließlinie, ein Kalteinschluss — wird durch den Beschichtungsprozess verstärkt statt verborgen. Eine chromfertige Gussoberfläche erfordert enge Kontrolle von Legierungstemperatur, Einspritzgeschwindigkeit, Formtemperatur und Entlüftung im Zusammenspiel. Designmöbelkunden verlangen außerdem Farb- und Oberflächenkonsistenz über Chargen hinweg, die mit Monaten Abstand geliefert werden — die Verchromung eines heute gekauften Stuhls muss zur Verchromung eines vor zwei Jahren gekauften Tisches passen.",
+        "approach": "Zinkdruckguss ist für diese Herausforderung besonders geeignet: Das Warmkammerverfahren erzeugt eine feinkörnige, dichte Oberfläche mit 0,8 Ra μm im Guss — glatt genug für direkte dekorative Verchromung ohne Zwischenpolierung. Linimatic steuert die gesamte Veredelungssequenz intern — vom Guss über die Oberflächenvorbereitung bis zum Mehrschicht-Kupfer-Nickel-Chrom-Verfahren — was bedeutet, dass die Qualitätskette keine externen Übergaben hat, bei denen der Oberflächenzustand beeinträchtigt werden könnte. Musterstücke und aufbewahrte Oberflächenreferenzen werden zur Verifikation der Chargengleichmäßigkeit eingesetzt.",
+        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z. B. 'In Produktion seit 2005' oder 'Null Reklamationen'",
+        "capabilities": ["die-casting", "surface-treatment", "quality"]
+      },
+      "velux": {
+        "metaTitle": "VELUX — präzise Motorrahmen aus Zink",
+        "client": "VELUX",
+        "industry": "Bau & HVAC",
+        "title": "Präzisions-Motorrahmen für Europas führenden Dachfensterhersteller",
+        "metric": "Komplette lokale Wertschöpfungskette · Automatisierte Produktion",
+        "overview": "VELUX-Motorrahmen sind tragende Bauteile, die motorisierte Antriebe in Dachfensterkonstruktionen für europäische Bauprojekte aufnehmen und halten müssen — Maßgenauigkeit und Lieferzuverlässigkeit sind bei den Volumina, die VELUX verarbeitet, beide nicht verhandelbar.",
+        "challenge": "Motorrahmenkomponenten verbinden präzise Positioniermerkmale mit strukturellen Anforderungen in einer Geometrie, die Montagewerkzeuge freigeben und das schnelle automatisierte Einsetzen der Motoreinheit ermöglichen muss. Volumenzuverlässigkeit ist ebenso kritisch wie Maßgenauigkeit: Ein Einzelquellenkomponent, das nicht termingerecht liefert, stoppt eine Produktionslinie. VELUX benötigte einen lokalen europäischen Partner mit der Kapazität und Prozessdisziplin, um bei den geforderten Volumina konsistent zu liefern — mit der Rückverfolgbarkeit und Dokumentation, die ein großer OEM verlangt.",
+        "approach": "Linimatics integrierte Wertschöpfungskette — Guss, CNC-Nachbearbeitung, Prüfung und Montage unter einem Dach — eliminiert die Koordinationsverzögerungen und Qualitätsrisiken bei Übergaben, die mehrstufige Lieferketten beeinträchtigen. Robotergestützte Entnahme und automatisierte SPC-Überwachung an den Druckgussmaschinen sichern die dimensionale Konsistenz über Hochvolumen-Produktionsläufe. Kanban-basierte Lieferplanung und ERP-gesteuerte Bestandsführung stellen sicher, dass VELUX Fertigteile gemäß ihrem Produktionsforecast erhält — ohne Pufferlagerbedarfe auf ihrer Seite.",
+        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z. B. 'X Teile pro Jahr' oder 'Kontinuierliche Belieferung seit JJJJ'",
+        "capabilities": ["prototyping", "die-casting", "assembly"]
+      }
+    }
+  },
+  "zinkersPage": {
+    "breadcrumb": "Zinkers",
+    "eyebrow": "Bleifreie Angelbleie",
+    "heading": "Zinkers — das verantwortungsvolle Gewicht für ernsthafte Angler.",
+    "intro": "Zinkers ist Linimatics Linie bleifreier Zink-Angelbleie, entwickelt für Angler, die effektive Gewichte ohne die Umweltkosten von Blei wollen. Zink ist dichter als die meisten nicht-toxischen Alternativen, ungiftig für Wasservögel und aquatische Ökosysteme und vollständig recycelbar — dieselben Materialeigenschaften, die es zur führenden Druckgusslegierung Dänemarks machen, machen es zu einem ausgezeichneten Angelblei.",
+    "heroImageAlt": "Zink-Angelbleie — bleifreie Zinkers von Linimatic",
+    "whyHeading": "Warum Zink statt Blei",
+    "whyDescription": "Bleibeschränkungen für Angelzubehör weiten sich auf immer mehr EU-Mitgliedstaaten aus. Zink liefert vergleichbares Gewicht in kleinerem Profil ohne das Toxizitätsrisiko.",
+    "why": [
+      {
+        "title": "Nicht-toxisch",
+        "description": "Im Gegensatz zu Blei geht von Zink kein Toxizitätsrisiko für Wasservögel oder Wasserlebewesen aus, die verlorene Bleie verschlucken. Es ist die verantwortungsvolle Wahl für Angler in ökologisch sensiblen Gebieten."
+      },
+      {
+        "title": "Konform",
+        "description": "Bleibeschränkungen für Angelgewichte sind in mehreren EU-Ländern in Kraft oder werden diskutiert, um Wasservögel und aquatische Ökosysteme zu schützen. Zink-Angelbleie ermöglichen es Ihnen, sorglos innerhalb geltender und kommender Vorschriften zu angeln."
+      },
+      {
+        "title": "Recycelbar und in Dänemark gefertigt",
+        "description": "Zinkers werden in Linimatics Gießerei in Helsinge aus Zink gegossen — einem Material, das zu 100 % ohne Eigenschaftsverlust recycelbar ist. In Dänemark hergestellt bedeutet kurze Lieferketten und einen kleineren Transportfußabdruck."
+      }
+    ],
+    "applicationsHeading": "Wo sie eingesetzt werden",
+    "applications": [
+      "Meeres- und Küstenfischerei",
+      "Fluss- und Süßwasserfischerei",
+      "Fliegenfischen-Rigs",
+      "Catch-and-Release-Fischerei"
+    ],
+    "ctaHeading": "Interesse an Zinkers?",
+    "ctaDescription": "Kontaktieren Sie uns, um mehr über unsere bleifreien Angelbleie zu erfahren oder eine Bestellung aufzugeben. Wir beliefern sowohl Privatangler als auch Angelfachhandel.",
+    "ctaButton": "Kontakt aufnehmen"
   },
   "serviceDetail": {
     "prototyping": {

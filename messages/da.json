@@ -1,4 +1,43 @@
 {
+  "meta": {
+    "home": {
+      "title": "Linimatic A/S — Danmarks zinktrykstøberi siden 1967",
+      "description": "Danmarks største dedikerede zinktrykstøberi siden 1967. Præcise zamak-komponenter fra prototype til serie — ISO 9001-certificeret, alt under ét tag."
+    },
+    "services": {
+      "title": "Zinktrykstøbning i Danmark",
+      "description": "Full-service zinktrykstøbning under ét tag: prototyping, varmkammerstøbning, CNC-bearbejdning, overfladebehandling, kvalitetssikring og montage i Helsinge."
+    },
+    "whyZinc": {
+      "title": "Hvorfor zink? Fordele og legeringer",
+      "description": "Zinktrykstøbning giver ±0,05 mm tolerancer, 1 mio.+ skud levetid og krombare overflader. Sammenlign zink, aluminium og plast — og find den rette zamak-legering."
+    },
+    "about": {
+      "title": "Om Linimatic — eksperter i zinktrykstøbning siden 1967",
+      "description": "Grundlagt i 1967 er Linimatic A/S Danmarks største dedikerede zinktrykstøberi — 50+ specialister, ISO 9001-certificeret, hele værdikæden under ét tag."
+    },
+    "cases": {
+      "title": "Cases — projekter i zinktrykstøbning",
+      "description": "Cases i zinktrykstøbning fra DeWalt, One Collection, VELUX m.fl. Se hvordan Linimatic løser komplekse produktionsopgaver med præcise zamak-komponenter."
+    },
+    "contact": {
+      "title": "Kontakt Linimatic — få tilbud på zinktrykstøbning",
+      "description": "Send dine tegninger og få et uforpligtende tilbud på zinktrykstøbning — svar inden for 24 timer. Ring +45 4876 4040 eller besøg os i Helsinge."
+    },
+    "jobs": {
+      "title": "Job hos Linimatic — ledige stillinger i Helsinge",
+      "description": "Bliv en del af Danmarks største zinktrykstøberi. Ledige stillinger inden for støbning, bearbejdning, kvalitet og teknik hos Linimatic A/S i Helsinge."
+    },
+    "zinkers": {
+      "title": "Zinkers — blyfri fiskelodder i zink",
+      "description": "Linimatic Zinkers er præcisionsstøbte fiskelodder i zink — blyfri, miljøvenlige og holdbare. Fås i en række størrelser og udformninger."
+    }
+  },
+  "notFound": {
+    "title": "Siden blev ikke fundet",
+    "description": "Siden, du leder efter, findes ikke eller er blevet flyttet.",
+    "backHome": "Tilbage til forsiden"
+  },
   "navigation": {
     "home": "Forside"
   },
@@ -57,7 +96,7 @@
         "label": "Design",
         "title": "DFM-gennemgang & prototyper",
         "description": "Send dine CAD-filer. Vi gennemgår, simulerer og optimerer — første prøver på 3–4 uger.",
-        "specs": "48t respons · Simuleringsoptimeret · 50–10.000 stk."
+        "specs": "48t respons · 50–10.000 stk."
       },
       {
         "number": "02",
@@ -247,6 +286,9 @@
     "heading": "Alt under ét tag.",
     "description": "De fleste støberier støber dit emne og sender det videre. Vi støber det, bearbejder det, behandler overfladen, inspicerer det og leverer det — fra én facilitet med ét kontaktpunkt. Ingen outsourcede trin. Ingen kvalitetshuller mellem leverandører. Hurtigere gennemløbstid og konsistente resultater fra første emne til den millionte.",
     "valueChainHeading": "Fra tegning til færdigt emne",
+    "catalogEyebrow": "Kompetencer",
+    "catalogHeading": "Seks discipliner, ét tag",
+    "catalogDescription": "Fra første prototype til færdig montage kører hvert trin i værdikæden in-house i Helsinge. Udforsk hver kompetence.",
     "items": [
       {
         "title": "DFM-gennemgang & prototyper",
@@ -713,6 +755,86 @@
     "ctaHeading": "Har du en lignende udfordring?",
     "ctaDescription": "Send os dine tegninger, og vi fortæller dig, hvad der kan lade sig gøre. De projekter, andre kalder vanskelige, er dem, vi har bygget denne virksomhed op omkring.",
     "ctaButton": "Drøft dit projekt"
+  },
+  "caseDetail": {
+    "challengeHeading": "Udfordringen",
+    "approachHeading": "Vores tilgang",
+    "resultHeading": "Resultatet",
+    "capabilitiesHeading": "Anvendte kompetencer",
+    "ctaHeading": "Har du et emne, andre ikke vil byde på?",
+    "ctaDescription": "Send os dine tegninger. De projekter, andre støberier kalder vanskelige, er dem, vi har bygget denne virksomhed op omkring.",
+    "ctaButton": "Drøft dit projekt",
+    "items": {
+      "dewalt": {
+        "metaTitle": "DeWalt — præcise dele til elværktøj",
+        "client": "DeWalt",
+        "industry": "Industri & værktøj",
+        "title": "Indvendige dele med snævre tolerancer til elværktøj, som ingen andre ville byde på",
+        "metric": "±0,05 mm tolerancer · Højvolumen-serieproduktion",
+        "overview": "Indvendige dele til elværktøj kræver dimensionel konsistens, som de fleste støberier ikke kan levere pålideligt i volumenproduktion. Linimatic har leveret højvolumen-zinktrykstøbte emner til DeWalt med tolerancer i støbning, der bestemmer hele samlingens pasform.",
+        "challenge": "Indvendige komponenter til professionelt elværktøj skal passe ind i snævre rumslige profiler og samvirke præcist med bevægelige dele — enhver dimensionel variation medfører binding, støj eller fejl i felten. Kombinationen af kompleks indre geometri, tynde vægge og tolerancer under 0,1 mm på kritiske funktioner gør disse emner vanskelige at byde på: formdesign, legeringstemperatur, injektionshastighed og udtrækningssekvens skal alle justeres i samspil for at ramme tolerancevinduet gentagne gange over et langt produktionsforløb. De fleste støberier indregner høje spildrater eller afviser simpelthen at byde.",
+        "approach": "Linimatics ingeniører gennemgik emnegeometrien under DFM og identificerede den datumstrategi og de anstikspunkter, der ville holde de kritiske samlingsflader inden for tolerance over hele produktionsforløbet. Realtids-SPC-overvågning på trykstøbemaskinerne muliggør øjeblikkelig opdagelse og korrektion af procesafvigelser, inden fejlemner ophobes. Intern CNC-efterbearbejdning håndterer de funktioner, der kræver strammere kontrol end støbeprocessen kan garantere — alt under ét kvalitetssystem, så sporbarheden er ubrudt fra rålegering til slutkontrol.",
+        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. '99,2% first-pass yield' eller 'X mio. dele leveret'",
+        "capabilities": ["die-casting", "post-processing", "quality"]
+      },
+      "one-collection": {
+        "metaTitle": "One Collection — et støbt designikon",
+        "client": "One Collection",
+        "industry": "Møbler & design",
+        "title": "Støbning af en designikon — hvor overfladeperfektionen er ufravigelig",
+        "metric": "Klasse A-forkromning · Finn Juhl-spisebord",
+        "overview": "Finn Juhl-spisebordet er en møbelikone, hvor de støbte zinkbeslag er synlige i øjenhøjde — en overfladefejl på et forkromet emne er ikke en kvalitetsflugt, det er en reklamation. One Collection krævede en støbepartner, der var i stand til at levere klasse A-kosmetiske overflader i konsistent serieproduktion.",
+        "challenge": "Forkromning er nådesløs: enhver overfladefejl i støbningen — en porøsitetsgrop, en strømlinje, et koldt tilløb — vil blive forstærket snarere end skjult af belægningsprocessen. At opnå en kromklar støbeoverflade kræver stram kontrol af legeringstemperatur, injektionshastighed, formtemperatur og udluftning i samspil. Designmøbelkunder kræver desuden farve- og overfladekonsistens på tværs af batcher leveret med måneders mellemrum — kromet på en stol købt i dag skal matche kromet på et bord købt for to år siden.",
+        "approach": "Zinktrykstøbning er enestående egnet til denne udfordring: varmkammerprocessen producerer en finkornet, tæt overflade på 0,8 Ra μm i støbning — glat nok til direkte dekorativ forkromning uden mellemliggende polering. Linimatic styrer hele slutbehandlingssekvensen internt — fra støbning over overfladeforberedelse til flerlagsprocessen med kobber-nikkel-krom — hvilket betyder, at kvalitetskæden ikke har eksterne mellemled, hvor overfladeforholdene kan kompromitteres. Masterprøver og opbevarede overfladereferencer anvendes til at verificere batch-til-batch-konsistens.",
+        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'I produktion siden 2005' eller 'Nul reklamationer'",
+        "capabilities": ["die-casting", "surface-treatment", "quality"]
+      },
+      "velux": {
+        "metaTitle": "VELUX — præcise motorrammer i zink",
+        "client": "VELUX",
+        "industry": "Byggeri & HVAC",
+        "title": "Præcisions-motorrammer til Europas førende ovenlysproducent",
+        "metric": "Komplet lokal værdikæde · Automatiseret produktion",
+        "overview": "VELUX-motorrammer er strukturelle emner, der skal placere og fastholde motoriserede drev i ovenlyskonstruktioner monteret på byggeprojekter i hele Europa — dimensionsnøjagtighed og leveringssikkerhed er begge ufravigelige i de volumener, VELUX opererer med.",
+        "challenge": "Motorrammekomponenter kombinerer præcise positioneringsfunktioner med strukturelle krav i en geometri, der skal frigøre montageredskab og muliggøre hurtig automatiseret indsætning af motorenheden. Volumenpålidelighed er lige så kritisk som dimensionsnøjagtighed: en enkeltkildekomponent, der ikke leverer til aftalt tid, stopper en produktionslinje. VELUX krævede en lokal europæisk partner med den kapacitet og procesdisciplin, der er nødvendig for at levere konsistent i de krævede volumener med den sporbarhed og dokumentation, en stor OEM kræver.",
+        "approach": "Linimatics integrerede værdikæde — støbning, CNC-efterbearbejdning, kontrol og montage under ét tag — eliminerer de leverandørkoordinerings-forsinkelser og kvalitetsrisikoer ved videregivelse, der påvirker flerniveauleverandørkæder. Robotudtrækning og automatiseret SPC-overvågning på trykstøbemaskinerne opretholder dimensionel konsistens over højvolumen-forløb. Kanban-baseret leveringsplanlægning og ERP-styret lagerbeholdning sikrer, at VELUX modtager færdige emner i overensstemmelse med deres produktionsforecast uden behov for bufferlager i deres ende.",
+        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'X emner om året' eller 'Løbende leverance siden ÅÅÅÅ'",
+        "capabilities": ["prototyping", "die-casting", "assembly"]
+      }
+    }
+  },
+  "zinkersPage": {
+    "breadcrumb": "Zinkers",
+    "eyebrow": "Blyfrie fiskevægte",
+    "heading": "Zinkers — det ansvarlige lod til den seriøse fisker.",
+    "intro": "Zinkers er Linimatics serie af blyfrie zinklodder, designet til fiskere, der ønsker effektive vægte uden blyets miljøomkostninger. Zink er tungere end de fleste ikke-toksiske alternativer, ugiftigt for vandfugle og akvatiske økosystemer og 100% genanvendeligt — de samme materialegenskaber, der gør det til Danmarks foretrukne trykstøbelegering, gør det til en fremragende fiskevægt.",
+    "heroImageAlt": "Zinklodder — blyfrie Zinkers fra Linimatic",
+    "whyHeading": "Hvorfor zink og ikke bly",
+    "whyDescription": "Blybegrænsninger for fiskegrej er under udbredelse i EU-medlemslandene. Zink leverer sammenlignelig vægt i et mindre profil uden toksicitetsrisikoen.",
+    "why": [
+      {
+        "title": "Ikke-toksisk",
+        "description": "I modsætning til bly udgør zink ingen toksicitetsrisiko for vandfugle eller akvatisk liv, der sluger tabte lodder. Det er det ansvarlige valg for fiskere, der fisker i miljøfølsomme områder."
+      },
+      {
+        "title": "Regelkonformt",
+        "description": "Blybegrænsninger på fiskevægte er i kraft eller under drøftelse i flere EU-lande for at beskytte vandfugle og akvatiske økosystemer. Zinklodder giver dig mulighed for at fiske trygt inden for gældende og kommende regler."
+      },
+      {
+        "title": "Genanvendeligt og danskproduceret",
+        "description": "Zinkers støbes i Linimatics støberi i Helsinge med zink — et materiale, der er 100% genanvendeligt uden tab af egenskaber. Danskproduceret betyder korte forsyningskæder og et mindre transportaftryk."
+      }
+    ],
+    "applicationsHeading": "Hvor de bruges",
+    "applications": [
+      "Havfiskeri og kystfiskeri",
+      "Å- og ferskvandsfiskeri",
+      "Fluestik-rig",
+      "Catch-and-release-fiskeri"
+    ],
+    "ctaHeading": "Interesseret i Zinkers?",
+    "ctaDescription": "Kontakt os for at høre mere om vores blyfrie fiskevægte eller for at afgive en bestilling. Vi leverer til både private fiskere og fiskeudstyrforhandlere.",
+    "ctaButton": "Kontakt os"
   },
   "serviceDetail": {
     "prototyping": {

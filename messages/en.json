@@ -1,4 +1,43 @@
 {
+  "meta": {
+    "home": {
+      "title": "Linimatic A/S — Denmark's Zinc Die-Casting Foundry",
+      "description": "Denmark's largest dedicated zinc die-casting foundry since 1967. Precision zamak components from prototype to series — ISO 9001 certified, all under one roof."
+    },
+    "services": {
+      "title": "Zinc Die-Casting Services in Denmark",
+      "description": "Full-service zinc die-casting under one roof: prototyping, hot-chamber casting, CNC machining, surface coating, quality assurance and assembly. Helsinge, DK."
+    },
+    "whyZinc": {
+      "title": "Why Zinc Die-Casting? Benefits & Alloys",
+      "description": "Zinc die-casting delivers ±0.05 mm tolerances, 1M+ shot die life and chrome-ready surfaces. Compare zinc vs aluminum vs plastic and find the right zamak alloy."
+    },
+    "about": {
+      "title": "About Linimatic — Zinc Die-Casting Experts Since 1967",
+      "description": "Founded in 1967, Linimatic A/S is Denmark's largest dedicated zinc die-casting foundry — 50+ specialists, ISO 9001 certified, full value chain under one roof."
+    },
+    "cases": {
+      "title": "Case Studies — Zinc Die-Casting Projects",
+      "description": "Zinc die-casting case studies from DeWalt, One Collection, VELUX and more. See how Linimatic solves complex manufacturing challenges with precision zamak parts."
+    },
+    "contact": {
+      "title": "Contact Linimatic — Get a Zinc Die-Casting Quote",
+      "description": "Send your drawings for a free zinc die-casting quote — reply within 24 hours. Call +45 4876 4040 or visit us in Helsinge, Denmark."
+    },
+    "jobs": {
+      "title": "Careers at Linimatic — Zinc Die-Casting Jobs in Denmark",
+      "description": "Join Denmark's largest zinc die-casting foundry. Open roles in casting, machining, quality and engineering at Linimatic A/S in Helsinge."
+    },
+    "zinkers": {
+      "title": "Zinkers — Lead-Free Zinc Fishing Weights",
+      "description": "Linimatic Zinkers are precision die-cast fishing weights — lead-free, environmentally safe and built to last. Available in a range of sizes and styles."
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you’re looking for doesn’t exist or has been moved.",
+    "backHome": "Back to homepage"
+  },
   "navigation": {
     "home": "Home"
   },
@@ -57,7 +96,7 @@
         "label": "Design",
         "title": "DFM Review & Prototyping",
         "description": "Send your CAD files. We review, simulate, and optimise \u2014 first samples in 3\u20134 weeks.",
-        "specs": "48h response \u00b7 Simulation-optimised \u00b7 50\u201310,000 pcs"
+        "specs": "48h response \u00b7 50\u201310,000 pcs"
       },
       {
         "number": "02",
@@ -244,6 +283,9 @@
     "heading": "Everything under one roof.",
     "description": "Most foundries cast your part and hand it off. We cast it, machine it, coat it, inspect it, and deliver it \u2014 from a single facility with a single point of contact. No outsourced steps. No quality gaps between suppliers. Faster turnaround and consistent results from first article to millionth.",
     "valueChainHeading": "From drawing to delivered component",
+    "catalogEyebrow": "Capabilities",
+    "catalogHeading": "Six disciplines, one roof",
+    "catalogDescription": "From first prototype to finished assembly, every step of the value chain runs in-house in Helsinge. Explore each capability.",
     "items": [
       {
         "title": "DFM Review & Prototyping",
@@ -710,6 +752,86 @@
     "ctaHeading": "Have a similar challenge?",
     "ctaDescription": "Send us your drawings and we\u2019ll tell you what\u2019s achievable. The projects others call difficult are the ones we built this company around.",
     "ctaButton": "Discuss Your Project"
+  },
+  "caseDetail": {
+    "challengeHeading": "The challenge",
+    "approachHeading": "Our approach",
+    "resultHeading": "The result",
+    "capabilitiesHeading": "Capabilities applied",
+    "ctaHeading": "Have a part others won\u2019t quote?",
+    "ctaDescription": "Send us your drawings. The projects other foundries call difficult are the ones we built this company around.",
+    "ctaButton": "Discuss Your Project",
+    "items": {
+      "dewalt": {
+        "metaTitle": "DeWalt — Tight-Tolerance Power-Tool Castings",
+        "client": "DeWalt",
+        "industry": "Industrial & Tools",
+        "title": "Tight-tolerance power tool internals no other foundry would quote",
+        "metric": "\u00b10.05\u2009mm tolerances \u00b7 High-volume series",
+        "overview": "Power tool internals demand dimensional consistency that most foundries cannot reliably produce at volume. Linimatic has supplied DeWalt with high-volume zinc die-cast components held to as-cast tolerances that determine the entire assembly fit.",
+        "challenge": "Internal components for professional power tools must clear tight spatial envelopes and mate precisely with moving parts \u2014 any dimensional variation causes binding, noise, or field failure. The combination of complex internal geometry, thin walls, and sub-0.1\u2009mm tolerances on critical features makes these parts difficult to quote: the die design, alloy temperature, injection speed, and extraction sequence all have to be tuned together to hit the tolerance window repeatedly over a long production run. Most foundries price in wide fallout rates or simply decline to bid.",
+        "approach": "Linimatic\u2019s engineers reviewed the part geometry during DFM and identified the datum strategy and gate locations that would keep the critical mating features in tolerance across the full production run. Real-time SPC monitoring on the die-casting machines allows immediate detection and correction of any process drift before out-of-spec parts accumulate. In-house CNC post-processing handles the features that require tighter control than the as-cast process can guarantee, all under a single quality system \u2014 so traceability is unbroken from raw alloy to final inspection.",
+        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u201999.2% first-pass yield\u2019 or \u2018X million parts delivered\u2019",
+        "capabilities": ["die-casting", "post-processing", "quality"]
+      },
+      "one-collection": {
+        "metaTitle": "One Collection — Casting a Design Icon",
+        "client": "One Collection",
+        "industry": "Furniture & Design",
+        "title": "Casting a design icon \u2014 where surface perfection is non-negotiable",
+        "metric": "Class\u00a0A chrome finish \u00b7 Finn Juhl dining table",
+        "overview": "The Finn Juhl dining table is a furniture icon where the cast zinc fittings are visible at eye level \u2014 a surface imperfection on a chrome-plated component is not a quality escape, it is a rejection. One Collection required a casting partner capable of delivering Class\u00a0A cosmetic surfaces in consistent production.",
+        "challenge": "Chrome plating is unforgiving: any surface defect in the casting \u2014 a porosity pit, a flow line, a cold shut \u2014 will be amplified rather than hidden by the plating process. Achieving a chrome-ready as-cast surface requires tight control of alloy temperature, injection velocity, die temperature, and venting, all working in concert. Design-furniture clients also require colour and finish consistency across batches delivered months apart \u2014 the chrome on a chair bought today must match the chrome on a table bought two years ago.",
+        "approach": "Zinc die-casting is uniquely suited to this challenge: the hot-chamber process produces a fine-grained, dense surface at 0.8\u2009Ra\u2009\u03bcm as-cast, smooth enough for direct decorative chrome without intermediate polishing. Linimatic controls the full finishing sequence in-house \u2014 from casting through surface preparation to the multi-layer copper-nickel-chrome plating process \u2014 which means the quality chain has no external handoffs where surface condition can be compromised. Master samples and retained finish references are used to verify batch-to-batch consistency.",
+        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u2018In production since 2005\u2019 or \u2018Zero field returns\u2019",
+        "capabilities": ["die-casting", "surface-treatment", "quality"]
+      },
+      "velux": {
+        "metaTitle": "VELUX — Precision Skylight Motor Frames",
+        "client": "VELUX",
+        "industry": "Building & HVAC",
+        "title": "Precision motor frames for Europe\u2019s leading skylight manufacturer",
+        "metric": "Full local value chain \u00b7 Automated production",
+        "overview": "VELUX motor frames are structural components that must locate and retain motorised drives in skylight assemblies installed across European construction projects \u2014 dimensional accuracy and supply reliability are both non-negotiable at the volumes VELUX operates.",
+        "challenge": "Motor frame components combine precision locating features with structural requirements in a geometry that must clear assembly tooling and allow fast automated insertion of the motor unit. Volume reliability is as critical as dimensional accuracy: a single-source component that fails to deliver on schedule stops a production line. VELUX required a local European partner with the capacity and process discipline to supply consistently at the required volumes with the traceability and documentation a major OEM demands.",
+        "approach": "Linimatic\u2019s integrated value chain \u2014 casting, CNC post-processing, inspection, and assembly all under one roof \u2014 eliminates the supplier coordination delays and quality handoff risks that affect multi-tier supply chains. Robotic extraction and automated SPC monitoring on the die-casting machines maintain dimensional consistency across high-volume runs. Kanban-based delivery scheduling and ERP-managed inventory ensure VELUX receives finished components against their production forecast without buffer stock requirements at their end.",
+        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u2018X parts per year\u2019 or \u2018Continuous supply since YYYY\u2019",
+        "capabilities": ["prototyping", "die-casting", "assembly"]
+      }
+    }
+  },
+  "zinkersPage": {
+    "breadcrumb": "Zinkers",
+    "eyebrow": "Lead-free fishing weights",
+    "heading": "Zinkers \u2014 the responsible weight for serious anglers.",
+    "intro": "Zinkers are Linimatic\u2019s line of lead-free zinc fishing sinkers, designed for anglers who want effective weights without the environmental cost of lead. Zinc is denser than most non-toxic alternatives, non-toxic to waterfowl and aquatic ecosystems, and fully recyclable \u2014 the same material properties that make it Denmark\u2019s premier die-casting alloy make it an excellent fishing weight.",
+    "heroImageAlt": "Zinc fishing sinkers \u2014 lead-free Zinkers by Linimatic",
+    "whyHeading": "Why zinc, not lead",
+    "whyDescription": "Lead restrictions for fishing tackle are expanding across EU member states. Zinc delivers comparable weight in a smaller profile without the toxicity risk.",
+    "why": [
+      {
+        "title": "Non-toxic",
+        "description": "Unlike lead, zinc poses no toxicity risk to waterfowl or aquatic life that ingest lost sinkers. It is the responsible choice for anglers fishing in environmentally sensitive areas."
+      },
+      {
+        "title": "Compliant",
+        "description": "Lead restrictions on fishing weights are in force or under discussion in several EU countries to protect waterbirds and aquatic ecosystems. Zinc sinkers allow you to fish confidently within current and emerging regulations."
+      },
+      {
+        "title": "Recyclable and Danish-made",
+        "description": "Zinkers are cast in Linimatic\u2019s Helsinge foundry using zinc \u2014 a material that is 100% recyclable with no loss of properties. Buying Danish-made means short supply chains and a smaller transport footprint."
+      }
+    ],
+    "applicationsHeading": "Where they\u2019re used",
+    "applications": [
+      "Sea and coastal fishing",
+      "River and freshwater fishing",
+      "Fly fishing rigs",
+      "Catch-and-release fishing"
+    ],
+    "ctaHeading": "Interested in Zinkers?",
+    "ctaDescription": "Contact us to learn more about our lead-free fishing weights or to place an order. We supply both individual anglers and tackle retailers.",
+    "ctaButton": "Get in Touch"
   },
   "serviceDetail": {
     "prototyping": {

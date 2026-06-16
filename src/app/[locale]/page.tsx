@@ -223,7 +223,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                   <div className="relative z-10 flex items-center gap-3 mb-5 lg:mb-6">
                     <div className="relative w-16 h-16 flex flex-col items-center justify-center bg-zinc-950 text-white shrink-0 px-1 transition-colors duration-300 group-hover:bg-ember">
                       <span className="absolute inset-x-0 top-0 h-[3px] bg-ember transition-colors duration-300 group-hover:bg-zinc-950" />
-                      <span className="text-[9px] tracking-[0.08em] uppercase text-ember leading-none text-center font-[family-name:var(--font-mono)] transition-colors duration-300 group-hover:text-zinc-950">{step.label}</span>
+                      <span className="text-[10px] tracking-[0.08em] uppercase text-ember leading-none text-center font-[family-name:var(--font-mono)] transition-colors duration-300 group-hover:text-zinc-950">{step.label}</span>
                       <span className="text-xl font-bold leading-none mt-1 font-[family-name:var(--font-mono)] transition-colors duration-300 group-hover:text-zinc-950">{step.number}</span>
                     </div>
                     {!isLast && (
@@ -237,9 +237,9 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                   </div>
                   {/* Content */}
                   <div className="pr-4 lg:pr-5 pb-8 lg:pb-0 flex flex-col flex-1">
-                    <h3 className="text-sm font-semibold text-zinc-900 group-hover:text-ember transition-colors duration-300 font-[family-name:var(--font-display)] tracking-tight mb-1.5">{step.title}</h3>
-                    <p className="text-[13px] text-zinc-500 leading-relaxed">{step.description}</p>
-                    <p className="mt-auto pt-3 text-[10px] tracking-[0.05em] text-ember font-[family-name:var(--font-mono)]">{step.specs}</p>
+                    <h3 className="text-base font-semibold text-zinc-900 group-hover:text-ember transition-colors duration-300 font-[family-name:var(--font-display)] tracking-tight mb-1.5">{step.title}</h3>
+                    <p className="text-[15px] text-zinc-500 leading-relaxed">{step.description}</p>
+                    <p className="mt-auto pt-3 text-[11px] tracking-[0.05em] text-ember font-[family-name:var(--font-mono)]">{step.specs}</p>
                   </div>
                 </Link>
               );

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState, useEffect, useRef, useCallback, Fragment } from "react";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
-import { Link } from "@/i18n/routing";
+import { Link, usePathname } from "@/i18n/routing";
 
 const serviceKeys = [
   { key: "prototyping", href: "/services/prototyping" },
@@ -32,6 +32,7 @@ export function Header() {
   const t = useTranslations("header");
   const tJobs = useTranslations("jobsPage");
   const locale = useLocale();
+  const pathname = usePathname();
   const jobCount = (tJobs.raw("positions") as unknown[]).length;
 
   useEffect(() => {
@@ -191,7 +192,7 @@ export function Header() {
               {(['en', 'da', 'de'] as const).map((l, i) => (
                 <Fragment key={l}>
                   {i > 0 && <span className="text-zinc-600">|</span>}
-                  <Link href="/" locale={l} className={locale === l ? 'font-semibold text-ember' : scrolled ? 'text-zinc-400 hover:text-zinc-700' : 'text-zinc-500 hover:text-white'}>
+                  <Link href={pathname} locale={l} className={locale === l ? 'font-semibold text-ember' : scrolled ? 'text-zinc-400 hover:text-zinc-700' : 'text-zinc-500 hover:text-white'}>
                     {l.toUpperCase()}
                   </Link>
                 </Fragment>
@@ -255,7 +256,7 @@ export function Header() {
               {(['en', 'da', 'de'] as const).map((l, i) => (
                 <Fragment key={l}>
                   {i > 0 && <span className="text-zinc-600">|</span>}
-                  <Link href="/" locale={l} className={locale === l ? 'font-semibold text-ember' : 'text-zinc-500 hover:text-white'}>
+                  <Link href={pathname} locale={l} className={locale === l ? 'font-semibold text-ember' : 'text-zinc-500 hover:text-white'}>
                     {l.toUpperCase()}
                   </Link>
                 </Fragment>

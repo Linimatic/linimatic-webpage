@@ -1,6 +1,7 @@
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 import { JsonLd } from "@/components/JsonLd";
 import { Link } from "@/i18n/routing";
+import { SITE_URL } from "@/lib/seo";
 
 type Crumb = {
   label: string;
@@ -13,6 +14,7 @@ type BreadcrumbsProps = {
 
 export async function Breadcrumbs({ items }: BreadcrumbsProps) {
   const t = await getTranslations("navigation");
+  const locale = await getLocale();
   const allCrumbs: Crumb[] = [{ label: t("home"), href: "/" }, ...items];
 
   const breadcrumbSchema = {
@@ -22,7 +24,7 @@ export async function Breadcrumbs({ items }: BreadcrumbsProps) {
       "@type": "ListItem",
       position: i + 1,
       name: crumb.label,
-      item: `https://linimatic.dk${crumb.href}`,
+      item: `${SITE_URL}/${locale}${crumb.href === "/" ? "" : crumb.href}`,
     })),
   };
 

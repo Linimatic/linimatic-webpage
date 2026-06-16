@@ -1,23 +1,25 @@
 import type { Metadata } from "next";
+import { buildMetadata, type Locale } from "@/lib/seo";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
-export const metadata: Metadata = {
-  title: "Zinc Die-Casting Services — Prototype to Production",
-  description:
-    "Full-service zinc die-casting under one roof: prototyping, hot-chamber casting, CNC machining, surface coating, quality assurance & assembly. Helsinge, Denmark.",
-  alternates: {
-    canonical: "https://linimatic.dk/en/services",
-    languages: {
-      da: "https://linimatic.dk/da/services",
-      en: "https://linimatic.dk/en/services",
-      de: "https://linimatic.dk/de/services",
-      "x-default": "https://linimatic.dk/en/services",
-    },
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return buildMetadata({
+    locale: locale as Locale,
+    path: "/services",
+    title: t("services.title"),
+    description: t("services.description"),
+  });
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -28,31 +30,37 @@ const services = [
     slug: "prototyping",
     icon: "01",
     label: "Design",
+    image: "/images/services/design-simulation.jpg",
   },
   {
     slug: "die-casting",
     icon: "02",
     label: "Cast",
+    image: "/images/services/frech-machine-2021.jpg",
   },
   {
     slug: "post-processing",
     icon: "03",
     label: "Machine",
+    image: "/images/services/cnc-post-processing.jpg",
   },
   {
     slug: "surface-treatment",
     icon: "04",
     label: "Finish",
+    image: "/images/services/surface-coating-chrome.jpg",
   },
   {
     slug: "quality",
     icon: "05",
     label: "Inspect",
+    image: "/images/services/quality-assurance.jpg",
   },
   {
     slug: "assembly",
     icon: "06",
     label: "Deliver",
+    image: "/images/services/assembly.jpg",
   },
 ];
 
@@ -101,44 +109,65 @@ export default async function ServicesPage({
         </div>
       </section>
 
-      {/* Value Chain */}
+      {/* Capability catalog */}
       <section className="bg-white py-20 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-          <div className="mb-12">
-            <h2 className="text-2xl sm:text-3xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">
-              {t("valueChainHeading")}
-            </h2>
+          <div className="flex items-center gap-4 mb-5">
+            <div className="w-8 h-px bg-ember" />
+            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+              {t("catalogEyebrow")}
+            </span>
           </div>
+          <h2 className="text-2xl sm:text-3xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">
+            {t("catalogHeading")}
+          </h2>
+          <p className="mt-4 text-base text-zinc-500 leading-relaxed max-w-2xl">
+            {t("catalogDescription")}
+          </p>
 
-          <div className="relative">
-            <div className="hidden lg:block absolute top-8 left-8 right-8 h-px bg-zinc-200" />
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6">
-              {services.map((service, i) => (
-                <Link
-                  key={service.slug}
-                  href={`/services/${service.slug}`}
-                  className="group relative"
-                >
-                  <div className="relative z-10 w-16 h-16 flex flex-col items-center justify-center bg-zinc-950 group-hover:bg-ember text-white transition-colors mb-4">
-                    <span className="text-[9px] tracking-[0.04em] uppercase text-ember group-hover:text-zinc-950 font-[family-name:var(--font-mono)] leading-none transition-colors">
-                      {service.label}
-                    </span>
-                    <span className="text-lg font-bold font-[family-name:var(--font-mono)] leading-none mt-1">
+          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {services.map((service, i) => (
+              <Link
+                key={service.slug}
+                href={`/services/${service.slug}`}
+                className="group flex flex-col bg-white border border-zinc-200 hover:border-zinc-300 overflow-hidden transition-colors"
+              >
+                <div className="relative aspect-[16/10] overflow-hidden bg-zinc-100">
+                  <Image
+                    src={service.image}
+                    alt={serviceItems[i].title}
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  />
+                </div>
+                <div className="p-6 flex flex-col flex-1">
+                  <div className="flex items-center gap-2.5 mb-3">
+                    <span className="text-[11px] font-bold text-ember font-[family-name:var(--font-mono)] leading-none">
                       {service.icon}
                     </span>
+                    <span className="w-4 h-px bg-zinc-300" />
+                    <span className="text-[10px] tracking-[0.2em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+                      {service.label}
+                    </span>
                   </div>
-                  <h3 className="text-sm font-semibold text-zinc-900 group-hover:text-ember transition-colors font-[family-name:var(--font-display)] tracking-tight mb-1">
+                  <h3 className="text-lg font-semibold text-zinc-900 group-hover:text-ember transition-colors font-[family-name:var(--font-display)] tracking-tight">
                     {serviceItems[i].title}
                   </h3>
-                  <p className="text-[13px] text-zinc-400 leading-relaxed mb-2">
+                  <p className="mt-2 text-sm text-zinc-500 leading-relaxed flex-1">
                     {serviceItems[i].description}
                   </p>
-                  <p className="text-[10px] tracking-[0.05em] text-ember font-[family-name:var(--font-mono)]">
-                    {serviceItems[i].specs}
-                  </p>
-                </Link>
-              ))}
-            </div>
+                  <div className="mt-4 flex items-center justify-between gap-3">
+                    <span className="text-[10px] tracking-[0.05em] text-ember font-[family-name:var(--font-mono)]">
+                      {serviceItems[i].specs}
+                    </span>
+                    <svg className="h-4 w-4 text-zinc-400 group-hover:text-ember transition-all group-hover:translate-x-1 shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                  </div>
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

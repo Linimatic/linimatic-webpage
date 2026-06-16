@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
+import { buildMetadata, metaDescription, type Locale } from "@/lib/seo";
 
 const SERVICE_SLUGS = [
   "prototyping",
@@ -69,6 +71,9 @@ export function generateStaticParams() {
   return params;
 }
 
+// Only the slugs above exist; any other slug returns a real 404 (not a soft-200).
+export const dynamicParams = false;
+
 export async function generateMetadata({
   params,
 }: {
@@ -82,21 +87,14 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "serviceDetail" });
   const title = t(`${meta.titleKey}.title`);
   const overview = t(`${meta.titleKey}.overview`);
-  const description = overview.length > 160 ? overview.slice(0, 157) + "..." : overview;
+  const description = metaDescription(overview);
 
-  return {
+  return buildMetadata({
+    locale: locale as Locale,
+    path: `/services/${slug}`,
     title,
     description,
-    alternates: {
-      canonical: `https://linimatic.dk/en/services/${slug}`,
-      languages: {
-        da: `https://linimatic.dk/da/services/${slug}`,
-        en: `https://linimatic.dk/en/services/${slug}`,
-        de: `https://linimatic.dk/de/services/${slug}`,
-        "x-default": `https://linimatic.dk/en/services/${slug}`,
-      },
-    },
-  };
+  });
 }
 
 export default async function ServiceDetailPage({
@@ -109,7 +107,7 @@ export default async function ServiceDetailPage({
 
   const s = slug as ServiceSlug;
   const meta = SERVICE_META[s];
-  if (!meta) return null;
+  if (!meta) notFound();
 
   const t = await getTranslations(`serviceDetail.${meta.titleKey}`);
   const tServices = await getTranslations("services");

@@ -1,6 +1,8 @@
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/routing";
 
-export default function NotFound() {
+export default async function NotFound() {
+  const t = await getTranslations("notFound");
   return (
     <section className="bg-zinc-50 pt-32 pb-24">
       <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
@@ -12,17 +14,14 @@ export default function NotFound() {
             </span>
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
-            Page not found
+            {t("title")}
           </h1>
-          <p className="mt-4 text-lg text-zinc-500">
-            The page you&apos;re looking for doesn&apos;t exist or has been
-            moved.
-          </p>
+          <p className="mt-4 text-lg text-zinc-500">{t("description")}</p>
           <Link
             href="/"
             className="mt-8 inline-flex items-center gap-3 bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
           >
-            Back to homepage
+            {t("backHome")}
             <svg
               className="h-4 w-4"
               fill="none"

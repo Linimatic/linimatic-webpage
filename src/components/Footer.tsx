@@ -34,9 +34,9 @@ export function Footer() {
             <Image
               src="/images/brand/linimatic-tagline-white.png"
               alt={t("logoAlt")}
-              width={200}
-              height={40}
-              className="h-7 w-auto opacity-80 mb-6"
+              width={280}
+              height={60}
+              className="h-12 w-auto opacity-80 mb-6"
             />
             <p className="text-sm leading-relaxed max-w-xs">
               {t("brandDescription")}

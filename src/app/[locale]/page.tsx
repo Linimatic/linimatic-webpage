@@ -1,7 +1,9 @@
+import type {Metadata} from "next";
 import Image from "next/image";
 import Link from "next/link";
 import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {routing} from '@/i18n/routing';
+import {buildMetadata, type Locale} from '@/lib/seo';
 
 const caseImages = [
   { image: "/images/services/brake-bracket-component.jpg", href: "/cases/dewalt" },
@@ -13,6 +15,16 @@ const teamPhotos = [
   "/images/team/jan-v-jorgensen.jpg",
   "/images/team/torben-m-jensen.jpg",
   "/images/team/rene-johnsen.jpg",
+];
+
+/** Value-chain steps map 1:1 (by order) to the six service detail pages. */
+const chainSlugs = [
+  "prototyping",
+  "die-casting",
+  "post-processing",
+  "surface-treatment",
+  "quality",
+  "assembly",
 ];
 
 /** Map of client names to their logo files. Clients without logos show as styled text. */
@@ -41,6 +53,22 @@ function Placeholder({ children }: { children: React.ReactNode }) {
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{locale: string}>;
+}): Promise<Metadata> {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: "meta"});
+  return buildMetadata({
+    locale: locale as Locale,
+    path: "",
+    title: t("home.title"),
+    description: t("home.description"),
+    absoluteTitle: true,
+  });
 }
 
 export default async function Home({params}: {params: Promise<{locale: string}>}) {
@@ -85,7 +113,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
               <p className="mt-8 text-xl sm:text-2xl text-zinc-600 font-medium leading-snug tracking-tight animate-fade-up delay-2 font-[family-name:var(--font-display)]">
                 {t('hero.tagline')}
               </p>
-              <p className="mt-4 text-base text-zinc-400 max-w-md leading-relaxed animate-fade-up delay-2">
+              <p className="mt-4 text-base text-zinc-500 max-w-md leading-relaxed animate-fade-up delay-2">
                 {t('hero.description')}
               </p>
               <div className="mt-10 flex flex-col sm:flex-row gap-3 animate-fade-up delay-3">
@@ -100,11 +128,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
             </div>
             <div className="animate-fade-up delay-2 lg:-mr-16 xl:-mr-20">
               <div className="relative overflow-hidden aspect-[4/3] lg:aspect-[5/4]">
-                <video autoPlay muted loop playsInline poster="/images/services/casting-mold.jpg" className="absolute inset-0 w-full h-full object-cover">
-                  {/* <source src="/videos/hero.webm" type="video/webm" /> */}
-                  {/* <source src="/videos/hero.mp4" type="video/mp4" /> */}
-                </video>
-                <Image src="/images/services/casting-mold.jpg" alt={t('hero.heroImageAlt')} fill priority className="object-cover" sizes="(max-width: 1024px) 100vw, 55vw" />
+                <Image src="/images/services/casting-mold.jpg" alt={t('hero.heroImageAlt')} fill priority className="object-cover animate-hero-zoom" sizes="(max-width: 1024px) 100vw, 55vw" />
                 <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-zinc-50 to-transparent hidden lg:block" />
               </div>
             </div>
@@ -147,12 +171,12 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                               alt={client.name}
                               width={logoEntry.width}
                               height={logoEntry.height}
-                              className="h-6 sm:h-7 w-auto object-contain brightness-0 invert opacity-30 hover:opacity-60 transition-opacity duration-300 shrink-0 mr-12"
+                              className="h-6 sm:h-7 w-auto object-contain brightness-0 invert opacity-50 hover:opacity-90 transition-opacity duration-300 shrink-0 mr-12"
                             />
                           );
                         }
                         return (
-                          <span key={`${client.name}-${copy}`} className="text-sm sm:text-base font-semibold text-zinc-600 hover:text-zinc-400 transition-colors font-[family-name:var(--font-display)] tracking-tight whitespace-nowrap shrink-0 mr-12">
+                          <span key={`${client.name}-${copy}`} className="text-sm sm:text-base font-semibold text-zinc-400 hover:text-zinc-200 transition-colors font-[family-name:var(--font-display)] tracking-tight whitespace-nowrap shrink-0 mr-12">
                             {client.name}
                           </span>
                         );
@@ -185,33 +209,41 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
             </p>
           </div>
 
-          {/* Connected value chain — 6 steps horizontal flow */}
-          <div className="relative">
-            {/* Connecting line (desktop) */}
-            <div className="hidden lg:block absolute top-8 left-8 right-8 h-px bg-zinc-200" />
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-0">
-              {chainSteps.map((step, i) => (
-                <div key={step.number} className="relative flex flex-col">
-                  {/* Step node */}
+          {/* Connected value chain — 6 steps, each links to its service */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-0">
+            {chainSteps.map((step, i) => {
+              const isLast = i === chainSteps.length - 1;
+              return (
+                <Link
+                  key={step.number}
+                  href={`/services/${chainSlugs[i]}`}
+                  className="group relative flex flex-col"
+                >
+                  {/* Step node + directional connector */}
                   <div className="relative z-10 flex items-center gap-3 mb-5 lg:mb-6">
-                    <div className="w-16 h-16 flex flex-col items-center justify-center bg-zinc-950 text-white flex-shrink-0 px-1">
-                      <span className="text-[9px] tracking-[0.04em] uppercase text-ember font-[family-name:var(--font-mono)] leading-none text-center">{step.label}</span>
-                      <span className="text-lg font-bold font-[family-name:var(--font-mono)] leading-none mt-1.5">{step.number}</span>
+                    <div className="relative w-16 h-16 flex flex-col items-center justify-center bg-zinc-950 text-white shrink-0 px-1 transition-colors duration-300 group-hover:bg-ember">
+                      <span className="absolute inset-x-0 top-0 h-[3px] bg-ember transition-colors duration-300 group-hover:bg-zinc-950" />
+                      <span className="text-[9px] tracking-[0.08em] uppercase text-ember leading-none text-center font-[family-name:var(--font-mono)] transition-colors duration-300 group-hover:text-zinc-950">{step.label}</span>
+                      <span className="text-xl font-bold leading-none mt-1 font-[family-name:var(--font-mono)] transition-colors duration-300 group-hover:text-zinc-950">{step.number}</span>
                     </div>
-                    {i < chainSteps.length - 1 && (
-                      <div className="flex-1 h-px bg-zinc-200 lg:hidden" />
+                    {!isLast && (
+                      <div className="flex-1 flex items-center gap-1.5 pr-1">
+                        <div className="flex-1 h-px bg-zinc-200" />
+                        <svg className="h-3 w-3 shrink-0 text-zinc-300 transition-colors duration-300 group-hover:text-ember" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                        </svg>
+                      </div>
                     )}
                   </div>
                   {/* Content */}
                   <div className="pr-4 lg:pr-5 pb-8 lg:pb-0 flex flex-col flex-1">
-                    <h3 className="text-sm font-semibold text-zinc-900 font-[family-name:var(--font-display)] tracking-tight mb-1.5">{step.title}</h3>
-                    <p className="text-[13px] text-zinc-400 leading-relaxed">{step.description}</p>
+                    <h3 className="text-sm font-semibold text-zinc-900 group-hover:text-ember transition-colors duration-300 font-[family-name:var(--font-display)] tracking-tight mb-1.5">{step.title}</h3>
+                    <p className="text-[13px] text-zinc-500 leading-relaxed">{step.description}</p>
                     <p className="mt-auto pt-3 text-[10px] tracking-[0.05em] text-ember font-[family-name:var(--font-mono)]">{step.specs}</p>
                   </div>
-                </div>
-              ))}
-            </div>
+                </Link>
+              );
+            })}
           </div>
 
           {/* CTAs */}

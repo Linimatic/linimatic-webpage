@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { buildMetadata, metaDescription, type Locale } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -9,19 +10,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "cookiePolicyPage" });
-  return {
+  return buildMetadata({
+    locale: locale as Locale,
+    path: "/cookies",
     title: t("title"),
-    description: t("whatAreCookiesText").slice(0, 155) + "...",
-    alternates: {
-      canonical: "https://linimatic.dk/en/cookies",
-      languages: {
-        da: "https://linimatic.dk/da/cookies",
-        en: "https://linimatic.dk/en/cookies",
-        de: "https://linimatic.dk/de/cookies",
-        "x-default": "https://linimatic.dk/en/cookies",
-      },
-    },
-  };
+    description: metaDescription(t("whatAreCookiesText")),
+  });
 }
 
 export function generateStaticParams() {

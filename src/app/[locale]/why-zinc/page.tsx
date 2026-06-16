@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata, type Locale } from "@/lib/seo";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
@@ -6,20 +7,20 @@ import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 
-export const metadata: Metadata = {
-  title: "Why Zinc Die-Casting? Advantages, Alloys & Material Comparison",
-  description:
-    "Zinc die-casting offers ±0.05mm tolerances, 1M+ shot die life, and chrome-ready surfaces. Compare zinc vs aluminum vs plastic. Learn which Zamak alloy fits your project.",
-  alternates: {
-    canonical: "https://linimatic.dk/en/why-zinc",
-    languages: {
-      da: "https://linimatic.dk/da/why-zinc",
-      en: "https://linimatic.dk/en/why-zinc",
-      de: "https://linimatic.dk/de/why-zinc",
-      "x-default": "https://linimatic.dk/en/why-zinc",
-    },
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return buildMetadata({
+    locale: locale as Locale,
+    path: "/why-zinc",
+    title: t("whyZinc.title"),
+    description: t("whyZinc.description"),
+  });
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

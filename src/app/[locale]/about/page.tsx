@@ -1,24 +1,26 @@
 import type { Metadata } from "next";
+import { buildMetadata, type Locale } from "@/lib/seo";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
-export const metadata: Metadata = {
-  title: "About Linimatic — Denmark's Zinc Die-Casting Experts Since 1967",
-  description:
-    "Founded in 1967, Linimatic A/S is Denmark's largest dedicated zinc die-casting foundry. 50+ specialists, ISO 9001 certified, full value chain under one roof in Helsinge.",
-  alternates: {
-    canonical: "https://linimatic.dk/en/about",
-    languages: {
-      da: "https://linimatic.dk/da/about",
-      en: "https://linimatic.dk/en/about",
-      de: "https://linimatic.dk/de/about",
-      "x-default": "https://linimatic.dk/en/about",
-    },
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return buildMetadata({
+    locale: locale as Locale,
+    path: "/about",
+    title: t("about.title"),
+    description: t("about.description"),
+    absoluteTitle: true,
+  });
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

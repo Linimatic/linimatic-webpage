@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata, type Locale } from "@/lib/seo";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
@@ -6,24 +7,29 @@ import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 
-export const metadata: Metadata = {
-  title: "Careers at Linimatic — Zinc Die-Casting Jobs in Denmark",
-  description:
-    "Join Denmark's largest zinc die-casting foundry. See open positions in casting, machining, quality, and engineering at Linimatic A/S in Helsinge.",
-  alternates: {
-    canonical: "https://linimatic.dk/en/jobs",
-    languages: {
-      da: "https://linimatic.dk/da/jobs",
-      en: "https://linimatic.dk/en/jobs",
-      de: "https://linimatic.dk/de/jobs",
-      "x-default": "https://linimatic.dk/en/jobs",
-    },
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return buildMetadata({
+    locale: locale as Locale,
+    path: "/jobs",
+    title: t("jobs.title"),
+    description: t("jobs.description"),
+    absoluteTitle: true,
+  });
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
+
+// Regenerate weekly so the build-derived JobPosting dates below keep rolling
+// forward on static hosting (no deploy required); validThrough stays ~4 months out.
+export const revalidate = 604800;
 
 export default async function JobsPage({
   params,
@@ -44,14 +50,24 @@ export default async function JobsPage({
     requirements: string[];
   }>;
 
+  // Dates derived from the (re)generation time; combined with the weekly
+  // `revalidate` above this keeps validThrough rolling ~4 months out so a
+  // listing never silently expires. A role drops from search only when
+  // removed from the positions list.
+  const now = new Date();
+  const datePosted = now.toISOString().slice(0, 10);
+  const validThrough = new Date(now.getTime() + 120 * 24 * 60 * 60 * 1000)
+    .toISOString()
+    .slice(0, 10);
+
   // Generate JobPosting schema for each open position
   const jobPostingSchemas = positions.map((pos) => ({
     "@context": "https://schema.org",
     "@type": "JobPosting",
     title: pos.title,
     description: `${pos.description} Responsibilities: ${pos.responsibilities.join(". ")}. Requirements: ${pos.requirements.join(". ")}.`,
-    datePosted: "2026-03-01",
-    validThrough: "2026-06-01",
+    datePosted,
+    validThrough,
     employmentType: pos.type === "Full-time" || pos.type === "Fuldtid" || pos.type === "Vollzeit" ? "FULL_TIME" : "PART_TIME",
     hiringOrganization: {
       "@type": "Organization",

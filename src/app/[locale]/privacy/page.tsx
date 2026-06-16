@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { buildMetadata, type Locale } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -9,19 +10,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "privacyPage" });
-  return {
+  return buildMetadata({
+    locale: locale as Locale,
+    path: "/privacy",
     title: t("title"),
     description: t("dataControllerIntro"),
-    alternates: {
-      canonical: "https://linimatic.dk/en/privacy",
-      languages: {
-        da: "https://linimatic.dk/da/privacy",
-        en: "https://linimatic.dk/en/privacy",
-        de: "https://linimatic.dk/de/privacy",
-        "x-default": "https://linimatic.dk/en/privacy",
-      },
-    },
-  };
+  });
 }
 
 export function generateStaticParams() {

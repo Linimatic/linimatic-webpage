@@ -1,25 +1,26 @@
 import type { Metadata } from "next";
+import { buildMetadata, type Locale } from "@/lib/seo";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { JsonLd } from "@/components/JsonLd";
 import { ContactForm } from "@/components/ContactForm";
 
-export const metadata: Metadata = {
-  title: "Contact Linimatic — Get a Zinc Die-Casting Quote",
-  description:
-    "Send us your drawings for a free zinc die-casting quote. Response within 24 hours. Call +45 4876 4040 or visit us in Helsinge, Denmark.",
-  alternates: {
-    canonical: "https://linimatic.dk/en/contact",
-    languages: {
-      da: "https://linimatic.dk/da/contact",
-      en: "https://linimatic.dk/en/contact",
-      de: "https://linimatic.dk/de/contact",
-      "x-default": "https://linimatic.dk/en/contact",
-    },
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return buildMetadata({
+    locale: locale as Locale,
+    path: "/contact",
+    title: t("contact.title"),
+    description: t("contact.description"),
+    absoluteTitle: true,
+  });
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -30,28 +31,6 @@ const teamPhotos = [
   "/images/team/torben-m-jensen.jpg",
   "/images/team/rene-johnsen.jpg",
 ];
-
-const contactSchema = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": "https://linimatic.dk/#organization",
-  name: "Linimatic A/S",
-  telephone: "+45 4876 4040",
-  email: "info@linimatic.dk",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Bomose Allé 12",
-    addressLocality: "Helsinge",
-    postalCode: "3200",
-    addressCountry: "DK",
-  },
-  openingHoursSpecification: {
-    "@type": "OpeningHoursSpecification",
-    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-    opens: "07:00",
-    closes: "16:00",
-  },
-};
 
 export default async function ContactPage({
   params,
@@ -71,7 +50,6 @@ export default async function ContactPage({
 
   return (
     <>
-      <JsonLd data={contactSchema} />
       <Breadcrumbs items={[{ label: t("breadcrumb"), href: "/contact" }]} />
 
       <section className="bg-zinc-50 pb-24">

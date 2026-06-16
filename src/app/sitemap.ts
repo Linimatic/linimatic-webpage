@@ -1,7 +1,12 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL as BASE_URL } from "@/lib/seo";
 
-const BASE_URL = "https://linimatic.dk";
 const LOCALES = ["da", "en", "de"] as const;
+
+// Stable last-content-update date. Bump this when the site's content materially
+// changes — using `new Date()` would reset every entry's <lastmod> on each
+// unrelated deploy, which Google learns to ignore as a noisy signal.
+const LAST_UPDATED = new Date("2026-06-16");
 
 const SERVICE_SLUGS = [
   "prototyping",
@@ -50,7 +55,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const locale of LOCALES) {
       entries.push({
         url: `${BASE_URL}/${locale}${route.path}`,
-        lastModified: new Date(),
+        lastModified: LAST_UPDATED,
         changeFrequency: route.changeFrequency,
         priority: route.priority,
         alternates: makeAlternates(route.path),
@@ -63,7 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const locale of LOCALES) {
       entries.push({
         url: `${BASE_URL}/${locale}/services/${slug}`,
-        lastModified: new Date(),
+        lastModified: LAST_UPDATED,
         changeFrequency: "monthly",
         priority: 0.8,
         alternates: makeAlternates(`/services/${slug}`),
@@ -76,7 +81,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const locale of LOCALES) {
       entries.push({
         url: `${BASE_URL}/${locale}/cases/${slug}`,
-        lastModified: new Date(),
+        lastModified: LAST_UPDATED,
         changeFrequency: "monthly",
         priority: 0.7,
         alternates: makeAlternates(`/cases/${slug}`),

@@ -5,8 +5,14 @@ import {
   JetBrains_Mono,
 } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import {
+  SITE_URL,
+  OG_LOCALE,
+  ogAlternateLocales,
+  type Locale,
+} from "@/lib/seo";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
@@ -34,62 +40,55 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: {
-    default: "Linimatic A/S — Denmark's Zinc Die-Casting Experts",
-    template: "%s | Linimatic A/S",
-  },
-  description:
-    "Denmark's largest dedicated zinc die-casting foundry since 1967. Precision zamak components from prototype to series production. ISO 9001 certified.",
-  metadataBase: new URL("https://linimatic.dk"),
-  openGraph: {
-    type: "website",
-    locale: "en_DK",
-    siteName: "Linimatic A/S",
-    images: [
-      {
-        url: "/images/og/linimatic-default.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Linimatic A/S — Zinc Die-Casting Foundry in Denmark",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  const l = locale as Locale;
+
+  return {
+    title: {
+      default: t("home.title"),
+      template: "%s | Linimatic A/S",
+    },
+    description: t("home.description"),
+    metadataBase: new URL(SITE_URL),
+    openGraph: {
+      type: "website",
+      siteName: "Linimatic A/S",
+      locale: OG_LOCALE[l],
+      alternateLocale: ogAlternateLocales(l),
+    },
+    twitter: {
+      card: "summary_large_image",
+    },
+    robots: {
       index: true,
       follow: true,
-      "max-image-preview": "large",
-      "max-snippet": -1,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
-  },
-  alternates: {
-    canonical: "https://linimatic.dk/en",
-    languages: {
-      da: "https://linimatic.dk/da",
-      en: "https://linimatic.dk/en",
-      de: "https://linimatic.dk/de",
-      "x-default": "https://linimatic.dk/en",
-    },
-  },
-};
+  };
+}
 
-const organizationSchema = {
+function organizationSchema(description: string) {
+  return {
   "@context": "https://schema.org",
   "@type": ["Organization", "LocalBusiness"],
   "@id": "https://linimatic.dk/#organization",
   name: "Linimatic A/S",
   legalName: "Linimatic A/S",
-  description:
-    "Denmark's largest dedicated zinc die-casting foundry. Precision zamak components from prototype to series production since 1967.",
+  description,
   url: "https://linimatic.dk",
   logo: "https://linimatic.dk/images/brand/linimatic-logo.png",
-  image: "https://linimatic.dk/images/og/linimatic-default.jpg",
+  image: "https://linimatic.dk/images/services/facility-2022.jpg",
   foundingDate: "1967",
   address: {
     "@type": "PostalAddress",
@@ -101,12 +100,18 @@ const organizationSchema = {
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 56.0234,
-    longitude: 12.1648,
+    latitude: 56.0201,
+    longitude: 12.1676,
   },
   telephone: "+45 4876 4040",
   email: "info@linimatic.dk",
   vatID: "DK-20254386",
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    opens: "07:00",
+    closes: "16:00",
+  },
   numberOfEmployees: {
     "@type": "QuantitativeValue",
     minValue: 50,
@@ -123,12 +128,10 @@ const organizationSchema = {
     "Design for manufacturing",
   ],
   sameAs: ["https://www.linkedin.com/company/linimatic"],
-  areaServed: {
-    "@type": "GeoShape",
-    name: "Europe",
-  },
+  areaServed: { "@type": "Place", name: "Europe" },
   priceRange: "$$$$",
-};
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -144,6 +147,7 @@ export default async function LocaleLayout({
   const { locale } = await params;
   setRequestLocale(locale);
   const messages = await getMessages();
+  const t = await getTranslations({ locale, namespace: "meta" });
 
   return (
     <html lang={locale} className="scroll-smooth">
@@ -151,7 +155,7 @@ export default async function LocaleLayout({
         className={`${instrumentSans.variable} ${sourceSans.variable} ${jetbrainsMono.variable} antialiased`}
       >
         <NextIntlClientProvider messages={messages}>
-          <JsonLd data={organizationSchema} />
+          <JsonLd data={organizationSchema(t("home.description"))} />
           <Header />
           <main>{children}</main>
           <Footer />

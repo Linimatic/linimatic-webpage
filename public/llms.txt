@@ -1,0 +1,32 @@
+# Linimatic A/S
+
+> Denmark's largest dedicated zinc die-casting foundry, founded 1967 in Helsinge. Linimatic produces precision zamak (zinc alloy) components from prototype through series production, with the full value chain — design, casting, machining, surface treatment, quality assurance and assembly — under one roof.
+
+Linimatic is not the cheapest foundry, and does not compete on price. It positions on engineering capability for the most complex parts: tight tolerances (±0.05 mm), demanding surface finishes (including chrome-ready and decorative coatings), and reliable repeatable quality at scale. ISO 9001 certified. Customers are B2B manufacturers across power tools, design furniture, lighting, building products and industrial equipment (e.g. DeWalt, VELUX, One Collection).
+
+The site is trilingual: English (/en), Danish (/da) and German (/de). Replace the locale prefix as needed; English URLs are listed below.
+
+## Core pages
+- [Home](https://linimatic.dk/en): Overview of Linimatic's zinc die-casting capabilities and positioning.
+- [Services](https://linimatic.dk/en/services): Full-service offering — design/DFM, hot-chamber die-casting, CNC post-processing, surface treatment, quality assurance, assembly.
+- [Why Zinc](https://linimatic.dk/en/why-zinc): Educational guide to zinc die-casting — advantages, zamak alloys, and zinc vs aluminium vs plastic comparison.
+- [Case Studies](https://linimatic.dk/en/cases): Real customer projects showing how Linimatic solves complex manufacturing challenges.
+- [About](https://linimatic.dk/en/about): Company history since 1967, certifications, team and facility in Helsinge.
+- [Contact](https://linimatic.dk/en/contact): Request a quote (send drawings), phone +45 4876 4040, address Bomose Allé 12, 3200 Helsinge, Denmark.
+
+## Services in detail
+- [DFM Review & Prototyping](https://linimatic.dk/en/services/prototyping): Design-for-manufacturing review and prototype tooling.
+- [Hot-Chamber Die-Casting](https://linimatic.dk/en/services/die-casting): Core zinc/zamak casting process.
+- [CNC Post-Processing](https://linimatic.dk/en/services/post-processing): Machining and secondary operations.
+- [Surface Treatment](https://linimatic.dk/en/services/surface-treatment): Coating, plating and decorative finishing.
+- [Quality Assurance](https://linimatic.dk/en/services/quality): Inspection, measurement and ISO 9001 quality systems.
+- [Assembly & Supply](https://linimatic.dk/en/services/assembly): Component assembly and supply-chain delivery.
+
+## Products
+- [Zinkers](https://linimatic.dk/en/zinkers): Lead-free, precision die-cast zinc fishing weights — an environmentally safe alternative to lead.
+
+## Optional
+- [Careers](https://linimatic.dk/en/jobs): Open positions in casting, machining, quality and engineering.
+- [Privacy Policy](https://linimatic.dk/en/privacy): Data protection and privacy information.
+- [Cookie Policy](https://linimatic.dk/en/cookies): Cookie usage and consent details.
+- [XML Sitemap](https://linimatic.dk/sitemap.xml): Machine-readable index of every page in all three languages (en/da/de).

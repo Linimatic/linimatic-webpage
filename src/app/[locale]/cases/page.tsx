@@ -1,24 +1,32 @@
 import type { Metadata } from "next";
+import { buildMetadata, type Locale } from "@/lib/seo";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
-export const metadata: Metadata = {
-  title: "Case Studies — Zinc Die-Casting Projects",
-  description:
-    "Real zinc die-casting case studies from DeWalt, One Collection, VELUX and more. See how Linimatic solves complex manufacturing challenges with precision zamak components.",
-  alternates: {
-    canonical: "https://linimatic.dk/en/cases",
-    languages: {
-      da: "https://linimatic.dk/da/cases",
-      en: "https://linimatic.dk/en/cases",
-      de: "https://linimatic.dk/de/cases",
-      "x-default": "https://linimatic.dk/en/cases",
-    },
-  },
-};
+// Result copy is authored last; until then it carries a placeholder prefix.
+// Suppress it on the listing so scaffolding text never reaches indexed HTML.
+const isPlaceholder = (text: string) =>
+  text.startsWith("PLACEHOLDER") ||
+  text.startsWith("PLADSHOLDER") ||
+  text.startsWith("PLATZHALTER");
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return buildMetadata({
+    locale: locale as Locale,
+    path: "/cases",
+    title: t("cases.title"),
+    description: t("cases.description"),
+  });
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -117,9 +125,11 @@ export default async function CasesPage({
                     <p className="mt-2 text-sm text-zinc-400 font-[family-name:var(--font-mono)]">
                       {item.metric}
                     </p>
-                    <p className="mt-2 text-sm font-semibold text-ember">
-                      {item.result}
-                    </p>
+                    {!isPlaceholder(item.result) && (
+                      <p className="mt-2 text-sm font-semibold text-ember">
+                        {item.result}
+                      </p>
+                    )}
                   </div>
                 </div>
               </Link>

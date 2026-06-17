@@ -845,7 +845,7 @@
       "process": [
         {
           "step": "DFM-gennemgang",
-          "description": "Send din CAD-fil i STEP-, IGES-, Solidworks- eller Parasolid-format. Vores ingeniører gennemgår vægtykkelse, trækningsvinkler, underskæringer og delingsfuger — og returnerer detaljeret DFM-feedback inden for 48 timer."
+          "description": "Send din CAD-fil i STEP-, IGES-, Solidworks- eller Parasolid-format. Vores ingeniører gennemgår vægtykkelse, trækningsvinkler, underskæringer og delingsfuger — og returnerer detaljeret DFM-feedback inden for 48 timer. Vi vurderer også indløbsplacering og anbefaler den rette Zamak-legering til dit emnes styrke- og overfladekrav — så designet er klar til produktion fra start."
         },
         {
           "step": "Simulering & optimering",

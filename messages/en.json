@@ -842,7 +842,7 @@
       "process": [
         {
           "step": "DFM Review",
-          "description": "Send your CAD file in STEP, IGES, Solidworks, or Parasolid format. Our engineers review wall thickness, draft angles, undercuts, and parting lines \u2014 and return detailed DFM feedback within 48 hours."
+          "description": "Send your CAD file in STEP, IGES, Solidworks, or Parasolid format. Our engineers review wall thickness, draft angles, undercuts, and parting lines \u2014 and return detailed DFM feedback within 48 hours. We also assess gate placement and recommend the right Zamak alloy for your part\u2019s strength and surface requirements \u2014 so the design is production-ready from the start."
         },
         {
           "step": "Simulation & Optimisation",

@@ -845,7 +845,7 @@
       "process": [
         {
           "step": "DFM-Pr\u00fcfung",
-          "description": "Senden Sie Ihre CAD-Datei im Format STEP, IGES, Solidworks oder Parasolid. Unsere Ingenieure prüfen Wandstärken, Entformungswinkel, Hinterschneidungen und Trennebenen — und liefern innerhalb von 48 Stunden detailliertes DFM-Feedback."
+          "description": "Senden Sie Ihre CAD-Datei im Format STEP, IGES, Solidworks oder Parasolid. Unsere Ingenieure prüfen Wandstärken, Entformungswinkel, Hinterschneidungen und Trennebenen — und liefern innerhalb von 48 Stunden detailliertes DFM-Feedback. Wir bewerten auch die Angussposition und empfehlen die richtige Zamak-Legierung für die Festigkeits- und Oberflächenanforderungen Ihres Bauteils — damit das Design von Anfang an produktionsreif ist."
         },
         {
           "step": "Simulation & Optimierung",

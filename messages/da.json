@@ -71,8 +71,8 @@
     "headline1": "Præcision",
     "headline2": "i",
     "headlineAccent": "zink",
-    "tagline": "Det bedste til det mest komplekse.",
-    "description": "Danmarks største dedikerede zinktrykstøberi. Fra simple beslag til de mest indviklede geometrier — de emner, andre ikke kan lave — tolerancer ned til \u00b10,05\u00a0mm, med støbning, bearbejdning, overfladebehandling og montage under ét tag i Danmark.",
+    "tagline": "De bedste til det sværeste",
+    "description": "Linimatic A/S kombinerer mange års erfaring med moderne, automatiseret produktion af højtryksstøbte zinkkomponenter. Automatisering, robotter og effektiv processtyring gør det muligt for os at levere høj kvalitet til konkurrencedygtige priser – med produktion i Danmark. Vi hjælper kunder med emner, hvor præcision, funktion, finish og stabil kvalitet er afgørende. Med høj teknisk knowhow og tæt dialog fra idé til færdigt emne skaber vi løsninger, der holder – også når kravene er komplekse.",
     "heroImageAlt": "Præcisions-zinktrykstøbeform med messingfittings",
     "ctaPrimary": "Giv os din udfordring",
     "ctaSecondary": "Vores ydelser"
@@ -1036,8 +1036,8 @@
       "processHeading": "Fra råemne til færdig overflade",
       "process": [
         {
-          "step": "Overfladevurdering",
-          "description": "Hvert emne evalueres for overfladekvalitet inden behandling. Støbte zinkemner opnår 0,8\u2009Ra\u2009\u03bcm — glat nok til direkte forkromning. Emner, der kræver coating, renses og forbehandles for at sikre optimal adhesion."
+          "step": "Zink – ideelt til krævende overfladebehandling",
+          "description": "Højtryksstøbte zinkemner er velegnede til mange typer overfladebehandling og er derfor et stærkt valg til tekniske komponenter med høje krav til funktion og finish. Hos Linimatic A/S producerer vi præcisionsstøbte zinkkomponenter, der efter korrekt forbehandling kan behandles med blandt andet cromat/passivering, Chrom III, pulvermaling, vådlakering og galvaniske belægninger. Zinks tætte struktur og gode dimensionsstabilitet giver et solidt grundlag for vedhæftning, korrosionsbeskyttelse og et ensartet visuelt udtryk."
         },
         {
           "step": "Behandlingsvalg",

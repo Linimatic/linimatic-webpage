@@ -48,7 +48,7 @@ const services = [
     slug: "surface-treatment",
     icon: "04",
     label: "Finish",
-    image: "/images/services/surface-coating-chrome.jpg",
+    image: "/images/services/surface-coating-belux-chrome-painted.jpg",
   },
   {
     slug: "quality",

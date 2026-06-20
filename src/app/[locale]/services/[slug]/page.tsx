@@ -6,6 +6,7 @@ import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
+import { ServiceImageGallery } from "@/components/ServiceImageGallery";
 import { buildMetadata, metaDescription, type Locale } from "@/lib/seo";
 
 const SERVICE_SLUGS = [
@@ -21,7 +22,15 @@ type ServiceSlug = (typeof SERVICE_SLUGS)[number];
 
 const SERVICE_META: Record<
   ServiceSlug,
-  { titleKey: string; descriptionKey: string; relatedServices: ServiceSlug[]; image: string }
+  {
+    titleKey: string;
+    descriptionKey: string;
+    relatedServices: ServiceSlug[];
+    image: string;
+    // Optional extra images. When present, the hero shows all images in a small
+    // format where one at a time is enlarged (on hover and on a 2-second cycle).
+    gallery?: string[];
+  }
 > = {
   prototyping: {
     titleKey: "prototyping",
@@ -45,7 +54,12 @@ const SERVICE_META: Record<
     titleKey: "surfaceTreatment",
     descriptionKey: "surfaceTreatment",
     relatedServices: ["die-casting", "quality"],
-    image: "/images/services/surface-coating-chrome.jpg",
+    image: "/images/services/surface-coating-miljo169.jpg",
+    gallery: [
+      "/images/services/surface-coating-inspection.jpg",
+      "/images/services/surface-coating-miljo169.jpg",
+      "/images/services/surface-coating-cromat.jpg",
+    ],
   },
   quality: {
     titleKey: "quality",
@@ -173,18 +187,32 @@ export default async function ServiceDetailPage({
                 {t("overview")}
               </p>
             </div>
-            {/* Image */}
-            <div className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[480px]">
-              <Image
-                src={meta.image}
-                alt={t("title")}
-                fill
-                priority
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-              <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-zinc-50 to-transparent hidden lg:block" />
-            </div>
+            {/* Image(s) */}
+            {meta.gallery ? (
+              <div className="relative min-h-[480px] lg:min-h-[560px] flex items-center">
+                <ServiceImageGallery
+                  images={meta.gallery.map((src) => ({
+                    src,
+                    alt: t("title"),
+                    // The Cromat photo is wide; show its left part (the part with
+                    // the threaded holes) rather than the cropped centre strip.
+                    position: src.includes("cromat") ? "20% center" : undefined,
+                  }))}
+                />
+              </div>
+            ) : (
+              <div className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[480px]">
+                <Image
+                  src={meta.image}
+                  alt={t("title")}
+                  fill
+                  priority
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+                <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-zinc-50 to-transparent hidden lg:block" />
+              </div>
+            )}
           </div>
         </div>
       </section>

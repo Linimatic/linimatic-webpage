@@ -1041,15 +1041,15 @@
         },
         {
           "step": "Behandlungsauswahl",
-          "description": "Wir empfehlen das passende Finish auf Basis Ihrer Anforderungen: dekorative Optik, Korrosionsschutz, Farbabstimmung, UV-Stabilität oder elektrische Leitfähigkeit. Mehrschichtfinishes (z. B. Kupfer-Nickel-Chrom) sind für höchste Ansprüche an die Optik verfügbar."
+          "description": "Wir helfen Ihnen, die richtige Oberfläche auf Basis Ihrer Wünsche und Anforderungen an die Oberfläche auszuwählen. Eine mehrschichtige Behandlung ist bei Zink häufig erforderlich (z. B. Kupfer-Nickel-Chrom), wenn es um höchste kosmetische Standards geht."
         },
         {
-          "step": "Applikation & H\u00e4rtung",
-          "description": "Jede Behandlung folgt prozessspezifischen Protokollen für Temperatur, Schichtdicke und Aushärtezeit. Die Schichtdicke wird gemessen und dokumentiert, um Konsistenz über Produktionschargen hinweg sicherzustellen."
+          "step": "Prozesskontrolle",
+          "description": "Während der Oberflächenbehandlung werden prozessspezifische Anforderungen an Temperatur, Schichtdicke und Aushärtezeit eingehalten. Der Prozess wird laufend kontrolliert und dokumentiert, einschließlich der Messung der Beschichtungsdicke, um eine gleichmäßige und stabile Qualität über alle Produktionschargen hinweg sicherzustellen."
         },
         {
-          "step": "Qualit\u00e4tsverifikation",
-          "description": "Fertigteile werden auf Haftung, Schichtdicke, Farbkonsistenz und Sichtfehler geprüft. Salzsprühnebelprüfung validiert die Korrosionsbeständigkeit für Außen- und Rauumgebungsanwendungen."
+          "step": "Qualitätskontrolle",
+          "description": "Fertige oberflächenbehandelte Produkte mit besonderen Anforderungen an das Finish durchlaufen bei Linimatic grundsätzlich eine 100%ige Sichtkontrolle, bevor sie ausgeliefert werden. So wird sichergestellt, dass die Produkte der vereinbarten Qualität und dem gewünschten optischen Erscheinungsbild entsprechen."
         }
       ],
       "specsEyebrow": "Technische Spezifikationen",

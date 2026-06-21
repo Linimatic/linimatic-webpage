@@ -1038,15 +1038,15 @@
         },
         {
           "step": "Treatment Selection",
-          "description": "We recommend the right finish based on your requirements: decorative appearance, corrosion resistance, colour matching, UV stability, or conductivity. Multi-layer finishes (e.g., copper-nickel-chrome) are available for the highest cosmetic standards."
+          "description": "We help you choose the right surface finish based on your wishes and requirements for the surface. Multi-layer treatment is often necessary on zinc (e.g. copper-nickel-chrome) when it comes to the highest cosmetic standards."
         },
         {
-          "step": "Application & Curing",
-          "description": "Each treatment follows process-specific protocols for temperature, thickness, and curing time. Coating thickness is measured and documented to ensure consistency across production batches."
+          "step": "Process control",
+          "description": "During the surface treatment, process-specific requirements for temperature, layer thickness and curing time are followed. The process is continuously monitored and documented, including measurement of coating thickness, to ensure consistent and stable quality across production batches."
         },
         {
-          "step": "Quality Verification",
-          "description": "Finished parts are inspected for adhesion, thickness, colour consistency, and visual defects. Salt spray testing validates corrosion resistance for outdoor and harsh-environment applications."
+          "step": "Quality control",
+          "description": "Finished surface-treated products with special finish requirements are, as a rule, subject to 100% visual inspection at Linimatic before delivery. This ensures that the products meet the agreed quality and the desired visual appearance."
         }
       ],
       "specsEyebrow": "Technical Specifications",

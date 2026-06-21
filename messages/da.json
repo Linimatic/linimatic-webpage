@@ -1041,15 +1041,15 @@
         },
         {
           "step": "Behandlingsvalg",
-          "description": "Vi anbefaler den rette finish baseret på dine krav: dekorativt udseende, korrosionsbestandighed, farvetilpasning, UV-stabilitet eller ledningsevne. Flerlags-finish (f.eks. kobber-nikkel-krom) er tilgængelig til de højeste kosmetiske standarder."
+          "description": "Vi hjælper jer med at vælge den korrekte overflade ud fra jeres ønsker og krav til overfladen. Flerlags behandling er ofte nødvendig på zink (feks. kobber-nikkel-krom) når vi taler højeste kosmetiske standarder."
         },
         {
-          "step": "Applikation & hærdning",
-          "description": "Hver behandling følger processpecifikke protokoller for temperatur, tykkelse og hærdetid. Coatingtykkelse måles og dokumenteres for at sikre konsistens på tværs af produktionsbatches."
+          "step": "Proceskontrol",
+          "description": "Under udførelsen af overfladebehandlingen følges processpecifikke krav til temperatur, lagtykkelse og hærdetid. Der foretages løbende kontrol og dokumentation af processen, herunder måling af coating tykkelse, for at sikre en ensartet og stabil kvalitet på tværs af produktionsbatches."
         },
         {
-          "step": "Kvalitetsverifikation",
-          "description": "Færdige emner inspiceres for adhesion, tykkelse, farvekonsistens og visuelle defekter. Salttågetest validerer korrosionsbestandighed til udendørs og barske miljøapplikationer."
+          "step": "Kvalitetskontrol",
+          "description": "Færdige overfladebehandlede produkter med særlige krav til finish gennemgår som udgangspunkt 100% visuel kontrol hos Linimatic, inden de leveres. Dette sikrer, at produkterne lever op til den aftalte kvalitet og det ønskede visuelle udtryk."
         }
       ],
       "specsEyebrow": "Tekniske specifikationer",

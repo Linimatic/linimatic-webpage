@@ -183,9 +183,18 @@ export default async function ServiceDetailPage({
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
                 {t("title")}
               </h1>
-              <p className="mt-6 text-lg sm:text-xl text-zinc-600 leading-relaxed max-w-2xl">
-                {t("overview")}
-              </p>
+              <div className="mt-6 max-w-2xl space-y-4">
+                {t("overview")
+                  .split("\n\n")
+                  .map((paragraph, i) => (
+                    <p
+                      key={i}
+                      className="text-lg sm:text-xl text-zinc-600 leading-relaxed"
+                    >
+                      {paragraph}
+                    </p>
+                  ))}
+              </div>
             </div>
             {/* Image(s) */}
             {meta.gallery ? (

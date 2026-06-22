@@ -111,9 +111,16 @@ export default async function JobsPage({
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
                 {t("heading")}
               </h1>
-              <p className="mt-6 text-lg text-zinc-600 leading-relaxed max-w-xl">
-                {t("description")}
-              </p>
+              {t("description")
+                .split("\n\n")
+                .map((paragraph, i) => (
+                  <p
+                    key={i}
+                    className={`text-lg text-zinc-600 leading-relaxed max-w-xl ${i === 0 ? "mt-6" : "mt-4"}`}
+                  >
+                    {paragraph}
+                  </p>
+                ))}
             </div>
             <div className="relative aspect-[4/3] overflow-hidden">
               <Image

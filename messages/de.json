@@ -563,11 +563,13 @@
     "breadcrumb": "Über uns",
     "eyebrow": "Seit 1967",
     "heading": "Dänemarks größte spezialisierte Zinkdruckgießerei.",
-    "story": {
-      "p1": "Linimatic wurde 1967 in Helsinge, Nordseeland, mit einem einzigen Ziel gegründet: den Zinkdruckguss zu meistern. Nicht als Nebentätigkeit zu Aluminium oder Kunststoff, sondern als einziger Fokus des gesamten Betriebs. Fast sechs Jahrzehnte später hat uns dieser Fokus zu Dänemarks größter spezialisierter Zinkgießerei gemacht \u2014 und zum Partner, an den sich Hersteller wenden, wenn die Geometrie zu komplex, die Toleranzen zu eng oder die Oberflächenanforderungen zu anspruchsvoll für andere Gießereien sind.",
-      "p2": "Wir haben die vollständige Wertschöpfungskette unter einem Dach aufgebaut, weil die Alternative \u2014 Zerspanung an einen Lieferanten, Beschichtung an einen anderen, Montage an einen dritten auslagern \u2014 Lücken schafft. Lücken in der Qualität, Lücken in der Verantwortlichkeit, Lücken in den Lieferplänen. Unser Modell eliminiert all das. Eine Anlage, ein Qualitätssystem, ein Team verantwortlich vom ersten Muster bis zur endgültigen Lieferung \u2014 alles gefertigt in Dänemark.",
-      "p3": "\"Das Beste für das Komplexeste\" ist keine Marketingfloskel. Es ist der Filter, den wir auf jede Investitionsentscheidung, jede Einstellung, jeden Maschinenkauf anwenden. Wir konkurrieren nicht damit, der Günstigste zu sein. Wir konkurrieren damit, der Partner zu sein, dem Sie vertrauen, wenn das Teil absolut stimmen muss."
-    },
+    "story": [
+      "Linimatic ist eine dänische Zinkdruckgießerei, die auf das Druckgießen von Zinkteilen für die Industrie spezialisiert ist. Seit 1967 fertigen wir Komponenten aus Zink in Helsinge, Nordseeland, mit Fokus auf komplexe Geometrien, enge Toleranzen, hochwertiges Finish und stabile Qualität.",
+      "Als Dänemarks größte spezialisierte Zinkdruckgießerei unterstützen wir Unternehmen in ganz Dänemark und Europa bei der Entwicklung und Produktion technischer Zinkteile mit hohen Anforderungen an Präzision, Funktion und Oberfläche. Unsere Erfahrung im Zinkdruckguss macht uns zu einem starken Partner, wenn das Teil anspruchsvoll ist und die Lösung in der Serienproduktion zuverlässig funktionieren muss.",
+      "Bei Linimatic vereinen wir die entscheidenden Prozesse bis zur Oberflächenbehandlung unter einem Dach. Das gibt Kontrolle über Qualität, Prozess, Lieferung und Dokumentation vom ersten Muster bis zum fertigen Teil aus Zink. Nachgelagerte Prozesse und die Oberflächenbehandlung erfolgen in enger Zusammenarbeit mit festen, spezialisierten Unterlieferanten.",
+      "Unsere Kunden wählen Linimatic, wenn sie druckgegossene Zinkteile mit dänischer Produktion, hoher Qualität und wettbewerbsfähigen Preisen benötigen.",
+      "Die Besten für das Schwierigste ist nicht nur ein Slogan. Es ist die Art, wie wir mit Zinkdruckguss arbeiten."
+    ],
     "facilityAlt": "Linimatic Produktionsstätte in Helsinge, Dänemark",
     "stats": [
       { "value": "1967", "label": "Gegründet" },

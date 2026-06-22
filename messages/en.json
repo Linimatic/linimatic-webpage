@@ -560,11 +560,13 @@
     "breadcrumb": "About",
     "eyebrow": "Since 1967",
     "heading": "Denmark\u2019s largest dedicated zinc die-casting foundry.",
-    "story": {
-      "p1": "Linimatic was founded in 1967 in Helsinge, North Zealand, with a single purpose: to master zinc die-casting. Not as a sideline to aluminium or plastics, but as the sole focus of the entire operation. Nearly six decades later, that focus has made us Denmark\u2019s largest dedicated zinc foundry \u2014 and the partner manufacturers turn to when the geometry is too complex, the tolerances too tight, or the surface requirements too demanding for other foundries to quote.",
-      "p2": "We built the full value chain under one roof because the alternative \u2014 outsourcing machining to one supplier, coating to another, assembly to a third \u2014 creates gaps. Gaps in quality, gaps in accountability, gaps in delivery schedules. Our model eliminates all of that. One facility, one quality system, one team responsible from first sample to final shipment.",
-      "p3": "\"The best for the most complex\" is not a marketing line. It\u2019s a filter we apply to every investment decision, every hire, every machine purchase. We don\u2019t compete on being the cheapest. We compete on being the partner you trust when the part absolutely has to be right."
-    },
+    "story": [
+      "Linimatic is a Danish zinc die-casting foundry specialising in high-pressure die casting of zinc parts for industry. Since 1967 we have produced components in zinc in Helsinge, North Zealand, with a focus on complex geometry, tight tolerances, high finish and stable quality.",
+      "As Denmark's largest dedicated zinc die-casting foundry, we help companies across Denmark and Europe with the development and production of technical zinc parts where the demands on precision, function and surface are high. Our experience with zinc die casting makes us a strong partner when the part is difficult and the solution has to perform reliably in series production.",
+      "At Linimatic we bring the decisive processes up to surface treatment together under one roof. This gives control over quality, process, delivery and documentation from the first sample to the finished part in zinc. Subsequent processes and surface treatment are carried out in close collaboration with fixed, specialised subcontractors.",
+      "Our customers choose Linimatic when they need high-pressure die-cast zinc parts with Danish production, high quality and competitive prices.",
+      "The best at the most difficult is not just a slogan. It is the way we work with zinc die casting."
+    ],
     "facilityAlt": "Linimatic production facility in Helsinge, Denmark",
     "stats": [
       { "value": "1967", "label": "Founded" },

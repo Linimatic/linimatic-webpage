@@ -76,9 +76,9 @@ export default async function AboutPage({
                 {t("heading")}
               </h1>
               <div className="mt-8 space-y-4 text-base text-zinc-600 leading-relaxed max-w-xl">
-                <p>{t("story.p1")}</p>
-                <p>{t("story.p2")}</p>
-                <p>{t("story.p3")}</p>
+                {(t.raw("story") as string[]).map((paragraph, i) => (
+                  <p key={i}>{paragraph}</p>
+                ))}
               </div>
             </div>
             <div className="relative aspect-[4/3] overflow-hidden">

@@ -563,11 +563,13 @@
     "breadcrumb": "Om os",
     "eyebrow": "Siden 1967",
     "heading": "Danmarks største dedikerede zinktrykstøberi.",
-    "story": {
-      "p1": "Linimatic er grundlagt i 1967 i Helsinge, Nordsjælland, med ét formål: at mestre zinktrykstøbning. Ikke som et sidespor til aluminium eller plast — men som det eneste, hele virksomheden fokuserer på. Næsten seks årtier med rendyrket dansk zinkproduktion har gjort os til landets største dedikerede zinkstøberi — og den partner, producenter vender sig til, når geometrien er for kompleks, tolerancerne for stramme, eller overfladekravene for høje til, at andre støberier vil byde.",
-      "p2": "Vi byggede den fulde værdikæde under ét tag, fordi alternativet — at outsource bearbejdning til én leverandør, coating til en anden, montage til en tredje — skaber huller. Huller i kvalitet, huller i ansvarlighed, huller i leveringsplaner. Vores model eliminerer det hele. Én facilitet, ét kvalitetssystem, ét hold ansvarligt fra første prøve til endelig levering — alt produceret i Danmark.",
-      "p3": "»Det bedste til det mest komplekse« er ikke en marketingfrase. Det er det filter, vi anvender på enhver investeringsbeslutning, enhver ansættelse, ethvert maskinindkøb. Vi konkurrerer ikke på at være billigst. Vi konkurrerer på at være den partner, du stoler på, når emnet absolut skal sidde rigtigt."
-    },
+    "story": [
+      "Linimatic er et dansk zinktrykstøberi med speciale i højtryksstøbning af zinkemner til industrien. Siden 1967 har vi produceret komponenter i zink i Helsinge, Nordsjælland, med fokus på kompleks geometri, snævre tolerancer, høj finish og stabil kvalitet.",
+      "Som Danmarks største dedikerede zinktrykstøberi hjælper vi virksomheder i hele Danmark og Europa med udvikling og produktion af tekniske zinkemner, hvor kravene til præcision, funktion og overflade er høje. Vores erfaring med zinktrykstøbning gør os til en stærk partner, når emnet er vanskeligt, og løsningen skal fungere sikkert i serieproduktion.",
+      "Hos Linimatic samler vi de afgørende processer frem til overfladebehandling under ét tag. Det giver kontrol over kvalitet, proces, levering og dokumentation fra første prøve til færdigt emne i zink. Efterfølgende processer og overfladebehandling udføres i tæt samarbejde med faste, specialiserede underleverandører.",
+      "Vores kunder vælger Linimatic, når de har brug for højtryksstøbte zinkemner med dansk produktion, høj kvalitet og konkurrencedygtige priser.",
+      "De bedste til det sværeste er ikke blot et slogan. Det er den måde, vi arbejder med zinktrykstøbning på."
+    ],
     "facilityAlt": "Linimatics produktionsfacilitet i Helsinge, Danmark",
     "stats": [
       { "value": "1967", "label": "Grundlagt" },

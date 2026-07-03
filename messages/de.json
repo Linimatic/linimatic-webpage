@@ -247,7 +247,8 @@
     "email": "info@linimatic.dk",
     "copyright": "\u00a9 {year} Linimatic A/S · USt-IdNr. DK-20254386",
     "privacy": "Datenschutz",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "cookieSettings": "Cookie-Einstellungen"
   },
   "cookies": {
     "heading": "Cookie-Einstellungen",
@@ -682,6 +683,7 @@
       "message": "Projektbeschreibung",
       "fileUpload": "Technische Zeichnungen",
       "fileFormats": "STEP · IGES · Solidworks · Parasolid · PDF · DWG · DXF",
+      "privacyNotice": "Mit dem Absenden des Formulars verarbeitet Linimatic A/S Ihre Angaben, um Ihre Anfrage zu beantworten. Details finden Sie in unserer <link>Datenschutzerklärung</link>.",
       "submit": "Anfrage senden",
       "sending": "Wird gesendet...",
       "successTitle": "Nachricht gesendet",
@@ -690,7 +692,9 @@
         "missing_fields": "Bitte füllen Sie alle Pflichtfelder aus.",
         "invalid_email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
         "too_long": "Ein oder mehrere Felder überschreiten die maximale Länge.",
-        "send_failed": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie direkt an info@linimatic.dk."
+        "send_failed": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie direkt an info@linimatic.dk.",
+        "invalid_file_type": "Eine oder mehrere Dateien haben ein nicht unterstütztes Format.",
+        "files_too_large": "Die angehängten Dateien sind zu groß — max. 15 MB insgesamt. Senden Sie sie stattdessen an info@linimatic.dk."
       }
     },
     "directContacts": "Direkte Ansprechpartner",
@@ -1331,16 +1335,17 @@
     "retentionItems": [
       "Angebotsanfragen: 2 Jahre ab letztem Kontakt gespeichert, oder länger bei bestehender Geschäftsbeziehung.",
       "Bewerbungen: 6 Monate nach Besetzung der Stelle gespeichert, sofern Sie nicht einer längeren Speicherung zustimmen.",
-      "Analysedaten: Innerhalb von 26 Monaten aggregiert und anonymisiert.",
+      "Analysedaten: Werden cookielos in anonymisierter, aggregierter Form erhoben und können keiner Person zugeordnet werden.",
       "Buchhaltungsunterlagen: 5 Jahre gemäß dänischem Buchführungsgesetz gespeichert."
     ],
     "dataSharingHeading": "Datenweitergabe",
     "dataSharingIntro": "Wir verkaufen Ihre personenbezogenen Daten nicht. Wir können Daten teilen mit:",
     "dataSharingItems": [
-      "Dienstleistern: Hosting-, E-Mail- und Analyseanbietern, die Daten in unserem Auftrag gemäß Auftragsverarbeitungsverträgen verarbeiten.",
+      "Vercel (Hosting und Webanalyse): Stellt die Website bereit und verarbeitet dabei technische Daten wie IP-Adressen. Wir speichern keine Kundendaten bei Vercel. Vercel ist ein US-Unternehmen, zertifiziert unter dem EU-U.S. Data Privacy Framework.",
+      "Resend (E-Mail-Zustellung): Übermittelt Nachrichten aus dem Kontaktformular an uns. Die Daten werden auf Servern in der EU (Irland) verarbeitet.",
       "Behörden: Wenn gesetzlich vorgeschrieben oder zum Schutz unserer Rechte."
     ],
-    "dataSharingNote": "Alle Auftragsverarbeiter befinden sich innerhalb der EU/des EWR. Sollte eine Datenübermittlung außerhalb der EU/des EWR erforderlich sein, stellen wir angemessene Schutzmaßnahmen sicher (z.B. Standardvertragsklauseln).",
+    "dataSharingNote": "Alle Anbieter verarbeiten Daten in unserem Auftrag gemäß Auftragsverarbeitungsverträgen. Sitzt ein Anbieter außerhalb der EU/des EWR, erfolgt die Übermittlung auf Grundlage eines gültigen Übermittlungsmechanismus (EU-U.S. Data Privacy Framework oder EU-Standardvertragsklauseln).",
     "yourRightsHeading": "Ihre Rechte",
     "yourRightsIntro": "Gemäß der DSGVO haben Sie das Recht auf:",
     "yourRightsItems": [
@@ -1373,13 +1378,15 @@
     "tableDuration": "Dauer",
     "consentCookiePurpose": "Speichert Ihre Cookie-Einstellungen",
     "consentCookieDuration": "1 Jahr",
+    "localeCookiePurpose": "Speichert Ihre Sprachauswahl",
+    "localeCookieDuration": "Sitzung",
     "analyticsHeading": "Analyse-Cookies",
     "analyticsText": "Diese Cookies helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, indem sie Informationen anonym sammeln und melden. Dies hilft uns, die Website-Erfahrung für alle Nutzer zu verbessern.",
     "marketingHeading": "Marketing-Cookies",
     "marketingText": "Diese Cookies werden verwendet, um Besucher über Websites hinweg zu verfolgen, um die Anzeige relevanter Werbung zu ermöglichen. Sie werden in der Regel von Werbenetzwerken mit unserer Genehmigung platziert.",
     "managingHeading": "Verwaltung Ihrer Einstellungen",
     "managingText1": "Wenn Sie unsere Website zum ersten Mal besuchen, erscheint ein Cookie-Banner, mit dem Sie alle Cookies akzeptieren, alle nicht-essenziellen Cookies ablehnen oder Ihre Einstellungen nach Kategorie anpassen können.",
-    "managingText2": "Sie können Ihre Cookie-Einstellungen jederzeit ändern, indem Sie Ihre Browser-Cookies löschen und die Seite erneut besuchen, wodurch das Einwilligungsbanner erneut erscheint.",
+    "managingText2": "Sie können Ihre Wahl jederzeit ändern oder Ihre Einwilligung widerrufen — über den Link \"Cookie-Einstellungen\" unten auf jeder Seite.",
     "managingText3": "Sie können Cookies auch über Ihre Browsereinstellungen steuern. Die meisten Browser ermöglichen es Ihnen, Cookies abzulehnen oder zu löschen. Die Methoden variieren je nach Browser — konsultieren Sie die Hilfe-Dokumentation Ihres Browsers.",
     "thirdPartyHeading": "Drittanbieter-Cookies",
     "thirdPartyText": "Einige Cookies werden von Drittanbieterdiensten platziert, die auf unseren Seiten erscheinen. Wir kontrollieren die Verwendung dieser Cookies nicht. Relevante Drittanbieter umfassen Analyse- und Werbeplattformen. Deren jeweilige Datenschutzrichtlinien regeln deren Datennutzung.",

@@ -5,6 +5,12 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 const nextConfig: NextConfig = {
   reactCompiler: true,
+  experimental: {
+    serverActions: {
+      // contact form accepts CAD attachments up to 15MB; leave headroom for multipart overhead
+      bodySizeLimit: "20mb",
+    },
+  },
   headers: async () => [
     {
       source: "/(.*)",

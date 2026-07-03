@@ -21,7 +21,9 @@ Showcase the breadth of industries served and complexity handled. Help visitors 
 ## Individual Case Study
 
 ### Page Goal
-Tell the story of a specific project. Provide evidence of capability through real outcomes. Use the **Challenge → Solution → Results** framework.
+Tell the story of a specific project. Provide evidence of capability through real outcomes.
+
+For *how* to source and write that story — the Problem → Approach → Result arc, what makes a result credible, the voice, and the failure modes — use the **`case-study-writing` skill**. It is the single source of truth for case narrative; this reference lists only the content elements the page needs (with the die-casting specifics that matter for these cases).
 
 ### Required Content Elements
 
@@ -81,23 +83,19 @@ Tell the story of a specific project. Provide evidence of capability through rea
 
 ---
 
-## Case Study Content Collection Template
+## Gathering content for a new case
 
-When gathering content for a new case study, collect:
+Use the **`case-study-writing` skill's intake form** (`references/intake.md` in that skill) as the base questionnaire — it covers the required floor (customer + segment, problem + stakes, the hero number), plus the quote, the proof artifact, and permission. Don't fabricate any field; leave genuine gaps as `[NEEDS: …]`.
+
+On top of that generic form, collect these die-casting-specific fields (they feed the technical specifications sidebar and the project context):
 
 ```
-Industry:
-Customer (name or anonymized):
-Component/product name:
-Application/use case:
+Component / product name:
+Application / use case:
 Annual volume:
 Alloy used:
 Key tolerances:
+Surface finish:
 Services involved:
-Year started:
-Challenge (2-3 sentences):
-Solution (3-5 sentences):
-Results (3+ quantified outcomes):
-Customer quote (optional):
-Photography available: yes/no
+Year started / years in production:
 ```

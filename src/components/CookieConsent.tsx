@@ -12,6 +12,8 @@ type CookiePreferences = {
 
 const COOKIE_NAME = "cookie_consent";
 const COOKIE_MAX_AGE = 365 * 24 * 60 * 60; // 1 year in seconds
+const OPEN_EVENT = "cookie-consent:open";
+const CHANGE_EVENT = "cookie-consent:change";
 
 function getCookiePreferences(): CookiePreferences | null {
   if (typeof document === "undefined") return null;
@@ -27,6 +29,11 @@ function getCookiePreferences(): CookiePreferences | null {
 function setCookiePreferences(prefs: CookiePreferences) {
   const value = encodeURIComponent(JSON.stringify(prefs));
   document.cookie = `${COOKIE_NAME}=${value}; path=/; max-age=${COOKIE_MAX_AGE}; SameSite=Lax`;
+  window.dispatchEvent(new Event(CHANGE_EVENT));
+}
+
+export function openCookieSettings() {
+  window.dispatchEvent(new Event(OPEN_EVENT));
 }
 
 export function CookieConsent() {
@@ -44,6 +51,17 @@ export function CookieConsent() {
       const timer = setTimeout(() => setVisible(true), 1000);
       return () => clearTimeout(timer);
     }
+  }, []);
+
+  useEffect(() => {
+    const handleOpen = () => {
+      const saved = getCookiePreferences();
+      if (saved) setPreferences(saved);
+      setVisible(true);
+      setShowDetails(true);
+    };
+    window.addEventListener(OPEN_EVENT, handleOpen);
+    return () => window.removeEventListener(OPEN_EVENT, handleOpen);
   }, []);
 
   const handleAcceptAll = useCallback(() => {
@@ -224,13 +242,24 @@ export function CookieConsent() {
 
 /**
  * Hook to check cookie consent status from other components.
+ * Re-renders when the visitor changes their preferences, so consent-gated
+ * scripts load or unload without a page reload.
  * Usage: const { analytics, marketing } = useCookieConsent();
  */
 export function useCookieConsent(): CookiePreferences {
-  const [prefs] = useState<CookiePreferences>(() => {
+  const [prefs, setPrefs] = useState<CookiePreferences>(() => {
     const saved = getCookiePreferences();
     return saved ?? { necessary: true, analytics: false, marketing: false };
   });
+
+  useEffect(() => {
+    const handleChange = () => {
+      const saved = getCookiePreferences();
+      setPrefs(saved ?? { necessary: true, analytics: false, marketing: false });
+    };
+    window.addEventListener(CHANGE_EVENT, handleChange);
+    return () => window.removeEventListener(CHANGE_EVENT, handleChange);
+  }, []);
 
   return prefs;
 }

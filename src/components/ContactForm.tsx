@@ -2,6 +2,7 @@
 
 import { useActionState } from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 import { submitContactForm, type ContactFormState } from "@/app/actions/contact";
 
 const initialState: ContactFormState = { success: false, error: null };
@@ -161,6 +162,15 @@ export function ContactForm() {
           )}
         </svg>
       </button>
+      <p className="text-xs text-zinc-400 leading-relaxed">
+        {t.rich("form.privacyNotice", {
+          link: (chunks) => (
+            <Link href="/privacy" className="underline underline-offset-2 hover:text-zinc-600 transition-colors">
+              {chunks}
+            </Link>
+          ),
+        })}
+      </p>
     </form>
   );
 }

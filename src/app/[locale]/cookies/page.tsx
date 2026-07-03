@@ -72,6 +72,11 @@ export default async function CookiePolicyPage({
                 <td>{t("consentCookiePurpose")}</td>
                 <td>{t("consentCookieDuration")}</td>
               </tr>
+              <tr>
+                <td className="font-[family-name:var(--font-mono)] text-zinc-800">NEXT_LOCALE</td>
+                <td>{t("localeCookiePurpose")}</td>
+                <td>{t("localeCookieDuration")}</td>
+              </tr>
             </tbody>
           </table>
 

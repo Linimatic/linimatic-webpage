@@ -21,6 +21,12 @@ const VOLUME_LABELS: Record<string, string> = {
   high: "High volume (100,000+ pcs)",
 };
 
+const ALLOWED_FILE_EXTENSIONS = [
+  ".step", ".stp", ".iges", ".igs", ".sldprt", ".sldasm", ".x_t", ".pdf", ".dwg", ".dxf",
+];
+// Resend caps emails at 40MB after base64 encoding (~1.37x); stay well under
+const MAX_TOTAL_FILE_BYTES = 15 * 1024 * 1024;
+
 export async function submitContactForm(
   _prevState: ContactFormState,
   formData: FormData
@@ -46,10 +52,33 @@ export async function submitContactForm(
     return { success: false, error: "too_long" };
   }
 
+  const files = formData
+    .getAll("files")
+    .filter((f): f is File => f instanceof File && f.size > 0);
+
+  for (const file of files) {
+    const ext = file.name.slice(file.name.lastIndexOf(".")).toLowerCase();
+    if (!ALLOWED_FILE_EXTENSIONS.includes(ext)) {
+      return { success: false, error: "invalid_file_type" };
+    }
+  }
+
+  const totalFileBytes = files.reduce((sum, f) => sum + f.size, 0);
+  if (totalFileBytes > MAX_TOTAL_FILE_BYTES) {
+    return { success: false, error: "files_too_large" };
+  }
+
   const subjectLabel = SUBJECT_LABELS[subject] ?? subject;
   const volumeLabel = volume ? (VOLUME_LABELS[volume] ?? volume) : "Not specified";
 
   try {
+    const attachments = await Promise.all(
+      files.map(async (file) => ({
+        filename: file.name,
+        content: Buffer.from(await file.arrayBuffer()),
+      }))
+    );
+
     await resend.emails.send({
       from: "Linimatic Website <website@linimatic.dk>",
       to: "info@linimatic.dk",
@@ -62,10 +91,12 @@ export async function submitContactForm(
         `Phone: ${phone || "Not provided"}`,
         `Subject: ${subjectLabel}`,
         `Volume: ${volumeLabel}`,
+        `Attachments: ${files.length > 0 ? files.map((f) => f.name).join(", ") : "None"}`,
         ``,
         `Message:`,
         message,
       ].join("\n"),
+      attachments,
     });
   } catch (err) {
     console.error("[Contact Form] Email send failed:", err);

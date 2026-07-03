@@ -244,7 +244,8 @@
     "email": "info@linimatic.dk",
     "copyright": "\u00a9 {year} Linimatic A/S \u00b7 CVR DK-20254386",
     "privacy": "Privacy",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "cookieSettings": "Cookie settings"
   },
   "cookies": {
     "heading": "Cookie Preferences",
@@ -679,6 +680,7 @@
       "message": "Project Description",
       "fileUpload": "Technical Drawings",
       "fileFormats": "STEP \u00b7 IGES \u00b7 Solidworks \u00b7 Parasolid \u00b7 PDF \u00b7 DWG \u00b7 DXF",
+      "privacyNotice": "When you submit this form, Linimatic A/S processes your information in order to respond to your inquiry. See our <link>privacy policy</link> for details.",
       "submit": "Send Inquiry",
       "sending": "Sending...",
       "successTitle": "Message sent",
@@ -687,7 +689,9 @@
         "missing_fields": "Please fill in all required fields.",
         "invalid_email": "Please enter a valid email address.",
         "too_long": "One or more fields exceed the maximum length.",
-        "send_failed": "Failed to send your message. Please try again or email us directly at info@linimatic.dk."
+        "send_failed": "Failed to send your message. Please try again or email us directly at info@linimatic.dk.",
+        "invalid_file_type": "One or more files are in a format we do not support.",
+        "files_too_large": "The attached files are too large — max. 15 MB in total. Please email them to info@linimatic.dk instead."
       }
     },
     "directContacts": "Direct Contacts",
@@ -1328,16 +1332,17 @@
     "retentionItems": [
       "Quote requests: Retained for 2 years from last contact, or longer if a business relationship is established.",
       "Job applications: Retained for 6 months after the position is filled, unless you consent to longer retention.",
-      "Analytics data: Aggregated and anonymized within 26 months.",
+      "Analytics data: Collected cookie-free in anonymized, aggregated form and cannot be traced to individuals.",
       "Accounting records: Retained for 5 years as required by Danish bookkeeping law."
     ],
     "dataSharingHeading": "Data Sharing",
     "dataSharingIntro": "We do not sell your personal data. We may share data with:",
     "dataSharingItems": [
-      "Service providers: Hosting, email, and analytics providers who process data on our behalf under data processing agreements.",
+      "Vercel (hosting and web analytics): Serves the website and processes technical data such as IP addresses in doing so. We store no customer data with Vercel. Vercel is a US company certified under the EU-U.S. Data Privacy Framework.",
+      "Resend (email delivery): Delivers contact form messages to us. Data is processed on servers in the EU (Ireland).",
       "Legal authorities: When required by law or to protect our rights."
     ],
-    "dataSharingNote": "All data processors are located within the EU/EEA. If any data transfer outside the EU/EEA is necessary, we ensure appropriate safeguards are in place (e.g., Standard Contractual Clauses).",
+    "dataSharingNote": "All providers process data on our behalf under data processing agreements. Where a provider is based outside the EU/EEA, transfers rely on a valid transfer mechanism (the EU-U.S. Data Privacy Framework or the EU Standard Contractual Clauses).",
     "yourRightsHeading": "Your Rights",
     "yourRightsIntro": "Under GDPR, you have the right to:",
     "yourRightsItems": [
@@ -1370,13 +1375,15 @@
     "tableDuration": "Duration",
     "consentCookiePurpose": "Stores your cookie preference choices",
     "consentCookieDuration": "1 year",
+    "localeCookiePurpose": "Remembers your language preference",
+    "localeCookieDuration": "Session",
     "analyticsHeading": "Analytics Cookies",
     "analyticsText": "These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously. This helps us improve the site experience for all users.",
     "marketingHeading": "Marketing Cookies",
     "marketingText": "These cookies are used to track visitors across websites to allow the display of relevant advertisements. They are typically placed by advertising networks with our permission.",
     "managingHeading": "Managing Your Preferences",
     "managingText1": "When you first visit our website, a cookie banner will appear allowing you to accept all cookies, reject all non-essential cookies, or customize your preferences by category.",
-    "managingText2": "You can change your cookie preferences at any time by clearing your browser cookies and revisiting the site, which will trigger the consent banner again.",
+    "managingText2": "You can change your choice or withdraw your consent at any time via the \"Cookie settings\" link at the bottom of every page.",
     "managingText3": "You can also control cookies through your browser settings. Most browsers allow you to refuse or delete cookies. The methods for doing so vary from browser to browser \u2014 consult your browser\u2019s help documentation.",
     "thirdPartyHeading": "Third-Party Cookies",
     "thirdPartyText": "Some cookies are placed by third-party services that appear on our pages. We do not control the use of these cookies. Relevant third-party providers include analytics and advertising platforms. Their respective privacy policies govern their use of data.",

@@ -31,7 +31,37 @@ The selection is a positioning decision, not a popularity contest. Choose by **s
 - **Mix recognizable and impressive.** A known name lends borrowed credibility; a lesser-known client with a more technically impressive story often persuades the expert buyer more. Use both.
 - **A few strong beats many thin.** 3–8 deeply-proven cases outperform 20 shallow ones. Depth and verifiable proof per case matter more than count.
 
-## 2. Structure: the arc
+## 2. The input contract — get the facts before you write
+
+The failure that ruins a case is starting to write before you have the facts: the prose comes out fluent and empty, adjectives standing in for numbers nobody supplied. So treat gathering inputs as a gate, not a formality. **Real cases are reported, not invented.** The flow is always the same: take what you were handed → check it against the contract below → ask for the gaps that matter → *only then* write.
+
+**The required floor.** Whoever invokes this — a developer wiring up a cases section, a marketer, you on someone's behalf — owes three things before a credible case is even possible. They map to the three jobs a case does; miss one and you're writing a brochure:
+
+| Required input | The job it does | If it's missing |
+|---|---|---|
+| **Customer + segment** — name (or an honest anonymized descriptor, e.g. "a leading European skylight maker") plus their industry and rough size | **similarity** — the reader has to recognize themselves | Ask. If genuinely unnamable, anonymize — never invent a client. |
+| **Problem + stakes** — what was hard, and what it would have cost to leave unsolved | **relevance** — the stakes are the tension the story turns on | Ask: *"what would have happened if this stayed unsolved?"* |
+| **One quantified outcome** — the hero metric; or, for a hard-problem case with no baseline, the quantified *difficulty* | **proof** — a case with no number is just a testimonial | Ask for the number. If none exists yet, mark it `[NEEDS: …]` — don't fabricate. |
+
+Everything beyond these three doesn't gate the case — it *deepens* it, and that's what the follow-ups are for.
+
+**Before you draft, take stock out loud** — one line naming which floor fields you have and which you're missing. If one is missing, that's the cue to ask for it or mark it `[NEEDS: …]`, not to write around the hole with a confident-sounding sentence. The fluent-but-empty draft begins exactly here, the moment someone skips this check.
+
+If whoever invoked this would rather hand everything over at once than be interviewed, point them at **[`references/intake.md`](references/intake.md)** — a one-shot fill-in form covering the floor and the common follow-ups. They fill what they have; blanks become questions or `[NEEDS:]` markers, never invented facts.
+
+**The follow-ups are adaptive — ask only for the gaps that matter for this case.** Don't fire a fixed twenty-question form at someone; read what you were handed, see what's thin, and ask the few sharp questions that would most raise the proof. A good intake is 3–6 prioritized questions, not an interrogation. What you ask branches on what you already have:
+
+- **A clean before/after result** → get *both* numbers and how they were measured. A "40% faster" with no baseline and no method is easy to discount.
+- **A hard-problem case with no baseline** (nobody else could do it) → get the difficulty in numbers (the tolerance, the spec), who else declined or failed, and *why* it was hard. Here the difficulty itself is the proof.
+- **No quote yet** → ask for one real customer sentence, or who can give one and whether they'll go on record.
+- **No proof artifact** → ask for a photo of the actual work, a chart of real data, or a spec table. "Show, don't assert" needs something to show.
+- **An approach that reads as a list of steps** → ask for the one key decision and the tradeoff behind it. The *why* is where expertise shows; the *what* is just activity.
+
+Let the domain set the texture of the numbers you chase: industrial → tolerances, downtime cost, scrap/yield, field returns, lead time; SaaS → churn, activation time, latency, seats, support volume; services → hours saved, error rate, rework, time-to-launch.
+
+Before anything ships, **confirm permission** to name the customer and use their logo. No permission → anonymize; the technical story still carries the case. And when a fact genuinely isn't available, write what's solid and leave a specific, labeled gap — `[NEEDS: first-pass yield figure for the results section]` — rather than papering over it with an invented number. The gap is honest; the invention is the one mistake a tight niche never forgives.
+
+## 3. Structure: the arc
 
 Nearly every good case rides the same spine — **Problem → Approach → Result** — because that's how people process a story. Use this as the working template; fill every slot:
 
@@ -48,7 +78,7 @@ CTA           One next step, framed around the reader's problem — not your gre
 
 Why this order: the header and at-a-glance serve the majority who skim; the challenge creates tension (stakes are what make it a story and not a status report); the approach is where expertise shows; the result is the payoff. A reader should get the gist from the header alone and the full argument if they keep going — write for **two speeds**.
 
-## 3. The proof that makes it credible
+## 4. The proof that makes it credible
 
 This is what separates a real case from a testimonial. The single most common failure is a result with no number behind it.
 
@@ -65,7 +95,7 @@ Specificity *is* credibility: a technical reader discounts every adjective and t
 >
 > ✅ "Three foundries declined to quote the ±0.05 mm internal geometry. We've shipped it at 99.2% first-pass yield for 8 years — zero field returns."
 
-## 4. The craft (voice)
+## 5. The craft (voice)
 
 - **Customer is the hero; you're the guide — start to finish.** Lead with *their* problem, not your company history (nobody's first question is when you were founded) — and don't let the *ending* pivot to self-praise either ("the part that defines us," "this is what we do best"). The opening usually gets this right; the close is where writers slip. Keep the last word anchored to the reader's problem: a CTA that asks *"have a part like this?"* keeps them the hero; *"we're the best at this"* steals the role back and quietly breaks the spell.
 - **Tell it with tension and resolution** — a story, not a feature list. People remember a narrative and forget bullet points.
@@ -73,26 +103,15 @@ Specificity *is* credibility: a technical reader discounts every adjective and t
 - **Concrete over abstract; cut the adjectives.** Replace "cutting-edge," "innovative," "synergy" with the specific fact they're gesturing at.
 - **Be exactly true.** Under-claim before you over-claim. In a tight niche an inflated number is trivially exposed, and that credibility loss is permanent.
 
-## 5. Failure modes to avoid
+## 6. Failure modes to avoid
 
 - **Company-centric** ("we are great") instead of customer-centric ("their problem, solved").
 - **Vague results** — "improved efficiency," "great partnership" — with no number. The most common failure.
 - **Feature dump, no narrative** — everything you did, no stakes, no story.
 - **Same angle every case.** Consistent *structure* is good — it makes cases scannable and easy to produce. The defect is when every case makes the *same point*. Each needs a distinct reason to exist: a different industry, a different kind of hard, a different proof. If two cases are interchangeable, cut one.
 - **Fabricated or unpermissioned claims** — invented metrics, or a client's name/logo used without sign-off. If you can't get permission, anonymize ("a leading European skylight manufacturer"); the technical story still carries the case. Never invent a quote or a number.
-
-## 6. Source the material before you write
-
-The bottleneck is never the prose — it's getting real facts. **Real cases are reported, not invented.** Interview both the customer *and* the internal people who did the work, and write from the transcript. The best lines are almost always things someone actually said. Ask:
-
-1. What was the situation before, and what would've happened if it stayed unsolved?
-2. Why did this one come to us — what made it hard or unusual?
-3. What did we actually do, and what were the key decisions and tradeoffs?
-4. What's the measurable outcome — numbers, timeline, what changed?
-5. In your own words, what's it been like to live with?
-
-Then confirm you have permission to name the customer and use their logo before publishing.
+- **Writing before the facts are in.** The fluent-but-empty draft is a symptom of skipping the input contract (§2). If you're reaching for adjectives, you're missing a number — go get it, don't pad around it.
 
 ---
 
-**The one-line version:** pick cases that prove what you want to be known for, tell each as the customer's story, and land it on a verified number.
+**The one-line version:** get the required facts before you write (§2), pick cases that prove what you want to be known for, tell each as the customer's story, and land it on a verified number.

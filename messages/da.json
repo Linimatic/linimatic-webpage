@@ -247,7 +247,8 @@
     "email": "info@linimatic.dk",
     "copyright": "\u00a9 {year} Linimatic A/S · CVR DK-20254386",
     "privacy": "Privatlivspolitik",
-    "cookies": "Cookiepolitik"
+    "cookies": "Cookiepolitik",
+    "cookieSettings": "Cookieindstillinger"
   },
   "cookies": {
     "heading": "Cookieindstillinger",
@@ -682,6 +683,7 @@
       "message": "Projektbeskrivelse",
       "fileUpload": "Tekniske tegninger",
       "fileFormats": "STEP · IGES · Solidworks · Parasolid · PDF · DWG · DXF",
+      "privacyNotice": "Når du sender formularen, behandler Linimatic A/S dine oplysninger for at kunne besvare din henvendelse. Læs mere i vores <link>privatlivspolitik</link>.",
       "submit": "Send forespørgsel",
       "sending": "Sender...",
       "successTitle": "Besked sendt",
@@ -690,7 +692,9 @@
         "missing_fields": "Udfyld venligst alle påkrævede felter.",
         "invalid_email": "Indtast venligst en gyldig e-mailadresse.",
         "too_long": "Et eller flere felter overskrider den maksimale længde.",
-        "send_failed": "Din besked kunne ikke sendes. Prøv igen eller skriv direkte til info@linimatic.dk."
+        "send_failed": "Din besked kunne ikke sendes. Prøv igen eller skriv direkte til info@linimatic.dk.",
+        "invalid_file_type": "En eller flere filer har et format, vi ikke understøtter.",
+        "files_too_large": "De vedhæftede filer er for store — maks. 15 MB i alt. Send dem i stedet til info@linimatic.dk."
       }
     },
     "directContacts": "Direkte kontakter",
@@ -1331,16 +1335,17 @@
     "retentionItems": [
       "Tilbudsforespørgsler: Opbevares i 2 år fra sidste kontakt, eller længere hvis et forretningsforhold er etableret.",
       "Jobansøgninger: Opbevares i 6 måneder efter stillingen er besat, medmindre du samtykker til længere opbevaring.",
-      "Analysedata: Aggregeres og anonymiseres inden for 26 måneder.",
+      "Analysedata: Indsamles cookiefrit i anonymiseret og aggregeret form og kan ikke henføres til enkeltpersoner.",
       "Regnskabsdata: Opbevares i 5 år som krævet af dansk bogføringslov."
     ],
     "dataSharingHeading": "Deling af data",
     "dataSharingIntro": "Vi sælger ikke dine personoplysninger. Vi kan dele data med:",
     "dataSharingItems": [
-      "Tjenesteudbydere: Hosting-, e-mail- og analyseudbydere, der behandler data på vores vegne under databehandleraftaler.",
+      "Vercel (hosting og webanalyse): Leverer hjemmesiden og behandler i den forbindelse tekniske data som IP-adresser. Vi gemmer ingen kundedata hos Vercel. Vercel er en amerikansk virksomhed certificeret under EU-U.S. Data Privacy Framework.",
+      "Resend (e-mail-levering): Sender beskeder fra kontaktformularen til os. Data behandles på servere i EU (Irland).",
       "Offentlige myndigheder: Når det kræves ved lov eller for at beskytte vores rettigheder."
     ],
-    "dataSharingNote": "Alle databehandlere er beliggende inden for EU/EØS. Hvis dataoverførsel uden for EU/EØS er nødvendig, sikrer vi passende garantier (f.eks. standardkontraktbestemmelser).",
+    "dataSharingNote": "Alle leverandører behandler data på vores vegne under databehandleraftaler. Hvor en leverandør er baseret uden for EU/EØS, sker overførslen på et gyldigt overførselsgrundlag (EU-U.S. Data Privacy Framework eller EU's standardkontraktbestemmelser).",
     "yourRightsHeading": "Dine rettigheder",
     "yourRightsIntro": "I henhold til GDPR har du ret til:",
     "yourRightsItems": [
@@ -1373,13 +1378,15 @@
     "tableDuration": "Varighed",
     "consentCookiePurpose": "Gemmer dine cookiepræferencer",
     "consentCookieDuration": "1 år",
+    "localeCookiePurpose": "Husker dit sprogvalg",
+    "localeCookieDuration": "Session",
     "analyticsHeading": "Analysecookies",
     "analyticsText": "Disse cookies hjælper os med at forstå, hvordan besøgende interagerer med vores hjemmeside ved at indsamle og rapportere information anonymt. Dette hjælper os med at forbedre oplevelsen for alle brugere.",
     "marketingHeading": "Marketingcookies",
     "marketingText": "Disse cookies bruges til at spore besøgende på tværs af hjemmesider for at muliggøre visning af relevante annoncer. De placeres typisk af annoncenetværk med vores tilladelse.",
     "managingHeading": "Administration af dine præferencer",
     "managingText1": "Når du første gang besøger vores hjemmeside, vises et cookiebanner, der giver dig mulighed for at acceptere alle cookies, afvise alle ikke-nødvendige cookies eller tilpasse dine præferencer efter kategori.",
-    "managingText2": "Du kan ændre dine cookiepræferencer når som helst ved at slette dine browsercookies og besøge siden igen, hvilket vil udløse samtykkebanneret igen.",
+    "managingText2": "Du kan til enhver tid ændre dit valg eller trække dit samtykke tilbage via linket \"Cookieindstillinger\" nederst på alle sider.",
     "managingText3": "Du kan også styre cookies via dine browserindstillinger. De fleste browsere giver dig mulighed for at afvise eller slette cookies. Metoderne varierer fra browser til browser — se din browsers hjælpedokumentation.",
     "thirdPartyHeading": "Tredjepartscookies",
     "thirdPartyText": "Nogle cookies placeres af tredjepartstjenester, der vises på vores sider. Vi kontrollerer ikke brugen af disse cookies. Relevante tredjepartsudbydere omfatter analyse- og annonceplatforme. Deres respektive privatlivspolitikker regulerer deres brug af data.",

@@ -68,9 +68,9 @@
   "hero": {
     "watermark": "Zn",
     "eyebrow": "Gegründet 1967 — Helsinge, Dänemark",
-    "headline1": "Präzision",
-    "headline2": "in",
-    "headlineAccent": "Zink",
+    "headline1": "Präzision, Qualität",
+    "headline2": "und",
+    "headlineAccent": "Wirtschaftlichkeit",
     "tagline": "Die Besten für das Schwerste",
     "description": "Linimatic A/S verbindet langjährige Erfahrung mit moderner, automatisierter Produktion von Zinkdruckgussteilen. Automatisierung, Roboter und effiziente Prozesssteuerung ermöglichen es uns, hohe Qualität zu wettbewerbsfähigen Preisen zu liefern – produziert in Dänemark. Wir unterstützen Kunden bei Teilen, bei denen Präzision, Funktion, Finish und gleichbleibende Qualität entscheidend sind. Mit hohem technischem Know-how und engem Dialog von der Idee bis zum fertigen Teil schaffen wir Lösungen, die halten – auch wenn die Anforderungen komplex sind.",
     "heroImageAlt": "Präzisions-Zinkdruckgussform mit Messinganschlüssen",
@@ -88,50 +88,43 @@
   },
   "valueChain": {
     "eyebrow": "Ein Dach. Keine Zwischenstationen.",
-    "heading": "Ihr Bauteil, von der Zeichnung bis zur Lieferung",
+    "heading": "Von der Konstruktion bis zum ersten Produktionsauftrag",
     "description": "Geben Sie uns eine CAD-Datei. Wir liefern ein fertiges, geprüftes Bauteil — gegossen, bearbeitet, beschichtet und montiert in einer einzigen Anlage. Keine Lieferantenkoordination. Keine Qualitätslücken zwischen den Schritten.",
     "steps": [
       {
         "number": "01",
         "label": "Design",
-        "title": "DFM-Prüfung & Prototypen",
-        "description": "Senden Sie Ihre CAD-Dateien. Wir prüfen, simulieren und optimieren — erste Muster in 3–4 Wochen.",
+        "title": "Optimierung mit Respekt vor dem Design",
+        "description": "Gemeinsam mit Ihnen optimieren wir die Konstruktion für effizienten Zink-Druckguss – mit größtmöglichem Respekt vor dem ursprünglichen Design.",
         "specs": "48h Antwort · 50–10.000 Stk."
       },
       {
         "number": "02",
-        "label": "Gießen",
-        "title": "Warmkammer-Druckguss",
-        "description": "12 automatisierte Maschinen mit Roboterhandling. Teile von 1\u2009g bis 3\u2009kg, 24-Stunden-Betrieb.",
-        "specs": "80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm im Guss"
+        "label": "Werkzeug",
+        "title": "3D-Konstruktion des Gießwerkzeugs",
+        "description": "Auf Basis der finalen 3D-Datei konstruieren wir das Gießwerkzeug – optimiert für eine stabile Gussproduktion und eine möglichst lange Werkzeugstandzeit.",
+        "specs": "Eigene Werkzeugkonstruktion · Optimiert für lange Standzeit"
       },
       {
         "number": "03",
-        "label": "Bearbeiten",
-        "title": "CNC-Nachbearbeitung",
-        "description": "Hauseigenes Fräsen, Drehen, Schleifen und Gewindeschneiden bis zur Endtoleranz.",
-        "specs": "Volle CNC · Enge sekundäre Toleranzen"
+        "label": "Einfahren",
+        "title": "Einfahren und Abmusterung",
+        "description": "Sobald das Formwerkzeug fertig ist, führen wir die ersten Testabgüsse in einer unserer robotisierten Gießzellen durch. Dabei fahren wir das Werkzeug ein und optimieren den Gießprozess.",
+        "specs": "Robotisierte Gießzellen · Feinabstimmung des Prozesses"
       },
       {
         "number": "04",
-        "label": "Veredeln",
-        "title": "Oberflächenbehandlung",
-        "description": "Von Klasse-A-Kosmetikchrom bis zu funktionalem Korrosionsschutz.",
-        "specs": "Chrom · Pulverlack · Nasslack · Lasergravur"
+        "label": "Freigabe",
+        "title": "Freigabe",
+        "description": "Nach dem Einfahren vermessen wir die vereinbarte Anzahl an Teilen. Die Teile erhalten Sie zusammen mit der vereinbarten Qualitäts- und Messdokumentation.",
+        "specs": "Vermessene Musterteile · Qualitäts- und Messdokumentation"
       },
       {
         "number": "05",
-        "label": "Prüfen",
-        "title": "Qualitätssicherung",
-        "description": "Jedes Teil KMG-geprüft und SPC-überwacht, bevor es das Haus verlässt.",
-        "specs": "ISO 9001 seit '93 · KMG · SPC · PPAP"
-      },
-      {
-        "number": "06",
-        "label": "Liefern",
-        "title": "Montage & Versorgung",
-        "description": "Wir liefern fertige Produkte nach Ihrem Zeitplan, nicht lose Teile.",
-        "specs": "Kanban · Forecast-Planung · Fertigware"
+        "label": "Produktion",
+        "title": "Erster Produktionsauftrag",
+        "description": "Sobald die Musterteile freigegeben sind, sind Werkzeug und Prozess bereit für den ersten Produktionsauftrag und die anschließende Serienproduktion.",
+        "specs": "Freigegebene Musterteile · Bereit für die Serienproduktion"
       }
     ],
     "cta": "Mit einer Zeichnung starten",

@@ -17,12 +17,11 @@ const teamPhotos = [
   "/images/team/rene-johnsen.jpg",
 ];
 
-/** Value-chain steps map 1:1 (by order) to the six service detail pages. */
+/** Each value-chain step links to the most relevant service detail page. */
 const chainSlugs = [
   "prototyping",
   "die-casting",
-  "post-processing",
-  "surface-treatment",
+  "die-casting",
   "quality",
   "assembly",
 ];
@@ -89,7 +88,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
       {/* ═══════════════════════════════════ HERO ═══════════════════════════════════ */}
       <section className="relative overflow-hidden bg-zinc-50">
         <div className="absolute top-0 left-0 right-0 h-20 bg-zinc-950" />
-        <div className="absolute top-16 -right-20 text-[28rem] leading-none font-bold text-zinc-200/40 pointer-events-none select-none font-[family-name:var(--font-display)] hidden lg:block">
+        <div className="absolute top-16 right-[30%] text-[28rem] leading-none font-bold text-zinc-200/40 pointer-events-none select-none font-[family-name:var(--font-display)] hidden lg:block">
           {t('hero.watermark')}
         </div>
 
@@ -127,9 +126,8 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
               </div>
             </div>
             <div className="animate-fade-up delay-2 lg:-mr-16 xl:-mr-20">
-              <div className="relative overflow-hidden aspect-[4/3] lg:aspect-[5/4]">
-                <Image src="/images/services/casting-mold.jpg" alt={t('hero.heroImageAlt')} fill priority className="object-cover animate-hero-zoom" sizes="(max-width: 1024px) 100vw, 55vw" />
-                <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-zinc-50 to-transparent hidden lg:block" />
+              <div className="relative aspect-[4/3] lg:aspect-square">
+                <Image src="/images/services/die-casting-mold.png" alt={t('hero.heroImageAlt')} fill priority className="object-contain" sizes="(max-width: 1024px) 100vw, 55vw" />
               </div>
             </div>
           </div>
@@ -209,8 +207,8 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
             </p>
           </div>
 
-          {/* Connected value chain — 6 steps, each links to its service */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-0">
+          {/* Connected value chain — 5 steps, each links to its service */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-0">
             {chainSteps.map((step, i) => {
               const isLast = i === chainSteps.length - 1;
               return (
@@ -221,7 +219,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                 >
                   {/* Step node + directional connector */}
                   <div className="relative z-10 flex items-center gap-3 mb-5 lg:mb-6">
-                    <div className="relative w-16 h-16 flex flex-col items-center justify-center bg-zinc-950 text-white shrink-0 px-1 transition-colors duration-300 group-hover:bg-ember">
+                    <div className="relative w-20 h-20 flex flex-col items-center justify-center bg-zinc-950 text-white shrink-0 px-2 transition-colors duration-300 group-hover:bg-ember">
                       <span className="absolute inset-x-0 top-0 h-[3px] bg-ember transition-colors duration-300 group-hover:bg-zinc-950" />
                       <span className="text-[10px] tracking-[0.08em] uppercase text-ember leading-none text-center font-[family-name:var(--font-mono)] transition-colors duration-300 group-hover:text-zinc-950">{step.label}</span>
                       <span className="text-xl font-bold leading-none mt-1 font-[family-name:var(--font-mono)] transition-colors duration-300 group-hover:text-zinc-950">{step.number}</span>

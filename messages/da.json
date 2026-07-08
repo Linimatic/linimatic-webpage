@@ -68,9 +68,9 @@
   "hero": {
     "watermark": "Zn",
     "eyebrow": "Grundlagt 1967 — Helsinge, Danmark",
-    "headline1": "Præcision",
-    "headline2": "i",
-    "headlineAccent": "zink",
+    "headline1": "Præcision, kvalitet",
+    "headline2": "og",
+    "headlineAccent": "økonomi",
     "tagline": "De bedste til det sværeste",
     "description": "Linimatic A/S kombinerer mange års erfaring med moderne, automatiseret produktion af højtryksstøbte zinkkomponenter. Automatisering, robotter og effektiv processtyring gør det muligt for os at levere høj kvalitet til konkurrencedygtige priser – med produktion i Danmark. Vi hjælper kunder med emner, hvor præcision, funktion, finish og stabil kvalitet er afgørende. Med høj teknisk knowhow og tæt dialog fra idé til færdigt emne skaber vi løsninger, der holder – også når kravene er komplekse.",
     "heroImageAlt": "Præcisions-zinktrykstøbeform med messingfittings",
@@ -88,50 +88,43 @@
   },
   "valueChain": {
     "eyebrow": "Ét tag. Ingen mellemled.",
-    "heading": "Dit emne, fra tegning til levering",
+    "heading": "Fra konstruktion til første produktionsordre",
     "description": "Giv os en CAD-fil. Vi returnerer et færdigt, inspiceret emne — støbt, bearbejdet, overfladebehandlet og monteret i én facilitet. Ingen leverandørkoordinering. Ingen kvalitetshuller mellem trin.",
     "steps": [
       {
         "number": "01",
         "label": "Design",
-        "title": "DFM-gennemgang & prototyper",
-        "description": "Send dine CAD-filer. Vi gennemgår, simulerer og optimerer — første prøver på 3–4 uger.",
+        "title": "Optimering med respekt for designet",
+        "description": "Sammen med jer optimerer vi konstruktionen til effektiv zinktrykstøbning – med størst mulig respekt for det oprindelige design.",
         "specs": "48t respons · 50–10.000 stk."
       },
       {
         "number": "02",
-        "label": "Støb",
-        "title": "Varmkammer-trykstøbning",
-        "description": "12 automatiserede maskiner med robothåndtering. Emner fra 1\u2009g til 3\u2009kg, 24-timers drift.",
-        "specs": "80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm i støbning"
+        "label": "Værktøj",
+        "title": "3D-konstruktion af støbeværktøjet",
+        "description": "Ud fra den endelige 3D-fil konstruerer vi støbeværktøjet, så det er optimeret til stabil støbeproduktion og længst mulig værktøjslevetid.",
+        "specs": "Egen værktøjskonstruktion · Optimeret til lang levetid"
       },
       {
         "number": "03",
-        "label": "Bearbejd",
-        "title": "CNC-efterbearbejdning",
-        "description": "Intern fræsning, drejning, slibning og gevindskæring til sluttolerance.",
-        "specs": "Fuld CNC · Stramme sekundære tolerancer"
+        "label": "Indkøring",
+        "title": "Indkøring og teststøbning",
+        "description": "Når formværktøjet er færdigt, foretager vi de første testskud i en af vores robotiserede støbeceller. Her indkører og finjusterer vi formværktøjet og støbeprocessen.",
+        "specs": "Robotiserede støbeceller · Finjustering af processen"
       },
       {
         "number": "04",
-        "label": "Finish",
-        "title": "Overfladebehandling",
-        "description": "Fra klasse\u00a0A kosmetisk forkromning til funktionel korrosionsbeskyttelse.",
-        "specs": "Krom · Pulverlak · Vådlak · Lasergravering"
+        "label": "Godkend",
+        "title": "Godkendelse",
+        "description": "Efter indkøringen opmåler vi det aftalte antal emner. Emnerne leveres til jer sammen med den aftalte kvalitets- og måledokumentation.",
+        "specs": "Opmålte emner · Kvalitets- og måledokumentation"
       },
       {
         "number": "05",
-        "label": "Inspicér",
-        "title": "Kvalitetssikring",
-        "description": "Hvert emne CMM-verificeret og SPC-overvåget, før det forlader bygningen.",
-        "specs": "ISO 9001 siden '93 · CMM · SPC · PPAP"
-      },
-      {
-        "number": "06",
-        "label": "Levér",
-        "title": "Montage & forsyning",
-        "description": "Vi leverer færdige produkter efter din tidsplan, ikke løse dele.",
-        "specs": "Kanban · Forecast-planlægning · Færdigvarer"
+        "label": "Produktion",
+        "title": "Første produktionsordre",
+        "description": "Når prøveemnerne er godkendt, er værktøj og proces klar til den første produktionsordre og den efterfølgende serieproduktion.",
+        "specs": "Godkendte prøveemner · Klar til serieproduktion"
       }
     ],
     "cta": "Start med en tegning",

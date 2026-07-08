@@ -68,9 +68,9 @@
   "hero": {
     "watermark": "Zn",
     "eyebrow": "Est. 1967 — Helsinge, Denmark",
-    "headline1": "Precision",
-    "headline2": "in",
-    "headlineAccent": "zinc",
+    "headline1": "Precision, quality",
+    "headline2": "and",
+    "headlineAccent": "economy",
     "tagline": "The best at the hardest",
     "description": "Linimatic A/S combines many years of experience with modern, automated production of high-pressure die-cast zinc components. Automation, robots and efficient process control enable us to deliver high quality at competitive prices – produced in Denmark. We help customers with parts where precision, function, finish and consistent quality are critical. With deep technical expertise and close dialogue from idea to finished part, we create solutions that last – even when the requirements are complex.",
     "heroImageAlt": "Precision zinc die-casting mold with brass fittings",
@@ -88,50 +88,43 @@
   },
   "valueChain": {
     "eyebrow": "One Roof. Zero Handoffs.",
-    "heading": "Your part, from drawing to delivery",
+    "heading": "From design to first production order",
     "description": "Give us a CAD file. We return a finished, inspected component \u2014 cast, machined, coated, and assembled in a single facility. No supplier coordination. No quality gaps between steps.",
     "steps": [
       {
         "number": "01",
         "label": "Design",
-        "title": "DFM Review & Prototyping",
-        "description": "Send your CAD files. We review, simulate, and optimise \u2014 first samples in 3\u20134 weeks.",
+        "title": "Optimisation with respect for the design",
+        "description": "Together with you, we optimise the construction for efficient zinc die casting \u2013 with the greatest possible respect for the original design.",
         "specs": "48h response \u00b7 50\u201310,000 pcs"
       },
       {
         "number": "02",
-        "label": "Cast",
-        "title": "Hot-Chamber Die-Casting",
-        "description": "12 automated machines with robotic handling. Parts from 1\u2009g to 3\u2009kg, 24-hour operation.",
-        "specs": "80\u2013400T \u00b7 Zamak 2/3/5 \u00b7 \u00b10.05\u2009mm as-cast"
+        "label": "Tooling",
+        "title": "3D Design of the Die-Casting Tool",
+        "description": "Based on the final 3D file, we design the die-casting tool, optimised for stable casting production and the longest possible tool life.",
+        "specs": "In-house tool design \u00b7 Optimised for long tool life"
       },
       {
         "number": "03",
-        "label": "Machine",
-        "title": "CNC Post-Processing",
-        "description": "In-house milling, turning, grinding, and thread cutting to final tolerance.",
-        "specs": "Full CNC \u00b7 Tight secondary tolerances"
+        "label": "Try-Out",
+        "title": "Try-Out and Test Casting",
+        "description": "Once the mould tool is finished, we make the first test shots in one of our robotic die-casting cells, running in and fine-tuning the tool and the casting process.",
+        "specs": "Robotic die-casting cells \u00b7 Process fine-tuning"
       },
       {
         "number": "04",
-        "label": "Finish",
-        "title": "Surface Treatment",
-        "description": "From Class\u00a0A cosmetic chrome to functional corrosion protection.",
-        "specs": "Chrome \u00b7 Powder coat \u00b7 Wet paint \u00b7 Laser engrave"
+        "label": "Approval",
+        "title": "Approval",
+        "description": "After the try-out, we measure the agreed number of parts. The parts are delivered to you together with the agreed quality and measurement documentation.",
+        "specs": "Measured samples \u00b7 Quality and measurement documentation"
       },
       {
         "number": "05",
-        "label": "Inspect",
-        "title": "Quality Assurance",
-        "description": "Every part CMM-verified and SPC-monitored before it leaves the building.",
-        "specs": "ISO 9001 since \u201993 \u00b7 CMM \u00b7 SPC \u00b7 PPAP"
-      },
-      {
-        "number": "06",
-        "label": "Deliver",
-        "title": "Assembly & Supply",
-        "description": "We ship finished products on your schedule, not loose parts.",
-        "specs": "Kanban \u00b7 Forecast planning \u00b7 Finished goods"
+        "label": "Production",
+        "title": "First Production Order",
+        "description": "Once the sample parts are approved, the tool and the process are ready for the first production order and subsequent series production.",
+        "specs": "Approved samples \u00b7 Ready for series production"
       }
     ],
     "cta": "Start with a Drawing",

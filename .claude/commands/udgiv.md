@@ -1,5 +1,5 @@
 ---
-description: Gem alle ændringer og udgiv dem til linimatic.dk
+description: Gem alle ændringer til den nye hjemmeside og udgiv dem
 ---
 
 Du skal gemme alle ændringer og udgive dem til websitet. Kommunikér på dansk hele vejen igennem.
@@ -20,5 +20,6 @@ Følg disse trin i rækkefølge:
 
 7. Afslut med at fortælle brugeren på venlig dansk:
    - Hvad der blev gemt og udgivet
-   - At websitet vil være opdateret inden for cirka 1-2 minutter
-   - At de bare kan genindlæse linimatic.dk for at se ændringerne
+   - At den nye hjemmeside vil være opdateret inden for cirka 1-2 minutter
+
+**Vigtigt:** linimatic.dk viser stadig den GAMLE hjemmeside — den nye hjemmeside ligger indtil videre kun på sin egen midlertidige adresse hos Vercel. Sig aldrig at ændringerne kan ses på linimatic.dk. Domænet bliver først flyttet til den nye hjemmeside senere, og kun af Marc.

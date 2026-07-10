@@ -52,7 +52,7 @@
       "contact": "Kontakt"
     },
     "servicesList": {
-      "prototyping": "Prototyper & designgennemgang",
+      "prototyping": "Prototyper",
       "dieCasting": "Varmkammer-trykstøbning",
       "postProcessing": "CNC-efterbearbejdning",
       "surfaceTreatment": "Overfladebehandling & coating",
@@ -74,16 +74,16 @@
     "tagline": "De bedste til det sværeste",
     "description": "Linimatic A/S kombinerer mange års erfaring med moderne, automatiseret produktion af højtryksstøbte zinkkomponenter. Automatisering, robotter og effektiv processtyring gør det muligt for os at levere høj kvalitet til konkurrencedygtige priser – med produktion i Danmark. Vi hjælper kunder med emner, hvor præcision, funktion, finish og stabil kvalitet er afgørende. Med høj teknisk knowhow og tæt dialog fra idé til færdigt emne skaber vi løsninger, der holder – også når kravene er komplekse.",
     "heroImageAlt": "Præcisions-zinktrykstøbeform med messingfittings",
-    "ctaPrimary": "Giv os din udfordring",
+    "ctaPrimary": "Kontakt os for at komme i gang",
     "ctaSecondary": "Vores ydelser"
   },
   "stats": {
     "items": [
       { "value": "1967", "label": "Grundlagt" },
-      { "value": "12M+", "label": "Emner / år" },
-      { "value": "12", "label": "Støbemaskiner" },
       { "value": "ISO 9001", "label": "Siden 1993" },
-      { "value": "50+", "label": "Specialister" }
+      { "value": "100%", "label": "Dansk produktion" },
+      { "value": "199 kWp", "label": "Solcelleanlæg" },
+      { "value": "30+", "label": "Specialister" }
     ]
   },
   "valueChain": {
@@ -127,7 +127,7 @@
         "specs": "Godkendte prøveemner · Klar til serieproduktion"
       }
     ],
-    "cta": "Start med en tegning",
+    "cta": "Kontakt os for at komme i gang",
     "allServices": "Se alle ydelser"
   },
   "cases": {
@@ -205,7 +205,7 @@
   "cta": {
     "heading": "Lad os tale om dit næste projekt.",
     "description": "Send os dine tegninger eller specifikationer, og vi fortæller dig præcis, hvad der kan lade sig gøre — simpelt eller komplekst.",
-    "getInTouch": "Kontakt os",
+    "getInTouch": "Kontakt os for at komme i gang",
     "phone": "+45 4876 4040",
     "responsePromise": "Svar inden for 24\u00a0timer"
   },
@@ -215,7 +215,7 @@
     "linkedInAriaLabel": "Linimatic på LinkedIn",
     "servicesHeading": "Ydelser",
     "serviceLinks": [
-      "Prototyper & designgennemgang",
+      "Prototyper",
       "Varmkammer-trykstøbning",
       "CNC-efterbearbejdning",
       "Overfladebehandling & coating",
@@ -285,9 +285,9 @@
     "catalogDescription": "Fra første prototype til færdig montage kører hvert trin i værdikæden in-house i Helsinge. Udforsk hver kompetence.",
     "items": [
       {
-        "title": "DFM-gennemgang & prototyper",
-        "description": "Send dine CAD-filer. Vi analyserer geometri, simulerer fyldning og anbefaler designoptimeringer. Første prøver på 3–4 uger med fuld DFM-feedback inden for 48 timer.",
-        "specs": "48t respons · STEP/IGES/Solidworks · 50–10.000 stk."
+        "title": "Prototyper",
+        "description": "Send dine CAD-filer, og få en fysisk prototype i zink inden for 3–4 uger — støbt på de samme maskiner og med de samme legeringer, som bruges i serieproduktionen.",
+        "specs": "3–4 ugers levering · STEP/IGES/Solidworks · 50–10.000 stk."
       },
       {
         "title": "Varmkammer-trykstøbning",
@@ -322,8 +322,8 @@
     "matrixCol3": "Certificeringer",
     "capabilities": [
       {
-        "service": "Prototyper & DFM",
-        "keySpecs": "Første prøver på 3–4 uger · 48t respons · Formfyldningssimulering",
+        "service": "Prototyper",
+        "keySpecs": "Første prøver på 3–4 uger · Samme maskiner og legeringer som serieproduktion",
         "certifications": "—"
       },
       {
@@ -370,7 +370,7 @@
     ],
     "ctaHeading": "Bring os din tegning.",
     "ctaDescription": "Send dine CAD-filer eller specifikationer. Vi fortæller dig præcis, hvad der kan lade sig gøre, og giver dig et tilbud inden for 48 timer.",
-    "ctaButton": "Få et tilbud"
+    "ctaButton": "Kontakt os for at komme i gang"
   },
   "whyZincPage": {
     "breadcrumb": "Hvorfor zink",
@@ -551,7 +551,7 @@
     },
     "ctaHeading": "Stadig i tvivl? Tal med vores ingeniører.",
     "ctaDescription": "Vi fortæller dig ærligt, om zink er det rigtige til dit emne — eller anbefaler et alternativ, hvis det ikke er. Intet salgspres, bare teknisk ekspertise.",
-    "ctaButton": "Drøft dit projekt"
+    "ctaButton": "Kontakt os for at komme i gang"
   },
   "aboutPage": {
     "breadcrumb": "Om os",
@@ -567,10 +567,10 @@
     "facilityAlt": "Linimatics produktionsfacilitet i Helsinge, Danmark",
     "stats": [
       { "value": "1967", "label": "Grundlagt" },
-      { "value": "12M+", "label": "Emner / år" },
-      { "value": "12", "label": "Støbemaskiner" },
       { "value": "ISO 9001", "label": "Siden 1993" },
-      { "value": "50+", "label": "Specialister" }
+      { "value": "100%", "label": "Dansk produktion" },
+      { "value": "199 kWp", "label": "Solcelleanlæg" },
+      { "value": "30+", "label": "Specialister" }
     ],
     "certificationsEyebrow": "Standarder",
     "certificationsHeading": "Certificeringer & compliance",
@@ -651,13 +651,13 @@
     },
     "ctaHeading": "Besøg os i Helsinge.",
     "ctaDescription": "Se faciliteten, mød teamet, og drøft dit projekt ansigt til ansigt. Vi ligger 60\u2009km nord for København.",
-    "ctaButton": "Kontakt os"
+    "ctaButton": "Kontakt os for at komme i gang"
   },
   "contactPage": {
     "breadcrumb": "Kontakt",
     "eyebrow": "Kontakt os",
-    "heading": "Lad os drøfte dit projekt.",
-    "description": "Send os dine tegninger eller specifikationer, og vi vender tilbage med en detaljeret vurdering. Ingen generiske tilbud — reel teknisk feedback fra de mennesker, der håndterer dit projekt.",
+    "heading": "Lad os tage hul på en dialog om dit projekt.",
+    "description": "Udfyld kontaktformularen, eller ring direkte til en af vores teknikere, og få konkret teknisk sparring om mulighederne for trykstøbning i zink.",
     "responsePromise": "Svar inden for 24 timer",
     "form": {
       "name": "Navn",
@@ -753,7 +753,7 @@
     ],
     "ctaHeading": "Har du en lignende udfordring?",
     "ctaDescription": "Send os dine tegninger, og vi fortæller dig, hvad der kan lade sig gøre. De projekter, andre kalder vanskelige, er dem, vi har bygget denne virksomhed op omkring.",
-    "ctaButton": "Drøft dit projekt"
+    "ctaButton": "Kontakt os for at komme i gang"
   },
   "caseDetail": {
     "challengeHeading": "Udfordringen",
@@ -762,7 +762,7 @@
     "capabilitiesHeading": "Anvendte kompetencer",
     "ctaHeading": "Har du et emne, andre ikke vil byde på?",
     "ctaDescription": "Send os dine tegninger. De projekter, andre støberier kalder vanskelige, er dem, vi har bygget denne virksomhed op omkring.",
-    "ctaButton": "Drøft dit projekt",
+    "ctaButton": "Kontakt os for at komme i gang",
     "items": {
       "dewalt": {
         "metaTitle": "DeWalt — præcise dele til elværktøj",
@@ -833,56 +833,54 @@
     ],
     "ctaHeading": "Interesseret i Zinkers?",
     "ctaDescription": "Kontakt os for at høre mere om vores blyfrie fiskevægte eller for at afgive en bestilling. Vi leverer til både private fiskere og fiskeudstyrforhandlere.",
-    "ctaButton": "Kontakt os"
+    "ctaButton": "Kontakt os for at komme i gang"
   },
   "serviceDetail": {
     "prototyping": {
-      "title": "Prototyper & designgennemgang",
+      "title": "Prototyper i zink",
       "eyebrow": "Fra koncept til første prøve",
-      "overview": "Zinktrykstøbningsprototyper starter med en DFM-gennemgang af din CAD-fil med teknisk feedback leveret inden for 48 timer. Linimatic producerer første prøver på 3–4 uger ved hjælp af hurtigværktøj, der bygger bro mellem designintentionen og serieproduktionen. Uanset om du udvikler et nyt emne fra bunden eller konverterer et eksisterende emne fra plast eller bearbejdet metal til zinktrykstøbning, validerer vores prototypeproces geometri, tolerancer og overfladefinish, inden du binder dig til produktionsværktøj.",
-      "processHeading": "Sådan går vi fra tegning til første prøve",
+      "overview": "I nogle projekter kan det være en fordel at fremstille prototyper i zink, før der investeres i det endelige formværktøj. Prototyperne kan fremstilles ved at kombinere støbt zink med efterfølgende CNC-bearbejdning.\n\nDet giver mulighed for at afprøve blandt andet funktion, montage, pasform og udtryk i det rigtige materiale. Vi vurderer sammen med kunden, om metoden er relevant, og sørger for hele forløbet fra afklaring til færdige prototyper.",
+      "processHeading": "Sådan fremstiller vi din prototype i zink",
       "process": [
         {
-          "step": "DFM-gennemgang",
-          "description": "Send din CAD-fil i STEP-, IGES-, Solidworks- eller Parasolid-format. Vores ingeniører gennemgår vægtykkelse, trækningsvinkler, underskæringer og delingsfuger — og returnerer detaljeret DFM-feedback inden for 48 timer. Vi vurderer også indløbsplacering og anbefaler den rette Zamak-legering til dit emnes styrke- og overfladekrav — så designet er klar til produktion fra start."
+          "step": "Afklaring",
+          "description": "Sammen med jer vurderer vi, om prototyper i zink er den rette metode til jeres projekt, og aftaler omfang og tidsplan for forløbet."
         },
         {
-          "step": "Simulering & optimering",
-          "description": "Formfyldningsanalyse identificerer potentielle fyldningsproblemer, porøsitetsrisici og termiske ubalancer, inden der skæres i stål. Vi anbefaler geometriændringer, der forbedrer støbbarhed uden at gå på kompromis med funktionen."
+          "step": "Støbning",
+          "description": "Prototypens grundgeometri støbes i zink."
         },
         {
-          "step": "Hurtigværktøj",
-          "description": "Forserie-værktøj er designet til 50–10.000 emner og muliggør funktionstest og markedsvalidering, inden der investeres i flerhuller-produktionsforme. Tyngdestøbning og blødværktøj er tilgængeligt til de tidligste prøver."
+          "step": "CNC-bearbejdning",
+          "description": "Detaljer, flader og mål, der kræver højere præcision, efterbearbejdes med CNC, så prototypen kommer tæt på det endelige design."
         },
         {
-          "step": "Første prøver & validering",
-          "description": "Første prøver måles dimensionelt mod din specifikation. Vi leverer målerapporter og itererer på rettelser af formen, indtil alle dimensioner er inden for tolerance."
+          "step": "Færdig prototype",
+          "description": "Den færdige prototype leveres klar til afprøvning af funktion, montage, pasform og udtryk i det rigtige materiale."
         }
       ],
       "specsEyebrow": "Tekniske specifikationer",
       "specsHeading": "Prototypekapabiliteter i overblik",
       "specs": [
-        { "label": "DFM-responstid", "value": "48 timer" },
-        { "label": "Første prøver", "value": "3\u20134 uger" },
-        { "label": "Forserievolumen", "value": "50\u201310.000 stk." },
-        { "label": "Filformater", "value": "STEP / IGES / SW / Parasolid" },
-        { "label": "Simulering", "value": "Formfyldningsanalyse" },
-        { "label": "Værktøjsejerskab", "value": "Kundeeje" }
+        { "label": "Materiale", "value": "Zamak" },
+        { "label": "Fremstillingsmetode", "value": "Støbning + CNC" },
+        { "label": "Værktøjsejerskab", "value": "Kundeeje" },
+        { "label": "Forløb", "value": "Afklaring → Færdig prototype" }
       ],
       "advantagesHeading": "Hvorfor prototypen bør laves hos dit produktionsstøberi",
       "advantages": {
         "p1": "Mange virksomheder prototyper hos én leverandør og overfører til en anden ved serieproduktion. Det skaber en adskillelse — prototypeværktøjet var optimeret til en anden maskine, en anden legeringstemperatur, andre injektionsparametre. Hos Linimatic kører din prototype på de samme maskiner, med de samme legeringer og de samme procesparametre som dine produktionsemner. Det, der virker i prototypen, virker i serien.",
-        "p2": "Vi håndterer også proceskonverteringsprojekter: emner, der i øjeblikket bearbejdes fra massivt materiale, sprøjtestøbes i plast eller støbes i aluminium, og som kunne drage fordel af zinktrykstøbningens strammere tolerancer, bedre overfladefinish og lavere pr.-emne-omkostning ved volumen. Vores DFM-gennemgang fortæller dig ærligt, om konvertering giver mening — og hvad redesignimplikationerne er."
+        "p2": "Vi håndterer også proceskonverteringsprojekter: emner, der i øjeblikket bearbejdes fra massivt materiale, sprøjtestøbes i plast eller støbes i aluminium, og som kunne drage fordel af zinktrykstøbningens strammere tolerancer, bedre overfladefinish og lavere pr.-emne-omkostning ved volumen. Vi vurderer sammen med jer, om en konvertering giver mening — og hvad redesignimplikationerne er."
       },
       "faqHeading": "Ofte stillede spørgsmål",
       "faq": [
         {
-          "question": "Hvor hurtigt kan jeg få en zinktrykstøbt prototype?",
-          "answer": "Første prøver leveres typisk 3–4 uger efter godkendt DFM. Hastedatoer kan være mulige afhængig af emnets kompleksitet — kontakt os med din deadline, og vi bekræfter gennemførlighed."
+          "question": "Hvor hurtigt kan jeg få en prototype i zink?",
+          "answer": "Det afhænger af emnets kompleksitet og omfanget af CNC-bearbejdning. Kontakt os med din tidsplan, og vi vender tilbage med et konkret bud på gennemførlighed og leveringstid."
         },
         {
-          "question": "Hvad er DFM for trykstøbning?",
-          "answer": "Design for Manufacturability (DFM) er en teknisk gennemgang af din emnegeometri for at sikre, at den pålideligt kan trykstøbes. Vi evaluerer vægtykkelsesensartethed, trækningsvinkler, underskæringsfeasibilitet, delingsfugeplacering og indløbsplaceringer — og anbefaler ændringer, der forbedrer støbbarhed, reducerer værktøjsomkostninger eller forlænger formlevetiden."
+          "question": "Hvordan kombineres støbning og CNC-bearbejdning i en prototype?",
+          "answer": "Prototypens grundform fremstilles ved trykstøbning i zink. Derefter CNC-bearbejder vi de detaljer, flader og mål, der kræver højere præcision, end selve støbningen giver. Sådan kommer prototypen tæt på det endelige design, uden at der først skal investeres i det endelige produktionsværktøj."
         },
         {
           "question": "Kan I konvertere min plastdel til zink?",
@@ -894,12 +892,12 @@
         },
         {
           "question": "Hvad er den mindste vægtykkelse for zinktrykstøbning?",
-          "answer": "Zinktrykstøbning kan opnå vægtykkelser ned til 0,6\u2009mm — tyndere end enhver anden metaltrykstøbningsproces. Den optimale vægtykkelse afhænger dog af emnegeometri, strømlængde og strukturkrav. Vores DFM-gennemgang anbefaler den bedste vægtykkelse til dit specifikke design."
+          "answer": "Zinktrykstøbning kan opnå vægtykkelser ned til 0,6 mm — tyndere end enhver anden metaltrykstøbningsproces. Den optimale vægtykkelse afhænger dog af emnegeometri, strømlængde og strukturkrav. Vi rådgiver om den bedste vægtykkelse til dit specifikke design."
         }
       ],
       "relatedHeading": "Relaterede ydelser",
       "ctaHeading": "Klar til at starte prototypen?",
-      "ctaDescription": "Send os din CAD-fil, og vi returnerer en DFM-gennemgang inden for 48 timer — med ærlig feedback om geometri, tolerancer og tidsplan.",
+      "ctaDescription": "Kontakt os, så vurderer vi sammen, om prototyper i zink er den rette løsning til dit projekt — med ærlig feedback om proces, tidsplan og pris.",
       "ctaButton": "Send din tegning"
     },
     "dieCasting": {

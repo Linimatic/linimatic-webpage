@@ -52,7 +52,7 @@
       "contact": "Kontakt"
     },
     "servicesList": {
-      "prototyping": "Prototypen & Designprüfung",
+      "prototyping": "Prototypen",
       "dieCasting": "Warmkammer-Druckguss",
       "postProcessing": "CNC-Nachbearbeitung",
       "surfaceTreatment": "Oberflächenbehandlung & Beschichtung",
@@ -74,16 +74,16 @@
     "tagline": "Die Besten für das Schwerste",
     "description": "Linimatic A/S verbindet langjährige Erfahrung mit moderner, automatisierter Produktion von Zinkdruckgussteilen. Automatisierung, Roboter und effiziente Prozesssteuerung ermöglichen es uns, hohe Qualität zu wettbewerbsfähigen Preisen zu liefern – produziert in Dänemark. Wir unterstützen Kunden bei Teilen, bei denen Präzision, Funktion, Finish und gleichbleibende Qualität entscheidend sind. Mit hohem technischem Know-how und engem Dialog von der Idee bis zum fertigen Teil schaffen wir Lösungen, die halten – auch wenn die Anforderungen komplex sind.",
     "heroImageAlt": "Präzisions-Zinkdruckgussform mit Messinganschlüssen",
-    "ctaPrimary": "Bringen Sie uns Ihre Herausforderung",
+    "ctaPrimary": "Kontaktieren Sie uns, um loszulegen",
     "ctaSecondary": "Unsere Leistungen"
   },
   "stats": {
     "items": [
       { "value": "1967", "label": "Gegründet" },
-      { "value": "12M+", "label": "Teile / Jahr" },
-      { "value": "12", "label": "Druckgussmaschinen" },
       { "value": "ISO 9001", "label": "Seit 1993" },
-      { "value": "50+", "label": "Spezialisten" }
+      { "value": "100%", "label": "Dänische Produktion" },
+      { "value": "199 kWp", "label": "Solaranlage" },
+      { "value": "30+", "label": "Spezialisten" }
     ]
   },
   "valueChain": {
@@ -127,7 +127,7 @@
         "specs": "Freigegebene Musterteile · Bereit für die Serienproduktion"
       }
     ],
-    "cta": "Mit einer Zeichnung starten",
+    "cta": "Kontaktieren Sie uns, um loszulegen",
     "allServices": "Alle Leistungen entdecken"
   },
   "cases": {
@@ -205,7 +205,7 @@
   "cta": {
     "heading": "Lassen Sie uns über Ihr nächstes Projekt sprechen.",
     "description": "Senden Sie uns Ihre Zeichnungen oder Spezifikationen und wir sagen Ihnen genau, was machbar ist — einfach oder komplex.",
-    "getInTouch": "Kontakt aufnehmen",
+    "getInTouch": "Kontaktieren Sie uns, um loszulegen",
     "phone": "+45 4876 4040",
     "responsePromise": "Antwort innerhalb von 24\u00a0Stunden"
   },
@@ -215,7 +215,7 @@
     "linkedInAriaLabel": "Linimatic auf LinkedIn",
     "servicesHeading": "Leistungen",
     "serviceLinks": [
-      "Prototypen & Designprüfung",
+      "Prototypen",
       "Warmkammer-Druckguss",
       "CNC-Nachbearbeitung",
       "Oberflächenbehandlung & Beschichtung",
@@ -285,9 +285,9 @@
     "catalogDescription": "Vom ersten Prototyp bis zur fertigen Montage läuft jeder Schritt der Wertschöpfungskette im eigenen Haus in Helsinge. Entdecken Sie jede Kompetenz.",
     "items": [
       {
-        "title": "DFM-Prüfung & Prototypen",
-        "description": "Senden Sie Ihre CAD-Dateien. Wir analysieren die Geometrie, simulieren die Füllung und empfehlen Designoptimierungen. Erste Muster in 3–4 Wochen mit vollem DFM-Feedback innerhalb von 48 Stunden.",
-        "specs": "48h Antwort · STEP/IGES/Solidworks · 50–10.000 Stk."
+        "title": "Prototypen",
+        "description": "Senden Sie Ihre CAD-Dateien und erhalten Sie innerhalb von 3–4 Wochen einen physischen Zink-Prototyp — gegossen auf denselben Maschinen und mit denselben Legierungen wie in der Serienproduktion.",
+        "specs": "3–4 Wochen Lieferzeit · STEP/IGES/Solidworks · 50–10.000 Stk."
       },
       {
         "title": "Warmkammer-Druckguss",
@@ -322,8 +322,8 @@
     "matrixCol3": "Zertifizierungen",
     "capabilities": [
       {
-        "service": "Prototypen & DFM",
-        "keySpecs": "Erste Muster in 3–4 Wochen · 48h Antwort · Formfüllungssimulation",
+        "service": "Prototypen",
+        "keySpecs": "Erste Muster in 3–4 Wochen · Gleiche Maschinen und Legierungen wie in der Serienproduktion",
         "certifications": "—"
       },
       {
@@ -370,7 +370,7 @@
     ],
     "ctaHeading": "Bringen Sie uns Ihre Zeichnung.",
     "ctaDescription": "Senden Sie Ihre CAD-Dateien oder Spezifikationen. Wir sagen Ihnen genau, was machbar ist, und erstellen Ihnen innerhalb von 48 Stunden ein Angebot.",
-    "ctaButton": "Angebot anfordern"
+    "ctaButton": "Kontaktieren Sie uns, um loszulegen"
   },
   "whyZincPage": {
     "breadcrumb": "Warum Zink",
@@ -551,7 +551,7 @@
     },
     "ctaHeading": "Noch unentschieden? Sprechen Sie mit unseren Ingenieuren.",
     "ctaDescription": "Wir sagen Ihnen ehrlich, ob Zink für Ihr Bauteil richtig ist — oder empfehlen eine Alternative, wenn nicht. Kein Verkaufsdruck, nur Ingenieurkompetenz.",
-    "ctaButton": "Projekt besprechen"
+    "ctaButton": "Kontaktieren Sie uns, um loszulegen"
   },
   "aboutPage": {
     "breadcrumb": "Über uns",
@@ -567,10 +567,10 @@
     "facilityAlt": "Linimatic Produktionsstätte in Helsinge, Dänemark",
     "stats": [
       { "value": "1967", "label": "Gegründet" },
-      { "value": "12M+", "label": "Teile / Jahr" },
-      { "value": "12", "label": "Druckgussmaschinen" },
       { "value": "ISO 9001", "label": "Seit 1993" },
-      { "value": "50+", "label": "Spezialisten" }
+      { "value": "100%", "label": "Dänische Produktion" },
+      { "value": "199 kWp", "label": "Solaranlage" },
+      { "value": "30+", "label": "Spezialisten" }
     ],
     "certificationsEyebrow": "Standards",
     "certificationsHeading": "Zertifizierungen & Compliance",
@@ -651,13 +651,13 @@
     },
     "ctaHeading": "Besuchen Sie uns in Helsinge.",
     "ctaDescription": "Besichtigen Sie die Anlage, treffen Sie das Team und besprechen Sie Ihr Projekt persönlich. Wir sind 60\u2009km nördlich von Kopenhagen.",
-    "ctaButton": "Kontakt aufnehmen"
+    "ctaButton": "Kontaktieren Sie uns, um loszulegen"
   },
   "contactPage": {
     "breadcrumb": "Kontakt",
     "eyebrow": "Kontakt aufnehmen",
-    "heading": "Lassen Sie uns Ihr Projekt besprechen.",
-    "description": "Senden Sie uns Ihre Zeichnungen oder Spezifikationen und wir antworten mit einer detaillierten Bewertung. Keine generischen Angebote — echtes Ingenieur-Feedback von den Menschen, die Ihr Projekt betreuen.",
+    "heading": "Lassen Sie uns ins Gespräch über Ihr Projekt kommen.",
+    "description": "Füllen Sie das Kontaktformular aus, oder rufen Sie direkt einen unserer Techniker an, und erhalten Sie konkrete technische Beratung zu den Möglichkeiten des Zink-Druckgusses.",
     "responsePromise": "Antwort innerhalb von 24 Stunden",
     "form": {
       "name": "Name",
@@ -753,7 +753,7 @@
     ],
     "ctaHeading": "Haben Sie eine ähnliche Herausforderung?",
     "ctaDescription": "Senden Sie uns Ihre Zeichnungen und wir sagen Ihnen, was machbar ist. Die Projekte, die andere als schwierig bezeichnen, sind die, für die wir dieses Unternehmen aufgebaut haben.",
-    "ctaButton": "Projekt besprechen"
+    "ctaButton": "Kontaktieren Sie uns, um loszulegen"
   },
   "caseDetail": {
     "challengeHeading": "Die Herausforderung",
@@ -762,7 +762,7 @@
     "capabilitiesHeading": "Eingesetzte Kompetenzen",
     "ctaHeading": "Haben Sie ein Teil, das andere nicht anbieten wollen?",
     "ctaDescription": "Senden Sie uns Ihre Zeichnungen. Die Projekte, die andere Gießereien als schwierig bezeichnen, sind genau die, für die wir dieses Unternehmen aufgebaut haben.",
-    "ctaButton": "Projekt besprechen",
+    "ctaButton": "Kontaktieren Sie uns, um loszulegen",
     "items": {
       "dewalt": {
         "metaTitle": "DeWalt — präzise Elektrowerkzeug-Teile",
@@ -833,56 +833,54 @@
     ],
     "ctaHeading": "Interesse an Zinkers?",
     "ctaDescription": "Kontaktieren Sie uns, um mehr über unsere bleifreien Angelbleie zu erfahren oder eine Bestellung aufzugeben. Wir beliefern sowohl Privatangler als auch Angelfachhandel.",
-    "ctaButton": "Kontakt aufnehmen"
+    "ctaButton": "Kontaktieren Sie uns, um loszulegen"
   },
   "serviceDetail": {
     "prototyping": {
-      "title": "Prototypen & Designpr\u00fcfung",
+      "title": "Prototypen in Zink",
       "eyebrow": "Vom Konzept zum ersten Muster",
-      "overview": "Die Prototypenentwicklung im Zinkdruckguss beginnt mit einer DFM-Prüfung Ihrer CAD-Datei, wobei das Ingenieur-Feedback innerhalb von 48 Stunden geliefert wird. Linimatic produziert erste Muster in 3–4 Wochen mittels Schnellwerkzeug und überbrückt damit die Lücke zwischen Designabsicht und Serienproduktion. Ob Sie ein neues Bauteil von Grund auf entwickeln oder ein bestehendes Teil von Kunststoff oder zerspantem Metall auf Zinkdruckguss umstellen — unser Prototypenprozess validiert Geometrie, Toleranzen und Oberfläche, bevor Sie sich auf das Produktionswerkzeug festlegen.",
-      "processHeading": "So gehen wir von der Zeichnung zum ersten Muster",
+      "overview": "In manchen Projekten kann es von Vorteil sein, Prototypen in Zink herzustellen, bevor in das endgültige Produktionswerkzeug investiert wird. Die Prototypen können durch die Kombination von Zinkdruckguss mit anschließender CNC-Bearbeitung hergestellt werden.\n\nSo lassen sich Funktion, Montage, Passform und Anmutung im tatsächlichen Material testen. Wir prüfen gemeinsam mit dem Kunden, ob die Methode relevant ist, und begleiten den gesamten Prozess von der Abklärung bis zum fertigen Prototyp.",
+      "processHeading": "So stellen wir Ihren Prototyp in Zink her",
       "process": [
         {
-          "step": "DFM-Pr\u00fcfung",
-          "description": "Senden Sie Ihre CAD-Datei im Format STEP, IGES, Solidworks oder Parasolid. Unsere Ingenieure prüfen Wandstärken, Entformungswinkel, Hinterschneidungen und Trennebenen — und liefern innerhalb von 48 Stunden detailliertes DFM-Feedback. Wir bewerten auch die Angussposition und empfehlen die richtige Zamak-Legierung für die Festigkeits- und Oberflächenanforderungen Ihres Bauteils — damit das Design von Anfang an produktionsreif ist."
+          "step": "Abklärung",
+          "description": "Gemeinsam mit Ihnen prüfen wir, ob Prototypen in Zink die richtige Methode für Ihr Projekt sind, und vereinbaren Umfang und Zeitplan."
         },
         {
-          "step": "Simulation & Optimierung",
-          "description": "Die Formfüllsimulation identifiziert potenzielle Füllprobleme, Porositätsrisiken und thermische Ungleichgewichte, bevor Stahl geschnitten wird. Wir empfehlen Geometrieänderungen, die die Gießbarkeit verbessern, ohne die Funktion zu beeinträchtigen."
+          "step": "Guss",
+          "description": "Die Grundgeometrie des Prototyps wird in Zink gegossen."
         },
         {
-          "step": "Schnellwerkzeug",
-          "description": "Vorseriewerkzeuge sind für 50–10.000 Teile ausgelegt und ermöglichen Funktionsprüfungen und Marktvalidierungen, bevor in mehrkavitätige Produktionswerkzeuge investiert wird. Schwerkraftguss- und Weichformoptionen sind für früheste Muster verfügbar."
+          "step": "CNC-Bearbeitung",
+          "description": "Details, Flächen und Maße, die höhere Präzision erfordern, werden per CNC nachbearbeitet, sodass der Prototyp dem endgültigen Design nahekommt."
         },
         {
-          "step": "Erste Muster & Validierung",
-          "description": "Erstmuster werden maßlich gegen Ihre Spezifikation geprüft. Wir erstellen Messberichte und iterieren Werkzeugkorrekturen, bis jedes Maß innerhalb der Toleranz liegt."
+          "step": "Fertiger Prototyp",
+          "description": "Der fertige Prototyp wird geliefert und ist bereit für die Prüfung von Funktion, Montage, Passform und Anmutung im tatsächlichen Material."
         }
       ],
       "specsEyebrow": "Technische Spezifikationen",
-      "specsHeading": "Prototypen-Kapazit\u00e4ten auf einen Blick",
+      "specsHeading": "Prototypen-Kapazitäten auf einen Blick",
       "specs": [
-        { "label": "DFM-Antwortzeit", "value": "48 Stunden" },
-        { "label": "Erste Muster", "value": "3\u20134 Wochen" },
-        { "label": "Vorserienvolumen", "value": "50\u201310.000 Stk." },
-        { "label": "Dateiformate", "value": "STEP / IGES / SW / Parasolid" },
-        { "label": "Simulation", "value": "Formf\u00fcllungsanalyse" },
-        { "label": "Werkzeugeigentum", "value": "Kundeneigentum" }
+        { "label": "Material", "value": "Zamak" },
+        { "label": "Herstellungsmethode", "value": "Guss + CNC" },
+        { "label": "Werkzeugeigentum", "value": "Kundeneigentum" },
+        { "label": "Ablauf", "value": "Abklärung → Fertiger Prototyp" }
       ],
       "advantagesHeading": "Warum Sie beim Produktionsgie\u00dfer prototypen sollten",
       "advantages": {
         "p1": "Viele Unternehmen lassen Prototypen bei einem Lieferanten fertigen und wechseln dann für die Serienproduktion zu einem anderen. Das schafft eine Diskontinuität — das Prototypenwerkzeug war für eine andere Maschine, eine andere Legierungstemperatur und andere Einspritzparameter optimiert. Bei Linimatic läuft Ihr Prototyp auf denselben Maschinen, mit denselben Legierungen und denselben Prozessparametern wie Ihre Serienteile. Was im Prototyping funktioniert, funktioniert auch in der Serie.",
-        "p2": "Wir übernehmen auch Verfahrensumstellungsprojekte: Teile, die derzeit aus dem Vollen gefräst, im Kunststoff-Spritzguss hergestellt oder aus Aluminium gegossen werden, können von den engeren Toleranzen, der besseren Oberflächenqualität und den niedrigeren Stückkosten des Zinkdruckgusses bei hohen Volumina profitieren. Unsere DFM-Prüfung sagt Ihnen ehrlich, ob eine Umstellung sinnvoll ist — und welche Konsequenzen die Neukonstruktion hat."
+        "p2": "Wir übernehmen auch Verfahrensumstellungsprojekte: Teile, die derzeit aus dem Vollen gefräst, im Kunststoff-Spritzguss hergestellt oder aus Aluminium gegossen werden, können von den engeren Toleranzen, der besseren Oberflächenqualität und den niedrigeren Stückkosten des Zinkdruckgusses bei hohen Volumina profitieren. Wir prüfen gemeinsam mit Ihnen, ob eine Umstellung sinnvoll ist — und welche Konsequenzen die Neukonstruktion hat."
       },
       "faqHeading": "H\u00e4ufig gestellte Fragen",
       "faq": [
         {
-          "question": "Wie schnell kann ich einen Zinkdruckguss-Prototyp bekommen?",
-          "answer": "Erstmuster werden typischerweise 3–4 Wochen nach freigegebener DFM-Prüfung geliefert. Eillieferungen können je nach Bauteilkomplexität möglich sein — kontaktieren Sie uns mit Ihrem Termin und wir bestätigen die Machbarkeit."
+          "question": "Wie schnell kann ich einen Prototyp in Zink bekommen?",
+          "answer": "Das hängt von der Komplexität des Bauteils und dem Umfang der CNC-Bearbeitung ab. Kontaktieren Sie uns mit Ihrem Zeitplan, und wir melden uns mit einer konkreten Einschätzung zu Machbarkeit und Lieferzeit."
         },
         {
-          "question": "Was ist DFM f\u00fcr Druckguss?",
-          "answer": "Design for Manufacturability (DFM) ist eine ingenieurtechnische Prüfung Ihrer Bauteilgeometrie, um sicherzustellen, dass diese zuverlässig gegossen werden kann. Wir bewerten die Gleichmäßigkeit der Wandstärke, Entformungswinkel, Machbarkeit von Hinterschneidungen, Lage der Trennebene und Angussposition — und empfehlen Änderungen, die die Gießbarkeit verbessern, die Werkzeugkosten senken oder die Werkzeugstandzeit verlängern."
+          "question": "Wie werden Guss und CNC-Bearbeitung bei einem Prototyp kombiniert?",
+          "answer": "Die Grundform des Prototyps wird im Zinkdruckguss hergestellt. Anschließend bearbeiten wir per CNC die Details, Flächen und Maße, die eine höhere Präzision erfordern, als der Gussprozess allein bietet. So kommt der Prototyp dem endgültigen Design nahe, ohne dass zunächst in das endgültige Produktionswerkzeug investiert werden muss."
         },
         {
           "question": "K\u00f6nnen Sie mein Kunststoffteil auf Zink umstellen?",
@@ -894,12 +892,12 @@
         },
         {
           "question": "Was ist die minimale Wandst\u00e4rke f\u00fcr Zinkdruckguss?",
-          "answer": "Zinkdruckguss kann Wandstärken bis zu 0,6\u2009mm erreichen — dünner als bei jedem anderen metallischen Druckgussverfahren. Die optimale Wandstärke hängt jedoch von der Bauteilgeometrie, der Fließweglänge und den strukturellen Anforderungen ab. Unsere DFM-Prüfung empfiehlt die beste Wandstärke für Ihr spezifisches Design."
+          "answer": "Zinkdruckguss kann Wandstärken bis zu 0,6 mm erreichen — dünner als bei jedem anderen metallischen Druckgussverfahren. Die optimale Wandstärke hängt jedoch von der Bauteilgeometrie, der Fließweglänge und den strukturellen Anforderungen ab. Wir beraten Sie gerne zur besten Wandstärke für Ihr spezifisches Design."
         }
       ],
       "relatedHeading": "Verwandte Leistungen",
       "ctaHeading": "Bereit f\u00fcr den Prototypenstart?",
-      "ctaDescription": "Senden Sie uns Ihre CAD-Datei und wir liefern eine DFM-Pr\u00fcfung innerhalb von 48 Stunden \u2014 mit ehrlichem Feedback zu Geometrie, Toleranzen und Zeitplan.",
+      "ctaDescription": "Kontaktieren Sie uns, damit wir gemeinsam prüfen können, ob Prototypen in Zink die richtige Lösung für Ihr Projekt sind — mit ehrlichem Feedback zu Prozess, Zeitplan und Preis.",
       "ctaButton": "Zeichnung senden"
     },
     "dieCasting": {

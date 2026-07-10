@@ -88,7 +88,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
       {/* ═══════════════════════════════════ HERO ═══════════════════════════════════ */}
       <section className="relative overflow-hidden bg-zinc-50">
         <div className="absolute top-0 left-0 right-0 h-20 bg-zinc-950" />
-        <div className="absolute top-16 right-[30%] text-[28rem] leading-none font-bold text-zinc-200/40 pointer-events-none select-none font-[family-name:var(--font-display)] hidden lg:block">
+        <div className="absolute top-16 right-[50%] text-[28rem] leading-none font-bold text-zinc-300/30 pointer-events-none select-none font-[family-name:var(--font-display)] hidden lg:block">
           {t('hero.watermark')}
         </div>
 

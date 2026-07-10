@@ -52,7 +52,7 @@
       "contact": "Contact"
     },
     "servicesList": {
-      "prototyping": "Prototyping & Design Review",
+      "prototyping": "Prototyping",
       "dieCasting": "Hot-Chamber Die Casting",
       "postProcessing": "CNC Post-Processing",
       "surfaceTreatment": "Surface Treatment & Coating",
@@ -74,16 +74,16 @@
     "tagline": "The best at the hardest",
     "description": "Linimatic A/S combines many years of experience with modern, automated production of high-pressure die-cast zinc components. Automation, robots and efficient process control enable us to deliver high quality at competitive prices – produced in Denmark. We help customers with parts where precision, function, finish and consistent quality are critical. With deep technical expertise and close dialogue from idea to finished part, we create solutions that last – even when the requirements are complex.",
     "heroImageAlt": "Precision zinc die-casting mold with brass fittings",
-    "ctaPrimary": "Bring Us Your Challenge",
+    "ctaPrimary": "Contact Us to Get Started",
     "ctaSecondary": "Our Services"
   },
   "stats": {
     "items": [
       { "value": "1967", "label": "Founded" },
-      { "value": "12M+", "label": "Parts / Year" },
-      { "value": "12", "label": "Die-Cast Machines" },
       { "value": "ISO 9001", "label": "Since 1993" },
-      { "value": "50+", "label": "Specialists" }
+      { "value": "100%", "label": "Danish Production" },
+      { "value": "199 kWp", "label": "Solar Array" },
+      { "value": "30+", "label": "Specialists" }
     ]
   },
   "valueChain": {
@@ -127,7 +127,7 @@
         "specs": "Approved samples \u00b7 Ready for series production"
       }
     ],
-    "cta": "Start with a Drawing",
+    "cta": "Contact Us to Get Started",
     "allServices": "Explore All Services"
   },
   "cases": {
@@ -202,7 +202,7 @@
   "cta": {
     "heading": "Let\u2019s talk about your next project.",
     "description": "Send us your drawings or specifications and we\u2019ll tell you exactly what\u2019s achievable \u2014 simple or complex.",
-    "getInTouch": "Get in Touch",
+    "getInTouch": "Contact Us to Get Started",
     "phone": "+45 4876 4040",
     "responsePromise": "Response within 24\u00a0hours"
   },
@@ -212,7 +212,7 @@
     "linkedInAriaLabel": "Linimatic on LinkedIn",
     "servicesHeading": "Services",
     "serviceLinks": [
-      "Prototyping & Design Review",
+      "Prototyping",
       "Hot-Chamber Die Casting",
       "CNC Post-Processing",
       "Surface Treatment & Coating",
@@ -282,9 +282,9 @@
     "catalogDescription": "From first prototype to finished assembly, every step of the value chain runs in-house in Helsinge. Explore each capability.",
     "items": [
       {
-        "title": "DFM Review & Prototyping",
-        "description": "Send your CAD files. We analyse geometry, simulate fill, and recommend design optimisations. First samples in 3\u20134 weeks, with full DFM feedback within 48 hours.",
-        "specs": "48h response \u00b7 STEP/IGES/Solidworks \u00b7 50\u201310,000 pcs"
+        "title": "Prototyping",
+        "description": "Send your CAD files and get a physical zinc prototype within 3\u20134 weeks \u2014 cast on the same machines, with the same alloys, used in series production.",
+        "specs": "3\u20134 week delivery \u00b7 STEP/IGES/Solidworks \u00b7 50\u201310,000 pcs"
       },
       {
         "title": "Hot-Chamber Die Casting",
@@ -319,8 +319,8 @@
     "matrixCol3": "Certifications",
     "capabilities": [
       {
-        "service": "Prototyping & DFM",
-        "keySpecs": "First samples in 3\u20134 weeks \u00b7 48h response \u00b7 Mold flow simulation",
+        "service": "Prototyping",
+        "keySpecs": "First samples in 3\u20134 weeks \u00b7 Same machines and alloys as series production",
         "certifications": "\u2014"
       },
       {
@@ -367,7 +367,7 @@
     ],
     "ctaHeading": "Bring us your drawing.",
     "ctaDescription": "Send your CAD files or specifications. We\u2019ll tell you exactly what\u2019s achievable and give you a quote within 48 hours.",
-    "ctaButton": "Get a Quote"
+    "ctaButton": "Contact Us to Get Started"
   },
   "whyZincPage": {
     "breadcrumb": "Why Zinc",
@@ -548,7 +548,7 @@
     },
     "ctaHeading": "Still deciding? Talk to our engineers.",
     "ctaDescription": "We\u2019ll tell you honestly whether zinc is right for your part \u2014 or recommend an alternative if it isn\u2019t. No sales pressure, just engineering expertise.",
-    "ctaButton": "Discuss Your Project"
+    "ctaButton": "Contact Us to Get Started"
   },
   "aboutPage": {
     "breadcrumb": "About",
@@ -564,10 +564,10 @@
     "facilityAlt": "Linimatic production facility in Helsinge, Denmark",
     "stats": [
       { "value": "1967", "label": "Founded" },
-      { "value": "12M+", "label": "Parts / Year" },
-      { "value": "12", "label": "Die-Cast Machines" },
       { "value": "ISO 9001", "label": "Since 1993" },
-      { "value": "50+", "label": "Specialists" }
+      { "value": "100%", "label": "Danish Production" },
+      { "value": "199 kWp", "label": "Solar Array" },
+      { "value": "30+", "label": "Specialists" }
     ],
     "certificationsEyebrow": "Standards",
     "certificationsHeading": "Certifications & compliance",
@@ -648,13 +648,13 @@
     },
     "ctaHeading": "Visit us in Helsinge.",
     "ctaDescription": "See the facility, meet the team, and discuss your project face to face. We\u2019re 60\u2009km north of Copenhagen.",
-    "ctaButton": "Get in Touch"
+    "ctaButton": "Contact Us to Get Started"
   },
   "contactPage": {
     "breadcrumb": "Contact",
     "eyebrow": "Get in Touch",
-    "heading": "Let\u2019s discuss your project.",
-    "description": "Send us your drawings or specifications and we\u2019ll respond with a detailed assessment. No generic quotes \u2014 real engineering feedback from the people who will handle your project.",
+    "heading": "Let\u2019s start a conversation about your project.",
+    "description": "Fill in the contact form, or call one of our engineers directly, and get concrete technical guidance on the possibilities for zinc die-casting.",
     "responsePromise": "Response within 24 hours",
     "form": {
       "name": "Name",
@@ -750,7 +750,7 @@
     ],
     "ctaHeading": "Have a similar challenge?",
     "ctaDescription": "Send us your drawings and we\u2019ll tell you what\u2019s achievable. The projects others call difficult are the ones we built this company around.",
-    "ctaButton": "Discuss Your Project"
+    "ctaButton": "Contact Us to Get Started"
   },
   "caseDetail": {
     "challengeHeading": "The challenge",
@@ -759,7 +759,7 @@
     "capabilitiesHeading": "Capabilities applied",
     "ctaHeading": "Have a part others won\u2019t quote?",
     "ctaDescription": "Send us your drawings. The projects other foundries call difficult are the ones we built this company around.",
-    "ctaButton": "Discuss Your Project",
+    "ctaButton": "Contact Us to Get Started",
     "items": {
       "dewalt": {
         "metaTitle": "DeWalt — Tight-Tolerance Power-Tool Castings",
@@ -830,56 +830,54 @@
     ],
     "ctaHeading": "Interested in Zinkers?",
     "ctaDescription": "Contact us to learn more about our lead-free fishing weights or to place an order. We supply both individual anglers and tackle retailers.",
-    "ctaButton": "Get in Touch"
+    "ctaButton": "Contact Us to Get Started"
   },
   "serviceDetail": {
     "prototyping": {
-      "title": "Prototyping & Design Review",
+      "title": "Prototyping in Zinc",
       "eyebrow": "From Concept to First Sample",
-      "overview": "Zinc die-casting prototyping starts with a DFM review of your CAD file, with engineering feedback delivered within 48 hours. Linimatic produces first samples in 3\u20134 weeks using rapid tooling, bridging the gap between design intent and series production. Whether you are developing a new component from scratch or converting an existing part from plastic or machined metal to zinc die-casting, our prototyping process validates geometry, tolerances, and surface finish before committing to production tooling.",
-      "processHeading": "How we move from drawing to first sample",
+      "overview": "In some projects, it can be an advantage to produce prototypes in zinc before investing in the final production tooling. The prototypes can be made by combining cast zinc with subsequent CNC machining.\n\nThis makes it possible to test function, assembly, fit, and appearance in the actual material. We assess together with the customer whether the method is relevant, and manage the whole process from initial clarification to finished prototypes.",
+      "processHeading": "How we make your zinc prototype",
       "process": [
         {
-          "step": "DFM Review",
-          "description": "Send your CAD file in STEP, IGES, Solidworks, or Parasolid format. Our engineers review wall thickness, draft angles, undercuts, and parting lines \u2014 and return detailed DFM feedback within 48 hours. We also assess gate placement and recommend the right Zamak alloy for your part\u2019s strength and surface requirements \u2014 so the design is production-ready from the start."
+          "step": "Clarification",
+          "description": "Together with you, we assess whether zinc prototyping is the right method for your project, and agree on scope and timeline."
         },
         {
-          "step": "Simulation & Optimisation",
-          "description": "Mold flow analysis identifies potential fill issues, porosity risks, and thermal imbalances before any steel is cut. We recommend geometry changes that improve castability without compromising function."
+          "step": "Casting",
+          "description": "The prototype's base geometry is cast in zinc."
         },
         {
-          "step": "Rapid Tooling",
-          "description": "Pre-series tooling is designed for 50\u201310,000 parts, allowing functional testing and market validation before investing in multi-cavity production dies. Gravity casting and soft tooling options are available for earliest samples."
+          "step": "CNC Machining",
+          "description": "Details, surfaces, and dimensions that require higher precision are finished with CNC machining, bringing the prototype close to the final design."
         },
         {
-          "step": "First Samples & Validation",
-          "description": "First samples are dimensionally inspected against your specification. We provide measurement reports and iterate on tool corrections until every dimension is within tolerance."
+          "step": "Finished Prototype",
+          "description": "The finished prototype is delivered ready for testing function, assembly, fit, and appearance in the actual material."
         }
       ],
       "specsEyebrow": "Technical Specifications",
       "specsHeading": "Prototyping capabilities at a glance",
       "specs": [
-        { "label": "DFM Response Time", "value": "48 hours" },
-        { "label": "First Samples", "value": "3\u20134 weeks" },
-        { "label": "Pre-Series Volume", "value": "50\u201310,000 pcs" },
-        { "label": "File Formats", "value": "STEP / IGES / SW / Parasolid" },
-        { "label": "Simulation", "value": "Mold flow analysis" },
-        { "label": "Tool Ownership", "value": "Customer-owned" }
+        { "label": "Material", "value": "Zamak" },
+        { "label": "Production Method", "value": "Casting + CNC" },
+        { "label": "Tool Ownership", "value": "Customer-owned" },
+        { "label": "Process", "value": "Clarification \u2192 Finished Prototype" }
       ],
       "advantagesHeading": "Why prototype with your production foundry",
       "advantages": {
         "p1": "Many companies prototype with one supplier and transfer to another for series production. This creates a disconnect \u2014 the prototype tool was optimised for a different machine, different alloy temperature, different injection parameters. At Linimatic, your prototype runs on the same machines, with the same alloys and the same process parameters as your production parts. What works in prototyping works in series.",
-        "p2": "We also handle process conversion projects: parts currently machined from solid, injection-moulded in plastic, or cast in aluminium that could benefit from zinc die-casting\u2019s tighter tolerances, better surface finish, and lower per-part cost at volume. Our DFM review will tell you honestly whether conversion makes sense \u2014 and what the redesign implications are."
+        "p2": "We also handle process conversion projects: parts currently machined from solid, injection-moulded in plastic, or cast in aluminium that could benefit from zinc die-casting\u2019s tighter tolerances, better surface finish, and lower per-part cost at volume. We assess together with you whether conversion makes sense \u2014 and what the redesign implications are."
       },
       "faqHeading": "Frequently Asked Questions",
       "faq": [
         {
-          "question": "How fast can I get a zinc die-cast prototype?",
-          "answer": "First samples are typically delivered in 3\u20134 weeks from approved DFM. Rush timelines may be possible depending on part complexity \u2014 contact us with your deadline and we will confirm feasibility."
+          "question": "How fast can I get a zinc prototype?",
+          "answer": "It depends on the part's complexity and the amount of CNC machining involved. Contact us with your timeline, and we'll get back to you with a concrete estimate of feasibility and lead time."
         },
         {
-          "question": "What is DFM for die casting?",
-          "answer": "Design for Manufacturability (DFM) is an engineering review of your part geometry to ensure it can be reliably die-cast. We evaluate wall thickness uniformity, draft angles, undercut feasibility, parting line placement, and gate locations \u2014 and recommend changes that improve castability, reduce tooling cost, or extend die life."
+          "question": "How are casting and CNC machining combined in a prototype?",
+          "answer": "The prototype's base shape is produced by zinc die-casting. We then CNC-machine the details, surfaces, and dimensions that require higher precision than the casting process alone provides. This brings the prototype close to the final design, without first investing in the final production tooling."
         },
         {
           "question": "Can you convert my plastic part to zinc?",
@@ -891,12 +889,12 @@
         },
         {
           "question": "What is the minimum wall thickness for zinc die casting?",
-          "answer": "Zinc die-casting can achieve wall thicknesses down to 0.6\u2009mm \u2014 thinner than any other metal die-casting process. However, the optimal wall thickness depends on part geometry, flow length, and structural requirements. Our DFM review will recommend the best wall thickness for your specific design."
+          "answer": "Zinc die-casting can achieve wall thicknesses down to 0.6\u2009mm \u2014 thinner than any other metal die-casting process. However, the optimal wall thickness depends on part geometry, flow length, and structural requirements. We can advise on the best wall thickness for your specific design."
         }
       ],
       "relatedHeading": "Related Services",
       "ctaHeading": "Ready to start prototyping?",
-      "ctaDescription": "Send us your CAD file and we\u2019ll return a DFM review within 48 hours \u2014 with honest feedback on geometry, tolerances, and timeline.",
+      "ctaDescription": "Contact us, and we\u2019ll assess together whether zinc prototyping is the right solution for your project \u2014 with honest feedback on process, timeline, and price.",
       "ctaButton": "Send Your Drawing"
     },
     "dieCasting": {

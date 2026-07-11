@@ -6,7 +6,7 @@
     },
     "services": {
       "title": "Zinktrykstøbning i Danmark",
-      "description": "Full-service zinktrykstøbning under ét tag: prototyping, varmkammerstøbning, CNC-bearbejdning, overfladebehandling, kvalitetssikring og montage i Helsinge."
+      "description": "Full-service zinktrykstøbning under ét tag: prototyping, højtryksstøbning, CNC-bearbejdning, overfladebehandling, kvalitetssikring og montage i Helsinge."
     },
     "whyZinc": {
       "title": "Hvorfor zink? Fordele og legeringer",
@@ -53,7 +53,7 @@
     },
     "servicesList": {
       "prototyping": "Prototyper",
-      "dieCasting": "Varmkammer-trykstøbning",
+      "dieCasting": "Højtryksstøbning",
       "postProcessing": "CNC-efterbearbejdning",
       "surfaceTreatment": "Overfladebehandling & coating",
       "quality": "Kvalitet & certificering",
@@ -74,6 +74,9 @@
     "tagline": "De bedste til det sværeste",
     "description": "Linimatic A/S kombinerer mange års erfaring med moderne, automatiseret produktion af højtryksstøbte zinkkomponenter. Automatisering, robotter og effektiv processtyring gør det muligt for os at levere høj kvalitet til konkurrencedygtige priser – med produktion i Danmark. Vi hjælper kunder med emner, hvor præcision, funktion, finish og stabil kvalitet er afgørende. Med høj teknisk knowhow og tæt dialog fra idé til færdigt emne skaber vi løsninger, der holder – også når kravene er komplekse.",
     "heroImageAlt": "Præcisions-zinktrykstøbeform med messingfittings",
+    "heroImageAlt2": "To generationer af Linimatic-medarbejdere taler sammen om en zinktrykstøbt komponent i produktionen",
+    "heroImageAlt3": "Luftfoto af Linimatics produktionsbygning i Helsinge med solcelleanlæg på taget",
+    "heroImageAlt4": "Robotarm der betjener en zinktrykstøbemaskine i produktionen",
     "ctaPrimary": "Kontakt os for at komme i gang",
     "ctaSecondary": "Vores ydelser"
   },
@@ -216,7 +219,7 @@
     "servicesHeading": "Ydelser",
     "serviceLinks": [
       "Prototyper",
-      "Varmkammer-trykstøbning",
+      "Højtryksstøbning",
       "CNC-efterbearbejdning",
       "Overfladebehandling & coating",
       "Kvalitet & certificering",
@@ -290,8 +293,8 @@
         "specs": "3–4 ugers levering · STEP/IGES/Solidworks · 50–10.000 stk."
       },
       {
-        "title": "Varmkammer-trykstøbning",
-        "description": "12 automatiserede maskiner med robotudtrækning kørende 24 timer. Emner fra 1\u2009g til 3\u2009kg i Zamak 2, 3 og 5 med tolerancer i støbning ned til \u00b10,05\u2009mm.",
+        "title": "Højtryksstøbning",
+        "description": "9 robotiserede støbeceller i døgndrift. Emner fra 1\u2009g til 4\u2009kg i Zamak 2, 3 og 5 med tolerancer i støbning ned til \u00b10,05\u2009mm.",
         "specs": "80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm i støbning"
       },
       {
@@ -327,8 +330,8 @@
         "certifications": "—"
       },
       {
-        "service": "Varmkammer-trykstøbning",
-        "keySpecs": "12 maskiner, 80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm · 1g–3kg",
+        "service": "Højtryksstøbning",
+        "keySpecs": "9 støbeceller, 80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm · 1g–4kg",
         "certifications": "ISO 9001"
       },
       {
@@ -901,9 +904,9 @@
       "ctaButton": "Send din tegning"
     },
     "dieCasting": {
-      "title": "Varmkammer-trykstøbning",
+      "title": "Højtryksstøbning",
       "eyebrow": "Danmarks største zinkstøberi",
-      "overview": "Linimatic driver 12 automatiserede varmkammer-trykstøbningsmaskiner fra 80 til 400 ton og producerer zinkemner fra 1\u2009g til 3\u2009kg med tolerancer i støbning ned til \u00b10,05\u2009mm. Vores støberi kører 24-timers drift med robotudtrækning og støber i Zamak 2, 3 og 5-legeringer. Cyklustider varierer fra 10 til 45 sekunder afhængig af emnets kompleksitet, med skud-for-skud konsistens overvåget af realtids-SPC. Dette er Danmarks største dedikerede zinktrykstøbningsoperation.",
+      "overview": "Højtryksstøbning er kernen i alt, hvad vi laver. I støberiet i Helsinge kører 9 robotiserede støbeceller døgnet rundt og producerer zinkemner fra 1 gram til 4 kilo — fra små præcisionsdele til store, komplekse emner. Processen overvåges løbende, så kvaliteten er den samme fra første til sidste skud. Med tolerancer ned til \u00b10,05\u2009mm direkte fra formen kan mange emner bruges helt uden efterbearbejdning. Det gør os til Danmarks største dedikerede zinktrykstøberi — og til det naturlige valg, når emnet er svært, og kravene er høje.",
       "processHeading": "Fra smeltet legering til færdigt støbeemne",
       "process": [
         {
@@ -926,9 +929,9 @@
       "specsEyebrow": "Tekniske specifikationer",
       "specsHeading": "Støberikapabiliteter og legeringsdata",
       "specs": [
-        { "label": "Maskiner", "value": "12 automatiserede" },
+        { "label": "Støbeceller", "value": "9 robotiserede" },
         { "label": "Lukkekraft", "value": "80\u2013400T" },
-        { "label": "Emnevægt", "value": "1\u2009g \u2013 3\u2009kg" },
+        { "label": "Emnevægt", "value": "1\u2009g \u2013 4\u2009kg" },
         { "label": "Tolerance i støbning", "value": "\u00b10,05\u2009mm" },
         { "label": "Cyklustid", "value": "10\u201345 sekunder" },
         { "label": "Legeringer", "value": "Zamak 2 / 3 / 5" },
@@ -937,7 +940,7 @@
       ],
       "advantagesHeading": "Hvorfor Linimatics støberi leverer, hvad andre ikke kan",
       "advantages": {
-        "p1": "Skala og specialisering er afgørende i trykstøbning. Vores 12 maskiner dækker det fulde tonnageområde fra 80T til små præcisionsemner til 400T til store strukturdele — alle med robothåndtering og realtids-SPC. Dette er ikke et generelt støberi, der også laver zink — zinktrykstøbning er alt, hvad vi laver, og vi har gjort det siden 1967. Det entydige fokus oversættes til dybere proceskendskab, strammere tolerancer og færre kasserede emner.",
+        "p1": "Skala og specialisering er afgørende i trykstøbning. Vores 9 støbeceller dækker det fulde tonnageområde fra 80T til små præcisionsemner til 400T til store strukturdele — alle med robothåndtering og realtids-SPC. Dette er ikke et generelt støberi, der også laver zink — zinktrykstøbning er alt, hvad vi laver, og vi har gjort det siden 1967. Det entydige fokus oversættes til dybere proceskendskab, strammere tolerancer og færre kasserede emner.",
         "p2": "Den integrerede værdikæde betyder, at dit støbte emne bevæger sig direkte til CNC-bearbejdning, overfladebehandling og inspektion uden at forlade bygningen. Ingen transport mellem leverandører, ingen tabt sporbarhed, ingen ugers ventetid på næste trin. For kunder, der kører just-in-time produktion, eliminerer denne ét-facilitet-model den forsyningskædevariabilitet, der forårsager linjestop."
       },
       "faqHeading": "Ofte stillede spørgsmål",
@@ -952,7 +955,7 @@
         },
         {
           "question": "Hvilke emnestørrelser kan I støbe?",
-          "answer": "Vi støber emner fra 1\u2009g til 3\u2009kg på tværs af vores 12-maskinersortiment. Den optimale maskine vælges ud fra emnevægt, projiceret areal og den nødvendige lukkekraft. Flerhuller-forme bruges til mindre emner for at maksimere gennemstrømningen."
+          "answer": "Vi støber emner fra 1\u2009g til 4\u2009kg på tværs af vores 9 støbeceller. Den optimale maskine vælges ud fra emnevægt, projiceret areal og den nødvendige lukkekraft. Flerhuller-forme bruges til mindre emner for at maksimere gennemstrømningen."
         },
         {
           "question": "Hvor længe holder et zinktrykstøbeværktøj?",

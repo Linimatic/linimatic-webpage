@@ -6,7 +6,7 @@
     },
     "services": {
       "title": "Zinc Die-Casting Services in Denmark",
-      "description": "Full-service zinc die-casting under one roof: prototyping, hot-chamber casting, CNC machining, surface coating, quality assurance and assembly. Helsinge, DK."
+      "description": "Full-service zinc die-casting under one roof: prototyping, high-pressure die casting, CNC machining, surface coating, quality assurance and assembly. Helsinge, DK."
     },
     "whyZinc": {
       "title": "Why Zinc Die-Casting? Benefits & Alloys",
@@ -53,7 +53,7 @@
     },
     "servicesList": {
       "prototyping": "Prototyping",
-      "dieCasting": "Hot-Chamber Die Casting",
+      "dieCasting": "High-Pressure Die Casting",
       "postProcessing": "CNC Post-Processing",
       "surfaceTreatment": "Surface Treatment & Coating",
       "quality": "Quality & Certification",
@@ -74,6 +74,9 @@
     "tagline": "The best at the hardest",
     "description": "Linimatic A/S combines many years of experience with modern, automated production of high-pressure die-cast zinc components. Automation, robots and efficient process control enable us to deliver high quality at competitive prices – produced in Denmark. We help customers with parts where precision, function, finish and consistent quality are critical. With deep technical expertise and close dialogue from idea to finished part, we create solutions that last – even when the requirements are complex.",
     "heroImageAlt": "Precision zinc die-casting mold with brass fittings",
+    "heroImageAlt2": "Two generations of Linimatic employees discussing a zinc die-cast component on the factory floor",
+    "heroImageAlt3": "Aerial view of Linimatic's production facility in Helsinge with rooftop solar panels",
+    "heroImageAlt4": "Robotic arm operating a zinc die-casting machine on the production floor",
     "ctaPrimary": "Contact Us to Get Started",
     "ctaSecondary": "Our Services"
   },
@@ -213,7 +216,7 @@
     "servicesHeading": "Services",
     "serviceLinks": [
       "Prototyping",
-      "Hot-Chamber Die Casting",
+      "High-Pressure Die Casting",
       "CNC Post-Processing",
       "Surface Treatment & Coating",
       "Quality & Certification",
@@ -287,8 +290,8 @@
         "specs": "3\u20134 week delivery \u00b7 STEP/IGES/Solidworks \u00b7 50\u201310,000 pcs"
       },
       {
-        "title": "Hot-Chamber Die Casting",
-        "description": "12 automated machines with robotic extraction running 24 hours. Parts from 1\u2009g to 3\u2009kg in Zamak 2, 3, and 5 with as-cast tolerances to \u00b10.05\u2009mm.",
+        "title": "High-Pressure Die Casting",
+        "description": "9 robotized casting cells running around the clock. Parts from 1\u2009g to 4\u2009kg in Zamak 2, 3, and 5 with as-cast tolerances to \u00b10.05\u2009mm.",
         "specs": "80\u2013400T \u00b7 Zamak 2/3/5 \u00b7 \u00b10.05\u2009mm as-cast"
       },
       {
@@ -324,8 +327,8 @@
         "certifications": "\u2014"
       },
       {
-        "service": "Hot-Chamber Die Casting",
-        "keySpecs": "12 machines, 80\u2013400T \u00b7 Zamak 2/3/5 \u00b7 \u00b10.05\u2009mm \u00b7 1g\u20133kg",
+        "service": "High-Pressure Die Casting",
+        "keySpecs": "9 casting cells, 80\u2013400T \u00b7 Zamak 2/3/5 \u00b7 \u00b10.05\u2009mm \u00b7 1g\u20134kg",
         "certifications": "ISO 9001"
       },
       {
@@ -898,9 +901,9 @@
       "ctaButton": "Send Your Drawing"
     },
     "dieCasting": {
-      "title": "Hot-Chamber Die Casting",
+      "title": "High-Pressure Die Casting",
       "eyebrow": "Denmark\u2019s Largest Zinc Foundry",
-      "overview": "Linimatic operates 12 automated hot-chamber die-casting machines ranging from 80 to 400 tonnes, producing zinc components from 1\u2009g to 3\u2009kg with as-cast tolerances to \u00b10.05\u2009mm. Our foundry runs 24-hour operation with robotic part extraction, casting in Zamak 2, 3, and 5 alloys. Cycle times range from 10 to 45 seconds depending on part complexity, with shot-by-shot consistency monitored by real-time SPC. This is Denmark\u2019s largest dedicated zinc die-casting operation.",
+      "overview": "High-pressure die casting is at the core of everything we do. At our foundry in Helsinge, 9 robotized casting cells run around the clock, producing zinc parts from 1 gram to 4 kilos — from small precision components to large, complex parts. The process is monitored continuously, so quality stays the same from the first shot to the last. With as-cast tolerances down to \u00b10.05\u2009mm, many parts can be used without any secondary machining. That makes us Denmark’s largest dedicated zinc die-casting foundry — and the natural choice when the part is difficult and the requirements are high.",
       "processHeading": "From molten alloy to finished casting",
       "process": [
         {
@@ -923,9 +926,9 @@
       "specsEyebrow": "Technical Specifications",
       "specsHeading": "Foundry capabilities and alloy data",
       "specs": [
-        { "label": "Machines", "value": "12 automated" },
+        { "label": "Casting cells", "value": "9 robotized" },
         { "label": "Clamping Force", "value": "80\u2013400T" },
-        { "label": "Part Weight", "value": "1\u2009g \u2013 3\u2009kg" },
+        { "label": "Part Weight", "value": "1\u2009g \u2013 4\u2009kg" },
         { "label": "As-Cast Tolerance", "value": "\u00b10.05\u2009mm" },
         { "label": "Cycle Time", "value": "10\u201345 seconds" },
         { "label": "Alloys", "value": "Zamak 2 / 3 / 5" },
@@ -934,7 +937,7 @@
       ],
       "advantagesHeading": "Why Linimatic\u2019s foundry delivers what others can\u2019t",
       "advantages": {
-        "p1": "Scale and specialisation matter in die-casting. Our 12 machines cover the full tonnage range from 80T for small precision components to 400T for large structural parts, all with robotic handling and real-time SPC. This is not a general foundry that also does zinc \u2014 zinc die-casting is all we do, and we\u2019ve done it since 1967. That singular focus translates into deeper process knowledge, tighter tolerances, and fewer rejected parts.",
+        "p1": "Scale and specialisation matter in die-casting. Our 9 casting cells cover the full tonnage range from 80T for small precision components to 400T for large structural parts, all with robotic handling and real-time SPC. This is not a general foundry that also does zinc \u2014 zinc die-casting is all we do, and we\u2019ve done it since 1967. That singular focus translates into deeper process knowledge, tighter tolerances, and fewer rejected parts.",
         "p2": "The integrated value chain means your cast part moves directly to CNC machining, surface treatment, and inspection without leaving the building. No transport between suppliers, no lost traceability, no weeks waiting for the next step. For customers running just-in-time production, this single-facility model eliminates the supply chain variability that causes line stoppages."
       },
       "faqHeading": "Frequently Asked Questions",
@@ -949,7 +952,7 @@
         },
         {
           "question": "What part sizes can you cast?",
-          "answer": "We cast parts from 1\u2009g to 3\u2009kg across our 12-machine range. The optimal machine is selected based on part weight, projected area, and the required clamping force. Multi-cavity dies are used for smaller parts to maximise throughput."
+          "answer": "We cast parts from 1\u2009g to 4\u2009kg across our 9 casting cells. The optimal machine is selected based on part weight, projected area, and the required clamping force. Multi-cavity dies are used for smaller parts to maximise throughput."
         },
         {
           "question": "How long does a zinc die-casting tool last?",

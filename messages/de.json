@@ -6,7 +6,7 @@
     },
     "services": {
       "title": "Zinkdruckguss-Leistungen in Dänemark",
-      "description": "Zinkdruckguss aus einer Hand: Prototyping, Warmkammerguss, CNC-Bearbeitung, Oberflächenveredelung, Qualitätssicherung und Montage in Helsinge, Dänemark."
+      "description": "Zinkdruckguss aus einer Hand: Prototyping, Druckguss, CNC-Bearbeitung, Oberflächenveredelung, Qualitätssicherung und Montage in Helsinge, Dänemark."
     },
     "whyZinc": {
       "title": "Warum Zinkdruckguss? Vorteile & Legierungen",
@@ -53,7 +53,7 @@
     },
     "servicesList": {
       "prototyping": "Prototypen",
-      "dieCasting": "Warmkammer-Druckguss",
+      "dieCasting": "Druckguss",
       "postProcessing": "CNC-Nachbearbeitung",
       "surfaceTreatment": "Oberflächenbehandlung & Beschichtung",
       "quality": "Qualität & Zertifizierung",
@@ -74,6 +74,9 @@
     "tagline": "Die Besten für das Schwerste",
     "description": "Linimatic A/S verbindet langjährige Erfahrung mit moderner, automatisierter Produktion von Zinkdruckgussteilen. Automatisierung, Roboter und effiziente Prozesssteuerung ermöglichen es uns, hohe Qualität zu wettbewerbsfähigen Preisen zu liefern – produziert in Dänemark. Wir unterstützen Kunden bei Teilen, bei denen Präzision, Funktion, Finish und gleichbleibende Qualität entscheidend sind. Mit hohem technischem Know-how und engem Dialog von der Idee bis zum fertigen Teil schaffen wir Lösungen, die halten – auch wenn die Anforderungen komplex sind.",
     "heroImageAlt": "Präzisions-Zinkdruckgussform mit Messinganschlüssen",
+    "heroImageAlt2": "Zwei Generationen von Linimatic-Mitarbeitern besprechen ein Zinkdruckgussteil in der Produktion",
+    "heroImageAlt3": "Luftaufnahme der Linimatic-Produktionsstätte in Helsinge mit Solaranlage auf dem Dach",
+    "heroImageAlt4": "Roboterarm bedient eine Zinkdruckgussmaschine in der Produktion",
     "ctaPrimary": "Kontaktieren Sie uns, um loszulegen",
     "ctaSecondary": "Unsere Leistungen"
   },
@@ -216,7 +219,7 @@
     "servicesHeading": "Leistungen",
     "serviceLinks": [
       "Prototypen",
-      "Warmkammer-Druckguss",
+      "Druckguss",
       "CNC-Nachbearbeitung",
       "Oberflächenbehandlung & Beschichtung",
       "Qualität & Zertifizierung",
@@ -290,8 +293,8 @@
         "specs": "3–4 Wochen Lieferzeit · STEP/IGES/Solidworks · 50–10.000 Stk."
       },
       {
-        "title": "Warmkammer-Druckguss",
-        "description": "12 automatisierte Maschinen mit Roboterauswurf im 24-Stunden-Betrieb. Teile von 1\u2009g bis 3\u2009kg in Zamak 2, 3 und 5 mit Gussmaßtoleranzen bis \u00b10,05\u2009mm.",
+        "title": "Druckguss",
+        "description": "9 robotisierte Gießzellen im 24-Stunden-Betrieb. Teile von 1\u2009g bis 4\u2009kg in Zamak 2, 3 und 5 mit Gussmaßtoleranzen bis \u00b10,05\u2009mm.",
         "specs": "80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm im Guss"
       },
       {
@@ -327,8 +330,8 @@
         "certifications": "—"
       },
       {
-        "service": "Warmkammer-Druckguss",
-        "keySpecs": "12 Maschinen, 80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm · 1g–3kg",
+        "service": "Druckguss",
+        "keySpecs": "9 Gießzellen, 80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm · 1g–4kg",
         "certifications": "ISO 9001"
       },
       {
@@ -901,9 +904,9 @@
       "ctaButton": "Zeichnung senden"
     },
     "dieCasting": {
-      "title": "Warmkammer-Druckguss",
+      "title": "Druckguss",
       "eyebrow": "D\u00e4nemarks gr\u00f6\u00dfte Zinkgie\u00dferei",
-      "overview": "Linimatic betreibt 12 automatisierte Warmkammer-Druckgussmaschinen mit Schließkräften von 80 bis 400 Tonnen und produziert Zinkbauteile von 1\u2009g bis 3\u2009kg mit Gussmaßtoleranzen bis ±0,05\u2009mm. Unsere Gießerei arbeitet im 24-Stunden-Betrieb mit Roboter-Teileentnahme und gießt in den Legierungen Zamak 2, 3 und 5. Die Zykluszeiten liegen je nach Bauteilkomplexität zwischen 10 und 45 Sekunden, die Schuss-für-Schuss-Konsistenz wird durch Echtzeit-SPC überwacht. Das ist Dänemarks größter spezialisierter Zinkdruckgussbetrieb.",
+      "overview": "Druckguss ist der Kern von allem, was wir tun. In unserer Gießerei in Helsinge laufen 9 robotisierte Gießzellen rund um die Uhr und produzieren Zinkteile von 1 Gramm bis 4 Kilo — von kleinen Präzisionsteilen bis zu großen, komplexen Bauteilen. Der Prozess wird laufend überwacht, sodass die Qualität vom ersten bis zum letzten Schuss gleich bleibt. Mit Gusstoleranzen bis \u00b10,05\u2009mm direkt aus der Form können viele Teile ganz ohne Nachbearbeitung verwendet werden. Das macht uns zur größten spezialisierten Zinkdruckgießerei Dänemarks — und zur natürlichen Wahl, wenn das Bauteil schwierig ist und die Anforderungen hoch sind.",
       "processHeading": "Von der fl\u00fcssigen Legierung zum fertigen Gussteil",
       "process": [
         {
@@ -926,9 +929,9 @@
       "specsEyebrow": "Technische Spezifikationen",
       "specsHeading": "Gie\u00dfereikapazit\u00e4ten und Legierungsdaten",
       "specs": [
-        { "label": "Maschinen", "value": "12 automatisierte" },
+        { "label": "Gießzellen", "value": "9 robotisierte" },
         { "label": "Schlie\u00dfkraft", "value": "80\u2013400T" },
-        { "label": "Teilegewicht", "value": "1\u2009g \u2013 3\u2009kg" },
+        { "label": "Teilegewicht", "value": "1\u2009g \u2013 4\u2009kg" },
         { "label": "Gusstoleranz", "value": "\u00b10,05\u2009mm" },
         { "label": "Zykluszeit", "value": "10\u201345 Sekunden" },
         { "label": "Legierungen", "value": "Zamak 2 / 3 / 5" },
@@ -937,7 +940,7 @@
       ],
       "advantagesHeading": "Warum Linimatics Gie\u00dferei liefert, was andere nicht k\u00f6nnen",
       "advantages": {
-        "p1": "Im Druckguss zählen Größe und Spezialisierung. Unsere 12 Maschinen decken den gesamten Tonnagebereich ab — von 80T für kleine Präzisionsbauteile bis 400T für große Strukturteile — alle mit Roboterhandling und Echtzeit-SPC. Wir sind keine allgemeine Gießerei, die auch Zink verarbeitet — Zinkdruckguss ist alles, was wir tun, und wir tun es seit 1967. Dieser einzigartige Fokus übersetzt sich in tieferes Prozesswissen, engere Toleranzen und weniger Ausschussteile.",
+        "p1": "Im Druckguss zählen Größe und Spezialisierung. Unsere 9 Gießzellen decken den gesamten Tonnagebereich ab — von 80T für kleine Präzisionsbauteile bis 400T für große Strukturteile — alle mit Roboterhandling und Echtzeit-SPC. Wir sind keine allgemeine Gießerei, die auch Zink verarbeitet — Zinkdruckguss ist alles, was wir tun, und wir tun es seit 1967. Dieser einzigartige Fokus übersetzt sich in tieferes Prozesswissen, engere Toleranzen und weniger Ausschussteile.",
         "p2": "Die integrierte Wertschöpfungskette bedeutet, dass Ihr Gussteil direkt zur CNC-Nachbearbeitung, Oberflächenbehandlung und Kontrolle gelangt, ohne das Gebäude zu verlassen. Kein Transport zwischen Lieferanten, kein Verlust der Rückverfolgbarkeit, keine wochenlange Wartezeit auf den nächsten Schritt. Für Kunden mit Just-in-time-Produktion eliminiert dieses Ein-Standort-Modell die Lieferkettenschwankungen, die Bandstillstände verursachen."
       },
       "faqHeading": "H\u00e4ufig gestellte Fragen",
@@ -952,7 +955,7 @@
         },
         {
           "question": "Welche Teilegr\u00f6\u00dfen k\u00f6nnen Sie gie\u00dfen?",
-          "answer": "Wir gießen Teile von 1\u2009g bis 3\u2009kg auf unserem 12-Maschinen-Park. Die optimale Maschine wird anhand von Teilgewicht, projizierter Fläche und erforderlicher Schließkraft ausgewählt. Mehrkavitätenwerkzeuge werden für kleinere Teile eingesetzt, um den Durchsatz zu maximieren."
+          "answer": "Wir gießen Teile von 1\u2009g bis 4\u2009kg in unseren 9 Gießzellen. Die optimale Maschine wird anhand von Teilgewicht, projizierter Fläche und erforderlicher Schließkraft ausgewählt. Mehrkavitätenwerkzeuge werden für kleinere Teile eingesetzt, um den Durchsatz zu maximieren."
         },
         {
           "question": "Wie lange h\u00e4lt ein Zinkdruckguss-Werkzeug?",

@@ -4,6 +4,15 @@ import Link from "next/link";
 import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {routing} from '@/i18n/routing';
 import {buildMetadata, type Locale} from '@/lib/seo';
+import {HeroImageFader} from '@/components/HeroImageFader';
+
+/** Images/video that crossfade in the hero slot. Add more entries here to include them in the rotation. */
+const heroItems = [
+  { type: "image" as const, src: "/images/services/die-casting-mold.png", altKey: "hero.heroImageAlt" },
+  { type: "image" as const, src: "/images/hero/two-generations.png", altKey: "hero.heroImageAlt2" },
+  { type: "image" as const, src: "/images/hero/facility-solar-panels.jpg", altKey: "hero.heroImageAlt3" },
+  { type: "video" as const, src: "/videos/hero/robot-cell.mp4", altKey: "hero.heroImageAlt4", durationMs: 8900 },
+];
 
 const caseImages = [
   { image: "/images/services/brake-bracket-component.jpg", href: "/cases/dewalt" },
@@ -127,7 +136,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
             </div>
             <div className="animate-fade-up delay-2 lg:-mr-16 xl:-mr-20">
               <div className="relative aspect-[4/3] lg:aspect-square">
-                <Image src="/images/services/die-casting-mold.png" alt={t('hero.heroImageAlt')} fill priority className="object-contain" sizes="(max-width: 1024px) 100vw, 55vw" />
+                <HeroImageFader items={heroItems.map((item) => ({ ...item, alt: t(item.altKey) }))} />
               </div>
             </div>
           </div>

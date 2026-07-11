@@ -85,15 +85,24 @@ export function Header() {
     >
       <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
         <div className="flex h-20 items-center justify-between">
-          {/* Logo */}
+          {/* Logo — white-text variant on the dark bar, original colors on the white bar */}
           <Link href="/" className="flex-shrink-0 relative z-10">
             <Image
-              src="/images/brand/linimatic-logo.png"
+              src="/images/brand/linimatic-logo-white.png"
               alt={t("logoAlt")}
-              width={180}
-              height={35}
+              width={255}
+              height={50}
               priority
-              className={`h-7 w-auto transition-all duration-300 ${scrolled ? "brightness-0" : "brightness-0 invert"}`}
+              className={`h-10 w-auto transition-opacity duration-300 ${scrolled ? "opacity-0" : "opacity-100"}`}
+            />
+            <Image
+              src="/images/brand/linimatic-logo.png"
+              alt=""
+              aria-hidden="true"
+              width={255}
+              height={50}
+              priority
+              className={`absolute left-0 top-0 h-10 w-auto transition-opacity duration-300 ${scrolled ? "opacity-100" : "opacity-0"}`}
             />
           </Link>
 

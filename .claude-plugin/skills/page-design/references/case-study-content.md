@@ -85,17 +85,4 @@ For *how* to source and write that story — the Problem → Approach → Result
 
 ## Gathering content for a new case
 
-Use the **`case-study-writing` skill's intake form** (`references/intake.md` in that skill) as the base questionnaire — it covers the required floor (customer + segment, problem + stakes, the hero number), plus the quote, the proof artifact, and permission. Don't fabricate any field; leave genuine gaps as `[NEEDS: …]`.
-
-On top of that generic form, collect these die-casting-specific fields (they feed the technical specifications sidebar and the project context):
-
-```
-Component / product name:
-Application / use case:
-Annual volume:
-Alloy used:
-Key tolerances:
-Surface finish:
-Services involved:
-Year started / years in production:
-```
+Use the **`case-study-writing` skill's questionnaire** (`references/questionnaire.md` in that skill) — it covers the required floor (customer + segment, problem + stakes, the hero number), the adaptive follow-ups (quote, proof artifact, key decision), the die-casting spec fields, and permission. Don't fabricate any field; leave genuine gaps as `[NEEDS: …]`. The mechanics of wiring the case into the site live in that skill's `references/site-integration.md`.

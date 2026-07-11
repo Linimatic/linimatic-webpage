@@ -52,7 +52,7 @@ The site is multilingual (Danish, English, German) and serves as both a marketin
 ### Key site sections (from the existing WordPress site)
 - **Why Zinc** — educational content on zinc die-casting benefits
 - **Services** — 10 service categories (prototypes, casting foundry, post-processing, surface coating, quality assurance, assembly, etc.)
-- **Cases** — customer case studies
+- **Cases** — customer case studies. Creating or editing these: follow `.claude-plugin/skills/case-study-writing/SKILL.md` (fact-gathering questionnaire + site wiring included)
 - **Sinkers/Zinkers** — lead-free zinc fishing gear (a notable product line)
 - **News** — blog/updates
 - **About Us**, **Jobs**, **Contact**

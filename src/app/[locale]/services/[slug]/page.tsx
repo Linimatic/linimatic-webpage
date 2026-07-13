@@ -135,6 +135,9 @@ export default async function ServiceDetailPage({
     step: string;
     description: string;
   }>;
+  const advantageParagraphs = Object.values(
+    t.raw("advantages") as Record<string, string>
+  );
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -285,8 +288,9 @@ export default async function ServiceDetailPage({
               {t("advantagesHeading")}
             </h2>
             <div className="space-y-4 text-base text-zinc-600 leading-relaxed">
-              <p>{t("advantages.p1")}</p>
-              <p>{t("advantages.p2")}</p>
+              {advantageParagraphs.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
             </div>
           </div>
         </div>

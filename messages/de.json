@@ -973,13 +973,13 @@
     },
     "postProcessing": {
       "title": "CNC-Nachbearbeitung",
-      "eyebrow": "Hauseigene Pr\u00e4zisionsbearbeitung",
-      "overview": "Linimatics hauseigene CNC-Nachbearbeitung bringt Zinkdruckgussteile von der Gussmaßgenauigkeit zur Endtoleranz, ohne dass die Teile je das Gebäude verlassen. Unser Bearbeitungszentrum übernimmt Fräsen, Drehen, Bohren, Gewindeschneiden, Entgraten und Gleitschleifen — alles unter demselben Qualitätssystem wie Guss und Inspektion. Für Merkmale, die eine engere Kontrolle als die im Gussprozess erreichbaren ±0,05\u2009mm erfordern, liefert die CNC-Nachbearbeitung die von Ihrer Konstruktion geforderte Präzision.",
-      "processHeading": "Vom Gussteil zur fertigen Ma\u00dfhaltigkeit",
+      "eyebrow": "Hauseigene CNC-Bearbeitung seit über 20 Jahren",
+      "overview": "Auch wenn sich sehr enge Toleranzen direkt im Druckgussprozess erreichen lassen, erfordern manche Teile eine Nachbearbeitung, um die gewünschte Toleranz an Flächen, Bohrungen und gefrästen Gewinden zu erreichen. Deshalb ist die CNC-Bearbeitung seit über 20 Jahren einer unserer hauseigenen Prozesse: Die Teile gehen vom Guss zum fertigen, geprüften Teil, ohne das Gebäude zu verlassen — und ohne externe Lieferanten dazwischen. Unser Bearbeitungszentrum übernimmt Fräsen, Drehen, Bohren, Gewindeschneiden und Gewindefräsen — alles unter demselben Dach wie der Guss.",
+      "processHeading": "Der Produktionsablauf \u2014 vom Angebot zum fertigen Teil",
       "process": [
         {
           "step": "Prozessplanung",
-          "description": "Bearbeitungsoperationen werden während der DFM-Prüfung geplant, noch bevor das Werkzeug gefräst wird. Vorrichtungsdesign, Bezugspunktauswahl und Operationsreihenfolge werden so ausgelegt, dass Rüstaufwände minimiert und die engstmöglichen Toleranzen gehalten werden."
+          "description": "Die Prozessplanung beginnt bereits bei der Angebotsabgabe. Die Planung des gesamten Produktionsablaufs im Rahmen des Angebots ist die Grundlage für einen möglichst effizienten Produktionsprozess."
         },
         {
           "step": "CNC-Bearbeitung",
@@ -987,27 +987,26 @@
         },
         {
           "step": "Entgraten & Finish",
-          "description": "Automatisches Entgraten beseitigt Grate und scharfe Kanten. Gleitschleifen und Vibrationsfinish erzielen gleichmäßige Oberflächenqualität über die gesamte Produktionsmenge. Manuelles Entgraten ist für komplexe Geometrien verfügbar."
+          "description": "Nach dem Guss und der CNC-Bearbeitung kommen die verschiedenen Entgratungsprozesse zum Einsatz. Das Verfahren wird nach den Oberflächenanforderungen des Kunden gewählt: Vibrationsentgraten, Schleuderstrahlen, Kunststoffstrahlen oder Trommeln."
         },
         {
           "step": "Prozessverifikation",
-          "description": "Bearbeitete Maße werden mit kalibrierten Lehren und KMG-Stichproben gegen die Spezifikation geprüft. SPC-Daten aus der Bearbeitung fließen in die Prozessparameter zurück für kontinuierliche Verbesserung."
+          "description": "Die Prozessverifikation erfolgt gemäß den Anforderungen, die zum Angebotszeitpunkt mit dem Kunden vereinbart wurden. KMG-Stichprobenkontrollen und SPC-Daten (statistische Prozesskontrolle) stellen sicher, dass der Prozess stabil bleibt."
         }
       ],
       "specsEyebrow": "Technische Spezifikationen",
       "specsHeading": "Bearbeitungskapazit\u00e4ten",
       "specs": [
         { "label": "Operationen", "value": "Fr\u00e4sen / Drehen / Bohren / Gewinde" },
-        { "label": "Entgraten", "value": "Auto / Gleitschleifen / Manuell" },
+        { "label": "Entgraten", "value": "Nach Oberflächenanforderung" },
         { "label": "Gusstoleranz", "value": "\u00b10,05\u2009mm" },
-        { "label": "Nachbearbeitet", "value": "Enger auf Anfrage" },
+        { "label": "Erfahrung", "value": "20+ Jahre hauseigene CNC" },
         { "label": "Standort", "value": "Selbes Geb\u00e4ude wie Gie\u00dferei" },
         { "label": "R\u00fcckverfolgbarkeit", "value": "Chargenniveau erhalten" }
       ],
-      "advantagesHeading": "Warum hauseigene Bearbeitung das Ergebnis ver\u00e4ndert",
+      "advantagesHeading": "Ein Lieferant \u2014 eine Verantwortung",
       "advantages": {
-        "p1": "Wenn Guss und Zerspanung im selben Gebäude unter demselben Qualitätssystem stattfinden, eliminieren Sie die häufigsten Quellen maßlicher Abweichungen bei ausgelagerter Bearbeitung: Transportschäden, Fehler bei der Neuaufspannung und Kommunikationslücken zwischen Gießerei und Bearbeitungsbetrieb. Bei Linimatic prüft das Bearbeitungsteam jedes neue Gussteildesign gemeinsam mit den Werkzeugkonstrukteuren und stellt sicher, dass Gussteil-Bezugspunkte, Aufspannflächen und Bearbeitungszugaben von Anfang an optimiert sind.",
-        "p2": "Diese Integration verkürzt auch die Durchlaufzeit. Teile wechseln in Stunden, nicht in Wochen vom Guss zur Bearbeitung. Es gibt keine Warteschlange bei einem externen Lieferanten, keine Logistikkoordination und kein Risiko, dass Teile zwischen den Schritten in einem Lager liegen. Für Kunden mit engen Produktionsplänen kann der Unterschied zwischen drei Wochen und drei Tagen Übergabe zwischen Guss und Bearbeitung darüber entscheiden, ob sie ihre eigenen Lieferverpflichtungen erfüllen."
+        "p1": "Wenn Guss, CNC-Bearbeitung und Entgraten im selben Haus stattfinden, gibt es einen Lieferanten und eine Verantwortung für den gesamten Ablauf. Keine Koordination zwischen Gießerei und Maschinenwerkstatt, kein Transport zwischen Lieferanten — und keine Qualitätslücken zwischen den Schritten. Die Teile gehen in Stunden statt Wochen vom Guss zur Bearbeitung."
       },
       "faqHeading": "H\u00e4ufig gestellte Fragen",
       "faq": [
@@ -1016,12 +1015,16 @@
           "answer": "Nicht immer. Viele Merkmale können auf Endtoleranz gegossen werden (±0,05\u2009mm im Guss). Bearbeitung ist jedoch typischerweise für Gewindebohrungen, Präzisionsbohrungen, kritische Passungsflächen oder jedes Merkmal erforderlich, bei dem die Konstruktionstoleranz enger ist als das, was der Gussprozess zuverlässig erreichen kann."
         },
         {
+          "question": "Können Sie Gewinde in Zinkdruckgussteile fräsen?",
+          "answer": "Ja. Gewindebohrungen und gefräste Gewinde entstehen als Teil unserer hauseigenen CNC-Nachbearbeitung. Da die Bearbeitung im selben Gebäude und unter demselben Qualitätssystem wie der Guss erfolgt, erhalten Sie hohe Präzision und stabile Qualität."
+        },
+        {
           "question": "Welche Toleranzen kann die Nachbearbeitung erreichen?",
           "answer": "CNC-Nachbearbeitung von Zinkdruckgussteilen kann Toleranzen erheblich enger als den Gussstandard von ±0,05\u2009mm erreichen. Die erreichbare Toleranz hängt vom spezifischen Merkmaltyp, der Bauteilgeometrie und der Aufspannung ab. Wir spezifizieren erreichbare Toleranzen während der DFM-Prüfung."
         },
         {
           "question": "Welche Entgratungsmethoden verwenden Sie?",
-          "answer": "Wir verwenden automatisches Entgraten, Vibrationsgleitschleifen und manuelles Entgraten je nach Bauteilkomplexität und Oberflächenanforderungen. Gleitschleifen ist Standard für die Hochvolumenproduktion. Manuelles Entgraten wird für Teile mit komplexen Geometrien oder kritischen Sichtoberflächen verwendet, die keine Schleifspuren vertragen."
+          "answer": "Wir verwenden Vibrationsentgraten, Schleuderstrahlen, Kunststoffstrahlen und Trommeln. Das Verfahren wird nach den Oberflächenanforderungen des Kunden und der Geometrie des Teils gewählt."
         }
       ],
       "relatedHeading": "Verwandte Leistungen",

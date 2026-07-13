@@ -973,41 +973,40 @@
     },
     "postProcessing": {
       "title": "CNC-efterbearbejdning",
-      "eyebrow": "Intern præcisionsbearbejdning",
-      "overview": "Linimatics interne CNC-efterbearbejdning tager zinktrykstøbte emner fra støbningsnøjagtighed til endelig tolerance uden at emnerne nogensinde forlader bygningen. Vores bearbejdningscenter håndterer fræsning, drejning, boring, gevindskæring, afgratning og tromling — alt under det samme kvalitetssystem som støbning og inspektion. Til features, der kræver strammere kontrol end de \u00b10,05\u2009mm opnåelige i støbning, leverer sekundær CNC-bearbejdning den præcision, dit design kræver.",
-      "processHeading": "Fra støbeemne til færdig dimension",
+      "eyebrow": "Intern CNC-bearbejdning i over 20 år",
+      "overview": "Selv om der er store muligheder for at støbe meget skrappe tolerancer direkte i selve støbeprocessen, kræver nogle emner efterbearbejdning for at opnå den ønskede tolerance på flader, i huller og med fræst gevind. Derfor har CNC-bearbejdning i mere end 20 år været en af vores interne processer: Emnerne går fra støbning til færdigt, kontrolleret emne uden at forlade huset — og uden eksterne leverandører undervejs. Vores bearbejdningscenter håndterer fræsning, drejning, boring, gevindskæring og gevindfræsning — alt under samme tag som støbningen.",
+      "processHeading": "Produktionsforløbet — fra tilbud til færdigt emne",
       "process": [
         {
           "step": "Procesplanlægning",
-          "description": "Bearbejdningsoperationer planlægges under DFM-gennemgangen, inden formen overhovedet skæres. Fastsætning, datumvalg og operationssekvens er designet til at minimere opsætninger og opretholde de strammest mulige tolerancer."
+          "description": "Procesplanlægningen starter allerede, når vi afgiver tilbud. At planlægge hele produktionsforløbet i forbindelse med tilbudsafgivelsen er grundlaget for at sikre en så effektiv produktionsproces som overhovedet muligt."
         },
         {
           "step": "CNC-bearbejdning",
           "description": "Fleraksede CNC-fræse- og drejecentre bearbejder kritiske features: boringer, gevind, fladeforbindelser og tættolerancedimensioner, der overstiger støbningskapabiliteten."
         },
         {
-          "step": "Afgratning & finishing",
-          "description": "Automatiseret afgratning fjerner grat og skarpe kanter. Tromling og vibrationsfinishing opnår ensartet overfladekvalitet på tværs af produktionsvolumener. Manuel afgratning er tilgængelig til komplekse geometrier."
+          "step": "Afgratning & finish",
+          "description": "Efter støbning og CNC-bearbejdning tages de forskellige afgratningsprocesser i brug. Processen vælges ud fra kundens krav til overfladen: vibrationsafgratning, slyngrensning, plastblæsning eller tromling."
         },
         {
           "step": "Procesverifikation",
-          "description": "Bearbejdede dimensioner verificeres mod specifikation ved hjælp af kalibrerede målere og CMM-stikprøvekontrol. SPC-data fra bearbejdning feedbackes til procesparametre for løbende forbedring."
+          "description": "Procesverifikationen foretages i henhold til de krav, der er aftalt med kunden på tilbudstidspunktet. CMM-stikprøvekontrol og SPC-data (statistisk proceskontrol) bruges til at sikre, at processen er stabil."
         }
       ],
       "specsEyebrow": "Tekniske specifikationer",
       "specsHeading": "Bearbejdningskapabiliteter",
       "specs": [
         { "label": "Operationer", "value": "Fræs / Drej / Bor / Gevind" },
-        { "label": "Afgratning", "value": "Auto / Tromling / Manuel" },
+        { "label": "Afgratning", "value": "Vælges efter overfladekrav" },
         { "label": "Tolerance i støbning", "value": "\u00b10,05\u2009mm" },
-        { "label": "Efterbearbejdet", "value": "Strammere på forespørgsel" },
+        { "label": "Erfaring", "value": "20+ år med intern CNC" },
         { "label": "Placering", "value": "Samme bygning som støberiet" },
         { "label": "Sporbarhed", "value": "Batchniveau bevaret" }
       ],
-      "advantagesHeading": "Hvorfor intern bearbejdning ændrer resultatet",
+      "advantagesHeading": "Én leverandør — ét ansvar",
       "advantages": {
-        "p1": "Når støbning og bearbejdning sker i den samme bygning under det samme kvalitetssystem, eliminerer du de mest almindelige kilder til dimensionsvariation ved outsourcet bearbejdning: transportskader, omspændingsfejl og kommunikationshuller mellem støberiet og maskinværkstedet. Hos Linimatic gennemgår bearbejdningsteamet hvert nyt støbningsdesign side om side med formingeniørerne, og sikrer, at støbningsdatummer, klempningsoverflader og bearbejdningstillæg er optimeret fra dag ét.",
-        "p2": "Denne integration komprimerer også leveringstiden. Emner bevæger sig fra støbning til bearbejdning på timer, ikke uger. Der er ingen kø hos en ekstern leverandør, ingen logistikkoordinering og ingen risiko for, at emner sidder på et lager mellem trinene. For kunder med stramme produktionsplaner kan forskellen mellem tre ugers og tre dages gennemløb mellem støbning og bearbejdning afgøre, om de opfylder deres egne leveringsforpligtelser."
+        "p1": "Når støbning, CNC-bearbejdning og afgratning foregår i samme hus, er der én leverandør og ét ansvar hele vejen. Ingen koordinering mellem støberi og maskinværksted, ingen transport mellem leverandører — og ingen kvalitetshuller mellem trinnene. Emnerne går fra støbning til bearbejdning på timer i stedet for uger."
       },
       "faqHeading": "Ofte stillede spørgsmål",
       "faq": [
@@ -1016,12 +1015,16 @@
           "answer": "Ikke altid. Mange features kan støbes til endelig tolerance (\u00b10,05\u2009mm i støbning). Bearbejdning kræves dog typisk til gevindhuller, præcisionsboringer, kritiske fladeforbindelser eller enhver feature, hvor designtolerancen er strammere end, hvad støbningsprocessen pålideligt kan opnå."
         },
         {
+          "question": "Kan I lave gevind i trykstøbte zinkemner?",
+          "answer": "Ja. Gevindhuller og fræst gevind laves som en del af vores interne CNC-efterbearbejdning. Det giver høj præcision og stabil kvalitet, fordi bearbejdningen sker i samme hus og under samme kvalitetssystem som støbningen."
+        },
+        {
           "question": "Hvilke tolerancer kan sekundær bearbejdning opnå?",
           "answer": "Sekundær CNC-bearbejdning på zinktrykstøbte emner kan opnå tolerancer, der er væsentligt strammere end \u00b10,05\u2009mm i støbning. Den opnåelige tolerance afhænger af den specifikke featuretype, emnegeometri og fastsætning. Vi specificerer opnåelige tolerancer under DFM-gennemgangen."
         },
         {
           "question": "Hvilke afgratningsmetoder bruger I?",
-          "answer": "Vi bruger automatiseret afgratning, vibrationstromling og manuel afgratning afhængig af emnets kompleksitet og overfladekrav. Tromling er standard til højvolumenproduktion. Manuel afgratning bruges til emner med komplekse geometrier eller kritiske kosmetiske overflader, der ikke kan tåle tromlingsmærker."
+          "answer": "Vi bruger vibrationsafgratning, slyngrensning, plastblæsning og tromling. Processen vælges ud fra kundens krav til overfladen og emnets geometri."
         }
       ],
       "relatedHeading": "Relaterede ydelser",

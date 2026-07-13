@@ -970,13 +970,13 @@
     },
     "postProcessing": {
       "title": "CNC Post-Processing",
-      "eyebrow": "In-House Precision Machining",
-      "overview": "Linimatic\u2019s in-house CNC post-processing takes zinc die-cast parts from as-cast accuracy to final tolerance without the parts ever leaving the building. Our machining centre handles milling, turning, drilling, threading, deburring, and tumbling \u2014 all under the same quality system as casting and inspection. For features that require tighter control than the \u00b10.05\u2009mm achievable as-cast, secondary CNC machining delivers the precision your design demands.",
-      "processHeading": "From casting to finished dimension",
+      "eyebrow": "In-House CNC Machining for 20+ Years",
+      "overview": "While zinc die casting offers great scope for casting very tight tolerances directly in the casting process, some parts require post-machining to achieve the desired tolerance on surfaces, holes, and milled threads. That is why CNC machining has been one of our in-house processes for more than 20 years: parts go from casting to finished, inspected component without leaving the building — and without external suppliers along the way. Our machining centre handles milling, turning, drilling, thread cutting and thread milling — all under the same roof as the casting.",
+      "processHeading": "The production flow — from quotation to finished part",
       "process": [
         {
           "step": "Process Planning",
-          "description": "Machining operations are planned during DFM review, before the die is even cut. Fixturing, datum selection, and operation sequencing are designed to minimise setups and maintain the tightest possible tolerances."
+          "description": "Process planning starts as early as the quotation stage. Planning the entire production flow when we prepare the quotation is the foundation for the most efficient production process possible."
         },
         {
           "step": "CNC Machining",
@@ -984,27 +984,26 @@
         },
         {
           "step": "Deburring & Finishing",
-          "description": "Automated deburring removes flash and sharp edges. Tumbling and vibratory finishing achieve uniform surface quality across production volumes. Manual deburring is available for complex geometries."
+          "description": "After casting and CNC machining, the various deburring processes come into play. The process is chosen to match the customer's surface requirements: vibratory deburring, shot blasting, plastic media blasting, or tumbling."
         },
         {
           "step": "In-Process Verification",
-          "description": "Machined dimensions are verified against specification using calibrated gauges and CMM spot-checks. SPC data from machining feeds back into process parameters for continuous improvement."
+          "description": "Process verification is carried out according to the requirements agreed with the customer at the quotation stage. CMM spot-check inspections and SPC data (statistical process control) are used to ensure the process remains stable."
         }
       ],
       "specsEyebrow": "Technical Specifications",
       "specsHeading": "Machining capabilities",
       "specs": [
         { "label": "Operations", "value": "Mill / Turn / Drill / Thread" },
-        { "label": "Deburring", "value": "Auto / Tumble / Manual" },
+        { "label": "Deburring", "value": "Matched to surface requirements" },
         { "label": "As-Cast Tolerance", "value": "\u00b10.05\u2009mm" },
-        { "label": "Post-Machined", "value": "Tighter on request" },
+        { "label": "Experience", "value": "20+ years of in-house CNC" },
         { "label": "Location", "value": "Same building as casting" },
         { "label": "Traceability", "value": "Batch-level preserved" }
       ],
-      "advantagesHeading": "Why in-house machining changes the outcome",
+      "advantagesHeading": "One supplier — one responsibility",
       "advantages": {
-        "p1": "When casting and machining happen in the same building under the same quality system, you eliminate the most common sources of dimensional variation in outsourced machining: transport handling damage, re-fixturing errors, and communication gaps between the foundry and the machine shop. At Linimatic, the machining team reviews every new casting design alongside the die engineers, ensuring that as-cast datums, clamping surfaces, and machining allowances are optimised from day one.",
-        "p2": "This integration also compresses lead time. Parts move from casting to machining in hours, not weeks. There is no queue at an external supplier, no logistics coordination, and no risk of parts sitting in a warehouse between steps. For customers on tight production schedules, the difference between a three-week and a three-day handoff between casting and machining can determine whether they meet their own delivery commitments."
+        "p1": "When casting, CNC machining, and deburring all happen under one roof, there is one supplier and one responsibility throughout. No coordination between foundry and machine shop, no transport between suppliers — and no quality gaps between steps. Parts move from casting to machining in hours instead of weeks."
       },
       "faqHeading": "Frequently Asked Questions",
       "faq": [
@@ -1013,12 +1012,16 @@
           "answer": "Not always. Many features can be cast to final tolerance (\u00b10.05\u2009mm as-cast). However, machining is typically required for threaded holes, precision bores, critical mating surfaces, or any feature where the design tolerance is tighter than what the casting process can reliably achieve."
         },
         {
+          "question": "Can you mill threads in die-cast zinc parts?",
+          "answer": "Yes. Threaded holes and milled threads are produced as part of our in-house CNC post-processing. Because machining takes place in the same building and under the same quality system as casting, you get high precision and stable quality."
+        },
+        {
           "question": "What tolerances can secondary machining achieve?",
           "answer": "Secondary CNC machining on zinc die-cast parts can achieve tolerances significantly tighter than the \u00b10.05\u2009mm as-cast standard. The achievable tolerance depends on the specific feature type, part geometry, and fixturing. We specify achievable tolerances during DFM review."
         },
         {
           "question": "What deburring methods do you use?",
-          "answer": "We use automated deburring, vibratory tumbling, and manual deburring depending on part complexity and surface requirements. Tumbling is standard for high-volume production. Manual deburring is used for parts with complex geometries or critical cosmetic surfaces that cannot tolerate tumbling marks."
+          "answer": "We use vibratory deburring, shot blasting, plastic media blasting, and tumbling. The process is chosen based on the customer's surface requirements and the geometry of the part."
         }
       ],
       "relatedHeading": "Related Services",

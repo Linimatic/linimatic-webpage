@@ -87,7 +87,7 @@ function organizationSchema(description: string) {
   legalName: "Linimatic A/S",
   description,
   url: "https://linimatic.dk",
-  logo: "https://linimatic.dk/images/brand/linimatic-logo.png",
+  logo: "https://linimatic.dk/images/brand/linimatic-logo-zinc.png",
   image: "https://linimatic.dk/images/services/facility-2022.jpg",
   foundingDate: "1967",
   address: {

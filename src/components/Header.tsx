@@ -88,18 +88,18 @@ export function Header() {
           {/* Logo — white-text variant on the dark bar, original colors on the white bar */}
           <Link href="/" className="flex-shrink-0 relative z-10">
             <Image
-              src="/images/brand/linimatic-logo-white.png"
+              src="/images/brand/linimatic-logo-zinc-white.png"
               alt={t("logoAlt")}
-              width={255}
+              width={240}
               height={50}
               priority
               className={`h-10 w-auto transition-opacity duration-300 ${scrolled ? "opacity-0" : "opacity-100"}`}
             />
             <Image
-              src="/images/brand/linimatic-logo.png"
+              src="/images/brand/linimatic-logo-zinc.png"
               alt=""
               aria-hidden="true"
-              width={255}
+              width={240}
               height={50}
               priority
               className={`absolute left-0 top-0 h-10 w-auto transition-opacity duration-300 ${scrolled ? "opacity-100" : "opacity-0"}`}

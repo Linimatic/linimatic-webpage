@@ -907,8 +907,8 @@
       "processHeading": "From molten alloy to finished casting",
       "process": [
         {
-          "step": "Alloy Preparation",
-          "description": "Zamak alloy is held molten in the machine\u2019s integrated furnace at precisely controlled temperature. Hot-chamber technology eliminates the ladling step used in aluminium casting, enabling faster cycles and more consistent shot quality."
+          "step": "Alloy Melting",
+          "description": "The Zamak alloy is kept molten in the machine\u2019s integrated furnace at a tightly controlled temperature. The zinc is forced directly from the furnace into the die tool \u2014 fully controlled and automated, in one closed system, with no manual handling. The result is faster casting cycles and consistent quality, shot after shot."
         },
         {
           "step": "High-Pressure Injection",

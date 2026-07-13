@@ -910,8 +910,8 @@
       "processHeading": "Von der fl\u00fcssigen Legierung zum fertigen Gussteil",
       "process": [
         {
-          "step": "Legierungsvorbereitung",
-          "description": "Zamak-Legierung wird im integrierten Ofen der Maschine bei präzise geregelter Temperatur geschmolzen gehalten. Die Warmkammer-Technologie eliminiert den bei Aluminiumguss erforderlichen Schöpfschritt und ermöglicht schnellere Zyklen und gleichmäßigere Schussqualität."
+          "step": "Schmelzen der Legierung",
+          "description": "Die Zamak-Legierung wird im integrierten Ofen der Maschine bei genau geregelter Temperatur geschmolzen gehalten. Das Zink wird direkt vom Ofen in das Formwerkzeug gedrückt — alles läuft gesteuert, automatisch und in einem geschlossenen System, ganz ohne manuelle Handhabung. Das ergibt schnellere Gießzyklen und eine gleichbleibend hohe Qualität, Schuss für Schuss."
         },
         {
           "step": "Hochdruckinjektion",

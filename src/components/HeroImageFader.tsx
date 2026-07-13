@@ -17,7 +17,20 @@ const FADE_MS = 1200;
  * visible "cut". A video item is held for its own clip length instead of
  * the default HOLD_MS, and is played/paused/rewound as it becomes active.
  */
-export function HeroImageFader({ items }: { items: FaderItem[] }) {
+export function HeroImageFader({
+  items,
+  holdMs = HOLD_MS,
+  fadeMs = FADE_MS,
+  fit = "object-contain object-top",
+  sizes = "(max-width: 1024px) 100vw, 55vw",
+}: {
+  items: FaderItem[];
+  holdMs?: number;
+  fadeMs?: number;
+  // Tailwind object-fit/position classes for how each item fills the slot.
+  fit?: string;
+  sizes?: string;
+}) {
   const [index, setIndex] = useState(0);
   const videoRefs = useRef<Array<HTMLVideoElement | null>>([]);
 
@@ -26,12 +39,12 @@ export function HeroImageFader({ items }: { items: FaderItem[] }) {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
     const current = items[index];
-    const hold = current.type === "video" ? current.durationMs : HOLD_MS;
+    const hold = current.type === "video" ? current.durationMs : holdMs;
     const id = setTimeout(() => {
       setIndex((prev) => (prev + 1) % items.length);
     }, hold);
     return () => clearTimeout(id);
-  }, [index, items]);
+  }, [index, items, holdMs]);
 
   useEffect(() => {
     items.forEach((item, i) => {
@@ -51,7 +64,7 @@ export function HeroImageFader({ items }: { items: FaderItem[] }) {
     <>
       {items.map((item, i) => {
         const style = {
-          transitionDuration: `${FADE_MS}ms`,
+          transitionDuration: `${fadeMs}ms`,
           opacity: i === index ? 1 : 0,
         };
 
@@ -66,7 +79,7 @@ export function HeroImageFader({ items }: { items: FaderItem[] }) {
               playsInline
               preload={i === 0 ? "auto" : "none"}
               aria-label={item.alt}
-              className="absolute inset-0 h-full w-full object-contain object-top transition-opacity ease-in-out"
+              className={`absolute inset-0 h-full w-full ${fit} transition-opacity ease-in-out`}
               style={style}
             >
               <source src={item.src} type="video/mp4" />
@@ -81,9 +94,9 @@ export function HeroImageFader({ items }: { items: FaderItem[] }) {
             alt={item.alt}
             fill
             priority={i === 0}
-            className="object-contain object-top transition-opacity ease-in-out"
+            className={`${fit} transition-opacity ease-in-out`}
             style={style}
-            sizes="(max-width: 1024px) 100vw, 55vw"
+            sizes={sizes}
           />
         );
       })}

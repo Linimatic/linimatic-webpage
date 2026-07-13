@@ -910,8 +910,8 @@
       "processHeading": "Fra smeltet legering til færdigt støbeemne",
       "process": [
         {
-          "step": "Legeringsforberedelse",
-          "description": "Zamak-legering holdes smeltet i maskinens integrerede ovn ved præcist kontrolleret temperatur. Varmkammerteknologi eliminerer den manuelle øsning, der bruges ved aluminiumstøbning, hvilket muliggør hurtigere cyklusser og mere konsistent skudkvalitet."
+          "step": "Smeltning af legering",
+          "description": "Zamak-legeringen holdes smeltet i maskinens indbyggede ovn ved en nøje styret temperatur. Zinken trykkes direkte fra ovnen ind i formværktøjet — alt foregår styret, automatisk og i et lukket system, helt uden manuel håndtering. Det giver hurtigere støbecyklusser og en ensartet høj kvalitet, skud efter skud."
         },
         {
           "step": "Højtryksinjektion",

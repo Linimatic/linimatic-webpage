@@ -7,6 +7,7 @@ import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { ServiceImageGallery } from "@/components/ServiceImageGallery";
+import { HeroImageFader } from "@/components/HeroImageFader";
 import { buildMetadata, metaDescription, type Locale } from "@/lib/seo";
 
 const SERVICE_SLUGS = [
@@ -30,6 +31,9 @@ const SERVICE_META: Record<
     // Optional extra images. When present, the hero shows all images in a small
     // format where one at a time is enlarged (on hover and on a 2-second cycle).
     gallery?: string[];
+    // Optional slideshow images. When present, the hero slot slowly crossfades
+    // between them instead of showing the single `image`.
+    fader?: string[];
   }
 > = {
   prototyping: {
@@ -42,7 +46,11 @@ const SERVICE_META: Record<
     titleKey: "dieCasting",
     descriptionKey: "dieCasting",
     relatedServices: ["post-processing", "surface-treatment", "quality"],
-    image: "/images/services/frech-machine-2021.jpg",
+    image: "/images/services/die-casting-operators-daw125.jpg",
+    fader: [
+      "/images/services/die-casting-operators-daw125.jpg",
+      "/images/services/die-casting-flange-inspection.jpg",
+    ],
   },
   "post-processing": {
     titleKey: "postProcessing",
@@ -214,14 +222,27 @@ export default async function ServiceDetailPage({
               </div>
             ) : (
               <div className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[480px]">
-                <Image
-                  src={meta.image}
-                  alt={t("title")}
-                  fill
-                  priority
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
+                {meta.fader ? (
+                  <HeroImageFader
+                    items={meta.fader.map((src) => ({
+                      type: "image" as const,
+                      src,
+                      alt: t("title"),
+                    }))}
+                    fit="object-cover"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    fadeMs={2500}
+                  />
+                ) : (
+                  <Image
+                    src={meta.image}
+                    alt={t("title")}
+                    fill
+                    priority
+                    className="object-cover"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
+                )}
                 <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-zinc-50 to-transparent hidden lg:block" />
               </div>
             )}

@@ -36,7 +36,7 @@ const services = [
     slug: "die-casting",
     icon: "02",
     label: "Cast",
-    image: "/images/services/frech-machine-2021.jpg",
+    image: "/images/services/die-casting-operators-daw125.jpg",
   },
   {
     slug: "post-processing",

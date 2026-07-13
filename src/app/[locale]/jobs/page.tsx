@@ -74,7 +74,7 @@ export default async function JobsPage({
       "@id": "https://linimatic.dk/#organization",
       name: "Linimatic A/S",
       sameAs: "https://linimatic.dk",
-      logo: "https://linimatic.dk/images/brand/linimatic-logo.png",
+      logo: "https://linimatic.dk/images/brand/linimatic-logo-zinc.png",
     },
     jobLocation: {
       "@type": "Place",

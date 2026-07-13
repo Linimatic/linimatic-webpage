@@ -291,8 +291,8 @@
       },
       {
         "title": "High-Pressure Die Casting",
-        "description": "9 robotized casting cells running around the clock. Parts from 1\u2009g to 4\u2009kg in Zamak 2, 3, and 5 with as-cast tolerances to \u00b10.05\u2009mm.",
-        "specs": "80\u2013400T \u00b7 Zamak 2/3/5 \u00b7 \u00b10.05\u2009mm as-cast"
+        "description": "9 robotized casting cells running around the clock. Parts from 1\u2009g to 4\u2009kg in Zamak 2, 3, 5, and 8 with as-cast tolerances to \u00b10.05\u2009mm.",
+        "specs": "20 \u2013 315T \u00b7 Zamak 2/3/5/8 \u00b7 \u00b10.05\u2009mm as-cast"
       },
       {
         "title": "CNC Post-Processing",
@@ -328,7 +328,7 @@
       },
       {
         "service": "High-Pressure Die Casting",
-        "keySpecs": "9 casting cells, 80\u2013400T \u00b7 Zamak 2/3/5 \u00b7 \u00b10.05\u2009mm \u00b7 1g\u20134kg",
+        "keySpecs": "9 casting cells, 20 \u2013 315T \u00b7 Zamak 2/3/5/8 \u00b7 \u00b10.05\u2009mm \u00b7 1\u2009g \u2013 4\u2009kg",
         "certifications": "ISO 9001"
       },
       {
@@ -504,11 +504,11 @@
           "use": "Higher strength than Zamak 3 with good ductility. Automotive and industrial components."
         },
         {
-          "name": "Zamak 7",
-          "tensile": "283 MPa",
-          "elongation": "13%",
-          "hardness": "80",
-          "use": "Superior casting fluidity for thin-walled and complex-geometry parts. Lower magnesium for ductility."
+          "name": "Zamak 8",
+          "tensile": "374 MPa",
+          "elongation": "8%",
+          "hardness": "103",
+          "use": "Highest strength and creep resistance of any zinc alloy. Suited to heavily loaded and heat-exposed parts."
         }
       ]
     },
@@ -525,7 +525,7 @@
         },
         {
           "question": "What is a Zamak alloy?",
-          "answer": "Zamak is a family of zinc-aluminium alloys specifically developed for die-casting. The name comes from the German abbreviations of its constituents: Zink, Aluminium, Magnesium, and Kupfer (copper). The four standard grades \u2014 Zamak 2, 3, 5, and 7 \u2014 offer different balances of strength, ductility, and castability. Zamak 3 is the most widely used, while Zamak 2 provides the highest strength."
+          "answer": "Zamak is a family of zinc-aluminium alloys specifically developed for die-casting. The name comes from the German abbreviations of its constituents: Zink, Aluminium, Magnesium, and Kupfer (copper). The four standard grades \u2014 Zamak 2, 3, 5, and 8 \u2014 offer different balances of strength, ductility, and castability. Zamak 3 is the most widely used, while Zamak 2 provides the highest strength."
         },
         {
           "question": "How much does zinc die-casting cost?",
@@ -911,48 +911,49 @@
           "description": "The Zamak alloy is kept molten in the machine\u2019s integrated furnace at a tightly controlled temperature. The zinc is forced directly from the furnace into the die tool \u2014 fully controlled and automated, in one closed system, with no manual handling. The result is faster casting cycles and consistent quality, shot after shot."
         },
         {
-          "step": "High-Pressure Injection",
-          "description": "Molten zinc is injected into hardened steel dies at pressures up to 200\u2009MPa. Fill times under 50\u2009ms ensure complete cavity fill even in thin-walled and complex geometries, with minimal porosity."
+          "step": "High-Pressure Injection - The Shot",
+          "description": "Molten zinc is injected into the hardened die tool at pressures up to 200\u2009MPa. Fill times under 50\u2009ms ensure optimal cavity fill even in thin-walled and complex geometries, with minimal porosity."
         },
         {
-          "step": "Robotic Extraction & Trimming",
-          "description": "Parts are extracted by robotic arms within seconds of solidification. Runners and overflows are automatically separated and returned to the furnace for remelting \u2014 near-zero material waste."
+          "step": "Robotic Extraction & Reuse",
+          "description": "Parts are extracted by robotic arms within seconds of solidification. Runners and overflows are separated from the part and either returned immediately to the furnace or remelted for reuse \u2014 helping keep the CO2 footprint low."
         },
         {
-          "step": "In-Process Inspection",
-          "description": "SPC monitoring tracks critical dimensions on every shot. Deviations trigger automatic alerts and parameter adjustments, ensuring consistent quality across 24-hour production runs."
+          "step": "In-Process Verification",
+          "description": "Process verification is carried out according to the requirements agreed with the customer at the quotation stage. CMM spot-check inspections and SPC data (statistical process control) are used to ensure the process remains stable."
         }
       ],
       "specsEyebrow": "Technical Specifications",
       "specsHeading": "Foundry capabilities and alloy data",
       "specs": [
         { "label": "Casting cells", "value": "9 robotized" },
-        { "label": "Clamping Force", "value": "80\u2013400T" },
+        { "label": "Clamping Force", "value": "20 \u2013 315T" },
         { "label": "Part Weight", "value": "1\u2009g \u2013 4\u2009kg" },
         { "label": "As-Cast Tolerance", "value": "\u00b10.05\u2009mm" },
-        { "label": "Cycle Time", "value": "10\u201345 seconds" },
-        { "label": "Alloys", "value": "Zamak 2 / 3 / 5" },
+        { "label": "Cycle Time", "value": "7 \u2013 \u221e seconds" },
+        { "label": "Alloys", "value": "Zamak 2 / 3 / 5 / 8" },
         { "label": "Operation", "value": "24 hours" },
         { "label": "Die Life", "value": "1M+ shots" }
       ],
-      "advantagesHeading": "Why Linimatic\u2019s foundry delivers what others can\u2019t",
+      "advantagesHeading": "Why Linimatic is the best for the most complex",
       "advantages": {
-        "p1": "Scale and specialisation matter in die-casting. Our 9 casting cells cover the full tonnage range from 80T for small precision components to 400T for large structural parts, all with robotic handling and real-time SPC. This is not a general foundry that also does zinc \u2014 zinc die-casting is all we do, and we\u2019ve done it since 1967. That singular focus translates into deeper process knowledge, tighter tolerances, and fewer rejected parts.",
-        "p2": "The integrated value chain means your cast part moves directly to CNC machining, surface treatment, and inspection without leaving the building. No transport between suppliers, no lost traceability, no weeks waiting for the next step. For customers running just-in-time production, this single-facility model eliminates the supply chain variability that causes line stoppages."
+        "p1": "Our 9 robotized casting cells cover the full tonnage range from 20T for small precision components to 315T for large structural parts \u2014 all with robotic handling. That singular focus gives us the deep process knowledge it takes to cast complex parts.",
+        "p2": "Our experience with casting process simulation is rare in the industry. We simulate fill, solidification, and porosity before the tool is even built, so we get an optimized die from the very first shot. That lets us cast highly complex products where others have to give up. The same experience makes us a natural choice for high-end products and other demanding projects \u2014 including complex solutions for casting other metal components directly into the part during the die-casting process, where tolerances and material interaction have to be precisely matched.",
+        "p3": "Many of our customers\u2019 parts move on to surface treatment and a thorough visual final inspection before they\u2019re ready for use. We have years of experience with this \u2014 from choosing the right post-treatment to the final check of appearance and finish before the part leaves the building."
       },
       "faqHeading": "Frequently Asked Questions",
       "faq": [
         {
           "question": "What is hot-chamber die casting?",
-          "answer": "Hot-chamber die-casting is a process where the injection mechanism is submerged in the molten metal. This eliminates the separate ladling step required in cold-chamber (aluminium) casting, enabling faster cycle times and more consistent shot weights. It is the preferred process for zinc and zinc alloys due to zinc\u2019s lower melting point (385\u00b0C)."
+          "answer": "Hot-chamber die casting of zinc is a fast and precise process in which molten zinc at 420\u00b0C is injected into a die tool under high pressure. The method is especially suited to series production of complex parts with tight tolerances, thin wall sections, and a fine surface finish."
         },
         {
           "question": "Which Zamak alloy should I use?",
-          "answer": "Zamak 3 is the most widely used zinc die-casting alloy \u2014 excellent all-round properties and the best plating characteristics. Zamak 5 offers higher tensile strength (331\u2009MPa vs. 283\u2009MPa) for structural applications. Zamak 2 provides the highest strength (397\u2009MPa) and hardness for bearing surfaces and heavy-duty components. We advise on alloy selection during DFM review."
+          "answer": "About 95% of the parts we cast use Zamak 5, our standard alloy — a strong, well-rounded balance of strength, ductility, and castability (331\u2009MPa tensile strength). The remaining 5% we cast in Zamak 8, which we use when Zamak 5\u2019s strength isn\u2019t sufficient — it\u2019s the strongest and most creep-resistant zinc alloy we cast (374\u2009MPa). Beyond that, we can also cast in Zamak 2, which offers the highest hardness and suits bearing surfaces, or Zamak 3, which has the best plating characteristics. We advise on the right choice during the DFM review of your drawing."
         },
         {
           "question": "What part sizes can you cast?",
-          "answer": "We cast parts from 1\u2009g to 4\u2009kg across our 9 casting cells. The optimal machine is selected based on part weight, projected area, and the required clamping force. Multi-cavity dies are used for smaller parts to maximise throughput."
+          "answer": "We cast parts from 1\u2009g to 4\u2009kg across our 9 casting cells. The optimal machine is selected based on part weight, projected area, and the required clamping force. The number of cavities is determined by the requirements for quality, complexity, and efficiency."
         },
         {
           "question": "How long does a zinc die-casting tool last?",

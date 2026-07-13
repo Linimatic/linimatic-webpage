@@ -294,8 +294,8 @@
       },
       {
         "title": "Højtryksstøbning",
-        "description": "9 robotiserede støbeceller i døgndrift. Emner fra 1\u2009g til 4\u2009kg i Zamak 2, 3 og 5 med tolerancer i støbning ned til \u00b10,05\u2009mm.",
-        "specs": "80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm i støbning"
+        "description": "9 robotiserede støbeceller i døgndrift. Emner fra 1\u2009g til 4\u2009kg i Zamak 2, 3, 5 og 8 med tolerancer i støbning ned til \u00b10,05\u2009mm.",
+        "specs": "20 – 315T · Zamak 2/3/5/8 · \u00b10,05\u2009mm i støbning"
       },
       {
         "title": "CNC-efterbearbejdning",
@@ -331,7 +331,7 @@
       },
       {
         "service": "Højtryksstøbning",
-        "keySpecs": "9 støbeceller, 80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm · 1g–4kg",
+        "keySpecs": "9 støbeceller, 20 – 315T · Zamak 2/3/5/8 · \u00b10,05\u2009mm · 1\u2009g \u2013 4\u2009kg",
         "certifications": "ISO 9001"
       },
       {
@@ -507,11 +507,11 @@
           "use": "Højere styrke end Zamak 3 med god duktilitet. Automotive- og industrikomponenter."
         },
         {
-          "name": "Zamak 7",
-          "tensile": "283 MPa",
-          "elongation": "13%",
-          "hardness": "80",
-          "use": "Overlegen støbeflydbarhed til tyndvæggede og kompleksgeometri-emner. Lavere magnesium for duktilitet."
+          "name": "Zamak 8",
+          "tensile": "374 MPa",
+          "elongation": "8%",
+          "hardness": "103",
+          "use": "Højeste styrke og krybestyrke af alle zinklegeringer. Velegnet til tungt belastede og varmepåvirkede emner."
         }
       ]
     },
@@ -528,7 +528,7 @@
         },
         {
           "question": "Hvad er en Zamak-legering?",
-          "answer": "Zamak er en familie af zink-aluminium-legeringer, der specifikt er udviklet til trykstøbning. Navnet stammer fra de tyske forkortelser for bestanddelene: Zink, Aluminium, Magnesium og Kupfer (kobber). De fire standardkvaliteter — Zamak 2, 3, 5 og 7 — tilbyder forskellige balancer mellem styrke, duktilitet og støbbarhed. Zamak 3 er den mest udbredte, mens Zamak 2 har den højeste styrke."
+          "answer": "Zamak er en familie af zink-aluminium-legeringer, der specifikt er udviklet til trykstøbning. Navnet stammer fra de tyske forkortelser for bestanddelene: Zink, Aluminium, Magnesium og Kupfer (kobber). De fire standardkvaliteter — Zamak 2, 3, 5 og 8 — tilbyder forskellige balancer mellem styrke, duktilitet og støbbarhed. Zamak 3 er den mest udbredte, mens Zamak 2 har den højeste styrke."
         },
         {
           "question": "Hvad koster zinktrykstøbning?",
@@ -914,48 +914,49 @@
           "description": "Zamak-legeringen holdes smeltet i maskinens indbyggede ovn ved en nøje styret temperatur. Zinken trykkes direkte fra ovnen ind i formværktøjet — alt foregår styret, automatisk og i et lukket system, helt uden manuel håndtering. Det giver hurtigere støbecyklusser og en ensartet høj kvalitet, skud efter skud."
         },
         {
-          "step": "Højtryksinjektion",
-          "description": "Smeltet zink injiceres i hærdet stålform ved tryk op til 200\u2009MPa. Fyldningstider under 50\u2009ms sikrer komplet hulrumsfyldning selv i tyndvæggede og komplekse geometrier med minimal porøsitet."
+          "step": "Højtryksinjektion - Støbeskud",
+          "description": "Smeltet zink injiceres i det hærdede støbeværktøj ved tryk op til 200\u2009MPa. Fyldningstider under 50\u2009ms sikrer optimal hulrumsfyldning selv i tyndvæggede og komplekse geometrier med minimal porøsitet."
         },
         {
-          "step": "Robotudtrækning & afgratning",
-          "description": "Emner udtrækkes af robotarme inden for sekunder efter størknen. Indløb og overløb adskilles automatisk og returneres til ovnen til genindsmeltning — nærmest nul materialespild."
+          "step": "Robot udtagning & genanvendelse",
+          "description": "Emner udtages med robot inden for sekunder efter størkning. Indløb og overløb adskilles fra emnet og returneres med det samme til ovnen eller omsmeltes for genanvendelse, hvilket medvirker til et lavt CO2-aftryk."
         },
         {
-          "step": "Procesinspektion",
-          "description": "SPC-overvågning sporer kritiske dimensioner på hvert skud. Afvigelser udløser automatiske advarsler og parameterreguleringer, som sikrer konsistent kvalitet på tværs af 24-timers produktionskørsler."
+          "step": "Procesverifikation",
+          "description": "Procesverifikationen foretages i henhold til de krav, der er aftalt med kunden på tilbudstidspunktet. CMM-stikprøvekontrol og SPC-data (statistisk proceskontrol) bruges til at sikre, at processen er stabil."
         }
       ],
       "specsEyebrow": "Tekniske specifikationer",
       "specsHeading": "Støberikapabiliteter og legeringsdata",
       "specs": [
         { "label": "Støbeceller", "value": "9 robotiserede" },
-        { "label": "Lukkekraft", "value": "80\u2013400T" },
+        { "label": "Lukkekraft", "value": "20 \u2013 315T" },
         { "label": "Emnevægt", "value": "1\u2009g \u2013 4\u2009kg" },
         { "label": "Tolerance i støbning", "value": "\u00b10,05\u2009mm" },
-        { "label": "Cyklustid", "value": "10\u201345 sekunder" },
-        { "label": "Legeringer", "value": "Zamak 2 / 3 / 5" },
+        { "label": "Cyklustid", "value": "7 \u2013 \u221e sekunder" },
+        { "label": "Legeringer", "value": "Zamak 2 / 3 / 5 / 8" },
         { "label": "Drift", "value": "24 timer" },
         { "label": "Værktøjslevetid", "value": "1M+ skud" }
       ],
-      "advantagesHeading": "Hvorfor Linimatics støberi leverer, hvad andre ikke kan",
+      "advantagesHeading": "Hvorfor Linimatic er de bedste til det sværeste",
       "advantages": {
-        "p1": "Skala og specialisering er afgørende i trykstøbning. Vores 9 støbeceller dækker det fulde tonnageområde fra 80T til små præcisionsemner til 400T til store strukturdele — alle med robothåndtering og realtids-SPC. Dette er ikke et generelt støberi, der også laver zink — zinktrykstøbning er alt, hvad vi laver, og vi har gjort det siden 1967. Det entydige fokus oversættes til dybere proceskendskab, strammere tolerancer og færre kasserede emner.",
-        "p2": "Den integrerede værdikæde betyder, at dit støbte emne bevæger sig direkte til CNC-bearbejdning, overfladebehandling og inspektion uden at forlade bygningen. Ingen transport mellem leverandører, ingen tabt sporbarhed, ingen ugers ventetid på næste trin. For kunder, der kører just-in-time produktion, eliminerer denne ét-facilitet-model den forsyningskædevariabilitet, der forårsager linjestop."
+        "p1": "Vores 9 robotiserede støbeceller dækker det fulde tonnageområde fra 20T til små præcisionsemner til 315T til store strukturdele — alle med robothåndtering. Det entydige fokus giver dybere proceskendskab, der skal til for at støbe komplekse emner.",
+        "p2": "Vores erfaring med simulering af støbeprocessen er sjælden i branchen. Vi simulerer fyldning, størkning og porøsitet, allerede før værktøjet bliver fremstillet, så vi har optimeret formværktøjet fra første skud. Dette giver os mulighed for at støbe meget komplekse produkter, hvor andre må give op. Den samme erfaring gør os til et naturligt valg til high end-produkter og andre krævende opgaver — herunder komplicerede løsninger med indstøbning af andre metaller direkte i støbeprocessen, hvor tolerancer og materialesamspil skal være helt præcist afstemt.",
+        "p3": "Mange af vores kunders emner skal videre til overfladebehandling og en grundig visuel slutkontrol, før de er klar til brug. Det har vi mange års erfaring med — fra valg af den rette efterbehandling til den sidste kontrol af udseende og finish, inden emnet forlader huset."
       },
       "faqHeading": "Ofte stillede spørgsmål",
       "faq": [
         {
           "question": "Hvad er varmkammer-trykstøbning?",
-          "answer": "Varmkammer-trykstøbning er en proces, hvor injektionsmekanismen er nedsænket i det smeltede metal. Det eliminerer den separate manuelle øsning, der kræves ved koldkammer (aluminium)-støbning, og muliggør hurtigere cyklustider og mere konsistente skudvægte. Det er den foretrukne proces til zink og zinklegeringer på grund af zinks lavere smeltepunkt (385\u00b0C)."
+          "answer": "Varmkammertrykstøbning i zink er en hurtig og præcis proces, hvor 420\u00b0C varmt smeltet zink, under højt tryk sprøjtes ind i et formværktøj. Metoden egner sig især til serieproduktion af komplekse emner med små tolerancer, tynde godstykkelser og en flot overflade."
         },
         {
           "question": "Hvilken Zamak-legering skal jeg bruge?",
-          "answer": "Zamak 3 er den mest udbredte zinktrykstøbningslegering — fremragende altround-egenskaber og de bedste belægningskarakteristika. Zamak 5 tilbyder højere trækstyrke (331\u2009MPa vs. 283\u2009MPa) til strukturelle applikationer. Zamak 2 giver den højeste styrke (397\u2009MPa) og hårdhed til lejoverflader og tungt udstyr. Vi rådgiver om legeringsvalg under DFM-gennemgangen."
+          "answer": "Omkring 95% af de emner, vi støber, bruger Zamak 5 — vores standardlegering med en stærk, alsidig balance mellem styrke, duktilitet og støbbarhed (331\u2009MPa trækstyrke). De resterende 5% støber vi i Zamak 8, som vi vælger, når styrken i Zamak 5 ikke er tilstrækkelig — det er den stærkeste og mest krybefaste zinklegering, vi støber (374\u2009MPa). Derudover har vi også mulighed for at støbe i Zamak 2, som har den højeste hårdhed og er velegnet til lejeflader, eller Zamak 3, som har de bedste belægningsegenskaber. Vi rådgiver om det rette valg under DFM-gennemgangen af din tegning."
         },
         {
           "question": "Hvilke emnestørrelser kan I støbe?",
-          "answer": "Vi støber emner fra 1\u2009g til 4\u2009kg på tværs af vores 9 støbeceller. Den optimale maskine vælges ud fra emnevægt, projiceret areal og den nødvendige lukkekraft. Flerhuller-forme bruges til mindre emner for at maksimere gennemstrømningen."
+          "answer": "Vi støber emner fra 1\u2009g til 4\u2009kg på tværs af vores 9 støbeceller. Den optimale maskine vælges ud fra emnevægt, projiceret areal og den nødvendige lukkekraft. Antallet af kaviteter besluttes ud fra krav til kvalitet, kompleksitet og effektivitet."
         },
         {
           "question": "Hvor længe holder et zinktrykstøbeværktøj?",

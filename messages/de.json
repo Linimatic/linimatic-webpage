@@ -294,8 +294,8 @@
       },
       {
         "title": "Druckguss",
-        "description": "9 robotisierte Gießzellen im 24-Stunden-Betrieb. Teile von 1\u2009g bis 4\u2009kg in Zamak 2, 3 und 5 mit Gussmaßtoleranzen bis \u00b10,05\u2009mm.",
-        "specs": "80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm im Guss"
+        "description": "9 robotisierte Gießzellen im 24-Stunden-Betrieb. Teile von 1\u2009g bis 4\u2009kg in Zamak 2, 3, 5 und 8 mit Gussmaßtoleranzen bis \u00b10,05\u2009mm.",
+        "specs": "20 – 315T · Zamak 2/3/5/8 · \u00b10,05\u2009mm im Guss"
       },
       {
         "title": "CNC-Nachbearbeitung",
@@ -331,7 +331,7 @@
       },
       {
         "service": "Druckguss",
-        "keySpecs": "9 Gießzellen, 80–400T · Zamak 2/3/5 · \u00b10,05\u2009mm · 1g–4kg",
+        "keySpecs": "9 Gießzellen, 20 – 315T · Zamak 2/3/5/8 · \u00b10,05\u2009mm · 1\u2009g \u2013 4\u2009kg",
         "certifications": "ISO 9001"
       },
       {
@@ -507,11 +507,11 @@
           "use": "Höhere Festigkeit als Zamak 3 bei guter Duktilität. Automotive- und Industriebauteile."
         },
         {
-          "name": "Zamak 7",
-          "tensile": "283 MPa",
-          "elongation": "13%",
-          "hardness": "80",
-          "use": "Überlegene Gießfähigkeit für dünnwandige und geometrisch komplexe Bauteile. Reduzierter Magnesiumanteil für erhöhte Duktilität."
+          "name": "Zamak 8",
+          "tensile": "374 MPa",
+          "elongation": "8%",
+          "hardness": "103",
+          "use": "Höchste Festigkeit und Kriechbeständigkeit aller Zinklegierungen. Geeignet für stark belastete und wärmebeanspruchte Bauteile."
         }
       ]
     },
@@ -528,7 +528,7 @@
         },
         {
           "question": "Was ist eine Zamak-Legierung?",
-          "answer": "Zamak ist eine Familie von Zink-Aluminium-Legierungen, die speziell für den Druckguss entwickelt wurden. Der Name leitet sich von den deutschen Anfangsbuchstaben der Bestandteile ab: Zink, Aluminium, Magnesium und Kupfer. Die vier Standardgüten — Zamak 2, 3, 5 und 7 — bieten unterschiedliche Kombinationen aus Festigkeit, Duktilität und Gießbarkeit. Zamak 3 ist die am häufigsten verwendete Legierung, während Zamak 2 die höchste Festigkeit bietet."
+          "answer": "Zamak ist eine Familie von Zink-Aluminium-Legierungen, die speziell für den Druckguss entwickelt wurden. Der Name leitet sich von den deutschen Anfangsbuchstaben der Bestandteile ab: Zink, Aluminium, Magnesium und Kupfer. Die vier Standardgüten — Zamak 2, 3, 5 und 8 — bieten unterschiedliche Kombinationen aus Festigkeit, Duktilität und Gießbarkeit. Zamak 3 ist die am häufigsten verwendete Legierung, während Zamak 2 die höchste Festigkeit bietet."
         },
         {
           "question": "Was kostet Zinkdruckguss?",
@@ -914,48 +914,49 @@
           "description": "Die Zamak-Legierung wird im integrierten Ofen der Maschine bei genau geregelter Temperatur geschmolzen gehalten. Das Zink wird direkt vom Ofen in das Formwerkzeug gedrückt — alles läuft gesteuert, automatisch und in einem geschlossenen System, ganz ohne manuelle Handhabung. Das ergibt schnellere Gießzyklen und eine gleichbleibend hohe Qualität, Schuss für Schuss."
         },
         {
-          "step": "Hochdruckinjektion",
-          "description": "Flüssiges Zink wird mit Drücken von bis zu 200\u2009MPa in gehärtete Stahlwerkzeuge eingespritzt. Füllzeiten unter 50\u2009ms gewährleisten eine vollständige Kavitätsfüllung auch bei dünnwandigen und geometrisch komplexen Teilen mit minimaler Porosität."
+          "step": "Hochdruckinjektion - Schuss",
+          "description": "Flüssiges Zink wird mit einem Druck von bis zu 200\u2009MPa in das gehärtete Formwerkzeug eingespritzt. Füllzeiten unter 50\u2009ms gewährleisten eine optimale Kavitätsfüllung auch bei dünnwandigen und geometrisch komplexen Teilen, mit minimaler Porosität."
         },
         {
-          "step": "Roboterentnahme & Entgraten",
-          "description": "Teile werden innerhalb von Sekunden nach der Erstarrung von Roboterarmen entnommen. Angüsse und Überläufe werden automatisch getrennt und zum Wiedereinschmelzen in den Ofen zurückgeführt — nahezu kein Materialabfall."
+          "step": "Roboterentnahme & Wiederverwendung",
+          "description": "Teile werden innerhalb von Sekunden nach der Erstarrung von Roboterarmen entnommen. Angüsse und Überläufe werden vom Teil getrennt und entweder sofort in den Ofen zurückgeführt oder zur Wiederverwendung eingeschmolzen — das trägt zu einem niedrigen CO2-Fußabdruck bei."
         },
         {
-          "step": "Prozessinspektion",
-          "description": "Die SPC-Überwachung verfolgt kritische Maße bei jedem Schuss. Abweichungen lösen automatische Alarme und Parameteranpassungen aus und gewährleisten gleichbleibende Qualität über 24-stündige Produktionsläufe hinweg."
+          "step": "Prozessverifikation",
+          "description": "Die Prozessverifikation erfolgt gemäß den Anforderungen, die zum Angebotszeitpunkt mit dem Kunden vereinbart wurden. KMG-Stichprobenkontrollen und SPC-Daten (statistische Prozesskontrolle) stellen sicher, dass der Prozess stabil bleibt."
         }
       ],
       "specsEyebrow": "Technische Spezifikationen",
       "specsHeading": "Gie\u00dfereikapazit\u00e4ten und Legierungsdaten",
       "specs": [
         { "label": "Gießzellen", "value": "9 robotisierte" },
-        { "label": "Schlie\u00dfkraft", "value": "80\u2013400T" },
+        { "label": "Schlie\u00dfkraft", "value": "20 \u2013 315T" },
         { "label": "Teilegewicht", "value": "1\u2009g \u2013 4\u2009kg" },
         { "label": "Gusstoleranz", "value": "\u00b10,05\u2009mm" },
-        { "label": "Zykluszeit", "value": "10\u201345 Sekunden" },
-        { "label": "Legierungen", "value": "Zamak 2 / 3 / 5" },
+        { "label": "Zykluszeit", "value": "7 \u2013 \u221e Sekunden" },
+        { "label": "Legierungen", "value": "Zamak 2 / 3 / 5 / 8" },
         { "label": "Betrieb", "value": "24 Stunden" },
         { "label": "Werkzeugstandzeit", "value": "1M+ Sch\u00fcsse" }
       ],
-      "advantagesHeading": "Warum Linimatics Gie\u00dferei liefert, was andere nicht k\u00f6nnen",
+      "advantagesHeading": "Warum wir bei Linimatic die Besten f\u00fcr das Schwerste sind",
       "advantages": {
-        "p1": "Im Druckguss zählen Größe und Spezialisierung. Unsere 9 Gießzellen decken den gesamten Tonnagebereich ab — von 80T für kleine Präzisionsbauteile bis 400T für große Strukturteile — alle mit Roboterhandling und Echtzeit-SPC. Wir sind keine allgemeine Gießerei, die auch Zink verarbeitet — Zinkdruckguss ist alles, was wir tun, und wir tun es seit 1967. Dieser einzigartige Fokus übersetzt sich in tieferes Prozesswissen, engere Toleranzen und weniger Ausschussteile.",
-        "p2": "Die integrierte Wertschöpfungskette bedeutet, dass Ihr Gussteil direkt zur CNC-Nachbearbeitung, Oberflächenbehandlung und Kontrolle gelangt, ohne das Gebäude zu verlassen. Kein Transport zwischen Lieferanten, kein Verlust der Rückverfolgbarkeit, keine wochenlange Wartezeit auf den nächsten Schritt. Für Kunden mit Just-in-time-Produktion eliminiert dieses Ein-Standort-Modell die Lieferkettenschwankungen, die Bandstillstände verursachen."
+        "p1": "Unsere 9 robotisierten Gießzellen decken den gesamten Tonnagebereich ab — von 20T für kleine Präzisionsbauteile bis 315T für große Strukturteile — alle mit Roboterhandling. Dieser einzigartige Fokus gibt uns das tiefe Prozesswissen, das für den Guss komplexer Teile nötig ist.",
+        "p2": "Unsere Erfahrung mit der Simulation des Gussprozesses ist in der Branche selten. Wir simulieren Füllung, Erstarrung und Porosität, noch bevor das Werkzeug gefertigt wird — so erhalten wir ein optimiertes Gusswerkzeug schon beim ersten Schuss. Das ermöglicht uns den Guss sehr komplexer Produkte, bei denen andere aufgeben müssen. Dieselbe Erfahrung macht uns zur natürlichen Wahl für High-End-Produkte und andere anspruchsvolle Projekte — einschließlich komplexer Lösungen zum Eingießen von Bauteilen aus anderen Metallen direkt im Gussprozess, bei denen Toleranzen und Materialzusammenspiel exakt aufeinander abgestimmt sein müssen.",
+        "p3": "Viele Bauteile unserer Kunden gehen anschließend in die Oberflächenbehandlung und eine gründliche visuelle Endkontrolle, bevor sie einsatzbereit sind. Damit haben wir langjährige Erfahrung — von der Wahl der richtigen Nachbehandlung bis zur letzten Kontrolle von Aussehen und Oberfläche, bevor das Teil das Haus verlässt."
       },
       "faqHeading": "H\u00e4ufig gestellte Fragen",
       "faq": [
         {
           "question": "Was ist Warmkammer-Druckguss?",
-          "answer": "Warmkammer-Druckguss ist ein Verfahren, bei dem der Einspritzmechanismus in das flüssige Metall eingetaucht ist. Dadurch entfällt der separate Schöpfschritt, der beim Kaltkammer-(Aluminium-)Guss erforderlich ist, was schnellere Zykluszeiten und gleichmäßigere Schussgewichte ermöglicht. Es ist das bevorzugte Verfahren für Zink und Zinklegierungen aufgrund des niedrigen Schmelzpunkts von Zink (385 °C)."
+          "answer": "Warmkammer-Druckguss von Zink ist ein schnelles und präzises Verfahren, bei dem 420 °C heißes, geschmolzenes Zink unter hohem Druck in ein Formwerkzeug eingespritzt wird. Das Verfahren eignet sich besonders für die Serienproduktion komplexer Teile mit engen Toleranzen, dünnen Wandstärken und einer hochwertigen Oberfläche."
         },
         {
           "question": "Welche Zamak-Legierung sollte ich verwenden?",
-          "answer": "Zamak 3 ist die am häufigsten verwendete Zinkdruckguss-Legierung — ausgezeichnete Allround-Eigenschaften und die besten Beschichtungscharakteristiken. Zamak 5 bietet höhere Zugfestigkeit (331\u2009MPa gegenüber 283\u2009MPa) für Strukturanwendungen. Zamak 2 liefert die höchste Festigkeit (397\u2009MPa) und Härte für Lagerflächen und Schwerlastkomponenten. Wir beraten bei der Legierungsauswahl im Rahmen der DFM-Prüfung."
+          "answer": "Rund 95 % unserer Gussteile werden in Zamak 5 gefertigt — unserer Standardlegierung mit einer starken, ausgewogenen Kombination aus Festigkeit, Duktilität und Gießbarkeit (331\u2009MPa Zugfestigkeit). Die restlichen 5 % gießen wir in Zamak 8, das wir einsetzen, wenn die Festigkeit von Zamak 5 nicht ausreicht — es ist die stärkste und kriechbeständigste Zinklegierung, die wir verarbeiten (374\u2009MPa). Darüber hinaus können wir auch in Zamak 2 gießen, das die höchste Härte bietet und sich für Lagerflächen eignet, oder in Zamak 3, das die besten Beschichtungseigenschaften hat. Wir beraten Sie bei der richtigen Wahl im Rahmen der DFM-Prüfung Ihrer Zeichnung."
         },
         {
           "question": "Welche Teilegr\u00f6\u00dfen k\u00f6nnen Sie gie\u00dfen?",
-          "answer": "Wir gießen Teile von 1\u2009g bis 4\u2009kg in unseren 9 Gießzellen. Die optimale Maschine wird anhand von Teilgewicht, projizierter Fläche und erforderlicher Schließkraft ausgewählt. Mehrkavitätenwerkzeuge werden für kleinere Teile eingesetzt, um den Durchsatz zu maximieren."
+          "answer": "Wir gießen Teile von 1\u2009g bis 4\u2009kg in unseren 9 Gießzellen. Die optimale Maschine wird anhand von Teilgewicht, projizierter Fläche und erforderlicher Schließkraft ausgewählt. Die Anzahl der Kavitäten wird anhand der Anforderungen an Qualität, Komplexität und Effizienz festgelegt."
         },
         {
           "question": "Wie lange h\u00e4lt ein Zinkdruckguss-Werkzeug?",

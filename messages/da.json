@@ -1311,7 +1311,57 @@
   "codeOfConductPage": {
     "eyebrow": "Etik og ansvarlighed",
     "title": "Code of Conduct",
-    "intro": "Linimatic forpligter sig til at drive forretning på en ansvarlig og etisk forsvarlig måde — over for medarbejdere, kunder, leverandører og samfundet. Denne side opdateres løbende med vores fulde retningslinjer."
+    "dateLabel": "Dateret: 14. oktober 2025",
+    "intro": [
+      "Leverandøransvar inden for social og bæredygtig virksomhedsdrift er centralt for det globale samfund og spiller en stigende rolle for en virksomheds konkurrenceevne og indtjening.",
+      "Linimatics Code of Conduct blev etableret i 2021 for at understøtte denne sociale og bæredygtige virksomhedsdrift, særligt inden for følgende områder: menneskerettigheder, arbejdsmiljø- og arbejdsforhold, miljøledelse samt antikorruption.",
+      "Linimatic har baseret sin Code of Conduct på FN's Global Compact, et internationalt initiativ støttet af virksomheder verden over med det formål at sikre efterlevelse inden for ovennævnte områder."
+    ],
+    "purposeHeading": "Formål",
+    "purpose": [
+      "For at respektere menneskerettigheder og fremme fair ansættelsesforhold, sikre arbejdsforhold samt ansvarlige miljømæssige og etiske standarder anvendes denne Code of Conduct i produktion, forsyning og levering af alle Linimatics produkter og ydelser.",
+      "Ud over alle gældende love, regler og standarder i de lande, hvor Linimatic opererer, skal alle medarbejdere overholde Linimatics Code of Conduct — også i tilfælde hvor disse krav er strengere end den nationale lovgivning.",
+      "Linimatic støtter aktivt sine leverandører i at sikre langsigtede, løbende forbedringer. Linimatic bakker op om FN's \"Global Compact\".",
+      "For at gøre denne forpligtelse tydelig for medarbejdere, leverandører, kunder og andre interessenter er vores Code of Conduct baseret på Global Compacts ti principper og offentliggøres."
+    ],
+    "workingConditionsHeading": "Arbejdsforhold",
+    "freedomOfAssociationHeading": "Foreningsfrihed",
+    "freedomOfAssociationText": "I det omfang gældende lovgivning tillader det, er alle medarbejdere frit stillet til at danne og være medlem af — eller undlade at være medlem af — fagforeninger eller lignende eksterne organisationer samt til at føre kollektive forhandlinger.",
+    "forcedLaborHeading": "Tvangsarbejde",
+    "forcedLaborText": "Tvangsarbejde eller pligtarbejde er udtrykkeligt forbudt, og alle medarbejdere kan frit opsige deres ansættelse med et rimeligt varsel i overensstemmelse med national lovgivning og/eller forudgående aftale. Medarbejdere er ikke forpligtet til at deponere penge eller identitetspapirer hos deres arbejdsgiver.",
+    "termsOfEmploymentHeading": "Ansættelsesvilkår",
+    "termsOfEmploymentText": "Medarbejdere kan forvente, at deres ansættelsesrettigheder, løn og vilkår er fair og rimelige og som minimum lever op til nationale lovkrav og branchestandarder. Arbejdstiden følger national lovgivning og må ikke være urimelig.",
+    "accessToDataHeading": "Adgang til personoplysninger",
+    "accessToDataText": "Alle medarbejdere har til enhver tid ret til at få adgang til egne personlige dokumenter og oplysninger, som virksomheden opbevarer, i overensstemmelse med gældende databeskyttelseslovgivning (GDPR). Anmodninger om adgang skal rettes til virksomhedens HR-afdeling.",
+    "childLabourHeading": "Børnearbejde",
+    "childLabour": [
+      "Ingen ansatte er under den lovlige minimumsalder for beskæftigelse. Minimumsalderen er alderen for afslutning af undervisningspligten, eller minimum 15 år, i overensstemmelse med artikel 2.4 i ILO-konvention nr. 138 om minimumsalder. Børn ansættes ikke til farligt arbejde eller arbejde, der ikke er foreneligt med barnets personlige udvikling.",
+      "Et barn er en person under 18 år, som defineret i artikel 1 i FN's Børnekonvention. Personlig udvikling omfatter barnets sundhed samt fysiske, mentale, åndelige, moralske eller sociale udvikling, som beskrevet i artikel 32 i FN's Børnekonvention."
+    ],
+    "discriminationHeading": "Afskaffelse af diskrimination",
+    "discrimination": [
+      "Medarbejdere behandles med respekt og værdighed. Korporlig afstraffelse, fysisk, verbal eller anden ulovlig chikane samt enhver form for trussel eller intimidering er forbudt. Enhver form for diskrimination baseret på fordomme eller forudindtagethed er forbudt, herunder diskrimination på grund af race, hudfarve, køn, seksuel orientering, civilstand, graviditet, forældrestatus, religion, politisk overbevisning, nationalitet, etnisk baggrund, social oprindelse, social status, handicap, alder, fagforeningsmedlemskab eller andre forhold beskyttet af gældende lokal lovgivning.",
+      "Medarbejdere med samme kvalifikationer, erfaring og præstationer modtager lige løn for lige arbejde som andre, der udfører det samme arbejde under tilsvarende arbejdsforhold."
+    ],
+    "workEnvironmentHeading": "Arbejdsmiljø",
+    "workEnvironment": [
+      "Et sundt og sikkert arbejdsmiljø samt eventuel indkvartering stillet til rådighed for medarbejdere lever op til internationale standarder og national lovgivning. Medarbejdere modtager relevant information og oplæring i sundhed og sikkerhed.",
+      "Sikkerhed omfatter også overholdelse af national lovgivning vedrørende brandforebyggelse samt planer for evakuering i tilfælde af brand, mindst i det omfang national lovgivning til enhver tid kræver det. Sikker og korrekt håndtering og mærkning af kemikalier, mekanisk udstyr og arbejdsprocesser sker i overensstemmelse med national lovgivning. Arbejdspladsen, og eventuel indkvartering, har en acceptabel temperatur og støjniveau, tilstrækkelig ventilation, tilstrækkelig belysning, rene toiletter, rent drikkevand og, hvor relevant, sanitære faciliteter til fødevareopbevaring."
+    ],
+    "environmentHeading": "Miljø",
+    "environmentText": "Begrænsede ressourcer anvendes ansvarligt og med omtanke. Metoder og tiltag, der reducerer virksomhedens miljøpåvirkning, hilses velkommen. Innovativ udvikling af produkter og ydelser, der giver miljømæssige og sociale fordele, fremmes.",
+    "antiCorruptionHeading": "Antikorruption",
+    "antiCorruption": [
+      "Ingen form for afpresning eller bestikkelse, herunder utilbørlige tilbud om betaling til eller fra medarbejdere, forretningsforbindelser eller organisationer, tolereres.",
+      "Vi forpligter os til at drive vores forretning i overensstemmelse med gældende national og international konkurrencelovgivning, overholder konkurrenceregler, opretholder solid databeskyttelse og prioriterer informationssikkerhed for at beskytte følsomme oplysninger.",
+      "Vi arbejder aktivt for at forebygge hvidvask og undgå finansiering af terrorisme."
+    ],
+    "supplierSupplementHeading": "Code of Conduct — tillæg for leverandører",
+    "supplierSupplementText": "Denne Code of Conduct (\"CODE\") gælder for alle Linimatics aktiviteter samt for produkter, ydelser og aktiviteter, som andre virksomheder (\"leverandører\") bidrager til.",
+    "adherenceHeading": "Overholdelse",
+    "adherenceText": "Linimatic kræver, at leverandøren og dennes underleverandører opfylder kravene i denne Code of Conduct (\"CODE\"), hvilket kan indebære strengere krav end gældende national lovgivning. En leverandør skal på anmodning i rimeligt omfang kunne dokumentere, at leverandøren og dennes underleverandører overholder CODE. Dette kan ske ved at fremlægge information og/eller give Linimatic eller en af vores repræsentanter adgang til de pågældende leverandørers/underleverandørers lokationer.",
+    "notificationHeading": "Oplysningspligt",
+    "notificationText": "Leverandøren er ansvarlig for at sikre, at dennes medarbejdere og underleverandører er informeret om denne Code of Conduct (\"CODE\"), og at de opfylder de krav, den indeholder."
   },
   "privacyPage": {
     "eyebrow": "Juridisk",

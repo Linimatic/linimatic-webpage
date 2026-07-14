@@ -1309,7 +1309,57 @@
   "codeOfConductPage": {
     "eyebrow": "Ethics and Responsibility",
     "title": "Code of Conduct",
-    "intro": "Linimatic is committed to conducting business responsibly and ethically — towards employees, customers, suppliers, and society. This page will be updated with our full guidelines."
+    "dateLabel": "Dated: 14 October 2025",
+    "intro": [
+      "Vendor responsibility in social and sustainable entrepreneurship is central to the worldwide community and also plays an increasing role in a company's competitiveness and profitability.",
+      "Linimatic's Code of Conduct was established in 2021 to support this social and sustainable entrepreneurship, especially in the following areas: human rights; occupational health & labour issues; environmental management; and anti-corruption measures.",
+      "Linimatic has based its Code of Conduct on the UN Global Compact, an international initiative supported by businesses around the world with the aim of ensuring compliance in the aforementioned areas."
+    ],
+    "purposeHeading": "Purpose",
+    "purpose": [
+      "In order to respect human rights and to promote fair employment, safe working conditions, and responsible environmental and ethical standards, this Code of Conduct is applied in the production, supply, and delivery of all Linimatic's products and services.",
+      "In addition to all applicable laws, rules, and standards in the countries where Linimatic operates, all employees must comply with Linimatic's Code of Conduct — even where these requirements are more stringent than national laws and regulations.",
+      "Linimatic actively supports its suppliers in securing long-term, continuous improvements. Linimatic supports the UN's \"Global Compact\".",
+      "To make this commitment clear to employees, suppliers, customers, and other stakeholders, our Code of Conduct is based on the Global Compact's ten principles and is made public."
+    ],
+    "workingConditionsHeading": "Working Conditions",
+    "freedomOfAssociationHeading": "Freedom of Association",
+    "freedomOfAssociationText": "As far as applicable laws permit, all employees are free to form and be a member of — or not be a member of — trade unions or similar external unions, and to bargain collectively.",
+    "forcedLaborHeading": "Forced Labor",
+    "forcedLaborText": "Forced or compulsory work is expressly forbidden, and all employees are free to terminate their employment after reasonable notice in accordance with national law and/or prior agreement. Employees are not required to deposit money or identity papers with their employer.",
+    "termsOfEmploymentHeading": "Terms of Employment",
+    "termsOfEmploymentText": "Employees can expect that their employment rights, pay, and conditions are fair and reasonable, and meet, as a minimum, national legal requirements and industry standards. Working hours are in accordance with national law and are not abusive.",
+    "accessToDataHeading": "Access to Personal Data",
+    "accessToDataText": "All employees have the right, at any time, to access their personal documents and information held by the company, in accordance with applicable data protection laws (GDPR). Requests for access should be directed to the company's HR department.",
+    "childLabourHeading": "Child Labour",
+    "childLabour": [
+      "No person employed is below the legal minimum age for employment. The minimum age is the age for completion of compulsory schooling, or a minimum of 15 years, in accordance with Article 2.4 of ILO Convention No. 138 on minimum age. Children are not hired for dangerous work, or for work that is not consistent with the child's personal development.",
+      "A child is a person under 18 years, as defined in Article 1 of the UN Convention on the Rights of the Child. Personal development includes a child's health, or physical, mental, spiritual, moral, or social development, as described in Article 32 of the UN Convention on the Rights of the Child."
+    ],
+    "discriminationHeading": "Elimination of Discrimination",
+    "discrimination": [
+      "Employees are treated with respect and dignity. Corporal punishment, physical, verbal, or other unlawful harassment, and any form of threat or intimidation, is prohibited. All forms of discrimination based on bias or prejudice are prohibited, such as discrimination based on race, colour, sex, sexual orientation, marital status, pregnancy, parental status, religion, political opinion, nationality, ethnic background, social origin, social status, disability, age, union membership, or any other characteristic or status protected by applicable local law.",
+      "Employees with the same qualifications, experience, and accomplishments receive equal pay for equal work with others who do the same work under similar working conditions."
+    ],
+    "workEnvironmentHeading": "Work Environment",
+    "workEnvironment": [
+      "A healthy and safe working environment and, if applicable, housing provided for employees, is in accordance with international standards and national laws. Appropriate information and training on health and safety is provided for employees.",
+      "Security also includes compliance with national laws and regulations regarding fire prevention, as well as plans for evacuation in case of fire, at least as required by the national legislation in force at any given time. Safe and proper handling and labelling of chemicals, mechanical equipment, and work processes is handled in accordance with national legislation. Workplaces, and if applicable housing, have acceptable temperature and noise levels, adequate ventilation, adequate lighting, clean toilets, clean drinking water, and, if appropriate, sanitary facilities for food storage."
+    ],
+    "environmentHeading": "Environment",
+    "environmentText": "Finite resources are used responsibly and with caution. Approaches and methods that reduce any environmental impact linked to our business are welcomed. Innovative development of products and services that provide environmental and social benefits is promoted.",
+    "antiCorruptionHeading": "Anti-Corruption",
+    "antiCorruption": [
+      "No form of extortion or bribery, including improper offers of payment to or from employees, business relations, or organisations, is tolerated.",
+      "We are committed to conducting our business in alignment with applicable national and international competition laws, and we adhere to antitrust regulations, maintain robust data protection, and prioritise information security to safeguard sensitive information.",
+      "We are dedicated to preventing money laundering and avoiding the financing of terrorism."
+    ],
+    "supplierSupplementHeading": "Code of Conduct — Supplement for Suppliers",
+    "supplierSupplementText": "This Code of Conduct (\"CODE\") applies to all activities of Linimatic and to mutually contributing products, services, and activities from other businesses (\"Suppliers\").",
+    "adherenceHeading": "Adherence",
+    "adherenceText": "Linimatic requires that the supplier and its subcontractors meet the requirements of this Code of Conduct (\"CODE\"), which may mean more stringent requirements than the applicable national law. A supplier shall, upon request, reasonably verify that it and its subcontractors comply with the CODE. This can be done by providing information and/or allowing Linimatic or one of our representatives access to the site(s) of the aforementioned supplier/subcontractor.",
+    "notificationHeading": "Notification Requirement",
+    "notificationText": "The supplier is responsible for ensuring that its employees and subcontractors are informed of this Code of Conduct (\"CODE\") and that they meet the requirements contained therein."
   },
   "privacyPage": {
     "eyebrow": "Legal",

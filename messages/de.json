@@ -1312,7 +1312,57 @@
   "codeOfConductPage": {
     "eyebrow": "Ethik und Verantwortung",
     "title": "Code of Conduct",
-    "intro": "Linimatic verpflichtet sich zu einem verantwortungsvollen und ethischen Geschäftsgebaren — gegenüber Mitarbeitenden, Kunden, Lieferanten und der Gesellschaft. Diese Seite wird laufend mit unseren vollständigen Richtlinien aktualisiert."
+    "dateLabel": "Stand: 14. Oktober 2025",
+    "intro": [
+      "Lieferantenverantwortung im Bereich soziales und nachhaltiges Unternehmertum ist von zentraler Bedeutung für die weltweite Gemeinschaft und spielt zudem eine zunehmend wichtige Rolle für die Wettbewerbsfähigkeit und Profitabilität eines Unternehmens.",
+      "Linimatics Code of Conduct wurde 2021 eingeführt, um dieses soziale und nachhaltige Unternehmertum zu unterstützen — insbesondere in den Bereichen Menschenrechte, Arbeitsschutz und Arbeitsbedingungen, Umweltmanagement sowie Korruptionsbekämpfung.",
+      "Linimatic hat seinen Code of Conduct auf Grundlage des UN Global Compact entwickelt, einer internationalen Initiative, die von Unternehmen weltweit unterstützt wird, um die Einhaltung der genannten Bereiche sicherzustellen."
+    ],
+    "purposeHeading": "Zweck",
+    "purpose": [
+      "Um Menschenrechte zu respektieren und faire Beschäftigung, sichere Arbeitsbedingungen sowie verantwortungsvolle Umwelt- und Ethikstandards zu fördern, wird dieser Code of Conduct bei der Produktion, Lieferung und Auslieferung aller Produkte und Dienstleistungen von Linimatic angewendet.",
+      "Zusätzlich zu allen geltenden Gesetzen, Vorschriften und Standards in den Ländern, in denen Linimatic tätig ist, müssen alle Mitarbeitenden den Code of Conduct von Linimatic einhalten — auch dann, wenn diese Anforderungen strenger sind als die nationalen Gesetze und Vorschriften.",
+      "Linimatic unterstützt seine Lieferanten aktiv dabei, langfristige, kontinuierliche Verbesserungen sicherzustellen. Linimatic unterstützt den „Global Compact\" der Vereinten Nationen.",
+      "Um diese Verpflichtung gegenüber Mitarbeitenden, Lieferanten, Kunden und anderen Interessengruppen deutlich zu machen, basiert unser Code of Conduct auf den zehn Prinzipien des Global Compact und wird veröffentlicht."
+    ],
+    "workingConditionsHeading": "Arbeitsbedingungen",
+    "freedomOfAssociationHeading": "Vereinigungsfreiheit",
+    "freedomOfAssociationText": "Soweit die geltenden Gesetze dies zulassen, steht es allen Mitarbeitenden frei, Gewerkschaften oder ähnliche externe Vereinigungen zu gründen, ihnen beizutreten oder nicht beizutreten sowie Kollektivverhandlungen zu führen.",
+    "forcedLaborHeading": "Zwangsarbeit",
+    "forcedLaborText": "Zwangs- oder Pflichtarbeit ist ausdrücklich verboten, und alle Mitarbeitenden können ihr Beschäftigungsverhältnis nach angemessener Kündigungsfrist gemäß nationalem Recht und/oder vorheriger Vereinbarung beenden. Mitarbeitende sind nicht verpflichtet, Geld oder Ausweisdokumente bei ihrem Arbeitgeber zu hinterlegen.",
+    "termsOfEmploymentHeading": "Beschäftigungsbedingungen",
+    "termsOfEmploymentText": "Mitarbeitende können davon ausgehen, dass ihre Beschäftigungsrechte, Bezahlung und Arbeitsbedingungen fair und angemessen sind und mindestens den nationalen gesetzlichen Anforderungen und Branchenstandards entsprechen. Die Arbeitszeiten richten sich nach nationalem Recht und sind nicht überzogen.",
+    "accessToDataHeading": "Zugang zu personenbezogenen Daten",
+    "accessToDataText": "Alle Mitarbeitenden haben jederzeit das Recht, auf ihre beim Unternehmen gespeicherten persönlichen Unterlagen und Informationen zuzugreifen, im Einklang mit den geltenden Datenschutzgesetzen (DSGVO). Anfragen zum Zugang sind an die Personalabteilung des Unternehmens zu richten.",
+    "childLabourHeading": "Kinderarbeit",
+    "childLabour": [
+      "Keine beschäftigte Person ist jünger als das gesetzliche Mindestalter für eine Beschäftigung. Das Mindestalter entspricht dem Alter zum Abschluss der Schulpflicht oder mindestens 15 Jahren, gemäß Artikel 2.4 des ILO-Übereinkommens Nr. 138 über das Mindestalter. Kinder werden nicht für gefährliche Arbeiten oder Arbeiten eingesetzt, die mit der persönlichen Entwicklung des Kindes unvereinbar sind.",
+      "Als Kind gilt eine Person unter 18 Jahren, wie in Artikel 1 des UN-Übereinkommens über die Rechte des Kindes definiert. Die persönliche Entwicklung umfasst die Gesundheit sowie die körperliche, geistige, seelische, moralische oder soziale Entwicklung des Kindes, wie in Artikel 32 des UN-Übereinkommens über die Rechte des Kindes beschrieben."
+    ],
+    "discriminationHeading": "Beseitigung von Diskriminierung",
+    "discrimination": [
+      "Mitarbeitende werden mit Respekt und Würde behandelt. Körperliche Züchtigung, physische, verbale oder sonstige unrechtmäßige Belästigung sowie jede Form von Drohung oder Einschüchterung sind untersagt. Jede Form von Diskriminierung aufgrund von Vorurteilen ist untersagt, etwa aufgrund von Rasse, Hautfarbe, Geschlecht, sexueller Orientierung, Familienstand, Schwangerschaft, Elternschaft, Religion, politischer Überzeugung, Nationalität, ethnischer Herkunft, sozialer Herkunft, sozialem Status, Behinderung, Alter, Gewerkschaftszugehörigkeit oder anderen durch geltendes lokales Recht geschützten Merkmalen.",
+      "Mitarbeitende mit gleicher Qualifikation, Erfahrung und Leistung erhalten gleichen Lohn für gleiche Arbeit wie andere, die unter vergleichbaren Arbeitsbedingungen dieselbe Arbeit verrichten."
+    ],
+    "workEnvironmentHeading": "Arbeitsumfeld",
+    "workEnvironment": [
+      "Ein gesundes und sicheres Arbeitsumfeld sowie gegebenenfalls für Mitarbeitende bereitgestellte Unterkünfte entsprechen internationalen Standards und nationalem Recht. Mitarbeitende erhalten angemessene Informationen und Schulungen zu Gesundheit und Sicherheit.",
+      "Sicherheit umfasst auch die Einhaltung nationaler Gesetze und Vorschriften zum Brandschutz sowie Evakuierungspläne im Brandfall, mindestens im Umfang der jeweils geltenden nationalen Gesetzgebung. Der sichere und ordnungsgemäße Umgang mit sowie die Kennzeichnung von Chemikalien, mechanischen Anlagen und Arbeitsprozessen erfolgt gemäß nationalem Recht. Arbeitsplätze und gegebenenfalls Unterkünfte verfügen über eine angemessene Temperatur und ein angemessenes Lärmniveau, ausreichende Belüftung, ausreichende Beleuchtung, saubere Toiletten, sauberes Trinkwasser und, sofern erforderlich, sanitäre Einrichtungen für die Lebensmittellagerung."
+    ],
+    "environmentHeading": "Umwelt",
+    "environmentText": "Begrenzte Ressourcen werden verantwortungsvoll und mit Bedacht eingesetzt. Ansätze und Methoden, die die mit unserem Geschäft verbundenen Umweltauswirkungen verringern, sind willkommen. Die innovative Entwicklung von Produkten und Dienstleistungen mit ökologischem und sozialem Nutzen wird gefördert.",
+    "antiCorruptionHeading": "Korruptionsbekämpfung",
+    "antiCorruption": [
+      "Keine Form von Erpressung oder Bestechung, einschließlich unzulässiger Zahlungsangebote an oder von Mitarbeitenden, Geschäftspartnern oder Organisationen, wird toleriert.",
+      "Wir verpflichten uns, unser Geschäft im Einklang mit den geltenden nationalen und internationalen Wettbewerbsgesetzen zu führen, halten uns an kartellrechtliche Vorschriften, gewährleisten einen soliden Datenschutz und legen großen Wert auf Informationssicherheit zum Schutz sensibler Daten.",
+      "Wir setzen uns dafür ein, Geldwäsche zu verhindern und die Finanzierung von Terrorismus zu vermeiden."
+    ],
+    "supplierSupplementHeading": "Code of Conduct — Ergänzung für Lieferanten",
+    "supplierSupplementText": "Dieser Code of Conduct („CODE\") gilt für alle Aktivitäten von Linimatic sowie für Produkte, Dienstleistungen und Aktivitäten, zu denen andere Unternehmen („Lieferanten\") beitragen.",
+    "adherenceHeading": "Einhaltung",
+    "adherenceText": "Linimatic verlangt, dass der Lieferant und seine Unterauftragnehmer die Anforderungen dieses Code of Conduct („CODE\") erfüllen, was strengere Anforderungen als das geltende nationale Recht bedeuten kann. Ein Lieferant muss auf Anfrage in angemessenem Umfang nachweisen, dass er und seine Unterauftragnehmer den CODE einhalten. Dies kann durch die Bereitstellung von Informationen und/oder durch die Gewährung von Zugang für Linimatic oder einen unserer Vertreter zu den Standorten des genannten Lieferanten/Unterauftragnehmers erfolgen.",
+    "notificationHeading": "Informationspflicht",
+    "notificationText": "Der Lieferant ist dafür verantwortlich sicherzustellen, dass seine Mitarbeitenden und Unterauftragnehmer über diesen Code of Conduct („CODE\") informiert sind und die darin enthaltenen Anforderungen erfüllen."
   },
   "privacyPage": {
     "eyebrow": "Rechtliches",

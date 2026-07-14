@@ -286,8 +286,8 @@
     "items": [
       {
         "title": "Prototyping",
-        "description": "Send your CAD files and get a physical zinc prototype within 3\u20134 weeks \u2014 cast on the same machines, with the same alloys, used in series production.",
-        "specs": "3\u20134 week delivery \u00b7 STEP/IGES/Solidworks \u00b7 50\u201310,000 pcs"
+        "description": "Send your CAD files and get a physical zinc prototype within 2\u20134 weeks \u2014 cast on the same machines, with the same alloys, used in series production.",
+        "specs": "2\u20134 week delivery \u00b7 STEP/IGES/Solidworks \u00b7 50\u201310,000 pcs"
       },
       {
         "title": "High-Pressure Die Casting",
@@ -323,7 +323,7 @@
     "capabilities": [
       {
         "service": "Prototyping",
-        "keySpecs": "First samples in 3\u20134 weeks \u00b7 Same machines and alloys as series production",
+        "keySpecs": "First samples in 2\u20134 weeks \u00b7 Same machines and alloys as series production",
         "certifications": "\u2014"
       },
       {
@@ -856,21 +856,22 @@
         },
         {
           "step": "Finished Prototype",
-          "description": "The finished prototype is delivered ready for testing function, assembly, fit, and appearance in the actual material."
+          "description": "The finished prototype is delivered ready for testing function, assembly, fit, and appearance in the actual material. Typical turnaround is 2-4 weeks."
         }
       ],
       "specsEyebrow": "Technical Specifications",
       "specsHeading": "Prototyping capabilities at a glance",
+      "specsNote": "Total turnaround: 2-4 weeks",
       "specs": [
-        { "label": "Material", "value": "Zamak" },
-        { "label": "Production Method", "value": "Casting + CNC" },
-        { "label": "Tool Ownership", "value": "Customer-owned" },
-        { "label": "Process", "value": "Clarification \u2192 Finished Prototype" }
+        { "label": "Step 01", "value": "Clarification" },
+        { "label": "Step 02", "value": "Casting" },
+        { "label": "Step 03", "value": "CNC Machining" },
+        { "label": "Step 04", "value": "Finished Prototype" },
+        { "label": "Total turnaround", "value": "2-4 weeks" }
       ],
       "advantagesHeading": "Why prototype with your production foundry",
       "advantages": {
-        "p1": "Many companies prototype with one supplier and transfer to another for series production. This creates a disconnect \u2014 the prototype tool was optimised for a different machine, different alloy temperature, different injection parameters. At Linimatic, your prototype runs on the same machines, with the same alloys and the same process parameters as your production parts. What works in prototyping works in series.",
-        "p2": "We also handle process conversion projects: parts currently machined from solid, injection-moulded in plastic, or cast in aluminium that could benefit from zinc die-casting\u2019s tighter tolerances, better surface finish, and lower per-part cost at volume. We assess together with you whether conversion makes sense \u2014 and what the redesign implications are."
+        "p1": "In some cases, a zinc prototype can be a good and cost-effective way to validate your idea and confirm the material's suitability for your specific application \u2014 before you invest in the final production tool."
       },
       "faqHeading": "Frequently Asked Questions",
       "faq": [
@@ -925,6 +926,7 @@
       ],
       "specsEyebrow": "Technical Specifications",
       "specsHeading": "Foundry capabilities and alloy data",
+      "specsNote": "",
       "specs": [
         { "label": "Casting cells", "value": "9 robotized" },
         { "label": "Clamping Force", "value": "20 \u2013 315T" },
@@ -994,6 +996,7 @@
       ],
       "specsEyebrow": "Technical Specifications",
       "specsHeading": "Machining capabilities",
+      "specsNote": "",
       "specs": [
         { "label": "Operations", "value": "Mill / Turn / Drill / Thread" },
         { "label": "Deburring", "value": "Matched to surface requirements" },
@@ -1055,6 +1058,7 @@
       ],
       "specsEyebrow": "Technical Specifications",
       "specsHeading": "Available finishes and capabilities",
+      "specsNote": "",
       "specs": [
         { "label": "Chrome Plating", "value": "Decorative & functional" },
         { "label": "Powder Coating", "value": "Full RAL range" },
@@ -1117,6 +1121,7 @@
       ],
       "specsEyebrow": "Technical Specifications",
       "specsHeading": "Quality infrastructure",
+      "specsNote": "",
       "specs": [
         { "label": "Certification", "value": "ISO 9001 since 1993" },
         { "label": "Dimensional Inspection", "value": "CMM (3D coordinate)" },
@@ -1179,6 +1184,7 @@
       ],
       "specsEyebrow": "Technical Specifications",
       "specsHeading": "Supply chain capabilities",
+      "specsNote": "",
       "specs": [
         { "label": "Assembly", "value": "Sub-assembly / insert pressing" },
         { "label": "Delivery Model", "value": "Kanban / JIT / consignment" },

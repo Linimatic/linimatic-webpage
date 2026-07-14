@@ -135,6 +135,7 @@ export default async function ServiceDetailPage({
   const tServices = await getTranslations("services");
 
   const specs = t.raw("specs") as Array<{ label: string; value: string }>;
+  const specsNote = t.raw("specsNote") as string | undefined;
   const faqItems = t.raw("faq") as Array<{
     question: string;
     answer: string;
@@ -286,6 +287,11 @@ export default async function ServiceDetailPage({
           <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-[-0.02em] font-[family-name:var(--font-display)] mb-10">
             {t("specsHeading")}
           </h2>
+          {specsNote && (
+            <p className="text-center text-sm sm:text-base text-zinc-400 font-[family-name:var(--font-mono)] tracking-wide mb-6">
+              {specsNote}
+            </p>
+          )}
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-px bg-zinc-800">
             {specs.map((spec) => (
               <div key={spec.label} className="bg-zinc-950 p-6 sm:p-8">

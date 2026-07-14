@@ -289,8 +289,8 @@
     "items": [
       {
         "title": "Prototypen",
-        "description": "Senden Sie Ihre CAD-Dateien und erhalten Sie innerhalb von 3–4 Wochen einen physischen Zink-Prototyp — gegossen auf denselben Maschinen und mit denselben Legierungen wie in der Serienproduktion.",
-        "specs": "3–4 Wochen Lieferzeit · STEP/IGES/Solidworks · 50–10.000 Stk."
+        "description": "Senden Sie Ihre CAD-Dateien und erhalten Sie innerhalb von 2–4 Wochen einen physischen Zink-Prototyp — gegossen auf denselben Maschinen und mit denselben Legierungen wie in der Serienproduktion.",
+        "specs": "2–4 Wochen Lieferzeit · STEP/IGES/Solidworks · 50–10.000 Stk."
       },
       {
         "title": "Druckguss",
@@ -326,7 +326,7 @@
     "capabilities": [
       {
         "service": "Prototypen",
-        "keySpecs": "Erste Muster in 3–4 Wochen · Gleiche Maschinen und Legierungen wie in der Serienproduktion",
+        "keySpecs": "Erste Muster in 2–4 Wochen · Gleiche Maschinen und Legierungen wie in der Serienproduktion",
         "certifications": "—"
       },
       {
@@ -859,21 +859,22 @@
         },
         {
           "step": "Fertiger Prototyp",
-          "description": "Der fertige Prototyp wird geliefert und ist bereit für die Prüfung von Funktion, Montage, Passform und Anmutung im tatsächlichen Material."
+          "description": "Der fertige Prototyp wird geliefert und ist bereit für die Prüfung von Funktion, Montage, Passform und Anmutung im tatsächlichen Material. Übliche Durchlaufzeit ist 2-4 Wochen."
         }
       ],
       "specsEyebrow": "Technische Spezifikationen",
       "specsHeading": "Prototypen-Kapazitäten auf einen Blick",
+      "specsNote": "Gesamtdauer: 2-4 Wochen",
       "specs": [
-        { "label": "Material", "value": "Zamak" },
-        { "label": "Herstellungsmethode", "value": "Guss + CNC" },
-        { "label": "Werkzeugeigentum", "value": "Kundeneigentum" },
-        { "label": "Ablauf", "value": "Abklärung → Fertiger Prototyp" }
+        { "label": "Schritt 01", "value": "Abklärung" },
+        { "label": "Schritt 02", "value": "Guss" },
+        { "label": "Schritt 03", "value": "CNC-Bearbeitung" },
+        { "label": "Schritt 04", "value": "Fertiger Prototyp" },
+        { "label": "Gesamtdauer", "value": "2-4 Wochen" }
       ],
       "advantagesHeading": "Warum Sie beim Produktionsgie\u00dfer prototypen sollten",
       "advantages": {
-        "p1": "Viele Unternehmen lassen Prototypen bei einem Lieferanten fertigen und wechseln dann für die Serienproduktion zu einem anderen. Das schafft eine Diskontinuität — das Prototypenwerkzeug war für eine andere Maschine, eine andere Legierungstemperatur und andere Einspritzparameter optimiert. Bei Linimatic läuft Ihr Prototyp auf denselben Maschinen, mit denselben Legierungen und denselben Prozessparametern wie Ihre Serienteile. Was im Prototyping funktioniert, funktioniert auch in der Serie.",
-        "p2": "Wir übernehmen auch Verfahrensumstellungsprojekte: Teile, die derzeit aus dem Vollen gefräst, im Kunststoff-Spritzguss hergestellt oder aus Aluminium gegossen werden, können von den engeren Toleranzen, der besseren Oberflächenqualität und den niedrigeren Stückkosten des Zinkdruckgusses bei hohen Volumina profitieren. Wir prüfen gemeinsam mit Ihnen, ob eine Umstellung sinnvoll ist — und welche Konsequenzen die Neukonstruktion hat."
+        "p1": "In manchen Fällen kann ein Zink-Prototyp eine gute und kostengünstige Lösung sein, um Ihre Idee und die Eignung des Materials für genau Ihre Anwendung zu überprüfen — bevor Sie in das endgültige Produktionswerkzeug investieren."
       },
       "faqHeading": "H\u00e4ufig gestellte Fragen",
       "faq": [
@@ -928,6 +929,7 @@
       ],
       "specsEyebrow": "Technische Spezifikationen",
       "specsHeading": "Gie\u00dfereikapazit\u00e4ten und Legierungsdaten",
+      "specsNote": "",
       "specs": [
         { "label": "Gießzellen", "value": "9 robotisierte" },
         { "label": "Schlie\u00dfkraft", "value": "20 \u2013 315T" },
@@ -997,6 +999,7 @@
       ],
       "specsEyebrow": "Technische Spezifikationen",
       "specsHeading": "Bearbeitungskapazit\u00e4ten",
+      "specsNote": "",
       "specs": [
         { "label": "Operationen", "value": "Fr\u00e4sen / Drehen / Bohren / Gewinde" },
         { "label": "Entgraten", "value": "Nach Oberflächenanforderung" },
@@ -1058,6 +1061,7 @@
       ],
       "specsEyebrow": "Technische Spezifikationen",
       "specsHeading": "Verf\u00fcgbare Oberfl\u00e4chenbehandlungen und Kapazit\u00e4ten",
+      "specsNote": "",
       "specs": [
         { "label": "Verchromung", "value": "Dekorativ & funktional" },
         { "label": "Pulverlackierung", "value": "Volle RAL-Palette" },
@@ -1120,6 +1124,7 @@
       ],
       "specsEyebrow": "Technische Spezifikationen",
       "specsHeading": "Qualit\u00e4tsinfrastruktur",
+      "specsNote": "",
       "specs": [
         { "label": "Zertifizierung", "value": "ISO 9001 seit 1993" },
         { "label": "Dimensionskontrolle", "value": "KMG (3D-Koordinate)" },
@@ -1182,6 +1187,7 @@
       ],
       "specsEyebrow": "Technische Spezifikationen",
       "specsHeading": "Lieferkettenkapazit\u00e4ten",
+      "specsNote": "",
       "specs": [
         { "label": "Montage", "value": "Unterbaugruppen / Einpressen" },
         { "label": "Liefermodell", "value": "Kanban / JIT / Konsignation" },

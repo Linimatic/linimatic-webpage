@@ -289,8 +289,8 @@
     "items": [
       {
         "title": "Prototyper",
-        "description": "Send dine CAD-filer, og få en fysisk prototype i zink inden for 3–4 uger — støbt på de samme maskiner og med de samme legeringer, som bruges i serieproduktionen.",
-        "specs": "3–4 ugers levering · STEP/IGES/Solidworks · 50–10.000 stk."
+        "description": "Send dine CAD-filer, og få en fysisk prototype i zink inden for 2–4 uger — støbt på de samme maskiner og med de samme legeringer, som bruges i serieproduktionen.",
+        "specs": "2–4 ugers levering · STEP/IGES/Solidworks · 50–10.000 stk."
       },
       {
         "title": "Højtryksstøbning",
@@ -326,7 +326,7 @@
     "capabilities": [
       {
         "service": "Prototyper",
-        "keySpecs": "Første prøver på 3–4 uger · Samme maskiner og legeringer som serieproduktion",
+        "keySpecs": "Første prøver på 2–4 uger · Samme maskiner og legeringer som serieproduktion",
         "certifications": "—"
       },
       {
@@ -859,21 +859,21 @@
         },
         {
           "step": "Færdig prototype",
-          "description": "Den færdige prototype leveres klar til afprøvning af funktion, montage, pasform og udtryk i det rigtige materiale."
+          "description": "Den færdige prototype leveres klar til afprøvning af funktion, montage, pasform og udtryk i det rigtige materiale. Normalt forløb er 2-4 uger."
         }
       ],
       "specsEyebrow": "Tekniske specifikationer",
       "specsHeading": "Prototypekapabiliteter i overblik",
+      "specsNote": "Samlet forløb: 2-4 uger",
       "specs": [
-        { "label": "Materiale", "value": "Zamak" },
-        { "label": "Fremstillingsmetode", "value": "Støbning + CNC" },
-        { "label": "Værktøjsejerskab", "value": "Kundeeje" },
-        { "label": "Forløb", "value": "Afklaring → Færdig prototype" }
+        { "label": "Trin 01", "value": "Afklaring" },
+        { "label": "Trin 02", "value": "Støbning" },
+        { "label": "Trin 03", "value": "CNC-bearbejdning" },
+        { "label": "Trin 04", "value": "Færdig prototype" }
       ],
       "advantagesHeading": "Hvorfor prototypen bør laves hos dit produktionsstøberi",
       "advantages": {
-        "p1": "Mange virksomheder prototyper hos én leverandør og overfører til en anden ved serieproduktion. Det skaber en adskillelse — prototypeværktøjet var optimeret til en anden maskine, en anden legeringstemperatur, andre injektionsparametre. Hos Linimatic kører din prototype på de samme maskiner, med de samme legeringer og de samme procesparametre som dine produktionsemner. Det, der virker i prototypen, virker i serien.",
-        "p2": "Vi håndterer også proceskonverteringsprojekter: emner, der i øjeblikket bearbejdes fra massivt materiale, sprøjtestøbes i plast eller støbes i aluminium, og som kunne drage fordel af zinktrykstøbningens strammere tolerancer, bedre overfladefinish og lavere pr.-emne-omkostning ved volumen. Vi vurderer sammen med jer, om en konvertering giver mening — og hvad redesignimplikationerne er."
+        "p1": "I nogle tilfælde kan en zink-prototype være en god og billig løsning til at få eftervist jeres idé og materialets egnethed til netop jeres anvendelse — før I investerer i det endelige produktionsværktøj."
       },
       "faqHeading": "Ofte stillede spørgsmål",
       "faq": [
@@ -928,6 +928,7 @@
       ],
       "specsEyebrow": "Tekniske specifikationer",
       "specsHeading": "Støberikapabiliteter og legeringsdata",
+      "specsNote": "",
       "specs": [
         { "label": "Støbeceller", "value": "9 robotiserede" },
         { "label": "Lukkekraft", "value": "20 \u2013 315T" },
@@ -997,6 +998,7 @@
       ],
       "specsEyebrow": "Tekniske specifikationer",
       "specsHeading": "Bearbejdningskapabiliteter",
+      "specsNote": "",
       "specs": [
         { "label": "Operationer", "value": "Fræs / Drej / Bor / Gevind" },
         { "label": "Afgratning", "value": "Vælges efter overfladekrav" },
@@ -1058,6 +1060,7 @@
       ],
       "specsEyebrow": "Tekniske specifikationer",
       "specsHeading": "Tilgængelige overfladebehandlinger og kapabiliteter",
+      "specsNote": "",
       "specs": [
         { "label": "Forkromning", "value": "Dekorativ & funktionel" },
         { "label": "Pulverlakering", "value": "Fuld RAL-palette" },
@@ -1120,6 +1123,7 @@
       ],
       "specsEyebrow": "Tekniske specifikationer",
       "specsHeading": "Kvalitetsinfrastruktur",
+      "specsNote": "",
       "specs": [
         { "label": "Certificering", "value": "ISO 9001 siden 1993" },
         { "label": "Dimensionskontrol", "value": "CMM (3D-koordinat)" },
@@ -1182,6 +1186,7 @@
       ],
       "specsEyebrow": "Tekniske specifikationer",
       "specsHeading": "Forsyningskædekapabiliteter",
+      "specsNote": "",
       "specs": [
         { "label": "Montage", "value": "Undermontage / indpresning" },
         { "label": "Leveringsmodel", "value": "Kanban / JIT / konsignation" },

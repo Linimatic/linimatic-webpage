@@ -848,11 +848,11 @@
         },
         {
           "step": "Casting",
-          "description": "The prototype's base geometry is cast in zinc."
+          "description": "Small, specially made zinc blocks are cast, suited for the subsequent CNC machining."
         },
         {
           "step": "CNC Machining",
-          "description": "Details, surfaces, and dimensions that require higher precision are finished with CNC machining, bringing the prototype close to the final design."
+          "description": "The cast zinc blocks are CNC-machined into finished prototypes, precisely to your drawings and specifications."
         },
         {
           "step": "Finished Prototype",

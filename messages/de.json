@@ -851,11 +851,11 @@
         },
         {
           "step": "Guss",
-          "description": "Die Grundgeometrie des Prototyps wird in Zink gegossen."
+          "description": "Es werden kleine, speziell angefertigte Zinkblöcke gegossen, die sich für die anschließende CNC-Bearbeitung eignen."
         },
         {
           "step": "CNC-Bearbeitung",
-          "description": "Details, Flächen und Maße, die höhere Präzision erfordern, werden per CNC nachbearbeitet, sodass der Prototyp dem endgültigen Design nahekommt."
+          "description": "Die gegossenen Zinkblöcke werden CNC-bearbeitet zu fertigen Prototypen, exakt nach Ihren Zeichnungen und Spezifikationen."
         },
         {
           "step": "Fertiger Prototyp",

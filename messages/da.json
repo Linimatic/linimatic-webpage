@@ -851,11 +851,11 @@
         },
         {
           "step": "Støbning",
-          "description": "Prototypens grundgeometri støbes i zink."
+          "description": "Der udstøbes små, specialfremstillede zinkklodser, som er egnet til den videre CNC-bearbejdning."
         },
         {
           "step": "CNC-bearbejdning",
-          "description": "Detaljer, flader og mål, der kræver højere præcision, efterbearbejdes med CNC, så prototypen kommer tæt på det endelige design."
+          "description": "De udstøbte zinkklodser CNC-bearbejdes til færdige prototyper, helt efter jeres tegninger og specifikationer."
         },
         {
           "step": "Færdig prototype",

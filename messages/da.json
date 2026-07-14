@@ -16,6 +16,14 @@
       "title": "Om Linimatic — eksperter i zinktrykstøbning siden 1967",
       "description": "Grundlagt i 1967 er Linimatic A/S Danmarks største dedikerede zinktrykstøberi — 50+ specialister, ISO 9001-certificeret, hele værdikæden under ét tag."
     },
+    "co2": {
+      "title": "CO2 og klima — Linimatic A/S",
+      "description": "Læs om Linimatics arbejde med at reducere CO2-aftrykket gennem effektiv produktion og bæredygtige initiativer."
+    },
+    "codeOfConduct": {
+      "title": "Code of Conduct — Linimatic A/S",
+      "description": "Linimatics retningslinjer for ansvarlig og etisk forretningsadfærd."
+    },
     "cases": {
       "title": "Cases — projekter i zinktrykstøbning",
       "description": "Cases i zinktrykstøbning fra DeWalt, One Collection, VELUX m.fl. Se hvordan Linimatic løser komplekse produktionsopgaver med præcise zamak-komponenter."
@@ -60,6 +68,10 @@
       "assembly": "Montage & forsyningskæde"
     },
     "allServices": "Alle ydelser",
+    "aboutList": {
+      "co2": "CO2",
+      "codeOfConduct": "Code of Conduct"
+    },
     "phone": "+45 4876 4040",
     "getQuote": "Få et tilbud",
     "mobileMenuOpen": "Åbn menu",
@@ -562,7 +574,7 @@
     "heading": "Danmarks største dedikerede zinktrykstøberi.",
     "story": [
       "Linimatic er et dansk zinktrykstøberi med speciale i højtryksstøbning af zinkemner til industrien. Siden 1967 har vi produceret komponenter i zink i Helsinge, Danmark, med fokus på kompleks geometri, snævre tolerancer, høj finish og stabil kvalitet.",
-      "Som Danmarks største dedikerede zinktrykstøberi hjælper vi virksomheder i hele Danmark og Europa med udvikling og produktion af tekniske zinkemner, hvor kravene til præcision, funktion og overflade er høje. Vores erfaring med zinktrykstøbning gør os til en stærk partner, når emnet er vanskeligt, og løsningen skal fungere sikkert i serieproduktion.",
+      "Som Danmarks største dedikerede zinktrykstøberi hjælper vi virksomheder i hele Danmark og Europa med udvikling og produktion af tekniske zinkemner, hvor kravene til præcision, funktion og overflade er høje. Vores erfaring med zinktrykstøbning gør os til en stærk partner, når emnet er vanskeligt, og løsningen skal fungere sikkert i serieproduktion. Vi leverer endda til kunder helt i Kina.",
       "Hos Linimatic samler vi de afgørende processer frem til overfladebehandling under ét tag. Det giver kontrol over kvalitet, proces, levering og dokumentation fra første prøve til færdigt emne i zink. Efterfølgende processer og overfladebehandling udføres i tæt samarbejde med faste, specialiserede underleverandører.",
       "Vores kunder vælger Linimatic, når de har brug for højtryksstøbte zinkemner med dansk produktion, høj kvalitet og konkurrencedygtige priser.",
       "De bedste til det sværeste er ikke blot et slogan. Det er den måde, vi arbejder med zinktrykstøbning på."
@@ -883,19 +895,7 @@
         },
         {
           "question": "Hvordan kombineres støbning og CNC-bearbejdning i en prototype?",
-          "answer": "Prototypens grundform fremstilles ved trykstøbning i zink. Derefter CNC-bearbejder vi de detaljer, flader og mål, der kræver højere præcision, end selve støbningen giver. Sådan kommer prototypen tæt på det endelige design, uden at der først skal investeres i det endelige produktionsværktøj."
-        },
-        {
-          "question": "Kan I konvertere min plastdel til zink?",
-          "answer": "Ja. Zinktrykstøbning erstatter ofte sprøjtestøbt plast, når højere stivhed, bedre varmeledningsevne, EMI-afskærmning eller en premium kosmetisk finish er nødvendig. Vi gennemgår dit eksisterende design, identificerer de nødvendige ændringer til trykstøbning (træk, vægtykkelse, radier) og rådgiver om cost-benefit-afvejningen."
-        },
-        {
-          "question": "Hvem ejer støbeværktøjet?",
-          "answer": "Det gør du. Alt værktøj produceret af Linimatic er kundeejerskab. Værktøjer opbevares og vedligeholdes i vores facilitet i produktionens varighed. Hvis du har brug for at overføre et værktøj fra et andet støberi, kan vi vurdere kompatibiliteten med vores maskiner og legeringsspecifikationer."
-        },
-        {
-          "question": "Hvad er den mindste vægtykkelse for zinktrykstøbning?",
-          "answer": "Zinktrykstøbning kan opnå vægtykkelser ned til 0,6 mm — tyndere end enhver anden metaltrykstøbningsproces. Den optimale vægtykkelse afhænger dog af emnegeometri, strømlængde og strukturkrav. Vi rådgiver om den bedste vægtykkelse til dit specifikke design."
+          "answer": "Der udstøbes små, specialfremstillede zinkklodser, som er egnet til den videre CNC-bearbejdning."
         }
       ],
       "relatedHeading": "Relaterede ydelser",
@@ -1302,6 +1302,16 @@
     "openApplicationDescription": "Vi er altid interesserede i at høre fra dygtige folk inden for produktion, ingeniørarbejde, kvalitet og salg. Send os dit CV og fortæl, hvad du kan bidrage med.",
     "openApplicationButton": "Send uopfordret ansøgning",
     "learnMoreButton": "Læs mere om os"
+  },
+  "co2Page": {
+    "eyebrow": "Bæredygtighed",
+    "title": "CO2 og klima",
+    "intro": "Hos Linimatic arbejder vi løbende på at reducere vores CO2-aftryk gennem effektiv produktion, solceller og ansvarlig ressourceforvaltning. Denne side opdateres løbende med konkrete tal og initiativer."
+  },
+  "codeOfConductPage": {
+    "eyebrow": "Etik og ansvarlighed",
+    "title": "Code of Conduct",
+    "intro": "Linimatic forpligter sig til at drive forretning på en ansvarlig og etisk forsvarlig måde — over for medarbejdere, kunder, leverandører og samfundet. Denne side opdateres løbende med vores fulde retningslinjer."
   },
   "privacyPage": {
     "eyebrow": "Juridisk",

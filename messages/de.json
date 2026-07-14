@@ -16,6 +16,14 @@
       "title": "Über Linimatic — Zinkdruckguss-Experten seit 1967",
       "description": "1967 gegründet, ist Linimatic A/S Dänemarks größte spezialisierte Zinkdruckguss-Gießerei — über 50 Spezialisten, ISO 9001, gesamte Wertschöpfung aus einer Hand."
     },
+    "co2": {
+      "title": "CO2 und Klima — Linimatic A/S",
+      "description": "Erfahren Sie mehr über Linimatics Arbeit zur Reduzierung des CO2-Fußabdrucks durch effiziente Produktion und nachhaltige Initiativen."
+    },
+    "codeOfConduct": {
+      "title": "Code of Conduct — Linimatic A/S",
+      "description": "Linimatics Richtlinien für verantwortungsvolles und ethisches Geschäftsgebaren."
+    },
     "cases": {
       "title": "Referenzen — Zinkdruckguss-Projekte",
       "description": "Zinkdruckguss-Referenzen von DeWalt, One Collection, VELUX u. a. So löst Linimatic komplexe Fertigungsaufgaben mit präzisen Zamak-Bauteilen."
@@ -60,6 +68,10 @@
       "assembly": "Montage & Lieferkette"
     },
     "allServices": "Alle Leistungen",
+    "aboutList": {
+      "co2": "CO2",
+      "codeOfConduct": "Code of Conduct"
+    },
     "phone": "+45 4876 4040",
     "getQuote": "Angebot anfordern",
     "mobileMenuOpen": "Menü öffnen",
@@ -562,7 +574,7 @@
     "heading": "Dänemarks größte spezialisierte Zinkdruckgießerei.",
     "story": [
       "Linimatic ist eine dänische Zinkdruckgießerei, die auf das Druckgießen von Zinkteilen für die Industrie spezialisiert ist. Seit 1967 fertigen wir Komponenten aus Zink in Helsinge, Dänemark, mit Fokus auf komplexe Geometrien, enge Toleranzen, hochwertiges Finish und stabile Qualität.",
-      "Als Dänemarks größte spezialisierte Zinkdruckgießerei unterstützen wir Unternehmen in ganz Dänemark und Europa bei der Entwicklung und Produktion technischer Zinkteile mit hohen Anforderungen an Präzision, Funktion und Oberfläche. Unsere Erfahrung im Zinkdruckguss macht uns zu einem starken Partner, wenn das Teil anspruchsvoll ist und die Lösung in der Serienproduktion zuverlässig funktionieren muss.",
+      "Als Dänemarks größte spezialisierte Zinkdruckgießerei unterstützen wir Unternehmen in ganz Dänemark und Europa bei der Entwicklung und Produktion technischer Zinkteile mit hohen Anforderungen an Präzision, Funktion und Oberfläche. Unsere Erfahrung im Zinkdruckguss macht uns zu einem starken Partner, wenn das Teil anspruchsvoll ist und die Lösung in der Serienproduktion zuverlässig funktionieren muss. Wir liefern sogar an Kunden bis nach China.",
       "Bei Linimatic vereinen wir die entscheidenden Prozesse bis zur Oberflächenbehandlung unter einem Dach. Das gibt Kontrolle über Qualität, Prozess, Lieferung und Dokumentation vom ersten Muster bis zum fertigen Teil aus Zink. Nachgelagerte Prozesse und die Oberflächenbehandlung erfolgen in enger Zusammenarbeit mit festen, spezialisierten Unterlieferanten.",
       "Unsere Kunden wählen Linimatic, wenn sie druckgegossene Zinkteile mit dänischer Produktion, hoher Qualität und wettbewerbsfähigen Preisen benötigen.",
       "Die Besten für das Schwierigste ist nicht nur ein Slogan. Es ist die Art, wie wir mit Zinkdruckguss arbeiten."
@@ -884,19 +896,7 @@
         },
         {
           "question": "Wie werden Guss und CNC-Bearbeitung bei einem Prototyp kombiniert?",
-          "answer": "Die Grundform des Prototyps wird im Zinkdruckguss hergestellt. Anschließend bearbeiten wir per CNC die Details, Flächen und Maße, die eine höhere Präzision erfordern, als der Gussprozess allein bietet. So kommt der Prototyp dem endgültigen Design nahe, ohne dass zunächst in das endgültige Produktionswerkzeug investiert werden muss."
-        },
-        {
-          "question": "K\u00f6nnen Sie mein Kunststoffteil auf Zink umstellen?",
-          "answer": "Ja. Zinkdruckguss ersetzt häufig Kunststoff-Spritzguss, wenn höhere Steifigkeit, bessere Wärmeleitfähigkeit, EMV-Abschirmung oder eine hochwertige Designoberfläche benötigt werden. Wir prüfen Ihr bestehendes Design, identifizieren die für den Druckguss erforderlichen Modifikationen (Entformungsschrägen, Wandstärken, Radien) und beraten Sie zu den Kosten-Nutzen-Abwägungen."
-        },
-        {
-          "question": "Wem geh\u00f6rt das Gie\u00dfwerkzeug?",
-          "answer": "Sie. Alle von Linimatic gefertigten Werkzeuge sind Kundeneigentum. Die Werkzeuge werden für die Dauer der Produktion in unserer Anlage gelagert und gewartet. Wenn Sie ein Werkzeug von einer anderen Gießerei übernehmen möchten, können wir die Kompatibilität mit unseren Maschinen und Legierungsspezifikationen prüfen."
-        },
-        {
-          "question": "Was ist die minimale Wandst\u00e4rke f\u00fcr Zinkdruckguss?",
-          "answer": "Zinkdruckguss kann Wandstärken bis zu 0,6 mm erreichen — dünner als bei jedem anderen metallischen Druckgussverfahren. Die optimale Wandstärke hängt jedoch von der Bauteilgeometrie, der Fließweglänge und den strukturellen Anforderungen ab. Wir beraten Sie gerne zur besten Wandstärke für Ihr spezifisches Design."
+          "answer": "Es werden kleine, speziell angefertigte Zinkblöcke gegossen, die sich für die anschließende CNC-Bearbeitung eignen."
         }
       ],
       "relatedHeading": "Verwandte Leistungen",
@@ -1303,6 +1303,16 @@
     "openApplicationDescription": "Wir sind immer an qualifizierten Fachkräften in den Bereichen Fertigung, Technik, Qualität und Vertrieb interessiert. Senden Sie uns Ihren Lebenslauf und erzählen Sie uns, was Sie mitbringen.",
     "openApplicationButton": "Initiativbewerbung senden",
     "learnMoreButton": "Mehr über uns erfahren"
+  },
+  "co2Page": {
+    "eyebrow": "Nachhaltigkeit",
+    "title": "CO2 und Klima",
+    "intro": "Bei Linimatic arbeiten wir kontinuierlich daran, unseren CO2-Fußabdruck durch effiziente Produktion, Solarenergie und verantwortungsvolles Ressourcenmanagement zu reduzieren. Diese Seite wird laufend mit konkreten Zahlen und Initiativen aktualisiert."
+  },
+  "codeOfConductPage": {
+    "eyebrow": "Ethik und Verantwortung",
+    "title": "Code of Conduct",
+    "intro": "Linimatic verpflichtet sich zu einem verantwortungsvollen und ethischen Geschäftsgebaren — gegenüber Mitarbeitenden, Kunden, Lieferanten und der Gesellschaft. Diese Seite wird laufend mit unseren vollständigen Richtlinien aktualisiert."
   },
   "privacyPage": {
     "eyebrow": "Rechtliches",

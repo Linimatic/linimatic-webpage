@@ -16,6 +16,14 @@
       "title": "About Linimatic — Zinc Die-Casting Experts Since 1967",
       "description": "Founded in 1967, Linimatic A/S is Denmark's largest dedicated zinc die-casting foundry — 50+ specialists, ISO 9001 certified, full value chain under one roof."
     },
+    "co2": {
+      "title": "CO2 and Climate — Linimatic A/S",
+      "description": "Learn about Linimatic's work to reduce our CO2 footprint through efficient production and sustainable initiatives."
+    },
+    "codeOfConduct": {
+      "title": "Code of Conduct — Linimatic A/S",
+      "description": "Linimatic's guidelines for responsible and ethical business conduct."
+    },
     "cases": {
       "title": "Case Studies — Zinc Die-Casting Projects",
       "description": "Zinc die-casting case studies from DeWalt, One Collection, VELUX and more. See how Linimatic solves complex manufacturing challenges with precision zamak parts."
@@ -60,6 +68,10 @@
       "assembly": "Assembly & Supply Chain"
     },
     "allServices": "All Services",
+    "aboutList": {
+      "co2": "CO2",
+      "codeOfConduct": "Code of Conduct"
+    },
     "phone": "+45 4876 4040",
     "getQuote": "Get a Quote",
     "mobileMenuOpen": "Open menu",
@@ -559,7 +571,7 @@
     "heading": "Denmark\u2019s largest dedicated zinc die-casting foundry.",
     "story": [
       "Linimatic is a Danish zinc die-casting foundry specialising in high-pressure die casting of zinc parts for industry. Since 1967 we have produced components in zinc in Helsinge, Denmark, with a focus on complex geometry, tight tolerances, high finish and stable quality.",
-      "As Denmark's largest dedicated zinc die-casting foundry, we help companies across Denmark and Europe with the development and production of technical zinc parts where the demands on precision, function and surface are high. Our experience with zinc die casting makes us a strong partner when the part is difficult and the solution has to perform reliably in series production.",
+      "As Denmark's largest dedicated zinc die-casting foundry, we help companies across Denmark and Europe with the development and production of technical zinc parts where the demands on precision, function and surface are high. Our experience with zinc die casting makes us a strong partner when the part is difficult and the solution has to perform reliably in series production. We even deliver to customers as far away as China.",
       "At Linimatic we bring the decisive processes up to surface treatment together under one roof. This gives control over quality, process, delivery and documentation from the first sample to the finished part in zinc. Subsequent processes and surface treatment are carried out in close collaboration with fixed, specialised subcontractors.",
       "Our customers choose Linimatic when they need high-pressure die-cast zinc parts with Danish production, high quality and competitive prices.",
       "The best at the most difficult is not just a slogan. It is the way we work with zinc die casting."
@@ -881,19 +893,7 @@
         },
         {
           "question": "How are casting and CNC machining combined in a prototype?",
-          "answer": "The prototype's base shape is produced by zinc die-casting. We then CNC-machine the details, surfaces, and dimensions that require higher precision than the casting process alone provides. This brings the prototype close to the final design, without first investing in the final production tooling."
-        },
-        {
-          "question": "Can you convert my plastic part to zinc?",
-          "answer": "Yes. Zinc die-casting often replaces injection-moulded plastic when higher stiffness, better thermal conductivity, EMI shielding, or a premium cosmetic finish is needed. We review your existing design, identify modifications required for die-casting (draft, wall thickness, radii), and advise on the cost-benefit trade-off."
-        },
-        {
-          "question": "Who owns the casting tool?",
-          "answer": "You do. All tooling produced by Linimatic is customer-owned property. Tools are stored and maintained at our facility for the duration of production. If you need to transfer a tool from another foundry, we can evaluate compatibility with our machines and alloy specifications."
-        },
-        {
-          "question": "What is the minimum wall thickness for zinc die casting?",
-          "answer": "Zinc die-casting can achieve wall thicknesses down to 0.6\u2009mm \u2014 thinner than any other metal die-casting process. However, the optimal wall thickness depends on part geometry, flow length, and structural requirements. We can advise on the best wall thickness for your specific design."
+          "answer": "Small, specially made zinc blocks are cast, suited for the subsequent CNC machining."
         }
       ],
       "relatedHeading": "Related Services",
@@ -1300,6 +1300,16 @@
     "openApplicationDescription": "We\u2019re always interested in hearing from skilled people in manufacturing, engineering, quality, and sales. Send us your CV and tell us what you bring to the table.",
     "openApplicationButton": "Send Open Application",
     "learnMoreButton": "Learn More About Us"
+  },
+  "co2Page": {
+    "eyebrow": "Sustainability",
+    "title": "CO2 and Climate",
+    "intro": "At Linimatic, we continuously work to reduce our CO2 footprint through efficient production, solar power, and responsible resource management. This page will be updated with concrete figures and initiatives."
+  },
+  "codeOfConductPage": {
+    "eyebrow": "Ethics and Responsibility",
+    "title": "Code of Conduct",
+    "intro": "Linimatic is committed to conducting business responsibly and ethically — towards employees, customers, suppliers, and society. This page will be updated with our full guidelines."
   },
   "privacyPage": {
     "eyebrow": "Legal",

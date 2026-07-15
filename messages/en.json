@@ -761,6 +761,14 @@
         "industry": "Building & HVAC",
         "metric": "Full local value chain \u00b7 Automated production",
         "result": "PLACEHOLDER: Add key result \u2014 e.g. \u2018X parts per year\u2019 or \u2018Continuous supply since YYYY\u2019"
+      },
+      {
+        "slug": "supplier-proximity",
+        "client": "Ditlev Burke Industrial Tools A/S",
+        "title": "There are benefits to having your supplier close by",
+        "industry": "Industrial & Tools",
+        "metric": "It is possible to compete with Asia \u00b7 Automated die-casting in Denmark",
+        "result": "The entire handle is now manufactured in Denmark instead of in Asia."
       }
     ],
     "ctaHeading": "Have a similar challenge?",
@@ -811,6 +819,18 @@
         "approach": "Linimatic\u2019s integrated value chain \u2014 casting, CNC post-processing, inspection, and assembly all under one roof \u2014 eliminates the supplier coordination delays and quality handoff risks that affect multi-tier supply chains. Robotic extraction and automated SPC monitoring on the die-casting machines maintain dimensional consistency across high-volume runs. Kanban-based delivery scheduling and ERP-managed inventory ensure VELUX receives finished components against their production forecast without buffer stock requirements at their end.",
         "result": "PLACEHOLDER: Add key result \u2014 e.g. \u2018X parts per year\u2019 or \u2018Continuous supply since YYYY\u2019",
         "capabilities": ["prototyping", "die-casting", "assembly"]
+      },
+      "supplier-proximity": {
+        "metaTitle": "Ditlev Burke \u2014 a handle brought home from Asia",
+        "client": "Ditlev Burke Industrial Tools A/S",
+        "industry": "Industrial & Tools",
+        "title": "There are benefits to having your supplier close by",
+        "metric": "It is possible to compete with Asia \u00b7 Automated die-casting in Denmark",
+        "overview": "Linimatic A/S is seeing growing demand from customers who want to bring production of zinc die-cast parts home to Denmark. Ditlev Burke Industrial Tools A/S in Asn\u00e6s is one of them: a handle for professional tools now contains a zinc part from Linimatic, and the entire handle is assembled in Denmark instead of Asia.",
+        "challenge": "\"We are incredibly happy with the projects we have run in collaboration with Linimatic A/S. Most recently, we have collaborated on a new handle containing a zinc part manufactured by Linimatic. The result is that we can now manufacture the plastic part and pre-assemble it ourselves, so that the entire handle is manufactured in Denmark rather than as before in Asia,\" said Camilla Burke Vedsmand, Managing Director at Ditlev Burke Industrial Tools A/S, located in Asn\u00e6s on Zealand.",
+        "approach": "\"When, as with Linimatic, you have an automated production line, we have from our own experience been able to establish that it is possible to compete with Asia,\" said Camilla Burke Vedsmand. Among other obvious benefits of the partnership, she mentioned the close cooperation, the quality and the reliability: \"Communication within the country's borders is just so much faster, and therefore ensures progress in the projects. This has been a significant motivation in developing the long-term collaboration with Linimatic in North Zealand.\" \"It is important for us that we have the same uniform understanding and approach to the tasks. Linimatic A/S are extremely skilled technically, and we are particularly pleased that the collaboration also supports our philosophy of retaining jobs in Denmark,\" she added.",
+        "result": "The entire handle is now manufactured in Denmark instead of in Asia.",
+        "capabilities": ["die-casting", "quality"]
       }
     }
   },

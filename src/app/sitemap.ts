@@ -6,7 +6,7 @@ const LOCALES = ["da", "en", "de"] as const;
 // Stable last-content-update date. Bump this when the site's content materially
 // changes — using `new Date()` would reset every entry's <lastmod> on each
 // unrelated deploy, which Google learns to ignore as a noisy signal.
-const LAST_UPDATED = new Date("2026-06-16");
+const LAST_UPDATED = new Date("2026-07-15");
 
 const SERVICE_SLUGS = [
   "prototyping",
@@ -17,7 +17,7 @@ const SERVICE_SLUGS = [
   "assembly",
 ];
 
-const CASE_SLUGS = ["dewalt", "one-collection", "velux"];
+const CASE_SLUGS = ["dewalt", "one-collection", "velux", "supplier-proximity"];
 
 type StaticRoute = {
   path: string;

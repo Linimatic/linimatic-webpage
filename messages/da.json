@@ -764,6 +764,14 @@
         "industry": "Byggeri & HVAC",
         "metric": "Komplet lokal værdikæde · Automatiseret produktion",
         "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'X emner om året' eller 'Løbende leverance siden ÅÅÅÅ'"
+      },
+      {
+        "slug": "supplier-proximity",
+        "client": "Ditlev Burke Industrial Tools A/S",
+        "title": "Der er fordele ved at have din leverandør tæt på",
+        "industry": "Industri & værktøj",
+        "metric": "Det er muligt at konkurrere med Asien · Automatiseret trykstøbning i Danmark",
+        "result": "Hele håndtaget produceres i dag i Danmark i stedet for i Asien."
       }
     ],
     "ctaHeading": "Har du en lignende udfordring?",
@@ -814,6 +822,18 @@
         "approach": "Linimatics integrerede værdikæde — støbning, CNC-efterbearbejdning, kontrol og montage under ét tag — eliminerer de leverandørkoordinerings-forsinkelser og kvalitetsrisikoer ved videregivelse, der påvirker flerniveauleverandørkæder. Robotudtrækning og automatiseret SPC-overvågning på trykstøbemaskinerne opretholder dimensionel konsistens over højvolumen-forløb. Kanban-baseret leveringsplanlægning og ERP-styret lagerbeholdning sikrer, at VELUX modtager færdige emner i overensstemmelse med deres produktionsforecast uden behov for bufferlager i deres ende.",
         "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'X emner om året' eller 'Løbende leverance siden ÅÅÅÅ'",
         "capabilities": ["prototyping", "die-casting", "assembly"]
+      },
+      "supplier-proximity": {
+        "metaTitle": "Ditlev Burke — håndtag hjemtaget fra Asien",
+        "client": "Ditlev Burke Industrial Tools A/S",
+        "industry": "Industri & værktøj",
+        "title": "Der er fordele ved at have din leverandør tæt på",
+        "metric": "Det er muligt at konkurrere med Asien · Automatiseret trykstøbning i Danmark",
+        "overview": "Linimatic A/S oplever stigende efterspørgsel fra kunder, der ønsker at flytte produktionen af zinkstøbte emner hjem til Danmark. Ditlev Burke Industrial Tools A/S i Asnæs er én af dem: et håndtag til professionelt værktøj indeholder i dag en zinkdel fra Linimatic, og hele håndtaget samles nu i Danmark i stedet for i Asien.",
+        "challenge": "\"Vi er utroligt glade for de projekter, vi har kørt i samarbejde med Linimatic A/S. Senest har vi samarbejdet om et nyt håndtag, som indeholder en zinkdel, der er fremstillet af Linimatic. Resultatet er, at vi nu selv kan fremstille plastdelen og formontere den, så hele håndtaget bliver fremstillet i Danmark i stedet for som tidligere i Asien,\" siger Camilla Burke Vedsmand, administrerende direktør hos Ditlev Burke Industrial Tools A/S, der ligger i Asnæs på Sjælland.",
+        "approach": "\"Når man som med Linimatic har en automatiseret produktionslinje, har vi ud fra vores egne erfaringer kunnet konstatere, at det er muligt at konkurrere med Asien,\" siger Camilla Burke Vedsmand. Blandt andre åbenlyse fordele ved partnerskabet nævner hun det tætte samarbejde, kvaliteten og pålideligheden: \"Kommunikationen inden for landets grænser er bare så meget hurtigere og sikrer derfor fremdrift i projekterne. Det har været en væsentlig motivation for at udvikle det langsigtede samarbejde med Linimatic i Nordsjælland.\" \"Det er vigtigt for os, at vi har den samme ensartede forståelse og tilgang til opgaverne. Linimatic A/S er ekstremt dygtige teknisk, og vi er særligt glade for, at samarbejdet også understøtter vores filosofi om at fastholde arbejdspladser i Danmark,\" tilføjer hun.",
+        "result": "Hele håndtaget produceres i dag i Danmark i stedet for i Asien.",
+        "capabilities": ["die-casting", "quality"]
       }
     }
   },

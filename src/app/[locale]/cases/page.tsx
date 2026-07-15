@@ -36,6 +36,7 @@ const caseImages: Record<string, string> = {
   dewalt: "/images/services/brake-bracket-component.jpg",
   "one-collection": "/images/cases/one-collection-finn-juhl.jpg",
   velux: "/images/cases/velux-motor-frame.jpg",
+  "supplier-proximity": "/images/cases/supplier-proximity.jpg",
 };
 
 export default async function CasesPage({

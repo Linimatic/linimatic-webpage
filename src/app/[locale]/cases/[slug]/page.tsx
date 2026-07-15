@@ -7,7 +7,12 @@ import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildMetadata, metaDescription, type Locale } from "@/lib/seo";
 
-const CASE_SLUGS = ["dewalt", "one-collection", "velux"] as const;
+const CASE_SLUGS = [
+  "dewalt",
+  "one-collection",
+  "velux",
+  "supplier-proximity",
+] as const;
 type CaseSlug = (typeof CASE_SLUGS)[number];
 
 const SERVICE_SLUGS = [
@@ -23,6 +28,7 @@ const CASE_IMAGES: Record<CaseSlug, string> = {
   dewalt: "/images/services/brake-bracket-component.jpg",
   "one-collection": "/images/cases/one-collection-finn-juhl.jpg",
   velux: "/images/cases/velux-motor-frame.jpg",
+  "supplier-proximity": "/images/cases/supplier-proximity.jpg",
 };
 
 function isPlaceholder(text: string) {

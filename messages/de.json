@@ -764,6 +764,14 @@
         "industry": "Bau & HVAC",
         "metric": "Komplette lokale Wertschöpfungskette · Automatisierte Produktion",
         "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. 'X Teile pro Jahr' oder 'Kontinuierliche Belieferung seit JJJJ'"
+      },
+      {
+        "slug": "supplier-proximity",
+        "client": "Ditlev Burke Industrial Tools A/S",
+        "title": "Es hat Vorteile, wenn Ihr Lieferant in der Nähe ist",
+        "industry": "Industrie & Werkzeuge",
+        "metric": "Es ist möglich, mit Asien zu konkurrieren · Automatisierter Druckguss in Dänemark",
+        "result": "Der gesamte Griff wird heute in Dänemark statt in Asien hergestellt."
       }
     ],
     "ctaHeading": "Haben Sie eine ähnliche Herausforderung?",
@@ -814,6 +822,18 @@
         "approach": "Linimatics integrierte Wertschöpfungskette — Guss, CNC-Nachbearbeitung, Prüfung und Montage unter einem Dach — eliminiert die Koordinationsverzögerungen und Qualitätsrisiken bei Übergaben, die mehrstufige Lieferketten beeinträchtigen. Robotergestützte Entnahme und automatisierte SPC-Überwachung an den Druckgussmaschinen sichern die dimensionale Konsistenz über Hochvolumen-Produktionsläufe. Kanban-basierte Lieferplanung und ERP-gesteuerte Bestandsführung stellen sicher, dass VELUX Fertigteile gemäß ihrem Produktionsforecast erhält — ohne Pufferlagerbedarfe auf ihrer Seite.",
         "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z. B. 'X Teile pro Jahr' oder 'Kontinuierliche Belieferung seit JJJJ'",
         "capabilities": ["prototyping", "die-casting", "assembly"]
+      },
+      "supplier-proximity": {
+        "metaTitle": "Ditlev Burke — ein Griff, heimgeholt aus Asien",
+        "client": "Ditlev Burke Industrial Tools A/S",
+        "industry": "Industrie & Werkzeuge",
+        "title": "Es hat Vorteile, wenn Ihr Lieferant in der Nähe ist",
+        "metric": "Es ist möglich, mit Asien zu konkurrieren · Automatisierter Druckguss in Dänemark",
+        "overview": "Linimatic A/S erhält wachsenden Zuspruch von Kunden, die die Produktion von Zinkgussteilen zurück nach Dänemark holen wollen. Ditlev Burke Industrial Tools A/S in Asnæs ist einer von ihnen: Ein Griff für professionelles Werkzeug enthält heute ein Zinkteil von Linimatic, und der gesamte Griff wird in Dänemark statt in Asien zusammengebaut.",
+        "challenge": "\"Wir sind mit den Projekten, die wir in Zusammenarbeit mit Linimatic A/S durchgeführt haben, sehr zufrieden. Zuletzt haben wir an einem neuen Griff mit einem von Linimatic hergestellten Zinkteil zusammengearbeitet. Das Ergebnis ist, dass wir jetzt das Kunststoffteil selbst herstellen und vormontieren können, so dass der gesamte Griff in Dänemark und nicht wie bisher in Asien hergestellt wird\", sagt Camilla Burke Vedsmand, Geschäftsführerin von Ditlev Burke Industrial Tools A/S mit Sitz in Asnæs auf Seeland.",
+        "approach": "\"Wenn man, wie bei Linimatic, eine automatisierte Produktionslinie hat, konnten wir aus eigener Erfahrung feststellen, dass es möglich ist, mit Asien zu konkurrieren\", sagt Camilla Burke Vedsmand. Als weitere Vorteile der Partnerschaft nennt sie die enge Zusammenarbeit, die Qualität und die Zuverlässigkeit: \"Die Kommunikation innerhalb der Landesgrenzen ist einfach viel schneller und sorgt so für Fortschritte bei den Projekten. Dies war eine wichtige Motivation für die Entwicklung einer langfristigen Zusammenarbeit mit Linimatic in Nordseeland.\" \"Für uns ist es wichtig, dass wir die Aufgaben mit demselben einheitlichen Verständnis und Ansatz angehen. Linimatic A/S ist technisch äußerst versiert, und wir freuen uns besonders, dass die Zusammenarbeit auch unsere Philosophie unterstützt, Arbeitsplätze in Dänemark zu erhalten\", fügt sie hinzu.",
+        "result": "Der gesamte Griff wird heute in Dänemark statt in Asien hergestellt.",
+        "capabilities": ["die-casting", "quality"]
       }
     }
   },

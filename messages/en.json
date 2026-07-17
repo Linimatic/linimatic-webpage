@@ -39,6 +39,10 @@
     "zinkers": {
       "title": "Zinkers — Lead-Free Zinc Fishing Weights",
       "description": "Linimatic Zinkers are precision die-cast fishing weights — lead-free, environmentally safe and built to last. Available in a range of sizes and styles."
+    },
+    "zinkTemadag": {
+      "title": "Zinc Info Day — free zinc die-casting seminar",
+      "description": "Free info day for designers, project managers and buyers on the possibilities of zinc die-casting. See the next scheduled dates and book a seat."
     }
   },
   "notFound": {
@@ -65,7 +69,8 @@
       "postProcessing": "CNC Post-Processing",
       "surfaceTreatment": "Surface Treatment & Coating",
       "quality": "Quality & Certification",
-      "assembly": "Assembly & Supply Chain"
+      "assembly": "Assembly & Supply Chain",
+      "zinkTemadag": "Zinc Info Day"
     },
     "allServices": "All Services",
     "aboutList": {
@@ -1473,5 +1478,43 @@
     "thirdPartyText": "Some cookies are placed by third-party services that appear on our pages. We do not control the use of these cookies. Relevant third-party providers include analytics and advertising platforms. Their respective privacy policies govern their use of data.",
     "contactHeading": "Contact",
     "contactText": "If you have questions about our use of cookies, contact us at:"
+  },
+  "zinkTemadagPage": {
+    "breadcrumb": "Zinc Info Day",
+    "eyebrow": "Free seminar — approx. 4 hours",
+    "heading": "Zinc Info Day",
+    "intro": "Learn more about the possibilities of zinc die-casting. Linimatic holds info days aimed at designers, project managers and buyers — free of charge, at our facility in Helsinge.",
+    "agendaHeading": "Agenda",
+    "agenda": [
+      "Zinc in general — and where it comes from",
+      "Zinc compared to aluminum and plastic",
+      "The casting process",
+      "Tour of the production floor",
+      "When should you choose zinc?",
+      "Designing in zinc — possibilities and limitations",
+      "CO2 footprint",
+      "Surface treatment",
+      "Casting tools",
+      "Prototyping options"
+    ],
+    "agendaNote": "The agenda can always be adjusted to suit the participants.",
+    "datesHeading": "Next scheduled info days",
+    "dates": ["12.05.2026", "20.08.2026"],
+    "datesNote": "Held at Linimatic in Helsinge",
+    "contactHeading": "Book an info day",
+    "contactDescription": "Contact Jan V. Jørgensen to book an upcoming info day or for more information.",
+    "contactName": "Jan V. Jørgensen",
+    "contactRole": "Managing Director",
+    "contactPhone": "+45 2343 3667",
+    "contactEmail": "jaj@linimatic.dk",
+    "heroImageAlt": "Attendees following a presentation at an info day, taking notes"
+  },
+  "zinkTemadagPopup": {
+    "eyebrow": "Upcoming event",
+    "heading": "Zinc info days at Linimatic",
+    "description": "Free info day for designers, project managers and buyers. See the next scheduled dates.",
+    "cta": "See dates",
+    "close": "Close",
+    "imageAlt": "Stacked zinc ingots ready for remelting"
   }
 }

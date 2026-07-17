@@ -39,6 +39,10 @@
     "zinkers": {
       "title": "Zinkers — bleifreie Angelgewichte aus Zink",
       "description": "Linimatic Zinkers sind präzisionsgegossene Angelgewichte aus Zink — bleifrei, umweltfreundlich und langlebig. In verschiedenen Größen und Formen erhältlich."
+    },
+    "zinkTemadag": {
+      "title": "Zink-Infotag — kostenloses Seminar zum Zinkdruckguss",
+      "description": "Kostenloser Infotag für Konstrukteure, Projektleiter und Einkäufer über die Möglichkeiten des Zinkdruckgusses. Nächste geplante Termine und Anmeldung."
     }
   },
   "notFound": {
@@ -65,7 +69,8 @@
       "postProcessing": "CNC-Nachbearbeitung",
       "surfaceTreatment": "Oberflächenbehandlung & Beschichtung",
       "quality": "Qualität & Zertifizierung",
-      "assembly": "Montage & Lieferkette"
+      "assembly": "Montage & Lieferkette",
+      "zinkTemadag": "Zink-Infotag"
     },
     "allServices": "Alle Leistungen",
     "aboutList": {
@@ -1476,5 +1481,43 @@
     "thirdPartyText": "Einige Cookies werden von Drittanbieterdiensten platziert, die auf unseren Seiten erscheinen. Wir kontrollieren die Verwendung dieser Cookies nicht. Relevante Drittanbieter umfassen Analyse- und Werbeplattformen. Deren jeweilige Datenschutzrichtlinien regeln deren Datennutzung.",
     "contactHeading": "Kontakt",
     "contactText": "Bei Fragen zu unserer Verwendung von Cookies kontaktieren Sie uns unter:"
+  },
+  "zinkTemadagPage": {
+    "breadcrumb": "Zink-Infotag",
+    "eyebrow": "Kostenloses Seminar — ca. 4 Stunden",
+    "heading": "Infotag zum Thema Zink",
+    "intro": "Erfahren Sie mehr über die Möglichkeiten des Zinkdruckgusses. Linimatic veranstaltet Infotage für Konstrukteure, Projektleiter und Einkäufer — kostenlos, bei uns in Helsinge.",
+    "agendaHeading": "Programm",
+    "agenda": [
+      "Zink im Allgemeinen — und woher es kommt",
+      "Zink im Vergleich zu Aluminium und Kunststoff",
+      "Der Gießprozess",
+      "Rundgang durch die Produktion",
+      "Wann sollte man Zink wählen?",
+      "Konstruktion in Zink — Möglichkeiten und Grenzen",
+      "CO2-Fußabdruck",
+      "Oberflächenbehandlung",
+      "Gießwerkzeuge",
+      "Möglichkeiten für Prototypen"
+    ],
+    "agendaNote": "Das Programm kann jederzeit an die Teilnehmer angepasst werden.",
+    "datesHeading": "Nächste geplante Infotage",
+    "dates": ["12.05.2026", "20.08.2026"],
+    "datesNote": "Findet bei Linimatic in Helsinge statt",
+    "contactHeading": "Infotag buchen",
+    "contactDescription": "Kontaktieren Sie Jan V. Jørgensen, um einen kommenden Infotag zu buchen oder weitere Informationen zu erhalten.",
+    "contactName": "Jan V. Jørgensen",
+    "contactRole": "Geschäftsführer",
+    "contactPhone": "+45 2343 3667",
+    "contactEmail": "jaj@linimatic.dk",
+    "heroImageAlt": "Teilnehmer verfolgen einen Vortrag beim Infotag und machen sich Notizen"
+  },
+  "zinkTemadagPopup": {
+    "eyebrow": "Bevorstehende Veranstaltung",
+    "heading": "Zink-Infotage bei Linimatic",
+    "description": "Kostenloser Infotag für Konstrukteure, Projektleiter und Einkäufer. Nächste geplante Termine ansehen.",
+    "cta": "Termine ansehen",
+    "close": "Schließen",
+    "imageAlt": "Gestapelte Zinkbarren, bereit zum Einschmelzen"
   }
 }

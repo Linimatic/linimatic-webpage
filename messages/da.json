@@ -39,6 +39,10 @@
     "zinkers": {
       "title": "Zinkers — blyfri fiskelodder i zink",
       "description": "Linimatic Zinkers er præcisionsstøbte fiskelodder i zink — blyfri, miljøvenlige og holdbare. Fås i en række størrelser og udformninger."
+    },
+    "zinkTemadag": {
+      "title": "Zink Temadag — gratis temadag om zinktrykstøbning",
+      "description": "Gratis temadag for konstruktører, projektledere og indkøbere om mulighederne i zinktrykstøbning. Se næste planlagte datoer og book en plads."
     }
   },
   "notFound": {
@@ -65,7 +69,8 @@
       "postProcessing": "CNC-efterbearbejdning",
       "surfaceTreatment": "Overfladebehandling & coating",
       "quality": "Kvalitet & certificering",
-      "assembly": "Montage & forsyningskæde"
+      "assembly": "Montage & forsyningskæde",
+      "zinkTemadag": "Zink Temadag"
     },
     "allServices": "Alle ydelser",
     "aboutList": {
@@ -1475,5 +1480,43 @@
     "thirdPartyText": "Nogle cookies placeres af tredjepartstjenester, der vises på vores sider. Vi kontrollerer ikke brugen af disse cookies. Relevante tredjepartsudbydere omfatter analyse- og annonceplatforme. Deres respektive privatlivspolitikker regulerer deres brug af data.",
     "contactHeading": "Kontakt",
     "contactText": "Hvis du har spørgsmål om vores brug af cookies, kontakt os på:"
+  },
+  "zinkTemadagPage": {
+    "breadcrumb": "Zink Temadag",
+    "eyebrow": "Gratis temadag — ca. 4 timer",
+    "heading": "Temadag om zink",
+    "intro": "Få mere viden om mulighederne for zinktrykstøbning. Linimatic afholder temadage målrettet konstruktører, projektledere og indkøbere — gratis og i vores produktion i Helsinge.",
+    "agendaHeading": "Program",
+    "agenda": [
+      "Zink i almindelighed — og hvor det kommer fra",
+      "Zink sammenlignet med aluminium og plast",
+      "Støbeprocessen",
+      "Rundvisning i produktionen",
+      "Hvornår skal man vælge zink?",
+      "Konstruktion i zink — muligheder og begrænsninger",
+      "CO2-aftryk",
+      "Overfladebehandling",
+      "Støbeværktøjer",
+      "Muligheder for prototyper"
+    ],
+    "agendaNote": "Programmet kan altid justeres og tilpasses deltagerne.",
+    "datesHeading": "Næste planlagte temadage",
+    "dates": ["12.05.2026", "20.08.2026"],
+    "datesNote": "Afholdes hos Linimatic i Helsinge",
+    "contactHeading": "Book en temadag",
+    "contactDescription": "Kontakt Jan V. Jørgensen for at booke en kommende temadag eller for mere information.",
+    "contactName": "Jan V. Jørgensen",
+    "contactRole": "Administrerende direktør",
+    "contactPhone": "+45 2343 3667",
+    "contactEmail": "jaj@linimatic.dk",
+    "heroImageAlt": "Deltagere følger med i oplæg på en temadag med noter i hånden"
+  },
+  "zinkTemadagPopup": {
+    "eyebrow": "Kommende arrangement",
+    "heading": "Temadage om zink hos Linimatic",
+    "description": "Gratis temadag for konstruktører, projektledere og indkøbere. Se de næste planlagte datoer.",
+    "cta": "Se datoer",
+    "close": "Luk",
+    "imageAlt": "Stablede zinkbarrer klar til omsmeltning"
   }
 }

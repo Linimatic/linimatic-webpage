@@ -18,6 +18,7 @@ import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
 import { CookieConsent } from "@/components/CookieConsent";
 import { ConsentAnalytics } from "@/components/ConsentAnalytics";
+import { ZinkTemadagPopup } from "@/components/ZinkTemadagPopup";
 
 const instrumentSans = Instrument_Sans({
   variable: "--font-instrument-sans",
@@ -161,6 +162,7 @@ export default async function LocaleLayout({
           <Footer />
           <CookieConsent />
           <ConsentAnalytics />
+          <ZinkTemadagPopup />
         </NextIntlClientProvider>
       </body>
     </html>

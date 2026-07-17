@@ -1,4 +1,5 @@
 import type {Metadata} from "next";
+import {Fragment} from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {getTranslations, setRequestLocale} from 'next-intl/server';
@@ -216,39 +217,54 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
             </p>
           </div>
 
-          {/* Connected value chain — 5 steps, each links to its service */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-0">
+          {/* Connected value chain — 5 steps, each links to its service.
+              Below lg the steps stack vertically (not a 2-col wrap) so the
+              step order always reads top-to-bottom; a horizontal connector
+              is used only at lg where all 5 steps sit in a single row. */}
+          <div className="flex flex-col lg:grid lg:grid-cols-5 gap-0">
             {chainSteps.map((step, i) => {
               const isLast = i === chainSteps.length - 1;
               return (
-                <Link
-                  key={step.number}
-                  href={`/services/${chainSlugs[i]}`}
-                  className="group relative flex flex-col"
-                >
-                  {/* Step node + directional connector */}
-                  <div className="relative z-10 flex items-center gap-3 mb-5 lg:mb-6">
-                    <div className="relative w-20 h-20 flex flex-col items-center justify-center bg-zinc-950 text-white shrink-0 px-2 transition-colors duration-300 group-hover:bg-ember">
-                      <span className="absolute inset-x-0 top-0 h-[3px] bg-ember transition-colors duration-300 group-hover:bg-zinc-950" />
-                      <span className="text-[10px] tracking-[0.08em] uppercase text-ember leading-none text-center font-[family-name:var(--font-mono)] transition-colors duration-300 group-hover:text-zinc-950">{step.label}</span>
-                      <span className="text-xl font-bold leading-none mt-1 font-[family-name:var(--font-mono)] transition-colors duration-300 group-hover:text-zinc-950">{step.number}</span>
+                <Fragment key={step.number}>
+                  <Link
+                    href={`/services/${chainSlugs[i]}`}
+                    className="group relative flex flex-col"
+                  >
+                    {/* Step node + horizontal connector (lg only) */}
+                    <div className="relative z-10 flex items-center gap-3 mb-5 lg:mb-6">
+                      <div className="relative w-20 h-20 flex flex-col items-center justify-center bg-zinc-950 text-white shrink-0 px-2 transition-colors duration-300 group-hover:bg-ember">
+                        <span className="absolute inset-x-0 top-0 h-[3px] bg-ember transition-colors duration-300 group-hover:bg-zinc-950" />
+                        <span className="text-[10px] tracking-[0.08em] uppercase text-ember leading-none text-center font-[family-name:var(--font-mono)] transition-colors duration-300 group-hover:text-zinc-950">{step.label}</span>
+                        <span className="text-xl font-bold leading-none mt-1 font-[family-name:var(--font-mono)] transition-colors duration-300 group-hover:text-zinc-950">{step.number}</span>
+                      </div>
+                      {!isLast && (
+                        <div className="hidden lg:flex flex-1 items-center gap-1.5 pr-1">
+                          <div className="flex-1 h-px bg-zinc-200" />
+                          <svg className="h-3 w-3 shrink-0 text-zinc-300 transition-colors duration-300 group-hover:text-ember" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                          </svg>
+                        </div>
+                      )}
                     </div>
-                    {!isLast && (
-                      <div className="flex-1 flex items-center gap-1.5 pr-1">
-                        <div className="flex-1 h-px bg-zinc-200" />
-                        <svg className="h-3 w-3 shrink-0 text-zinc-300 transition-colors duration-300 group-hover:text-ember" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    {/* Content */}
+                    <div className="pr-4 lg:pr-5 pb-8 lg:pb-0 flex flex-col flex-1">
+                      <h3 className="text-base font-semibold text-zinc-900 group-hover:text-ember transition-colors duration-300 font-[family-name:var(--font-display)] tracking-tight mb-1.5">{step.title}</h3>
+                      <p className="text-[15px] text-zinc-500 leading-relaxed">{step.description}</p>
+                      <p className="mt-auto pt-3 text-[11px] tracking-[0.05em] text-ember font-[family-name:var(--font-mono)]">{step.specs}</p>
+                    </div>
+                  </Link>
+                  {/* Vertical connector between stacked steps (below lg only) */}
+                  {!isLast && (
+                    <div className="flex lg:hidden justify-center py-1 mb-2">
+                      <div className="flex flex-col items-center gap-1">
+                        <div className="w-px h-6 bg-zinc-200" />
+                        <svg className="h-3 w-3 text-zinc-300" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 8.25 12 15.75l7.5-7.5" />
                         </svg>
                       </div>
-                    )}
-                  </div>
-                  {/* Content */}
-                  <div className="pr-4 lg:pr-5 pb-8 lg:pb-0 flex flex-col flex-1">
-                    <h3 className="text-base font-semibold text-zinc-900 group-hover:text-ember transition-colors duration-300 font-[family-name:var(--font-display)] tracking-tight mb-1.5">{step.title}</h3>
-                    <p className="text-[15px] text-zinc-500 leading-relaxed">{step.description}</p>
-                    <p className="mt-auto pt-3 text-[11px] tracking-[0.05em] text-ember font-[family-name:var(--font-mono)]">{step.specs}</p>
-                  </div>
-                </Link>
+                    </div>
+                  )}
+                </Fragment>
               );
             })}
           </div>

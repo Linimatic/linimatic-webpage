@@ -13,6 +13,7 @@ const serviceKeys = [
   { key: "surfaceTreatment", href: "/services/surface-treatment" },
   { key: "quality", href: "/services/quality" },
   { key: "assembly", href: "/services/assembly" },
+  { key: "zinkTemadag", href: "/zink-temadag" },
 ];
 
 const aboutKeys = [

@@ -96,6 +96,7 @@ export function ContactForm() {
         >
           <option value="new-project">{t("form.subjectNew")}</option>
           <option value="existing-project">{t("form.subjectExisting")}</option>
+          <option value="temadag">{t("form.subjectTemadag")}</option>
           <option value="general">{t("form.subjectGeneral")}</option>
         </select>
       </div>

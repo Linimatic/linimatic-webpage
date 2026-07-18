@@ -316,7 +316,7 @@
       },
       {
         "title": "CNC-efterbearbejdning",
-        "description": "Intern fræsning, drejning, boring, gevindskæring og afgratning. Emner bevæger sig fra støbning til bearbejdning uden at forlade bygningen — bevarer sporbarhed og reducerer leveringstid.",
+        "description": "Intern fræsning, boring, gevindskæring og afgratning. Emner bevæger sig fra støbning til bearbejdning uden at forlade bygningen — bevarer sporbarhed og reducerer leveringstid.",
         "specs": "Fuld CNC · Tromling · Stramme sekundære tolerancer"
       },
       {
@@ -353,7 +353,7 @@
       },
       {
         "service": "CNC-efterbearbejdning",
-        "keySpecs": "Fræsning · Drejning · Boring · Gevindskæring · Afgratning",
+        "keySpecs": "Fræsning · Boring · Gevindskæring · Afgratning",
         "certifications": "—"
       },
       {
@@ -688,6 +688,7 @@
       "subjectNew": "Nyt projekt",
       "subjectExisting": "Eksisterende projekt",
       "subjectGeneral": "Generel henvendelse",
+      "subjectTemadag": "Temadag",
       "volume": "Forventet volumen",
       "volumeSelect": "Vælg volumeninterval",
       "volumePrototype": "Prototype (<1.000 stk.)",
@@ -1001,7 +1002,7 @@
     "postProcessing": {
       "title": "CNC-efterbearbejdning",
       "eyebrow": "Intern CNC-bearbejdning i over 20 år",
-      "overview": "Selv om der er store muligheder for at støbe meget skrappe tolerancer direkte i selve støbeprocessen, kræver nogle emner efterbearbejdning for at opnå den ønskede tolerance på flader, i huller og med fræst gevind. Derfor har CNC-bearbejdning i mere end 20 år været en af vores interne processer: Emnerne går fra støbning til færdigt, kontrolleret emne uden at forlade huset — og uden eksterne leverandører undervejs. Vores bearbejdningscenter håndterer fræsning, drejning, boring, gevindskæring og gevindfræsning — alt under samme tag som støbningen.",
+      "overview": "Selv om der er store muligheder for at støbe meget skrappe tolerancer direkte i selve støbeprocessen, kræver nogle emner efterbearbejdning for at opnå den ønskede tolerance på flader, i huller og med fræst gevind. Derfor har CNC-bearbejdning i mere end 20 år været en af vores interne processer: Emnerne går fra støbning til færdigt, kontrolleret emne uden at forlade huset — og uden eksterne leverandører undervejs. Vores bearbejdningscenter håndterer fræsning, boring, gevindskæring og gevindfræsning — alt under samme tag som støbningen.",
       "processHeading": "Produktionsforløbet — fra tilbud til færdigt emne",
       "process": [
         {
@@ -1010,7 +1011,7 @@
         },
         {
           "step": "CNC-bearbejdning",
-          "description": "Fleraksede CNC-fræse- og drejecentre bearbejder kritiske features: boringer, gevind, fladeforbindelser og tættolerancedimensioner, der overstiger støbningskapabiliteten."
+          "description": "Fleraksede CNC-fræsecentre bearbejder kritiske features: boringer, gevind, fladeforbindelser og tættolerancedimensioner, der overstiger støbningskapabiliteten."
         },
         {
           "step": "Afgratning & finish",
@@ -1025,7 +1026,7 @@
       "specsHeading": "Bearbejdningskapabiliteter",
       "specsNote": "",
       "specs": [
-        { "label": "Operationer", "value": "Fræs / Drej / Bor / Gevind" },
+        { "label": "Operationer", "value": "Fræs / Bor / Gevind" },
         { "label": "Afgratning", "value": "Vælges efter overfladekrav" },
         { "label": "Tolerance i støbning", "value": "\u00b10,05\u2009mm" },
         { "label": "Erfaring", "value": "20+ år med intern CNC" },
@@ -1484,8 +1485,8 @@
   "zinkTemadagPage": {
     "breadcrumb": "Zink Temadag",
     "eyebrow": "Gratis temadag — ca. 4 timer",
-    "heading": "Temadag om zink",
-    "intro": "Få mere viden om mulighederne for zinktrykstøbning. Linimatic afholder temadage målrettet konstruktører, projektledere og indkøbere — gratis og i vores produktion i Helsinge.",
+    "heading": "Temadag om zinktrykstøbning",
+    "intro": "Få praktisk viden om mulighederne med zinktrykstøbning – fra materialevalg og konstruktion til produktion og færdigt emne.\n\nLinimatic afholder gratis temadage for konstruktører, projektledere og indkøbere i vores produktion i Helsinge. Du er velkommen til at medbringe en potentiel komponent eller en konkret problemstilling, som vi kan gennemgå på dagen. Se agenda nedenfor.",
     "agendaHeading": "Program",
     "agenda": [
       "Zink i almindelighed — og hvor det kommer fra",

@@ -316,7 +316,7 @@
       },
       {
         "title": "CNC-Nachbearbeitung",
-        "description": "Hauseigenes Fräsen, Drehen, Bohren, Gewindeschneiden und Entgraten. Teile gehen vom Guss zur Bearbeitung, ohne das Gebäude zu verlassen \u2014 Rückverfolgbarkeit erhalten, Durchlaufzeit verkürzt.",
+        "description": "Hauseigenes Fräsen, Bohren, Gewindeschneiden und Entgraten. Teile gehen vom Guss zur Bearbeitung, ohne das Gebäude zu verlassen \u2014 Rückverfolgbarkeit erhalten, Durchlaufzeit verkürzt.",
         "specs": "Volle CNC · Gleitschleifen · Enge sekundäre Toleranzen"
       },
       {
@@ -353,7 +353,7 @@
       },
       {
         "service": "CNC-Nachbearbeitung",
-        "keySpecs": "Fräsen · Drehen · Bohren · Gewindeschneiden · Entgraten",
+        "keySpecs": "Fräsen · Bohren · Gewindeschneiden · Entgraten",
         "certifications": "—"
       },
       {
@@ -688,6 +688,7 @@
       "subjectNew": "Neues Projekt",
       "subjectExisting": "Bestehendes Projekt",
       "subjectGeneral": "Allgemeine Anfrage",
+      "subjectTemadag": "Zink-Infotag",
       "volume": "Erwartetes Volumen",
       "volumeSelect": "Volumenbereich wählen",
       "volumePrototype": "Prototyp (<1.000 Stk.)",
@@ -1002,7 +1003,7 @@
     "postProcessing": {
       "title": "CNC-Nachbearbeitung",
       "eyebrow": "Hauseigene CNC-Bearbeitung seit über 20 Jahren",
-      "overview": "Auch wenn sich sehr enge Toleranzen direkt im Druckgussprozess erreichen lassen, erfordern manche Teile eine Nachbearbeitung, um die gewünschte Toleranz an Flächen, Bohrungen und gefrästen Gewinden zu erreichen. Deshalb ist die CNC-Bearbeitung seit über 20 Jahren einer unserer hauseigenen Prozesse: Die Teile gehen vom Guss zum fertigen, geprüften Teil, ohne das Gebäude zu verlassen — und ohne externe Lieferanten dazwischen. Unser Bearbeitungszentrum übernimmt Fräsen, Drehen, Bohren, Gewindeschneiden und Gewindefräsen — alles unter demselben Dach wie der Guss.",
+      "overview": "Auch wenn sich sehr enge Toleranzen direkt im Druckgussprozess erreichen lassen, erfordern manche Teile eine Nachbearbeitung, um die gewünschte Toleranz an Flächen, Bohrungen und gefrästen Gewinden zu erreichen. Deshalb ist die CNC-Bearbeitung seit über 20 Jahren einer unserer hauseigenen Prozesse: Die Teile gehen vom Guss zum fertigen, geprüften Teil, ohne das Gebäude zu verlassen — und ohne externe Lieferanten dazwischen. Unser Bearbeitungszentrum übernimmt Fräsen, Bohren, Gewindeschneiden und Gewindefräsen — alles unter demselben Dach wie der Guss.",
       "processHeading": "Der Produktionsablauf \u2014 vom Angebot zum fertigen Teil",
       "process": [
         {
@@ -1011,7 +1012,7 @@
         },
         {
           "step": "CNC-Bearbeitung",
-          "description": "Mehrachsige CNC-Fräs- und Drehzentren bearbeiten kritische Merkmale: Bohrungen, Gewinde, Passungsflächen und engtolerierte Maße, die die Gussmöglichkeiten überschreiten."
+          "description": "Mehrachsige CNC-Fräszentren bearbeiten kritische Merkmale: Bohrungen, Gewinde, Passungsflächen und engtolerierte Maße, die die Gussmöglichkeiten überschreiten."
         },
         {
           "step": "Entgraten & Finish",
@@ -1026,7 +1027,7 @@
       "specsHeading": "Bearbeitungskapazit\u00e4ten",
       "specsNote": "",
       "specs": [
-        { "label": "Operationen", "value": "Fr\u00e4sen / Drehen / Bohren / Gewinde" },
+        { "label": "Operationen", "value": "Fr\u00e4sen / Bohren / Gewinde" },
         { "label": "Entgraten", "value": "Nach Oberflächenanforderung" },
         { "label": "Gusstoleranz", "value": "\u00b10,05\u2009mm" },
         { "label": "Erfahrung", "value": "20+ Jahre hauseigene CNC" },
@@ -1485,8 +1486,8 @@
   "zinkTemadagPage": {
     "breadcrumb": "Zink-Infotag",
     "eyebrow": "Kostenloses Seminar — ca. 4 Stunden",
-    "heading": "Infotag zum Thema Zink",
-    "intro": "Erfahren Sie mehr über die Möglichkeiten des Zinkdruckgusses. Linimatic veranstaltet Infotage für Konstrukteure, Projektleiter und Einkäufer — kostenlos, bei uns in Helsinge.",
+    "heading": "Infotag zum Zinkdruckguss",
+    "intro": "Erhalten Sie praktisches Wissen über die Möglichkeiten des Zinkdruckgusses – von der Materialwahl und Konstruktion bis zur Produktion und dem fertigen Bauteil.\n\nLinimatic veranstaltet kostenlose Infotage für Konstrukteure, Projektleiter und Einkäufer bei uns in Helsinge. Bringen Sie gerne ein mögliches Bauteil oder eine konkrete Fragestellung mit, die wir an dem Tag gemeinsam durchgehen können. Siehe Programm unten.",
     "agendaHeading": "Programm",
     "agenda": [
       "Zink im Allgemeinen — und woher es kommt",

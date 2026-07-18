@@ -12,6 +12,7 @@ export type ContactFormState = {
 const SUBJECT_LABELS: Record<string, string> = {
   "new-project": "New Project",
   "existing-project": "Existing Project",
+  temadag: "Zinc Info Day",
   general: "General Inquiry",
 };
 

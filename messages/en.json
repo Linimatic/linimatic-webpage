@@ -313,7 +313,7 @@
       },
       {
         "title": "CNC Post-Processing",
-        "description": "In-house milling, turning, drilling, threading, and deburring. Parts go from casting to machining without leaving the building \u2014 preserving traceability and cutting lead time.",
+        "description": "In-house milling, drilling, threading, and deburring. Parts go from casting to machining without leaving the building \u2014 preserving traceability and cutting lead time.",
         "specs": "Full CNC \u00b7 Tumbling \u00b7 Tight secondary tolerances"
       },
       {
@@ -350,7 +350,7 @@
       },
       {
         "service": "CNC Post-Processing",
-        "keySpecs": "Milling \u00b7 Turning \u00b7 Drilling \u00b7 Threading \u00b7 Deburring",
+        "keySpecs": "Milling \u00b7 Drilling \u00b7 Threading \u00b7 Deburring",
         "certifications": "\u2014"
       },
       {
@@ -685,6 +685,7 @@
       "subjectNew": "New Project",
       "subjectExisting": "Existing Project",
       "subjectGeneral": "General Inquiry",
+      "subjectTemadag": "Zinc Info Day",
       "volume": "Expected Volume",
       "volumeSelect": "Select volume range",
       "volumePrototype": "Prototype (<1,000 pcs)",
@@ -999,7 +1000,7 @@
     "postProcessing": {
       "title": "CNC Post-Processing",
       "eyebrow": "In-House CNC Machining for 20+ Years",
-      "overview": "While zinc die casting offers great scope for casting very tight tolerances directly in the casting process, some parts require post-machining to achieve the desired tolerance on surfaces, holes, and milled threads. That is why CNC machining has been one of our in-house processes for more than 20 years: parts go from casting to finished, inspected component without leaving the building — and without external suppliers along the way. Our machining centre handles milling, turning, drilling, thread cutting and thread milling — all under the same roof as the casting.",
+      "overview": "While zinc die casting offers great scope for casting very tight tolerances directly in the casting process, some parts require post-machining to achieve the desired tolerance on surfaces, holes, and milled threads. That is why CNC machining has been one of our in-house processes for more than 20 years: parts go from casting to finished, inspected component without leaving the building — and without external suppliers along the way. Our machining centre handles milling, drilling, thread cutting and thread milling — all under the same roof as the casting.",
       "processHeading": "The production flow — from quotation to finished part",
       "process": [
         {
@@ -1008,7 +1009,7 @@
         },
         {
           "step": "CNC Machining",
-          "description": "Multi-axis CNC milling and turning centres machine critical features: bores, threads, mating surfaces, and tight-tolerance dimensions that exceed as-cast capability."
+          "description": "Multi-axis CNC milling centres machine critical features: bores, threads, mating surfaces, and tight-tolerance dimensions that exceed as-cast capability."
         },
         {
           "step": "Deburring & Finishing",
@@ -1023,7 +1024,7 @@
       "specsHeading": "Machining capabilities",
       "specsNote": "",
       "specs": [
-        { "label": "Operations", "value": "Mill / Turn / Drill / Thread" },
+        { "label": "Operations", "value": "Mill / Drill / Thread" },
         { "label": "Deburring", "value": "Matched to surface requirements" },
         { "label": "As-Cast Tolerance", "value": "\u00b10.05\u2009mm" },
         { "label": "Experience", "value": "20+ years of in-house CNC" },
@@ -1482,8 +1483,8 @@
   "zinkTemadagPage": {
     "breadcrumb": "Zinc Info Day",
     "eyebrow": "Free seminar — approx. 4 hours",
-    "heading": "Zinc Info Day",
-    "intro": "Learn more about the possibilities of zinc die-casting. Linimatic holds info days aimed at designers, project managers and buyers — free of charge, at our facility in Helsinge.",
+    "heading": "Zinc Die-Casting Info Day",
+    "intro": "Get practical knowledge about the possibilities of zinc die-casting – from material selection and design to production and the finished part.\n\nLinimatic holds free info days for designers, project managers and buyers at our facility in Helsinge. Feel free to bring along a potential component or a specific challenge for us to go through on the day. See the agenda below.",
     "agendaHeading": "Agenda",
     "agenda": [
       "Zinc in general — and where it comes from",

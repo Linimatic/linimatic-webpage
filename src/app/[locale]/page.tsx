@@ -9,9 +9,9 @@ import {HeroImageFader} from '@/components/HeroImageFader';
 
 /** Images/video that crossfade in the hero slot. Add more entries here to include them in the rotation. */
 const heroItems = [
+  { type: "image" as const, src: "/images/hero/facility-trucks.jpg", altKey: "hero.heroImageAlt3" },
   { type: "image" as const, src: "/images/services/die-casting-mold.png", altKey: "hero.heroImageAlt" },
   { type: "image" as const, src: "/images/hero/two-generations.png", altKey: "hero.heroImageAlt2" },
-  { type: "image" as const, src: "/images/hero/facility-solar-panels.jpg", altKey: "hero.heroImageAlt3" },
   { type: "video" as const, src: "/videos/hero/robot-cell.mp4", altKey: "hero.heroImageAlt4", durationMs: 8900 },
 ];
 

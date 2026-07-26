@@ -343,7 +343,7 @@
     "capabilities": [
       {
         "service": "Prototypen",
-        "keySpecs": "Erste Muster in 2–4 Wochen · Gleiche Maschinen und Legierungen wie in der Serienproduktion",
+        "keySpecs": "Erste Muster in 2–4 Wochen",
         "certifications": "—"
       },
       {
@@ -975,7 +975,7 @@
       "faqHeading": "H\u00e4ufig gestellte Fragen",
       "faq": [
         {
-          "question": "Was ist Warmkammer-Druckguss?",
+          "question": "Was ist Druckguss?",
           "answer": "Warmkammer-Druckguss von Zink ist ein schnelles und präzises Verfahren, bei dem 420 °C heißes, geschmolzenes Zink unter hohem Druck in ein Formwerkzeug eingespritzt wird. Das Verfahren eignet sich besonders für die Serienproduktion komplexer Teile mit engen Toleranzen, dünnen Wandstärken und einer hochwertigen Oberfläche."
         },
         {

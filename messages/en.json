@@ -340,7 +340,7 @@
     "capabilities": [
       {
         "service": "Prototyping",
-        "keySpecs": "First samples in 2\u20134 weeks \u00b7 Same machines and alloys as series production",
+        "keySpecs": "First samples in 2\u20134 weeks",
         "certifications": "\u2014"
       },
       {
@@ -972,7 +972,7 @@
       "faqHeading": "Frequently Asked Questions",
       "faq": [
         {
-          "question": "What is hot-chamber die casting?",
+          "question": "What is high-pressure die casting?",
           "answer": "Hot-chamber die casting of zinc is a fast and precise process in which molten zinc at 420\u00b0C is injected into a die tool under high pressure. The method is especially suited to series production of complex parts with tight tolerances, thin wall sections, and a fine surface finish."
         },
         {

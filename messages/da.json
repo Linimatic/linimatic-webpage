@@ -343,7 +343,7 @@
     "capabilities": [
       {
         "service": "Prototyper",
-        "keySpecs": "Første prøver på 2–4 uger · Samme maskiner og legeringer som serieproduktion",
+        "keySpecs": "Første prøver 2–4 uger",
         "certifications": "—"
       },
       {
@@ -974,8 +974,8 @@
       "faqHeading": "Ofte stillede spørgsmål",
       "faq": [
         {
-          "question": "Hvad er varmkammer-trykstøbning?",
-          "answer": "Varmkammertrykstøbning i zink er en hurtig og præcis proces, hvor 420\u00b0C varmt smeltet zink, under højt tryk sprøjtes ind i et formværktøj. Metoden egner sig især til serieproduktion af komplekse emner med små tolerancer, tynde godstykkelser og en flot overflade."
+          "question": "Hvad er højtryksstøbning?",
+          "answer": "Højtryksstøbning i zink er en hurtig og præcis proces, hvor 420\u00b0C varmt smeltet zink, under højt tryk sprøjtes ind i et formværktøj. Metoden egner sig især til serieproduktion af komplekse emner med små tolerancer, tynde godstykkelser og en flot overflade."
         },
         {
           "question": "Hvilken Zamak-legering skal jeg bruge?",
@@ -1026,12 +1026,14 @@
       "specsHeading": "Bearbejdningskapabiliteter",
       "specsNote": "",
       "specs": [
-        { "label": "Operationer", "value": "Fræs / Bor / Gevind" },
-        { "label": "Afgratning", "value": "Vælges efter overfladekrav" },
-        { "label": "Tolerance i støbning", "value": "\u00b10,05\u2009mm" },
-        { "label": "Erfaring", "value": "20+ år med intern CNC" },
         { "label": "Placering", "value": "Samme bygning som støberiet" },
-        { "label": "Sporbarhed", "value": "Batchniveau bevaret" }
+        { "label": "Erfaring", "value": "20+ år med intern CNC" },
+        { "label": "Operationer", "value": "Fræs / Bor / Gevind" },
+        { "label": "Tolerance i støbning", "value": "±0,005 mm på udvalgte mål" },
+        { "label": "Positioneringsnøjagtighed", "value": "±0,006 mm" },
+        { "label": "Gentagelsesnøjagtighed", "value": "±0,004 mm" },
+        { "label": "Antal akser", "value": "4" },
+        { "label": "Hulplaceringsnøjagtighed", "value": "±0,01–0,02 mm" }
       ],
       "advantagesHeading": "Én leverandør — ét ansvar",
       "advantages": {

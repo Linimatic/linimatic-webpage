@@ -47,7 +47,7 @@ export function Footer() {
                 href="https://www.linkedin.com/company/linimatic"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-zinc-500 hover:text-ember transition-colors"
+                className="text-zinc-400 hover:text-ember transition-colors"
                 aria-label={t("linkedInAriaLabel")}
               >
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
@@ -59,7 +59,7 @@ export function Footer() {
 
           {/* Services */}
           <div className="lg:col-span-2 lg:col-start-6">
-            <h3 className="text-[11px] font-semibold text-zinc-500 tracking-[0.2em] uppercase mb-5 font-[family-name:var(--font-mono)]">
+            <h3 className="text-[11px] font-semibold text-zinc-400 tracking-[0.2em] uppercase mb-5 font-[family-name:var(--font-mono)]">
               {t("servicesHeading")}
             </h3>
             <ul className="space-y-3">
@@ -67,7 +67,7 @@ export function Footer() {
                 <li key={href}>
                   <Link
                     href={href}
-                    className="text-sm text-zinc-500 hover:text-white transition-colors"
+                    className="text-sm text-zinc-400 hover:text-white transition-colors"
                   >
                     {t(`serviceLinks.${i}`)}
                   </Link>
@@ -78,7 +78,7 @@ export function Footer() {
 
           {/* Company */}
           <div className="lg:col-span-2">
-            <h3 className="text-[11px] font-semibold text-zinc-500 tracking-[0.2em] uppercase mb-5 font-[family-name:var(--font-mono)]">
+            <h3 className="text-[11px] font-semibold text-zinc-400 tracking-[0.2em] uppercase mb-5 font-[family-name:var(--font-mono)]">
               {t("companyHeading")}
             </h3>
             <ul className="space-y-3">
@@ -86,7 +86,7 @@ export function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-zinc-500 hover:text-white transition-colors"
+                    className="text-sm text-zinc-400 hover:text-white transition-colors"
                   >
                     {t(`companyLinks.${link.key}`)}
                   </Link>
@@ -97,7 +97,7 @@ export function Footer() {
 
           {/* Contact */}
           <div className="lg:col-span-2">
-            <h3 className="text-[11px] font-semibold text-zinc-500 tracking-[0.2em] uppercase mb-5 font-[family-name:var(--font-mono)]">
+            <h3 className="text-[11px] font-semibold text-zinc-400 tracking-[0.2em] uppercase mb-5 font-[family-name:var(--font-mono)]">
               {t("contactHeading")}
             </h3>
             <address className="not-italic space-y-3 text-sm">

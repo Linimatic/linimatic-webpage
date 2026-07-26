@@ -266,7 +266,7 @@ export default async function ServiceDetailPage({
                 <h3 className="mt-2 text-sm font-semibold text-zinc-900 font-[family-name:var(--font-display)]">
                   {step.step}
                 </h3>
-                <p className="mt-1 text-sm text-zinc-500 leading-relaxed">
+                <p className="mt-1 text-sm text-zinc-400 leading-relaxed">
                   {step.description}
                 </p>
               </div>
@@ -280,7 +280,7 @@ export default async function ServiceDetailPage({
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-8">
             <div className="w-8 h-px bg-ember" />
-            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
               {t("specsEyebrow")}
             </span>
           </div>
@@ -298,7 +298,7 @@ export default async function ServiceDetailPage({
                 <div className="text-xl sm:text-2xl font-bold text-white font-[family-name:var(--font-mono)] tracking-tight">
                   {spec.value}
                 </div>
-                <div className="mt-2 text-[11px] tracking-[0.15em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+                <div className="mt-2 text-[11px] tracking-[0.15em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
                   {spec.label}
                 </div>
               </div>
@@ -336,7 +336,7 @@ export default async function ServiceDetailPage({
                   <h3 className="text-base font-semibold text-zinc-900 font-[family-name:var(--font-display)] mb-2">
                     {item.question}
                   </h3>
-                  <p className="text-sm text-zinc-500 leading-relaxed">
+                  <p className="text-sm text-zinc-400 leading-relaxed">
                     {item.answer}
                   </p>
                 </div>

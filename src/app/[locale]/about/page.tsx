@@ -106,7 +106,7 @@ export default async function AboutPage({
                 <div className="text-3xl sm:text-4xl font-bold text-white tracking-tight font-[family-name:var(--font-mono)]">
                   {stat.value}
                 </div>
-                <div className="mt-1 text-[11px] tracking-[0.15em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+                <div className="mt-1 text-[11px] tracking-[0.15em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
                   {stat.label}
                 </div>
               </div>
@@ -120,7 +120,7 @@ export default async function AboutPage({
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-8">
             <div className="w-8 h-px bg-ember" />
-            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
               {t("certificationsEyebrow")}
             </span>
           </div>
@@ -136,7 +136,7 @@ export default async function AboutPage({
                 <h3 className="text-base font-semibold text-zinc-900 font-[family-name:var(--font-display)]">
                   {cert.name}
                 </h3>
-                <p className="mt-2 text-sm text-zinc-500">{cert.detail}</p>
+                <p className="mt-2 text-sm text-zinc-400">{cert.detail}</p>
               </div>
             ))}
           </div>
@@ -149,7 +149,7 @@ export default async function AboutPage({
           <div className="max-w-3xl">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-8 h-px bg-ember" />
-              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
                 {t("sustainabilityEyebrow")}
               </span>
             </div>
@@ -170,7 +170,7 @@ export default async function AboutPage({
           <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)] mb-4">
             {t("industriesHeading")}
           </h2>
-          <p className="text-base text-zinc-500 leading-relaxed max-w-2xl mb-10">
+          <p className="text-base text-zinc-400 leading-relaxed max-w-2xl mb-10">
             {t("industriesDescription")}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -195,7 +195,7 @@ export default async function AboutPage({
             <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">
               {t("team.heading")}
             </h2>
-            <p className="mt-4 text-lg text-zinc-500 leading-relaxed">
+            <p className="mt-4 text-lg text-zinc-400 leading-relaxed">
               {t("team.description")}
             </p>
           </div>
@@ -214,7 +214,7 @@ export default async function AboutPage({
                 <h3 className="text-base font-semibold text-zinc-900 font-[family-name:var(--font-display)]">
                   {member.name}
                 </h3>
-                <p className="text-sm text-zinc-500">{member.role}</p>
+                <p className="text-sm text-zinc-400">{member.role}</p>
                 <div className="mt-3 flex flex-col gap-1">
                   <a
                     href={`tel:${member.phone.replace(/\s/g, "")}`}

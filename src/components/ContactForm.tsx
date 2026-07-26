@@ -137,7 +137,7 @@ export function ContactForm() {
           name="files"
           multiple
           accept=".step,.stp,.iges,.igs,.sldprt,.sldasm,.x_t,.pdf,.dwg,.dxf"
-          className="w-full text-sm text-zinc-500 file:mr-4 file:py-2.5 file:px-4 file:border file:border-zinc-300 file:text-sm file:font-medium file:bg-zinc-50 file:text-zinc-700 hover:file:bg-zinc-100 file:cursor-pointer file:transition-colors"
+          className="w-full text-sm text-zinc-400 file:mr-4 file:py-2.5 file:px-4 file:border file:border-zinc-300 file:text-sm file:font-medium file:bg-zinc-50 file:text-zinc-700 hover:file:bg-zinc-100 file:cursor-pointer file:transition-colors"
         />
         <p className="mt-1.5 text-[11px] text-zinc-400 font-[family-name:var(--font-mono)]">
           {t("form.fileFormats")}

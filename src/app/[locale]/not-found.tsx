@@ -16,7 +16,7 @@ export default async function NotFound() {
           <h1 className="text-4xl sm:text-5xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
             {t("title")}
           </h1>
-          <p className="mt-4 text-lg text-zinc-500">{t("description")}</p>
+          <p className="mt-4 text-lg text-zinc-400">{t("description")}</p>
           <Link
             href="/"
             className="mt-8 inline-flex items-center gap-3 bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"

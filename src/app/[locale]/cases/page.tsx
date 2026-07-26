@@ -68,14 +68,14 @@ export default async function CasesPage({
           <div className="max-w-3xl">
             <div className="flex items-center gap-4 mb-6">
               <div className="w-8 h-px bg-ember" />
-              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
                 {t("eyebrow")}
               </span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
               {t("heading")}
             </h1>
-            <p className="mt-6 text-lg text-zinc-500 leading-relaxed max-w-2xl">
+            <p className="mt-6 text-lg text-zinc-400 leading-relaxed max-w-2xl">
               {t("description")}
             </p>
           </div>
@@ -85,7 +85,7 @@ export default async function CasesPage({
             {industries.map((industry) => (
               <span
                 key={industry}
-                className="px-3 py-1.5 text-[11px] tracking-[0.1em] uppercase font-[family-name:var(--font-mono)] border border-zinc-300 text-zinc-500 hover:border-ember hover:text-ember transition-colors cursor-pointer"
+                className="px-3 py-1.5 text-[11px] tracking-[0.1em] uppercase font-[family-name:var(--font-mono)] border border-zinc-300 text-zinc-400 hover:border-ember hover:text-ember transition-colors cursor-pointer"
               >
                 {industry}
               </span>
@@ -117,7 +117,7 @@ export default async function CasesPage({
                     <span className="inline-block text-[11px] tracking-[0.2em] uppercase text-ember font-[family-name:var(--font-mono)] mb-1">
                       {item.client}
                     </span>
-                    <span className="inline-block text-[10px] tracking-[0.1em] uppercase text-zinc-500 font-[family-name:var(--font-mono)] ml-3">
+                    <span className="inline-block text-[10px] tracking-[0.1em] uppercase text-zinc-400 font-[family-name:var(--font-mono)] ml-3">
                       {item.industry}
                     </span>
                     <h2 className="text-lg font-semibold text-white leading-tight font-[family-name:var(--font-display)] tracking-tight mt-2">

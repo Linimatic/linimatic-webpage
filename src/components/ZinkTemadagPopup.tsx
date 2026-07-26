@@ -81,7 +81,7 @@ export function ZinkTemadagPopup() {
           <h3 className="text-xl sm:text-2xl font-bold text-zinc-900 tracking-[-0.02em] leading-tight font-[family-name:var(--font-display)]">
             {t("heading")}
           </h3>
-          <p className="mt-3 text-sm text-zinc-500 leading-relaxed">{t("description")}</p>
+          <p className="mt-3 text-sm text-zinc-400 leading-relaxed">{t("description")}</p>
 
           <Link
             href="/zink-temadag"

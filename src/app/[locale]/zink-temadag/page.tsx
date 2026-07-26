@@ -84,7 +84,7 @@ export default async function ZinkTemadagPage({
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-8">
             <div className="w-8 h-px bg-ember" />
-            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
               {t("datesHeading")}
             </span>
           </div>
@@ -100,7 +100,7 @@ export default async function ZinkTemadagPage({
               </div>
             ))}
           </div>
-          <p className="mt-6 text-sm text-zinc-500">{t("datesNote")}</p>
+          <p className="mt-6 text-sm text-zinc-400">{t("datesNote")}</p>
         </div>
       </section>
 
@@ -129,7 +129,7 @@ export default async function ZinkTemadagPage({
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-5">
             <div className="w-8 h-px bg-ember" />
-            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
               {t("contactHeading")}
             </span>
           </div>
@@ -138,17 +138,17 @@ export default async function ZinkTemadagPage({
           </p>
           <div className="mt-6">
             <div className="text-base font-semibold text-zinc-900">{t("contactName")}</div>
-            <div className="text-sm text-zinc-500">{t("contactRole")}</div>
+            <div className="text-sm text-zinc-400">{t("contactRole")}</div>
             <div className="mt-3 flex flex-col gap-1">
               <a
                 href={`tel:${t("contactPhone").replace(/\s/g, "")}`}
-                className="text-sm text-zinc-500 hover:text-ember transition-colors font-[family-name:var(--font-mono)]"
+                className="text-sm text-zinc-400 hover:text-ember transition-colors font-[family-name:var(--font-mono)]"
               >
                 {t("contactPhone")}
               </a>
               <a
                 href={`mailto:${t("contactEmail")}`}
-                className="text-sm text-zinc-500 hover:text-ember transition-colors"
+                className="text-sm text-zinc-400 hover:text-ember transition-colors"
               >
                 {t("contactEmail")}
               </a>

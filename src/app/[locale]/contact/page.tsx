@@ -65,7 +65,7 @@ export default async function ContactPage({
             <h1 className="text-4xl sm:text-5xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
               {t("heading")}
             </h1>
-            <p className="mt-4 text-lg text-zinc-500">{t("description")}</p>
+            <p className="mt-4 text-lg text-zinc-400">{t("description")}</p>
             <div className="mt-3 inline-flex items-center gap-2 text-sm text-ember font-[family-name:var(--font-mono)]">
               <svg
                 className="h-4 w-4"
@@ -94,7 +94,7 @@ export default async function ContactPage({
             <div className="space-y-10">
               {/* Direct Contacts */}
               <div>
-                <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-500 font-[family-name:var(--font-mono)] font-semibold mb-6">
+                <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-400 font-[family-name:var(--font-mono)] font-semibold mb-6">
                   {t("directContacts")}
                 </h2>
                 <div className="space-y-6">
@@ -113,7 +113,7 @@ export default async function ContactPage({
                         <h3 className="text-sm font-semibold text-zinc-900">
                           {member.name}
                         </h3>
-                        <p className="text-xs text-zinc-500">{member.role}</p>
+                        <p className="text-xs text-zinc-400">{member.role}</p>
                         <div className="mt-1.5 flex flex-col gap-0.5">
                           <a
                             href={`tel:${member.phone.replace(/\s/g, "")}`}
@@ -136,7 +136,7 @@ export default async function ContactPage({
 
               {/* Company Details */}
               <div>
-                <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-500 font-[family-name:var(--font-mono)] font-semibold mb-4">
+                <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-400 font-[family-name:var(--font-mono)] font-semibold mb-4">
                   {t("companyDetails")}
                 </h2>
                 <address className="not-italic space-y-2 text-sm text-zinc-600">
@@ -170,7 +170,7 @@ export default async function ContactPage({
 
               {/* Hours */}
               <div>
-                <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-500 font-[family-name:var(--font-mono)] font-semibold mb-4">
+                <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-400 font-[family-name:var(--font-mono)] font-semibold mb-4">
                   {t("hours")}
                 </h2>
                 <div className="text-sm text-zinc-600 space-y-1">

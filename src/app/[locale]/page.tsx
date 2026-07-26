@@ -122,7 +122,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
               <p className="mt-8 text-xl sm:text-2xl text-zinc-600 font-medium leading-snug tracking-tight animate-fade-up delay-2 font-[family-name:var(--font-display)]">
                 {t('hero.tagline')}
               </p>
-              <p className="mt-4 text-base text-zinc-500 max-w-md leading-relaxed animate-fade-up delay-2">
+              <p className="mt-4 text-base text-zinc-400 max-w-md leading-relaxed animate-fade-up delay-2">
                 {t('hero.description')}
               </p>
               <div className="mt-10 flex flex-col sm:flex-row gap-3 animate-fade-up delay-3">
@@ -150,7 +150,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
               {statsItems.map((stat, i) => (
                 <div key={stat.label} className={`py-8 lg:py-10 ${i > 0 ? "border-l border-zinc-800 pl-6 lg:pl-8" : ""} ${i >= 3 ? "hidden sm:block" : ""}`}>
                   <div className="text-3xl sm:text-4xl font-bold text-white tracking-tight font-[family-name:var(--font-mono)]">{stat.value}</div>
-                  <div className="mt-1 text-[11px] tracking-[0.15em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">{stat.label}</div>
+                  <div className="mt-1 text-[11px] tracking-[0.15em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -205,14 +205,14 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
           <div className="mb-16">
             <div className="flex items-center gap-4 mb-5">
               <div className="w-8 h-px bg-ember" />
-              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
                 {t('valueChain.eyebrow')}
               </span>
             </div>
             <h2 className="text-4xl sm:text-5xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
               {t('valueChain.heading')}
             </h2>
-            <p className="mt-4 text-base text-zinc-500 leading-relaxed max-w-2xl">
+            <p className="mt-4 text-base text-zinc-400 leading-relaxed max-w-2xl">
               {t('valueChain.description')}
             </p>
           </div>
@@ -249,7 +249,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                     {/* Content */}
                     <div className="pr-4 lg:pr-5 pb-8 lg:pb-0 flex flex-col flex-1">
                       <h3 className="text-base font-semibold text-zinc-900 group-hover:text-ember transition-colors duration-300 font-[family-name:var(--font-display)] tracking-tight mb-1.5">{step.title}</h3>
-                      <p className="text-[15px] text-zinc-500 leading-relaxed">{step.description}</p>
+                      <p className="text-[15px] text-zinc-400 leading-relaxed">{step.description}</p>
                       <p className="mt-auto pt-3 text-[11px] tracking-[0.05em] text-ember font-[family-name:var(--font-mono)]">{step.specs}</p>
                     </div>
                   </Link>
@@ -275,7 +275,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
               {t('valueChain.cta')}
               <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
             </Link>
-            <Link href="/services" className="group inline-flex items-center gap-3 text-sm font-medium text-zinc-500 hover:text-zinc-900 transition-colors">
+            <Link href="/services" className="group inline-flex items-center gap-3 text-sm font-medium text-zinc-400 hover:text-zinc-900 transition-colors">
               <span className="border-b border-zinc-300 group-hover:border-zinc-600 pb-px transition-colors">{t('valueChain.allServices')}</span>
               <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
             </Link>
@@ -302,7 +302,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
               </blockquote>
               <div className="mt-5">
                 <div className="text-base font-semibold text-zinc-900">{t('clients.testimonial.author')}</div>
-                <div className="text-sm text-zinc-500">{t('clients.testimonial.role')}</div>
+                <div className="text-sm text-zinc-400">{t('clients.testimonial.role')}</div>
               </div>
             </div>
           )}
@@ -316,11 +316,11 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
             <div>
               <div className="flex items-center gap-4 mb-5">
                 <div className="w-8 h-px bg-ember" />
-                <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">{t('cases.eyebrow')}</span>
+                <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">{t('cases.eyebrow')}</span>
               </div>
               <h2 className="text-4xl sm:text-5xl font-bold text-white tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">{t('cases.heading')}</h2>
             </div>
-            <Link href="/cases" className="group inline-flex items-center gap-3 text-sm font-medium text-zinc-500 hover:text-white transition-colors">
+            <Link href="/cases" className="group inline-flex items-center gap-3 text-sm font-medium text-zinc-400 hover:text-white transition-colors">
               <span className="border-b border-zinc-700 group-hover:border-zinc-400 pb-px transition-colors">{t('cases.allCases')}</span>
               <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
             </Link>
@@ -359,11 +359,11 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="flex items-center justify-center gap-4 mb-5">
               <div className="w-8 h-px bg-ember" />
-              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">{t('team.eyebrow')}</span>
+              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">{t('team.eyebrow')}</span>
               <div className="w-8 h-px bg-ember" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">{t('team.heading')}</h2>
-            <p className="mt-5 text-lg text-zinc-500 leading-relaxed">{t('team.description')}</p>
+            <p className="mt-5 text-lg text-zinc-400 leading-relaxed">{t('team.description')}</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
@@ -379,7 +379,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                   />
                 </div>
                 <h3 className="text-base font-semibold text-zinc-900 font-[family-name:var(--font-display)]">{member.name}</h3>
-                <p className="text-sm text-zinc-500">{member.role}</p>
+                <p className="text-sm text-zinc-400">{member.role}</p>
                 <div className="mt-3 flex flex-col gap-1">
                   <a href={`tel:${member.phone.replace(/\s/g, '')}`} className="text-xs text-zinc-400 hover:text-ember transition-colors font-[family-name:var(--font-mono)]">{member.phone}</a>
                   <a href={`mailto:${member.email}`} className="text-xs text-zinc-400 hover:text-ember transition-colors">{member.email}</a>

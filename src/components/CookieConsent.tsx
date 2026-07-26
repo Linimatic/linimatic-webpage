@@ -155,8 +155,8 @@ export function CookieConsent() {
                     </div>
                     <div>
                       <div className="text-sm font-semibold text-white">{t("necessary.title")}</div>
-                      <span className="inline-block mt-1 text-[10px] tracking-wider uppercase text-zinc-500 font-[family-name:var(--font-mono)]">{t("necessary.status")}</span>
-                      <p className="mt-1.5 text-xs text-zinc-500 leading-relaxed">
+                      <span className="inline-block mt-1 text-[10px] tracking-wider uppercase text-zinc-400 font-[family-name:var(--font-mono)]">{t("necessary.status")}</span>
+                      <p className="mt-1.5 text-xs text-zinc-400 leading-relaxed">
                         {t("necessary.description")}
                       </p>
                     </div>
@@ -186,7 +186,7 @@ export function CookieConsent() {
                       }`}>
                         {preferences.analytics ? t("analytics.enabled") : t("analytics.disabled")}
                       </span>
-                      <p className="mt-1.5 text-xs text-zinc-500 leading-relaxed">
+                      <p className="mt-1.5 text-xs text-zinc-400 leading-relaxed">
                         {t("analytics.description")}
                       </p>
                     </div>
@@ -216,7 +216,7 @@ export function CookieConsent() {
                       }`}>
                         {preferences.marketing ? t("marketing.enabled") : t("marketing.disabled")}
                       </span>
-                      <p className="mt-1.5 text-xs text-zinc-500 leading-relaxed">
+                      <p className="mt-1.5 text-xs text-zinc-400 leading-relaxed">
                         {t("marketing.description")}
                       </p>
                     </div>

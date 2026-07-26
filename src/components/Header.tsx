@@ -231,7 +231,7 @@ export function Header() {
               {(['en', 'da', 'de'] as const).map((l, i) => (
                 <Fragment key={l}>
                   {i > 0 && <span className="text-zinc-600">|</span>}
-                  <Link href={pathname} locale={l} className={locale === l ? 'font-semibold text-ember' : scrolled ? 'text-zinc-400 hover:text-zinc-700' : 'text-zinc-500 hover:text-white'}>
+                  <Link href={pathname} locale={l} className={locale === l ? 'font-semibold text-ember' : scrolled ? 'text-zinc-400 hover:text-zinc-700' : 'text-zinc-400 hover:text-white'}>
                     {l.toUpperCase()}
                   </Link>
                 </Fragment>
@@ -295,7 +295,7 @@ export function Header() {
               {(['en', 'da', 'de'] as const).map((l, i) => (
                 <Fragment key={l}>
                   {i > 0 && <span className="text-zinc-600">|</span>}
-                  <Link href={pathname} locale={l} className={locale === l ? 'font-semibold text-ember' : 'text-zinc-500 hover:text-white'}>
+                  <Link href={pathname} locale={l} className={locale === l ? 'font-semibold text-ember' : 'text-zinc-400 hover:text-white'}>
                     {l.toUpperCase()}
                   </Link>
                 </Fragment>

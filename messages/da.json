@@ -297,12 +297,12 @@
   "services": {
     "breadcrumb": "Ydelser",
     "eyebrow": "Komplet værdikæde",
-    "heading": "Alt under ét tag.",
-    "description": "De fleste støberier støber dit emne og sender det videre. Vi støber det, bearbejder det, behandler overfladen, inspicerer det og leverer det — fra én facilitet med ét kontaktpunkt. Ingen outsourcede trin. Ingen kvalitetshuller mellem leverandører. Hurtigere gennemløbstid og konsistente resultater fra første emne til den millionte.",
+    "heading": "Ydelser – fra støbning til levering",
+    "description": "Linimatic håndterer hele processen fra zinktrykstøbning til det færdige emne er kvalitetskontrolleret, pakket og klar til levering. Processer som tromling, vibrationsafgratning, slyngrensning, plastblæsning, CNC-bearbejdning og montage udføres internt på vores fabrik. Eventuel overfladebehandling varetages af nøje udvalgte og godkendte samarbejdspartnere. Den afsluttende kvalitetskontrol og pakning foretages altid hos Linimatic.",
     "valueChainHeading": "Fra tegning til færdigt emne",
     "catalogEyebrow": "Kompetencer",
-    "catalogHeading": "Seks discipliner, ét tag",
-    "catalogDescription": "Fra første prototype til færdig montage kører hvert trin i værdikæden in-house i Helsinge. Udforsk hver kompetence.",
+    "catalogHeading": "Seks discipliner, ét ansvar",
+    "catalogDescription": "Fra første prototype til færdig montage styrer vi hvert trin i værdikæden. De fleste af dem foregår i eget hus i Helsinge, mens overfladebehandling varetages af faste, godkendte samarbejdspartnere. Udforsk hver kompetence.",
     "items": [
       {
         "title": "Prototyper",

@@ -297,12 +297,12 @@
   "services": {
     "breadcrumb": "Leistungen",
     "eyebrow": "Komplette Wertschöpfungskette",
-    "heading": "Alles unter einem Dach.",
-    "description": "Die meisten Gießereien gießen Ihr Bauteil und reichen es weiter. Wir gießen es, bearbeiten es, beschichten es, prüfen es und liefern es \u2014 aus einer einzigen Anlage mit einem einzigen Ansprechpartner. Keine ausgelagerten Schritte. Keine Qualitätslücken zwischen Lieferanten. Schnellere Durchlaufzeiten und gleichbleibende Ergebnisse vom ersten bis zum millionsten Bauteil.",
+    "heading": "Leistungen – vom Guss bis zur Lieferung",
+    "description": "Linimatic übernimmt den gesamten Prozess vom Zinkdruckguss, bis das fertige Bauteil qualitätsgeprüft, verpackt und lieferbereit ist. Prozesse wie Trommeln, Vibrationsentgraten, Strahlen, Kunststoffstrahlen, CNC-Bearbeitung und Montage werden intern in unserem Werk durchgeführt. Eine eventuelle Oberflächenbehandlung übernehmen sorgfältig ausgewählte und geprüfte Partner. Die abschließende Qualitätskontrolle und Verpackung erfolgt immer bei Linimatic.",
     "valueChainHeading": "Von der Zeichnung zum fertigen Bauteil",
     "catalogEyebrow": "Kompetenzen",
-    "catalogHeading": "Sechs Disziplinen, ein Dach",
-    "catalogDescription": "Vom ersten Prototyp bis zur fertigen Montage läuft jeder Schritt der Wertschöpfungskette im eigenen Haus in Helsinge. Entdecken Sie jede Kompetenz.",
+    "catalogHeading": "Sechs Disziplinen, eine Verantwortung",
+    "catalogDescription": "Vom ersten Prototyp bis zur fertigen Montage steuern wir jeden Schritt der Wertschöpfungskette. Die meisten davon erfolgen im eigenen Haus in Helsinge, während die Oberflächenbehandlung von festen, geprüften Partnern übernommen wird. Entdecken Sie jede Kompetenz.",
     "items": [
       {
         "title": "Prototypen",

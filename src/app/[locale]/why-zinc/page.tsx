@@ -136,7 +136,7 @@ export default async function WhyZincPage({
                 <div className="text-[11px] tracking-[0.15em] uppercase text-ember font-[family-name:var(--font-mono)] mb-3">
                   {adv.label}
                 </div>
-                <p className="text-sm text-zinc-500 leading-relaxed">
+                <p className="text-sm text-zinc-400 leading-relaxed">
                   {adv.description}
                 </p>
               </div>
@@ -152,7 +152,7 @@ export default async function WhyZincPage({
             <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">
               {t("comparison.heading")}
             </h2>
-            <p className="mt-4 text-base text-zinc-500 max-w-2xl">
+            <p className="mt-4 text-base text-zinc-400 max-w-2xl">
               {t("comparison.description")}
             </p>
           </div>
@@ -166,7 +166,7 @@ export default async function WhyZincPage({
                       className={`text-left py-4 pr-6 text-[11px] tracking-[0.15em] uppercase font-[family-name:var(--font-mono)] font-medium ${
                         i === 1
                           ? "text-ember"
-                          : "text-zinc-500"
+                          : "text-zinc-400"
                       }`}
                     >
                       {header}
@@ -186,13 +186,13 @@ export default async function WhyZincPage({
                     <td className="py-3 pr-6 text-zinc-900 font-semibold font-[family-name:var(--font-mono)]">
                       {row.zinc}
                     </td>
-                    <td className="py-3 pr-6 text-zinc-500 font-[family-name:var(--font-mono)]">
+                    <td className="py-3 pr-6 text-zinc-400 font-[family-name:var(--font-mono)]">
                       {row.aluminum}
                     </td>
-                    <td className="py-3 pr-6 text-zinc-500 font-[family-name:var(--font-mono)]">
+                    <td className="py-3 pr-6 text-zinc-400 font-[family-name:var(--font-mono)]">
                       {row.magnesium}
                     </td>
-                    <td className="py-3 text-zinc-500 font-[family-name:var(--font-mono)]">
+                    <td className="py-3 text-zinc-400 font-[family-name:var(--font-mono)]">
                       {row.plastic}
                     </td>
                   </tr>
@@ -209,26 +209,26 @@ export default async function WhyZincPage({
           <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)] mb-4">
             {t("alloys.heading")}
           </h2>
-          <p className="text-base text-zinc-500 max-w-2xl mb-10">
+          <p className="text-base text-zinc-400 max-w-2xl mb-10">
             {t("alloys.description")}
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
                 <tr className="border-b-2 border-zinc-300">
-                  <th className="text-left py-4 pr-6 text-[11px] tracking-[0.15em] uppercase text-zinc-500 font-[family-name:var(--font-mono)] font-medium">
+                  <th className="text-left py-4 pr-6 text-[11px] tracking-[0.15em] uppercase text-zinc-400 font-[family-name:var(--font-mono)] font-medium">
                     {t("alloys.colAlloy")}
                   </th>
-                  <th className="text-left py-4 pr-6 text-[11px] tracking-[0.15em] uppercase text-zinc-500 font-[family-name:var(--font-mono)] font-medium">
+                  <th className="text-left py-4 pr-6 text-[11px] tracking-[0.15em] uppercase text-zinc-400 font-[family-name:var(--font-mono)] font-medium">
                     {t("alloys.colTensile")}
                   </th>
-                  <th className="text-left py-4 pr-6 text-[11px] tracking-[0.15em] uppercase text-zinc-500 font-[family-name:var(--font-mono)] font-medium">
+                  <th className="text-left py-4 pr-6 text-[11px] tracking-[0.15em] uppercase text-zinc-400 font-[family-name:var(--font-mono)] font-medium">
                     {t("alloys.colElongation")}
                   </th>
-                  <th className="text-left py-4 pr-6 text-[11px] tracking-[0.15em] uppercase text-zinc-500 font-[family-name:var(--font-mono)] font-medium">
+                  <th className="text-left py-4 pr-6 text-[11px] tracking-[0.15em] uppercase text-zinc-400 font-[family-name:var(--font-mono)] font-medium">
                     {t("alloys.colHardness")}
                   </th>
-                  <th className="text-left py-4 text-[11px] tracking-[0.15em] uppercase text-zinc-500 font-[family-name:var(--font-mono)] font-medium">
+                  <th className="text-left py-4 text-[11px] tracking-[0.15em] uppercase text-zinc-400 font-[family-name:var(--font-mono)] font-medium">
                     {t("alloys.colUse")}
                   </th>
                 </tr>
@@ -251,7 +251,7 @@ export default async function WhyZincPage({
                     <td className="py-3 pr-6 text-zinc-600 font-[family-name:var(--font-mono)]">
                       {row.hardness}
                     </td>
-                    <td className="py-3 text-zinc-500">{row.use}</td>
+                    <td className="py-3 text-zinc-400">{row.use}</td>
                   </tr>
                 ))}
               </tbody>
@@ -273,7 +273,7 @@ export default async function WhyZincPage({
                   <h3 className="text-lg font-semibold text-zinc-900 font-[family-name:var(--font-display)] mb-2">
                     {item.question}
                   </h3>
-                  <p className="text-base text-zinc-500 leading-relaxed">
+                  <p className="text-base text-zinc-400 leading-relaxed">
                     {item.answer}
                   </p>
                 </div>

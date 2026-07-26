@@ -294,12 +294,12 @@
   "services": {
     "breadcrumb": "Services",
     "eyebrow": "Full Value Chain",
-    "heading": "Everything under one roof.",
-    "description": "Most foundries cast your part and hand it off. We cast it, machine it, coat it, inspect it, and deliver it \u2014 from a single facility with a single point of contact. No outsourced steps. No quality gaps between suppliers. Faster turnaround and consistent results from first article to millionth.",
+    "heading": "Services \u2013 from casting to delivery",
+    "description": "Linimatic handles the entire process from zinc die-casting until the finished part is quality-checked, packed and ready for delivery. Processes such as tumbling, vibratory deburring, shot blasting, plastic media blasting, CNC machining and assembly are carried out in-house at our facility. Any surface treatment is handled by carefully selected and approved partners. Final quality control and packing is always carried out by Linimatic.",
     "valueChainHeading": "From drawing to delivered component",
     "catalogEyebrow": "Capabilities",
-    "catalogHeading": "Six disciplines, one roof",
-    "catalogDescription": "From first prototype to finished assembly, every step of the value chain runs in-house in Helsinge. Explore each capability.",
+    "catalogHeading": "Six disciplines, one responsibility",
+    "catalogDescription": "From first prototype to finished assembly, we manage every step of the value chain. Most of it happens in-house in Helsinge, while surface treatment is handled by trusted, approved partners. Explore each capability.",
     "items": [
       {
         "title": "Prototyping",

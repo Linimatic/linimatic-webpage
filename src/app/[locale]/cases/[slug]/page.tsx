@@ -133,7 +133,7 @@ export default async function CaseDetailPage({
               {/* Eyebrow: client · industry */}
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-8 h-px bg-ember" />
-                <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+                <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
                   {client}
                   <span className="mx-2 text-zinc-300">·</span>
                   {industry}
@@ -170,7 +170,7 @@ export default async function CaseDetailPage({
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-6">
             <div className="w-8 h-px bg-ember" />
-            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
               01
             </span>
           </div>
@@ -188,7 +188,7 @@ export default async function CaseDetailPage({
         <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-6">
             <div className="w-8 h-px bg-ember" />
-            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
               02
             </span>
           </div>
@@ -206,7 +206,7 @@ export default async function CaseDetailPage({
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-6">
             <div className="w-8 h-px bg-ember" />
-            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
               03
             </span>
           </div>
@@ -275,7 +275,7 @@ export default async function CaseDetailPage({
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-8">
             <div className="w-8 h-px bg-ember" />
-            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
               {tCases("breadcrumb")}
             </span>
           </div>

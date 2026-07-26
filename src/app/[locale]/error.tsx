@@ -19,7 +19,7 @@ export default function Error({
           <h1 className="text-4xl sm:text-5xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
             Something went wrong
           </h1>
-          <p className="mt-4 text-lg text-zinc-500">
+          <p className="mt-4 text-lg text-zinc-400">
             An unexpected error occurred. Please try again.
           </p>
           <button

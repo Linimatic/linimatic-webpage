@@ -1083,15 +1083,17 @@
         }
       ],
       "specsEyebrow": "Technical Specifications",
-      "specsHeading": "Available finishes and capabilities",
+      "specsHeading": "Available surface finishes",
       "specsNote": "",
       "specs": [
-        { "label": "Chrome Plating", "value": "Decorative & functional" },
-        { "label": "Powder Coating", "value": "Full RAL range" },
-        { "label": "Wet Paint", "value": "Colour-matched" },
-        { "label": "E-Coating", "value": "Cathodic electrocoat" },
-        { "label": "Laser Engraving", "value": "Logos / markings / codes" },
-        { "label": "As-Cast Surface", "value": "0.8 Ra \u03bcm" }
+        { "label": "Decorative and functional", "value": "Chrome" },
+        { "label": "Functional corrosion protection", "value": "Passivation" },
+        { "label": "Protective and decorative – full RAL range", "value": "Powder Coating" },
+        { "label": "Decorative and protective", "value": "Wet Paint" },
+        { "label": "Corrosion protective, decorative", "value": "Delta Seal Black" },
+        { "label": "Decorative, wear-resistant", "value": "PVD" },
+        { "label": "Decorative, corrosion protective", "value": "Nickel Plating" },
+        { "label": "Uniform, thin corrosion protection", "value": "KTL" }
       ],
       "advantagesHeading": "Surface treatment starts with the casting itself",
       "advantages": {
@@ -1139,25 +1141,29 @@
     },
     "quality": {
       "title": "Quality & Certification",
-      "eyebrow": "ISO 9001 Certified Since 1993",
-      "overview": "Linimatic has held ISO 9001 certification since 1993 \u2014 over 30 years of independently audited quality management covering every step from incoming material to final shipment. Our quality system is built on CMM-verified dimensional inspection, real-time SPC process monitoring, full PPAP documentation capability, and batch-level traceability on every component we ship. This is not a checkbox exercise \u2014 it is the operational discipline that enables \u00b10.05\u2009mm tolerances at volume.",
+      "eyebrow": "More than 30 years of certified quality management",
+      "overview": "Linimatic has been ISO 9001 certified since 1993. Our quality management system forms the framework for all our business processes – from reviewing customer requirements and specifications to purchasing, incoming goods, production, quality control and delivery. All processes are carried out according to defined procedures and control plans, so quality is managed and documented throughout the entire process.",
       "processHeading": "How we ensure quality at every step",
       "process": [
         {
-          "step": "Incoming Material Control",
-          "description": "Every alloy batch is verified against material certificates before entering production. Composition is confirmed and traceability is established from raw material through to finished component."
+          "step": "Incoming Goods Inspection",
+          "description": "Material certificates are checked upon receipt of the zinc."
         },
         {
-          "step": "In-Process SPC Monitoring",
-          "description": "Statistical process control runs in real time on every die-casting machine. Critical dimensions are measured at defined intervals and plotted against control limits. Process drift is detected and corrected before out-of-spec parts are produced."
+          "step": "Ongoing Process Control",
+          "description": "Production is monitored continuously according to the defined control plan for each process."
         },
         {
-          "step": "CMM Dimensional Inspection",
-          "description": "Coordinate measuring machines verify part dimensions against 3D CAD models and GD&T specifications. First article inspection reports are generated for every new tool and after every tool modification."
+          "step": "Self-Inspection and QC Sampling",
+          "description": "Operators' self-inspection is supplemented by sample checks carried out by the quality department."
         },
         {
-          "step": "Final Inspection & Documentation",
-          "description": "Finished components are inspected per the control plan before shipment. Inspection records, material certificates, and dimensional reports are archived and available on request. PPAP documentation is provided for automotive and other regulated customers."
+          "step": "SPC Measurement and Recording",
+          "description": "When agreed, SPC is used for ongoing measurement and documentation of process stability."
+        },
+        {
+          "step": "Coordinate Measuring Machine Inspection",
+          "description": "Critical dimensions and geometric tolerances are checked on a coordinate measuring machine (CMM) when specified."
         }
       ],
       "specsEyebrow": "Technical Specifications",
@@ -1171,10 +1177,10 @@
         { "label": "Traceability", "value": "Batch-level, full chain" },
         { "label": "First Article", "value": "ISIR / FAI reports" }
       ],
-      "advantagesHeading": "Why quality depth matters for your supply chain",
+      "advantagesHeading": "What does ISO 9001 mean for you as a customer?",
       "advantages": {
-        "p1": "A quality page with an ISO logo and a vague paragraph about \u201ccontinuous improvement\u201d tells a procurement professional nothing. What matters is whether the supplier can produce a PPAP package, whether SPC is actually running on the machines, and whether traceability data can be retrieved when a customer issue arises two years after delivery. At Linimatic, the answer to all three is yes \u2014 because our quality system was not bolted on for certification purposes; it was built to run a precision foundry.",
-        "p2": "The integrated value chain amplifies quality control. Because casting, machining, and surface treatment all happen under one roof, a single SPC system governs the entire process. Dimensional data from the casting machine feeds directly into machining parameters. Coating thickness is verified against the same CMM that checked the casting. There are no quality gaps between suppliers \u2014 because there are no other suppliers."
+        "p1": "A certified quality management system gives you assurance that requirements, specifications and changes are handled systematically throughout the entire process. Deviations are recorded, the root cause investigated, and corrective actions carried out – reducing the risk of recurrence.",
+        "p2": "In short, it means greater delivery reliability, fewer quality issues, and more predictable production."
       },
       "faqHeading": "Frequently Asked Questions",
       "faq": [
@@ -1184,15 +1190,15 @@
         },
         {
           "question": "Can you provide PPAP documentation?",
-          "answer": "Yes. We provide PPAP documentation at Levels 1 through 3 for automotive and other regulated-industry customers. This includes dimensional results, material certifications, process flow diagrams, control plans, and measurement system analysis."
+          "answer": "Yes. We provide PPAP documentation at Level 1 to 3 by agreement with the customer."
         },
         {
-          "question": "How do you ensure dimensional accuracy?",
-          "answer": "Dimensional accuracy is ensured through three layers: CMM-verified first article inspection for every new and modified tool, real-time SPC monitoring during production, and final inspection per the control plan before shipment. Process drift is detected and corrected in real time, before out-of-spec parts reach the end of the line."
+          "question": "How does Linimatic ensure quality during ongoing production?",
+          "answer": "Quality is monitored throughout production according to a defined control plan for each component and process. Operators’ ongoing self-inspection is supplemented by sample checks from the quality department. When agreed, SPC measurements are also used to monitor process stability, along with inspection on a coordinate measuring machine."
         },
         {
           "question": "What traceability do you provide per batch?",
-          "answer": "Every batch is traceable from raw material (alloy heat number, supplier certificate) through casting (machine, die, date, shift, process parameters) to machining, coating, inspection, and shipment. If a quality issue surfaces in the field, we can identify every other part produced under the same conditions."
+          "answer": "Every batch is traceable from raw material (alloy heat number, supplier certificate) through casting (machine, die, date, shift, process parameters) to machining, coating, inspection, and shipment."
         }
       ],
       "relatedHeading": "Related Services",

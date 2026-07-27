@@ -1087,15 +1087,17 @@
         }
       ],
       "specsEyebrow": "Tekniske specifikationer",
-      "specsHeading": "Tilgængelige overfladebehandlinger og kapabiliteter",
+      "specsHeading": "Udvalg af mulige overfladetyper",
       "specsNote": "",
       "specs": [
-        { "label": "Forkromning", "value": "Dekorativ & funktionel" },
-        { "label": "Pulverlakering", "value": "Fuld RAL-palette" },
-        { "label": "Vådlakering", "value": "Farvetilpasset" },
-        { "label": "E-coating", "value": "Katodisk elektrocoating" },
-        { "label": "Lasergravering", "value": "Logoer / mærkninger / koder" },
-        { "label": "Overflade i støbning", "value": "0,8 Ra \u03bcm" }
+        { "label": "Dekorativ og funktionel", "value": "Krom" },
+        { "label": "Funktionel korrosionsbeskyttelse", "value": "Passivering" },
+        { "label": "Beskyttende og dekorativ - fuld RAL palette", "value": "Pulver maling" },
+        { "label": "Dekorativ og beskyttende", "value": "Våd lakering" },
+        { "label": "Korrosionsbeskyttende, dekorativ", "value": "Delta Seal sort" },
+        { "label": "Dekorativ, slidstærk", "value": "PVD" },
+        { "label": "Dekorativ, korrosionsbeskyttende", "value": "Fornikling" },
+        { "label": "Ensartet tynd korrosionsbeskyttelse", "value": "KTL" }
       ],
       "advantagesHeading": "Overfladebehandling begynder allerede ved støbningen",
       "advantages": {
@@ -1143,25 +1145,29 @@
     },
     "quality": {
       "title": "Kvalitet & certificering",
-      "eyebrow": "ISO 9001-certificeret siden 1993",
-      "overview": "Linimatic har haft ISO 9001-certificering siden 1993 — over 30 år med uafhængigt auditeret kvalitetsstyring, der dækker hvert trin fra indgående materiale til endelig forsendelse. Vores kvalitetssystem er bygget på CMM-verificeret dimensionsinspektion, realtids-SPC-procesovervågning, fuld PPAP-dokumentationskapabilitet og batchniveausporbarhed på hver komponent, vi forsender. Dette er ikke en afkrydsningsøvelse — det er den operationelle disciplin, der muliggør \u00b10,05\u2009mm tolerancer ved volumen.",
+      "eyebrow": "Mere end 30 års certificeret kvalitetsstyring",
+      "overview": "Linimatic har været ISO 9001-certificeret siden 1993. Kvalitetsledelsessystemet danner rammen om alle vores forretningsgange – fra gennemgang af kundekrav og specifikationer til indkøb, varemodtagelse, produktion, kvalitetskontrol og levering. Alle processer gennemføres efter fastlagte procedurer og kontrolplaner, så kvaliteten styres og dokumenteres gennem hele forløbet.",
       "processHeading": "Sådan sikrer vi kvalitet i hvert trin",
       "process": [
         {
-          "step": "Indgangskontrol",
-          "description": "Hvert legeringsbatch verificeres mod materialecertifikater, inden det går i produktion. Sammensætning bekræftes, og sporbarhed etableres fra råmateriale til færdigt emne."
+          "step": "Kontrol ved varemodtagelse",
+          "description": "Materialecertifikater kontrolleres ved modtagelse af zink."
         },
         {
-          "step": "SPC-overvågning i proces",
-          "description": "Statistisk processtyring kører i realtid på alle trykstøbningsmaskiner. Kritiske dimensioner måles med definerede intervaller og plottes mod kontrolgrænser. Procesafvigelse opdages og korrigeres, inden emner uden for specifikation produceres."
+          "step": "Løbende proceskontrol",
+          "description": "Produktionen kontrolleres løbende efter den fastlagte kontrolplan for hver proces."
         },
         {
-          "step": "CMM-dimensionskontrol",
-          "description": "Koordinatmålemaskiner verificerer emnedimensioner mod 3D CAD-modeller og GD&T-specifikationer. Første-emne-inspektionsrapporter genereres til hvert nyt værktøj og efter hver ændring af værktøj."
+          "step": "Egenkontrol og QC-stikprøver",
+          "description": "Operatørernes egenkontrol suppleres med stikprøvekontrol udført af kvalitetsafdelingen."
         },
         {
-          "step": "Slutinspektion & dokumentation",
-          "description": "Færdige komponenter inspiceres i henhold til kontrolplanen inden forsendelse. Inspektionsregistre, materialecertifikater og dimensionsrapporter arkiveres og er tilgængelige på forespørgsel. PPAP-dokumentation leveres til automotive og andre regulerede kunder."
+          "step": "SPC-måling og registrering",
+          "description": "Når det er aftalt, anvendes SPC til løbende måling og dokumentation af processens stabilitet."
+        },
+        {
+          "step": "Måling på koordinatmålemaskine",
+          "description": "Kritiske mål og geometriske tolerancer kontrolleres på koordinatmålemaskine, når det er specificeret."
         }
       ],
       "specsEyebrow": "Tekniske specifikationer",
@@ -1175,10 +1181,10 @@
         { "label": "Sporbarhed", "value": "Batchniveau, fuld kæde" },
         { "label": "Første emne", "value": "ISIR / FAI-rapporter" }
       ],
-      "advantagesHeading": "Hvorfor kvalitetsdybde betyder noget for din forsyningskæde",
+      "advantagesHeading": "Hvad betyder ISO 9001 for dig som kunde?",
       "advantages": {
-        "p1": "En kvalitetsside med et ISO-logo og et vagt afsnit om \"løbende forbedring\" fortæller en indkøbsprofessionel ingenting. Det, der betyder noget, er om leverandøren kan producere en PPAP-pakke, om SPC faktisk kører på maskinerne, og om sporbarhedsdata kan hentes, når et kundeproblem opstår to år efter levering. Hos Linimatic er svaret på alle tre ja — fordi vores kvalitetssystem ikke blev tilføjet til certificeringsformål; det blev bygget til at drive et præcisionsstøberi.",
-        "p2": "Den integrerede værdikæde forstærker kvalitetskontrollen. Fordi støbning, bearbejdning og overfladebehandling alle sker under ét tag, styrer et enkelt SPC-system hele processen. Dimensionsdata fra støbningsmaskinen indgår direkte i bearbejdningsparametrene. Coatingtykkelse verificeres mod den samme CMM, der kontrollerede støbeemnet. Der er ingen kvalitetshuller mellem leverandører — fordi der ikke er andre leverandører."
+        "p1": "Et certificeret kvalitetsledelsessystem giver dig sikkerhed for, at krav, specifikationer og ændringer bliver håndteret systematisk gennem hele forløbet. Afvigelser bliver registreret, årsagen undersøgt, og korrigerende handlinger gennemført – så risikoen for gentagelser reduceres.",
+        "p2": "Kort sagt giver det større leveringssikkerhed, færre kvalitetsproblemer og en mere forudsigelig produktion."
       },
       "faqHeading": "Ofte stillede spørgsmål",
       "faq": [
@@ -1188,15 +1194,15 @@
         },
         {
           "question": "Kan I levere PPAP-dokumentation?",
-          "answer": "Ja. Vi leverer PPAP-dokumentation på Niveau 1 til 3 til automotive og andre regulerede branchekunder. Det inkluderer dimensionsresultater, materialecertificeringer, procesflowdiagrammer, kontrolplaner og målesystemanalyse."
+          "answer": "Ja. Vi leverer PPAP-dokumentation på Niveau 1 til 3 efter aftale med kunden."
         },
         {
-          "question": "Hvordan sikrer I dimensionsnøjagtighed?",
-          "answer": "Dimensionsnøjagtighed sikres gennem tre lag: CMM-verificeret første-emne-inspektion for hvert nyt og modificeret værktøj, realtids-SPC-overvågning under produktion og slutinspektion i henhold til kontrolplanen inden forsendelse. Procesafvigelse opdages og korrigeres i realtid, inden emner uden for specifikation når enden af linjen."
+          "question": "Hvordan sikrer Linimatic kvaliteten under den løbende produktion?",
+          "answer": "Kvaliteten kontrolleres gennem hele produktionen efter en fastlagt kontrolplan for den enkelte komponent og proces. Operatørernes løbende egenkontrol suppleres med stikprøver fra kvalitetsafdelingen. Når det er aftalt, anvendes desuden SPC-målinger til overvågning af processens stabilitet samt kontrol på koordinatmålemaskine."
         },
         {
           "question": "Hvilken sporbarhed leverer I pr. batch?",
-          "answer": "Hvert batch er sporbart fra råmateriale (legeringens chargenummer, leverandørcertifikat) gennem støbning (maskine, form, dato, skift, procesparametre) til bearbejdning, coating, inspektion og forsendelse. Hvis et kvalitetsproblem opstår i marken, kan vi identificere alle andre emner produceret under de samme betingelser."
+          "answer": "Hvert batch er sporbart fra råmateriale (legeringens chargenummer, leverandørcertifikat) gennem støbning (maskine, form, dato, skift, procesparametre) til bearbejdning, coating, inspektion og forsendelse."
         }
       ],
       "relatedHeading": "Relaterede ydelser",

@@ -1086,15 +1086,17 @@
         }
       ],
       "specsEyebrow": "Technische Spezifikationen",
-      "specsHeading": "Verf\u00fcgbare Oberfl\u00e4chenbehandlungen und Kapazit\u00e4ten",
+      "specsHeading": "Verfügbare Oberflächentypen",
       "specsNote": "",
       "specs": [
-        { "label": "Verchromung", "value": "Dekorativ & funktional" },
-        { "label": "Pulverlackierung", "value": "Volle RAL-Palette" },
-        { "label": "Nasslackierung", "value": "Farbabgestimmt" },
-        { "label": "E-Coating", "value": "Kathodische Elektrotauchlackierung" },
-        { "label": "Lasergravur", "value": "Logos / Markierungen / Codes" },
-        { "label": "Gussoberfl\u00e4che", "value": "0,8 Ra \u03bcm" }
+        { "label": "Dekorativ und funktional", "value": "Chrom" },
+        { "label": "Funktionaler Korrosionsschutz", "value": "Passivierung" },
+        { "label": "Schützend und dekorativ – volle RAL-Palette", "value": "Pulverlackierung" },
+        { "label": "Dekorativ und schützend", "value": "Nasslackierung" },
+        { "label": "Korrosionsschützend, dekorativ", "value": "Delta Seal Schwarz" },
+        { "label": "Dekorativ, verschleißfest", "value": "PVD" },
+        { "label": "Dekorativ, korrosionsschützend", "value": "Vernickelung" },
+        { "label": "Gleichmäßiger, dünner Korrosionsschutz", "value": "KTL" }
       ],
       "advantagesHeading": "Die Oberflächenbehandlung beginnt bereits beim Gießen",
       "advantages": {
@@ -1142,25 +1144,29 @@
     },
     "quality": {
       "title": "Qualit\u00e4t & Zertifizierung",
-      "eyebrow": "ISO 9001 zertifiziert seit 1993",
-      "overview": "Linimatic ist seit 1993 ISO 9001-zertifiziert — über 30 Jahre unabhängig auditiertes Qualitätsmanagement, das jeden Schritt von der Wareneingangskontrolle bis zum Versand abdeckt. Unser Qualitätssystem basiert auf KMG-verifizierter Maßprüfung, Echtzeit-SPC-Prozessüberwachung, vollständiger PPAP-Dokumentationsfähigkeit und Chargenniveau-Rückverfolgbarkeit bei jedem Bauteil, das wir liefern. Das ist keine Papierübung — es ist die operative Disziplin, die Toleranzen von ±0,05\u2009mm im Großserienmaßstab ermöglicht.",
+      "eyebrow": "Mehr als 30 Jahre zertifiziertes Qualitätsmanagement",
+      "overview": "Linimatic ist seit 1993 nach ISO 9001 zertifiziert. Unser Qualitätsmanagementsystem bildet den Rahmen für alle unsere Geschäftsprozesse – von der Prüfung der Kundenanforderungen und Spezifikationen über Einkauf, Wareneingang, Produktion und Qualitätskontrolle bis hin zur Lieferung. Alle Prozesse werden nach festgelegten Verfahren und Prüfplänen durchgeführt, sodass die Qualität während des gesamten Ablaufs gesteuert und dokumentiert wird.",
       "processHeading": "So sichern wir Qualit\u00e4t in jedem Schritt",
       "process": [
         {
           "step": "Wareneingangskontrolle",
-          "description": "Jede Legierungscharge wird vor dem Eingang in die Produktion gegen Materialzertifikate geprüft. Die Zusammensetzung wird bestätigt und die Rückverfolgbarkeit vom Rohmaterial bis zum Fertigteil eingerichtet."
+          "description": "Materialzertifikate werden bei Anlieferung des Zinks geprüft."
         },
         {
-          "step": "SPC-\u00dcberwachung im Prozess",
-          "description": "Statistische Prozessregelung läuft in Echtzeit auf jeder Druckgussmaschine. Kritische Maße werden in definierten Intervallen gemessen und gegen Eingriffsgrenzen aufgetragen. Prozessabweichungen werden erkannt und korrigiert, bevor Teile außerhalb der Spezifikation entstehen."
+          "step": "Laufende Prozesskontrolle",
+          "description": "Die Produktion wird laufend gemäß dem festgelegten Prüfplan für jeden Prozess kontrolliert."
         },
         {
-          "step": "KMG-Dimensionskontrolle",
-          "description": "Koordinatenmessmaschinen prüfen Bauteilmaße gegen 3D-CAD-Modelle und GD&T-Spezifikationen. Erstmusterprüfberichte werden für jedes neue Werkzeug und nach jeder Werkzeugmodifikation erstellt."
+          "step": "Eigenkontrolle und QC-Stichproben",
+          "description": "Die Eigenkontrolle der Bediener wird durch Stichprobenkontrollen der Qualitätsabteilung ergänzt."
         },
         {
-          "step": "Endkontrolle & Dokumentation",
-          "description": "Fertige Bauteile werden gemäß dem Prüfplan vor dem Versand kontrolliert. Prüfprotokolle, Materialzertifikate und Maßberichte werden archiviert und sind auf Anfrage verfügbar. PPAP-Dokumentation wird für Automotive- und andere regulierte Kunden bereitgestellt."
+          "step": "SPC-Messung und Dokumentation",
+          "description": "Sofern vereinbart, wird SPC zur laufenden Messung und Dokumentation der Prozessstabilität eingesetzt."
+        },
+        {
+          "step": "Messung auf der Koordinatenmessmaschine",
+          "description": "Kritische Maße und geometrische Toleranzen werden bei Bedarf auf der Koordinatenmessmaschine (KMG) kontrolliert."
         }
       ],
       "specsEyebrow": "Technische Spezifikationen",
@@ -1174,10 +1180,10 @@
         { "label": "R\u00fcckverfolgbarkeit", "value": "Chargenniveau, volle Kette" },
         { "label": "Erstmuster", "value": "EMPB / FAI-Berichte" }
       ],
-      "advantagesHeading": "Warum Qualit\u00e4tstiefe f\u00fcr Ihre Lieferkette entscheidend ist",
+      "advantagesHeading": "Was bedeutet ISO 9001 für Sie als Kunde?",
       "advantages": {
-        "p1": "Eine Qualitätsseite mit einem ISO-Logo und einem vagen Absatz über \"kontinuierliche Verbesserung\" sagt einem Einkaufsverantwortlichen nichts. Was zählt, ist, ob der Lieferant ein PPAP-Paket erstellen kann, ob SPC tatsächlich auf den Maschinen läuft und ob Rückverfolgbarkeitsdaten abgerufen werden können, wenn zwei Jahre nach der Lieferung ein Kundenproblem auftritt. Bei Linimatic lautet die Antwort auf alle drei Fragen: Ja — weil unser Qualitätssystem nicht nachträglich für Zertifizierungszwecke aufgesetzt wurde, sondern um eine Präzisionsgießerei zu betreiben.",
-        "p2": "Die integrierte Wertschöpfungskette verstärkt die Qualitätskontrolle. Da Guss, Zerspanung und Oberflächenbehandlung alle unter einem Dach stattfinden, regelt ein einziges SPC-System den gesamten Prozess. Maßdaten der Gießmaschine fließen direkt in die Bearbeitungsparameter ein. Schichtdicken werden gegen dieselbe KMG geprüft, die den Guss kontrolliert hat. Es gibt keine Qualitätslücken zwischen Lieferanten — weil es keine anderen Lieferanten gibt."
+        "p1": "Ein zertifiziertes Qualitätsmanagementsystem gibt Ihnen die Gewissheit, dass Anforderungen, Spezifikationen und Änderungen während des gesamten Ablaufs systematisch gehandhabt werden. Abweichungen werden erfasst, die Ursache untersucht und Korrekturmaßnahmen umgesetzt – wodurch das Risiko einer Wiederholung verringert wird.",
+        "p2": "Kurz gesagt bedeutet das mehr Liefersicherheit, weniger Qualitätsprobleme und eine besser vorhersehbare Produktion."
       },
       "faqHeading": "H\u00e4ufig gestellte Fragen",
       "faq": [
@@ -1186,16 +1192,16 @@
           "answer": "Linimatic ist seit 1993 ISO 9001-zertifiziert — über 30 Jahre ununterbrochenes, unabhängig auditiertes Qualitätsmanagement. Die Zertifizierung deckt die vollständige Wertschöpfungskette ab: Wareneingangskontrolle, Druckguss, CNC-Zerspanung, Oberflächenbehandlung, Montage und Endkontrolle."
         },
         {
-          "question": "K\u00f6nnen Sie PPAP-Dokumentation liefern?",
-          "answer": "Ja. Wir stellen PPAP-Dokumentation auf den Stufen 1 bis 3 für Automotive- und andere regulierte Branchenkunden bereit. Dazu gehören Maßergebnisse, Materialzertifikate, Prozessablaufdiagramme, Prüfpläne und Messsystemanalysen."
+          "question": "Können Sie PPAP-Dokumentation liefern?",
+          "answer": "Ja. Wir liefern PPAP-Dokumentation der Stufe 1 bis 3 nach Vereinbarung mit dem Kunden."
         },
         {
-          "question": "Wie sichern Sie die Ma\u00dfgenauigkeit?",
-          "answer": "Maßgenauigkeit wird durch drei Ebenen sichergestellt: KMG-verifizierte Erstmusterprüfung für jedes neue und modifizierte Werkzeug, Echtzeit-SPC-Überwachung während der Produktion und Endkontrolle gemäß Prüfplan vor dem Versand. Prozessabweichungen werden in Echtzeit erkannt und korrigiert, bevor fehlerhafte Teile das Bandende erreichen."
+          "question": "Wie stellt Linimatic die Qualität während der laufenden Produktion sicher?",
+          "answer": "Die Qualität wird während der gesamten Produktion gemäß einem festgelegten Prüfplan für das jeweilige Bauteil und den jeweiligen Prozess kontrolliert. Die laufende Eigenkontrolle der Bediener wird durch Stichproben der Qualitätsabteilung ergänzt. Sofern vereinbart, werden zudem SPC-Messungen zur Überwachung der Prozessstabilität sowie Kontrollen auf der Koordinatenmessmaschine eingesetzt."
         },
         {
           "question": "Welche R\u00fcckverfolgbarkeit bieten Sie pro Charge?",
-          "answer": "Jede Charge ist vom Rohmaterial (Legierungs-Schmelznummer, Lieferantenzertifikat) über den Guss (Maschine, Werkzeug, Datum, Schicht, Prozessparameter) bis zur Zerspanung, Beschichtung, Inspektion und dem Versand rückverfolgbar. Wenn ein Qualitätsproblem im Feld auftritt, können wir jedes andere Teil identifizieren, das unter denselben Bedingungen produziert wurde."
+          "answer": "Jede Charge ist vom Rohmaterial (Legierungs-Schmelznummer, Lieferantenzertifikat) über den Guss (Maschine, Werkzeug, Datum, Schicht, Prozessparameter) bis zur Zerspanung, Beschichtung, Inspektion und dem Versand rückverfolgbar."
         }
       ],
       "relatedHeading": "Verwandte Leistungen",

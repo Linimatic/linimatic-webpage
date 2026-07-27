@@ -1093,28 +1093,43 @@
         { "label": "Laser Engraving", "value": "Logos / markings / codes" },
         { "label": "As-Cast Surface", "value": "0.8 Ra \u03bcm" }
       ],
-      "advantagesHeading": "Why surface treatment from your casting partner matters",
+      "advantagesHeading": "Surface treatment starts with the casting itself",
       "advantages": {
-        "p1": "Surface quality begins at the die, not at the coating line. The 0.8\u2009Ra\u2009\u03bcm as-cast surface finish Linimatic achieves is the result of precisely maintained die steel, optimised injection parameters, and controlled cooling. This means chrome plating can be applied directly without the polishing step that adds cost and lead time at foundries with rougher casting surfaces. For designers specifying Class\u2009A cosmetic finishes, this as-cast quality is the critical differentiator.",
-        "p2": "Because we manage coating in coordination with casting and machining, we control the entire quality chain. A surface defect introduced during transport to an external coater is eliminated. Colour matching is verified against master samples stored at our facility. And if a coating issue is identified during inspection, we can trace it back to the specific casting batch and process parameters \u2014 without the finger-pointing between separate suppliers."
+        "p1": "Linimatic knows the part, the material and the requirements from the casting process itself. That means we can ensure that design, casting, pre-treatment and surface treatment are all aligned with one another. We coordinate the surface treatment with carefully selected and approved subcontractors, and carry out the final quality control and packing at Linimatic. That gives you a single, complete delivery and one accountable partner."
       },
       "faqHeading": "Frequently Asked Questions",
       "faq": [
         {
-          "question": "What surface finishes are available for zinc die-cast parts?",
-          "answer": "We offer chromium plating (decorative and functional), powder coating (full RAL colour range), wet painting (colour-matched), e-coating (cathodic electrocoat for corrosion protection), and laser engraving for logos, part numbers, and traceability codes."
+          "question": "What surface treatments can be applied to die-cast zinc?",
+          "answer": "Die-cast zinc parts can be powder coated, wet painted, chrome plated, nickel plated and passivated, among other options. Before final treatment, parts can be tumbled, vibratory deburred, bead blasted or shot blasted to achieve the desired surface texture."
         },
         {
-          "question": "How does chrome plating work on zamak?",
-          "answer": "Zinc die-castings are plated through a multi-layer electroplating process: copper strike, acid copper, semi-bright nickel, bright nickel, and decorative chromium. The 0.8\u2009Ra\u2009\u03bcm as-cast surface of zamak allows direct plating without intermediate polishing, making zinc the preferred substrate for chrome-finished components."
+          "question": "How do we choose the right surface treatment?",
+          "answer": "The choice depends on requirements for appearance, corrosion resistance, wear resistance and price. It also matters whether the part will be used indoors or outdoors, and whether it will be exposed to moisture, chemicals or mechanical wear. Linimatic is happy to help find the solution that suits both function and budget."
         },
         {
-          "question": "Which coating is best for outdoor use?",
-          "answer": "For outdoor applications, e-coating provides excellent corrosion resistance with uniform coverage including recesses and internal features. Powder coating is also effective for outdoor use, offering UV stability and impact resistance. We can advise on salt spray test requirements for your specific environment."
+          "question": "Is surface treatment always necessary?",
+          "answer": "No. For certain indoor or hidden components, die-cast zinc can be used without further surface treatment. Treatment is typically chosen when there are specific requirements for appearance, corrosion protection, wear resistance or ease of cleaning."
         },
         {
-          "question": "Can zinc die-cast parts achieve Class A cosmetic finish?",
-          "answer": "Yes. Zinc die-casting achieves 0.8\u2009Ra\u2009\u03bcm surface finish as-cast \u2014 smooth enough for Class A decorative chrome without polishing. This is one of zinc\u2019s strongest advantages over aluminium and magnesium, which typically require extensive surface preparation before plating."
+          "question": "Can die-cast zinc be powder coated?",
+          "answer": "Yes. Die-cast zinc parts can be powder coated in a wide range of colours and surface textures. The part's design, casting quality, pre-treatment and curing temperature all affect the final result, so powder coating requirements should be considered as early as the design phase."
+        },
+        {
+          "question": "Can zinc parts be chrome or nickel plated?",
+          "answer": "Yes. Die-cast zinc is well suited to electroplated coatings such as copper, nickel and chrome. These treatments can provide both a decorative appearance and functional protection. A good result requires a controlled casting process, proper pre-treatment and a part design suited to the treatment."
+        },
+        {
+          "question": "Can surface treatment hide marks and unevenness?",
+          "answer": "Only to a limited extent. A bright or high-gloss coating can actually make small imperfections more visible. High cosmetic requirements therefore need to be considered in the part's design, the die, the casting process and the mechanical pre-treatment."
+        },
+        {
+          "question": "Does the part need to be specially designed for surface treatment?",
+          "answer": "It can be a major advantage. Hanging points, contact surfaces, threads, tolerances, drainage of process fluids, and areas that must not be coated should be clarified early on. Early dialogue can prevent problems and reduce the need for rework."
+        },
+        {
+          "question": "Can Linimatic deliver parts fully surface-treated?",
+          "answer": "Yes. Linimatic manages the entire process, from casting and in-house post-processing to the desired external surface treatment. The coating itself is carried out by carefully selected and approved subcontractors. Final quality control and packing are done at Linimatic, so the customer receives a complete, delivery-ready solution."
         }
       ],
       "relatedHeading": "Related Services",

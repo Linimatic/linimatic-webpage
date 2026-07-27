@@ -1096,28 +1096,43 @@
         { "label": "Lasergravur", "value": "Logos / Markierungen / Codes" },
         { "label": "Gussoberfl\u00e4che", "value": "0,8 Ra \u03bcm" }
       ],
-      "advantagesHeading": "Warum Oberfl\u00e4chenbehandlung vom Gie\u00dfereipartner wichtig ist",
+      "advantagesHeading": "Die Oberflächenbehandlung beginnt bereits beim Gießen",
       "advantages": {
-        "p1": "Oberflächenqualität beginnt am Werkzeug, nicht an der Beschichtungslinie. Die 0,8\u2009Ra\u2009µm Gussoberflächenqualität, die Linimatic erzielt, ist das Ergebnis präzise gewarteten Werkzeugstahls, optimierter Einspritzparameter und kontrollierter Kühlung. Das bedeutet, dass Verchromung direkt ohne den Polierschritt aufgebracht werden kann, der bei Gießereien mit raueren Gussoberflächen Kosten und Lieferzeit erhöht. Für Konstrukteure, die Klasse-A-Oberflächen spezifizieren, ist diese Gussqualität der entscheidende Differenzierungsfaktor.",
-        "p2": "Da wir die Beschichtung in Abstimmung mit Guss und Zerspanung managen, kontrollieren wir die gesamte Qualitätskette. Ein Oberflächenfehler, der beim Transport zu einem externen Beschichter entsteht, existiert bei uns nicht. Farbabstimmung wird gegen Referenzmuster geprüft, die in unserer Anlage aufbewahrt werden. Und wenn bei der Inspektion ein Beschichtungsproblem identifiziert wird, können wir es auf die spezifische Gusscharge und Prozessparameter zurückverfolgen — ohne gegenseitige Schuldzuweisungen zwischen separaten Lieferanten."
+        "p1": "Linimatic kennt das Bauteil, den Werkstoff und die Anforderungen bereits aus dem Gussprozess. Dadurch können wir sicherstellen, dass Konstruktion, Guss, Vorbehandlung und Oberflächenbehandlung aufeinander abgestimmt sind. Wir koordinieren die Oberflächenbehandlung bei sorgfältig ausgewählten und freigegebenen Unterauftragnehmern und übernehmen die abschließende Qualitätskontrolle und Verpackung bei Linimatic. So erhalten Sie eine einzige, vollständige Lieferung und einen verantwortlichen Ansprechpartner."
       },
       "faqHeading": "H\u00e4ufig gestellte Fragen",
       "faq": [
         {
-          "question": "Welche Oberfl\u00e4chenbehandlungen sind f\u00fcr Zinkdruckgussteile verf\u00fcgbar?",
-          "answer": "Wir bieten Verchromung (dekorativ und funktional), Pulverlackierung (volle RAL-Farbpalette), Nasslackierung (farbabgestimmt), E-Coat (kathodische Elektrotauchlackierung für Korrosionsschutz) und Lasergravur für Logos, Teilenummern und Rückverfolgbarkeitscodes."
+          "question": "Welche Oberflächenbehandlungen können bei Zinkdruckguss angewendet werden?",
+          "answer": "Zinkdruckgussteile können unter anderem pulverbeschichtet, nasslackiert, verchromt, vernickelt und passiviert werden. Vor der abschließenden Behandlung können die Teile beispielsweise trommelgleitgeschliffen, vibrationsentgratet, kunststoffgestrahlt oder strahlgereinigt werden, um die gewünschte Oberflächenstruktur zu erzielen."
         },
         {
-          "question": "Wie funktioniert Verchromung auf Zamak?",
-          "answer": "Zinkdruckgussteile werden in einem mehrschichtigen galvanischen Verfahren beschichtet: Kupfer-Strike, Sauerglanz-Kupfer, Halbglanzsnickel, Glanznieckel und dekoratives Chrom. Die Gussoberflächengüte von 0,8\u2009Ra\u2009µm des Zamaks ermöglicht die direkte Galvanisierung ohne Zwischenpolieren und macht Zink zum bevorzugten Substrat für verchromte Bauteile."
+          "question": "Wie wählen wir die richtige Oberflächenbehandlung?",
+          "answer": "Die Wahl hängt von den Anforderungen an Aussehen, Korrosionsbeständigkeit, Verschleißfestigkeit und Preis ab. Wichtig ist auch, ob das Teil innen oder außen eingesetzt wird und ob es Feuchtigkeit, Chemikalien oder mechanischer Belastung ausgesetzt ist. Linimatic hilft gerne dabei, die Lösung zu finden, die sowohl funktional als auch wirtschaftlich passt."
         },
         {
-          "question": "Welche Beschichtung ist f\u00fcr Au\u00dfenbereich am besten?",
-          "answer": "Für Außenanwendungen bietet E-Coat ausgezeichneten Korrosionsschutz mit gleichmäßiger Abdeckung einschließlich Vertiefungen und innerer Merkmale. Pulverlackierung ist ebenfalls effektiv für den Außeneinsatz und bietet UV-Stabilität und Schlagfestigkeit. Wir können Sie zu den Salzsprühnebelanforderungen für Ihre spezifische Umgebung beraten."
+          "question": "Ist eine Oberflächenbehandlung immer notwendig?",
+          "answer": "Nein. Für bestimmte innenliegende oder verdeckte Bauteile kann Zinkdruckguss ohne weitere Oberflächenbehandlung eingesetzt werden. Eine Behandlung wird in der Regel gewählt, wenn besondere Anforderungen an Aussehen, Korrosionsschutz, Verschleißfestigkeit oder Reinigungsfreundlichkeit bestehen."
         },
         {
-          "question": "K\u00f6nnen Zinkdruckgussteile eine Klasse-A-Kosmetikoberfläche erreichen?",
-          "answer": "Ja. Zinkdruckguss erreicht im Gussprozess eine Oberflächengüte von 0,8\u2009Ra\u2009µm — glatt genug für Klasse-A-Dekorchrom ohne Polieren. Das ist einer der stärksten Vorteile von Zink gegenüber Aluminium und Magnesium, die vor der Galvanisierung typischerweise umfangreiche Oberflächenvorbereitung erfordern."
+          "question": "Kann Zinkdruckguss pulverbeschichtet werden?",
+          "answer": "Ja. Zinkdruckgussteile können in vielen Farben und Oberflächenstrukturen pulverbeschichtet werden. Die Konstruktion des Teils, die Gussqualität, die Vorbehandlung und die Lackiertemperatur beeinflussen das Endergebnis. Die Anforderungen an die Pulverbeschichtung sollten daher bereits in der Konstruktionsphase berücksichtigt werden."
+        },
+        {
+          "question": "Können Zinkteile verchromt oder vernickelt werden?",
+          "answer": "Ja. Zinkdruckguss eignet sich gut für galvanische Beschichtungen wie Kupfer, Nickel und Chrom. Die Behandlungen können sowohl ein dekoratives Aussehen als auch einen funktionalen Schutz bieten. Ein gutes Ergebnis erfordert einen kontrollierten Gussprozess, eine korrekte Vorbehandlung und eine für die Behandlung geeignete Bauteilkonstruktion."
+        },
+        {
+          "question": "Kann die Oberflächenbehandlung Markierungen und Unebenheiten verdecken?",
+          "answer": "Nur in begrenztem Umfang. Eine glänzende oder hochglänzende Beschichtung kann kleine Unebenheiten im Gegenteil sichtbarer machen. Hohe kosmetische Anforderungen müssen daher bereits bei der Bauteilkonstruktion, dem Gusswerkzeug, dem Gussprozess und der mechanischen Vorbehandlung berücksichtigt werden."
+        },
+        {
+          "question": "Muss das Bauteil speziell für die Oberflächenbehandlung konstruiert werden?",
+          "answer": "Das kann ein großer Vorteil sein. Aufhängepunkte, Kontaktflächen, Gewinde, Toleranzen, die Ableitung von Prozessflüssigkeiten und Bereiche, die nicht beschichtet werden dürfen, sollten frühzeitig geklärt werden. Ein früher Dialog kann Probleme vermeiden und den Nacharbeitsbedarf reduzieren."
+        },
+        {
+          "question": "Kann Linimatic die Teile fertig oberflächenbehandelt liefern?",
+          "answer": "Ja. Linimatic übernimmt den gesamten Ablauf vom Guss und der internen Nachbearbeitung bis zur gewünschten externen Oberflächenbehandlung. Die Beschichtung erfolgt bei sorgfältig ausgewählten und freigegebenen Unterauftragnehmern. Die abschließende Qualitätskontrolle und Verpackung erfolgt bei Linimatic, sodass der Kunde eine vollständige, versandfertige Lösung erhält."
         }
       ],
       "relatedHeading": "Verwandte Leistungen",

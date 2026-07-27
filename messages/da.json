@@ -1105,20 +1105,36 @@
       "faqHeading": "Ofte stillede spørgsmål",
       "faq": [
         {
-          "question": "Hvilke overfladebehandlinger er tilgængelige for zinktrykstøbte emner?",
-          "answer": "Vi tilbyder forkromning (dekorativ og funktionel), pulverlakering (fuld RAL-farvepalette), vådlakering (farvetilpasset), e-coating (katodisk elektrocoat til korrosionsbeskyttelse) og lasergravering til logoer, delnumre og sporbarhedskoder."
+          "question": "Hvilke overfladebehandlinger kan anvendes på trykstøbt zink?",
+          "answer": "Trykstøbte zinkemner kan blandt andet pulverlakeres, vådlakeres, forkromes, fornikles og passiveres. Før den afsluttende behandling kan emnerne eksempelvis tromles, vibrationsafgrates, plastblæses eller slyngrenses for at opnå den ønskede overfladestruktur."
         },
         {
-          "question": "Hvordan fungerer forkromning på zamak?",
-          "answer": "Zinktrykstøbninger belægges gennem en flerlagsbelægningsproces: kobberstrike, syrekobber, halvblankt nikkel, blankt nikkel og dekorativt krom. Den 0,8\u2009Ra\u2009\u03bcm støbeoverflade af zamak tillader direkte belægning uden mellempolering, hvilket gør zink til det foretrukne substrat til kromfinishede komponenter."
+          "question": "Hvordan vælger vi den rigtige overfladebehandling?",
+          "answer": "Valget afhænger af kravene til udseende, korrosionsbestandighed, slidstyrke og pris. Det er også vigtigt, om emnet skal anvendes inden- eller udendørs, og om det udsættes for fugt, kemikalier eller mekanisk påvirkning. Linimatic hjælper gerne med at finde den løsning, der passer til både funktion og økonomi."
         },
         {
-          "question": "Hvilken coating er bedst til udendørs brug?",
-          "answer": "Til udendørs applikationer giver e-coating fremragende korrosionsbestandighed med ensartet dækning inklusive fordybninger og indvendige features. Pulverlakering er også effektiv til udendørs brug og tilbyder UV-stabilitet og slagfasthed. Vi kan rådgive om salttågetestkrav til dit specifikke miljø."
+          "question": "Er overfladebehandling altid nødvendig?",
+          "answer": "Nej. Til visse indendørs eller skjulte komponenter kan trykstøbt zink anvendes uden yderligere overfladebehandling. Behandling vælges typisk, når der stilles særlige krav til udseende, korrosionsbeskyttelse, slidstyrke eller rengøringsvenlighed."
         },
         {
-          "question": "Kan zinktrykstøbte emner opnå klasse A kosmetisk finish?",
-          "answer": "Ja. Zinktrykstøbning opnår 0,8\u2009Ra\u2009\u03bcm overfladefinish i støbning — glat nok til Klasse\u00a0A dekorativt krom uden polering. Det er en af zinks stærkeste fordele over aluminium og magnesium, som typisk kræver omfattende overfladeforberedelse inden belægning."
+          "question": "Kan trykstøbt zink pulverlakeres?",
+          "answer": "Ja. Trykstøbte zinkemner kan pulverlakeres i mange farver og overfladestrukturer. Emnets konstruktion, støbekvalitet, forbehandling og lakeringstemperatur har betydning for det endelige resultat. Kravene til pulverlakering bør derfor indgå allerede i konstruktionsfasen."
+        },
+        {
+          "question": "Kan zinkemner forkromes eller fornikles?",
+          "answer": "Ja. Trykstøbt zink er velegnet til galvaniske belægninger som kobber, nikkel og krom. Behandlingerne kan give både et dekorativt udseende og en funktionel beskyttelse. Et godt resultat kræver en kontrolleret støbeproces, korrekt forbehandling og en emnekonstruktion, der er egnet til behandlingen."
+        },
+        {
+          "question": "Kan overfladebehandlingen skjule mærker og ujævnheder?",
+          "answer": "Kun i begrænset omfang. En blank eller højglansbelægning kan tværtimod gøre små ujævnheder mere synlige. Høje kosmetiske krav skal derfor tænkes ind i emnets konstruktion, støbeværktøjet, støbeprocessen og den mekaniske forbehandling."
+        },
+        {
+          "question": "Skal emnet konstrueres specielt til overfladebehandling?",
+          "answer": "Det kan være en stor fordel. Ophængningspunkter, kontaktflader, gevind, tolerancer, dræning af procesvæsker og områder, der ikke må belægges, bør afklares tidligt. En tidlig dialog kan forebygge problemer og reducere behovet for efterbearbejdning."
+        },
+        {
+          "question": "Kan Linimatic levere emnerne færdigt overfladebehandlede?",
+          "answer": "Ja. Linimatic varetager hele forløbet fra støbning og intern efterbehandling til den ønskede eksterne overfladebehandling. Belægningen udføres hos nøje udvalgte og godkendte underleverandører. Den afsluttende kvalitetskontrol og pakning foretages hos Linimatic, så kunden modtager en samlet og leveringsklar løsning."
         }
       ],
       "relatedHeading": "Relaterede ydelser",

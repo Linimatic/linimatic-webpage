@@ -1190,8 +1190,10 @@
         { "label": "Dimensionskontrolle", "value": "KMG (3D-Koordinate)" },
         { "label": "Prozesssteuerung", "value": "SPC in Echtzeit" },
         { "label": "Dokumentation", "value": "PPAP Stufe 1\u20133" },
-        { "label": "R\u00fcckverfolgbarkeit", "value": "Chargenniveau, volle Kette" },
-        { "label": "Erstmuster", "value": "EMPB / FAI-Berichte" }
+        { "label": "R\u00fcckverfolgbarkeit", "value": "Chargenniveau" },
+        { "label": "Erstmuster", "value": "EMPB / FAI-Berichte" },
+        { "label": "Produktion", "value": "Laufende Eigen- / QC-Kontrolle" },
+        { "label": "Kalibrierung", "value": "Spezielle Messausrüstung" }
       ],
       "advantagesHeading": "Was bedeutet ISO 9001 für Sie als Kunde?",
       "advantages": {

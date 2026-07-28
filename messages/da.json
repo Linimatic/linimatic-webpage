@@ -1191,8 +1191,10 @@
         { "label": "Dimensionskontrol", "value": "CMM (3D-koordinat)" },
         { "label": "Processtyring", "value": "SPC i realtid" },
         { "label": "Dokumentation", "value": "PPAP niveau 1\u20133" },
-        { "label": "Sporbarhed", "value": "Batchniveau, fuld kæde" },
-        { "label": "Første emne", "value": "ISIR / FAI-rapporter" }
+        { "label": "Sporbarhed", "value": "Batchniveau" },
+        { "label": "Første emne", "value": "FOT / FAI-rapporter" },
+        { "label": "Produktion", "value": "Løbende egen- / QC kontrol" },
+        { "label": "Kalibrering", "value": "Speciel måleudstyr" }
       ],
       "advantagesHeading": "Hvad betyder ISO 9001 for dig som kunde?",
       "advantages": {

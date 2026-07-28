@@ -1187,8 +1187,10 @@
         { "label": "Dimensional Inspection", "value": "CMM (3D coordinate)" },
         { "label": "Process Control", "value": "Real-time SPC" },
         { "label": "Documentation", "value": "PPAP Level 1\u20133" },
-        { "label": "Traceability", "value": "Batch-level, full chain" },
-        { "label": "First Article", "value": "ISIR / FAI reports" }
+        { "label": "Traceability", "value": "Batch-level" },
+        { "label": "First Article", "value": "FOT / FAI reports" },
+        { "label": "Production", "value": "Ongoing self- / QC inspection" },
+        { "label": "Calibration", "value": "Specialized measuring equipment" }
       ],
       "advantagesHeading": "What does ISO 9001 mean for you as a customer?",
       "advantages": {

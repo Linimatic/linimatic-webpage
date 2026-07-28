@@ -36,9 +36,7 @@ export default async function WhyZincPage({
   const t = await getTranslations("whyZincPage");
 
   const advantages = t.raw("advantages") as Array<{
-    value: string;
-    unit: string;
-    label: string;
+    title: string;
     description: string;
   }>;
 
@@ -96,9 +94,16 @@ export default async function WhyZincPage({
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
                 {t("heading")}
               </h1>
-              <p className="mt-6 text-lg sm:text-xl text-zinc-600 leading-relaxed">
-                {t("intro")}
-              </p>
+              {t("intro")
+                .split("\n\n")
+                .map((paragraph, i) => (
+                  <p
+                    key={i}
+                    className={`text-lg sm:text-xl text-zinc-600 leading-relaxed ${i === 0 ? "mt-6" : "mt-4"}`}
+                  >
+                    {paragraph}
+                  </p>
+                ))}
             </div>
             <div className="flex items-center justify-center">
               <Image
@@ -120,21 +125,16 @@ export default async function WhyZincPage({
           <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)] mb-12">
             {t("advantagesHeading")}
           </h2>
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-px bg-zinc-200">
-            {advantages.map((adv) => (
-              <div key={adv.label} className="bg-white p-8 sm:p-10">
-                <div className="font-[family-name:var(--font-mono)] text-zinc-900 mb-3">
-                  <span className="text-3xl sm:text-4xl font-bold tracking-tight">
-                    {adv.value}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-zinc-200">
+            {advantages.map((adv, i) => (
+              <div key={adv.title} className="bg-white p-8 sm:p-10">
+                <div className="flex items-baseline gap-3 mb-3">
+                  <span className="font-[family-name:var(--font-mono)] text-xl font-bold text-ember">
+                    {String(i + 1).padStart(2, "0")}
                   </span>
-                  {adv.unit && (
-                    <span className="text-base text-zinc-400 ml-1">
-                      {adv.unit}
-                    </span>
-                  )}
-                </div>
-                <div className="text-[11px] tracking-[0.15em] uppercase text-ember font-[family-name:var(--font-mono)] mb-3">
-                  {adv.label}
+                  <h3 className="text-lg font-semibold text-zinc-900 font-[family-name:var(--font-display)]">
+                    {adv.title}
+                  </h3>
                 </div>
                 <p className="text-sm text-zinc-400 leading-relaxed">
                   {adv.description}
@@ -200,6 +200,9 @@ export default async function WhyZincPage({
               </tbody>
             </table>
           </div>
+          <p className="mt-6 text-xs text-zinc-400 max-w-2xl">
+            {t("comparison.disclaimer")}
+          </p>
         </div>
       </section>
 

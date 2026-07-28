@@ -48,6 +48,9 @@ export default async function JobsPage({
     description: string;
     responsibilities: string[];
     requirements: string[];
+    contactName?: string;
+    contactPhone?: string;
+    contactEmail?: string;
   }>;
 
   // Dates derived from the (re)generation time; combined with the weekly
@@ -135,38 +138,8 @@ export default async function JobsPage({
         </div>
       </section>
 
-      {/* Why Work Here */}
-      <section className="bg-white py-20 border-t border-zinc-200">
-        <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-          <div className="mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">
-              {t("whyHeading")}
-            </h2>
-            <p className="mt-4 text-base text-zinc-400 leading-relaxed max-w-2xl">
-              {t("whyDescription")}
-            </p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {perks.map((perk) => (
-              <div
-                key={perk.title}
-                className="border border-zinc-200 p-6 hover:border-zinc-300 transition-colors"
-              >
-                <div className="w-6 h-[2px] bg-ember mb-4" />
-                <h3 className="text-base font-semibold text-zinc-900 font-[family-name:var(--font-display)]">
-                  {perk.title}
-                </h3>
-                <p className="mt-2 text-sm text-zinc-400 leading-relaxed">
-                  {perk.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Open Positions */}
-      <section className="bg-zinc-50 py-20 border-t border-zinc-200">
+      <section className="bg-white py-20 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="mb-12">
             <div className="flex items-center gap-4 mb-5">
@@ -206,6 +179,37 @@ export default async function JobsPage({
                     <p className="text-base text-zinc-600 leading-relaxed max-w-3xl">
                       {pos.description}
                     </p>
+
+                    {pos.contactName && (
+                      <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-zinc-500">
+                        <span className="font-medium text-zinc-700">
+                          {t("contactLabel")}:
+                        </span>
+                        <span>{pos.contactName}</span>
+                        {pos.contactPhone && (
+                          <>
+                            <span className="text-zinc-300">·</span>
+                            <a
+                              href={`tel:${pos.contactPhone.replace(/\s+/g, "")}`}
+                              className="hover:text-zinc-900 transition-colors"
+                            >
+                              {pos.contactPhone}
+                            </a>
+                          </>
+                        )}
+                        {pos.contactEmail && (
+                          <>
+                            <span className="text-zinc-300">·</span>
+                            <a
+                              href={`mailto:${pos.contactEmail}`}
+                              className="hover:text-zinc-900 transition-colors"
+                            >
+                              {pos.contactEmail}
+                            </a>
+                          </>
+                        )}
+                      </div>
+                    )}
 
                     <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-8">
                       {/* Responsibilities */}
@@ -250,7 +254,7 @@ export default async function JobsPage({
 
                     <div className="mt-8">
                       <a
-                        href={`mailto:info@linimatic.dk?subject=${encodeURIComponent(t("applySubject", { position: pos.title }))}`}
+                        href={`mailto:${pos.contactEmail ?? "info@linimatic.dk"}?subject=${encodeURIComponent(t("applySubject", { position: pos.title }))}`}
                         className="group inline-flex items-center gap-3 bg-ember hover:bg-ember-light px-6 py-3 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
                       >
                         {t("applyButton")}
@@ -278,6 +282,36 @@ export default async function JobsPage({
               <p className="text-lg text-zinc-400">{t("noPositions")}</p>
             </div>
           )}
+        </div>
+      </section>
+
+      {/* Why Work Here */}
+      <section className="bg-zinc-50 py-20 border-t border-zinc-200">
+        <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
+          <div className="mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">
+              {t("whyHeading")}
+            </h2>
+            <p className="mt-4 text-base text-zinc-400 leading-relaxed max-w-2xl">
+              {t("whyDescription")}
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {perks.map((perk) => (
+              <div
+                key={perk.title}
+                className="border border-zinc-200 p-6 hover:border-zinc-300 transition-colors"
+              >
+                <div className="w-6 h-[2px] bg-ember mb-4" />
+                <h3 className="text-base font-semibold text-zinc-900 font-[family-name:var(--font-display)]">
+                  {perk.title}
+                </h3>
+                <p className="mt-2 text-sm text-zinc-400 leading-relaxed">
+                  {perk.description}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

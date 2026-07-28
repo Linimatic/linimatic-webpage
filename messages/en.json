@@ -392,46 +392,50 @@
   "whyZincPage": {
     "breadcrumb": "Why Zinc",
     "eyebrow": "Material Advantage",
-    "heading": "Why zinc die-casting?",
+    "heading": "Why choose zinc die-casting?",
     "heroImageAlt": "Two zinc die-cast components showing chrome-plated and powder-coated surface finishes",
-    "intro": "Zinc die-casting is a high-speed, high-precision manufacturing process that produces net-shape metal components with tolerances to \u00b10.05\u2009mm, chrome-ready surface finish, and cycle times under 45 seconds. It outperforms aluminum and plastic injection moulding in geometric complexity, dimensional accuracy, and cost-efficiency at volume \u2014 delivering stronger parts with longer tool life and less secondary processing. For engineers designing components that demand tight tolerances, thin walls, or Class\u00a0A cosmetic surfaces, zinc is the material that eliminates compromises.",
-    "advantagesHeading": "Six reasons engineers specify zinc",
+    "intro": "Zinc die-casting is an efficient and cost-effective solution for technical components that demand high precision, strength and attractive surface finishes. At Linimatic we produce zinc parts both small and large — from just a few grams up to 4 kg.\n\nCompared to aluminum die-casting, zinc offers shorter cycle times, lower energy consumption, and significantly longer tool life. Altogether, this often means lower production costs per part — especially for larger series and parts with a favorable material weight.\n\nZinc's excellent flow properties also make it possible to cast complex geometries, thin wall thicknesses, fine detail and tight tolerances. This reduces the need for CNC machining and other post-processing, further contributing to a competitive price on the finished part.",
+    "advantagesHeading": "10 reasons engineers specify zinc",
     "advantages": [
       {
-        "value": "\u00b10.05",
-        "unit": "mm",
-        "label": "Achievable Tolerances",
-        "description": "Tighter as-cast accuracy than aluminum or plastic. Many features need no secondary machining at all, reducing cost and lead time."
+        "title": "Lower production costs",
+        "description": "Short cycle times and an efficient casting process can result in a lower price per part — especially in larger production series."
       },
       {
-        "value": "1M+",
-        "unit": "shots",
-        "label": "Die Life",
-        "description": "Zinc dies last 5\u201310\u00d7 longer than aluminum dies. Lower tooling cost per part and fewer production interruptions for tool replacement."
+        "title": "Complex geometries",
+        "description": "Zinc's excellent flow properties make it possible to die-cast advanced shapes, fine details, and integrated features into a single component."
       },
       {
-        "value": "10\u201345",
-        "unit": "sec",
-        "label": "Cycle Time",
-        "description": "The fastest metal die-casting process. Hot-chamber technology keeps zinc molten in the machine, eliminating the ladling step that slows aluminum casting."
+        "title": "Tight tolerances",
+        "description": "Zinc die-casting provides high dimensional accuracy and good dimensional stability, reducing the need for subsequent machining."
       },
       {
-        "value": "0.8",
-        "unit": "Ra \u03bcm",
-        "label": "Surface Finish",
-        "description": "Chrome-ready straight from the die. No polishing or additional surface preparation needed for decorative finishes."
+        "title": "Thin wall thicknesses",
+        "description": "Zinc can fill very narrow sections of the mould, making it well suited for components with thin walls and fine details."
       },
       {
-        "value": "0.6",
-        "unit": "mm",
-        "label": "Minimum Wall Thickness",
-        "description": "Thinner walls than any other metal die-casting process. Enables intricate geometries and lightweight designs impossible in aluminum."
+        "title": "High strength and stiffness",
+        "description": "Zinc alloys combine high mechanical strength with good stiffness and are well suited for load-bearing technical components."
       },
       {
-        "value": "100%",
-        "unit": "",
-        "label": "Recyclable",
-        "description": "Zinc is infinitely recyclable with no loss of material properties. Lower melting point means less energy consumed per casting cycle."
+        "title": "Long tool life",
+        "description": "Zinc's low melting temperature puts less stress on the mould than aluminum, often resulting in significantly longer tool life. As the tooling cost is amortized over more parts produced, it results in a lower tooling cost per part."
+      },
+      {
+        "title": "Attractive surfaces",
+        "description": "Zinc produces a smooth, uniform as-cast surface suited for both visible components and subsequent surface treatment."
+      },
+      {
+        "title": "Fewer parts and process steps",
+        "description": "Threads, ribs, bosses, logos and other features can often be integrated directly into the casting. This can reduce the number of components and assembly operations."
+      },
+      {
+        "title": "Effective electromagnetic shielding",
+        "description": "Zinc is electrically conductive and can be used for housings and components that need to shield electronics from electromagnetic interference."
+      },
+      {
+        "title": "A recyclable material",
+        "description": "Zinc can be recycled again and again without losing its fundamental properties. Production scrap can be remelted and returned to the material cycle."
       }
     ],
     "comparison": {
@@ -455,7 +459,7 @@
         },
         {
           "property": "Cycle Time",
-          "zinc": "10\u201345s",
+          "zinc": "5\u201345s",
           "aluminum": "30\u2013120s",
           "magnesium": "20\u201360s",
           "plastic": "15\u201360s"
@@ -488,7 +492,8 @@
           "magnesium": "100%",
           "plastic": "Limited"
         }
-      ]
+      ],
+    "disclaimer": "The comparison applies to functionally equivalent components manufactured in series production. The values are indicative, as the result depends on the component's design and size, the alloy selected, the tooling, and the production setup."
     },
     "alloys": {
       "heading": "Zamak alloy guide",
@@ -534,35 +539,43 @@
       "items": [
         {
           "question": "What is zinc die-casting?",
-          "answer": "Zinc die-casting is a manufacturing process where molten zinc alloy is injected under high pressure into a steel die. The hot-chamber process keeps the alloy molten inside the machine, enabling cycle times as fast as 10 seconds. The result is a net-shape metal component with tight tolerances, excellent surface finish, and high repeatability \u2014 suitable for production volumes from hundreds to millions of parts."
-        },
-        {
-          "question": "Is zinc die-casting stronger than aluminium?",
-          "answer": "Yes, in terms of tensile strength. Zamak alloys range from 283 to 397 MPa, while most die-cast aluminium alloys deliver 150\u2013300 MPa. Zinc also achieves tighter as-cast tolerances (\u00b10.05\u2009mm vs. \u00b10.1\u2009mm) and produces chrome-ready surfaces without secondary polishing. However, aluminium is lighter (2.7 g/cm\u00b3 vs. 6.6 g/cm\u00b3), so the choice depends on whether strength-to-weight ratio or absolute precision is the priority."
+          "answer": "Zinc die-casting is a manufacturing process where molten zinc alloy is injected under high pressure into a steel die. The hot-chamber process keeps the alloy molten inside the machine, enabling cycle times as fast as 5–6 seconds. The result is a net-shape metal component with tight tolerances, excellent surface finish, and high repeatability — suitable for production volumes from hundreds to millions of parts."
         },
         {
           "question": "What is a Zamak alloy?",
-          "answer": "Zamak is a family of zinc-aluminium alloys specifically developed for die-casting. The name comes from the German abbreviations of its constituents: Zink, Aluminium, Magnesium, and Kupfer (copper). The four standard grades \u2014 Zamak 2, 3, 5, and 8 \u2014 offer different balances of strength, ductility, and castability. Zamak 3 is the most widely used, while Zamak 2 provides the highest strength."
-        },
-        {
-          "question": "How much does zinc die-casting cost?",
-          "answer": "Tooling cost depends on part complexity and number of cavities, typically ranging from \u20ac10,000 to \u20ac80,000. However, zinc dies last over 1 million shots \u2014 5\u201310\u00d7 longer than aluminium dies \u2014 dramatically reducing per-part tooling cost at volume. Piece prices depend on part weight, alloy, cycle time, and secondary operations. Send us your drawing for a specific quote \u2014 we respond within 48 hours."
-        },
-        {
-          "question": "What industries use zinc die-casting?",
-          "answer": "Zinc die-cast components are used across automotive (structural and interior parts), furniture and design (visible fittings, handles), lighting (brackets, housings, heat sinks), building and HVAC (window fittings, motor frames), consumer electronics (precision housings), and industrial equipment (ergonomic handles, brackets). Any application requiring tight tolerances, complex geometry, or decorative surface finish is a candidate."
-        },
-        {
-          "question": "Can zinc die-cast parts be chrome plated?",
-          "answer": "Yes, and this is one of zinc\u2019s strongest advantages. Zinc die-castings achieve 0.8\u2009Ra\u2009\u03bcm surface finish straight from the die \u2014 smooth enough for direct chrome plating without intermediate polishing. This makes zinc the preferred material for visible, decorative components in furniture, lighting, and consumer products where a flawless chrome finish is mandatory."
-        },
-        {
-          "question": "Is zinc die-casting environmentally friendly?",
-          "answer": "Zinc is 100% recyclable with no degradation of material properties. Its lower melting point (385\u00b0C vs. 660\u00b0C for aluminium) means less energy per casting cycle. At Linimatic, virtually all casting scrap \u2014 runners, overflows, and reject parts \u2014 is remelted and reused directly in production. We also offer lead-free zinc alloys through our Zinkers product line."
+          "answer": "Zamak is a family of zinc-aluminium alloys specifically developed for die-casting. The name comes from the German abbreviations of its constituents: Zink, Aluminium, Magnesium, and Kupfer (copper). The four standard grades — Zamak 2, 3, 5, and 8 — offer different balances of strength, ductility, and castability. Zamak 3 is the most widely used, while Zamak 2 provides the highest strength."
         },
         {
           "question": "What is the difference between zinc and Zamak?",
-          "answer": "Zinc is the base element. Zamak is a specific family of zinc alloys engineered for die-casting, containing precisely controlled amounts of aluminium (3.5\u20134.3%), magnesium, and in some grades, copper. Pure zinc is too soft for most engineering applications \u2014 the alloying elements in Zamak provide the strength, hardness, and castability that make precision die-casting possible."
+          "answer": "Zinc is the base element. Zamak is a specific family of zinc alloys engineered for die-casting, containing precisely controlled amounts of aluminium (3.5–4.3%), magnesium, and in some grades, copper. Pure zinc is too soft for most engineering applications — the alloying elements in Zamak provide the strength, hardness, and castability that make precision die-casting possible."
+        },
+        {
+          "question": "Is zinc die-casting stronger than aluminium?",
+          "answer": "Yes, in terms of tensile strength. Zamak alloys range from 283 to 397 MPa, while most die-cast aluminium alloys deliver 150–300 MPa. Zinc also achieves tighter as-cast tolerances (±0.05 mm vs. ±0.1 mm) and produces chrome-ready surfaces without secondary polishing. However, aluminium is lighter (2.7 g/cm³ vs. 6.6 g/cm³), so the choice depends on whether strength-to-weight ratio or absolute precision is the priority."
+        },
+        {
+          "question": "Why not choose magnesium instead of zinc?",
+          "answer": "Magnesium is the lightest of the three metals — lighter even than aluminium. However, zinc dies typically last over 1 million shots versus magnesium’s 200,000–300,000, tolerances are tighter (±0.05 mm vs. ±0.08 mm), and the strongest Zamak alloys exceed magnesium’s tensile strength (up to 397 MPa vs. 200–250 MPa). Magnesium can be the right choice when weight is the overriding factor — for most engineering parts, zinc offers better tooling economics, precision, and strength."
+        },
+        {
+          "question": "Can zinc die-cast parts be chrome plated?",
+          "answer": "Yes, and this is one of zinc’s strongest advantages. Zinc die-castings have a smooth, consistent surface straight from the die, giving an excellent starting point for chrome plating. The surface must still be polished before plating to achieve a flawless, mirror-bright result. This makes zinc the preferred material for visible, decorative components in furniture, lighting, and consumer products where a flawless chrome finish is mandatory."
+        },
+        {
+          "question": "Do zinc die-cast parts corrode without surface treatment?",
+          "answer": "Untreated zinc has good natural corrosion resistance and can often be used without surface treatment for indoor or hidden components. For outdoor use, humid environments, or where appearance and wear resistance matter, we offer a wide range of surface treatments — we help select the right option based on the part’s application."
+        },
+        {
+          "question": "What industries use zinc die-casting?",
+          "answer": "Zinc die-cast components are delivered to a wide range of segments: industrial equipment, automotive, telecommunications, camera housings, and furniture and design products. What these customers share is a need for high precision, complex geometry, and reliable quality — across both small and large production runs."
+        },
+        {
+          "question": "Is zinc die-casting environmentally friendly?",
+          "answer": "Zinc is 100% recyclable with no degradation of material properties. Its lower melting point (385°C vs. 660°C for aluminium) means less energy per casting cycle. At Linimatic, virtually all casting scrap — runners, overflows, and reject parts — is remelted and reused directly in production. We also offer lead-free zinc alloys through our Zinkers product line."
+        },
+        {
+          "question": "How much does zinc die-casting cost?",
+          "answer": "Tooling cost depends on part complexity and number of cavities, typically ranging from €10,000 to €80,000. However, zinc dies last over 1 million shots — 5–10× longer than aluminium dies — dramatically reducing per-part tooling cost at volume. Piece prices depend on part weight, alloy, cycle time, and secondary operations. Send us your drawing for a specific quote — we respond within 48 hours."
         }
       ]
     },
@@ -1300,47 +1313,51 @@
     "positionsHeading": "Current openings",
     "responsibilitiesLabel": "What you\u2019ll do",
     "requirementsLabel": "What we\u2019re looking for",
+    "contactLabel": "Contact",
     "applyButton": "Apply Now",
     "applySubject": "Application \u2014 {position} \u2014 Linimatic",
     "noPositions": "No open positions right now \u2014 but we\u2019re always interested in hearing from skilled people. Send us an open application below.",
     "positions": [
       {
-        "title": "Machinist / Industrial Technician or Toolmaker",
-        "department": "Tool Shop",
+        "title": "Machinist, Industrial Technician or Toolmaker — Mould Shop",
+        "department": "Mould Shop",
         "type": "Full-time",
-        "description": "We\u2019re planning a generational transition in our tool shop as two experienced colleagues approach retirement. We\u2019re looking for a new team member who can be thoroughly trained and take over their specialist knowledge. Prior experience with die-casting moulds is an advantage but not a requirement.",
+        "description": "At Linimatic we’re facing a planned generational shift in our mould shop. Two of our experienced colleagues are approaching retirement, and we’re looking for a new team member who can be thoroughly trained and help secure the future of the mould shop. We know it takes time to learn such a specialised trade, so we set aside real time for thorough, hands-on training from our experienced colleagues. You don’t need experience with die-casting moulds — what matters most is strong mechanical understanding, careful work, and a willingness to learn a specialised trade.",
         "responsibilities": [
-          "Preparation and maintenance of die-casting moulds and stamping tools",
-          "Troubleshooting production issues related to tooling",
-          "Purchasing selected wear parts and consumables",
-          "Collaboration with production and engineering departments"
+          "Preparing and maintaining die-casting moulds and stamping tools",
+          "Troubleshooting production stops related to tooling",
+          "Minor repairs, adjustments and improvements",
+          "Purchasing selected wear parts",
+          "Collaborating with production and production engineering"
         ],
         "requirements": [
-          "Trained machinist, toolmaker, or industrial technician \u2014 or relevant technical background",
-          "Mechanically inclined with attention to detail",
-          "Responsible and motivated to develop deep specialist expertise",
-          "Danish or English working proficiency"
-        ]
+          "Practical technical experience with metal, machinery, tooling, maintenance or production",
+          "Strong mechanical understanding and an eye for detail",
+          "Works responsibly and independently",
+          "Motivated to become skilled in a specialised trade"
+        ],
+        "contactName": "Rikke Østrup Fisker, Logistics Manager",
+        "contactEmail": "rif@linimatic.dk"
       },
       {
         "title": "Production Operator",
         "department": "Foundry",
         "type": "Full-time",
-        "description": "Join our foundry team operating zinc die-casting machines and production equipment. This is an entry-level production role with a clear path to becoming a machine setup specialist through on-the-job training, internal courses, and robot programming certification.",
+        "description": "Do you have a technical mindset and a desire to learn a new trade? Linimatic A/S in Helsinge produces high-pressure die-cast zinc components for customers worldwide. We’re known for being ‘the best at the hardest jobs’ — and we’re now looking for new colleagues eager to be trained in die-casting. We know it takes time to learn the trade properly, so you’ll get thorough training along the way — and if you want to develop further, we also offer courses in casting theory and robot programming.",
         "responsibilities": [
-          "Operate zinc die-casting machines and production equipment",
-          "Remove components from machines, stamp or trim as needed",
-          "Perform quality control inspections per written procedures",
-          "Assembly work on finished components",
-          "Self-monitor work quality throughout production"
+          "Setting up and operating die-casting machines",
+          "Quality control of your own work",
+          "Supporting colleagues during machine stops",
+          "Commissioning robots in the casting cell"
         ],
         "requirements": [
-          "Willingness to learn new skills \u2014 no prior die-casting experience needed",
-          "Technical aptitude and good organisational habits",
-          "Strong collaborative abilities",
-          "Commitment to quality standards",
+          "Technical interest and a willingness to learn",
+          "Collaborative and quality-conscious",
           "Danish language proficiency (speaking, reading, writing)"
-        ]
+        ],
+        "contactName": "Thomas Hjorth, Production Manager",
+        "contactPhone": "+45 50 77 02 16",
+        "contactEmail": "thj@linimatic.dk"
       }
     ],
     "openApplicationHeading": "Don\u2019t see your role?",

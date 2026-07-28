@@ -395,46 +395,50 @@
   "whyZincPage": {
     "breadcrumb": "Hvorfor zink",
     "eyebrow": "Materialefordel",
-    "heading": "Hvorfor zinktrykstøbning?",
+    "heading": "Hvorfor vælge zinktrykstøbning?",
     "heroImageAlt": "To zinktrykstøbte emner med forkromet og pulverlakeret overflade",
-    "intro": "Zinktrykstøbning er en højhastigheds- og højpræcisionsproces, der producerer metalemner i netform med tolerancer ned til \u00b10,05\u2009mm, kromklar overfladefinish og cyklustider under 45 sekunder. Det overgår aluminium og plastinjektion i geometrisk kompleksitet, dimensionsnøjagtighed og omkostningseffektivitet ved volumen — og leverer stærkere emner med længere værktøjslevetid og mindre sekundærbearbejdning. For ingeniører, der designer komponenter med stramme tolerancer, tynde vægge eller Klasse\u00a0A kosmetiske overflader, er zink det materiale, der eliminerer kompromiser.",
-    "advantagesHeading": "Seks grunde til at ingeniører vælger zink",
+    "intro": "Zinktrykstøbning er en effektiv og økonomisk løsning til tekniske komponenter med høj præcision, stor styrke og flotte overflader. Hos Linimatic fremstiller vi både små og store zinkemner – fra få gram og op til 4 kg.\n\nSammenlignet med trykstøbning i aluminium giver zink kortere cyklustider, lavere energiforbrug og væsentligt længere levetid på støbeværktøjet. Samlet betyder det ofte lavere produktionsomkostninger pr. emne – især ved større serier og emner med en fordelagtig materialevægt.\n\nZinks gode flydeegenskaber gør det samtidig muligt at støbe komplekse geometrier, tynde godstykkelser, fine detaljer og snævre tolerancer. Det reducerer behovet for CNC-bearbejdning og anden efterbearbejdning og bidrager yderligere til en konkurrencedygtig pris på det færdige emne.",
+    "advantagesHeading": "10 grunde til at ingeniører vælger zink",
     "advantages": [
       {
-        "value": "\u00b10,05",
-        "unit": "mm",
-        "label": "Opnåelige tolerancer",
-        "description": "Strammere præcision i støbning end aluminium eller plast. Mange features kræver slet ingen sekundær bearbejdning, hvilket reducerer omkostninger og leveringstid."
+        "title": "Lavere produktionsomkostninger",
+        "description": "Korte cyklustider og en effektiv støbeproces kan give en lavere pris pr. emne – især ved produktion i større serier."
       },
       {
-        "value": "1M+",
-        "unit": "skud",
-        "label": "Værktøjslevetid",
-        "description": "Zinkforme holder 5–10\u00d7 længere end aluminiumforme. Lavere værktøjsomkostning pr. emne og færre produktionsafbrydelser ved udskiftning."
+        "title": "Komplekse geometrier",
+        "description": "Zinks gode flydeegenskaber gør det muligt at trykstøbe avancerede former, fine detaljer og integrerede funktioner i én komponent."
       },
       {
-        "value": "10–45",
-        "unit": "sek",
-        "label": "Cyklustid",
-        "description": "Den hurtigste metaltrykstøbningsproces. Varmkammerteknologi holder zinken smeltet i maskinen og eliminerer den manuelle øsning, der bremser aluminiumstøbning."
+        "title": "Snævre tolerancer",
+        "description": "Zinktrykstøbning giver høj målnøjagtighed og god dimensionsstabilitet, hvilket reducerer behovet for efterfølgende bearbejdning."
       },
       {
-        "value": "0,8",
-        "unit": "Ra \u03bcm",
-        "label": "Overfladefinish",
-        "description": "Kromsæt direkte fra formen. Ingen polering eller yderligere overfladebehandling nødvendig inden dekorativ finish."
+        "title": "Tynde godstykkelser",
+        "description": "Zink kan udfylde meget smalle sektioner i støbeværktøjet og er derfor velegnet til komponenter med tynde vægge og fine detaljer."
       },
       {
-        "value": "0,6",
-        "unit": "mm",
-        "label": "Minimum vægtykkelse",
-        "description": "Tyndere vægge end enhver anden metaltrykstøbningsproces. Muliggør indviklede geometrier og lette designs, som er umulige i aluminium."
+        "title": "Høj styrke og stivhed",
+        "description": "Zinklegeringer kombinerer stor mekanisk styrke med god stivhed og er velegnede til belastede tekniske komponenter."
       },
       {
-        "value": "100%",
-        "unit": "",
-        "label": "Genanvendeligt",
-        "description": "Zink er uendeligt genanvendeligt uden tab af materialegenskaber. Lavere smeltepunkt betyder mindre energiforbrug pr. støbecyklus."
+        "title": "Lang levetid på støbeværktøjet",
+        "description": "Zinks lave smeltetemperatur belaster støbeværktøjet mindre end aluminium og giver ofte en væsentligt længere værktøjslevetid. Når værktøjsomkostningen amortiseres over flere producerede emner, opnås en lavere værktøjsomkostning pr. emne."
+      },
+      {
+        "title": "Flotte overflader",
+        "description": "Zink giver en glat og ensartet støbt overflade, som er velegnet til både synlige komponenter og efterfølgende overfladebehandling."
+      },
+      {
+        "title": "Færre dele og arbejdsgange",
+        "description": "Gevind, ribber, tappe, logoer og andre funktioner kan ofte integreres direkte i støbningen. Det kan reducere antallet af komponenter og montageoperationer."
+      },
+      {
+        "title": "Effektiv elektromagnetisk afskærmning",
+        "description": "Zink er elektrisk ledende og kan anvendes til kabinetter og komponenter, der skal beskytte elektronik mod elektromagnetisk interferens."
+      },
+      {
+        "title": "Et genanvendeligt materiale",
+        "description": "Zink kan genanvendes igen og igen uden at miste sine grundlæggende egenskaber. Produktionsrester kan omsmeltes og føres tilbage i materialekredsløbet."
       }
     ],
     "comparison": {
@@ -458,7 +462,7 @@
         },
         {
           "property": "Cyklustid",
-          "zinc": "10–45s",
+          "zinc": "5–45s",
           "aluminum": "30–120s",
           "magnesium": "20–60s",
           "plastic": "15–60s"
@@ -491,7 +495,8 @@
           "magnesium": "100%",
           "plastic": "Begrænset"
         }
-      ]
+      ],
+    "disclaimer": "Sammenligningen gælder funktionelt tilsvarende komponenter fremstillet i serieproduktion. Værdierne er vejledende, da resultatet afhænger af komponentens konstruktion og størrelse, den valgte legering, værktøjet og produktionsopsætningen."
     },
     "alloys": {
       "heading": "Zamak-legeringsguide",
@@ -537,35 +542,43 @@
       "items": [
         {
           "question": "Hvad er zinktrykstøbning?",
-          "answer": "Zinktrykstøbning er en fremstillingsproces, hvor smeltet zinklegering injiceres under højt tryk ind i en stålform. Varmkammerprocessen holder legeringen smeltet inde i maskinen, hvilket muliggør cyklustider på helt ned til 10 sekunder. Resultatet er et metalemne i netform med stramme tolerancer, fremragende overfladefinish og høj gentagelighed — egnet til produktionsvolumener fra hundredvis til millioner af emner."
-        },
-        {
-          "question": "Er zinktrykstøbning stærkere end aluminium?",
-          "answer": "Ja, hvad angår trækstyrke. Zamak-legeringer varierer fra 283 til 397 MPa, mens de fleste trykstøbte aluminiumlegeringer leverer 150–300 MPa. Zink opnår også strammere tolerancer i støbning (\u00b10,05\u2009mm vs. \u00b10,1\u2009mm) og producerer kromklare overflader uden sekundær polering. Aluminium er dog lettere (2,7 g/cm\u00b3 vs. 6,6 g/cm\u00b3), så valget afhænger af, om styrke-til-vægt-forholdet eller absolut præcision er prioriteten."
+          "answer": "Zinktrykstøbning er en fremstillingsproces, hvor smeltet zinklegering injiceres under højt tryk ind i en stålform. Varmkammerprocessen holder legeringen smeltet inde i maskinen, hvilket muliggør cyklustider på helt ned til 5–6 sekunder. Resultatet er et metalemne i netform med stramme tolerancer, fremragende overfladefinish og høj gentagelighed — egnet til produktionsvolumener fra hundredvis til millioner af emner."
         },
         {
           "question": "Hvad er en Zamak-legering?",
           "answer": "Zamak er en familie af zink-aluminium-legeringer, der specifikt er udviklet til trykstøbning. Navnet stammer fra de tyske forkortelser for bestanddelene: Zink, Aluminium, Magnesium og Kupfer (kobber). De fire standardkvaliteter — Zamak 2, 3, 5 og 8 — tilbyder forskellige balancer mellem styrke, duktilitet og støbbarhed. Zamak 3 er den mest udbredte, mens Zamak 2 har den højeste styrke."
         },
         {
-          "question": "Hvad koster zinktrykstøbning?",
-          "answer": "Værktøjsomkostningen afhænger af emtets kompleksitet og antal hulrum og varierer typisk fra 80.000 til 600.000 kr. Zinkforme holder dog over 1 million skud — 5–10\u00d7 længere end aluminiumforme — hvilket dramatisk reducerer pr.-emne-værktøjsomkostningen ved volumen. Stykpriser afhænger af emnevægt, legering, cyklustid og sekundære operationer. Send os din tegning for et specifikt tilbud — vi svarer inden for 48 timer."
+          "question": "Hvad er forskellen mellem zink og Zamak?",
+          "answer": "Zink er grundelementet. Zamak er en specifik familie af zinklegeringer, der er konstrueret til trykstøbning og indeholder præcist kontrollerede mængder aluminium (3,5–4,3%), magnesium og i nogle kvaliteter kobber. Rent zink er for blødt til de fleste tekniske applikationer — legeringselementerne i Zamak giver den styrke, hårdhed og støbbarhed, der muliggør præcisionstrykstøbning."
         },
         {
-          "question": "Hvilke industrier bruger zinktrykstøbning?",
-          "answer": "Zinktrykstøbte emner bruges på tværs af automotive (strukturelle og interiørdele), møbler og design (synlige beslag, håndtag), belysning (beslag, huse, kølelegemer), byggeri og HVAC (vinduesfittings, motorrammer), forbrugerelektronik (præcisionshuse) og industrielt udstyr (ergonomiske håndtag, beslag). Alle applikationer, der kræver stramme tolerancer, kompleks geometri eller dekorativ overfladefinish, er kandidater."
+          "question": "Er zinktrykstøbning stærkere end aluminium?",
+          "answer": "Ja, hvad angår trækstyrke. Zamak-legeringer varierer fra 283 til 397 MPa, mens de fleste trykstøbte aluminiumlegeringer leverer 150–300 MPa. Zink opnår også strammere tolerancer i støbning (±0,05 mm vs. ±0,1 mm) og producerer kromklare overflader uden sekundær polering. Aluminium er dog lettere (2,7 g/cm³ vs. 6,6 g/cm³), så valget afhænger af, om styrke-til-vægt-forholdet eller absolut præcision er prioriteten."
+        },
+        {
+          "question": "Hvorfor ikke vælge magnesium i stedet for zink?",
+          "answer": "Magnesium er det letteste af de tre metaller — endnu lettere end aluminium. Til gengæld holder zinks trykstøbeforme typisk over 1 million skud mod magnesiums 200.000–300.000, tolerancerne er strammere (±0,05 mm vs. ±0,08 mm), og de stærkeste zamak-legeringer overgår magnesiums trækstyrke (op til 397 MPa vs. 200–250 MPa). Magnesium kan være det rigtige valg, når vægt er den altafgørende faktor — for de fleste tekniske emner giver zink bedre værktøjsøkonomi, præcision og styrke."
         },
         {
           "question": "Kan zinktrykstøbte emner forkrommes?",
-          "answer": "Ja, og det er en af zinks stærkeste fordele. Zinktrykstøbninger opnår 0,8\u2009Ra\u2009\u03bcm overfladefinish direkte fra formen — glat nok til direkte forkromning uden mellempolering. Det gør zink til det foretrukne materiale til synlige, dekorative komponenter i møbler, belysning og forbrugerprodukter, hvor en fejlfri kromoverflade er ufravigelig."
+          "answer": "Ja, og det er en af zinks stærkeste fordele. Zinktrykstøbninger har en glat, ensartet overflade direkte fra formen, hvilket giver et fremragende udgangspunkt for forkromning. Overfladen skal dog altid poleres, før den forkromes, for at opnå et fejlfrit, spejlblankt resultat. Det gør zink til det foretrukne materiale til synlige, dekorative komponenter i møbler, belysning og forbrugerprodukter, hvor en fejlfri kromoverflade er ufravigelig."
+        },
+        {
+          "question": "Korroderer zinktrykstøbte emner uden overfladebehandling?",
+          "answer": "Ubehandlet zink har god naturlig korrosionsbestandighed og kan i mange tilfælde bruges uden overfladebehandling til indendørs eller skjulte komponenter. Til udendørs brug, fugtige miljøer eller når udseende og slidstyrke er vigtige, tilbyder vi et bredt udvalg af overfladebehandlinger — vi hjælper med at vælge den rette ud fra emnets anvendelse."
+        },
+        {
+          "question": "Hvilke industrier bruger zinktrykstøbning?",
+          "answer": "Zinktrykstøbte emner leveres til mange forskellige segmenter: industri, automotive, telekommunikation, kamerahuse samt møbel- og designprodukter. Fælles for kunderne er behovet for høj præcision, kompleks geometri og pålidelig kvalitet — i både små og store serier."
         },
         {
           "question": "Er zinktrykstøbning miljøvenligt?",
-          "answer": "Zink er 100% genanvendeligt uden forringelse af materialegenskaberne. Det lavere smeltepunkt (385\u00b0C vs. 660\u00b0C for aluminium) betyder mindre energi pr. støbecyklus. Hos Linimatic genindsmæltes stort set alt støbespild — indløb, overløb og fejlemner — og genanvendes direkte i produktionen. Vi tilbyder desuden blyfrie zinklegeringer via vores Zinkers-produktlinje."
+          "answer": "Zink er 100% genanvendeligt uden forringelse af materialegenskaberne. Det lavere smeltepunkt (385°C vs. 660°C for aluminium) betyder mindre energi pr. støbecyklus. Hos Linimatic genindsmæltes stort set alt støbespild — indløb, overløb og fejlemner — og genanvendes direkte i produktionen. Vi tilbyder desuden blyfrie zinklegeringer via vores Zinkers-produktlinje."
         },
         {
-          "question": "Hvad er forskellen mellem zink og Zamak?",
-          "answer": "Zink er grundelementet. Zamak er en specifik familie af zinklegeringer, der er konstrueret til trykstøbning og indeholder præcist kontrollerede mængder aluminium (3,5–4,3%), magnesium og i nogle kvaliteter kobber. Rent zink er for blødt til de fleste tekniske applikationer — legeringselementerne i Zamak giver den styrke, hårdhed og støbbarhed, der muliggør præcisionstrykstøbning."
+          "question": "Hvad koster zinktrykstøbning?",
+          "answer": "Værktøjsomkostningen afhænger af emtets kompleksitet og antal hulrum og varierer typisk fra 80.000 til 600.000 kr. Zinkforme holder dog over 1 million skud — 5–10× længere end aluminiumforme — hvilket dramatisk reducerer pr.-emne-værktøjsomkostningen ved volumen. Stykpriser afhænger af emnevægt, legering, cyklustid og sekundære operationer. Send os din tegning for et specifikt tilbud — vi svarer inden for 48 timer."
         }
       ]
     },
@@ -1302,49 +1315,53 @@
     ],
     "positionsEyebrow": "Ledige stillinger",
     "positionsHeading": "Aktuelle åbninger",
-    "responsibilitiesLabel": "Det skal du lave",
+    "responsibilitiesLabel": "Arbejdsopgaver",
     "requirementsLabel": "Det ser vi efter",
+    "contactLabel": "Kontakt",
     "applyButton": "Ansøg nu",
     "applySubject": "Ansøgning \u2014 {position} \u2014 Linimatic",
     "noPositions": "Ingen ledige stillinger lige nu \u2014 men vi er altid interesserede i at høre fra dygtige folk. Send en uopfordret ansøgning herunder.",
     "positions": [
       {
-        "title": "Maskinarbejder / Industritekniker eller Værktøjsmager",
-        "department": "Værktøjsafdelingen",
+        "title": "Maskinarbejder, Industritekniker eller Værktøjsmager til Formværkstedet",
+        "department": "Formværkstedet",
         "type": "Fuldtid",
-        "description": "Vi planlægger et generationsskifte i vores værktøjsafdeling, da to erfarne kolleger nærmer sig pension. Vi søger en ny kollega, der kan oplæres grundigt og overtage deres specialviden. Erfaring med trykstøbeforme er en fordel, men ikke et krav.",
+        "description": "Hos Linimatic står vi foran et planlagt generationsskifte i vores formværksted. To af vores erfarne medarbejdere nærmer sig pensionsalderen, og vi søger en ny kollega, som kan blive oplært grundigt og på sigt være med til at sikre fremtiden i formværkstedet. Vi ved godt, at det tager tid at lære et så specialiseret håndværk, og vi sætter derfor god tid af til en grundig oplæring hos vores erfarne medarbejdere. Du behøver ikke have erfaring med støbeforme — det vigtigste er, at du har god mekanisk forståelse, arbejder omhyggeligt og har lyst til at lære et specialiseret fagområde.",
         "responsibilities": [
-          "Klargøring og vedligeholdelse af trykstøbeforme og stanseværktøj",
-          "Fejlfinding på produktionsproblemer relateret til værktøj",
-          "Indkøb af udvalgte sliddele og forbrugsvarer",
-          "Samarbejde med produktion og ingeniørafdelingen"
+          "Klargøring og vedligehold af støbeforme og stanseværktøjer",
+          "Fejlfinding ved produktionsstop relateret til værktøjer",
+          "Mindre reparationer, tilpasninger og forbedringer",
+          "Indkøb af udvalgte sliddele",
+          "Samarbejde med produktion og produktionsteknisk afdeling"
         ],
         "requirements": [
-          "Uddannet maskinarbejder, værktøjsmager eller industritekniker \u2014 eller relevant teknisk baggrund",
-          "Mekanisk anlagt med øje for detaljen",
-          "Ansvarsbevidst og motiveret for at udvikle dyb specialistviden",
-          "Dansk arbejdssprog"
-        ]
+          "Praktisk teknisk erfaring fra metal, maskiner, værktøj, vedligehold eller produktion",
+          "God mekanisk forståelse og sans for detaljer",
+          "Arbejder ansvarligt og selvstændigt",
+          "Lyst til at blive dygtig til et specialiseret håndværk"
+        ],
+        "contactName": "Rikke Østrup Fisker, Logistikchef",
+        "contactEmail": "rif@linimatic.dk"
       },
       {
-        "title": "Medarbejder til produktion",
+        "title": "Produktionsmedarbejder",
         "department": "Støberiet",
         "type": "Fuldtid",
-        "description": "Bliv en del af vores støberiteam og betjen zinktrykstøbningsmaskiner og produktionsudstyr. Det er en entry-level produktionsrolle med en klar vej til at blive maskinopsætter gennem oplæring, interne kurser og robotprogrammeringscertificering.",
+        "description": "Har du teknisk flair og lyst til at lære et nyt fag? Linimatic A/S i Helsinge producerer højtryksstøbte zinkkomponenter til kunder i hele verden. Vi er kendt for at være ”de bedste til det sværeste” — og søger nu nye kolleger, der har mod på at blive oplært i trykstøbning. Vi ved, at det tager tid at lære faget ordentligt, så du får en grundig oplæring — og har du lyst til at udvikle dig yderligere, tilbyder vi også kurser i støbeteori og robotprogrammering.",
         "responsibilities": [
-          "Betjening af zinktrykstøbningsmaskiner og produktionsudstyr",
-          "Fjernelse af emner fra maskiner, stempling eller afbrydning efter behov",
-          "Kvalitetskontrol efter skriftlige procedurer",
-          "Montagearbejde på færdige komponenter",
-          "Egenkontrol af arbejdskvalitet gennem produktionen"
+          "Opstilling og drift af trykstøbemaskiner",
+          "Kvalitetskontrol af eget arbejde",
+          "Support til kolleger ved maskinstop",
+          "Indkøring af robot i støbecellen"
         ],
         "requirements": [
-          "Villighed til at lære nyt \u2014 ingen forudgående trykstøbningserfaring nødvendig",
-          "Teknisk snilde og gode organisatoriske vaner",
-          "Gode samarbejdsevner",
-          "Forpligtelse til kvalitetsstandarder",
-          "Dansk sprogfærdighed (tale, læse, skrive)"
-        ]
+          "Teknisk interesse og lyst til at lære",
+          "Samarbejdsorienteret og kvalitetsbevidst",
+          "Taler, læser og skriver dansk"
+        ],
+        "contactName": "Thomas Hjorth, Produktionschef",
+        "contactPhone": "50 77 02 16",
+        "contactEmail": "thj@linimatic.dk"
       }
     ],
     "openApplicationHeading": "Ser du ikke din rolle?",

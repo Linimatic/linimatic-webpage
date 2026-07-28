@@ -395,46 +395,50 @@
   "whyZincPage": {
     "breadcrumb": "Warum Zink",
     "eyebrow": "Materialvorteil",
-    "heading": "Warum Zinkdruckguss?",
+    "heading": "Warum Zinkdruckguss wählen?",
     "heroImageAlt": "Zwei Zinkdruckgussteile mit verchromter und pulverbeschichteter Oberfläche",
-    "intro": "Zinkdruckguss ist ein hochgeschwindigkeits- und hochpräzises Fertigungsverfahren, das endkonturnahe Metallbauteile mit Toleranzen bis ±0,05\u2009mm, chromierferter Oberfläche und Zykluszeiten unter 45 Sekunden produziert. In geometrischer Komplexität, Maßhaltigkeit und Kosteneffizienz bei großen Stückzahlen übertrifft Zink sowohl Aluminium als auch Kunststoff-Spritzguss — mit festeren Bauteilen, längerer Werkzeugstandzeit und weniger Nachbearbeitungsaufwand. Für Konstrukteure, die Bauteile mit engen Toleranzen, dünnen Wänden oder Klasse-A-Oberflächen entwickeln, ist Zink das Material, das Kompromisse überflüssig macht.",
-    "advantagesHeading": "Sechs Gründe, warum Ingenieure Zink spezifizieren",
+    "intro": "Zinkdruckguss ist eine effiziente und wirtschaftliche Lösung für technische Bauteile mit hoher Präzision, hoher Festigkeit und ansprechenden Oberflächen. Bei Linimatic fertigen wir sowohl kleine als auch große Zinkbauteile – von wenigen Gramm bis zu 4 kg.\n\nIm Vergleich zum Aluminiumdruckguss bietet Zink kürzere Zykluszeiten, einen geringeren Energieverbrauch und eine deutlich längere Standzeit des Gusswerkzeugs. Insgesamt bedeutet das häufig niedrigere Produktionskosten pro Bauteil – insbesondere bei größeren Serien und Bauteilen mit einem vorteilhaften Materialgewicht.\n\nDie guten Fließeigenschaften von Zink ermöglichen zudem den Guss komplexer Geometrien, dünner Wandstärken, feiner Details und enger Toleranzen. Das reduziert den Bedarf an CNC-Bearbeitung und anderer Nachbearbeitung und trägt zusätzlich zu einem wettbewerbsfähigen Preis des fertigen Bauteils bei.",
+    "advantagesHeading": "10 Gründe, warum Ingenieure Zink spezifizieren",
     "advantages": [
       {
-        "value": "\u00b10,05",
-        "unit": "mm",
-        "label": "Erreichbare Toleranzen",
-        "description": "Höhere Gussmaßgenauigkeit als bei Aluminium oder Kunststoff. Viele Merkmale benötigen keinerlei Nachbearbeitung, was Kosten und Lieferzeit reduziert."
+        "title": "Niedrigere Produktionskosten",
+        "description": "Kurze Zykluszeiten und ein effizienter Gießprozess können zu einem niedrigeren Preis pro Bauteil führen — insbesondere bei größeren Produktionsserien."
       },
       {
-        "value": "1M+",
-        "unit": "Schuss",
-        "label": "Werkzeugstandzeit",
-        "description": "Zinkdruckguss-Werkzeuge halten 5–10-mal länger als Aluminium-Werkzeuge. Niedrigere Werkzeugkosten pro Bauteil und weniger Produktionsunterbrechungen durch Werkzeugwechsel."
+        "title": "Komplexe Geometrien",
+        "description": "Die guten Fließeigenschaften von Zink ermöglichen den Druckguss anspruchsvoller Formen, feiner Details und integrierter Funktionen in einem einzigen Bauteil."
       },
       {
-        "value": "10–45",
-        "unit": "Sek.",
-        "label": "Zykluszeit",
-        "description": "Das schnellste metallische Druckgussverfahren. Die Warmkammer-Technologie hält Zink geschmolzen in der Maschine und eliminiert den Schöpfschritt, der Aluminium-Guss verlangsamt."
+        "title": "Enge Toleranzen",
+        "description": "Zinkdruckguss bietet hohe Maßgenauigkeit und gute Dimensionsstabilität und reduziert damit den Bedarf an Nachbearbeitung."
       },
       {
-        "value": "0,8",
-        "unit": "Ra \u03bcm",
-        "label": "Oberflächengüte",
-        "description": "Direkt aus dem Werkzeug chromierbereit. Kein Polieren oder zusätzliche Oberflächenvorbereitung für dekorative Veredelungen erforderlich."
+        "title": "Dünne Wandstärken",
+        "description": "Zink kann sehr schmale Bereiche des Werkzeugs ausfüllen und eignet sich daher für Bauteile mit dünnen Wänden und feinen Details."
       },
       {
-        "value": "0,6",
-        "unit": "mm",
-        "label": "Minimale Wandstärke",
-        "description": "Dünnere Wände als bei jedem anderen metallischen Druckgussverfahren. Ermöglicht filigrane Geometrien und Leichtbaukonstruktionen, die in Aluminium nicht realisierbar wären."
+        "title": "Hohe Festigkeit und Steifigkeit",
+        "description": "Zinklegierungen verbinden hohe mechanische Festigkeit mit guter Steifigkeit und eignen sich für belastete technische Bauteile."
       },
       {
-        "value": "100%",
-        "unit": "",
-        "label": "Recyclingfähig",
-        "description": "Zink ist unendlich oft recyclebar ohne Verlust der Materialeigenschaften. Der niedrigere Schmelzpunkt bedeutet weniger Energieverbrauch pro Gießzyklus."
+        "title": "Lange Standzeit des Werkzeugs",
+        "description": "Die niedrige Schmelztemperatur von Zink belastet das Werkzeug weniger als Aluminium und sorgt oft für eine deutlich längere Werkzeugstandzeit. Da sich die Werkzeugkosten auf mehr produzierte Teile verteilen, ergibt sich ein niedrigerer Werkzeugkostenanteil pro Bauteil."
+      },
+      {
+        "title": "Ansprechende Oberflächen",
+        "description": "Zink erzeugt eine glatte, gleichmäßige Gussoberfläche, die sich sowohl für sichtbare Bauteile als auch für nachfolgende Oberflächenbehandlung eignet."
+      },
+      {
+        "title": "Weniger Teile und Arbeitsschritte",
+        "description": "Gewinde, Rippen, Zapfen, Logos und andere Funktionen lassen sich oft direkt in den Guss integrieren. Das kann die Anzahl der Bauteile und Montageschritte reduzieren."
+      },
+      {
+        "title": "Effektive elektromagnetische Abschirmung",
+        "description": "Zink ist elektrisch leitfähig und eignet sich für Gehäuse und Bauteile, die Elektronik vor elektromagnetischen Störungen schützen sollen."
+      },
+      {
+        "title": "Ein wiederverwertbares Material",
+        "description": "Zink lässt sich immer wieder recyceln, ohne seine grundlegenden Eigenschaften zu verlieren. Produktionsreste können eingeschmolzen und in den Materialkreislauf zurückgeführt werden."
       }
     ],
     "comparison": {
@@ -458,7 +462,7 @@
         },
         {
           "property": "Zykluszeit",
-          "zinc": "10–45s",
+          "zinc": "5–45s",
           "aluminum": "30–120s",
           "magnesium": "20–60s",
           "plastic": "15–60s"
@@ -491,7 +495,8 @@
           "magnesium": "100%",
           "plastic": "Begrenzt"
         }
-      ]
+      ],
+    "disclaimer": "Der Vergleich bezieht sich auf funktional gleichwertige Bauteile, die in Serienproduktion gefertigt werden. Die Werte sind Richtwerte, da das Ergebnis von der Konstruktion und Größe des Bauteils, der gewählten Legierung, dem Werkzeug und dem Produktionsaufbau abhängt."
     },
     "alloys": {
       "heading": "Zamak-Legierungsübersicht",
@@ -537,35 +542,43 @@
       "items": [
         {
           "question": "Was ist Zinkdruckguss?",
-          "answer": "Zinkdruckguss ist ein Fertigungsverfahren, bei dem flüssige Zinklegierung unter hohem Druck in ein Stahlwerkzeug eingespritzt wird. Die Warmkammer-Technologie hält die Legierung geschmolzen innerhalb der Maschine und ermöglicht Zykluszeiten von bis zu 10 Sekunden. Das Ergebnis ist ein endkonturnahes Metallbauteil mit engen Toleranzen, exzellenter Oberfläche und hoher Wiederholgenauigkeit — geeignet für Produktionsvolumina von Hunderten bis Millionen von Teilen."
-        },
-        {
-          "question": "Ist Zinkdruckguss stärker als Aluminium?",
-          "answer": "Ja, hinsichtlich der Zugfestigkeit. Zamak-Legierungen erreichen 283 bis 397 MPa, während die meisten Aluminium-Druckgusslegierungen 150–300 MPa liefern. Zink erzielt zudem engere Gussmaßtoleranzen (±0,05\u2009mm gegenüber ±0,1\u2009mm) und liefert chromierfertige Oberflächen ohne Nachpolieren. Aluminium ist jedoch leichter (2,7 g/cm³ gegenüber 6,6 g/cm³), sodass die Wahl davon abhängt, ob Festigkeit-Gewicht-Verhältnis oder absolute Präzision Vorrang hat."
+          "answer": "Zinkdruckguss ist ein Fertigungsverfahren, bei dem flüssige Zinklegierung unter hohem Druck in ein Stahlwerkzeug eingespritzt wird. Die Warmkammer-Technologie hält die Legierung geschmolzen innerhalb der Maschine und ermöglicht Zykluszeiten von bis zu 5–6 Sekunden. Das Ergebnis ist ein endkonturnahes Metallbauteil mit engen Toleranzen, exzellenter Oberfläche und hoher Wiederholgenauigkeit — geeignet für Produktionsvolumina von Hunderten bis Millionen von Teilen."
         },
         {
           "question": "Was ist eine Zamak-Legierung?",
           "answer": "Zamak ist eine Familie von Zink-Aluminium-Legierungen, die speziell für den Druckguss entwickelt wurden. Der Name leitet sich von den deutschen Anfangsbuchstaben der Bestandteile ab: Zink, Aluminium, Magnesium und Kupfer. Die vier Standardgüten — Zamak 2, 3, 5 und 8 — bieten unterschiedliche Kombinationen aus Festigkeit, Duktilität und Gießbarkeit. Zamak 3 ist die am häufigsten verwendete Legierung, während Zamak 2 die höchste Festigkeit bietet."
         },
         {
-          "question": "Was kostet Zinkdruckguss?",
-          "answer": "Die Werkzeugkosten hängen von der Bauteilkomplexität und der Anzahl der Kavitäten ab und liegen typischerweise zwischen 10.000 und 80.000 Euro. Zinkdruckguss-Werkzeuge halten jedoch über 1 Million Schuss — 5–10-mal länger als Aluminium-Werkzeuge — was die werkzeugbezogenen Stückkosten bei großen Volumina drastisch senkt. Stückpreise hängen von Bauteilgewicht, Legierung, Zykluszeit und Nebenoperationen ab. Senden Sie uns Ihre Zeichnung für ein konkretes Angebot — wir antworten innerhalb von 48 Stunden."
+          "question": "Was ist der Unterschied zwischen Zink und Zamak?",
+          "answer": "Zink ist das Grundelement. Zamak ist eine spezifische Familie von Zinklegierungen, die für den Druckguss entwickelt wurden und präzise abgestimmte Anteile von Aluminium (3,5–4,3 %), Magnesium und in einigen Güten Kupfer enthalten. Reines Zink ist für die meisten technischen Anwendungen zu weich — die Legierungselemente in Zamak verleihen die Festigkeit, Härte und Gießbarkeit, die Präzisionsdruckguss erst ermöglichen."
         },
         {
-          "question": "Welche Industrien nutzen Zinkdruckguss?",
-          "answer": "Zinkdruckguss-Bauteile werden in der Automobilindustrie (Struktur- und Innenteile), im Möbel- und Designbereich (sichtbare Beschläge, Griffe), in der Beleuchtung (Halterungen, Gehäuse, Kühlkörper), im Bau- und HVAC-Bereich (Fensterbeschläge, Motorrahmen), in der Unterhaltungselektronik (Präzisionsgehäuse) sowie in der Investitionsgüterindustrie (ergonomische Griffe, Halterungen) eingesetzt. Jede Anwendung, die enge Toleranzen, komplexe Geometrien oder dekorative Oberflächen erfordert, kommt in Frage."
+          "question": "Ist Zinkdruckguss stärker als Aluminium?",
+          "answer": "Ja, hinsichtlich der Zugfestigkeit. Zamak-Legierungen erreichen 283 bis 397 MPa, während die meisten Aluminium-Druckgusslegierungen 150–300 MPa liefern. Zink erzielt zudem engere Gussmaßtoleranzen (±0,05 mm gegenüber ±0,1 mm) und liefert chromierfertige Oberflächen ohne Nachpolieren. Aluminium ist jedoch leichter (2,7 g/cm³ gegenüber 6,6 g/cm³), sodass die Wahl davon abhängt, ob Festigkeit-Gewicht-Verhältnis oder absolute Präzision Vorrang hat."
+        },
+        {
+          "question": "Warum nicht Magnesium statt Zink wählen?",
+          "answer": "Magnesium ist das leichteste der drei Metalle — noch leichter als Aluminium. Zink-Druckgusswerkzeuge halten jedoch typischerweise über 1 Million Schüsse gegenüber 200.000–300.000 bei Magnesium, die Toleranzen sind enger (±0,05 mm gegenüber ±0,08 mm), und die stärksten Zamak-Legierungen übertreffen die Zugfestigkeit von Magnesium (bis zu 397 MPa gegenüber 200–250 MPa). Magnesium kann die richtige Wahl sein, wenn das Gewicht der entscheidende Faktor ist — für die meisten technischen Bauteile bietet Zink die bessere Werkzeugwirtschaftlichkeit, Präzision und Festigkeit."
         },
         {
           "question": "Können Zinkdruckgussteile verchromt werden?",
-          "answer": "Ja, und das ist einer der stärksten Vorteile von Zink. Zinkdruckgussteile erzielen direkt aus dem Werkzeug eine Oberflächengüte von 0,8\u2009Ra\u2009µm — glatt genug für die direkte Verchromung ohne Zwischenpolieren. Das macht Zink zum bevorzugten Werkstoff für sichtbare, dekorative Bauteile in Möbeln, Beleuchtung und Konsumgütern, bei denen ein makelloses Chromfinish unabdingbar ist."
+          "answer": "Ja, und das ist einer der stärksten Vorteile von Zink. Zinkdruckgussteile haben direkt aus dem Werkzeug eine glatte, gleichmäßige Oberfläche, die eine hervorragende Ausgangsbasis für die Verchromung bietet. Vor der Verchromung muss die Oberfläche jedoch poliert werden, um ein makelloses, spiegelglänzendes Ergebnis zu erzielen. Das macht Zink zum bevorzugten Werkstoff für sichtbare, dekorative Bauteile in Möbeln, Beleuchtung und Konsumgütern, bei denen ein makelloses Chromfinish unabdingbar ist."
+        },
+        {
+          "question": "Korrodieren Zinkdruckgussteile ohne Oberflächenbehandlung?",
+          "answer": "Unbehandeltes Zink besitzt eine gute natürliche Korrosionsbeständigkeit und kann bei Innen- oder verdeckten Bauteilen oft ohne Oberflächenbehandlung eingesetzt werden. Für den Außeneinsatz, feuchte Umgebungen oder wenn Optik und Verschleißfestigkeit wichtig sind, bieten wir eine breite Auswahl an Oberflächenbehandlungen — wir helfen bei der Auswahl je nach Einsatzzweck des Bauteils."
+        },
+        {
+          "question": "Welche Industrien nutzen Zinkdruckguss?",
+          "answer": "Zinkdruckguss-Bauteile werden in vielen verschiedenen Segmenten eingesetzt: Industrie, Automotive, Telekommunikation, Kameragehäuse sowie Möbel- und Designprodukte. Gemeinsam ist diesen Kunden der Bedarf an hoher Präzision, komplexer Geometrie und zuverlässiger Qualität — sowohl bei kleinen als auch bei großen Serien."
         },
         {
           "question": "Ist Zinkdruckguss umweltfreundlich?",
-          "answer": "Zink ist zu 100 % recyclebar ohne Beeinträchtigung der Materialeigenschaften. Der niedrigere Schmelzpunkt (385 °C gegenüber 660 °C bei Aluminium) bedeutet weniger Energieverbrauch pro Gießzyklus. Bei Linimatic wird nahezu der gesamte Gussausschuss — Angüsse, Überläufe und Ausschussteile — direkt in der Produktion wieder eingeschmolzen und wiederverwendet. Über unsere Zinkers-Produktlinie bieten wir zudem bleifreie Zinklegierungen an."
+          "answer": "Zink ist zu 100 % recyclebar ohne Beeinträchtigung der Materialeigenschaften. Der niedrigere Schmelzpunkt (385 °C gegenüber 660 °C bei Aluminium) bedeutet weniger Energieverbrauch pro Gießzyklus. Bei Linimatic wird nahezu der gesamte Gussausschuss — Angüsse, Überläufe und Ausschussteile — direkt in der Produktion wieder eingeschmolzen und wiederverwendet. Über unsere Zinkers-Produktlinie bieten wir zudem bleifreie Zinklegierungen an."
         },
         {
-          "question": "Was ist der Unterschied zwischen Zink und Zamak?",
-          "answer": "Zink ist das Grundelement. Zamak ist eine spezifische Familie von Zinklegierungen, die für den Druckguss entwickelt wurden und präzise abgestimmte Anteile von Aluminium (3,5–4,3 %), Magnesium und in einigen Güten Kupfer enthalten. Reines Zink ist für die meisten technischen Anwendungen zu weich — die Legierungselemente in Zamak verleihen die Festigkeit, Härte und Gießbarkeit, die Präzisionsdruckguss erst ermöglichen."
+          "question": "Was kostet Zinkdruckguss?",
+          "answer": "Die Werkzeugkosten hängen von der Bauteilkomplexität und der Anzahl der Kavitäten ab und liegen typischerweise zwischen 10.000 und 80.000 Euro. Zinkdruckguss-Werkzeuge halten jedoch über 1 Million Schüsse — 5–10-mal länger als Aluminium-Werkzeuge — was die werkzeugbezogenen Stückkosten bei großen Volumina drastisch senkt. Stückpreise hängen von Bauteilgewicht, Legierung, Zykluszeit und Nebenoperationen ab. Senden Sie uns Ihre Zeichnung für ein konkretes Angebot — wir antworten innerhalb von 48 Stunden."
         }
       ]
     },
@@ -1303,47 +1316,51 @@
     "positionsHeading": "Aktuelle Stellenangebote",
     "responsibilitiesLabel": "Ihre Aufgaben",
     "requirementsLabel": "Was wir suchen",
+    "contactLabel": "Kontakt",
     "applyButton": "Jetzt bewerben",
     "applySubject": "Bewerbung \u2014 {position} \u2014 Linimatic",
     "noPositions": "Derzeit keine offenen Stellen \u2014 aber wir sind immer an qualifizierten Fachkräften interessiert. Senden Sie uns eine Initiativbewerbung.",
     "positions": [
       {
-        "title": "Maschinist / Industrietechniker oder Werkzeugmacher",
-        "department": "Werkzeugabteilung",
+        "title": "Maschinist, Industrietechniker oder Werkzeugmacher — Formenbau",
+        "department": "Formenbau",
         "type": "Vollzeit",
-        "description": "Wir planen einen Generationswechsel in unserer Werkzeugabteilung, da zwei erfahrene Kollegen sich dem Ruhestand nähern. Wir suchen einen neuen Mitarbeiter, der gründlich eingearbeitet und das Spezialwissen übernehmen kann. Erfahrung mit Druckgussformen ist von Vorteil, aber nicht erforderlich.",
+        "description": "Bei Linimatic steht ein geplanter Generationswechsel in unserem Formenbau bevor. Zwei unserer erfahrenen Kollegen nähern sich dem Ruhestand, und wir suchen eine neue Kollegin oder einen neuen Kollegen, die/der gründlich eingearbeitet wird und langfristig die Zukunft des Formenbaus sichert. Uns ist bewusst, dass es Zeit braucht, ein so spezialisiertes Handwerk zu erlernen, deshalb nehmen wir uns ausreichend Zeit für eine gründliche Einarbeitung durch unsere erfahrenen Kollegen. Erfahrung mit Druckgussformen ist nicht erforderlich — wichtiger sind mechanisches Verständnis, sorgfältiges Arbeiten und die Bereitschaft, ein spezialisiertes Handwerk zu erlernen.",
         "responsibilities": [
           "Vorbereitung und Wartung von Druckgussformen und Stanzwerkzeugen",
-          "Fehlerbehebung bei produktionsbezogenen Werkzeugproblemen",
-          "Einkauf ausgewählter Verschleißteile und Verbrauchsmaterialien",
-          "Zusammenarbeit mit Produktion und Ingenieurabteilung"
+          "Fehlerbehebung bei Produktionsstopps im Zusammenhang mit Werkzeugen",
+          "Kleinere Reparaturen, Anpassungen und Verbesserungen",
+          "Einkauf ausgewählter Verschleißteile",
+          "Zusammenarbeit mit Produktion und Produktionstechnik"
         ],
         "requirements": [
-          "Ausgebildeter Maschinist, Werkzeugmacher oder Industrietechniker \u2014 oder relevanter technischer Hintergrund",
-          "Mechanisch begabt mit Auge fürs Detail",
-          "Verantwortungsbewusst und motiviert, tiefes Fachwissen zu entwickeln",
-          "Dänische oder englische Arbeitskenntnisse"
-        ]
+          "Praktische technische Erfahrung mit Metall, Maschinen, Werkzeug, Instandhaltung oder Produktion",
+          "Gutes mechanisches Verständnis und Sinn für Details",
+          "Verantwortungsbewusstes und selbstständiges Arbeiten",
+          "Motivation, ein spezialisiertes Handwerk zu erlernen"
+        ],
+        "contactName": "Rikke Østrup Fisker, Logistikleiterin",
+        "contactEmail": "rif@linimatic.dk"
       },
       {
         "title": "Produktionsmitarbeiter",
         "department": "Gießerei",
         "type": "Vollzeit",
-        "description": "Werden Sie Teil unseres Gießereiteams und bedienen Sie Zinkdruckgussmaschinen und Produktionsanlagen. Dies ist eine Einstiegsposition mit einem klaren Karrierepfad zum Maschineneinrichter durch Einarbeitung, interne Kurse und Roboterprogrammierungszertifizierung.",
+        "description": "Haben Sie technisches Flair und Lust, ein neues Fach zu erlernen? Linimatic A/S in Helsinge produziert im Druckgussverfahren hergestellte Zinkkomponenten für Kunden weltweit. Wir sind bekannt dafür, „die Besten im Schwierigsten“ zu sein — und suchen nun neue Kollegen, die sich im Druckguss einarbeiten lassen möchten. Uns ist bewusst, dass es Zeit braucht, das Fach richtig zu erlernen, daher erhalten Sie eine gründliche Einarbeitung — und wenn Sie sich weiterentwickeln möchten, bieten wir auch Kurse in Gusstheorie und Roboterprogrammierung an.",
         "responsibilities": [
-          "Bedienung von Zinkdruckgussmaschinen und Produktionsanlagen",
-          "Entnahme von Bauteilen aus Maschinen, Stanzen oder Beschneiden nach Bedarf",
-          "Qualitätskontrolle nach schriftlichen Verfahren",
-          "Montagearbeiten an Fertigbauteilen",
-          "Eigenüberwachung der Arbeitsqualität während der Produktion"
+          "Einrichten und Bedienen von Druckgussmaschinen",
+          "Qualitätskontrolle der eigenen Arbeit",
+          "Unterstützung der Kollegen bei Maschinenstopps",
+          "Inbetriebnahme des Roboters in der Gießzelle"
         ],
         "requirements": [
-          "Bereitschaft, Neues zu lernen \u2014 keine vorherige Druckgusserfahrung nötig",
-          "Technisches Geschick und gute organisatorische Gewohnheiten",
-          "Ausgeprägte Teamfähigkeit",
-          "Verpflichtung zu Qualitätsstandards",
+          "Technisches Interesse und Lernbereitschaft",
+          "Teamorientiert und qualitätsbewusst",
           "Dänische Sprachkenntnisse (Sprechen, Lesen, Schreiben)"
-        ]
+        ],
+        "contactName": "Thomas Hjorth, Produktionsleiter",
+        "contactPhone": "+45 50 77 02 16",
+        "contactEmail": "thj@linimatic.dk"
       }
     ],
     "openApplicationHeading": "Ihre Rolle nicht dabei?",

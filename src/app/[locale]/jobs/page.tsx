@@ -107,7 +107,7 @@ export default async function JobsPage({
             <div>
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-8 h-px bg-ember" />
-                <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+                <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
                   {t("eyebrow")}
                 </span>
               </div>
@@ -144,7 +144,7 @@ export default async function JobsPage({
           <div className="mb-12">
             <div className="flex items-center gap-4 mb-5">
               <div className="w-8 h-px bg-ember" />
-              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
                 {t("positionsEyebrow")}
               </span>
             </div>
@@ -171,7 +171,7 @@ export default async function JobsPage({
                           {pos.department}
                         </span>
                         <span className="text-zinc-300">|</span>
-                        <span className="text-[11px] tracking-[0.1em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+                        <span className="text-[11px] tracking-[0.1em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
                           {pos.type}
                         </span>
                       </div>
@@ -279,7 +279,7 @@ export default async function JobsPage({
             </div>
           ) : (
             <div className="bg-white border border-zinc-200 p-8 sm:p-12 text-center">
-              <p className="text-lg text-zinc-400">{t("noPositions")}</p>
+              <p className="text-lg text-zinc-600">{t("noPositions")}</p>
             </div>
           )}
         </div>
@@ -292,7 +292,7 @@ export default async function JobsPage({
             <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">
               {t("whyHeading")}
             </h2>
-            <p className="mt-4 text-base text-zinc-400 leading-relaxed max-w-2xl">
+            <p className="mt-4 text-base text-zinc-600 leading-relaxed max-w-2xl">
               {t("whyDescription")}
             </p>
           </div>
@@ -306,7 +306,7 @@ export default async function JobsPage({
                 <h3 className="text-base font-semibold text-zinc-900 font-[family-name:var(--font-display)]">
                   {perk.title}
                 </h3>
-                <p className="mt-2 text-sm text-zinc-400 leading-relaxed">
+                <p className="mt-2 text-sm text-zinc-600 leading-relaxed">
                   {perk.description}
                 </p>
               </div>

@@ -33,10 +33,10 @@ export function generateStaticParams() {
 }
 
 const caseImages: Record<string, string> = {
-  dewalt: "/images/services/brake-bracket-component.jpg",
-  "one-collection": "/images/cases/one-collection-finn-juhl.jpg",
-  velux: "/images/cases/velux-motor-frame.jpg",
   "supplier-proximity": "/images/cases/supplier-proximity.jpg",
+  "velux-kanban": "/images/cases/velux-motor-frame.jpg",
+  "frandsen-downlight": "/images/cases/frandsen-downlight.jpg",
+  "one-collection-finn-juhl": "/images/cases/one-collection-finn-juhl.jpg",
 };
 
 export default async function CasesPage({
@@ -68,14 +68,14 @@ export default async function CasesPage({
           <div className="max-w-3xl">
             <div className="flex items-center gap-4 mb-6">
               <div className="w-8 h-px bg-ember" />
-              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
                 {t("eyebrow")}
               </span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
               {t("heading")}
             </h1>
-            <p className="mt-6 text-lg text-zinc-400 leading-relaxed max-w-2xl">
+            <p className="mt-6 text-lg text-zinc-600 leading-relaxed max-w-2xl">
               {t("description")}
             </p>
           </div>
@@ -85,7 +85,7 @@ export default async function CasesPage({
             {industries.map((industry) => (
               <span
                 key={industry}
-                className="px-3 py-1.5 text-[11px] tracking-[0.1em] uppercase font-[family-name:var(--font-mono)] border border-zinc-300 text-zinc-400 hover:border-ember hover:text-ember transition-colors cursor-pointer"
+                className="px-3 py-1.5 text-[11px] tracking-[0.1em] uppercase font-[family-name:var(--font-mono)] border border-zinc-300 text-zinc-600 hover:border-ember hover:text-ember transition-colors cursor-pointer"
               >
                 {industry}
               </span>

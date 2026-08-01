@@ -7,12 +7,7 @@ import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildMetadata, metaDescription, type Locale } from "@/lib/seo";
 
-const CASE_SLUGS = [
-  "dewalt",
-  "one-collection",
-  "velux",
-  "supplier-proximity",
-] as const;
+const CASE_SLUGS = ["supplier-proximity", "velux-kanban", "frandsen-downlight", "one-collection-finn-juhl"] as const;
 type CaseSlug = (typeof CASE_SLUGS)[number];
 
 const SERVICE_SLUGS = [
@@ -25,10 +20,10 @@ const SERVICE_SLUGS = [
 ] as const;
 
 const CASE_IMAGES: Record<CaseSlug, string> = {
-  dewalt: "/images/services/brake-bracket-component.jpg",
-  "one-collection": "/images/cases/one-collection-finn-juhl.jpg",
-  velux: "/images/cases/velux-motor-frame.jpg",
   "supplier-proximity": "/images/cases/supplier-proximity.jpg",
+  "velux-kanban": "/images/cases/velux-motor-frame.jpg",
+  "frandsen-downlight": "/images/cases/frandsen-downlight.jpg",
+  "one-collection-finn-juhl": "/images/cases/one-collection-finn-juhl.jpg",
 };
 
 function isPlaceholder(text: string) {
@@ -133,7 +128,7 @@ export default async function CaseDetailPage({
               {/* Eyebrow: client · industry */}
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-8 h-px bg-ember" />
-                <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+                <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
                   {client}
                   <span className="mx-2 text-zinc-300">·</span>
                   {industry}
@@ -170,7 +165,7 @@ export default async function CaseDetailPage({
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-6">
             <div className="w-8 h-px bg-ember" />
-            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
               01
             </span>
           </div>
@@ -206,7 +201,7 @@ export default async function CaseDetailPage({
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-6">
             <div className="w-8 h-px bg-ember" />
-            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
               03
             </span>
           </div>
@@ -271,44 +266,46 @@ export default async function CaseDetailPage({
       </section>
 
       {/* ── Other Cases ── */}
-      <section className="bg-white py-16 border-t border-zinc-200">
-        <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-          <div className="flex items-center gap-4 mb-8">
-            <div className="w-8 h-px bg-ember" />
-            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
-              {tCases("breadcrumb")}
-            </span>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {otherSlugs.map((otherSlug) => (
-              <Link
-                key={otherSlug}
-                href={`/cases/${otherSlug}`}
-                className="group relative bg-zinc-900 overflow-hidden"
-              >
-                <div className="aspect-[16/7] relative">
-                  <Image
-                    src={CASE_IMAGES[otherSlug]}
-                    alt={t(`items.${otherSlug}.title`)}
-                    fill
-                    className="object-cover opacity-50 group-hover:opacity-70 transition-all duration-700 group-hover:scale-105"
-                    sizes="(max-width: 640px) 100vw, 50vw"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/30 to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <span className="text-[11px] tracking-[0.2em] uppercase text-ember font-[family-name:var(--font-mono)]">
-                      {t(`items.${otherSlug}.client`)}
-                    </span>
-                    <h3 className="mt-1 text-base font-semibold text-white leading-tight font-[family-name:var(--font-display)] tracking-tight">
-                      {t(`items.${otherSlug}.title`)}
-                    </h3>
+      {otherSlugs.length > 0 && (
+        <section className="bg-white py-16 border-t border-zinc-200">
+          <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
+            <div className="flex items-center gap-4 mb-8">
+              <div className="w-8 h-px bg-ember" />
+              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
+                {tCases("breadcrumb")}
+              </span>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {otherSlugs.map((otherSlug) => (
+                <Link
+                  key={otherSlug}
+                  href={`/cases/${otherSlug}`}
+                  className="group relative bg-zinc-900 overflow-hidden"
+                >
+                  <div className="aspect-[16/7] relative">
+                    <Image
+                      src={CASE_IMAGES[otherSlug]}
+                      alt={t(`items.${otherSlug}.title`)}
+                      fill
+                      className="object-cover opacity-50 group-hover:opacity-70 transition-all duration-700 group-hover:scale-105"
+                      sizes="(max-width: 640px) 100vw, 50vw"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/30 to-transparent" />
+                    <div className="absolute bottom-0 left-0 right-0 p-6">
+                      <span className="text-[11px] tracking-[0.2em] uppercase text-ember font-[family-name:var(--font-mono)]">
+                        {t(`items.${otherSlug}.client`)}
+                      </span>
+                      <h3 className="mt-1 text-base font-semibold text-white leading-tight font-[family-name:var(--font-display)] tracking-tight">
+                        {t(`items.${otherSlug}.title`)}
+                      </h3>
+                    </div>
                   </div>
-                </div>
-              </Link>
-            ))}
+                </Link>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* ── CTA ── */}
       <section className="bg-zinc-950 grain py-20 relative">

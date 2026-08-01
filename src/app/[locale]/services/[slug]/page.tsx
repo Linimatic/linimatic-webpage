@@ -188,7 +188,7 @@ export default async function ServiceDetailPage({
             <div className="px-6 sm:px-10 lg:px-16 xl:px-20 py-16 lg:py-24 flex flex-col justify-center">
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-8 h-px bg-ember" />
-                <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+                <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
                   {t("eyebrow")}
                 </span>
               </div>
@@ -266,7 +266,7 @@ export default async function ServiceDetailPage({
                 <h3 className="mt-2 text-sm font-semibold text-zinc-900 font-[family-name:var(--font-display)]">
                   {step.step}
                 </h3>
-                <p className="mt-1 text-sm text-zinc-400 leading-relaxed">
+                <p className="mt-1 text-sm text-zinc-600 leading-relaxed">
                   {step.description}
                 </p>
               </div>
@@ -336,7 +336,7 @@ export default async function ServiceDetailPage({
                   <h3 className="text-base font-semibold text-zinc-900 font-[family-name:var(--font-display)] mb-2">
                     {item.question}
                   </h3>
-                  <p className="text-sm text-zinc-400 leading-relaxed">
+                  <p className="text-sm text-zinc-600 leading-relaxed">
                     {item.answer}
                   </p>
                 </div>

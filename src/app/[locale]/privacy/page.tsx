@@ -43,7 +43,7 @@ export default async function PrivacyPolicyPage({
       <div className="mx-auto max-w-3xl px-6 lg:px-10">
         <div className="flex items-center gap-4 mb-6">
           <div className="w-8 h-px bg-ember" />
-          <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+          <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
             {t("eyebrow")}
           </span>
         </div>
@@ -51,7 +51,7 @@ export default async function PrivacyPolicyPage({
         <h1 className="text-4xl sm:text-5xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)] mb-8">
           {t("title")}
         </h1>
-        <p className="text-sm text-zinc-400 font-[family-name:var(--font-mono)] mb-12">
+        <p className="text-sm text-zinc-600 font-[family-name:var(--font-mono)] mb-12">
           {t("lastUpdated")}
         </p>
 

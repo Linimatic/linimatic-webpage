@@ -117,16 +117,34 @@ h1, h2, h3, h4, h5, h6 {
   animation: heroZoom 20s ease-out both;
 }
 
+/* Quiet slide-in for the corner popup */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-120%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto !important;
   }
   .animate-hero-zoom,
   .animate-fade-up,
-  .animate-logo-scroll {
+  .animate-logo-scroll,
+  .animate-slide-in-left {
     animation: none;
   }
-  .animate-fade-up {
+  .animate-fade-up,
+  .animate-slide-in-left {
     opacity: 1;
   }
 }

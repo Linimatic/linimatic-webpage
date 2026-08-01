@@ -95,14 +95,14 @@ export default async function ServicesPage({
           <div className="max-w-3xl">
             <div className="flex items-center gap-4 mb-6">
               <div className="w-8 h-px bg-ember" />
-              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
                 {t("eyebrow")}
               </span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
               {t("heading")}
             </h1>
-            <p className="mt-6 text-lg sm:text-xl text-zinc-400 leading-relaxed max-w-2xl">
+            <p className="mt-6 text-lg sm:text-xl text-zinc-600 leading-relaxed max-w-2xl">
               {t("description")}
             </p>
           </div>
@@ -114,14 +114,14 @@ export default async function ServicesPage({
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-5">
             <div className="w-8 h-px bg-ember" />
-            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
               {t("catalogEyebrow")}
             </span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">
             {t("catalogHeading")}
           </h2>
-          <p className="mt-4 text-base text-zinc-400 leading-relaxed max-w-2xl">
+          <p className="mt-4 text-base text-zinc-600 leading-relaxed max-w-2xl">
             {t("catalogDescription")}
           </p>
 
@@ -147,21 +147,21 @@ export default async function ServicesPage({
                       {service.icon}
                     </span>
                     <span className="w-4 h-px bg-zinc-300" />
-                    <span className="text-[10px] tracking-[0.2em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+                    <span className="text-[10px] tracking-[0.2em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
                       {service.label}
                     </span>
                   </div>
                   <h3 className="text-lg font-semibold text-zinc-900 group-hover:text-ember transition-colors font-[family-name:var(--font-display)] tracking-tight">
                     {serviceItems[i].title}
                   </h3>
-                  <p className="mt-2 text-sm text-zinc-400 leading-relaxed flex-1">
+                  <p className="mt-2 text-sm text-zinc-600 leading-relaxed flex-1">
                     {serviceItems[i].description}
                   </p>
                   <div className="mt-4 flex items-center justify-between gap-3">
                     <span className="text-[10px] tracking-[0.05em] text-ember font-[family-name:var(--font-mono)]">
                       {serviceItems[i].specs}
                     </span>
-                    <svg className="h-4 w-4 text-zinc-400 group-hover:text-ember transition-all group-hover:translate-x-1 shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                    <svg className="h-4 w-4 text-zinc-600 group-hover:text-ember transition-all group-hover:translate-x-1 shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                     </svg>
                   </div>
@@ -237,7 +237,7 @@ export default async function ServicesPage({
             <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">
               {t("diffHeading")}
             </h2>
-            <p className="mt-6 text-lg text-zinc-400 leading-relaxed">
+            <p className="mt-6 text-lg text-zinc-600 leading-relaxed">
               {t("diffDescription")}
             </p>
           </div>
@@ -253,7 +253,7 @@ export default async function ServicesPage({
                 <h3 className="text-base font-semibold text-zinc-900 font-[family-name:var(--font-display)] mb-2">
                   {diff.title}
                 </h3>
-                <p className="text-sm text-zinc-400 leading-relaxed">
+                <p className="text-sm text-zinc-600 leading-relaxed">
                   {diff.text}
                 </p>
               </div>

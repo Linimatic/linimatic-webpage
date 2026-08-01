@@ -45,7 +45,7 @@ export default async function Co2Page({
       <div className="mx-auto max-w-3xl px-6 lg:px-10">
         <div className="flex items-center gap-4 mb-6">
           <div className="w-8 h-px bg-ember" />
-          <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+          <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
             {t("eyebrow")}
           </span>
         </div>

@@ -156,22 +156,10 @@
     "allCases": "Alle cases",
     "items": [
       {
-        "title": "Indvendige dele med snævre tolerancer til elværktøj, som ingen andre ville byde på",
-        "client": "DeWalt",
-        "metric": "\u00b10,05\u2009mm tolerancer · Højvolumen-serieproduktion",
-        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. '99,2% first-pass yield' eller 'X mio. dele leveret'"
-      },
-      {
-        "title": "Støbning af en designikon — hvor overfladeperfektionen er ufravigelig",
-        "client": "One Collection",
-        "metric": "Klasse\u00a0A-forkromning · Finn Juhl-spisebord",
-        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'I produktion siden 2005' eller 'Nul reklamationer'"
-      },
-      {
-        "title": "Præcisions-motorrammer til Europas førende ovenlysproducent",
-        "client": "VELUX",
-        "metric": "Komplet lokal værdikæde · Automatiseret produktion",
-        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'X emner om året' eller 'Løbende leverance siden ÅÅÅÅ'"
+        "title": "Der er fordele ved at have din leverandør tæt på",
+        "client": "Ditlev Burke Industrial Tools A/S",
+        "metric": "Det er muligt at konkurrere med Asien · Automatiseret trykstøbning i Danmark",
+        "result": "Hele håndtaget produceres i dag i Danmark i stedet for i Asien."
       }
     ]
   },
@@ -756,34 +744,10 @@
   "casesPage": {
     "breadcrumb": "Cases",
     "eyebrow": "Kundeeksempler",
-    "heading": "Vanskelige opgaver, leveret.",
-    "description": "Hvert projekt på denne side er et projekt, et andet støberi afviste, nedprioriterede eller ikke kunne holde tolerance på. Kompleks geometri, krævende overfladekrav og stramme produktionsplaner — det er der, vi yder vores bedste.",
-    "industries": ["Automotive", "Møbler & design", "Belysning", "Byggeri & HVAC", "Elektronik", "Industri"],
+    "heading": "Cases",
+    "description": "Se eksempler på, hvordan vi i tæt samarbejde med vores kunder omsætter idéer og tekniske krav til færdige løsninger i zink. Her præsenterer vi udvalgte projekter, udfordringer og resultater – suppleret med kundernes egne erfaringer med samarbejdet.",
+    "industries": ["Industri & værktøj", "Byggeri & HVAC", "Belysning", "Møbler & design"],
     "items": [
-      {
-        "slug": "dewalt",
-        "client": "DeWalt",
-        "title": "Indvendige dele med snævre tolerancer til elværktøj, som ingen andre ville byde på",
-        "industry": "Industri & værktøj",
-        "metric": "\u00b10,05\u2009mm tolerancer · Højvolumen-serieproduktion",
-        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. '99,2% first-pass yield' eller 'X mio. dele leveret'"
-      },
-      {
-        "slug": "one-collection",
-        "client": "One Collection",
-        "title": "Støbning af en designikon — hvor overfladeperfektionen er ufravigelig",
-        "industry": "Møbler & design",
-        "metric": "Klasse\u00a0A-forkromning · Finn Juhl-spisebord",
-        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'I produktion siden 2005' eller 'Nul reklamationer'"
-      },
-      {
-        "slug": "velux",
-        "client": "VELUX",
-        "title": "Præcisions-motorrammer til Europas førende ovenlysproducent",
-        "industry": "Byggeri & HVAC",
-        "metric": "Komplet lokal værdikæde · Automatiseret produktion",
-        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'X emner om året' eller 'Løbende leverance siden ÅÅÅÅ'"
-      },
       {
         "slug": "supplier-proximity",
         "client": "Ditlev Burke Industrial Tools A/S",
@@ -791,6 +755,30 @@
         "industry": "Industri & værktøj",
         "metric": "Det er muligt at konkurrere med Asien · Automatiseret trykstøbning i Danmark",
         "result": "Hele håndtaget produceres i dag i Danmark i stedet for i Asien."
+      },
+      {
+        "slug": "velux-kanban",
+        "client": "VELUX",
+        "title": "Smidigt samarbejde med forecast aftale",
+        "industry": "Byggeri & HVAC",
+        "metric": "Årligt fornyet forecast-aftale · Robot indført i produktionslinjen",
+        "result": "Et tæt og smidigt samarbejde for begge parter — uden konstant genforhandling, med løbende sparring og videndeling mellem Linimatic og VELUX."
+      },
+      {
+        "slug": "frandsen-downlight",
+        "client": "Frandsen",
+        "title": "Hurtigere, smartere - og fremstillet i Danmark",
+        "industry": "Belysning",
+        "metric": "Omlagt fra kinesisk til dansk produktion under tidspres · Støbt i én proces",
+        "result": "Lamperne blev leveret til tiden til det amerikanske marked, produceret i Danmark i stedet for Kina — og Frandsen bruger nu i stigende grad Linimatic til flere projekter."
+      },
+      {
+        "slug": "one-collection-finn-juhl",
+        "client": "One Collection",
+        "title": "At relancere et klassisk design",
+        "industry": "Møbler & design",
+        "metric": "Finn Juhl-logo støbt direkte i beslaget · Udstillet på designmessen i Milano, 2015",
+        "result": "Det nye Finn Juhl 'Nyhavn'-spisebord (model FJ 5360) blev lanceret med de præcisionsstøbte zinkbeslag — med Finn Juhl-logoet støbt direkte ind i beslaget — og udstillet på designmessen i Milano den 13. april 2015."
       }
     ],
     "ctaHeading": "Har du en lignende udfordring?",
@@ -806,42 +794,6 @@
     "ctaDescription": "Send os dine tegninger. De projekter, andre støberier kalder vanskelige, er dem, vi har bygget denne virksomhed op omkring.",
     "ctaButton": "Kontakt os for at komme i gang",
     "items": {
-      "dewalt": {
-        "metaTitle": "DeWalt — præcise dele til elværktøj",
-        "client": "DeWalt",
-        "industry": "Industri & værktøj",
-        "title": "Indvendige dele med snævre tolerancer til elværktøj, som ingen andre ville byde på",
-        "metric": "±0,05 mm tolerancer · Højvolumen-serieproduktion",
-        "overview": "Indvendige dele til elværktøj kræver dimensionel konsistens, som de fleste støberier ikke kan levere pålideligt i volumenproduktion. Linimatic har leveret højvolumen-zinktrykstøbte emner til DeWalt med tolerancer i støbning, der bestemmer hele samlingens pasform.",
-        "challenge": "Indvendige komponenter til professionelt elværktøj skal passe ind i snævre rumslige profiler og samvirke præcist med bevægelige dele — enhver dimensionel variation medfører binding, støj eller fejl i felten. Kombinationen af kompleks indre geometri, tynde vægge og tolerancer under 0,1 mm på kritiske funktioner gør disse emner vanskelige at byde på: formdesign, legeringstemperatur, injektionshastighed og udtrækningssekvens skal alle justeres i samspil for at ramme tolerancevinduet gentagne gange over et langt produktionsforløb. De fleste støberier indregner høje spildrater eller afviser simpelthen at byde.",
-        "approach": "Linimatics ingeniører gennemgik emnegeometrien under DFM og identificerede den datumstrategi og de anstikspunkter, der ville holde de kritiske samlingsflader inden for tolerance over hele produktionsforløbet. Realtids-SPC-overvågning på trykstøbemaskinerne muliggør øjeblikkelig opdagelse og korrektion af procesafvigelser, inden fejlemner ophobes. Intern CNC-efterbearbejdning håndterer de funktioner, der kræver strammere kontrol end støbeprocessen kan garantere — alt under ét kvalitetssystem, så sporbarheden er ubrudt fra rålegering til slutkontrol.",
-        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. '99,2% first-pass yield' eller 'X mio. dele leveret'",
-        "capabilities": ["die-casting", "post-processing", "quality"]
-      },
-      "one-collection": {
-        "metaTitle": "One Collection — et støbt designikon",
-        "client": "One Collection",
-        "industry": "Møbler & design",
-        "title": "Støbning af en designikon — hvor overfladeperfektionen er ufravigelig",
-        "metric": "Klasse A-forkromning · Finn Juhl-spisebord",
-        "overview": "Finn Juhl-spisebordet er en møbelikone, hvor de støbte zinkbeslag er synlige i øjenhøjde — en overfladefejl på et forkromet emne er ikke en kvalitetsflugt, det er en reklamation. One Collection krævede en støbepartner, der var i stand til at levere klasse A-kosmetiske overflader i konsistent serieproduktion.",
-        "challenge": "Forkromning er nådesløs: enhver overfladefejl i støbningen — en porøsitetsgrop, en strømlinje, et koldt tilløb — vil blive forstærket snarere end skjult af belægningsprocessen. At opnå en kromklar støbeoverflade kræver stram kontrol af legeringstemperatur, injektionshastighed, formtemperatur og udluftning i samspil. Designmøbelkunder kræver desuden farve- og overfladekonsistens på tværs af batcher leveret med måneders mellemrum — kromet på en stol købt i dag skal matche kromet på et bord købt for to år siden.",
-        "approach": "Zinktrykstøbning er enestående egnet til denne udfordring: varmkammerprocessen producerer en finkornet, tæt overflade på 0,8 Ra μm i støbning — glat nok til direkte dekorativ forkromning uden mellemliggende polering. Linimatic styrer hele slutbehandlingssekvensen internt — fra støbning over overfladeforberedelse til flerlagsprocessen med kobber-nikkel-krom — hvilket betyder, at kvalitetskæden ikke har eksterne mellemled, hvor overfladeforholdene kan kompromitteres. Masterprøver og opbevarede overfladereferencer anvendes til at verificere batch-til-batch-konsistens.",
-        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'I produktion siden 2005' eller 'Nul reklamationer'",
-        "capabilities": ["die-casting", "surface-treatment", "quality"]
-      },
-      "velux": {
-        "metaTitle": "VELUX — præcise motorrammer i zink",
-        "client": "VELUX",
-        "industry": "Byggeri & HVAC",
-        "title": "Præcisions-motorrammer til Europas førende ovenlysproducent",
-        "metric": "Komplet lokal værdikæde · Automatiseret produktion",
-        "overview": "VELUX-motorrammer er strukturelle emner, der skal placere og fastholde motoriserede drev i ovenlyskonstruktioner monteret på byggeprojekter i hele Europa — dimensionsnøjagtighed og leveringssikkerhed er begge ufravigelige i de volumener, VELUX opererer med.",
-        "challenge": "Motorrammekomponenter kombinerer præcise positioneringsfunktioner med strukturelle krav i en geometri, der skal frigøre montageredskab og muliggøre hurtig automatiseret indsætning af motorenheden. Volumenpålidelighed er lige så kritisk som dimensionsnøjagtighed: en enkeltkildekomponent, der ikke leverer til aftalt tid, stopper en produktionslinje. VELUX krævede en lokal europæisk partner med den kapacitet og procesdisciplin, der er nødvendig for at levere konsistent i de krævede volumener med den sporbarhed og dokumentation, en stor OEM kræver.",
-        "approach": "Linimatics integrerede værdikæde — støbning, CNC-efterbearbejdning, kontrol og montage under ét tag — eliminerer de leverandørkoordinerings-forsinkelser og kvalitetsrisikoer ved videregivelse, der påvirker flerniveauleverandørkæder. Robotudtrækning og automatiseret SPC-overvågning på trykstøbemaskinerne opretholder dimensionel konsistens over højvolumen-forløb. Kanban-baseret leveringsplanlægning og ERP-styret lagerbeholdning sikrer, at VELUX modtager færdige emner i overensstemmelse med deres produktionsforecast uden behov for bufferlager i deres ende.",
-        "result": "PLADSHOLDER: Tilføj nøgleresultat — f.eks. 'X emner om året' eller 'Løbende leverance siden ÅÅÅÅ'",
-        "capabilities": ["prototyping", "die-casting", "assembly"]
-      },
       "supplier-proximity": {
         "metaTitle": "Ditlev Burke — håndtag hjemtaget fra Asien",
         "client": "Ditlev Burke Industrial Tools A/S",
@@ -852,6 +804,42 @@
         "challenge": "\"Vi er utroligt glade for de projekter, vi har kørt i samarbejde med Linimatic A/S. Senest har vi samarbejdet om et nyt håndtag, som indeholder en zinkdel, der er fremstillet af Linimatic. Resultatet er, at vi nu selv kan fremstille plastdelen og formontere den, så hele håndtaget bliver fremstillet i Danmark i stedet for som tidligere i Asien,\" siger Camilla Burke Vedsmand, administrerende direktør hos Ditlev Burke Industrial Tools A/S, der ligger i Asnæs på Sjælland.",
         "approach": "\"Når man som med Linimatic har en automatiseret produktionslinje, har vi ud fra vores egne erfaringer kunnet konstatere, at det er muligt at konkurrere med Asien,\" siger Camilla Burke Vedsmand. Blandt andre åbenlyse fordele ved partnerskabet nævner hun det tætte samarbejde, kvaliteten og pålideligheden: \"Kommunikationen inden for landets grænser er bare så meget hurtigere og sikrer derfor fremdrift i projekterne. Det har været en væsentlig motivation for at udvikle det langsigtede samarbejde med Linimatic i Nordsjælland.\" \"Det er vigtigt for os, at vi har den samme ensartede forståelse og tilgang til opgaverne. Linimatic A/S er ekstremt dygtige teknisk, og vi er særligt glade for, at samarbejdet også understøtter vores filosofi om at fastholde arbejdspladser i Danmark,\" tilføjer hun.",
         "result": "Hele håndtaget produceres i dag i Danmark i stedet for i Asien.",
+        "capabilities": ["die-casting", "quality"]
+      },
+      "velux-kanban": {
+        "metaTitle": "VELUX — forecast-aftale og robotautomatisering",
+        "client": "VELUX",
+        "industry": "Byggeri & HVAC",
+        "title": "Smidigt samarbejde med forecast aftale",
+        "metric": "Årligt fornyet forecast-aftale · Robot indført i produktionslinjen",
+        "overview": "VELUX-afdelingen Gåsdal har i flere år kørt på en fast Kanban- og forecast-aftale med Linimatic, der gør samarbejdet lettere og mere forudsigeligt for begge parter. Aftalen fornyes hvert år, indeholder indbygget prisbeskyttelse mod udsving i råvarer og valuta — og har blandt andet ført til, at en robot nu håndterer emnerne i produktionen.",
+        "challenge": "\"Selvfølgelig er der en prisaftale med indbygget beskyttelse af begge parter, f.eks. i forhold til udsving i råvarepriser og valutakurser. Men måske endnu vigtigere gør aftalen det også muligt for Linimatic at planlægge og tilpasse produktionskapaciteten og dermed være i stand til at levere hurtigt, i den aftalte kvalitet og til den aftalte tid,\" fortæller Lars Daugaard Pedersen, strategisk indkøber hos VELUX.",
+        "approach": "\"Vi er selvfølgelig altid på jagt efter besparelser og talte med Linimatic om mulighederne for at reducere prisen en smule. Linimatic foreslog, at man kunne implementere en robot i produktionslinjen. Vi skulle ikke betale for robotten, men en lille investering i en særlig griber, der er specielt tilpasset vores emner. Med robotten sparer vi nu lønnen til den operatør, der havde til opgave at håndtere vores emne, og resultatet er en fornuftig besparelse,\" forklarer Lars Daugaard Pedersen. \"Tingene kører bare — og en klar fordel er, at vi ikke behøver at forhandle hele tiden. Vi har en rigtig god sparring med Linimatics teknikere, og der er altid mulighed for at komme med en ny idé.\"",
+        "result": "Et tæt og smidigt samarbejde for begge parter — uden konstant genforhandling, med løbende sparring og videndeling mellem Linimatic og VELUX.",
+        "capabilities": ["die-casting", "quality"]
+      },
+      "frandsen-downlight": {
+        "metaTitle": "Frandsen — fra Kina til Danmark på kort varsel",
+        "client": "Frandsen",
+        "industry": "Belysning",
+        "title": "Hurtigere, smartere - og fremstillet i Danmark",
+        "metric": "Omlagt fra kinesisk til dansk produktion under tidspres · Støbt i én proces",
+        "overview": "Frandsen stod klar til at levere downlight-lamper til den internationale designvirksomhed Concrete til det amerikanske marked, da den kinesiske leverandør meldte fra kort før produktionsstart. Linimatic omlagde delene til trykstøbt zink og fik processen i gang med meget kort varsel — støbt i ét trin i stedet for flere værktøjstrin, og med ekstra skift i weekenden for at holde tidsplanen.",
+        "challenge": "\"Vi havde meget kort tid til at finde et alternativ. Det så meget svært ud. Men da vi kontaktede Linimatic og fortalte Torben om projektet, sagde han bare: 'Intet problem, vi skal nok lave det!' Og han sagde det på sådan en rolig måde. Og de gjorde det — vi var faktisk meget overraskede over, i hvor høj grad det lykkedes,\" fortæller Andreas Olesen, konstruktionsingeniør hos Frandsen Project.",
+        "approach": "\"Det var virkelig en ekstremt hurtig proces — faktisk troede jeg ikke på det, må jeg indrømme. En af fordelene var, at lamperne kunne støbes i én proces — og dermed blev der sparet tid. Så når alt kommer til alt, fik vi en smidigere og hurtigere proces — og et smartere produkt, produceret lige her i Danmark,\" forklarer Andreas Olesen. \"Den hurtige proces er helt sikkert unik for dette projekt. Der blev lavet en tidsplan, og kun små fejl var tilladt for at holde sig på sporet. Og de små ting, som trods alt mislykkedes, dem klarede Linimatic med et weekendskift og en ekstrem fleksibilitet. Det er meget tydeligt, at de er kompetente inden for projektledelse — en meget positiv oplevelse for os under dette projekt. Man ved præcist, hvor lang tid alting tager — de styrer processerne 100%.\"",
+        "result": "Lamperne blev leveret til tiden til det amerikanske marked, produceret i Danmark i stedet for Kina — og Frandsen bruger nu i stigende grad Linimatic til flere projekter.",
+        "capabilities": ["prototyping", "die-casting"]
+      },
+      "one-collection-finn-juhl": {
+        "metaTitle": "One Collection — Finn Juhl-bordet relanceret i trykstøbt zink",
+        "client": "One Collection",
+        "industry": "Møbler & design",
+        "title": "At relancere et klassisk design",
+        "metric": "Finn Juhl-logo støbt direkte i beslaget · Udstillet på designmessen i Milano, 2015",
+        "overview": "Da møbelvirksomheden One Collection besluttede at relancere Finn Juhls klassiske spisebord med en avanceret udtræksplade, blev Linimatic involveret i at fremstille de præcise beslag, der skulle bære tillægspladerne. Pladerne skulle både kunne hænge og ligge på en helt bestemt måde — og beslagene er både en teknisk funktion og en synlig del af det ikoniske design.",
+        "challenge": "\"Ofte er armaturer et nødvendigt onde. Men hos Finn Juhl har beslagene en teknisk funktion, og de er også en del af det visuelle design. Det giver nogle særlige udfordringer for producenterne. Jo mere enkle tingene ser ud, jo mere komplicerede kan de være at fremstille. Det er faktisk det, vi har oplevet,\" fortæller Henrik Sørensen, administrerende direktør i One Collection.",
+        "approach": "\"Ved at fremstille armaturerne i trykstøbt zink kunne vi få det ønskede visuelle udtryk — og samtidig have den høje grad af præcision. Det var også muligt at støbe Finn Juhl-logoet under støbeprocessen — og dermed sparede vi en arbejdsgang,\" fortæller Henrik Sørensen og fortsætter: \"Samarbejdet under processen er i høj grad en dialog. Linimatic har nogle kompetencer, som vi ikke har, og de blev inddraget. Desuden er det vigtigt, at man føler engagement, passion — at leverandøren også synes, at produktet er interessant.\"",
+        "result": "Det nye Finn Juhl 'Nyhavn'-spisebord (model FJ 5360) blev lanceret med de præcisionsstøbte zinkbeslag — med Finn Juhl-logoet støbt direkte ind i beslaget — og udstillet på designmessen i Milano den 13. april 2015.",
         "capabilities": ["die-casting", "quality"]
       }
     }

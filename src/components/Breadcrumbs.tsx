@@ -46,7 +46,7 @@ export async function Breadcrumbs({ items }: BreadcrumbsProps) {
               {i < allCrumbs.length - 1 ? (
                 <Link
                   href={crumb.href}
-                  className="text-zinc-400 hover:text-zinc-700 transition-colors"
+                  className="text-zinc-600 hover:text-zinc-700 transition-colors"
                 >
                   {crumb.label}
                 </Link>

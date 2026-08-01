@@ -58,14 +58,14 @@ export default async function ContactPage({
           <div className="max-w-2xl mb-16">
             <div className="flex items-center gap-4 mb-6">
               <div className="w-8 h-px bg-ember" />
-              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+              <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
                 {t("eyebrow")}
               </span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
               {t("heading")}
             </h1>
-            <p className="mt-4 text-lg text-zinc-400">{t("description")}</p>
+            <p className="mt-4 text-lg text-zinc-600">{t("description")}</p>
             <div className="mt-3 inline-flex items-center gap-2 text-sm text-ember font-[family-name:var(--font-mono)]">
               <svg
                 className="h-4 w-4"
@@ -94,7 +94,7 @@ export default async function ContactPage({
             <div className="space-y-10">
               {/* Direct Contacts */}
               <div>
-                <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-400 font-[family-name:var(--font-mono)] font-semibold mb-6">
+                <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-600 font-[family-name:var(--font-mono)] font-semibold mb-6">
                   {t("directContacts")}
                 </h2>
                 <div className="space-y-6">
@@ -113,17 +113,17 @@ export default async function ContactPage({
                         <h3 className="text-sm font-semibold text-zinc-900">
                           {member.name}
                         </h3>
-                        <p className="text-xs text-zinc-400">{member.role}</p>
+                        <p className="text-xs text-zinc-600">{member.role}</p>
                         <div className="mt-1.5 flex flex-col gap-0.5">
                           <a
                             href={`tel:${member.phone.replace(/\s/g, "")}`}
-                            className="text-xs text-zinc-400 hover:text-ember transition-colors font-[family-name:var(--font-mono)]"
+                            className="text-xs text-zinc-600 hover:text-ember transition-colors font-[family-name:var(--font-mono)]"
                           >
                             {member.phone}
                           </a>
                           <a
                             href={`mailto:${member.email}`}
-                            className="text-xs text-zinc-400 hover:text-ember transition-colors"
+                            className="text-xs text-zinc-600 hover:text-ember transition-colors"
                           >
                             {member.email}
                           </a>
@@ -136,7 +136,7 @@ export default async function ContactPage({
 
               {/* Company Details */}
               <div>
-                <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-400 font-[family-name:var(--font-mono)] font-semibold mb-4">
+                <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-600 font-[family-name:var(--font-mono)] font-semibold mb-4">
                   {t("companyDetails")}
                 </h2>
                 <address className="not-italic space-y-2 text-sm text-zinc-600">
@@ -162,7 +162,7 @@ export default async function ContactPage({
                       </a>
                     </p>
                   </div>
-                  <p className="text-xs text-zinc-400 pt-2 font-[family-name:var(--font-mono)]">
+                  <p className="text-xs text-zinc-600 pt-2 font-[family-name:var(--font-mono)]">
                     CVR: DK-20254386
                   </p>
                 </address>
@@ -170,12 +170,12 @@ export default async function ContactPage({
 
               {/* Hours */}
               <div>
-                <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-400 font-[family-name:var(--font-mono)] font-semibold mb-4">
+                <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-600 font-[family-name:var(--font-mono)] font-semibold mb-4">
                   {t("hours")}
                 </h2>
                 <div className="text-sm text-zinc-600 space-y-1">
                   <p>{t("hoursWeekday")}</p>
-                  <p className="text-zinc-400">{t("hoursWeekend")}</p>
+                  <p className="text-zinc-600">{t("hoursWeekend")}</p>
                 </div>
               </div>
             </div>

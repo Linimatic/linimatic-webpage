@@ -12,14 +12,14 @@ export default function Error({
         <div className="max-w-2xl">
           <div className="flex items-center gap-4 mb-6">
             <div className="w-8 h-px bg-ember" />
-            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+            <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
               Error
             </span>
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold text-zinc-900 tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">
             Something went wrong
           </h1>
-          <p className="mt-4 text-lg text-zinc-400">
+          <p className="mt-4 text-lg text-zinc-600">
             An unexpected error occurred. Please try again.
           </p>
           <button

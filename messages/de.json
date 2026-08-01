@@ -156,22 +156,10 @@
     "allCases": "Alle Referenzen",
     "items": [
       {
-        "title": "Engtolerierte Elektrowerkzeug-Innenteile, die keine andere Gießerei anbieten wollte",
-        "client": "DeWalt",
-        "metric": "\u00b10,05\u2009mm Toleranzen · Großserien-Produktion",
-        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. '99,2\u2009% Erstdurchlauf-Ausbeute' oder 'X Mio. Teile geliefert'"
-      },
-      {
-        "title": "Guss einer Designikone — wo Oberflächenperfektion nicht verhandelbar ist",
-        "client": "One Collection",
-        "metric": "Klasse-A-Verchromung · Finn-Juhl-Esstisch",
-        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. 'In Produktion seit 2005' oder 'Null Reklamationen'"
-      },
-      {
-        "title": "Präzisions-Motorrahmen für Europas führenden Dachfensterhersteller",
-        "client": "VELUX",
-        "metric": "Komplette lokale Wertschöpfungskette · Automatisierte Produktion",
-        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. 'X Teile pro Jahr' oder 'Kontinuierliche Belieferung seit JJJJ'"
+        "title": "Es hat Vorteile, wenn Ihr Lieferant in der Nähe ist",
+        "client": "Ditlev Burke Industrial Tools A/S",
+        "metric": "Es ist möglich, mit Asien zu konkurrieren · Automatisierter Druckguss in Dänemark",
+        "result": "Der gesamte Griff wird heute in Dänemark statt in Asien hergestellt."
       }
     ]
   },
@@ -756,34 +744,10 @@
   "casesPage": {
     "breadcrumb": "Referenzen",
     "eyebrow": "Referenzen",
-    "heading": "Schwierige Aufgaben, geliefert.",
-    "description": "Jedes Projekt auf dieser Seite wurde von einer anderen Gießerei abgelehnt, zurückgestellt oder konnte die Toleranz nicht halten. Komplexe Geometrie, anspruchsvolle Oberflächenanforderungen und enge Produktionspläne \u2014 genau dort erbringen wir unsere beste Arbeit.",
-    "industries": ["Automotive", "Möbel & Design", "Beleuchtung", "Bau & HVAC", "Elektronik", "Industrie"],
+    "heading": "Referenzen",
+    "description": "Sehen Sie Beispiele dafür, wie wir in enger Zusammenarbeit mit unseren Kunden Ideen und technische Anforderungen in fertige Zinklösungen umsetzen. Hier stellen wir ausgewählte Projekte, Herausforderungen und Ergebnisse vor – ergänzt durch die eigenen Erfahrungen unserer Kunden mit der Zusammenarbeit.",
+    "industries": ["Industrie & Werkzeuge", "Bau & HVAC", "Beleuchtung", "Möbel & Design"],
     "items": [
-      {
-        "slug": "dewalt",
-        "client": "DeWalt",
-        "title": "Engtolerierte Elektrowerkzeug-Innenteile, die keine andere Gießerei anbieten wollte",
-        "industry": "Industrie & Werkzeuge",
-        "metric": "\u00b10,05\u2009mm Toleranzen · Großserien-Produktion",
-        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. '99,2\u2009% Erstdurchlauf-Ausbeute' oder 'X Mio. Teile geliefert'"
-      },
-      {
-        "slug": "one-collection",
-        "client": "One Collection",
-        "title": "Guss einer Designikone — wo Oberflächenperfektion nicht verhandelbar ist",
-        "industry": "Möbel & Design",
-        "metric": "Klasse-A-Verchromung · Finn-Juhl-Esstisch",
-        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. 'In Produktion seit 2005' oder 'Null Reklamationen'"
-      },
-      {
-        "slug": "velux",
-        "client": "VELUX",
-        "title": "Präzisions-Motorrahmen für Europas führenden Dachfensterhersteller",
-        "industry": "Bau & HVAC",
-        "metric": "Komplette lokale Wertschöpfungskette · Automatisierte Produktion",
-        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z.\u00a0B. 'X Teile pro Jahr' oder 'Kontinuierliche Belieferung seit JJJJ'"
-      },
       {
         "slug": "supplier-proximity",
         "client": "Ditlev Burke Industrial Tools A/S",
@@ -791,6 +755,30 @@
         "industry": "Industrie & Werkzeuge",
         "metric": "Es ist möglich, mit Asien zu konkurrieren · Automatisierter Druckguss in Dänemark",
         "result": "Der gesamte Griff wird heute in Dänemark statt in Asien hergestellt."
+      },
+      {
+        "slug": "velux-kanban",
+        "client": "VELUX",
+        "title": "Reibungslose Zusammenarbeit mit Forecast-Vereinbarung",
+        "industry": "Bau & HVAC",
+        "metric": "Jährlich verlängerte Forecast-Vereinbarung · Roboter in der Produktionslinie eingeführt",
+        "result": "Eine enge, reibungslose Zusammenarbeit für beide Seiten — ohne ständige Neuverhandlungen, mit laufendem Sparring und Wissensaustausch zwischen Linimatic und VELUX."
+      },
+      {
+        "slug": "frandsen-downlight",
+        "client": "Frandsen",
+        "title": "Schneller, smarter - und in Dänemark hergestellt",
+        "industry": "Beleuchtung",
+        "metric": "Von China nach Dänemark verlagert unter Zeitdruck · In einem einzigen Prozess gegossen",
+        "result": "Die Leuchten wurden pünktlich für den Start auf dem US-Markt geliefert, hergestellt in Dänemark statt in China — und Frandsen setzt inzwischen zunehmend auf Linimatic für weitere Projekte."
+      },
+      {
+        "slug": "one-collection-finn-juhl",
+        "client": "One Collection",
+        "title": "Ein klassisches Design neu auflegen",
+        "industry": "Möbel & Design",
+        "metric": "Finn-Juhl-Logo direkt in den Beschlag gegossen · Ausgestellt auf der Design-Messe in Mailand, 2015",
+        "result": "Der neue Finn-Juhl-Esstisch 'Nyhavn' (Modell FJ 5360) wurde mit den präzisionsgegossenen Zinkbeschlägen eingeführt — mit dem Finn-Juhl-Logo direkt im Beschlag eingegossen — und auf der Design-Messe in Mailand am 13. April 2015 ausgestellt."
       }
     ],
     "ctaHeading": "Haben Sie eine ähnliche Herausforderung?",
@@ -806,42 +794,6 @@
     "ctaDescription": "Senden Sie uns Ihre Zeichnungen. Die Projekte, die andere Gießereien als schwierig bezeichnen, sind genau die, für die wir dieses Unternehmen aufgebaut haben.",
     "ctaButton": "Kontaktieren Sie uns, um loszulegen",
     "items": {
-      "dewalt": {
-        "metaTitle": "DeWalt — präzise Elektrowerkzeug-Teile",
-        "client": "DeWalt",
-        "industry": "Industrie & Werkzeuge",
-        "title": "Engtolerierte Elektrowerkzeug-Innenteile, die keine andere Gießerei anbieten wollte",
-        "metric": "±0,05 mm Toleranzen · Großserien-Produktion",
-        "overview": "Innenteile für Elektrowerkzeuge erfordern dimensionale Konsistenz, die die meisten Gießereien im Serienbetrieb nicht zuverlässig liefern können. Linimatic hat DeWalt mit Hochvolumen-Zinkdruckgussteilen beliefert, deren Gusstoleranz die gesamte Montagepassung bestimmt.",
-        "challenge": "Innenkomponenten für professionelle Elektrowerkzeuge müssen in enge Raumhüllen passen und präzise mit Bewegungsteilen zusammenwirken — jede Maßabweichung verursacht Klemmen, Geräusche oder Feldausfälle. Die Kombination aus komplexer Innengeometrie, dünnen Wänden und Toleranzen unter 0,1 mm an kritischen Funktionsflächen macht diese Teile schwer zu kalkulieren: Formdesign, Legierungstemperatur, Einspritzgeschwindigkeit und Entnahmesequenz müssen alle aufeinander abgestimmt werden, um das Toleranzfenster über einen langen Produktionslauf wiederholt zu treffen. Die meisten Gießereien kalkulieren hohe Ausschussraten ein oder lehnen schlicht ab.",
-        "approach": "Linimatics Ingenieure prüften die Bauteilgeometrie im DFM und identifizierten die Bezugsstrategie und Anschnittpositionen, die die kritischen Füge-flächen über den gesamten Produktionslauf im Toleranzbereich halten. Die Echtzeit-SPC-Überwachung an den Druckgussmaschinen ermöglicht die sofortige Erkennung und Korrektur von Prozessabweichungen, bevor Ausschussteile entstehen. Die hauseigene CNC-Nachbearbeitung übernimmt die Merkmale, die engere Kontrolle erfordern, als der Gussprozess garantieren kann — alles unter einem einzigen Qualitätssystem, sodass die Rückverfolgbarkeit von der Rohlegierung bis zur Endprüfung lückenlos ist.",
-        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z. B. '99,2 % Erstdurchlauf-Ausbeute' oder 'X Mio. Teile geliefert'",
-        "capabilities": ["die-casting", "post-processing", "quality"]
-      },
-      "one-collection": {
-        "metaTitle": "One Collection — gegossene Designikone",
-        "client": "One Collection",
-        "industry": "Möbel & Design",
-        "title": "Guss einer Designikone — wo Oberflächenperfektion nicht verhandelbar ist",
-        "metric": "Klasse-A-Verchromung · Finn-Juhl-Esstisch",
-        "overview": "Der Finn-Juhl-Esstisch ist eine Möbelikone, bei der die gegossenen Zinkbeschläge auf Augenhöhe sichtbar sind — ein Oberflächenfehler an einem verchromten Bauteil ist kein Qualitätsmangel, sondern eine Reklamation. One Collection benötigte einen Gusspartner, der in der Lage ist, Klasse-A-Kosmetikoberflächen in konsistenter Serienproduktion zu liefern.",
-        "challenge": "Verchromung ist gnadenlos: Jeder Oberflächenfehler im Guss — eine Porositätsgrube, eine Fließlinie, ein Kalteinschluss — wird durch den Beschichtungsprozess verstärkt statt verborgen. Eine chromfertige Gussoberfläche erfordert enge Kontrolle von Legierungstemperatur, Einspritzgeschwindigkeit, Formtemperatur und Entlüftung im Zusammenspiel. Designmöbelkunden verlangen außerdem Farb- und Oberflächenkonsistenz über Chargen hinweg, die mit Monaten Abstand geliefert werden — die Verchromung eines heute gekauften Stuhls muss zur Verchromung eines vor zwei Jahren gekauften Tisches passen.",
-        "approach": "Zinkdruckguss ist für diese Herausforderung besonders geeignet: Das Warmkammerverfahren erzeugt eine feinkörnige, dichte Oberfläche mit 0,8 Ra μm im Guss — glatt genug für direkte dekorative Verchromung ohne Zwischenpolierung. Linimatic steuert die gesamte Veredelungssequenz intern — vom Guss über die Oberflächenvorbereitung bis zum Mehrschicht-Kupfer-Nickel-Chrom-Verfahren — was bedeutet, dass die Qualitätskette keine externen Übergaben hat, bei denen der Oberflächenzustand beeinträchtigt werden könnte. Musterstücke und aufbewahrte Oberflächenreferenzen werden zur Verifikation der Chargengleichmäßigkeit eingesetzt.",
-        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z. B. 'In Produktion seit 2005' oder 'Null Reklamationen'",
-        "capabilities": ["die-casting", "surface-treatment", "quality"]
-      },
-      "velux": {
-        "metaTitle": "VELUX — präzise Motorrahmen aus Zink",
-        "client": "VELUX",
-        "industry": "Bau & HVAC",
-        "title": "Präzisions-Motorrahmen für Europas führenden Dachfensterhersteller",
-        "metric": "Komplette lokale Wertschöpfungskette · Automatisierte Produktion",
-        "overview": "VELUX-Motorrahmen sind tragende Bauteile, die motorisierte Antriebe in Dachfensterkonstruktionen für europäische Bauprojekte aufnehmen und halten müssen — Maßgenauigkeit und Lieferzuverlässigkeit sind bei den Volumina, die VELUX verarbeitet, beide nicht verhandelbar.",
-        "challenge": "Motorrahmenkomponenten verbinden präzise Positioniermerkmale mit strukturellen Anforderungen in einer Geometrie, die Montagewerkzeuge freigeben und das schnelle automatisierte Einsetzen der Motoreinheit ermöglichen muss. Volumenzuverlässigkeit ist ebenso kritisch wie Maßgenauigkeit: Ein Einzelquellenkomponent, das nicht termingerecht liefert, stoppt eine Produktionslinie. VELUX benötigte einen lokalen europäischen Partner mit der Kapazität und Prozessdisziplin, um bei den geforderten Volumina konsistent zu liefern — mit der Rückverfolgbarkeit und Dokumentation, die ein großer OEM verlangt.",
-        "approach": "Linimatics integrierte Wertschöpfungskette — Guss, CNC-Nachbearbeitung, Prüfung und Montage unter einem Dach — eliminiert die Koordinationsverzögerungen und Qualitätsrisiken bei Übergaben, die mehrstufige Lieferketten beeinträchtigen. Robotergestützte Entnahme und automatisierte SPC-Überwachung an den Druckgussmaschinen sichern die dimensionale Konsistenz über Hochvolumen-Produktionsläufe. Kanban-basierte Lieferplanung und ERP-gesteuerte Bestandsführung stellen sicher, dass VELUX Fertigteile gemäß ihrem Produktionsforecast erhält — ohne Pufferlagerbedarfe auf ihrer Seite.",
-        "result": "PLATZHALTER: Ergänzen Sie ein Schlüsselergebnis — z. B. 'X Teile pro Jahr' oder 'Kontinuierliche Belieferung seit JJJJ'",
-        "capabilities": ["prototyping", "die-casting", "assembly"]
-      },
       "supplier-proximity": {
         "metaTitle": "Ditlev Burke — ein Griff, heimgeholt aus Asien",
         "client": "Ditlev Burke Industrial Tools A/S",
@@ -852,6 +804,42 @@
         "challenge": "\"Wir sind mit den Projekten, die wir in Zusammenarbeit mit Linimatic A/S durchgeführt haben, sehr zufrieden. Zuletzt haben wir an einem neuen Griff mit einem von Linimatic hergestellten Zinkteil zusammengearbeitet. Das Ergebnis ist, dass wir jetzt das Kunststoffteil selbst herstellen und vormontieren können, so dass der gesamte Griff in Dänemark und nicht wie bisher in Asien hergestellt wird\", sagt Camilla Burke Vedsmand, Geschäftsführerin von Ditlev Burke Industrial Tools A/S mit Sitz in Asnæs auf Seeland.",
         "approach": "\"Wenn man, wie bei Linimatic, eine automatisierte Produktionslinie hat, konnten wir aus eigener Erfahrung feststellen, dass es möglich ist, mit Asien zu konkurrieren\", sagt Camilla Burke Vedsmand. Als weitere Vorteile der Partnerschaft nennt sie die enge Zusammenarbeit, die Qualität und die Zuverlässigkeit: \"Die Kommunikation innerhalb der Landesgrenzen ist einfach viel schneller und sorgt so für Fortschritte bei den Projekten. Dies war eine wichtige Motivation für die Entwicklung einer langfristigen Zusammenarbeit mit Linimatic in Nordseeland.\" \"Für uns ist es wichtig, dass wir die Aufgaben mit demselben einheitlichen Verständnis und Ansatz angehen. Linimatic A/S ist technisch äußerst versiert, und wir freuen uns besonders, dass die Zusammenarbeit auch unsere Philosophie unterstützt, Arbeitsplätze in Dänemark zu erhalten\", fügt sie hinzu.",
         "result": "Der gesamte Griff wird heute in Dänemark statt in Asien hergestellt.",
+        "capabilities": ["die-casting", "quality"]
+      },
+      "velux-kanban": {
+        "metaTitle": "VELUX — Forecast-Vereinbarung und Roboterautomatisierung",
+        "client": "VELUX",
+        "industry": "Bau & HVAC",
+        "title": "Reibungslose Zusammenarbeit mit Forecast-Vereinbarung",
+        "metric": "Jährlich verlängerte Forecast-Vereinbarung · Roboter in der Produktionslinie eingeführt",
+        "overview": "Die VELUX-Abteilung Gåsdal arbeitet seit mehreren Jahren mit einer festen Kanban- und Forecast-Vereinbarung mit Linimatic, die die Zusammenarbeit einfacher und planbarer für beide Seiten macht. Die Vereinbarung wird jährlich verlängert, enthält einen eingebauten Preisschutz gegen Schwankungen bei Rohstoffen und Währungen — und hat unter anderem dazu geführt, dass ein Roboter die Teile heute in der Produktion handhabt.",
+        "challenge": "\"Natürlich gibt es eine Preisvereinbarung mit eingebautem Schutz für beide Parteien, zum Beispiel gegenüber Schwankungen bei Rohstoffpreisen und Wechselkursen. Aber vielleicht noch wichtiger: Die Vereinbarung ermöglicht es Linimatic auch, die Produktionskapazität zu planen und anzupassen und dadurch schnell, in der vereinbarten Qualität und zum vereinbarten Zeitpunkt zu liefern,\" sagt Lars Daugaard Pedersen, strategischer Einkäufer bei VELUX.",
+        "approach": "\"Wir sind natürlich immer auf der Suche nach Einsparungen und haben mit Linimatic über Möglichkeiten gesprochen, den Preis etwas zu senken. Linimatic schlug vor, einen Roboter in die Produktionslinie zu integrieren. Wir mussten nicht für den Roboter selbst bezahlen, sondern nur eine kleine Investition in einen speziellen Greifer tätigen, der auf unsere Teile abgestimmt ist. Mit dem Roboter sparen wir jetzt die Lohnkosten für den Bediener, der zuvor unser Teil handhabte, und das Ergebnis ist eine ordentliche Einsparung,\" erklärt Lars Daugaard Pedersen. \"Die Dinge laufen einfach — und ein klarer Vorteil ist, dass wir nicht ständig verhandeln müssen. Wir haben ein wirklich gutes Sparring mit den Technikern von Linimatic, und es gibt immer Raum für eine neue Idee.\"",
+        "result": "Eine enge, reibungslose Zusammenarbeit für beide Seiten — ohne ständige Neuverhandlungen, mit laufendem Sparring und Wissensaustausch zwischen Linimatic und VELUX.",
+        "capabilities": ["die-casting", "quality"]
+      },
+      "frandsen-downlight": {
+        "metaTitle": "Frandsen — von China nach Dänemark in kürzester Zeit",
+        "client": "Frandsen",
+        "industry": "Beleuchtung",
+        "title": "Schneller, smarter - und in Dänemark hergestellt",
+        "metric": "Von China nach Dänemark verlagert unter Zeitdruck · In einem einzigen Prozess gegossen",
+        "overview": "Frandsen war bereit, Downlight-Leuchten für das internationale Designunternehmen Concrete für den US-Markt zu liefern, als der chinesische Lieferant kurz vor Produktionsbeginn ausfiel. Linimatic legte die Teile auf Zinkdruckguss um und brachte den Prozess mit sehr kurzer Vorlaufzeit in Gang — gegossen in einem einzigen Schritt statt mehrerer Werkzeugstufen, mit zusätzlichen Wochenendschichten, um den Zeitplan zu halten.",
+        "challenge": "\"Wir hatten sehr wenig Zeit, eine Alternative zu finden. Es sah wirklich schwierig aus. Aber als wir Linimatic kontaktierten und Torben von dem Projekt erzählten, sagte er nur: 'Kein Problem, wir schaffen das!' Und er sagte es auf eine so ruhige Art. Und sie haben es geschafft — wir waren ehrlich gesagt sehr überrascht, wie gut es funktioniert hat,\" erzählt Andreas Olesen, Konstruktionsingenieur bei Frandsen Project.",
+        "approach": "\"Es war wirklich ein extrem schneller Prozess — ich muss zugeben, ich habe es selbst kaum geglaubt. Einer der Vorteile war, dass die Leuchten in einem einzigen Prozess gegossen werden konnten, wodurch Zeit gespart wurde. Am Ende hatten wir also einen reibungsloseren, schnelleren Prozess — und ein smarteres Produkt, hergestellt direkt hier in Dänemark,\" sagt Andreas Olesen. \"Der schnelle Prozess ist für dieses Projekt definitiv einzigartig. Es wurde ein Zeitplan erstellt, und nur kleine Abweichungen waren erlaubt, um auf Kurs zu bleiben. Und die wenigen Dinge, die dennoch abwichen, hat Linimatic mit einer Wochenendschicht und extremer Flexibilität gelöst. Es ist sehr deutlich, dass sie im Projektmanagement kompetent sind — eine wirklich positive Erfahrung für uns bei diesem Projekt. Man weiß genau, wie lange alles dauert — sie steuern die Prozesse zu 100 %.\"",
+        "result": "Die Leuchten wurden pünktlich für den Start auf dem US-Markt geliefert, hergestellt in Dänemark statt in China — und Frandsen setzt inzwischen zunehmend auf Linimatic für weitere Projekte.",
+        "capabilities": ["prototyping", "die-casting"]
+      },
+      "one-collection-finn-juhl": {
+        "metaTitle": "One Collection — der Finn-Juhl-Tisch neu aufgelegt in Zinkdruckguss",
+        "client": "One Collection",
+        "industry": "Möbel & Design",
+        "title": "Ein klassisches Design neu auflegen",
+        "metric": "Finn-Juhl-Logo direkt in den Beschlag gegossen · Ausgestellt auf der Design-Messe in Mailand, 2015",
+        "overview": "Als das Möbelunternehmen One Collection beschloss, Finn Juhls klassischen Esstisch mit einer fortschrittlichen Auszugsplatte neu aufzulegen, wurde Linimatic mit der Herstellung der präzisen Beschläge betraut, die die Zusatzplatten tragen. Die Platten mussten auf eine ganz bestimmte Weise sowohl hängen als auch liegen können — und die Beschläge sind zugleich technische Funktion und sichtbarer Teil des ikonischen Designs.",
+        "challenge": "\"Beschläge sind oft ein notwendiges Übel. Aber bei Finn Juhl haben die Beschläge eine technische Funktion, und sie sind auch Teil des visuellen Designs. Das stellt Hersteller vor besondere Herausforderungen. Je einfacher die Dinge aussehen, desto komplizierter können sie in der Herstellung sein. Das haben wir tatsächlich erlebt,\" sagt Henrik Sørensen, Geschäftsführer von One Collection.",
+        "approach": "\"Durch die Herstellung der Beschläge in Zinkdruckguss konnten wir den gewünschten visuellen Ausdruck erzielen — und gleichzeitig ein hohes Maß an Präzision erreichen. Es war auch möglich, das Finn-Juhl-Logo direkt beim Gießen mit einzugießen, wodurch wir uns einen Arbeitsschritt sparten,\" sagt Henrik Sørensen und fährt fort: \"Die Zusammenarbeit während des Prozesses ist in hohem Maße ein Dialog. Linimatic verfügt über Kompetenzen, die wir nicht haben, und die wurden einbezogen. Außerdem ist es wichtig, Engagement und Leidenschaft zu spüren — dass der Lieferant das Produkt ebenfalls spannend findet.\"",
+        "result": "Der neue Finn-Juhl-Esstisch 'Nyhavn' (Modell FJ 5360) wurde mit den präzisionsgegossenen Zinkbeschlägen eingeführt — mit dem Finn-Juhl-Logo direkt im Beschlag eingegossen — und auf der Design-Messe in Mailand am 13. April 2015 ausgestellt.",
         "capabilities": ["die-casting", "quality"]
       }
     }

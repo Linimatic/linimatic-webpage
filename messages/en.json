@@ -156,22 +156,10 @@
     "allCases": "All cases",
     "items": [
       {
-        "title": "Tight-tolerance power tool internals no other foundry would quote",
-        "client": "DeWalt",
-        "metric": "\u00b10.05\u2009mm tolerances \u00b7 High-volume series",
-        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u201999.2% first-pass yield\u2019 or \u2018X million parts delivered\u2019"
-      },
-      {
-        "title": "Casting a design icon \u2014 where surface perfection is non-negotiable",
-        "client": "One Collection",
-        "metric": "Class\u00a0A chrome finish \u00b7 Finn Juhl dining table",
-        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u2018In production since 2005\u2019 or \u2018Zero field returns\u2019"
-      },
-      {
-        "title": "Precision motor frames for Europe\u2019s leading skylight manufacturer",
-        "client": "VELUX",
-        "metric": "Full local value chain \u00b7 Automated production",
-        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u2018X parts per year\u2019 or \u2018Continuous supply since YYYY\u2019"
+        "title": "There are benefits to having your supplier close by",
+        "client": "Ditlev Burke Industrial Tools A/S",
+        "metric": "It is possible to compete with Asia \u00b7 Automated die-casting in Denmark",
+        "result": "The entire handle is now manufactured in Denmark instead of in Asia."
       }
     ]
   },
@@ -753,34 +741,10 @@
   "casesPage": {
     "breadcrumb": "Cases",
     "eyebrow": "Case Studies",
-    "heading": "Difficult problems, delivered.",
-    "description": "Every project on this page was one another foundry turned down, deprioritised, or couldn\u2019t hold tolerance on. Complex geometry, demanding surface requirements, and tight production schedules are where we do our best work.",
-    "industries": ["Automotive", "Furniture & Design", "Lighting", "Building & HVAC", "Electronics", "Industrial"],
+    "heading": "Cases",
+    "description": "See examples of how we work closely with our customers to turn ideas and technical requirements into finished zinc solutions. Here we present selected projects, challenges and results \u2014 supplemented by our customers\u2019 own experiences of working with us.",
+    "industries": ["Industrial & Tools", "Building & HVAC", "Lighting", "Furniture & Design"],
     "items": [
-      {
-        "slug": "dewalt",
-        "client": "DeWalt",
-        "title": "Tight-tolerance power tool internals no other foundry would quote",
-        "industry": "Industrial & Tools",
-        "metric": "\u00b10.05\u2009mm tolerances \u00b7 High-volume series",
-        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u201999.2% first-pass yield\u2019 or \u2018X million parts delivered\u2019"
-      },
-      {
-        "slug": "one-collection",
-        "client": "One Collection",
-        "title": "Casting a design icon \u2014 where surface perfection is non-negotiable",
-        "industry": "Furniture & Design",
-        "metric": "Class\u00a0A chrome finish \u00b7 Finn Juhl dining table",
-        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u2018In production since 2005\u2019 or \u2018Zero field returns\u2019"
-      },
-      {
-        "slug": "velux",
-        "client": "VELUX",
-        "title": "Precision motor frames for Europe\u2019s leading skylight manufacturer",
-        "industry": "Building & HVAC",
-        "metric": "Full local value chain \u00b7 Automated production",
-        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u2018X parts per year\u2019 or \u2018Continuous supply since YYYY\u2019"
-      },
       {
         "slug": "supplier-proximity",
         "client": "Ditlev Burke Industrial Tools A/S",
@@ -788,6 +752,30 @@
         "industry": "Industrial & Tools",
         "metric": "It is possible to compete with Asia \u00b7 Automated die-casting in Denmark",
         "result": "The entire handle is now manufactured in Denmark instead of in Asia."
+      },
+      {
+        "slug": "velux-kanban",
+        "client": "VELUX",
+        "title": "Smooth collaboration with a forecast agreement",
+        "industry": "Building & HVAC",
+        "metric": "Forecast agreement renewed annually \u00b7 Robot introduced on the production line",
+        "result": "A close, smooth collaboration for both parties \u2014 no constant renegotiation, with ongoing sparring and knowledge-sharing between Linimatic and VELUX."
+      },
+      {
+        "slug": "frandsen-downlight",
+        "client": "Frandsen",
+        "title": "Faster, smarter - and made in Denmark",
+        "industry": "Lighting",
+        "metric": "Reshored from China to Denmark under time pressure \u00b7 Cast in a single process",
+        "result": "The lamps were delivered on time for the US market launch, made in Denmark instead of China \u2014 and Frandsen now increasingly turns to Linimatic for more projects."
+      },
+      {
+        "slug": "one-collection-finn-juhl",
+        "client": "One Collection",
+        "title": "To relaunch a classic design",
+        "industry": "Furniture & Design",
+        "metric": "Finn Juhl logo cast directly into the fitting \u00b7 Exhibited at the Milan design fair, 2015",
+        "result": "The new Finn Juhl 'Nyhavn' dining table (model FJ 5360) launched with the precision-cast zinc fittings \u2014 with the Finn Juhl logo cast directly into the fitting \u2014 and was exhibited at the Milan design fair on 13 April 2015."
       }
     ],
     "ctaHeading": "Have a similar challenge?",
@@ -803,42 +791,6 @@
     "ctaDescription": "Send us your drawings. The projects other foundries call difficult are the ones we built this company around.",
     "ctaButton": "Contact Us to Get Started",
     "items": {
-      "dewalt": {
-        "metaTitle": "DeWalt — Tight-Tolerance Power-Tool Castings",
-        "client": "DeWalt",
-        "industry": "Industrial & Tools",
-        "title": "Tight-tolerance power tool internals no other foundry would quote",
-        "metric": "\u00b10.05\u2009mm tolerances \u00b7 High-volume series",
-        "overview": "Power tool internals demand dimensional consistency that most foundries cannot reliably produce at volume. Linimatic has supplied DeWalt with high-volume zinc die-cast components held to as-cast tolerances that determine the entire assembly fit.",
-        "challenge": "Internal components for professional power tools must clear tight spatial envelopes and mate precisely with moving parts \u2014 any dimensional variation causes binding, noise, or field failure. The combination of complex internal geometry, thin walls, and sub-0.1\u2009mm tolerances on critical features makes these parts difficult to quote: the die design, alloy temperature, injection speed, and extraction sequence all have to be tuned together to hit the tolerance window repeatedly over a long production run. Most foundries price in wide fallout rates or simply decline to bid.",
-        "approach": "Linimatic\u2019s engineers reviewed the part geometry during DFM and identified the datum strategy and gate locations that would keep the critical mating features in tolerance across the full production run. Real-time SPC monitoring on the die-casting machines allows immediate detection and correction of any process drift before out-of-spec parts accumulate. In-house CNC post-processing handles the features that require tighter control than the as-cast process can guarantee, all under a single quality system \u2014 so traceability is unbroken from raw alloy to final inspection.",
-        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u201999.2% first-pass yield\u2019 or \u2018X million parts delivered\u2019",
-        "capabilities": ["die-casting", "post-processing", "quality"]
-      },
-      "one-collection": {
-        "metaTitle": "One Collection — Casting a Design Icon",
-        "client": "One Collection",
-        "industry": "Furniture & Design",
-        "title": "Casting a design icon \u2014 where surface perfection is non-negotiable",
-        "metric": "Class\u00a0A chrome finish \u00b7 Finn Juhl dining table",
-        "overview": "The Finn Juhl dining table is a furniture icon where the cast zinc fittings are visible at eye level \u2014 a surface imperfection on a chrome-plated component is not a quality escape, it is a rejection. One Collection required a casting partner capable of delivering Class\u00a0A cosmetic surfaces in consistent production.",
-        "challenge": "Chrome plating is unforgiving: any surface defect in the casting \u2014 a porosity pit, a flow line, a cold shut \u2014 will be amplified rather than hidden by the plating process. Achieving a chrome-ready as-cast surface requires tight control of alloy temperature, injection velocity, die temperature, and venting, all working in concert. Design-furniture clients also require colour and finish consistency across batches delivered months apart \u2014 the chrome on a chair bought today must match the chrome on a table bought two years ago.",
-        "approach": "Zinc die-casting is uniquely suited to this challenge: the hot-chamber process produces a fine-grained, dense surface at 0.8\u2009Ra\u2009\u03bcm as-cast, smooth enough for direct decorative chrome without intermediate polishing. Linimatic controls the full finishing sequence in-house \u2014 from casting through surface preparation to the multi-layer copper-nickel-chrome plating process \u2014 which means the quality chain has no external handoffs where surface condition can be compromised. Master samples and retained finish references are used to verify batch-to-batch consistency.",
-        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u2018In production since 2005\u2019 or \u2018Zero field returns\u2019",
-        "capabilities": ["die-casting", "surface-treatment", "quality"]
-      },
-      "velux": {
-        "metaTitle": "VELUX — Precision Skylight Motor Frames",
-        "client": "VELUX",
-        "industry": "Building & HVAC",
-        "title": "Precision motor frames for Europe\u2019s leading skylight manufacturer",
-        "metric": "Full local value chain \u00b7 Automated production",
-        "overview": "VELUX motor frames are structural components that must locate and retain motorised drives in skylight assemblies installed across European construction projects \u2014 dimensional accuracy and supply reliability are both non-negotiable at the volumes VELUX operates.",
-        "challenge": "Motor frame components combine precision locating features with structural requirements in a geometry that must clear assembly tooling and allow fast automated insertion of the motor unit. Volume reliability is as critical as dimensional accuracy: a single-source component that fails to deliver on schedule stops a production line. VELUX required a local European partner with the capacity and process discipline to supply consistently at the required volumes with the traceability and documentation a major OEM demands.",
-        "approach": "Linimatic\u2019s integrated value chain \u2014 casting, CNC post-processing, inspection, and assembly all under one roof \u2014 eliminates the supplier coordination delays and quality handoff risks that affect multi-tier supply chains. Robotic extraction and automated SPC monitoring on the die-casting machines maintain dimensional consistency across high-volume runs. Kanban-based delivery scheduling and ERP-managed inventory ensure VELUX receives finished components against their production forecast without buffer stock requirements at their end.",
-        "result": "PLACEHOLDER: Add key result \u2014 e.g. \u2018X parts per year\u2019 or \u2018Continuous supply since YYYY\u2019",
-        "capabilities": ["prototyping", "die-casting", "assembly"]
-      },
       "supplier-proximity": {
         "metaTitle": "Ditlev Burke \u2014 a handle brought home from Asia",
         "client": "Ditlev Burke Industrial Tools A/S",
@@ -849,6 +801,42 @@
         "challenge": "\"We are incredibly happy with the projects we have run in collaboration with Linimatic A/S. Most recently, we have collaborated on a new handle containing a zinc part manufactured by Linimatic. The result is that we can now manufacture the plastic part and pre-assemble it ourselves, so that the entire handle is manufactured in Denmark rather than as before in Asia,\" said Camilla Burke Vedsmand, Managing Director at Ditlev Burke Industrial Tools A/S, located in Asn\u00e6s on Zealand.",
         "approach": "\"When, as with Linimatic, you have an automated production line, we have from our own experience been able to establish that it is possible to compete with Asia,\" said Camilla Burke Vedsmand. Among other obvious benefits of the partnership, she mentioned the close cooperation, the quality and the reliability: \"Communication within the country's borders is just so much faster, and therefore ensures progress in the projects. This has been a significant motivation in developing the long-term collaboration with Linimatic in North Zealand.\" \"It is important for us that we have the same uniform understanding and approach to the tasks. Linimatic A/S are extremely skilled technically, and we are particularly pleased that the collaboration also supports our philosophy of retaining jobs in Denmark,\" she added.",
         "result": "The entire handle is now manufactured in Denmark instead of in Asia.",
+        "capabilities": ["die-casting", "quality"]
+      },
+      "velux-kanban": {
+        "metaTitle": "VELUX — forecast agreement and robot automation",
+        "client": "VELUX",
+        "industry": "Building & HVAC",
+        "title": "Smooth collaboration with a forecast agreement",
+        "metric": "Forecast agreement renewed annually · Robot introduced on the production line",
+        "overview": "VELUX's Gåsdal division has run on a standing Kanban and forecast agreement with Linimatic for several years, making the collaboration easier and more predictable for both sides. The agreement is renewed every year, includes built-in price protection against raw material and currency swings — and has, among other things, led to a robot now handling the parts in production.",
+        "challenge": "\"Of course there's a price agreement with built-in protection for both parties, for example against fluctuations in raw material prices and exchange rates. But perhaps even more importantly, the agreement also lets Linimatic plan and adjust production capacity, and so be able to deliver quickly, at the agreed quality and the agreed time,\" says Lars Daugaard Pedersen, strategic purchaser at VELUX.",
+        "approach": "\"We're of course always looking for savings, and we talked to Linimatic about ways to shave a bit off the price. Linimatic suggested implementing a robot on the production line. We didn't have to pay for the robot itself, just a small investment in a special gripper adapted to our parts. With the robot, we now save the wage cost of the operator who used to handle our part, and the result is a solid saving,\" explains Lars Daugaard Pedersen. \"Things just run — and a clear advantage is that we don't have to negotiate all the time. We have really good sparring with Linimatic's technicians, and there's always room to bring a new idea to the table.\"",
+        "result": "A close, smooth collaboration for both parties — no constant renegotiation, with ongoing sparring and knowledge-sharing between Linimatic and VELUX.",
+        "capabilities": ["die-casting", "quality"]
+      },
+      "frandsen-downlight": {
+        "metaTitle": "Frandsen — from China to Denmark on short notice",
+        "client": "Frandsen",
+        "industry": "Lighting",
+        "title": "Faster, smarter - and made in Denmark",
+        "metric": "Reshored from China to Denmark under time pressure · Cast in a single process",
+        "overview": "Frandsen was ready to deliver downlight lamps to the international design company Concrete for the US market when its Chinese supplier pulled out just before production was due to start. Linimatic redesigned the parts for zinc die-casting and got the process running on very short notice — cast in a single step instead of multiple tooling stages, with extra weekend shifts to hold the schedule.",
+        "challenge": "\"We had very little time to find an alternative. It looked really difficult. But when we contacted Linimatic and told Torben about the project, he just said: 'No problem, we'll make it happen!' And he said it so calmly. And they did it — we were honestly very surprised at how well it worked out,\" says Andreas Olesen, design engineer at Frandsen Project.",
+        "approach": "\"It really was an extremely fast process — I have to admit I didn't quite believe it myself. One of the advantages was that the lamps could be cast in a single process, which saved time. So all in all, we got a smoother, faster process — and a smarter product, made right here in Denmark,\" explains Andreas Olesen. \"The fast process is definitely unique for this project. A schedule was set, and only small slips were allowed to stay on track. And the few things that did slip, Linimatic handled with a weekend shift and extreme flexibility. It's very clear that they're skilled at project management — a really positive experience for us on this project. You know exactly how long everything takes — they control the processes 100%.\"",
+        "result": "The lamps were delivered on time for the US market launch, made in Denmark instead of China — and Frandsen now increasingly turns to Linimatic for more projects.",
+        "capabilities": ["prototyping", "die-casting"]
+      },
+      "one-collection-finn-juhl": {
+        "metaTitle": "One Collection — the Finn Juhl table relaunched in die-cast zinc",
+        "client": "One Collection",
+        "industry": "Furniture & Design",
+        "title": "To relaunch a classic design",
+        "metric": "Finn Juhl logo cast directly into the fitting · Exhibited at the Milan design fair, 2015",
+        "overview": "When furniture company One Collection decided to relaunch Finn Juhl's classic dining table with an advanced pull-out leaf, Linimatic was brought in to manufacture the precise fittings that carry the leaves. The leaves had to both hang and lie in a very specific way — and the fittings are both a technical function and a visible part of the iconic design.",
+        "challenge": "\"Fittings are often a necessary evil. But at Finn Juhl the fittings have a technical function, and they're also part of the visual design. That creates particular challenges for manufacturers. The simpler things look, the more complicated they can be to make. That's actually what we experienced,\" says Henrik Sørensen, CEO of One Collection.",
+        "approach": "\"By making the fittings in die-cast zinc, we could get the visual expression we wanted — while also having a high degree of precision. It was also possible to cast the Finn Juhl logo directly during the casting process, saving us a work step,\" says Henrik Sørensen, continuing: \"The collaboration throughout the process is very much a dialogue. Linimatic has skills we don't have, and they were brought in. It's also important to feel engagement, passion — that the supplier also finds the product interesting.\"",
+        "result": "The new Finn Juhl 'Nyhavn' dining table (model FJ 5360) launched with the precision-cast zinc fittings — with the Finn Juhl logo cast directly into the fitting — and was exhibited at the Milan design fair on 13 April 2015.",
         "capabilities": ["die-casting", "quality"]
       }
     }

@@ -231,14 +231,14 @@ export function Header() {
               {(['en', 'da', 'de'] as const).map((l, i) => (
                 <Fragment key={l}>
                   {i > 0 && <span className="text-zinc-600">|</span>}
-                  <Link href={pathname} locale={l} className={locale === l ? 'font-semibold text-ember' : scrolled ? 'text-zinc-400 hover:text-zinc-700' : 'text-zinc-400 hover:text-white'}>
+                  <Link href={pathname} locale={l} className={locale === l ? 'font-semibold text-ember' : scrolled ? 'text-zinc-600 hover:text-zinc-700' : 'text-zinc-400 hover:text-white'}>
                     {l.toUpperCase()}
                   </Link>
                 </Fragment>
               ))}
             </div>
             <a href="tel:+4548764040" className={`text-[13px] tracking-wide transition-colors font-[family-name:var(--font-mono)] ${
-              scrolled ? "text-zinc-400 hover:text-zinc-700" : "text-zinc-400 hover:text-white"
+              scrolled ? "text-zinc-600 hover:text-zinc-700" : "text-zinc-400 hover:text-white"
             }`}>
               {t("phone")}
             </a>

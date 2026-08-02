@@ -70,7 +70,7 @@
       "postProcessing": "CNC-Nachbearbeitung",
       "surfaceTreatment": "Oberflächenbehandlung & Beschichtung",
       "quality": "Qualität & Zertifizierung",
-      "assembly": "Montage & Lieferkette",
+      "assembly": "Montage & Zusammenbau",
       "zinkTemadag": "Zink-Infotag"
     },
     "allServices": "Alle Leistungen",
@@ -229,7 +229,7 @@
       "CNC-Nachbearbeitung",
       "Oberflächenbehandlung & Beschichtung",
       "Qualität & Zertifizierung",
-      "Montage & Lieferkette"
+      "Montage & Zusammenbau"
     ],
     "companyHeading": "Unternehmen",
     "companyLinks": {
@@ -319,9 +319,9 @@
         "specs": "ISO 9001 · KMG · SPC · PPAP · Volle Rückverfolgbarkeit"
       },
       {
-        "title": "Montage & Lieferkette",
-        "description": "Unterbaugruppen, Einpressverbindungen und Mehrkomponenten-Montage. Kanban-Lieferung, Forecast-Planung und Konsignationslager \u2014 wir versenden fertige Produkte nach Ihrem Zeitplan.",
-        "specs": "Kanban · JIT · Forecast-Planung · Sonderverpackung"
+        "title": "Montage & Zusammenbau",
+        "description": "Wir \u00fcbernehmen Montage und Zusammenbau von zinkgegossenen Komponenten mit weiteren Teilen \u2014 inklusive Qualit\u00e4tskontrolle, Kennzeichnung, Verpackung und kundenspezifischer Verpackung.",
+        "specs": "Montage · Kennzeichnung · Verpackung · Qualitätskontrolle"
       }
     ],
     "matrixEyebrow": "Auf einen Blick",
@@ -356,8 +356,8 @@
         "certifications": "ISO 9001 seit 1993"
       },
       {
-        "service": "Montage & Lieferkette",
-        "keySpecs": "Unterbaugruppen · Kanban · JIT-Lieferung · Sonderverpackung",
+        "service": "Montage & Zusammenbau",
+        "keySpecs": "Montage · Kennzeichnung · Verpackung · Qualitätskontrolle",
         "certifications": "—"
       }
     ],
@@ -1214,67 +1214,67 @@
       "ctaButton": "Qualit\u00e4tsdokumentation anfordern"
     },
     "assembly": {
-      "title": "Montage & Lieferkette",
+      "title": "Montage & Zusammenbau",
       "eyebrow": "Fertige Produkte, nicht lose Teile",
-      "overview": "Linimatic liefert fertig montierte Bauteile nach Ihrem Produktionsplan — keine losen Gussteile, die in Ihrer Anlage weiterbearbeitet werden müssen. Unsere Montageleistungen umfassen Unterbaugruppen, Einpressverbindungen, Mehrkomponentenmontage und Sonderverpackung. Kombiniert mit Kanban-Lieferung, JIT-Versorgung und prognosebasierter Abrufplanung fungieren wir als nahtlose Verlängerung Ihrer Produktionslinie. Ein Auftrag, ein Lieferant, eine Lieferung einbaufertiger Bauteile.",
-      "processHeading": "Von der Komponente zum gelieferten Produkt",
+      "overview": "Benötigen Sie mehr als die fertig gegossene Zinkkomponente? Linimatic kann auch die Montage und den Zusammenbau von zinkgegossenen Komponenten mit weiteren Teilen übernehmen, sodass Sie fertig montierte Einheiten erhalten, die einsatzbereit oder lieferbereit sind.\n\nWir können unter anderem Montagesätze, Ersatzteilsätze und kleinere Teilsysteme handhaben sowie Qualitätskontrolle, Kennzeichnung, Verpackung und kundenspezifische Verpackung übernehmen.\n\nDurch die Bündelung mehrerer Prozesse bei einem Lieferanten erhalten Sie eine einfachere Logistik, weniger Handhabungsschritte und eine effizientere Lieferkette.\n\nKontaktieren Sie uns, um zu erfahren, wie wir durch Montage und Zusammenbau Mehrwert schaffen können.",
+      "processHeading": "Von der Komponente zur fertig montierten Einheit",
       "process": [
         {
-          "step": "Montageplanung",
-          "description": "Wir gestalten den Montageprozess beim Projektstart: Vorrichtungsdesign, Operationsreihenfolge, Komponentenbeschaffung und Qualitätsprüfpunkte. Montageanleitungen werden unter unserem ISO 9001-System dokumentiert und kontrolliert."
+          "step": "Annahme der Komponenten",
+          "description": "Wir nehmen zinkgegossene Komponenten und weitere Teile entgegen, die in die fertige Einheit einfließen."
         },
         {
-          "step": "Unterbaugruppen & Einpressen",
-          "description": "Einpressverbindungen, Verschraubung, Mehrkomponentenmontage und Funktionsprüfungen werden in unserer Anlage durchgeführt. Im Haus gegossene, bearbeitete und beschichtete Komponenten werden gemeinsam mit kundenseitig beigestellten Teilen montiert."
+          "step": "Montage & Zusammenbau",
+          "description": "Die Teile werden zu fertig montierten Einheiten zusammengebaut — zum Beispiel Montagesätzen, Ersatzteilsätzen oder kleineren Teilsystemen."
         },
         {
-          "step": "Verpackung & Kennzeichnung",
-          "description": "Standard-, Sonder- oder Markenverpackungsoptionen stellen sicher, dass Teile produktionsbereit bei Ihrer Fertigungslinie oder Ihrem Endkunden ankommen. Die Beschriftung umfasst Barcodes, Chargennummern und kundenspezifische Kennzeichnungen."
+          "step": "Kennzeichnung & Verpackung",
+          "description": "Kundenspezifische Verpackung und Kennzeichnung, angepasst an Ihre Bedürfnisse."
         },
         {
-          "step": "Lieferung & Nachschub",
-          "description": "Kanban-, JIT- und Konsignationslagermodelle werden unterstützt. Lieferungen werden gegen Ihre Prognose geplant, Abrufe werden über unser ERP-System gesteuert. EDI-Integration ist für automatisierte Auftragsabwicklung verfügbar."
+          "step": "Qualitätskontrolle & Lieferung",
+          "description": "Qualitätskontrolle vor der Lieferung, einsatzbereit oder lieferbereit."
         }
       ],
-      "specsEyebrow": "Technische Spezifikationen",
-      "specsHeading": "Lieferkettenkapazit\u00e4ten",
+      "specsEyebrow": "Das bieten wir",
+      "specsHeading": "Montage & Zusammenbau",
       "specsNote": "",
       "specs": [
-        { "label": "Montage", "value": "Unterbaugruppen / Einpressen" },
-        { "label": "Liefermodell", "value": "Kanban / JIT / Konsignation" },
-        { "label": "Verpackung", "value": "Standard / Sonder / Marken" },
-        { "label": "Planung", "value": "Forecast-basierte Abrufe" },
-        { "label": "Integration", "value": "ERP / EDI-f\u00e4hig" },
-        { "label": "Qualit\u00e4t", "value": "ISO 9001 gesteuert" }
+        { "label": "Montage", "value": "Montage & Zusammenbau" },
+        { "label": "S\u00e4tze & Teilsysteme", "value": "Montages\u00e4tze / Ersatzteils\u00e4tze" },
+        { "label": "Verpackung", "value": "Standard / kundenspezifisch" },
+        { "label": "Kennzeichnung", "value": "Kundenspezifische Kennzeichnung" },
+        { "label": "Qualit\u00e4t", "value": "Qualit\u00e4tskontrolle vor Lieferung" },
+        { "label": "Lieferung", "value": "Einsatzbereit oder lieferbereit" }
       ],
-      "advantagesHeading": "Warum Einkaufsteams einen integrierten Lieferanten w\u00e4hlen",
+      "advantagesHeading": "Der Vorteil eines einzigen Lieferanten",
       "advantages": {
-        "p1": "Jeder Lieferant in einer mehrstufigen Lieferkette erhöht Lieferzeit, Koordinationsaufwand und Qualitätsrisiko. Wenn Guss, Zerspanung, Beschichtung, Inspektion und Montage alle in einer Anlage stattfinden, verwaltet der Einkauf eine Lieferantenbeziehung statt vier oder fünf. Ein Bestellauftrag, eine Qualitätsvereinbarung, ein Lieferzeitplan, ein Unternehmen verantwortlich, wenn etwas geändert werden muss. Für einen Einkaufsverantwortlichen, der ein Lieferantenportfolio von fünfzig Lieferanten betreut, ist die Reduzierung von fünf auf einen für eine Bauteilfamilie eine spürbare Verbesserung.",
-        "p2": "Unser ERP-System verwaltet Lagerbestände, Produktionsplanung und Lieferprognosen. Für Kunden mit stabilen Bedarfsmustern eliminiert Kanban-Nachschub Bestellzyklen vollständig — wir produzieren und liefern gegen vereinbarte Lagerbestände. Für Kunden mit variablem Bedarf bieten prognosebasierte Abrufe mit Pufferlager Flexibilität ohne das Risiko einer Versorgungsunterbrechung. Das Ergebnis: Ihre Produktionslinie läuft, und die Teile sind da, wenn Sie sie brauchen."
+        "p1": "Wenn Montage und Zusammenbau bei demselben Lieferanten erfolgen, der die Komponenten gegossen hat, müssen Sie nicht selbst mehrere Schritte koordinieren.",
+        "p2": "Durch die Bündelung mehrerer Prozesse bei einem Lieferanten erhalten Sie eine einfachere Logistik, weniger Handhabungsschritte und eine effizientere Lieferkette."
       },
       "faqHeading": "H\u00e4ufig gestellte Fragen",
       "faq": [
         {
-          "question": "K\u00f6nnen Sie montierte Bauteile liefern?",
-          "answer": "Ja. Wir führen Unterbaugruppen, Einpressverbindungen, Mehrkomponentenmontage und Funktionsprüfungen in unserer Anlage durch. Fertige Baugruppen werden einbaufertig für Ihr Produkt versandt und eliminieren Montageschritte auf Ihrer Seite."
+          "question": "K\u00f6nnen Sie Zinkkomponenten mit anderen Teilen kombinieren?",
+          "answer": "Ja. Wir können die Montage und den Zusammenbau von zinkgegossenen Komponenten mit weiteren Teilen übernehmen, sodass Sie fertig montierte Einheiten erhalten, die einsatzbereit oder lieferbereit sind."
         },
         {
-          "question": "Bieten Sie Kanban- oder JIT-Lieferung an?",
-          "answer": "Ja. Wir unterstützen Kanban-Nachschub, Just-in-time-Lieferung und Konsignationslagermodelle. Lieferhäufigkeit und Pufferlagerbestände werden beim Projektstart vereinbart und über unser ERP-System gesteuert."
+          "question": "Welche Sätze und Teilsysteme können Sie handhaben?",
+          "answer": "Wir können unter anderem Montagesätze, Ersatzteilsätze und kleinere Teilsysteme handhaben."
         },
         {
-          "question": "Welches ERP-System verwenden Sie?",
-          "answer": "Wir verwenden ein modernes ERP-System, das Produktionsplanung, Lagerbestand, Qualität und Logistik verwaltet. EDI-Integration ist für automatisierte Auftragsabwicklung, Lieferplanung und Rechnungsbearbeitung verfügbar."
+          "question": "Übernehmen Sie Qualitätskontrolle, Kennzeichnung und Verpackung?",
+          "answer": "Ja. Wir übernehmen Qualitätskontrolle, Kennzeichnung, Verpackung und kundenspezifische Verpackung."
         },
         {
-          "question": "Welche Verpackungsoptionen bieten Sie an?",
-          "answer": "Wir bieten Standard-Schüttgutverpackung, maßgeschneiderte Verpackung zum Schutz spezifischer Bauteilgeometrien und Markenverpackung für endkundenfertige Lieferungen. Das Verpackungsdesign wird beim Projektstart vereinbart und im Prüfplan dokumentiert."
+          "question": "Wie fangen wir an?",
+          "answer": "Kontaktieren Sie uns, um zu erfahren, wie wir durch Montage und Zusammenbau Mehrwert schaffen können."
         }
       ],
       "relatedHeading": "Verwandte Leistungen",
-      "ctaHeading": "Vereinfachen Sie Ihre Lieferkette",
-      "ctaDescription": "Sagen Sie uns, was Sie geliefert brauchen, wie oft und in welcher Verpackung. Wir entwerfen ein Versorgungsmodell, das zu Ihrem Produktionsplan passt.",
-      "ctaButton": "Versorgungsbedarf besprechen"
+      "ctaHeading": "Bereit, Ihre Komponenten montieren zu lassen?",
+      "ctaDescription": "Kontaktieren Sie uns, um zu erfahren, wie wir durch Montage und Zusammenbau Mehrwert schaffen können.",
+      "ctaButton": "Kontakt aufnehmen"
     }
   },
   "jobsPage": {

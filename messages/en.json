@@ -70,7 +70,7 @@
       "postProcessing": "CNC Post-Processing",
       "surfaceTreatment": "Surface Treatment & Coating",
       "quality": "Quality & Certification",
-      "assembly": "Assembly & Supply Chain",
+      "assembly": "Assembly & Mounting",
       "zinkTemadag": "Zinc Info Day"
     },
     "allServices": "All Services",
@@ -226,7 +226,7 @@
       "CNC Post-Processing",
       "Surface Treatment & Coating",
       "Quality & Certification",
-      "Assembly & Supply Chain"
+      "Assembly & Mounting"
     ],
     "companyHeading": "Company",
     "companyLinks": {
@@ -316,9 +316,9 @@
         "specs": "ISO 9001 \u00b7 CMM \u00b7 SPC \u00b7 PPAP \u00b7 Full traceability"
       },
       {
-        "title": "Assembly & Supply Chain",
-        "description": "Sub-assembly, insert pressing, and multi-component assembly. Kanban delivery, forecast planning, and consignment stock \u2014 we ship finished products on your schedule.",
-        "specs": "Kanban \u00b7 JIT \u00b7 Forecast planning \u00b7 Custom packaging"
+        "title": "Assembly & Mounting",
+        "description": "We handle assembly and mounting of die-cast zinc components with other parts \u2014 including quality control, labelling, packing and customer-specific packaging.",
+        "specs": "Assembly \u00b7 Labelling \u00b7 Packing \u00b7 Quality control"
       }
     ],
     "matrixEyebrow": "At a Glance",
@@ -353,8 +353,8 @@
         "certifications": "ISO 9001 since 1993"
       },
       {
-        "service": "Assembly & Supply Chain",
-        "keySpecs": "Sub-assembly \u00b7 Kanban \u00b7 JIT delivery \u00b7 Custom packaging",
+        "service": "Assembly & Mounting",
+        "keySpecs": "Assembly \u00b7 Labelling \u00b7 Packing \u00b7 Quality control",
         "certifications": "\u2014"
       }
     ],
@@ -1211,67 +1211,67 @@
       "ctaButton": "Request Quality Documentation"
     },
     "assembly": {
-      "title": "Assembly & Supply Chain",
+      "title": "Assembly & Mounting",
       "eyebrow": "Finished Products, Not Loose Parts",
-      "overview": "Linimatic delivers finished, assembled components on your production schedule \u2014 not loose castings that require further handling at your facility. Our assembly services include sub-assembly, insert pressing, multi-component assembly, and custom packaging. Combined with kanban delivery, JIT supply, and forecast-based call-off scheduling, we function as a seamless extension of your production line. One purchase order, one supplier, one shipment of ready-to-install components.",
-      "processHeading": "From component to delivered product",
+      "overview": "Do you need more than the finished die-cast zinc component? Linimatic can also handle assembly and mounting of die-cast zinc components with other parts, so you receive fully assembled units ready for use or further delivery.\n\nAmong other things, we can handle assembly kits, spare-parts kits and smaller subsystems, as well as quality control, labelling, packing and customer-specific packaging.\n\nBy consolidating several processes with one supplier, you get simpler logistics, fewer handling steps and a more efficient supply chain.\n\nContact us to hear how we can create value through assembly and mounting.",
+      "processHeading": "From component to fully assembled unit",
       "process": [
         {
-          "step": "Assembly Planning",
-          "description": "We design the assembly process during project launch: fixture design, operation sequencing, component sourcing, and quality checkpoints. Assembly instructions are documented and controlled under our ISO 9001 system."
+          "step": "Receiving Components",
+          "description": "We receive die-cast zinc components and other parts to be built into the finished unit."
         },
         {
-          "step": "Sub-Assembly & Pressing",
-          "description": "Insert pressing, fastening, multi-component assembly, and functional testing are performed in our facility. Components cast, machined, and coated in-house are assembled alongside customer-supplied parts."
+          "step": "Assembly & Mounting",
+          "description": "The parts are assembled into fully assembled units \u2014 such as assembly kits, spare-parts kits or smaller subsystems."
         },
         {
-          "step": "Packaging & Labelling",
-          "description": "Standard, custom, or branded packaging options ensure parts arrive ready for your production line or end customer. Labelling includes barcodes, lot numbers, and customer-specific markings."
+          "step": "Labelling & Packaging",
+          "description": "Customer-specific packaging and labelling, tailored to your needs."
         },
         {
-          "step": "Delivery & Replenishment",
-          "description": "Kanban, JIT, and consignment stock models are supported. Deliveries are scheduled against your forecast, with call-offs managed through our ERP system. EDI integration is available for automated order processing."
+          "step": "Quality Control & Delivery",
+          "description": "Quality control before delivery, ready for use or further delivery."
         }
       ],
-      "specsEyebrow": "Technical Specifications",
-      "specsHeading": "Supply chain capabilities",
+      "specsEyebrow": "What we offer",
+      "specsHeading": "Assembly & mounting",
       "specsNote": "",
       "specs": [
-        { "label": "Assembly", "value": "Sub-assembly / insert pressing" },
-        { "label": "Delivery Model", "value": "Kanban / JIT / consignment" },
-        { "label": "Packaging", "value": "Standard / custom / branded" },
-        { "label": "Planning", "value": "Forecast-based call-offs" },
-        { "label": "Integration", "value": "ERP / EDI capable" },
-        { "label": "Quality", "value": "ISO 9001 governed" }
+        { "label": "Assembly", "value": "Assembly & mounting" },
+        { "label": "Kits & subsystems", "value": "Assembly kits / spare-parts kits" },
+        { "label": "Packaging", "value": "Standard / custom" },
+        { "label": "Labelling", "value": "Customer-specific labelling" },
+        { "label": "Quality", "value": "Quality control before delivery" },
+        { "label": "Delivery", "value": "Ready for use or further delivery" }
       ],
-      "advantagesHeading": "Why procurement teams choose an integrated supplier",
+      "advantagesHeading": "The advantage of a single supplier",
       "advantages": {
-        "p1": "Every supplier in a multi-tier supply chain adds lead time, coordination effort, and quality risk. When casting, machining, coating, inspection, and assembly all happen in one facility, procurement manages one supplier relationship instead of four or five. One purchase order, one quality agreement, one delivery schedule, one company accountable when something needs to change. For Henrik managing a supplier portfolio of fifty vendors, reducing five to one for a component family is a material improvement.",
-        "p2": "Our ERP system manages inventory levels, production scheduling, and delivery forecasts. For customers with stable demand patterns, kanban replenishment eliminates purchase order cycles entirely \u2014 we produce and deliver against agreed stock levels. For variable-demand customers, forecast-based call-offs with buffer stock provide flexibility without the risk of supply interruption. The result: your production line runs, and the parts are there when you need them."
+        "p1": "When assembly and mounting happen at the same supplier that cast the components, you avoid coordinating several steps yourself.",
+        "p2": "By consolidating several processes with one supplier, you get simpler logistics, fewer handling steps and a more efficient supply chain."
       },
       "faqHeading": "Frequently Asked Questions",
       "faq": [
         {
-          "question": "Can you deliver assembled components?",
-          "answer": "Yes. We perform sub-assembly, insert pressing, multi-component assembly, and functional testing in our facility. Finished assemblies are shipped ready for installation in your product, eliminating assembly steps at your end."
+          "question": "Can you assemble zinc components with other parts?",
+          "answer": "Yes. We can handle assembly and mounting of die-cast zinc components with other parts, so you receive fully assembled units ready for use or further delivery."
         },
         {
-          "question": "Do you offer kanban or JIT delivery?",
-          "answer": "Yes. We support kanban replenishment, just-in-time delivery, and consignment stock models. Delivery frequency and buffer stock levels are agreed during project setup and managed through our ERP system."
+          "question": "What kits and subsystems can you handle?",
+          "answer": "Among other things, we can handle assembly kits, spare-parts kits and smaller subsystems."
         },
         {
-          "question": "What ERP system do you use?",
-          "answer": "We use a modern ERP system that manages production planning, inventory, quality, and logistics. EDI integration is available for automated purchase order processing, delivery scheduling, and invoice handling."
+          "question": "Do you handle quality control, labelling and packaging?",
+          "answer": "Yes. We handle quality control, labelling, packing and customer-specific packaging."
         },
         {
-          "question": "What packaging options do you provide?",
-          "answer": "We offer standard bulk packaging, custom-designed packaging to protect specific part geometries, and branded packaging for end-customer-ready shipments. Packaging design is agreed during project setup and documented in the control plan."
+          "question": "How do we get started?",
+          "answer": "Contact us to hear how we can create value through assembly and mounting."
         }
       ],
       "relatedHeading": "Related Services",
-      "ctaHeading": "Simplify your supply chain",
-      "ctaDescription": "Tell us what you need delivered, how often, and in what packaging. We\u2019ll design a supply model that fits your production schedule.",
-      "ctaButton": "Discuss Your Supply Needs"
+      "ctaHeading": "Ready to have your components assembled?",
+      "ctaDescription": "Contact us to hear how we can create value through assembly and mounting.",
+      "ctaButton": "Contact Us"
     }
   },
   "jobsPage": {

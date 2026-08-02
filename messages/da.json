@@ -70,7 +70,7 @@
       "postProcessing": "CNC-efterbearbejdning",
       "surfaceTreatment": "Overfladebehandling & coating",
       "quality": "Kvalitet & certificering",
-      "assembly": "Montage & forsyningskæde",
+      "assembly": "Montage og samling",
       "zinkTemadag": "Zink Temadag"
     },
     "allServices": "Alle ydelser",
@@ -229,7 +229,7 @@
       "CNC-efterbearbejdning",
       "Overfladebehandling & coating",
       "Kvalitet & certificering",
-      "Montage & forsyningskæde"
+      "Montage og samling"
     ],
     "companyHeading": "Virksomhed",
     "companyLinks": {
@@ -319,9 +319,9 @@
         "specs": "ISO 9001 · CMM · SPC · PPAP · Fuld sporbarhed"
       },
       {
-        "title": "Montage & forsyningskæde",
-        "description": "Undermontage, indpresning og flerkomponent-montage. Kanban-levering, forecast-planlægning og konsignationslager — vi forsender færdige produkter efter din tidsplan.",
-        "specs": "Kanban · JIT · Forecast-planlægning · Specialemballage"
+        "title": "Montage og samling",
+        "description": "Vi står for montage og samling af zinkstøbte komponenter med øvrige dele — inklusive kvalitetskontrol, mærkning, pakning og kundespecifik emballering.",
+        "specs": "Montage · Mærkning · Pakning · Kvalitetskontrol"
       }
     ],
     "matrixEyebrow": "Overblik",
@@ -356,8 +356,8 @@
         "certifications": "ISO 9001 siden 1993"
       },
       {
-        "service": "Montage & forsyningskæde",
-        "keySpecs": "Undermontage · Kanban · JIT-levering · Specialemballage",
+        "service": "Montage og samling",
+        "keySpecs": "Montage · Mærkning · Pakning · Kvalitetskontrol",
         "certifications": "—"
       }
     ],
@@ -1215,67 +1215,67 @@
       "ctaButton": "Anmod om kvalitetsdokumentation"
     },
     "assembly": {
-      "title": "Montage & forsyningskæde",
+      "title": "Montage og samling",
       "eyebrow": "Færdige produkter, ikke løse dele",
-      "overview": "Linimatic leverer færdige, monterede emner på din produktionsplan — ikke løse støbte emner, der kræver yderligere håndtering hos dig. Vores montageservices inkluderer undermontage, indpresning, flerkomponent-montage og specialemballage. Kombineret med kanban-levering, JIT-forsyning og forecast-baseret afkald fungerer vi som en problemfri forlængelse af din produktionslinje. Én indkøbsordre, én leverandør, én forsendelse af installationsklare komponenter.",
-      "processHeading": "Fra komponent til leveret produkt",
+      "overview": "Har du brug for mere end den færdigstøbte zinkkomponent? Linimatic kan også stå for montage og samling af zinkstøbte komponenter med øvrige dele, så du modtager færdigmonterede enheder, der er klar til brug eller videre levering.\n\nVi kan blandt andet håndtere monteringssæt, reservedelssæt og mindre delsystemer samt stå for kvalitetskontrol, mærkning, pakning og kundespecifik emballering.\n\nVed at samle flere processer hos én leverandør får du enklere logistik, færre håndteringer og en mere effektiv forsyningskæde.\n\nKontakt os for at høre, hvordan vi kan skabe værdi gennem montage og samling.",
+      "processHeading": "Fra komponent til færdigmonteret enhed",
       "process": [
         {
-          "step": "Montageplanlægning",
-          "description": "Vi designer montageprocessen under projektopstart: fastsætningsdesign, operationssekvens, komponentindkøb og kvalitetskontrolpunkter. Montageinstruktioner dokumenteres og kontrolleres under vores ISO 9001-system."
+          "step": "Modtagelse af komponenter",
+          "description": "Vi modtager zinkstøbte komponenter og øvrige dele, som skal indgå i den færdige enhed."
         },
         {
-          "step": "Undermontage & presning",
-          "description": "Indpresning, fastgørelse, flerkomponent-montage og funktionstest udføres hos os. Emner støbt, bearbejdet og coated internt samles sammen med kundeleverede dele."
+          "step": "Montage & samling",
+          "description": "Delene samles til færdigmonterede enheder — f.eks. monteringssæt, reservedelssæt eller mindre delsystemer."
         },
         {
-          "step": "Emballering & mærkning",
-          "description": "Standard-, special- eller branded emballagemuligheder sikrer, at emner ankommer klar til din produktionslinje eller slutkunde. Mærkning inkluderer stregkoder, lotnumre og kundespecifikke markeringer."
+          "step": "Mærkning & emballering",
+          "description": "Kundespecifik emballering og mærkning, tilpasset jeres behov."
         },
         {
-          "step": "Levering & genopfyldning",
-          "description": "Kanban-, JIT- og konsignationslagermodeller understøttes. Leverancer planlægges mod din forecast med afkald styret via vores ERP-system. EDI-integration er tilgængelig til automatiseret ordrebehandling."
+          "step": "Kvalitetskontrol & levering",
+          "description": "Kvalitetskontrol inden levering, klar til brug eller videre levering."
         }
       ],
-      "specsEyebrow": "Tekniske specifikationer",
-      "specsHeading": "Forsyningskædekapabiliteter",
+      "specsEyebrow": "Det kan vi tilbyde",
+      "specsHeading": "Montage & samling",
       "specsNote": "",
       "specs": [
-        { "label": "Montage", "value": "Undermontage / indpresning" },
-        { "label": "Leveringsmodel", "value": "Kanban / JIT / konsignation" },
-        { "label": "Emballage", "value": "Standard / special / brandet" },
-        { "label": "Planlægning", "value": "Forecast-baserede afkald" },
-        { "label": "Integration", "value": "ERP / EDI-kompatibel" },
-        { "label": "Kvalitet", "value": "ISO 9001-styret" }
+        { "label": "Montage", "value": "Montage & samling" },
+        { "label": "Sæt & delsystemer", "value": "Monteringssæt / reservedelssæt" },
+        { "label": "Emballering", "value": "Standard / kundespecifik" },
+        { "label": "Mærkning", "value": "Kundespecifik mærkning" },
+        { "label": "Kvalitet", "value": "Kvalitetskontrol før levering" },
+        { "label": "Levering", "value": "Klar til brug eller videre levering" }
       ],
-      "advantagesHeading": "Hvorfor indkøbsteams vælger en integreret leverandør",
+      "advantagesHeading": "Fordelen ved én leverandør",
       "advantages": {
-        "p1": "Hver leverandør i en multi-niveau forsyningskæde tilføjer leveringstid, koordineringsindsats og kvalitetsrisiko. Når støbning, bearbejdning, coating, inspektion og montage alle sker i én facilitet, styrer indkøb ét leverandørforhold i stedet for fire eller fem. Én indkøbsordre, én kvalitetsaftale, én leveringsplan, én virksomhed ansvarlig, når noget skal ændres. For indkøbschefen, der administrerer en leverandørportefølje på halvtreds leverandører, er det at reducere fem til én for en komponentfamilie en væsentlig forbedring.",
-        "p2": "Vores ERP-system styrer lagerniveauer, produktionsplanlægning og leveranceforecasts. For kunder med stabile efterspørgselsmønstre eliminerer kanban-genopfyldning indkøbsordrecyklusser helt — vi producerer og leverer mod aftalte lagerniveauer. For kunder med variabel efterspørgsel giver forecast-baserede afkald med bufferlager fleksibilitet uden risiko for forsyningsafbrydelse. Resultatet: din produktionslinje kører, og emnerne er der, når du har brug for dem."
+        "p1": "Når montage og samling foregår hos den samme leverandør, der har støbt komponenterne, undgår I selv at skulle koordinere flere led.",
+        "p2": "Ved at samle flere processer hos én leverandør får I enklere logistik, færre håndteringer og en mere effektiv forsyningskæde."
       },
       "faqHeading": "Ofte stillede spørgsmål",
       "faq": [
         {
-          "question": "Kan I levere monterede komponenter?",
-          "answer": "Ja. Vi udfører undermontage, indpresning, flerkomponent-montage og funktionstest hos os. Færdige samlinger forsendes klar til installation i dit produkt, hvilket eliminerer monteringstrin hos dig."
+          "question": "Kan I samle zinkkomponenter med andre dele?",
+          "answer": "Ja. Vi kan stå for montage og samling af zinkstøbte komponenter med øvrige dele, så I modtager færdigmonterede enheder, der er klar til brug eller videre levering."
         },
         {
-          "question": "Tilbyder I kanban- eller JIT-levering?",
-          "answer": "Ja. Vi understøtter kanban-genopfyldning, just-in-time-levering og konsignationslagermodeller. Leveringsfrekvens og bufferlagersniveauer aftales under projektopsætning og styres via vores ERP-system."
+          "question": "Hvad kan I håndtere af sæt og delsystemer?",
+          "answer": "Vi kan blandt andet håndtere monteringssæt, reservedelssæt og mindre delsystemer."
         },
         {
-          "question": "Hvilket ERP-system bruger I?",
-          "answer": "Vi bruger et moderne ERP-system, der styrer produktionsplanlægning, lager, kvalitet og logistik. EDI-integration er tilgængelig til automatiseret indkøbsordrebehandling, leveranceplanlægning og fakturahåndtering."
+          "question": "Står I for kvalitetskontrol, mærkning og emballering?",
+          "answer": "Ja. Vi står for kvalitetskontrol, mærkning, pakning og kundespecifik emballering."
         },
         {
-          "question": "Hvilke emballagemuligheder tilbyder I?",
-          "answer": "Vi tilbyder standard bulkemballage, specialdesignet emballage til beskyttelse af specifikke emnegeometrier og branded emballage til forsendelser klar til slutkunder. Emballagedesign aftales under projektopsætning og dokumenteres i kontrolplanen."
+          "question": "Hvordan kommer vi i gang?",
+          "answer": "Kontakt os for at høre, hvordan vi kan skabe værdi gennem montage og samling."
         }
       ],
       "relatedHeading": "Relaterede ydelser",
-      "ctaHeading": "Forenkl din forsyningskæde",
-      "ctaDescription": "Fortæl os, hvad du skal have leveret, hvor ofte og i hvilken emballage. Vi designer en forsyningsmodel, der passer til din produktionsplan.",
-      "ctaButton": "Drøft dine forsyningsbehov"
+      "ctaHeading": "Klar til at få samlet jeres komponenter?",
+      "ctaDescription": "Kontakt os for at høre, hvordan vi kan skabe værdi gennem montage og samling.",
+      "ctaButton": "Kontakt os"
     }
   },
   "jobsPage": {

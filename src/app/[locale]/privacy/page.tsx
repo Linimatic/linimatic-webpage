@@ -74,6 +74,7 @@ export default async function PrivacyPolicyPage({
           <ul className="list-disc pl-5">
             {collectItems.map((item, i) => <li key={i}>{item}</li>)}
           </ul>
+          <p>{t("dataSourceNote")}</p>
 
           <h2>{t("legalBasisHeading")}</h2>
           <p>{t("legalBasisIntro")}</p>

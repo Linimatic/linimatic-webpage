@@ -37,8 +37,8 @@
       "description": "Werden Sie Teil von Dänemarks größter Zinkdruckguss-Gießerei. Offene Stellen in Guss, Bearbeitung, Qualität und Technik bei Linimatic A/S in Helsinge."
     },
     "zinkers": {
-      "title": "Zinkers — bleifreie Angelgewichte aus Zink",
-      "description": "Linimatic Zinkers sind präzisionsgegossene Angelgewichte aus Zink — bleifrei, umweltfreundlich und langlebig. In verschiedenen Größen und Formen erhältlich."
+      "title": "Sinkers von Linimatic — Zinksenker für Trawl & Fischereigerät",
+      "description": "Linimatic gießt bleifreie Zinksenker für Trawl-, Ring- und industrielles Fischereigerät. Ring- und Tonnensenker von 50-2.000 Gramm, angepasst an Ihren Bedarf."
     },
     "zinkTemadag": {
       "title": "Zink-Infotag — kostenloses Seminar zum Zinkdruckguss",
@@ -59,6 +59,7 @@
       "services": "Leistungen",
       "cases": "Referenzen",
       "whyZinc": "Warum Zink",
+      "zinkers": "Sinkers",
       "about": "Über uns",
       "jobs": "Karriere",
       "contact": "Kontakt"
@@ -236,7 +237,7 @@
       "cases": "Referenzen",
       "whyZinc": "Warum Zink",
       "careers": "Karriere",
-      "zinkers": "Zinkers"
+      "zinkers": "Sinkers"
     },
     "contactHeading": "Kontakt",
     "address": {
@@ -845,37 +846,37 @@
     }
   },
   "zinkersPage": {
-    "breadcrumb": "Zinkers",
-    "eyebrow": "Bleifreie Angelbleie",
-    "heading": "Zinkers — das verantwortungsvolle Gewicht für ernsthafte Angler.",
-    "intro": "Zinkers ist Linimatics Linie bleifreier Zink-Angelbleie, entwickelt für Angler, die effektive Gewichte ohne die Umweltkosten von Blei wollen. Zink ist dichter als die meisten nicht-toxischen Alternativen, ungiftig für Wasservögel und aquatische Ökosysteme und vollständig recycelbar — dieselben Materialeigenschaften, die es zur führenden Druckgusslegierung Dänemarks machen, machen es zu einem ausgezeichneten Angelblei.",
-    "heroImageAlt": "Zink-Angelbleie — bleifreie Zinkers von Linimatic",
+    "breadcrumb": "Sinkers",
+    "eyebrow": "Bleifreies Fischereizubehör",
+    "heading": "Sinkers — Zinksenker für Trawl- und industrielles Fischereigerät.",
+    "intro": "Linimatic gießt Senker aus Zink für Trawl-, Ring- und anderes industrielles Fischereigerät — eine umweltfreundliche Alternative zu Bleisenkern, deren Import und Verkauf in Dänemark seit 2002 verboten ist. Das Sortiment reicht von 50 bis 2.000 Gramm in Ring- und Tonnenform, mit Lochdurchmessern passend zum Gerät des Kunden.",
+    "heroImageAlt": "Ring- und Tonnensenker aus Zink von Linimatic",
     "whyHeading": "Warum Zink statt Blei",
-    "whyDescription": "Bleibeschränkungen für Angelzubehör weiten sich auf immer mehr EU-Mitgliedstaaten aus. Zink liefert vergleichbares Gewicht in kleinerem Profil ohne das Toxizitätsrisiko.",
+    "whyDescription": "Blei ist als Senkermaterial in Dänemark seit 2002 verboten. Zink gleicht das Gewicht von Blei aus und ist dabei ungiftig.",
     "why": [
       {
-        "title": "Nicht-toxisch",
-        "description": "Im Gegensatz zu Blei geht von Zink kein Toxizitätsrisiko für Wasservögel oder Wasserlebewesen aus, die verlorene Bleie verschlucken. Es ist die verantwortungsvolle Wahl für Angler in ökologisch sensiblen Gebieten."
+        "title": "Ungiftig",
+        "description": "Anders als Blei stellt Zink kein Vergiftungsrisiko für Seevögel oder Meereslebewesen dar, wenn ein Senker verloren geht oder im Wasser abgenutzt wird."
       },
       {
-        "title": "Konform",
-        "description": "Bleibeschränkungen für Angelgewichte sind in mehreren EU-Ländern in Kraft oder werden diskutiert, um Wasservögel und aquatische Ökosysteme zu schützen. Zink-Angelbleie ermöglichen es Ihnen, sorglos innerhalb geltender und kommender Vorschriften zu angeln."
+        "title": "Legal seit 2002",
+        "description": "Bleisenker dürfen in Dänemark seit 2002 weder importiert noch verkauft werden. Zink ist die direkte, zugelassene Alternative mit vergleichbarem Gewicht."
       },
       {
-        "title": "Recycelbar und in Dänemark gefertigt",
-        "description": "Zinkers werden in Linimatics Gießerei in Helsinge aus Zink gegossen — einem Material, das zu 100 % ohne Eigenschaftsverlust recycelbar ist. In Dänemark hergestellt bedeutet kurze Lieferketten und einen kleineren Transportfußabdruck."
+        "title": "Gegossen in Helsinge",
+        "description": "Sinkers werden in Linimatics eigener Gießerei in Helsinge gegossen und können in Gewicht und Lochdurchmesser an das Gerät und die Produktionsmenge des Kunden angepasst werden."
       }
     ],
-    "applicationsHeading": "Wo sie eingesetzt werden",
+    "applicationsHeading": "Einsatzbereiche",
     "applications": [
-      "Meeres- und Küstenfischerei",
-      "Fluss- und Süßwasserfischerei",
-      "Fliegenfischen-Rigs",
-      "Catch-and-Release-Fischerei"
+      "Trawlfischerei",
+      "Ringwadenfischerei",
+      "Industrielles Fischereigerät",
+      "Ring- und Tonnensenker, 50–2.000 Gramm"
     ],
-    "ctaHeading": "Interesse an Zinkers?",
-    "ctaDescription": "Kontaktieren Sie uns, um mehr über unsere bleifreien Angelbleie zu erfahren oder eine Bestellung aufzugeben. Wir beliefern sowohl Privatangler als auch Angelfachhandel.",
-    "ctaButton": "Kontaktieren Sie uns, um loszulegen"
+    "ctaHeading": "Interesse an Sinkers?",
+    "ctaDescription": "Kontaktieren Sie uns für Preise und Spezifikationen, oder rufen Sie uns direkt an unter +45 4876 4040.",
+    "ctaButton": "Kontakt aufnehmen"
   },
   "serviceDetail": {
     "prototyping": {
@@ -1421,7 +1422,7 @@
   "privacyPage": {
     "eyebrow": "Rechtliches",
     "title": "Datenschutzrichtlinie",
-    "lastUpdated": "Zuletzt aktualisiert: März 2026",
+    "lastUpdated": "Zuletzt aktualisiert: August 2026",
     "dataControllerHeading": "Verantwortlicher",
     "dataControllerIntro": "Linimatic A/S ist der Verantwortliche für personenbezogene Daten, die über diese Website erhoben werden.",
     "whatWeCollectHeading": "Welche Daten wir erheben",
@@ -1432,6 +1433,7 @@
       "Technische Daten: IP-Adresse, Browsertyp, Betriebssystem und Surfverhalten, die automatisch durch Cookies erfasst werden (mit Ihrer Zustimmung).",
       "Kommunikationsdaten: Aufzeichnungen der Korrespondenz bei Kontakt per E-Mail oder Telefon."
     ],
+    "dataSourceNote": "Wir erheben diese Daten ausschließlich direkt von Ihnen — wir kaufen oder erhalten keine personenbezogenen Daten über Sie aus anderen Quellen.",
     "legalBasisHeading": "Rechtsgrundlage der Verarbeitung",
     "legalBasisIntro": "Gemäß der Datenschutz-Grundverordnung (DSGVO) verarbeiten wir personenbezogene Daten auf Grundlage von:",
     "legalBasisItems": [

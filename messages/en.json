@@ -37,8 +37,8 @@
       "description": "Join Denmark's largest zinc die-casting foundry. Open roles in casting, machining, quality and engineering at Linimatic A/S in Helsinge."
     },
     "zinkers": {
-      "title": "Zinkers — Lead-Free Zinc Fishing Weights",
-      "description": "Linimatic Zinkers are precision die-cast fishing weights — lead-free, environmentally safe and built to last. Available in a range of sizes and styles."
+      "title": "Sinkers by Linimatic — Zinc Weights for Trawl & Fishing Gear",
+      "description": "Linimatic casts lead-free zinc sinkers for trawl, seine and industrial fishing gear. Ring and barrel sinkers from 50-2,000 grams, tailored to your needs."
     },
     "zinkTemadag": {
       "title": "Zinc Info Day — free zinc die-casting seminar",
@@ -59,6 +59,7 @@
       "services": "Services",
       "cases": "Cases",
       "whyZinc": "Why Zinc",
+      "zinkers": "Sinkers",
       "about": "About",
       "jobs": "Careers",
       "contact": "Contact"
@@ -233,7 +234,7 @@
       "cases": "Cases",
       "whyZinc": "Why Zinc",
       "careers": "Careers",
-      "zinkers": "Zinkers"
+      "zinkers": "Sinkers"
     },
     "contactHeading": "Contact",
     "address": {
@@ -842,37 +843,37 @@
     }
   },
   "zinkersPage": {
-    "breadcrumb": "Zinkers",
-    "eyebrow": "Lead-free fishing weights",
-    "heading": "Zinkers \u2014 the responsible weight for serious anglers.",
-    "intro": "Zinkers are Linimatic\u2019s line of lead-free zinc fishing sinkers, designed for anglers who want effective weights without the environmental cost of lead. Zinc is denser than most non-toxic alternatives, non-toxic to waterfowl and aquatic ecosystems, and fully recyclable \u2014 the same material properties that make it Denmark\u2019s premier die-casting alloy make it an excellent fishing weight.",
-    "heroImageAlt": "Zinc fishing sinkers \u2014 lead-free Zinkers by Linimatic",
+    "breadcrumb": "Sinkers",
+    "eyebrow": "Lead-free fishing gear",
+    "heading": "Sinkers \u2014 zinc weights for trawl and industrial fishing gear.",
+    "intro": "Linimatic casts zinc sinkers for trawl, seine and other industrial fishing equipment \u2014 an environmentally friendly alternative to lead sinkers, which have been banned from import and sale in Denmark since 2002. The range spans 50 to 2,000 grams in ring and barrel shapes, with hole diameters matched to the customer\u2019s gear.",
+    "heroImageAlt": "Ring and barrel zinc sinkers by Linimatic",
     "whyHeading": "Why zinc, not lead",
-    "whyDescription": "Lead restrictions for fishing tackle are expanding across EU member states. Zinc delivers comparable weight in a smaller profile without the toxicity risk.",
+    "whyDescription": "Lead has been banned as a sinker material in Denmark since 2002. Zinc matches lead\u2019s weight while being non-toxic.",
     "why": [
       {
         "title": "Non-toxic",
-        "description": "Unlike lead, zinc poses no toxicity risk to waterfowl or aquatic life that ingest lost sinkers. It is the responsible choice for anglers fishing in environmentally sensitive areas."
+        "description": "Unlike lead, zinc poses no poisoning risk to seabirds or marine life if a sinker is lost or worn down in the water."
       },
       {
-        "title": "Compliant",
-        "description": "Lead restrictions on fishing weights are in force or under discussion in several EU countries to protect waterbirds and aquatic ecosystems. Zinc sinkers allow you to fish confidently within current and emerging regulations."
+        "title": "Legal since 2002",
+        "description": "Lead sinkers have been banned from import and sale in Denmark since 2002. Zinc is the direct, approved alternative with comparable weight."
       },
       {
-        "title": "Recyclable and Danish-made",
-        "description": "Zinkers are cast in Linimatic\u2019s Helsinge foundry using zinc \u2014 a material that is 100% recyclable with no loss of properties. Buying Danish-made means short supply chains and a smaller transport footprint."
+        "title": "Cast in Helsinge",
+        "description": "Sinkers are cast at Linimatic\u2019s own foundry in Helsinge and can be tailored in weight and hole diameter to match the customer\u2019s gear and production volume."
       }
     ],
-    "applicationsHeading": "Where they\u2019re used",
+    "applicationsHeading": "Applications",
     "applications": [
-      "Sea and coastal fishing",
-      "River and freshwater fishing",
-      "Fly fishing rigs",
-      "Catch-and-release fishing"
+      "Trawl fishing",
+      "Seine fishing",
+      "Industrial fishing gear",
+      "Ring and barrel sinkers, 50\u20132,000 grams"
     ],
-    "ctaHeading": "Interested in Zinkers?",
-    "ctaDescription": "Contact us to learn more about our lead-free fishing weights or to place an order. We supply both individual anglers and tackle retailers.",
-    "ctaButton": "Contact Us to Get Started"
+    "ctaHeading": "Interested in sinkers?",
+    "ctaDescription": "Contact us for prices and specifications, or call us directly on +45 4876 4040.",
+    "ctaButton": "Contact Us"
   },
   "serviceDetail": {
     "prototyping": {
@@ -1418,7 +1419,7 @@
   "privacyPage": {
     "eyebrow": "Legal",
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: March 2026",
+    "lastUpdated": "Last updated: August 2026",
     "dataControllerHeading": "Data Controller",
     "dataControllerIntro": "Linimatic A/S is the data controller for personal data collected through this website.",
     "whatWeCollectHeading": "What Data We Collect",
@@ -1429,6 +1430,7 @@
       "Technical data: IP address, browser type, operating system, and browsing behaviour collected automatically through cookies (with your consent).",
       "Communication data: Records of correspondence if you contact us by email or phone."
     ],
+    "dataSourceNote": "We only collect this data directly from you — we do not buy or receive personal data about you from other sources.",
     "legalBasisHeading": "Legal Basis for Processing",
     "legalBasisIntro": "Under the General Data Protection Regulation (GDPR), we process personal data based on:",
     "legalBasisItems": [

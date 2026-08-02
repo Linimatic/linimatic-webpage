@@ -37,8 +37,8 @@
       "description": "Bliv en del af Danmarks største zinktrykstøberi. Ledige stillinger inden for støbning, bearbejdning, kvalitet og teknik hos Linimatic A/S i Helsinge."
     },
     "zinkers": {
-      "title": "Zinkers — blyfri fiskelodder i zink",
-      "description": "Linimatic Zinkers er præcisionsstøbte fiskelodder i zink — blyfri, miljøvenlige og holdbare. Fås i en række størrelser og udformninger."
+      "title": "Sinkers fra Linimatic — synk til trawl og fiskegrej",
+      "description": "Linimatic støber blyfrie sinkers i zink til trawl, not og industrielt fiskegrej. Ring- og tøndesinkers fra 50-2000 gram, tilpasset kundens behov."
     },
     "zinkTemadag": {
       "title": "Zink Temadag — gratis temadag om zinktrykstøbning",
@@ -59,6 +59,7 @@
       "services": "Ydelser",
       "cases": "Cases",
       "whyZinc": "Hvorfor zink",
+      "zinkers": "Sinkers",
       "about": "Om os",
       "jobs": "Karriere",
       "contact": "Kontakt"
@@ -236,7 +237,7 @@
       "cases": "Cases",
       "whyZinc": "Hvorfor zink",
       "careers": "Karriere",
-      "zinkers": "Zinkers"
+      "zinkers": "Sinkers"
     },
     "contactHeading": "Kontakt",
     "address": {
@@ -845,37 +846,37 @@
     }
   },
   "zinkersPage": {
-    "breadcrumb": "Zinkers",
-    "eyebrow": "Blyfrie fiskevægte",
-    "heading": "Zinkers — det ansvarlige lod til den seriøse fisker.",
-    "intro": "Zinkers er Linimatics serie af blyfrie zinklodder, designet til fiskere, der ønsker effektive vægte uden blyets miljøomkostninger. Zink er tungere end de fleste ikke-toksiske alternativer, ugiftigt for vandfugle og akvatiske økosystemer og 100% genanvendeligt — de samme materialegenskaber, der gør det til Danmarks foretrukne trykstøbelegering, gør det til en fremragende fiskevægt.",
-    "heroImageAlt": "Zinklodder — blyfrie Zinkers fra Linimatic",
+    "breadcrumb": "Sinkers",
+    "eyebrow": "Blyfrit fiskegrej",
+    "heading": "Sinkers — synk til trawl og industrielt fiskegrej.",
+    "intro": "Linimatic støber sinkers i zink til trawl, not og andet industrielt fiskeudstyr — et miljøvenligt alternativ til blysinkers, der har været forbudt at importere og sælge i Danmark siden 2002. Sortimentet spænder fra 50 til 2.000 gram i ring- og tøndeform, med huldiametre tilpasset kundens grej.",
+    "heroImageAlt": "Ring- og tøndesinkers i zink fra Linimatic",
     "whyHeading": "Hvorfor zink og ikke bly",
-    "whyDescription": "Blybegrænsninger for fiskegrej er under udbredelse i EU-medlemslandene. Zink leverer sammenlignelig vægt i et mindre profil uden toksicitetsrisikoen.",
+    "whyDescription": "Bly har været forbudt som sinkermateriale i Danmark siden 2002. Zink vejer op imod bly og er samtidig ugiftigt.",
     "why": [
       {
-        "title": "Ikke-toksisk",
-        "description": "I modsætning til bly udgør zink ingen toksicitetsrisiko for vandfugle eller akvatisk liv, der sluger tabte lodder. Det er det ansvarlige valg for fiskere, der fisker i miljøfølsomme områder."
+        "title": "Ugiftigt",
+        "description": "I modsætning til bly udgør zink ingen forgiftningsrisiko for havfugle og havmiljø, hvis en sinker går tabt eller slides ned i vandet."
       },
       {
-        "title": "Regelkonformt",
-        "description": "Blybegrænsninger på fiskevægte er i kraft eller under drøftelse i flere EU-lande for at beskytte vandfugle og akvatiske økosystemer. Zinklodder giver dig mulighed for at fiske trygt inden for gældende og kommende regler."
+        "title": "Lovligt siden 2002",
+        "description": "Blysinkers har været forbudt at importere og sælge i Danmark siden 2002. Zink er det direkte, godkendte alternativ med sammenlignelig vægt."
       },
       {
-        "title": "Genanvendeligt og danskproduceret",
-        "description": "Zinkers støbes i Linimatics støberi i Helsinge med zink — et materiale, der er 100% genanvendeligt uden tab af egenskaber. Danskproduceret betyder korte forsyningskæder og et mindre transportaftryk."
+        "title": "Støbt i Helsinge",
+        "description": "Sinkers støbes på Linimatics eget støberi i Helsinge og kan tilpasses i vægt og huldiameter efter kundens grej og produktionsvolumen."
       }
     ],
-    "applicationsHeading": "Hvor de bruges",
+    "applicationsHeading": "Anvendelsesområder",
     "applications": [
-      "Havfiskeri og kystfiskeri",
-      "Å- og ferskvandsfiskeri",
-      "Fluestik-rig",
-      "Catch-and-release-fiskeri"
+      "Trawlfiskeri",
+      "Notfiskeri",
+      "Industrielt fiskegrej",
+      "Ring- og tøndesinkers, 50–2.000 gram"
     ],
-    "ctaHeading": "Interesseret i Zinkers?",
-    "ctaDescription": "Kontakt os for at høre mere om vores blyfrie fiskevægte eller for at afgive en bestilling. Vi leverer til både private fiskere og fiskeudstyrforhandlere.",
-    "ctaButton": "Kontakt os for at komme i gang"
+    "ctaHeading": "Interesseret i sinkers?",
+    "ctaDescription": "Kontakt os for priser og specifikationer, eller ring direkte på +45 4876 4040.",
+    "ctaButton": "Kontakt os"
   },
   "serviceDetail": {
     "prototyping": {
@@ -1422,7 +1423,7 @@
   "privacyPage": {
     "eyebrow": "Juridisk",
     "title": "Privatlivspolitik",
-    "lastUpdated": "Sidst opdateret: marts 2026",
+    "lastUpdated": "Sidst opdateret: august 2026",
     "dataControllerHeading": "Dataansvarlig",
     "dataControllerIntro": "Linimatic A/S er dataansvarlig for personoplysninger indsamlet via denne hjemmeside.",
     "whatWeCollectHeading": "Hvilke data vi indsamler",
@@ -1433,6 +1434,7 @@
       "Tekniske data: IP-adresse, browsertype, operativsystem og browsingadfærd indsamlet automatisk via cookies (med dit samtykke).",
       "Kommunikationsdata: Optegnelser over korrespondance, hvis du kontakter os via e-mail eller telefon."
     ],
+    "dataSourceNote": "Vi indhenter udelukkende disse oplysninger direkte fra dig selv — vi køber eller modtager ikke personoplysninger om dig fra andre kilder.",
     "legalBasisHeading": "Retsgrundlag for behandling",
     "legalBasisIntro": "I henhold til databeskyttelsesforordningen (GDPR) behandler vi personoplysninger baseret på:",
     "legalBasisItems": [

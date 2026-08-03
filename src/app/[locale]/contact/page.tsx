@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { buildMetadata, type Locale } from "@/lib/seo";
-import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContactForm } from "@/components/ContactForm";
+import { ContactTabs } from "@/components/ContactTabs";
 
 export async function generateMetadata({
   params,
@@ -26,12 +26,6 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-const teamPhotos = [
-  "/images/team/jan-v-jorgensen.jpg",
-  "/images/team/torben-m-jensen.jpg",
-  "/images/team/rene-johnsen.jpg",
-];
-
 export default async function ContactPage({
   params,
 }: {
@@ -41,19 +35,14 @@ export default async function ContactPage({
   setRequestLocale(locale);
   const t = await getTranslations("contactPage");
 
-  const teamMembers = t.raw("team") as Array<{
-    name: string;
-    role: string;
-    phone: string;
-    email: string;
-  }>;
-
   return (
     <>
       <Breadcrumbs items={[{ label: t("breadcrumb"), href: "/contact" }]} />
 
       <section className="bg-zinc-50 pb-24">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
+          <ContactTabs active="form" />
+
           {/* Hero */}
           <div className="max-w-2xl mb-16">
             <div className="flex items-center gap-4 mb-6">
@@ -92,48 +81,6 @@ export default async function ContactPage({
 
             {/* Sidebar */}
             <div className="space-y-10">
-              {/* Direct Contacts */}
-              <div>
-                <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-600 font-[family-name:var(--font-mono)] font-semibold mb-6">
-                  {t("directContacts")}
-                </h2>
-                <div className="space-y-6">
-                  {teamMembers.map((member, i) => (
-                    <div key={member.name} className="flex gap-4">
-                      <div className="w-14 h-14 rounded-full overflow-hidden bg-zinc-200 relative flex-shrink-0">
-                        <Image
-                          src={teamPhotos[i]}
-                          alt={member.name}
-                          fill
-                          className="object-cover"
-                          sizes="56px"
-                        />
-                      </div>
-                      <div>
-                        <h3 className="text-sm font-semibold text-zinc-900">
-                          {member.name}
-                        </h3>
-                        <p className="text-xs text-zinc-600">{member.role}</p>
-                        <div className="mt-1.5 flex flex-col gap-0.5">
-                          <a
-                            href={`tel:${member.phone.replace(/\s/g, "")}`}
-                            className="text-xs text-zinc-600 hover:text-ember transition-colors font-[family-name:var(--font-mono)]"
-                          >
-                            {member.phone}
-                          </a>
-                          <a
-                            href={`mailto:${member.email}`}
-                            className="text-xs text-zinc-600 hover:text-ember transition-colors"
-                          >
-                            {member.email}
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
               {/* Company Details */}
               <div>
                 <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-600 font-[family-name:var(--font-mono)] font-semibold mb-4">

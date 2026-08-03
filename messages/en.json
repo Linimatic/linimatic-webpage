@@ -32,6 +32,10 @@
       "title": "Contact Linimatic — Get a Zinc Die-Casting Quote",
       "description": "Send your drawings for a free zinc die-casting quote — reply within 24 hours. Call +45 4876 4040 or visit us in Helsinge, Denmark."
     },
+    "contactPeople": {
+      "title": "Contact People at Linimatic",
+      "description": "Find the right contact person at Linimatic — management, technical, sales, production, finance and logistics."
+    },
     "jobs": {
       "title": "Careers at Linimatic — Zinc Die-Casting Jobs in Denmark",
       "description": "Join Denmark's largest zinc die-casting foundry. Open roles in casting, machining, quality and engineering at Linimatic A/S in Helsinge."
@@ -710,34 +714,58 @@
         "files_too_large": "The attached files are too large — max. 15 MB in total. Please email them to info@linimatic.dk instead."
       }
     },
-    "directContacts": "Direct Contacts",
+    "companyDetails": "Company Details",
+    "hours": "Office Hours",
+    "hoursWeekday": "Monday\u2013Friday: 07:00\u201316:00",
+    "hoursWeekend": "Saturday\u2013Sunday: Closed"
+  },
+  "contactTabs": {
+    "people": "Contact People",
+    "form": "Contact Form"
+  },
+  "contactPeoplePage": {
+    "breadcrumb": "Contact People",
+    "eyebrow": "Contact Us",
+    "heading": "Contact People",
+    "intro": "Don't hesitate to contact Linimatic to strengthen your solutions and optimise your possibilities.",
     "team": [
-      {
-        "name": "Jan V. J\u00f8rgensen",
-        "role": "Managing Director",
-        "focus": "Strategy & key accounts",
-        "phone": "+45 2343 3667",
-        "email": "jaj@linimatic.dk"
-      },
       {
         "name": "Torben M. Jensen",
         "role": "Technical & Sales",
-        "focus": "DFM review & project engineering",
         "phone": "+45 5077 0218",
         "email": "tmj@linimatic.dk"
       },
       {
         "name": "Ren\u00e9 Johnsen",
         "role": "Technical & Sales",
-        "focus": "New projects & customer support",
         "phone": "+45 5077 0211",
-        "email": "rj@linimatic.dk"
+        "email": "rjo@linimatic.dk"
+      },
+      {
+        "name": "Jan V. J\u00f8rgensen",
+        "role": "Managing Director / Sales",
+        "phone": "+45 2343 3667",
+        "email": "jaj@linimatic.dk"
+      },
+      {
+        "name": "Rikke \u00d8strup Fisker",
+        "role": "Logistics",
+        "phone": "+45 5077 0224",
+        "email": "rif@linimatic.dk"
+      },
+      {
+        "name": "Thomas Hjorth",
+        "role": "Production",
+        "phone": "+45 5077 0216",
+        "email": "thj@linimatic.dk"
+      },
+      {
+        "name": "Dorthe Kondrup",
+        "role": "Finance",
+        "phone": "+45 5077 0225",
+        "email": "dmk@linimatic.dk"
       }
-    ],
-    "companyDetails": "Company Details",
-    "hours": "Office Hours",
-    "hoursWeekday": "Monday\u2013Friday: 07:00\u201316:00",
-    "hoursWeekend": "Saturday\u2013Sunday: Closed"
+    ]
   },
   "casesPage": {
     "breadcrumb": "Cases",
@@ -1284,16 +1312,16 @@
     "whyDescription": "We\u2019re based in Helsinge, North Zealand \u2014 close enough to Copenhagen to commute, far enough to avoid the noise. Here\u2019s what makes working here different.",
     "perks": [
       {
-        "title": "Real craftsmanship",
-        "description": "You work with molten metal, precision machines, and tight tolerances. Every part you make goes into a real product \u2014 from Fritz Hansen chairs to VELUX skylights."
+        "title": "Craftsmanship and advanced technology",
+        "description": "At Linimatic, you work with advanced die-casting machines, robots and molten metal. It takes technical understanding, precision and real craftsmanship to produce complex zinc components in consistently high quality."
       },
       {
         "title": "Stable & growing",
         "description": "Founded in 1967 and still going strong. We invest in people and equipment for the long term, not the next quarter."
       },
       {
-        "title": "Small team, big impact",
-        "description": "50+ people means you\u2019re not a number. You know your colleagues, you see the full value chain, and your work is visible."
+        "title": "Small team, real impact",
+        "description": "With 30+ employees, you're not just a number. You get to know your colleagues and the production well, and you can clearly see how your work contributes to the finished result."
       },
       {
         "title": "Continuous development",

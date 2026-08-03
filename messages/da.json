@@ -32,6 +32,10 @@
       "title": "Kontakt Linimatic — få tilbud på zinktrykstøbning",
       "description": "Send dine tegninger og få et uforpligtende tilbud på zinktrykstøbning — svar inden for 24 timer. Ring +45 4876 4040 eller besøg os i Helsinge."
     },
+    "contactPeople": {
+      "title": "Kontaktpersoner hos Linimatic",
+      "description": "Find de rette kontaktpersoner hos Linimatic — ledelse, teknik, salg, produktion, finans og logistik."
+    },
     "jobs": {
       "title": "Job hos Linimatic — ledige stillinger i Helsinge",
       "description": "Bliv en del af Danmarks største zinktrykstøberi. Ledige stillinger inden for støbning, bearbejdning, kvalitet og teknik hos Linimatic A/S i Helsinge."
@@ -713,34 +717,58 @@
         "files_too_large": "De vedhæftede filer er for store — maks. 15 MB i alt. Send dem i stedet til info@linimatic.dk."
       }
     },
-    "directContacts": "Direkte kontakter",
+    "companyDetails": "Virksomhedsoplysninger",
+    "hours": "Åbningstider",
+    "hoursWeekday": "Mandag–fredag: 07:00–16:00",
+    "hoursWeekend": "Lørdag–søndag: Lukket"
+  },
+  "contactTabs": {
+    "people": "Kontaktpersoner",
+    "form": "Kontaktformular"
+  },
+  "contactPeoplePage": {
+    "breadcrumb": "Kontaktpersoner",
+    "eyebrow": "Kontakt os",
+    "heading": "Kontaktpersoner",
+    "intro": "Tøv ikke med at kontakte Linimatic for at styrke dine løsninger og dermed optimere dine muligheder.",
     "team": [
       {
-        "name": "Jan V. Jørgensen",
-        "role": "Administrerende direktør",
-        "focus": "Strategi & nøglekunder",
-        "phone": "+45 2343 3667",
-        "email": "jaj@linimatic.dk"
-      },
-      {
         "name": "Torben M. Jensen",
-        "role": "Teknisk & salg",
-        "focus": "DFM-gennemgang & projektledelse",
+        "role": "Teknik og salg",
         "phone": "+45 5077 0218",
         "email": "tmj@linimatic.dk"
       },
       {
         "name": "René Johnsen",
-        "role": "Teknisk & salg",
-        "focus": "Nye projekter & kundesupport",
+        "role": "Teknik og salg",
         "phone": "+45 5077 0211",
-        "email": "rj@linimatic.dk"
+        "email": "rjo@linimatic.dk"
+      },
+      {
+        "name": "Jan V. Jørgensen",
+        "role": "Administrerende direktør / salg",
+        "phone": "+45 2343 3667",
+        "email": "jaj@linimatic.dk"
+      },
+      {
+        "name": "Rikke Østrup Fisker",
+        "role": "Logistik",
+        "phone": "+45 5077 0224",
+        "email": "rif@linimatic.dk"
+      },
+      {
+        "name": "Thomas Hjorth",
+        "role": "Produktion",
+        "phone": "+45 5077 0216",
+        "email": "thj@linimatic.dk"
+      },
+      {
+        "name": "Dorthe Kondrup",
+        "role": "Finans",
+        "phone": "+45 5077 0225",
+        "email": "dmk@linimatic.dk"
       }
-    ],
-    "companyDetails": "Virksomhedsoplysninger",
-    "hours": "Åbningstider",
-    "hoursWeekday": "Mandag–fredag: 07:00–16:00",
-    "hoursWeekend": "Lørdag–søndag: Lukket"
+    ]
   },
   "casesPage": {
     "breadcrumb": "Cases",
@@ -1288,16 +1316,16 @@
     "whyDescription": "Vi holder til i Helsinge, Nordsjælland \u2014 tæt nok på København til at pendle, langt nok væk til at undgå støjen. Her er, hvad der gør os anderledes.",
     "perks": [
       {
-        "title": "Ægte håndværk",
-        "description": "Du arbejder med flydende metal, præcisionsmaskiner og snævre tolerancer. Hvert emne du laver, ender i et rigtigt produkt \u2014 fra Fritz Hansen-stole til VELUX-ovenlysvinduer."
+        "title": "Håndværk og avanceret teknologi",
+        "description": "Hos Linimatic arbejder du med avancerede støbemaskiner, robotter og flydende metal. Det kr\u00e6ver b\u00e5de teknisk forst\u00e5else, pr\u00e6cision og godt h\u00e5ndv\u00e6rk at fremstille komplekse zinkkomponenter i ensartet h\u00f8j kvalitet."
       },
       {
         "title": "Stabil og voksende",
         "description": "Grundlagt i 1967 og stadig i fuld fart. Vi investerer i mennesker og udstyr på lang sigt, ikke næste kvartal."
       },
       {
-        "title": "Lille team, stor effekt",
-        "description": "50+ medarbejdere betyder, at du ikke er et nummer. Du kender dine kolleger, du ser hele værdikæden, og dit arbejde er synligt."
+        "title": "Lille team, stor betydning",
+        "description": "Med 30+ medarbejdere er du ikke bare et nummer. Du lærer dine kolleger og produktionen godt at kende, og du kan tydeligt se, hvordan din indsats bidrager til det færdige resultat."
       },
       {
         "title": "Løbende udvikling",

@@ -32,6 +32,10 @@
       "title": "Kontakt Linimatic — Angebot für Zinkdruckguss",
       "description": "Senden Sie Ihre Zeichnungen für ein kostenloses Zinkdruckguss-Angebot — Antwort binnen 24 Stunden. Rufen Sie +45 4876 4040 an oder besuchen Sie uns in Helsinge."
     },
+    "contactPeople": {
+      "title": "Ansprechpartner bei Linimatic",
+      "description": "Finden Sie die richtigen Ansprechpartner bei Linimatic — Geschäftsführung, Technik, Vertrieb, Produktion, Finanzen und Logistik."
+    },
     "jobs": {
       "title": "Karriere bei Linimatic — Jobs in Dänemark",
       "description": "Werden Sie Teil von Dänemarks größter Zinkdruckguss-Gießerei. Offene Stellen in Guss, Bearbeitung, Qualität und Technik bei Linimatic A/S in Helsinge."
@@ -713,34 +717,58 @@
         "files_too_large": "Die angehängten Dateien sind zu groß — max. 15 MB insgesamt. Senden Sie sie stattdessen an info@linimatic.dk."
       }
     },
-    "directContacts": "Direkte Ansprechpartner",
+    "companyDetails": "Firmenangaben",
+    "hours": "Geschäftszeiten",
+    "hoursWeekday": "Montag–Freitag: 07:00–16:00",
+    "hoursWeekend": "Samstag–Sonntag: Geschlossen"
+  },
+  "contactTabs": {
+    "people": "Ansprechpartner",
+    "form": "Kontaktformular"
+  },
+  "contactPeoplePage": {
+    "breadcrumb": "Ansprechpartner",
+    "eyebrow": "Kontaktieren Sie uns",
+    "heading": "Ansprechpartner",
+    "intro": "Zögern Sie nicht, Linimatic zu kontaktieren, um Ihre Lösungen zu stärken und Ihre Möglichkeiten zu optimieren.",
     "team": [
-      {
-        "name": "Jan V. Jørgensen",
-        "role": "Geschäftsführer",
-        "focus": "Strategie & Schlüsselkunden",
-        "phone": "+45 2343 3667",
-        "email": "jaj@linimatic.dk"
-      },
       {
         "name": "Torben M. Jensen",
         "role": "Technik & Vertrieb",
-        "focus": "DFM-Prüfung & Projektleitung",
         "phone": "+45 5077 0218",
         "email": "tmj@linimatic.dk"
       },
       {
         "name": "René Johnsen",
         "role": "Technik & Vertrieb",
-        "focus": "Neue Projekte & Kundenbetreuung",
         "phone": "+45 5077 0211",
-        "email": "rj@linimatic.dk"
+        "email": "rjo@linimatic.dk"
+      },
+      {
+        "name": "Jan V. Jørgensen",
+        "role": "Geschäftsführer / Vertrieb",
+        "phone": "+45 2343 3667",
+        "email": "jaj@linimatic.dk"
+      },
+      {
+        "name": "Rikke Østrup Fisker",
+        "role": "Logistik",
+        "phone": "+45 5077 0224",
+        "email": "rif@linimatic.dk"
+      },
+      {
+        "name": "Thomas Hjorth",
+        "role": "Produktion",
+        "phone": "+45 5077 0216",
+        "email": "thj@linimatic.dk"
+      },
+      {
+        "name": "Dorthe Kondrup",
+        "role": "Finanzen",
+        "phone": "+45 5077 0225",
+        "email": "dmk@linimatic.dk"
       }
-    ],
-    "companyDetails": "Firmenangaben",
-    "hours": "Geschäftszeiten",
-    "hoursWeekday": "Montag–Freitag: 07:00–16:00",
-    "hoursWeekend": "Samstag–Sonntag: Geschlossen"
+    ]
   },
   "casesPage": {
     "breadcrumb": "Referenzen",
@@ -1287,16 +1315,16 @@
     "whyDescription": "Unser Standort ist Helsinge, Nordseeland \u2014 nah genug an Kopenhagen zum Pendeln, weit genug entfernt für Ruhe. Das macht uns besonders.",
     "perks": [
       {
-        "title": "Echtes Handwerk",
-        "description": "Sie arbeiten mit flüssigem Metall, Präzisionsmaschinen und engen Toleranzen. Jedes Teil, das Sie fertigen, wird zu einem echten Produkt \u2014 von Fritz Hansen-Stühlen bis zu VELUX-Dachfenstern."
+        "title": "Handwerk und fortschrittliche Technologie",
+        "description": "Bei Linimatic arbeiten Sie mit fortschrittlichen Druckgussmaschinen, Robotern und flüssigem Metall. Das erfordert technisches Verständnis, Präzision und echtes Handwerk, um komplexe Zinkkomponenten in gleichbleibend hoher Qualität herzustellen."
       },
       {
         "title": "Stabil und wachsend",
         "description": "Gegründet 1967 und immer noch stark. Wir investieren langfristig in Menschen und Ausrüstung, nicht für das nächste Quartal."
       },
       {
-        "title": "Kleines Team, große Wirkung",
-        "description": "Über 50 Mitarbeiter bedeutet, dass Sie keine Nummer sind. Sie kennen Ihre Kollegen, sehen die gesamte Wertschöpfungskette und Ihre Arbeit ist sichtbar."
+        "title": "Kleines Team, große Bedeutung",
+        "description": "Mit über 30 Mitarbeitern sind Sie keine Nummer. Sie lernen Ihre Kollegen und die Produktion gut kennen und sehen deutlich, wie Ihr Beitrag zum fertigen Ergebnis beiträgt."
       },
       {
         "title": "Kontinuierliche Entwicklung",

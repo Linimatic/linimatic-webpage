@@ -328,10 +328,10 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
             {caseItems.map((item, i) => (
               <Link key={item.client} href={caseImages[i].href} className="group relative bg-zinc-900 overflow-hidden">
                 <div className="aspect-[4/3] relative">
-                  <Image src={caseImages[i].image} alt={item.title} fill className="object-cover opacity-50 group-hover:opacity-70 transition-all duration-700 group-hover:scale-105" sizes="(max-width: 1024px) 100vw, 33vw" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent" />
+                  <Image src={caseImages[i].image} alt={item.title} fill className="object-cover opacity-50 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105" sizes="(max-width: 1024px) 100vw, 33vw" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent transition-opacity duration-700 group-hover:opacity-50" />
                   <div className="absolute bottom-0 left-0 right-0 p-7">
-                    <span className="inline-block text-[11px] tracking-[0.2em] uppercase text-ember font-[family-name:var(--font-mono)] mb-3">{item.client}</span>
+                    <span className="inline-block text-base sm:text-lg tracking-[0.15em] uppercase text-ember font-[family-name:var(--font-mono)] mb-3">{item.client}</span>
                     <h3 className="text-lg font-semibold text-white leading-tight font-[family-name:var(--font-display)] tracking-tight">{item.title}</h3>
                     <p className="mt-2 text-sm text-zinc-400 font-[family-name:var(--font-mono)]">{item.metric}</p>
                     {/* Result — placeholder styled visibly */}

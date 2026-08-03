@@ -109,12 +109,12 @@ export default async function CasesPage({
                     src={caseImages[item.slug] || "/images/services/casting-mold.jpg"}
                     alt={item.title}
                     fill
-                    className="object-cover opacity-50 group-hover:opacity-70 transition-all duration-700 group-hover:scale-105"
+                    className="object-cover opacity-50 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105"
                     sizes="(max-width: 1024px) 100vw, 33vw"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent transition-opacity duration-700 group-hover:opacity-50" />
                   <div className="absolute bottom-0 left-0 right-0 p-7">
-                    <span className="inline-block text-[11px] tracking-[0.2em] uppercase text-ember font-[family-name:var(--font-mono)] mb-1">
+                    <span className="inline-block text-base sm:text-lg tracking-[0.15em] uppercase text-ember font-[family-name:var(--font-mono)] mb-1">
                       {item.client}
                     </span>
                     <span className="inline-block text-[10px] tracking-[0.1em] uppercase text-zinc-400 font-[family-name:var(--font-mono)] ml-3">

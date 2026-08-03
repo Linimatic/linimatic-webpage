@@ -21,6 +21,11 @@ const aboutKeys = [
   { key: "codeOfConduct", href: "/about/code-of-conduct" },
 ];
 
+const contactKeys = [
+  { key: "people", href: "/contact/people" },
+  { key: "form", href: "/contact" },
+];
+
 const navKeys = [
   { key: "services", href: "/services", hasDropdown: true },
   { key: "cases", href: "/cases" },
@@ -28,7 +33,7 @@ const navKeys = [
   { key: "zinkers", href: "/zinkers" },
   { key: "about", href: "/about", hasDropdown: true },
   { key: "jobs", href: "/jobs" },
-  { key: "contact", href: "/contact" },
+  { key: "contact", href: "/contact", hasDropdown: true },
 ];
 
 export function Header() {
@@ -38,6 +43,7 @@ export function Header() {
   const dropdownRefs = useRef<Record<string, HTMLDivElement | null>>({});
   const t = useTranslations("header");
   const tJobs = useTranslations("jobsPage");
+  const tContact = useTranslations("contactTabs");
   const locale = useLocale();
   const pathname = usePathname();
   const jobCount = (tJobs.raw("positions") as unknown[]).length;
@@ -186,7 +192,7 @@ export function Header() {
                             </Link>
                           ))}
                         </>
-                      ) : (
+                      ) : item.key === "about" ? (
                         aboutKeys.map((sub) => (
                           <Link
                             key={sub.href}
@@ -199,6 +205,21 @@ export function Header() {
                             }`}
                           >
                             {t(`aboutList.${sub.key}`)}
+                          </Link>
+                        ))
+                      ) : (
+                        contactKeys.map((sub) => (
+                          <Link
+                            key={sub.href}
+                            href={sub.href}
+                            role="menuitem"
+                            className={`block px-4 py-2.5 text-sm rounded-sm transition-colors ${
+                              scrolled
+                                ? "text-zinc-600 hover:text-zinc-900 hover:bg-zinc-50"
+                                : "text-zinc-400 hover:text-white hover:bg-zinc-800"
+                            }`}
+                          >
+                            {tContact(sub.key)}
                           </Link>
                         ))
                       )}

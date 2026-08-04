@@ -110,9 +110,11 @@ export function ContactForm() {
           className="w-full px-4 py-3 border border-zinc-300 text-sm focus:outline-none focus:border-ember transition-colors bg-white"
         >
           <option value="">{t("form.volumeSelect")}</option>
-          <option value="prototype">{t("form.volumePrototype")}</option>
-          <option value="low">{t("form.volumeLow")}</option>
-          <option value="high">{t("form.volumeHigh")}</option>
+          <option value="1k-5k">{t("form.volume1to5k")}</option>
+          <option value="5k-15k">{t("form.volume5to15k")}</option>
+          <option value="15k-50k">{t("form.volume15to50k")}</option>
+          <option value="50k-100k">{t("form.volume50to100k")}</option>
+          <option value="over-100k">{t("form.volumeOver100k")}</option>
         </select>
       </div>
       <div>

@@ -60,6 +60,7 @@
   "header": {
     "logoAlt": "Linimatic — Innovativer Zinkdruckguss",
     "nav": {
+      "home": "Startseite",
       "services": "Leistungen",
       "cases": "Referenzen",
       "whyZinc": "Warum Zink",
@@ -716,9 +717,11 @@
       "subjectTemadag": "Zink-Infotag",
       "volume": "Erwartetes Volumen",
       "volumeSelect": "Volumenbereich wählen",
-      "volumePrototype": "Prototyp (<1.000 Stk.)",
-      "volumeLow": "Kleinserie (1.000–100.000 Stk.)",
-      "volumeHigh": "Großserie (100.000+ Stk.)",
+      "volume1to5k": "1.000–5.000 Stk.",
+      "volume5to15k": "5.000–15.000 Stk.",
+      "volume15to50k": "15.000–50.000 Stk.",
+      "volume50to100k": "50.000–100.000 Stk.",
+      "volumeOver100k": "Über 100.000 Stk.",
       "message": "Projektbeschreibung",
       "fileUpload": "Technische Zeichnungen",
       "fileFormats": "STEP · IGES · Solidworks · Parasolid · PDF · DWG · DXF",
@@ -736,6 +739,7 @@
         "files_too_large": "Die angehängten Dateien sind zu groß — max. 15 MB insgesamt. Senden Sie sie stattdessen an info@linimatic.dk."
       }
     },
+    "yourContacts": "Ihre Ansprechpartner",
     "companyDetails": "Firmenangaben",
     "hours": "Geschäftszeiten",
     "hoursWeekday": "Montag–Freitag: 07:00–16:00",

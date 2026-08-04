@@ -60,6 +60,7 @@
   "header": {
     "logoAlt": "Linimatic — Innovative Die Casting",
     "nav": {
+      "home": "Home",
       "services": "Services",
       "cases": "Cases",
       "whyZinc": "Why Zinc",
@@ -713,9 +714,11 @@
       "subjectTemadag": "Zinc Info Day",
       "volume": "Expected Volume",
       "volumeSelect": "Select volume range",
-      "volumePrototype": "Prototype (<1,000 pcs)",
-      "volumeLow": "Low volume (1,000\u2013100,000 pcs)",
-      "volumeHigh": "High volume (100,000+ pcs)",
+      "volume1to5k": "1,000\u20135,000 pcs",
+      "volume5to15k": "5,000\u201315,000 pcs",
+      "volume15to50k": "15,000\u201350,000 pcs",
+      "volume50to100k": "50,000\u2013100,000 pcs",
+      "volumeOver100k": "Over 100,000 pcs",
       "message": "Project Description",
       "fileUpload": "Technical Drawings",
       "fileFormats": "STEP \u00b7 IGES \u00b7 Solidworks \u00b7 Parasolid \u00b7 PDF \u00b7 DWG \u00b7 DXF",
@@ -733,6 +736,7 @@
         "files_too_large": "The attached files are too large — max. 15 MB in total. Please email them to info@linimatic.dk instead."
       }
     },
+    "yourContacts": "Your Contacts",
     "companyDetails": "Company Details",
     "hours": "Office Hours",
     "hoursWeekday": "Monday\u2013Friday: 07:00\u201316:00",

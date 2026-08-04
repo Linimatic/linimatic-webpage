@@ -1,10 +1,19 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { buildMetadata, type Locale } from "@/lib/seo";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContactForm } from "@/components/ContactForm";
 import { ContactTabs } from "@/components/ContactTabs";
+
+type Person = { name: string; role: string; phone: string; email: string };
+
+/** The two sales/technical contacts shown beside the form — first two entries of contactPeoplePage.team. */
+const sidebarContactPhotos = [
+  "/images/team/torben-m-jensen.jpg",
+  "/images/team/rene-johnsen.jpg",
+];
 
 export async function generateMetadata({
   params,
@@ -34,6 +43,8 @@ export default async function ContactPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("contactPage");
+  const tPeople = await getTranslations("contactPeoplePage");
+  const sidebarContacts = (tPeople.raw("team") as Person[]).slice(0, 2);
 
   return (
     <>
@@ -81,6 +92,46 @@ export default async function ContactPage({
 
             {/* Sidebar */}
             <div className="space-y-10">
+              {/* Your Contacts */}
+              <div>
+                <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-600 font-[family-name:var(--font-mono)] font-semibold mb-4">
+                  {t("yourContacts")}
+                </h2>
+                <div className="space-y-5">
+                  {sidebarContacts.map((person, i) => (
+                    <div key={person.name} className="flex items-center gap-4">
+                      <div className="relative w-14 h-14 overflow-hidden bg-zinc-200 shrink-0">
+                        <Image
+                          src={sidebarContactPhotos[i]}
+                          alt={person.name}
+                          fill
+                          className="object-cover object-top"
+                          sizes="56px"
+                        />
+                      </div>
+                      <div>
+                        <div className="text-sm font-semibold text-zinc-900">{person.name}</div>
+                        <div className="text-xs text-zinc-600">{person.role}</div>
+                        <div className="mt-1 flex flex-col gap-0.5">
+                          <a
+                            href={`tel:${person.phone.replace(/\s/g, "")}`}
+                            className="text-xs text-zinc-600 hover:text-ember transition-colors font-[family-name:var(--font-mono)]"
+                          >
+                            {person.phone}
+                          </a>
+                          <a
+                            href={`mailto:${person.email}`}
+                            className="text-xs text-zinc-600 hover:text-ember transition-colors"
+                          >
+                            {person.email}
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
               {/* Company Details */}
               <div>
                 <h2 className="text-[11px] tracking-[0.2em] uppercase text-zinc-600 font-[family-name:var(--font-mono)] font-semibold mb-4">

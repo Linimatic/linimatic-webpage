@@ -60,6 +60,7 @@
   "header": {
     "logoAlt": "Linimatic — Innovativ trykstøbning",
     "nav": {
+      "home": "Forside",
       "services": "Ydelser",
       "cases": "Cases",
       "whyZinc": "Hvorfor zink",
@@ -716,9 +717,11 @@
       "subjectTemadag": "Temadag",
       "volume": "Forventet volumen",
       "volumeSelect": "Vælg volumeninterval",
-      "volumePrototype": "Prototype (<1.000 stk.)",
-      "volumeLow": "Lavt volumen (1.000–100.000 stk.)",
-      "volumeHigh": "Højt volumen (100.000+ stk.)",
+      "volume1to5k": "1.000–5.000 stk.",
+      "volume5to15k": "5.000–15.000 stk.",
+      "volume15to50k": "15.000–50.000 stk.",
+      "volume50to100k": "50.000–100.000 stk.",
+      "volumeOver100k": "Over 100.000 stk.",
       "message": "Projektbeskrivelse",
       "fileUpload": "Tekniske tegninger",
       "fileFormats": "STEP · IGES · Solidworks · Parasolid · PDF · DWG · DXF",
@@ -736,6 +739,7 @@
         "files_too_large": "De vedhæftede filer er for store — maks. 15 MB i alt. Send dem i stedet til info@linimatic.dk."
       }
     },
+    "yourContacts": "Dine kontakter",
     "companyDetails": "Virksomhedsoplysninger",
     "hours": "Åbningstider",
     "hoursWeekday": "Mandag–fredag: 07:00–16:00",

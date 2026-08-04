@@ -157,7 +157,7 @@
   },
   "cases": {
     "eyebrow": "Referenzen",
-    "heading": "Schwierige Aufgaben, geliefert.",
+    "heading": "Kundenreferenzen",
     "allCases": "Alle Referenzen",
     "items": [
       {
@@ -165,6 +165,18 @@
         "client": "Ditlev Burke Industrial Tools A/S",
         "metric": "Es ist möglich, mit Asien zu konkurrieren · Automatisierter Druckguss in Dänemark",
         "result": "Der gesamte Griff wird heute in Dänemark statt in Asien hergestellt."
+      },
+      {
+        "title": "Reibungslose Zusammenarbeit mit Forecast-Vereinbarung",
+        "client": "VELUX",
+        "metric": "Jährlich verlängerte Forecast-Vereinbarung · Roboter in der Produktionslinie eingeführt",
+        "result": "Eine enge, reibungslose Zusammenarbeit für beide Seiten — ohne ständige Neuverhandlungen, mit laufendem Sparring und Wissensaustausch zwischen Linimatic und VELUX."
+      },
+      {
+        "title": "Schneller, smarter - und in Dänemark hergestellt",
+        "client": "Frandsen",
+        "metric": "Von China nach Dänemark verlagert unter Zeitdruck · In einem einzigen Prozess gegossen",
+        "result": "Die Leuchten wurden pünktlich für den Start auf dem US-Markt geliefert, hergestellt in Dänemark statt in China — und Frandsen setzt inzwischen zunehmend auf Linimatic für weitere Projekte."
       }
     ]
   },
@@ -174,13 +186,6 @@
     "heading": "Sprechen Sie mit den Menschen, die die Arbeit machen",
     "description": "Keine Callcenter. Keine Account Manager, die noch nie eine Gießmaschine gesehen haben. Sie sprechen direkt mit den Ingenieuren und Spezialisten, die Ihr Projekt betreuen.",
     "members": [
-      {
-        "name": "Jan V. Jørgensen",
-        "role": "Geschäftsführer",
-        "focus": "Strategie & Schlüsselkunden",
-        "phone": "+45 2343 3667",
-        "email": "jaj@linimatic.dk"
-      },
       {
         "name": "Torben M. Jensen",
         "role": "Technik & Vertrieb",
@@ -194,16 +199,30 @@
         "focus": "Neue Projekte & Kundenbetreuung",
         "phone": "+45 5077 0211",
         "email": "rj@linimatic.dk"
+      },
+      {
+        "name": "Jan V. Jørgensen",
+        "role": "Geschäftsführer",
+        "focus": "Strategie & Schlüsselkunden",
+        "phone": "+45 2343 3667",
+        "email": "jaj@linimatic.dk"
       }
     ]
   },
   "clients": {
     "trustedBy": "Das Vertrauen von",
-    "testimonial": {
-      "quote": "PLATZHALTER: Fügen Sie hier ein echtes Kundenzitat ein. Idealerweise von einem technischen Leiter oder Einkaufsverantwortlichen eines namentlich genannten Kunden — über Linimatics Fähigkeit, komplexe Geometrien zu bewältigen, ihre Zuverlässigkeit oder den Vorteil der kompletten Wertschöpfungskette.",
-      "author": "PLATZHALTER: Kundenname",
-      "role": "PLATZHALTER: Position, Unternehmen"
-    },
+    "testimonials": [
+      {
+        "quote": "Wir sind unglaublich zufrieden mit den Projekten, die wir gemeinsam mit Linimatic A/S durchgeführt haben. Zuletzt haben wir bei einem neuen Griff zusammengearbeitet, der ein von Linimatic gefertigtes Zinkteil enthält. Das Ergebnis ist, dass wir das Kunststoffteil jetzt selbst herstellen und vormontieren können, sodass der gesamte Griff nun in Dänemark statt wie zuvor in Asien hergestellt wird.",
+        "author": "Camilla Burke Vedsmand",
+        "role": "Geschäftsführerin, Ditlev Burke Industrial Tools A/S"
+      },
+      {
+        "quote": "Es läuft einfach rund, und ein klarer Vorteil ist, dass wir nicht ständig neu verhandeln müssen.",
+        "author": "Lars Daugaard Pedersen",
+        "role": "Strategischer Einkäufer, VELUX"
+      }
+    ],
     "logos": [
       { "name": "Bang & Olufsen" },
       { "name": "One Collection" },

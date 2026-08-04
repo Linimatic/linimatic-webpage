@@ -157,7 +157,7 @@
   },
   "cases": {
     "eyebrow": "Kundeeksempler",
-    "heading": "Vanskelige opgaver, leveret.",
+    "heading": "Kunde cases",
     "allCases": "Alle cases",
     "items": [
       {
@@ -165,6 +165,18 @@
         "client": "Ditlev Burke Industrial Tools A/S",
         "metric": "Det er muligt at konkurrere med Asien · Automatiseret trykstøbning i Danmark",
         "result": "Hele håndtaget produceres i dag i Danmark i stedet for i Asien."
+      },
+      {
+        "title": "Smidigt samarbejde med forecast aftale",
+        "client": "VELUX",
+        "metric": "Årligt fornyet forecast-aftale · Robot indført i produktionslinjen",
+        "result": "Et tæt og smidigt samarbejde for begge parter — uden konstant genforhandling, med løbende sparring og videndeling mellem Linimatic og VELUX."
+      },
+      {
+        "title": "Hurtigere, smartere - og fremstillet i Danmark",
+        "client": "Frandsen",
+        "metric": "Omlagt fra kinesisk til dansk produktion under tidspres · Støbt i én proces",
+        "result": "Lamperne blev leveret til tiden til det amerikanske marked, produceret i Danmark i stedet for Kina — og Frandsen bruger nu i stigende grad Linimatic til flere projekter."
       }
     ]
   },
@@ -174,13 +186,6 @@
     "heading": "Tal med dem, der udfører arbejdet",
     "description": "Ingen callcentre. Ingen account managers, der aldrig har set en støbemaskine. Du taler direkte med de ingeniører og specialister, der håndterer dit projekt.",
     "members": [
-      {
-        "name": "Jan V. Jørgensen",
-        "role": "Administrerende direktør",
-        "focus": "Strategi & nøglekunder",
-        "phone": "+45 2343 3667",
-        "email": "jaj@linimatic.dk"
-      },
       {
         "name": "Torben M. Jensen",
         "role": "Teknisk & salg",
@@ -194,16 +199,30 @@
         "focus": "Nye projekter & kundesupport",
         "phone": "+45 5077 0211",
         "email": "rj@linimatic.dk"
+      },
+      {
+        "name": "Jan V. Jørgensen",
+        "role": "Administrerende direktør",
+        "focus": "Strategi & nøglekunder",
+        "phone": "+45 2343 3667",
+        "email": "jaj@linimatic.dk"
       }
     ]
   },
   "clients": {
     "trustedBy": "Betroet af",
-    "testimonial": {
-      "quote": "PLADSHOLDER: Tilføj et ægte kundeudtalelse her. Ideelt fra en teknisk chef eller indkøbsansvarlig hos en navngivet kunde — om Linimatics evne til at håndtere kompleks geometri, deres pålidelighed, eller bekvemmeligheden ved den komplette værdikæde.",
-      "author": "PLADSHOLDER: Kundenavn",
-      "role": "PLADSHOLDER: Titel, Virksomhed"
-    },
+    "testimonials": [
+      {
+        "quote": "Vi er utroligt glade for de projekter, vi har kørt i samarbejde med Linimatic A/S. Senest har vi samarbejdet om et nyt håndtag, som indeholder en zinkdel, der er fremstillet af Linimatic. Resultatet er, at vi nu selv kan fremstille plastdelen og formontere den, så hele håndtaget bliver fremstillet i Danmark i stedet for som tidligere i Asien.",
+        "author": "Camilla Burke Vedsmand",
+        "role": "Administrerende direktør, Ditlev Burke Industrial Tools A/S"
+      },
+      {
+        "quote": "Tingene kører bare, og en klar fordel er, at vi ikke behøver at forhandle hele tiden.",
+        "author": "Lars Daugaard Pedersen",
+        "role": "Strategisk indkøber, VELUX"
+      }
+    ],
     "logos": [
       { "name": "Bang & Olufsen" },
       { "name": "One Collection" },

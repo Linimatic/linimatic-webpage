@@ -6,6 +6,7 @@ import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {routing} from '@/i18n/routing';
 import {buildMetadata, type Locale} from '@/lib/seo';
 import {HeroImageFader} from '@/components/HeroImageFader';
+import {TestimonialFader} from '@/components/TestimonialFader';
 
 /** Images/video that crossfade in the hero slot. Add more entries here to include them in the rotation. */
 const heroItems = [
@@ -17,12 +18,14 @@ const heroItems = [
 
 const caseImages = [
   { image: "/images/cases/supplier-proximity.jpg", href: "/cases/supplier-proximity" },
+  { image: "/images/cases/velux-motor-frame.jpg", href: "/cases/velux-kanban" },
+  { image: "/images/cases/frandsen-downlight.jpg", href: "/cases/frandsen-downlight" },
 ];
 
 const teamPhotos = [
-  "/images/team/jan-v-jorgensen.jpg",
   "/images/team/torben-m-jensen.jpg",
   "/images/team/rene-johnsen.jpg",
+  "/images/team/jan-v-jorgensen.jpg",
 ];
 
 /** Each value-chain step links to the most relevant service detail page. */
@@ -83,13 +86,15 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
   setRequestLocale(locale);
   const t = await getTranslations();
 
+  const isPlaceholder = (text: string) => text.startsWith('PLACEHOLDER') || text.startsWith('PLADSHOLDER') || text.startsWith('PLATZHALTER');
+
   const statsItems = t.raw('stats.items') as Array<{value: string; label: string}>;
   const caseItems = t.raw('cases.items') as Array<{title: string; client: string; metric: string; result: string}>;
   const chainSteps = t.raw('valueChain.steps') as Array<{number: string; label: string; title: string; description: string; specs: string}>;
   const clientNames = t.raw('clients.logos') as Array<{name: string}>;
+  const testimonials = (t.raw('clients.testimonials') as Array<{quote: string; author: string; role: string}>)
+    .filter((item) => !isPlaceholder(item.quote));
   const teamMembers = t.raw('team.members') as Array<{name: string; role: string; phone: string; email: string}>;
-
-  const isPlaceholder = (text: string) => text.startsWith('PLACEHOLDER') || text.startsWith('PLADSHOLDER') || text.startsWith('PLATZHALTER');
 
   return (
     <>
@@ -284,25 +289,14 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
       {/* ═══════════════════════════════════ TESTIMONIAL ═══════════════════════════════════ */}
       <section className="bg-zinc-50 py-16 border-y border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-          {isPlaceholder(t('clients.testimonial.quote')) ? (
+          {testimonials.length === 0 ? (
             <div className="max-w-3xl mx-auto">
               <Placeholder>
                 <strong>Customer testimonial needed.</strong> A quote from an engineering director or procurement manager at a named client (e.g. Fritz Hansen, VELUX, B&O) about reliability, complex geometry expertise, or the one-roof value chain. This single element can be more persuasive than any other section on the page.
               </Placeholder>
             </div>
           ) : (
-            <div className="max-w-3xl mx-auto text-center">
-              <svg className="h-8 w-8 text-ember/30 mx-auto mb-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151C7.563 6.068 6 8.789 6 11h4v10H0z" />
-              </svg>
-              <blockquote className="text-xl sm:text-2xl font-medium text-zinc-800 leading-snug font-[family-name:var(--font-display)]">
-                &ldquo;{t('clients.testimonial.quote')}&rdquo;
-              </blockquote>
-              <div className="mt-5">
-                <div className="text-base font-semibold text-zinc-900">{t('clients.testimonial.author')}</div>
-                <div className="text-sm text-zinc-600">{t('clients.testimonial.role')}</div>
-              </div>
-            </div>
+            <TestimonialFader items={testimonials} />
           )}
         </div>
       </section>
@@ -324,7 +318,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 max-w-xl mx-auto gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
             {caseItems.map((item, i) => (
               <Link key={item.client} href={caseImages[i].href} className="group relative bg-zinc-900 overflow-hidden">
                 <div className="aspect-[4/3] relative">
@@ -366,21 +360,23 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {teamMembers.map((member, i) => (
-              <div key={member.name} className="text-center">
-                <div className="w-28 h-28 mx-auto mb-5 rounded-full overflow-hidden bg-zinc-200 relative">
+              <div key={member.name} className="bg-white border border-zinc-200 flex flex-col items-center text-center">
+                <div className="relative aspect-[3/4] w-[57.6%] mt-6 bg-zinc-200">
                   <Image
                     src={teamPhotos[i]}
                     alt={member.name}
                     fill
-                    className="object-cover"
-                    sizes="112px"
+                    className="object-cover object-top"
+                    sizes="(max-width: 640px) 58vw, 19vw"
                   />
                 </div>
-                <h3 className="text-base font-semibold text-zinc-900 font-[family-name:var(--font-display)]">{member.name}</h3>
-                <p className="text-sm text-zinc-600">{member.role}</p>
-                <div className="mt-3 flex flex-col gap-1">
-                  <a href={`tel:${member.phone.replace(/\s/g, '')}`} className="text-xs text-zinc-600 hover:text-ember transition-colors font-[family-name:var(--font-mono)]">{member.phone}</a>
-                  <a href={`mailto:${member.email}`} className="text-xs text-zinc-600 hover:text-ember transition-colors">{member.email}</a>
+                <div className="p-6 flex flex-col items-center">
+                  <h3 className="text-base font-semibold text-zinc-900 font-[family-name:var(--font-display)]">{member.name}</h3>
+                  <p className="text-sm text-zinc-600">{member.role}</p>
+                  <div className="mt-3 flex flex-col items-center gap-1">
+                    <a href={`tel:${member.phone.replace(/\s/g, '')}`} className="text-xs text-zinc-600 hover:text-ember transition-colors font-[family-name:var(--font-mono)]">{member.phone}</a>
+                    <a href={`mailto:${member.email}`} className="text-xs text-zinc-600 hover:text-ember transition-colors">{member.email}</a>
+                  </div>
                 </div>
               </div>
             ))}

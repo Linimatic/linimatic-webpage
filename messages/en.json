@@ -157,7 +157,7 @@
   },
   "cases": {
     "eyebrow": "Case Studies",
-    "heading": "Difficult problems, delivered.",
+    "heading": "Customer cases",
     "allCases": "All cases",
     "items": [
       {
@@ -165,6 +165,18 @@
         "client": "Ditlev Burke Industrial Tools A/S",
         "metric": "It is possible to compete with Asia \u00b7 Automated die-casting in Denmark",
         "result": "The entire handle is now manufactured in Denmark instead of in Asia."
+      },
+      {
+        "title": "Smooth collaboration with a forecast agreement",
+        "client": "VELUX",
+        "metric": "Forecast agreement renewed annually \u00b7 Robot introduced on the production line",
+        "result": "A close, smooth collaboration for both parties \u2014 no constant renegotiation, with ongoing sparring and knowledge-sharing between Linimatic and VELUX."
+      },
+      {
+        "title": "Faster, smarter - and made in Denmark",
+        "client": "Frandsen",
+        "metric": "Reshored from China to Denmark under time pressure \u00b7 Cast in a single process",
+        "result": "The lamps were delivered on time for the US market launch, made in Denmark instead of China \u2014 and Frandsen now increasingly turns to Linimatic for more projects."
       }
     ]
   },
@@ -174,12 +186,6 @@
     "heading": "Talk to the people who do the work",
     "description": "No call centres. No account managers who\u2019ve never seen a casting machine. You talk directly to the engineers and specialists who handle your project.",
     "members": [
-      {
-        "name": "Jan V. J\u00f8rgensen",
-        "role": "Managing Director",
-        "phone": "+45 2343 3667",
-        "email": "jaj@linimatic.dk"
-      },
       {
         "name": "Torben M. Jensen",
         "role": "Technical & Sales",
@@ -191,16 +197,29 @@
         "role": "Technical & Sales",
         "phone": "+45 5077 0211",
         "email": "rj@linimatic.dk"
+      },
+      {
+        "name": "Jan V. J\u00f8rgensen",
+        "role": "Managing Director",
+        "phone": "+45 2343 3667",
+        "email": "jaj@linimatic.dk"
       }
     ]
   },
   "clients": {
     "trustedBy": "Trusted by",
-    "testimonial": {
-      "quote": "PLACEHOLDER: Add a real customer quote here. Ideally from an engineering director or procurement manager at a named client \u2014 about Linimatic\u2019s ability to handle complex geometry, their reliability, or the convenience of the full value chain.",
-      "author": "PLACEHOLDER: Client Name",
-      "role": "PLACEHOLDER: Title, Company"
-    },
+    "testimonials": [
+      {
+        "quote": "We are incredibly pleased with the projects we've run together with Linimatic A/S. Most recently, we collaborated on a new handle that includes a zinc part manufactured by Linimatic. As a result, we can now manufacture the plastic part ourselves and pre-assemble it, so the entire handle is now made in Denmark instead of, as before, in Asia.",
+        "author": "Camilla Burke Vedsmand",
+        "role": "Managing Director, Ditlev Burke Industrial Tools A/S"
+      },
+      {
+        "quote": "Things just run smoothly, and a clear advantage is that we don't have to keep renegotiating.",
+        "author": "Lars Daugaard Pedersen",
+        "role": "Strategic Buyer, VELUX"
+      }
+    ],
     "logos": [
       { "name": "Bang & Olufsen" },
       { "name": "One Collection" },

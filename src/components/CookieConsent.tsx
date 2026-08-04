@@ -87,11 +87,10 @@ export function CookieConsent() {
 
   return (
     <div className="fixed inset-0 z-[100] pointer-events-none">
-      {/* Backdrop */}
+      {/* Backdrop — visual dimming only; must not block clicks on the rest of the page */}
       <div
-        className="absolute inset-0 bg-zinc-950/40 backdrop-blur-sm pointer-events-auto animate-fade-up"
+        className="absolute inset-0 bg-zinc-950/40 backdrop-blur-sm animate-fade-up"
         style={{ animationDuration: "0.3s" }}
-        onClick={() => setShowDetails(false)}
       />
 
       {/* Banner */}

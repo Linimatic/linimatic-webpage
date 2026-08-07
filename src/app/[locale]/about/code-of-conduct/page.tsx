@@ -46,7 +46,7 @@ export default async function CodeOfConductPage({
     <article className="bg-zinc-50 pb-24">
       <Breadcrumbs
         items={[
-          { label: tHeader("nav.about"), href: "/about" },
+          { label: tHeader("nav.sustainability"), href: "/about/sustainability" },
           { label: t("title"), href: "/about/code-of-conduct" },
         ]}
       />

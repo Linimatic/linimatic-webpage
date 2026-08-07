@@ -16,6 +16,10 @@
       "title": "About Linimatic — Zinc Die-Casting Experts Since 1967",
       "description": "Founded in 1967, Linimatic A/S is Denmark's largest dedicated zinc die-casting foundry — 50+ specialists, ISO 9001 certified, full value chain under one roof."
     },
+    "sustainability": {
+      "title": "Sustainability — Linimatic A/S",
+      "description": "Read about Linimatic's work with sustainability, CO2 emissions and ethical business conduct."
+    },
     "co2": {
       "title": "CO2 and Climate — Linimatic A/S",
       "description": "Learn about Linimatic's work to reduce our CO2 footprint through efficient production and sustainable initiatives."
@@ -66,6 +70,7 @@
       "whyZinc": "Why Zinc",
       "zinkers": "Sinkers",
       "about": "About",
+      "sustainability": "Sustainability",
       "jobs": "Careers",
       "contact": "Contact"
     },
@@ -79,7 +84,7 @@
       "zinkTemadag": "Zinc Info Day"
     },
     "allServices": "All Services",
-    "aboutList": {
+    "sustainabilityList": {
       "co2": "CO2",
       "codeOfConduct": "Code of Conduct"
     },
@@ -1407,10 +1412,32 @@
     "openApplicationButton": "Send Open Application",
     "learnMoreButton": "Learn More About Us"
   },
+  "sustainabilityPage": {
+    "breadcrumb": "Sustainability",
+    "eyebrow": "Sustainability",
+    "title": "Sustainability at Linimatic",
+    "intro": "We work purposefully to run our production responsibly — for people, society and the environment. Here you can read about our CO2 emissions and the guidelines we follow.",
+    "links": [
+      {
+        "title": "CO2 and Climate",
+        "description": "See the development in the company's CO2 emissions year by year.",
+        "href": "/about/co2"
+      },
+      {
+        "title": "Code of Conduct",
+        "description": "Our guidelines for responsible and ethical business conduct.",
+        "href": "/about/code-of-conduct"
+      }
+    ]
+  },
   "co2Page": {
     "eyebrow": "Sustainability",
     "title": "CO2 and Climate",
-    "intro": "At Linimatic, we continuously work to reduce our CO2 footprint through efficient production, solar power, and responsible resource management. This page will be updated with concrete figures and initiatives."
+    "intro": "At Linimatic, we continuously work to reduce our CO2 footprint through efficient production, solar power, and responsible resource management. This page will be updated with concrete figures and initiatives.",
+    "dataLabel": "CO2 emissions over time",
+    "unit": "tonnes CO2e",
+    "pendingLabel": "Not yet available",
+    "note": "The figures cover the company's total operations and are location-based for scope 1, 2 and 3. Around 15% of our electricity comes from our own solar panels."
   },
   "codeOfConductPage": {
     "eyebrow": "Ethics and Responsibility",

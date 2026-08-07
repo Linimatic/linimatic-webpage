@@ -16,7 +16,7 @@ const serviceKeys = [
   { key: "zinkTemadag", href: "/zink-temadag" },
 ];
 
-const aboutKeys = [
+const sustainabilityKeys = [
   { key: "co2", href: "/about/co2" },
   { key: "codeOfConduct", href: "/about/code-of-conduct" },
 ];
@@ -32,7 +32,8 @@ const navKeys = [
   { key: "cases", href: "/cases" },
   { key: "whyZinc", href: "/why-zinc" },
   { key: "zinkers", href: "/zinkers" },
-  { key: "about", href: "/about", hasDropdown: true },
+  { key: "about", href: "/about" },
+  { key: "sustainability", href: "/about/sustainability", hasDropdown: true },
   { key: "jobs", href: "/jobs" },
   { key: "contact", href: "/contact", hasDropdown: true },
 ];
@@ -193,8 +194,8 @@ export function Header() {
                             </Link>
                           ))}
                         </>
-                      ) : item.key === "about" ? (
-                        aboutKeys.map((sub) => (
+                      ) : item.key === "sustainability" ? (
+                        sustainabilityKeys.map((sub) => (
                           <Link
                             key={sub.href}
                             href={sub.href}
@@ -205,7 +206,7 @@ export function Header() {
                                 : "text-zinc-400 hover:text-white hover:bg-zinc-800"
                             }`}
                           >
-                            {t(`aboutList.${sub.key}`)}
+                            {t(`sustainabilityList.${sub.key}`)}
                           </Link>
                         ))
                       ) : (

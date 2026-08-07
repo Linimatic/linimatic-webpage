@@ -16,6 +16,10 @@
       "title": "Om Linimatic — eksperter i zinktrykstøbning siden 1967",
       "description": "Grundlagt i 1967 er Linimatic A/S Danmarks største dedikerede zinktrykstøberi — 50+ specialister, ISO 9001-certificeret, hele værdikæden under ét tag."
     },
+    "sustainability": {
+      "title": "Bæredygtighed — Linimatic A/S",
+      "description": "Læs om Linimatics arbejde med bæredygtighed, CO2-udledning og etisk forretningsadfærd."
+    },
     "co2": {
       "title": "CO2 og klima — Linimatic A/S",
       "description": "Læs om Linimatics arbejde med at reducere CO2-aftrykket gennem effektiv produktion og bæredygtige initiativer."
@@ -66,6 +70,7 @@
       "whyZinc": "Hvorfor zink",
       "zinkers": "Sinkers",
       "about": "Om os",
+      "sustainability": "Bæredygtighed",
       "jobs": "Karriere",
       "contact": "Kontakt"
     },
@@ -79,7 +84,7 @@
       "zinkTemadag": "Zink Temadag"
     },
     "allServices": "Alle ydelser",
-    "aboutList": {
+    "sustainabilityList": {
       "co2": "CO2",
       "codeOfConduct": "Code of Conduct"
     },
@@ -1411,10 +1416,32 @@
     "openApplicationButton": "Send uopfordret ansøgning",
     "learnMoreButton": "Læs mere om os"
   },
+  "sustainabilityPage": {
+    "breadcrumb": "Bæredygtighed",
+    "eyebrow": "Bæredygtighed",
+    "title": "Bæredygtighed hos Linimatic",
+    "intro": "Vi arbejder målrettet med at drive vores produktion ansvarligt — for mennesker, samfund og miljø. Her kan du læse om vores CO2-udledning og de retningslinjer, vi arbejder efter.",
+    "links": [
+      {
+        "title": "CO2 og klima",
+        "description": "Se udviklingen i virksomhedens CO2-udledning år for år.",
+        "href": "/about/co2"
+      },
+      {
+        "title": "Code of Conduct",
+        "description": "Vores retningslinjer for ansvarlig og etisk forretningsadfærd.",
+        "href": "/about/code-of-conduct"
+      }
+    ]
+  },
   "co2Page": {
     "eyebrow": "Bæredygtighed",
     "title": "CO2 og klima",
-    "intro": "Hos Linimatic arbejder vi løbende på at reducere vores CO2-aftryk gennem effektiv produktion, solceller og ansvarlig ressourceforvaltning. Denne side opdateres løbende med konkrete tal og initiativer."
+    "intro": "Hos Linimatic arbejder vi løbende på at reducere vores CO2-aftryk gennem effektiv produktion, solceller og ansvarlig ressourceforvaltning. Denne side opdateres løbende med konkrete tal og initiativer.",
+    "dataLabel": "Udvikling i CO2-udledning",
+    "unit": "ton CO2e",
+    "pendingLabel": "Opgøres senere",
+    "note": "Tallene dækker virksomhedens samlede drift og er lokationsbaserede for scope 1, 2 og 3. Cirka 15% af vores elforbrug kommer fra egne solceller."
   },
   "codeOfConductPage": {
     "eyebrow": "Etik og ansvarlighed",

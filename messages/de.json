@@ -16,6 +16,10 @@
       "title": "Über Linimatic — Zinkdruckguss-Experten seit 1967",
       "description": "1967 gegründet, ist Linimatic A/S Dänemarks größte spezialisierte Zinkdruckguss-Gießerei — über 50 Spezialisten, ISO 9001, gesamte Wertschöpfung aus einer Hand."
     },
+    "sustainability": {
+      "title": "Nachhaltigkeit — Linimatic A/S",
+      "description": "Lesen Sie über Linimatics Arbeit im Bereich Nachhaltigkeit, CO2-Emissionen und ethisches Geschäftsverhalten."
+    },
     "co2": {
       "title": "CO2 und Klima — Linimatic A/S",
       "description": "Erfahren Sie mehr über Linimatics Arbeit zur Reduzierung des CO2-Fußabdrucks durch effiziente Produktion und nachhaltige Initiativen."
@@ -66,6 +70,7 @@
       "whyZinc": "Warum Zink",
       "zinkers": "Sinkers",
       "about": "Über uns",
+      "sustainability": "Nachhaltigkeit",
       "jobs": "Karriere",
       "contact": "Kontakt"
     },
@@ -79,7 +84,7 @@
       "zinkTemadag": "Zink-Infotag"
     },
     "allServices": "Alle Leistungen",
-    "aboutList": {
+    "sustainabilityList": {
       "co2": "CO2",
       "codeOfConduct": "Code of Conduct"
     },
@@ -1410,10 +1415,32 @@
     "openApplicationButton": "Initiativbewerbung senden",
     "learnMoreButton": "Mehr über uns erfahren"
   },
+  "sustainabilityPage": {
+    "breadcrumb": "Nachhaltigkeit",
+    "eyebrow": "Nachhaltigkeit",
+    "title": "Nachhaltigkeit bei Linimatic",
+    "intro": "Wir arbeiten zielgerichtet daran, unsere Produktion verantwortungsvoll zu führen — für Menschen, Gesellschaft und Umwelt. Hier erfahren Sie mehr über unsere CO2-Emissionen und die Richtlinien, nach denen wir arbeiten.",
+    "links": [
+      {
+        "title": "CO2 und Klima",
+        "description": "Sehen Sie die Entwicklung der CO2-Emissionen des Unternehmens im Jahresvergleich.",
+        "href": "/about/co2"
+      },
+      {
+        "title": "Code of Conduct",
+        "description": "Unsere Richtlinien für verantwortungsvolles und ethisches Geschäftsverhalten.",
+        "href": "/about/code-of-conduct"
+      }
+    ]
+  },
   "co2Page": {
     "eyebrow": "Nachhaltigkeit",
     "title": "CO2 und Klima",
-    "intro": "Bei Linimatic arbeiten wir kontinuierlich daran, unseren CO2-Fußabdruck durch effiziente Produktion, Solarenergie und verantwortungsvolles Ressourcenmanagement zu reduzieren. Diese Seite wird laufend mit konkreten Zahlen und Initiativen aktualisiert."
+    "intro": "Bei Linimatic arbeiten wir kontinuierlich daran, unseren CO2-Fußabdruck durch effiziente Produktion, Solarenergie und verantwortungsvolles Ressourcenmanagement zu reduzieren. Diese Seite wird laufend mit konkreten Zahlen und Initiativen aktualisiert.",
+    "dataLabel": "Entwicklung der CO2-Emissionen",
+    "unit": "Tonnen CO2e",
+    "pendingLabel": "Wird später veröffentlicht",
+    "note": "Die Zahlen umfassen den gesamten Betrieb des Unternehmens und sind standortbasiert für Scope 1, 2 und 3. Rund 15% unseres Stromverbrauchs stammt aus eigenen Solaranlagen."
   },
   "codeOfConductPage": {
     "eyebrow": "Ethik und Verantwortung",

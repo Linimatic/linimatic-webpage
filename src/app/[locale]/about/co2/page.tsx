@@ -24,6 +24,12 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+const co2Data: { year: number; value: number }[] = [
+  { year: 2022, value: 1446 },
+  { year: 2023, value: 1431 },
+  { year: 2024, value: 1430 },
+];
+
 export default async function Co2Page({
   params,
 }: {
@@ -33,12 +39,13 @@ export default async function Co2Page({
   setRequestLocale(locale);
   const t = await getTranslations("co2Page");
   const tHeader = await getTranslations("header");
+  const numberFormat = new Intl.NumberFormat(locale);
 
   return (
     <article className="bg-zinc-50 pb-24">
       <Breadcrumbs
         items={[
-          { label: tHeader("nav.about"), href: "/about" },
+          { label: tHeader("nav.sustainability"), href: "/about/sustainability" },
           { label: t("title"), href: "/about/co2" },
         ]}
       />
@@ -53,6 +60,42 @@ export default async function Co2Page({
           {t("title")}
         </h1>
         <p className="text-base text-zinc-600 leading-relaxed">{t("intro")}</p>
+
+        <div className="mt-14">
+          <span className="text-[11px] tracking-[0.15em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
+            {t("dataLabel")}
+          </span>
+          <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 border-t border-zinc-200">
+            {co2Data.map((stat, i) => (
+              <div
+                key={stat.year}
+                className={`py-6 ${i > 0 ? "sm:border-l border-zinc-200 sm:pl-6" : ""}`}
+              >
+                <div className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-tight font-[family-name:var(--font-mono)]">
+                  {numberFormat.format(stat.value)}
+                </div>
+                <div className="mt-1 text-[11px] tracking-[0.1em] uppercase text-ember font-[family-name:var(--font-mono)]">
+                  {t("unit")}
+                </div>
+                <div className="mt-2 text-sm text-zinc-500 font-[family-name:var(--font-mono)]">
+                  {stat.year}
+                </div>
+              </div>
+            ))}
+            <div className="py-6 sm:border-l border-zinc-200 sm:pl-6">
+              <div className="text-3xl sm:text-4xl font-bold text-zinc-300 tracking-tight font-[family-name:var(--font-mono)]">
+                —
+              </div>
+              <div className="mt-1 text-[11px] tracking-[0.1em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
+                {t("pendingLabel")}
+              </div>
+              <div className="mt-2 text-sm text-zinc-400 font-[family-name:var(--font-mono)]">
+                2025
+              </div>
+            </div>
+          </div>
+          <p className="mt-6 text-sm text-zinc-500 leading-relaxed">{t("note")}</p>
+        </div>
       </div>
     </article>
   );

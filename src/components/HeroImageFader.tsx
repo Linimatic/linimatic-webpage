@@ -21,7 +21,10 @@ export function HeroImageFader({
   items,
   holdMs = HOLD_MS,
   fadeMs = FADE_MS,
-  fit = "object-contain object-top",
+  // The slot is square so a portrait item (the mould photo) fits without cropping;
+  // landscape items therefore leave room above and below. Centre them, so they sit
+  // level with the text column beside them instead of riding up against the header.
+  fit = "object-contain object-center",
   sizes = "(max-width: 1024px) 100vw, 55vw",
 }: {
   items: FaderItem[];

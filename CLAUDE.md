@@ -105,6 +105,64 @@ Tailwind CSS v4 is configured through PostCSS (`postcss.config.mjs`). Theme toke
 ### Fonts
 Currently uses Geist Sans and Geist Mono via `next/font/google`. These should be replaced with brand-appropriate fonts for Linimatic.
 
+## Responsive design — applies to every visual change
+
+The site must look deliberate at **every** width, not just the one that happened to be open in the preview. Layout, spacing, type size and placement are not finished until they have been checked across the range below. A width you did not look at is not "probably fine" — it is unreviewed, and unreviewed widths are where this site currently breaks.
+
+Tailwind breakpoints: `sm` 640 · `md` 768 · `lg` 1024 · `xl` 1280.
+
+### 1. One page shell, never improvised
+
+Every full-width section's inner wrapper uses exactly this and nothing else:
+
+```
+mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20
+```
+
+This is what makes headings and text in different sections line up on the same vertical edge. A section that invents its own gutter (`px-8`, `px-6 lg:px-10`, or no padding at all) silently breaks alignment with every section above and below it — that misalignment only becomes visible at some widths, which is why it survives review. If a section genuinely needs different padding, it needs a reason in the code comment.
+
+### 2. Vertical spacing scales — a bare `py-20` is a bug
+
+Section padding must step with the viewport. Use:
+
+- **Standard section:** `py-16 sm:py-20 lg:py-24 xl:py-32`
+- **Compact section:** `py-12 sm:py-16 lg:py-20`
+
+A fixed `py-20` is too heavy on a phone and too thin on a large monitor. Fixed vertical padding is only acceptable on small internal elements (buttons, table rows, nav items). The same applies to `gap-*` between grid items: large gaps (`gap-8` and up) get a smaller mobile value.
+
+### 3. Do not skip `md:` — that band is where it looks worst
+
+Going straight from `sm:` to `lg:` means everything between 640px and 1023px — tablets in portrait, split-screen windows, small laptops — renders the phone layout at desktop width. Column counts step through the range:
+
+- 1 → 2 at `sm:` or `md:` → 3 at `lg:` → 4 at `xl:`
+- **Never jump to 3 or 4 columns at `sm:`.** At 640px a quarter of the screen is ~150px; cards collapse into unreadable slivers.
+
+Two-column split layouts (text beside image) stay stacked until `lg:` — a side-by-side at 768px gives each half too little room for a headline.
+
+### 4. Type scales
+
+Headings get at least three steps, e.g. `text-3xl sm:text-4xl lg:text-5xl`. Never ship a heading at one fixed size. Arbitrary pixel sizes (`text-[5.5rem]`) are allowed only as the top step of a scale, never on their own. Body text may stay fixed.
+
+### 5. Line length is capped independently of the shell
+
+The shell is 1800px wide; a paragraph is not. Prose gets `max-w-2xl` / `max-w-3xl` (or `max-w-4xl` for intros) regardless of how wide the section is. A full-bleed paragraph on a wide monitor is unreadable even though nothing looks "broken".
+
+### 6. Nothing overflows horizontally, ever
+
+No fixed width wider than the smallest supported viewport (360px). Long unbroken strings (part numbers, emails, URLs) need `break-words`. Anything genuinely wide — tables, spec lists, image rows — scrolls inside its own `overflow-x-auto` container; the page body never scrolls sideways.
+
+### 7. Images and touch
+
+- Always `next/image` with an accurate `sizes` prop, and a fixed aspect ratio plus `object-cover` so the surrounding layout does not jump.
+- Interactive elements are at least 44×44px on touch widths.
+- Anything revealed only on hover needs an equivalent that works without hover — hover does not exist on a phone.
+
+### 8. Verify before reporting done
+
+Run the preview (`preview_start` → `linimatic-webpage`) and use `resize_window` at **390, 768, 1024, 1440 and 1920**, with a screenshot at each. For a change to a grid, a hero, or section spacing, check all five. For a small text edit inside an existing block, 390 and 1440 are enough.
+
+Never report a layout change as finished based on a single width. When Jan says something "looks off" or "isn't aligned", assume the problem is at a width that was never checked, and start by reproducing it across the full range rather than guessing at the code.
+
 ## Conventions
 
 - Server Components by default; add `"use client"` only when needed (event handlers, hooks, browser APIs)

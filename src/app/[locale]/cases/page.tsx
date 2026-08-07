@@ -97,14 +97,14 @@ export default async function CasesPage({
       {/* Case Grid */}
       <section className="bg-zinc-50 pb-24">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {cases.map((item) => (
               <Link
                 key={item.slug}
                 href={`/cases/${item.slug}`}
                 className="group relative bg-zinc-900 overflow-hidden"
               >
-                <div className="aspect-[4/3] relative">
+                <div className="aspect-[3/2] sm:aspect-[4/3] relative">
                   <Image
                     src={caseImages[item.slug] || "/images/services/casting-mold.jpg"}
                     alt={item.title}
@@ -140,7 +140,7 @@ export default async function CasesPage({
       </section>
 
       {/* CTA */}
-      <section className="bg-zinc-950 grain py-20 relative">
+      <section className="bg-zinc-950 grain py-14 sm:py-16 lg:py-20 relative">
         <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-[-0.02em] font-[family-name:var(--font-display)]">
             {t("ctaHeading")}

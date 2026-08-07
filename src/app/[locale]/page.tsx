@@ -105,7 +105,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
           {t('hero.watermark')}
         </div>
 
-        <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20 pt-36 lg:pt-44 pb-0">
+        <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20 pt-28 sm:pt-32 lg:pt-40 xl:pt-44 pb-0">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div>
               <div className="flex items-center gap-4 mb-8 animate-fade-up">
@@ -149,11 +149,21 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
         {/* Stats strip */}
         <div className="mt-12 bg-zinc-950 grain">
           <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 animate-fade-up delay-4">
+            {/* 5 stats. The column count changes per breakpoint, so the divider is
+                derived from the index at each one — an item that starts a row must
+                never draw a left border ("ISO 9001" also needs xl before it fits 5-up). */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-5 animate-fade-up delay-4">
               {statsItems.map((stat, i) => (
-                <div key={stat.label} className={`py-8 lg:py-10 ${i > 0 ? "border-l border-zinc-800 pl-6 lg:pl-8" : ""} ${i >= 3 ? "hidden sm:block" : ""}`}>
-                  <div className="text-3xl sm:text-4xl font-bold text-white tracking-tight font-[family-name:var(--font-mono)]">{stat.value}</div>
-                  <div className="mt-1 text-[11px] tracking-[0.15em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">{stat.label}</div>
+                <div
+                  key={stat.label}
+                  className={`py-6 sm:py-8 lg:py-10 border-zinc-800 ${
+                    i % 2 === 0 ? "border-l-0 pl-0" : "border-l pl-5"
+                  } ${i % 3 === 0 ? "sm:border-l-0 sm:pl-0" : "sm:border-l sm:pl-6"} ${
+                    i === 0 ? "xl:border-l-0 xl:pl-0" : "xl:border-l xl:pl-8"
+                  } ${i >= 4 ? "hidden sm:block" : ""}`}
+                >
+                  <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white tracking-tight font-[family-name:var(--font-mono)]">{stat.value}</div>
+                  <div className="mt-1 text-[10px] sm:text-[11px] tracking-[0.15em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -202,10 +212,10 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
       </section>
 
       {/* ═══════════════════════════════════ VALUE CHAIN ═══════════════════════════════════ */}
-      <section className="bg-white py-24 sm:py-32 relative overflow-hidden">
+      <section className="bg-white py-16 sm:py-20 lg:py-24 xl:py-32 relative overflow-hidden">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           {/* Header */}
-          <div className="mb-16">
+          <div className="mb-10 sm:mb-14 lg:mb-16">
             <div className="flex items-center gap-4 mb-5">
               <div className="w-8 h-px bg-ember" />
               <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
@@ -287,7 +297,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
       </section>
 
       {/* ═══════════════════════════════════ TESTIMONIAL ═══════════════════════════════════ */}
-      <section className="bg-zinc-50 py-16 border-y border-zinc-200">
+      <section className="bg-zinc-50 py-12 sm:py-16 border-y border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           {testimonials.length === 0 ? (
             <div className="max-w-3xl mx-auto">
@@ -302,9 +312,9 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
       </section>
 
       {/* ═══════════════════════════════════ CASES ═══════════════════════════════════ */}
-      <section className="bg-zinc-950 grain py-24 sm:py-32 relative">
+      <section className="bg-zinc-950 grain py-16 sm:py-20 lg:py-24 xl:py-32 relative">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-16">
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-10 sm:mb-14 lg:mb-16">
             <div>
               <div className="flex items-center gap-4 mb-5">
                 <div className="w-8 h-px bg-ember" />
@@ -318,13 +328,13 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {caseItems.map((item, i) => (
               <Link key={item.client} href={caseImages[i].href} className="group relative bg-zinc-900 overflow-hidden">
-                <div className="aspect-[4/3] relative">
-                  <Image src={caseImages[i].image} alt={item.title} fill className="object-cover opacity-50 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105" sizes="(max-width: 1024px) 100vw, 33vw" />
+                <div className="aspect-[3/2] sm:aspect-[4/3] relative">
+                  <Image src={caseImages[i].image} alt={item.title} fill className="object-cover opacity-50 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" />
                   <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent transition-opacity duration-700 group-hover:opacity-50" />
-                  <div className="absolute bottom-0 left-0 right-0 p-7">
+                  <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6 lg:p-7">
                     <span className="inline-block text-base sm:text-lg tracking-[0.15em] uppercase text-ember font-[family-name:var(--font-mono)] mb-3">{item.client}</span>
                     <h3 className="text-lg font-semibold text-white leading-tight font-[family-name:var(--font-display)] tracking-tight">{item.title}</h3>
                     <p className="mt-2 text-sm text-zinc-400 font-[family-name:var(--font-mono)]">{item.metric}</p>
@@ -346,9 +356,9 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
       </section>
 
       {/* ═══════════════════════════════════ TEAM ═══════════════════════════════════ */}
-      <section className="bg-zinc-50 py-24 sm:py-32 border-t border-zinc-200">
+      <section className="bg-zinc-50 py-16 sm:py-20 lg:py-24 xl:py-32 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-          <div className="text-center max-w-3xl mx-auto mb-16">
+          <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-14 lg:mb-16">
             <div className="flex items-center justify-center gap-4 mb-5">
               <div className="w-8 h-px bg-ember" />
               <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">{t('team.eyebrow')}</span>
@@ -358,19 +368,19 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
             <p className="mt-5 text-lg text-zinc-600 leading-relaxed">{t('team.description')}</p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-md sm:max-w-2xl lg:max-w-4xl mx-auto">
             {teamMembers.map((member, i) => (
               <div key={member.name} className="bg-white border border-zinc-200 flex flex-col items-center text-center">
-                <div className="relative aspect-[3/4] w-[57.6%] mt-6 bg-zinc-200">
+                <div className="relative aspect-[3/4] w-[60%] mt-6 bg-zinc-200">
                   <Image
                     src={teamPhotos[i]}
                     alt={member.name}
                     fill
                     className="object-cover object-top"
-                    sizes="(max-width: 640px) 58vw, 19vw"
+                    sizes="(max-width: 640px) 60vw, (max-width: 1024px) 30vw, 19vw"
                   />
                 </div>
-                <div className="p-6 flex flex-col items-center">
+                <div className="p-5 lg:p-6 flex flex-col items-center">
                   <h3 className="text-base font-semibold text-zinc-900 font-[family-name:var(--font-display)]">{member.name}</h3>
                   <p className="text-sm text-zinc-600">{member.role}</p>
                   <div className="mt-3 flex flex-col items-center gap-1">
@@ -389,7 +399,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
         <div className="absolute inset-0">
           <Image src="/images/services/facility-2022.jpg" alt="" fill className="object-cover opacity-10" sizes="100vw" />
         </div>
-        <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20 py-28 sm:py-36">
+        <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20 py-20 sm:py-24 lg:py-28 xl:py-36">
           <div className="max-w-2xl">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white tracking-[-0.02em] leading-[1.05] font-[family-name:var(--font-display)]">{t('cta.heading')}</h2>
             <p className="mt-6 text-lg text-zinc-400 leading-relaxed max-w-lg">{t('cta.description')}</p>

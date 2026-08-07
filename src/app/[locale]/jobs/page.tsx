@@ -139,7 +139,7 @@ export default async function JobsPage({
       </section>
 
       {/* Open Positions */}
-      <section className="bg-white py-20 border-t border-zinc-200">
+      <section className="bg-white py-14 sm:py-16 lg:py-20 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="mb-12">
             <div className="flex items-center gap-4 mb-5">
@@ -286,7 +286,7 @@ export default async function JobsPage({
       </section>
 
       {/* Why Work Here */}
-      <section className="bg-zinc-50 py-20 border-t border-zinc-200">
+      <section className="bg-zinc-50 py-14 sm:py-16 lg:py-20 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">
@@ -316,7 +316,7 @@ export default async function JobsPage({
       </section>
 
       {/* Open Application */}
-      <section className="bg-zinc-950 grain py-20 relative">
+      <section className="bg-zinc-950 grain py-14 sm:py-16 lg:py-20 relative">
         <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-[-0.02em] font-[family-name:var(--font-display)]">

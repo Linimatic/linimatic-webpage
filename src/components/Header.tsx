@@ -109,7 +109,7 @@ export function Header() {
               width={240}
               height={50}
               priority
-              className={`h-10 w-auto transition-opacity duration-300 ${scrolled ? "opacity-0" : "opacity-100"}`}
+              className={`h-10 wide:h-8 min-[1700px]:h-10 w-auto transition-opacity duration-300 ${scrolled ? "opacity-0" : "opacity-100"}`}
             />
             <Image
               src="/images/brand/linimatic-logo-zinc.png"
@@ -118,12 +118,12 @@ export function Header() {
               width={240}
               height={50}
               priority
-              className={`absolute left-0 top-0 h-10 w-auto transition-opacity duration-300 ${scrolled ? "opacity-100" : "opacity-0"}`}
+              className={`absolute left-0 top-0 h-10 wide:h-8 min-[1700px]:h-10 w-auto transition-opacity duration-300 ${scrolled ? "opacity-100" : "opacity-0"}`}
             />
           </Link>
 
-          {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center gap-0">
+          {/* Desktop Nav — only from `wide` (1400px); below that it lives in the drawer */}
+          <nav className="hidden wide:flex items-center gap-0">
             {navKeys.map((item) =>
               item.hasDropdown ? (
                 <div
@@ -148,7 +148,7 @@ export function Header() {
                         setOpenDropdown((cur) => (cur === item.key ? null : item.key));
                       }
                     }}
-                    className={`flex items-center gap-1 px-5 py-2 text-[13px] font-medium tracking-wide uppercase transition-colors ${
+                    className={`flex items-center gap-1 px-2.5 min-[1700px]:px-4 py-2 text-[12px] min-[1700px]:text-[13px] font-medium tracking-wide uppercase transition-colors ${
                       scrolled ? "text-zinc-600 hover:text-zinc-900" : "text-zinc-300 hover:text-white"
                     }`}
                   >
@@ -233,7 +233,7 @@ export function Header() {
                 <Link
                   key={item.key}
                   href={item.href}
-                  className={`flex items-center gap-1.5 px-5 py-2 text-[13px] font-medium tracking-wide uppercase transition-colors ${
+                  className={`flex items-center gap-1.5 px-2.5 min-[1700px]:px-4 py-2 text-[12px] min-[1700px]:text-[13px] font-medium tracking-wide uppercase transition-colors ${
                     scrolled ? "text-zinc-600 hover:text-zinc-900" : "text-zinc-300 hover:text-white"
                   }`}
                 >
@@ -248,8 +248,8 @@ export function Header() {
             )}
           </nav>
 
-          {/* Desktop CTA */}
-          <div className="hidden lg:flex items-center gap-4">
+          {/* Language switcher + CTA — stays in the bar from tablet up, next to the drawer button */}
+          <div className="hidden sm:flex items-center gap-3 xl:gap-4">
             {/* Language Switcher */}
             <div className="flex items-center gap-1 text-[13px] tracking-wide">
               {(['en', 'da', 'de'] as const).map((l, i) => (
@@ -261,14 +261,15 @@ export function Header() {
                 </Fragment>
               ))}
             </div>
-            <a href="tel:+4548764040" className={`text-[13px] tracking-wide transition-colors font-[family-name:var(--font-mono)] ${
+            {/* Phone only where there is room left over next to the full nav */}
+            <a href="tel:+4548764040" className={`hidden min-[1800px]:block text-[13px] tracking-wide transition-colors font-[family-name:var(--font-mono)] ${
               scrolled ? "text-zinc-600 hover:text-zinc-700" : "text-zinc-400 hover:text-white"
             }`}>
               {t("phone")}
             </a>
             <Link
               href="/contact"
-              className="relative px-6 py-2.5 text-[13px] font-semibold tracking-wide uppercase text-zinc-950 bg-ember hover:bg-ember-light transition-colors"
+              className="relative px-3.5 min-[1700px]:px-6 py-2.5 text-[12px] min-[1700px]:text-[13px] font-semibold tracking-wide uppercase text-zinc-950 bg-ember hover:bg-ember-light transition-colors whitespace-nowrap"
             >
               {t("getQuote")}
             </Link>
@@ -277,7 +278,7 @@ export function Header() {
           {/* Mobile menu button */}
           <button
             type="button"
-            className="lg:hidden p-2 text-zinc-300"
+            className={`wide:hidden p-2.5 -mr-2.5 transition-colors ${scrolled ? "text-zinc-700" : "text-zinc-300"}`}
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label={mobileOpen ? t("mobileMenuClose") : t("mobileMenuOpen")}
             aria-expanded={mobileOpen}
@@ -297,8 +298,8 @@ export function Header() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="lg:hidden bg-zinc-950 border-t border-zinc-800">
-          <nav className="px-6 py-6 space-y-1">
+        <div className="wide:hidden bg-zinc-950 border-t border-zinc-800 max-h-[calc(100dvh-5rem)] overflow-y-auto overscroll-contain">
+          <nav className="px-6 sm:px-10 py-6 space-y-1">
             {navKeys.map((item) => (
               <Link
                 key={item.key}
@@ -314,8 +315,16 @@ export function Header() {
                 )}
               </Link>
             ))}
-            {/* Mobile Language Switcher */}
-            <div className="flex items-center gap-1 px-4 py-3 text-[13px] tracking-wide">
+            {/* Phone — the bar only shows it on very wide screens, so it belongs here */}
+            <a
+              href="tel:+4548764040"
+              className="flex items-center gap-2 px-4 py-3 text-base font-medium text-zinc-300 hover:text-white hover:bg-zinc-900 transition-colors font-[family-name:var(--font-mono)]"
+              onClick={() => setMobileOpen(false)}
+            >
+              {t("phone")}
+            </a>
+            {/* Language switcher — the bar carries it from `sm` up */}
+            <div className="sm:hidden flex items-center gap-1 px-4 py-3 text-[13px] tracking-wide">
               {(['en', 'da', 'de'] as const).map((l, i) => (
                 <Fragment key={l}>
                   {i > 0 && <span className="text-zinc-600">|</span>}
@@ -325,7 +334,7 @@ export function Header() {
                 </Fragment>
               ))}
             </div>
-            <div className="pt-4">
+            <div className="sm:hidden pt-4">
               <Link
                 href="/contact"
                 className="block w-full py-3.5 text-center text-sm font-semibold tracking-wide uppercase text-zinc-950 bg-ember"

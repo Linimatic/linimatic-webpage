@@ -65,13 +65,15 @@ export default async function Co2Page({
           <span className="text-[11px] tracking-[0.15em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
             {t("dataLabel")}
           </span>
-          <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 border-t border-zinc-200">
+          <div className="mt-4 grid grid-cols-2 lg:grid-cols-4 border-t border-zinc-200">
             {co2Data.map((stat, i) => (
               <div
                 key={stat.year}
-                className={`py-6 ${i > 0 ? "sm:border-l border-zinc-200 sm:pl-6" : ""}`}
+                className={`py-6 border-zinc-200 ${
+                  i % 2 === 0 ? "border-l-0 pl-0" : "border-l pl-5"
+                } ${i === 0 ? "lg:border-l-0 lg:pl-0" : "lg:border-l lg:pl-6"}`}
               >
-                <div className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-tight font-[family-name:var(--font-mono)]">
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight font-[family-name:var(--font-mono)]">
                   {numberFormat.format(stat.value)}
                 </div>
                 <div className="mt-1 text-[11px] tracking-[0.1em] uppercase text-ember font-[family-name:var(--font-mono)]">

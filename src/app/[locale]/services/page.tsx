@@ -110,7 +110,7 @@ export default async function ServicesPage({
       </section>
 
       {/* Capability catalog */}
-      <section className="bg-white py-20 border-t border-zinc-200">
+      <section className="bg-white py-14 sm:py-16 lg:py-20 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-5">
             <div className="w-8 h-px bg-ember" />
@@ -173,7 +173,7 @@ export default async function ServicesPage({
       </section>
 
       {/* Capability Matrix */}
-      <section className="bg-zinc-950 grain py-20 relative">
+      <section className="bg-zinc-950 grain py-14 sm:py-16 lg:py-20 relative">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="mb-10">
             <div className="flex items-center gap-4 mb-5">
@@ -231,7 +231,7 @@ export default async function ServicesPage({
       </section>
 
       {/* Differentiators */}
-      <section className="bg-white py-20 border-t border-zinc-200">
+      <section className="bg-white py-14 sm:py-16 lg:py-20 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">
@@ -241,7 +241,7 @@ export default async function ServicesPage({
               {t("diffDescription")}
             </p>
           </div>
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
+          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-md sm:max-w-2xl lg:max-w-4xl mx-auto">
             {(
               t.raw("differentiators") as Array<{
                 title: string;
@@ -263,7 +263,7 @@ export default async function ServicesPage({
       </section>
 
       {/* CTA */}
-      <section className="bg-zinc-950 grain py-20 relative">
+      <section className="bg-zinc-950 grain py-14 sm:py-16 lg:py-20 relative">
         <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-[-0.02em] font-[family-name:var(--font-display)]">
             {t("ctaHeading")}

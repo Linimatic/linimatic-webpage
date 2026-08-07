@@ -46,6 +46,11 @@
   --font-display: var(--font-instrument-sans);
   --font-body: var(--font-source-sans-3);
   --font-mono: var(--font-jetbrains-mono);
+
+  /* The full horizontal nav (9 items) only has room from here up — measured against
+     German, which has the longest labels. Below this the header uses the drawer menu,
+     keeping the language switcher and the quote button in the bar. */
+  --breakpoint-wide: 1500px;
 }
 
 body {

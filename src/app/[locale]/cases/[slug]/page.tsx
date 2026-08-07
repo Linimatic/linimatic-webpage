@@ -161,7 +161,7 @@ export default async function CaseDetailPage({
       </section>
 
       {/* ── The Challenge ── */}
-      <section className="bg-white py-20 border-t border-zinc-200">
+      <section className="bg-white py-14 sm:py-16 lg:py-20 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-6">
             <div className="w-8 h-px bg-ember" />
@@ -179,7 +179,7 @@ export default async function CaseDetailPage({
       </section>
 
       {/* ── Our Approach ── */}
-      <section className="bg-zinc-950 grain py-20 relative">
+      <section className="bg-zinc-950 grain py-14 sm:py-16 lg:py-20 relative">
         <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-6">
             <div className="w-8 h-px bg-ember" />
@@ -197,7 +197,7 @@ export default async function CaseDetailPage({
       </section>
 
       {/* ── The Result ── */}
-      <section className="bg-white py-20 border-t border-zinc-200">
+      <section className="bg-white py-14 sm:py-16 lg:py-20 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-6">
             <div className="w-8 h-px bg-ember" />
@@ -226,7 +226,7 @@ export default async function CaseDetailPage({
       </section>
 
       {/* ── Capabilities Applied ── */}
-      <section className="bg-zinc-50 py-16 border-t border-zinc-200">
+      <section className="bg-zinc-50 py-12 sm:py-14 lg:py-16 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <h2 className="text-lg font-semibold text-zinc-900 font-[family-name:var(--font-display)] mb-6">
             {t("capabilitiesHeading")}
@@ -267,7 +267,7 @@ export default async function CaseDetailPage({
 
       {/* ── Other Cases ── */}
       {otherSlugs.length > 0 && (
-        <section className="bg-white py-16 border-t border-zinc-200">
+        <section className="bg-white py-12 sm:py-14 lg:py-16 border-t border-zinc-200">
           <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-8 h-px bg-ember" />
@@ -308,7 +308,7 @@ export default async function CaseDetailPage({
       )}
 
       {/* ── CTA ── */}
-      <section className="bg-zinc-950 grain py-20 relative">
+      <section className="bg-zinc-950 grain py-14 sm:py-16 lg:py-20 relative">
         <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-[-0.02em] font-[family-name:var(--font-display)]">
             {t("ctaHeading")}

@@ -77,7 +77,7 @@ export default async function ContactPeoplePage({
           </div>
 
           {/* Team */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-md sm:max-w-2xl lg:max-w-4xl mx-auto">
             {team.map((person, i) => (
               <PersonCard key={person.name} person={person} photo={teamPhotos[i]} />
             ))}
@@ -97,7 +97,7 @@ function PersonCard({ person, photo }: { person: Person; photo: string }) {
           alt={person.name}
           fill
           className="object-cover object-top"
-          sizes="(max-width: 640px) 72vw, 36vw"
+          sizes="(max-width: 640px) 72vw, (max-width: 1024px) 36vw, 24vw"
         />
       </div>
       <div className="p-6 flex flex-col items-center">

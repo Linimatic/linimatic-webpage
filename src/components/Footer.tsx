@@ -28,18 +28,20 @@ export function Footer() {
       {/* Top rule */}
       <div className="border-t border-zinc-800" />
 
-      <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20 pt-20 pb-12">
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-12">
+      <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20 pt-14 sm:pt-16 lg:pt-20 pb-10 sm:pb-12">
+        {/* 12-col at lg with a tight column gap — a wide gap leaves the link columns
+            too narrow for the longest service names (e.g. "Overfladebehandling"). */}
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-12 lg:gap-x-8 lg:gap-y-12">
           {/* Brand */}
-          <div className="lg:col-span-4">
+          <div className="sm:col-span-2 lg:col-span-3">
             <Image
               src="/images/brand/linimatic-tagline-white.png"
               alt={t("logoAlt")}
               width={280}
               height={60}
-              className="h-12 w-auto opacity-80 mb-6"
+              className="h-10 sm:h-12 w-auto opacity-80 mb-6"
             />
-            <p className="text-sm leading-relaxed max-w-xs">
+            <p className="text-sm leading-relaxed max-w-xs sm:max-w-sm">
               {t("brandDescription")}
             </p>
             <div className="mt-8 flex gap-5">
@@ -58,7 +60,7 @@ export function Footer() {
           </div>
 
           {/* Services */}
-          <div className="lg:col-span-2 lg:col-start-6">
+          <div className="lg:col-span-3">
             <h3 className="text-[11px] font-semibold text-zinc-400 tracking-[0.2em] uppercase mb-5 font-[family-name:var(--font-mono)]">
               {t("servicesHeading")}
             </h3>
@@ -77,7 +79,7 @@ export function Footer() {
           </div>
 
           {/* Company */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-3">
             <h3 className="text-[11px] font-semibold text-zinc-400 tracking-[0.2em] uppercase mb-5 font-[family-name:var(--font-mono)]">
               {t("companyHeading")}
             </h3>
@@ -96,7 +98,7 @@ export function Footer() {
           </div>
 
           {/* Contact */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-3">
             <h3 className="text-[11px] font-semibold text-zinc-400 tracking-[0.2em] uppercase mb-5 font-[family-name:var(--font-mono)]">
               {t("contactHeading")}
             </h3>
@@ -121,11 +123,11 @@ export function Footer() {
         </div>
 
         {/* Sub-footer */}
-        <div className="mt-16 pt-8 border-t border-zinc-800/60 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div className="mt-12 sm:mt-16 pt-8 border-t border-zinc-800/60 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-[11px] text-zinc-600 font-[family-name:var(--font-mono)] tracking-wide">
             {t("copyright", { year: new Date().getFullYear() })}
           </p>
-          <div className="flex gap-8 text-[11px] text-zinc-600 font-[family-name:var(--font-mono)] tracking-wide">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 sm:gap-8 text-[11px] text-zinc-600 font-[family-name:var(--font-mono)] tracking-wide">
             <Link href="/privacy" className="hover:text-zinc-400 transition-colors">{t("privacy")}</Link>
             <Link href="/cookies" className="hover:text-zinc-400 transition-colors">{t("cookies")}</Link>
             <CookieSettingsButton />

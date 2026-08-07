@@ -79,7 +79,7 @@ export default async function ZinkersPage({
       </section>
 
       {/* Why zinc, not lead */}
-      <section className="bg-white py-20 border-t border-zinc-200">
+      <section className="bg-white py-14 sm:py-16 lg:py-20 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">
@@ -89,9 +89,9 @@ export default async function ZinkersPage({
               {t("whyDescription")}
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-zinc-200">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-zinc-200">
             {whyItems.map((item) => (
-              <div key={item.title} className="bg-white p-8 sm:p-10">
+              <div key={item.title} className="bg-white p-6 sm:p-8 lg:p-10">
                 <div className="w-6 h-[2px] bg-ember mb-5" />
                 <h3 className="text-lg font-semibold text-zinc-900 font-[family-name:var(--font-display)] mb-3">
                   {item.title}
@@ -106,7 +106,7 @@ export default async function ZinkersPage({
       </section>
 
       {/* Applications */}
-      <section className="bg-zinc-50 py-20 border-t border-zinc-200">
+      <section className="bg-zinc-50 py-14 sm:py-16 lg:py-20 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)] mb-12">
             {t("applicationsHeading")}
@@ -128,7 +128,7 @@ export default async function ZinkersPage({
       </section>
 
       {/* CTA */}
-      <section className="bg-zinc-950 grain py-20 relative">
+      <section className="bg-zinc-950 grain py-14 sm:py-16 lg:py-20 relative">
         <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-[-0.02em] font-[family-name:var(--font-display)]">
             {t("ctaHeading")}

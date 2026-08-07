@@ -97,13 +97,19 @@ export default async function AboutPage({
       {/* Key Facts */}
       <section className="bg-zinc-950 grain">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
+          {/* Divider is derived from the index at each breakpoint so an item that
+              starts a wrapped row never draws a left border. */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-5">
             {stats.map((stat, i) => (
               <div
                 key={stat.label}
-                className={`py-8 lg:py-10 ${i > 0 ? "border-l border-zinc-800 pl-6 lg:pl-8" : ""}`}
+                className={`py-6 sm:py-8 lg:py-10 border-zinc-800 ${
+                  i % 2 === 0 ? "border-l-0 pl-0" : "border-l pl-5"
+                } ${i % 3 === 0 ? "sm:border-l-0 sm:pl-0" : "sm:border-l sm:pl-6"} ${
+                  i === 0 ? "xl:border-l-0 xl:pl-0" : "xl:border-l xl:pl-8"
+                }`}
               >
-                <div className="text-3xl sm:text-4xl font-bold text-white tracking-tight font-[family-name:var(--font-mono)]">
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white tracking-tight font-[family-name:var(--font-mono)]">
                   {stat.value}
                 </div>
                 <div className="mt-1 text-[11px] tracking-[0.15em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
@@ -116,7 +122,7 @@ export default async function AboutPage({
       </section>
 
       {/* Certifications */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-14 sm:py-16 lg:py-20">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="flex items-center gap-4 mb-8">
             <div className="w-8 h-px bg-ember" />
@@ -144,7 +150,7 @@ export default async function AboutPage({
       </section>
 
       {/* Sustainability */}
-      <section className="bg-zinc-50 py-20 border-t border-zinc-200">
+      <section className="bg-zinc-50 py-14 sm:py-16 lg:py-20 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="max-w-3xl">
             <div className="flex items-center gap-4 mb-8">
@@ -165,7 +171,7 @@ export default async function AboutPage({
       </section>
 
       {/* Industries Served */}
-      <section className="bg-white py-20 border-t border-zinc-200">
+      <section className="bg-white py-14 sm:py-16 lg:py-20 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)] mb-4">
             {t("industriesHeading")}
@@ -189,7 +195,7 @@ export default async function AboutPage({
       </section>
 
       {/* Team */}
-      <section className="bg-zinc-50 py-20 border-t border-zinc-200">
+      <section className="bg-zinc-50 py-14 sm:py-16 lg:py-20 border-t border-zinc-200">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">
@@ -199,7 +205,7 @@ export default async function AboutPage({
               {t("team.description")}
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-md sm:max-w-2xl lg:max-w-4xl mx-auto">
             {teamMembers.map((member, i) => (
               <div key={member.name} className="text-center">
                 <div className="w-28 h-28 mx-auto mb-5 rounded-full overflow-hidden bg-zinc-200 relative">
@@ -236,7 +242,7 @@ export default async function AboutPage({
       </section>
 
       {/* CTA */}
-      <section className="bg-zinc-950 grain py-20 relative">
+      <section className="bg-zinc-950 grain py-14 sm:py-16 lg:py-20 relative">
         <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-[-0.02em] font-[family-name:var(--font-display)]">
             {t("ctaHeading")}

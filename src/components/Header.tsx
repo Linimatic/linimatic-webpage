@@ -27,7 +27,6 @@ const contactKeys = [
 ];
 
 const navKeys = [
-  { key: "home", href: "/" },
   { key: "services", href: "/services", hasDropdown: true },
   { key: "cases", href: "/cases" },
   { key: "whyZinc", href: "/why-zinc" },

@@ -24,6 +24,11 @@ const VOLUME_LABELS: Record<string, string> = {
   "over-100k": "Over 100,000 pcs",
 };
 
+// Contact form goes to linimatic@linimatic.dk. That mailbox goes live 2026-08-11;
+// until then info@linimatic.dk is kept as a second recipient so no enquiry is lost
+// if the new address bounces. Drop info@ once the new mailbox is confirmed working.
+const CONTACT_RECIPIENTS = ["linimatic@linimatic.dk", "info@linimatic.dk"];
+
 const ALLOWED_FILE_EXTENSIONS = [
   ".step", ".stp", ".iges", ".igs", ".sldprt", ".sldasm", ".x_t", ".pdf", ".dwg", ".dxf",
 ];
@@ -84,7 +89,7 @@ export async function submitContactForm(
 
     await resend.emails.send({
       from: "Linimatic Website <website@linimatic.dk>",
-      to: "info@linimatic.dk",
+      to: CONTACT_RECIPIENTS,
       replyTo: email,
       subject: `${subjectLabel} from ${company} — ${name}`,
       text: [

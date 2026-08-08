@@ -64,14 +64,13 @@
   "header": {
     "logoAlt": "Linimatic — Innovativer Zinkdruckguss",
     "nav": {
-      "home": "Startseite",
       "services": "Leistungen",
       "cases": "Referenzen",
       "whyZinc": "Warum Zink",
       "zinkers": "Sinkers",
       "about": "Über uns",
       "sustainability": "Nachhaltigkeit",
-      "jobs": "Karriere",
+      "jobs": "Jobs",
       "contact": "Kontakt"
     },
     "servicesList": {
@@ -265,7 +264,7 @@
       "aboutUs": "Über uns",
       "cases": "Referenzen",
       "whyZinc": "Warum Zink",
-      "careers": "Karriere",
+      "careers": "Jobs",
       "zinkers": "Sinkers"
     },
     "contactHeading": "Kontakt",
@@ -1334,7 +1333,7 @@
     }
   },
   "jobsPage": {
-    "breadcrumb": "Karriere",
+    "breadcrumb": "Jobs",
     "eyebrow": "Werden Sie Teil unseres Teams",
     "heading": "Vielleicht beginnt hier Ihr nächster Job",
     "description": "Bei Linimatic arbeiten wir mit Technik, Präzision und Lösungen, die einen Unterschied machen. Wir suchen fähige Menschen mit Verantwortungsbewusstsein, Neugier und Lust, Teil eines starken Teams zu sein.\n\nSehen Sie sich unten unsere offenen Stellen an – wir freuen uns, von Ihnen zu hören.",
@@ -1611,8 +1610,9 @@
     ],
     "agendaNote": "Das Programm kann jederzeit an die Teilnehmer angepasst werden.",
     "datesHeading": "Nächste geplante Infotage",
-    "dates": ["12.05.2026", "20.08.2026"],
+    "dates": ["20.05.2026", "16.08.2026"],
     "datesNote": "Findet bei Linimatic in Helsinge statt",
+    "datePastLabel": "Stattgefunden",
     "contactHeading": "Infotag buchen",
     "contactDescription": "Kontaktieren Sie Jan V. Jørgensen, um einen kommenden Infotag zu buchen oder weitere Informationen zu erhalten.",
     "contactName": "Jan V. Jørgensen",

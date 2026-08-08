@@ -64,14 +64,13 @@
   "header": {
     "logoAlt": "Linimatic — Innovativ trykstøbning",
     "nav": {
-      "home": "Forside",
       "services": "Ydelser",
       "cases": "Cases",
       "whyZinc": "Hvorfor zink",
       "zinkers": "Sinkers",
       "about": "Om os",
       "sustainability": "Bæredygtighed",
-      "jobs": "Karriere",
+      "jobs": "Job",
       "contact": "Kontakt"
     },
     "servicesList": {
@@ -265,7 +264,7 @@
       "aboutUs": "Om os",
       "cases": "Cases",
       "whyZinc": "Hvorfor zink",
-      "careers": "Karriere",
+      "careers": "Job",
       "zinkers": "Sinkers"
     },
     "contactHeading": "Kontakt",
@@ -1335,7 +1334,7 @@
     }
   },
   "jobsPage": {
-    "breadcrumb": "Karriere",
+    "breadcrumb": "Job",
     "eyebrow": "Bliv en del af holdet",
     "heading": "Dit næste job starter måske her",
     "description": "Hos Linimatic arbejder vi med teknik, præcision og løsninger, der gør en forskel. Vi leder efter dygtige mennesker med ansvar, nysgerrighed og lyst til at være en del af et stærkt team.\n\nSe vores ledige stillinger herunder – vi glæder os til at høre fra dig.",
@@ -1612,8 +1611,9 @@
     ],
     "agendaNote": "Programmet kan altid justeres og tilpasses deltagerne.",
     "datesHeading": "Næste planlagte temadage",
-    "dates": ["12.05.2026", "20.08.2026"],
+    "dates": ["20.05.2026", "16.08.2026"],
     "datesNote": "Afholdes hos Linimatic i Helsinge",
+    "datePastLabel": "Afholdt",
     "contactHeading": "Book en temadag",
     "contactDescription": "Kontakt Jan V. Jørgensen for at booke en kommende temadag eller for mere information.",
     "contactName": "Jan V. Jørgensen",

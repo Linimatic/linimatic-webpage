@@ -9,23 +9,15 @@ import { JsonLd } from "@/components/JsonLd";
 import { ServiceImageGallery } from "@/components/ServiceImageGallery";
 import { HeroImageFader } from "@/components/HeroImageFader";
 import { buildMetadata, metaDescription, type Locale } from "@/lib/seo";
-
-const SERVICE_SLUGS = [
-  "prototyping",
-  "die-casting",
-  "post-processing",
-  "surface-treatment",
-  "quality",
-  "assembly",
-] as const;
-
-type ServiceSlug = (typeof SERVICE_SLUGS)[number];
+import {
+  SERVICE_SLUGS,
+  SERVICE_TITLE_KEY,
+  type ServiceSlug,
+} from "@/lib/routes";
 
 const SERVICE_META: Record<
   ServiceSlug,
   {
-    titleKey: string;
-    descriptionKey: string;
     relatedServices: ServiceSlug[];
     image: string;
     // Optional extra images. When present, the hero shows all images in a small
@@ -37,14 +29,10 @@ const SERVICE_META: Record<
   }
 > = {
   prototyping: {
-    titleKey: "prototyping",
-    descriptionKey: "prototyping",
     relatedServices: ["die-casting", "surface-treatment"],
     image: "/images/services/design-simulation.jpg",
   },
   "die-casting": {
-    titleKey: "dieCasting",
-    descriptionKey: "dieCasting",
     relatedServices: ["post-processing", "surface-treatment", "quality"],
     image: "/images/services/die-casting-operators-daw125.jpg",
     fader: [
@@ -53,14 +41,10 @@ const SERVICE_META: Record<
     ],
   },
   "post-processing": {
-    titleKey: "postProcessing",
-    descriptionKey: "postProcessing",
     relatedServices: ["die-casting", "surface-treatment"],
     image: "/images/services/cnc-post-processing.jpg",
   },
   "surface-treatment": {
-    titleKey: "surfaceTreatment",
-    descriptionKey: "surfaceTreatment",
     relatedServices: ["die-casting", "quality"],
     image: "/images/services/surface-coating-miljo169.jpg",
     gallery: [
@@ -70,14 +54,10 @@ const SERVICE_META: Record<
     ],
   },
   quality: {
-    titleKey: "quality",
-    descriptionKey: "quality",
     relatedServices: ["die-casting", "assembly"],
     image: "/images/services/quality-assurance.jpg",
   },
   assembly: {
-    titleKey: "assembly",
-    descriptionKey: "assembly",
     relatedServices: ["quality", "surface-treatment"],
     image: "/images/services/assembly.jpg",
   },
@@ -107,8 +87,9 @@ export async function generateMetadata({
   if (!meta) return {};
 
   const t = await getTranslations({ locale, namespace: "serviceDetail" });
-  const title = t(`${meta.titleKey}.title`);
-  const overview = t(`${meta.titleKey}.overview`);
+  const titleKey = SERVICE_TITLE_KEY[s];
+  const title = t(`${titleKey}.title`);
+  const overview = t(`${titleKey}.overview`);
   const description = metaDescription(overview);
 
   return buildMetadata({
@@ -131,7 +112,7 @@ export default async function ServiceDetailPage({
   const meta = SERVICE_META[s];
   if (!meta) notFound();
 
-  const t = await getTranslations(`serviceDetail.${meta.titleKey}`);
+  const t = await getTranslations(`serviceDetail.${SERVICE_TITLE_KEY[s]}`);
   const tServices = await getTranslations("services");
 
   const specs = t.raw("specs") as Array<{ label: string; value: string }>;
@@ -161,14 +142,12 @@ export default async function ServiceDetailPage({
     })),
   };
 
+
   // Get related service names
-  const relatedServices = meta.relatedServices.map((rs) => {
-    const relMeta = SERVICE_META[rs];
-    return {
-      slug: rs,
-      titleKey: relMeta.titleKey,
-    };
-  });
+  const relatedServices = meta.relatedServices.map((rs) => ({
+    slug: rs,
+    titleKey: SERVICE_TITLE_KEY[rs],
+  }));
 
   return (
     <>

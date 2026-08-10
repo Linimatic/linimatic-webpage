@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL as BASE_URL } from "@/lib/seo";
+import { SERVICE_SLUGS, CASE_SLUGS } from "@/lib/routes";
 
 const LOCALES = ["da", "en", "de"] as const;
 
@@ -7,17 +8,6 @@ const LOCALES = ["da", "en", "de"] as const;
 // changes — using `new Date()` would reset every entry's <lastmod> on each
 // unrelated deploy, which Google learns to ignore as a noisy signal.
 const LAST_UPDATED = new Date("2026-08-01");
-
-const SERVICE_SLUGS = [
-  "prototyping",
-  "die-casting",
-  "post-processing",
-  "surface-treatment",
-  "quality",
-  "assembly",
-];
-
-const CASE_SLUGS = ["supplier-proximity", "velux-kanban", "frandsen-downlight", "one-collection-finn-juhl"];
 
 type StaticRoute = {
   path: string;

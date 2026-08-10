@@ -6,18 +6,12 @@ import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { buildMetadata, metaDescription, type Locale } from "@/lib/seo";
-
-const CASE_SLUGS = ["supplier-proximity", "velux-kanban", "frandsen-downlight", "one-collection-finn-juhl"] as const;
-type CaseSlug = (typeof CASE_SLUGS)[number];
-
-const SERVICE_SLUGS = [
-  "prototyping",
-  "die-casting",
-  "post-processing",
-  "surface-treatment",
-  "quality",
-  "assembly",
-] as const;
+import {
+  CASE_SLUGS,
+  SERVICE_SLUGS,
+  isCaseSlug,
+  type CaseSlug,
+} from "@/lib/routes";
 
 const CASE_IMAGES: Record<CaseSlug, string> = {
   "supplier-proximity": "/images/cases/supplier-proximity.jpg",
@@ -64,7 +58,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const { locale, slug } = await params;
-  if (!(CASE_SLUGS as readonly string[]).includes(slug)) return {};
+  if (!isCaseSlug(slug)) return {};
 
   const t = await getTranslations({ locale, namespace: "caseDetail" });
   // Short metaTitle for the <title>; the long narrative title stays as the H1.
@@ -88,7 +82,7 @@ export default async function CaseDetailPage({
   const { locale, slug } = await params;
   setRequestLocale(locale);
 
-  if (!(CASE_SLUGS as readonly string[]).includes(slug)) {
+  if (!isCaseSlug(slug)) {
     notFound();
   }
 

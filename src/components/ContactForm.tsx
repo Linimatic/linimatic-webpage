@@ -174,6 +174,14 @@ export function ContactForm() {
           ),
         })}
       </p>
+      {/* Honeypot — hidden from people and from assistive technology, but most
+          form-spam bots fill in every field they find. Kept out of the tab
+          order and off autocomplete so a real visitor can never land in it.
+          Placed last so the form's `space-y-6` rhythm is unaffected. */}
+      <div aria-hidden="true" className="absolute left-[-9999px] w-px h-px overflow-hidden">
+        <label htmlFor="website">{t("form.honeypotLabel")}</label>
+        <input type="text" id="website" name="website" tabIndex={-1} autoComplete="off" />
+      </div>
     </form>
   );
 }

@@ -77,14 +77,18 @@ export default async function CookiePolicyPage({
                 <td>{t("localeCookiePurpose")}</td>
                 <td>{t("localeCookieDuration")}</td>
               </tr>
+              <tr>
+                <td className="font-[family-name:var(--font-mono)] text-zinc-800">zink_temadag_popup_seen_at</td>
+                <td>{t("popupStoragePurpose")}</td>
+                <td>{t("popupStorageDuration")}</td>
+              </tr>
             </tbody>
           </table>
 
+          <p>{t("storageNote")}</p>
+
           <h3>{t("analyticsHeading")}</h3>
           <p>{t("analyticsText")}</p>
-
-          <h3>{t("marketingHeading")}</h3>
-          <p>{t("marketingText")}</p>
 
           <h2>{t("managingHeading")}</h2>
           <p>{t("managingText1")}</p>

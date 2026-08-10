@@ -282,7 +282,7 @@
   },
   "cookies": {
     "heading": "Cookieindstillinger",
-    "description": "Vi bruger cookies til at forbedre din oplevelse og analysere brugen af siden. Du kan tilpasse dine præferencer eller acceptere alle cookies.",
+    "description": "Nødvendige cookies er altid slået til, så siden kan fungere. Derudover vil vi gerne måle, hvordan siden bruges, så vi kan gøre den bedre — det sker anonymt og kun, hvis du siger ja.",
     "readOur": "Læs vores",
     "cookiePolicy": "cookiepolitik",
     "and": "og",
@@ -302,13 +302,6 @@
       "disabled": "Deaktiveret",
       "toggleAriaLabel": "Slå analysecookies til/fra",
       "description": "Hjælper os med at forstå, hvordan besøgende bruger vores side, så vi kan forbedre oplevelsen."
-    },
-    "marketing": {
-      "title": "Marketing",
-      "enabled": "Aktiveret",
-      "disabled": "Deaktiveret",
-      "toggleAriaLabel": "Slå marketingcookies til/fra",
-      "description": "Bruges til at vise relevante annoncer og måle kampagneeffektivitet."
     }
   },
   "services": {
@@ -730,6 +723,7 @@
       "fileUpload": "Tekniske tegninger",
       "fileFormats": "STEP · IGES · Solidworks · Parasolid · PDF · DWG · DXF",
       "privacyNotice": "Når du sender formularen, behandler Linimatic A/S dine oplysninger for at kunne besvare din henvendelse. Læs mere i vores <link>privatlivspolitik</link>.",
+      "honeypotLabel": "Lad dette felt stå tomt",
       "submit": "Send forespørgsel",
       "sending": "Sender...",
       "successTitle": "Besked sendt",
@@ -737,6 +731,7 @@
       "error": {
         "missing_fields": "Udfyld venligst alle påkrævede felter.",
         "invalid_email": "Indtast venligst en gyldig e-mailadresse.",
+        "rate_limited": "Der er sendt for mange beskeder fra denne forbindelse. Vent et øjeblik og prøv igen, eller skriv direkte til info@linimatic.dk.",
         "too_long": "Et eller flere felter overskrider den maksimale længde.",
         "send_failed": "Din besked kunne ikke sendes. Prøv igen eller skriv direkte til info@linimatic.dk.",
         "invalid_file_type": "En eller flere filer har et format, vi ikke understøtter.",
@@ -1413,7 +1408,8 @@
     "openApplicationHeading": "Ser du ikke din rolle?",
     "openApplicationDescription": "Vi er altid interesserede i at høre fra dygtige folk inden for produktion, ingeniørarbejde, kvalitet og salg. Send os dit CV og fortæl, hvad du kan bidrage med.",
     "openApplicationButton": "Send uopfordret ansøgning",
-    "learnMoreButton": "Læs mere om os"
+    "learnMoreButton": "Læs mere om os",
+    "privacyNotice": "Når du sender en ansøgning, behandler Linimatic A/S dine oplysninger for at vurdere din ansøgning. Vi opbevarer ansøgninger i 6 måneder efter, at stillingen er besat, medmindre du siger ja til længere opbevaring. Læs mere i vores <link>privatlivspolitik</link>."
   },
   "sustainabilityPage": {
     "breadcrumb": "Bæredygtighed",
@@ -1507,14 +1503,14 @@
     "collectItems": [
       "Kontaktformular: Navn, virksomhed, e-mail, telefonnummer og projektbeskrivelse, når du anmoder om et tilbud eller kontakter os.",
       "Jobansøgninger: Navn, kontaktoplysninger, CV og følgebrev ved ansøgning til stillinger.",
-      "Tekniske data: IP-adresse, browsertype, operativsystem og browsingadfærd indsamlet automatisk via cookies (med dit samtykke).",
+      "Tekniske data: Når du besøger siden, behandler vores hostingudbyder tekniske oplysninger som IP-adresse og browsertype for at kunne levere siden sikkert. Har du sagt ja til analyse, tæller vi desuden sidevisninger i anonym form.",
       "Kommunikationsdata: Optegnelser over korrespondance, hvis du kontakter os via e-mail eller telefon."
     ],
     "dataSourceNote": "Vi indhenter udelukkende disse oplysninger direkte fra dig selv — vi køber eller modtager ikke personoplysninger om dig fra andre kilder.",
     "legalBasisHeading": "Retsgrundlag for behandling",
     "legalBasisIntro": "I henhold til databeskyttelsesforordningen (GDPR) behandler vi personoplysninger baseret på:",
     "legalBasisItems": [
-      "Samtykke (art. 6, stk. 1, litra a): Til analyse- og marketingcookies samt til nyhedsbrevsabonnementer.",
+      "Samtykke (art. 6, stk. 1, litra a): Til analyse af, hvordan hjemmesiden bruges.",
       "Kontraktmæssig nødvendighed (art. 6, stk. 1, litra b): Til behandling af tilbudsforespørgsler og besvarelse af kundehenvendelser.",
       "Legitim interesse (art. 6, stk. 1, litra f): Til at forbedre vores hjemmeside, sikre sikkerhed og kommunikere om vores ydelser.",
       "Retlig forpligtelse (art. 6, stk. 1, litra c): For at overholde skatte-, regnskabs- og andre lovkrav."
@@ -1563,11 +1559,11 @@
   "cookiePolicyPage": {
     "eyebrow": "Juridisk",
     "title": "Cookiepolitik",
-    "lastUpdated": "Sidst opdateret: marts 2026",
+    "lastUpdated": "Sidst opdateret: august 2026",
     "whatAreCookiesHeading": "Hvad er cookies?",
     "whatAreCookiesText": "Cookies er små tekstfiler, der placeres på din enhed, når du besøger en hjemmeside. De bruges bredt til at få hjemmesider til at fungere mere effektivt og give information til ejerne af hjemmesiden. I henhold til EU-regulering (ePrivacy-direktivet og GDPR) er vi forpligtet til at indhente dit samtykke, inden vi placerer ikke-nødvendige cookies.",
     "howWeUseHeading": "Hvordan vi bruger cookies",
-    "howWeUseText": "Vi kategoriserer cookies i tre typer. Du kan administrere dine præferencer når som helst via cookieindstillingerne på vores hjemmeside.",
+    "howWeUseText": "Vi bruger to kategorier: nødvendige, som altid er slået til, og analyse, som kun bruges, hvis du siger ja. Vi bruger ingen cookies til markedsføring, og vi deler ikke data med annoncenetværk. Du kan altid ændre dit valg via “Cookieindstillinger” nederst på siden.",
     "necessaryHeading": "Nødvendige cookies",
     "necessaryText": "Disse cookies er essentielle for, at hjemmesiden fungerer korrekt. De muliggør grundlæggende funktioner som sidenavigation, sikre områder og husker dine cookiepræferencer. Hjemmesiden kan ikke fungere korrekt uden disse cookies, og de kan ikke deaktiveres.",
     "tableCookie": "Cookie",
@@ -1577,16 +1573,17 @@
     "consentCookieDuration": "1 år",
     "localeCookiePurpose": "Husker dit sprogvalg",
     "localeCookieDuration": "Session",
-    "analyticsHeading": "Analysecookies",
-    "analyticsText": "Disse cookies hjælper os med at forstå, hvordan besøgende interagerer med vores hjemmeside ved at indsamle og rapportere information anonymt. Dette hjælper os med at forbedre oplevelsen for alle brugere.",
-    "marketingHeading": "Marketingcookies",
-    "marketingText": "Disse cookies bruges til at spore besøgende på tværs af hjemmesider for at muliggøre visning af relevante annoncer. De placeres typisk af annoncenetværk med vores tilladelse.",
+    "popupStoragePurpose": "Husker, at du har lukket vinduet om vores zink-temadage, så det ikke vises igen med det samme",
+    "popupStorageDuration": "Indtil du rydder din browser",
+    "storageNote": "Den sidste linje i skemaet er ikke en cookie, men en note gemt lokalt i din browser. Den indeholder kun et tidspunkt, og den sendes aldrig til os eller til andre.",
+    "analyticsHeading": "Analyse af besøg",
+    "analyticsText": "Hvis du siger ja til analyse, bruger vi Vercel Analytics til at tælle sidevisninger, så vi kan se, hvilke sider der er nyttige. Tjenesten sætter ingen cookies og gemmer intet på din enhed. Den registrerer ikke enkeltpersoner, og tallene kan ikke føres tilbage til dig. Siger du nej, indlæses den slet ikke.",
     "managingHeading": "Administration af dine præferencer",
     "managingText1": "Når du første gang besøger vores hjemmeside, vises et cookiebanner, der giver dig mulighed for at acceptere alle cookies, afvise alle ikke-nødvendige cookies eller tilpasse dine præferencer efter kategori.",
     "managingText2": "Du kan til enhver tid ændre dit valg eller trække dit samtykke tilbage via linket \"Cookieindstillinger\" nederst på alle sider.",
     "managingText3": "Du kan også styre cookies via dine browserindstillinger. De fleste browsere giver dig mulighed for at afvise eller slette cookies. Metoderne varierer fra browser til browser — se din browsers hjælpedokumentation.",
-    "thirdPartyHeading": "Tredjepartscookies",
-    "thirdPartyText": "Nogle cookies placeres af tredjepartstjenester, der vises på vores sider. Vi kontrollerer ikke brugen af disse cookies. Relevante tredjepartsudbydere omfatter analyse- og annonceplatforme. Deres respektive privatlivspolitikker regulerer deres brug af data.",
+    "thirdPartyHeading": "Tredjeparter",
+    "thirdPartyText": "Vi bruger ingen annoncenetværk, sociale medie-knapper, kort eller videoer, der sætter cookies på vores sider, og skrifttyperne leveres fra vores egen server. Vores eneste eksterne leverandører er Vercel, som er vært for hjemmesiden og — hvis du har sagt ja til analyse — tæller besøg, samt Resend, som sender beskeder fra kontaktformularen videre til os.",
     "contactHeading": "Kontakt",
     "contactText": "Hvis du har spørgsmål om vores brug af cookies, kontakt os på:"
   },

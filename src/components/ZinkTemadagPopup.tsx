@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
+import { useConsentDecided } from "@/components/CookieConsent";
 
 const STORAGE_KEY = "zink_temadag_popup_seen_at";
 const REAPPEAR_AFTER_MS = 7 * 24 * 60 * 60 * 1000; // once a week, like the old site
@@ -11,14 +12,19 @@ const SHOW_DELAY_MS = 2500;
 
 export function ZinkTemadagPopup() {
   const [visible, setVisible] = useState(false);
+  const consentDecided = useConsentDecided();
   const t = useTranslations("zinkTemadagPopup");
 
   useEffect(() => {
+    // The cookie banner owns the screen until the visitor has answered it. On a
+    // phone this panel sits exactly on top of the accept/reject buttons, so
+    // showing it earlier would make the consent choice unreachable.
+    if (!consentDecided) return;
     const lastSeen = Number(localStorage.getItem(STORAGE_KEY) ?? 0);
     if (Date.now() - lastSeen < REAPPEAR_AFTER_MS) return;
     const timer = setTimeout(() => setVisible(true), SHOW_DELAY_MS);
     return () => clearTimeout(timer);
-  }, []);
+  }, [consentDecided]);
 
   const dismiss = useCallback(() => {
     localStorage.setItem(STORAGE_KEY, String(Date.now()));
@@ -36,11 +42,13 @@ export function ZinkTemadagPopup() {
 
   if (!visible) return null;
 
+  // z-90 keeps this below the cookie banner (z-100): reopening cookie settings
+  // from the footer while this panel is open must not leave the banner covered.
   return (
     <div
       role="dialog"
       aria-label={t("heading")}
-      className="fixed z-[110] bottom-4 left-4 sm:bottom-6 sm:left-6 w-[calc(100vw-2rem)] max-w-sm bg-white shadow-2xl overflow-hidden animate-slide-in-left"
+      className="fixed z-[90] bottom-4 left-4 sm:bottom-6 sm:left-6 w-[calc(100vw-2rem)] max-w-sm bg-white shadow-2xl overflow-hidden animate-slide-in-left"
     >
       <div className="relative aspect-square bg-zinc-900">
         <Image

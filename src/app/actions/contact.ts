@@ -1,8 +1,17 @@
 "use server";
 
+import { headers } from "next/headers";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Built on first use, not at module load: a missing or rotated API key would
+// otherwise throw while the module is being evaluated, which surfaces to the
+// visitor as a raw 500 page instead of the form's own error message.
+let resendClient: Resend | null = null;
+
+function getResend(): Resend {
+  if (!resendClient) resendClient = new Resend(process.env.RESEND_API_KEY);
+  return resendClient;
+}
 
 export type ContactFormState = {
   success: boolean;
@@ -35,10 +44,47 @@ const ALLOWED_FILE_EXTENSIONS = [
 // Resend caps emails at 40MB after base64 encoding (~1.37x); stay well under
 const MAX_TOTAL_FILE_BYTES = 15 * 1024 * 1024;
 
+// Basic flood protection. The map lives per serverless instance, so this does
+// not stop a distributed flood — it stops the ordinary case of one script
+// hammering the form, without adding a third-party service or a CAPTCHA.
+const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
+const RATE_LIMIT_MAX = 5;
+const submissions = new Map<string, number[]>();
+
+function isRateLimited(key: string): boolean {
+  const now = Date.now();
+  const recent = (submissions.get(key) ?? []).filter((t) => now - t < RATE_LIMIT_WINDOW_MS);
+  if (recent.length >= RATE_LIMIT_MAX) {
+    submissions.set(key, recent);
+    return true;
+  }
+  recent.push(now);
+  submissions.set(key, recent);
+  // Keep the map from growing without bound on a long-lived instance.
+  if (submissions.size > 5000) {
+    for (const [k, times] of submissions) {
+      if (times.every((t) => now - t >= RATE_LIMIT_WINDOW_MS)) submissions.delete(k);
+    }
+  }
+  return false;
+}
+
 export async function submitContactForm(
   _prevState: ContactFormState,
   formData: FormData
 ): Promise<ContactFormState> {
+  // Honeypot: a field hidden from people but filled in by most form-spam bots.
+  // Report success so the bot has no signal to adapt to, and send nothing.
+  if (formData.get("website")?.toString().trim()) {
+    return { success: true, error: null };
+  }
+
+  const forwardedFor = (await headers()).get("x-forwarded-for");
+  const clientIp = forwardedFor?.split(",")[0]?.trim() || "unknown";
+  if (isRateLimited(clientIp)) {
+    return { success: false, error: "rate_limited" };
+  }
+
   const name = formData.get("name")?.toString().trim();
   const company = formData.get("company")?.toString().trim();
   const email = formData.get("email")?.toString().trim();
@@ -87,7 +133,7 @@ export async function submitContactForm(
       }))
     );
 
-    await resend.emails.send({
+    await getResend().emails.send({
       from: "Linimatic Website <website@linimatic.dk>",
       to: CONTACT_RECIPIENTS,
       replyTo: email,

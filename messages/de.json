@@ -282,7 +282,7 @@
   },
   "cookies": {
     "heading": "Cookie-Einstellungen",
-    "description": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern und die Nutzung der Website zu analysieren. Sie können Ihre Präferenzen anpassen oder alle Cookies akzeptieren.",
+    "description": "Notwendige Cookies sind immer aktiv, damit die Website funktioniert. Darüber hinaus möchten wir anonym messen, wie die Website genutzt wird, um sie zu verbessern — das geschieht nur mit Ihrer Einwilligung.",
     "readOur": "Lesen Sie unsere",
     "cookiePolicy": "Cookie-Richtlinie",
     "and": "und",
@@ -302,13 +302,6 @@
       "disabled": "Deaktiviert",
       "toggleAriaLabel": "Analyse-Cookies umschalten",
       "description": "Helfen uns zu verstehen, wie Besucher unsere Seite nutzen, um das Erlebnis zu verbessern."
-    },
-    "marketing": {
-      "title": "Marketing",
-      "enabled": "Aktiviert",
-      "disabled": "Deaktiviert",
-      "toggleAriaLabel": "Marketing-Cookies umschalten",
-      "description": "Werden verwendet, um relevante Werbung zu zeigen und die Kampagneneffektivität zu messen."
     }
   },
   "services": {
@@ -730,6 +723,7 @@
       "fileUpload": "Technische Zeichnungen",
       "fileFormats": "STEP · IGES · Solidworks · Parasolid · PDF · DWG · DXF",
       "privacyNotice": "Mit dem Absenden des Formulars verarbeitet Linimatic A/S Ihre Angaben, um Ihre Anfrage zu beantworten. Details finden Sie in unserer <link>Datenschutzerklärung</link>.",
+      "honeypotLabel": "Dieses Feld bitte leer lassen",
       "submit": "Anfrage senden",
       "sending": "Wird gesendet...",
       "successTitle": "Nachricht gesendet",
@@ -737,6 +731,7 @@
       "error": {
         "missing_fields": "Bitte füllen Sie alle Pflichtfelder aus.",
         "invalid_email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+        "rate_limited": "Von dieser Verbindung wurden zu viele Nachrichten gesendet. Bitte warten Sie einen Moment und versuchen Sie es erneut, oder schreiben Sie direkt an info@linimatic.dk.",
         "too_long": "Ein oder mehrere Felder überschreiten die maximale Länge.",
         "send_failed": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie direkt an info@linimatic.dk.",
         "invalid_file_type": "Eine oder mehrere Dateien haben ein nicht unterstütztes Format.",
@@ -1412,7 +1407,8 @@
     "openApplicationHeading": "Ihre Rolle nicht dabei?",
     "openApplicationDescription": "Wir sind immer an qualifizierten Fachkräften in den Bereichen Fertigung, Technik, Qualität und Vertrieb interessiert. Senden Sie uns Ihren Lebenslauf und erzählen Sie uns, was Sie mitbringen.",
     "openApplicationButton": "Initiativbewerbung senden",
-    "learnMoreButton": "Mehr über uns erfahren"
+    "learnMoreButton": "Mehr über uns erfahren",
+    "privacyNotice": "Wenn Sie eine Bewerbung senden, verarbeitet die Linimatic A/S Ihre Angaben, um die Bewerbung zu prüfen. Wir bewahren Bewerbungen bis zu 6 Monate nach Besetzung der Stelle auf, sofern Sie keiner längeren Speicherung zustimmen. Details finden Sie in unserer <link>Datenschutzerklärung</link>."
   },
   "sustainabilityPage": {
     "breadcrumb": "Nachhaltigkeit",
@@ -1506,14 +1502,14 @@
     "collectItems": [
       "Kontaktformular: Name, Unternehmen, E-Mail, Telefonnummer und Projektbeschreibung bei Angebotsanfragen oder Kontaktaufnahme.",
       "Bewerbungen: Name, Kontaktdaten, Lebenslauf und Anschreiben bei Stellenbewerbungen.",
-      "Technische Daten: IP-Adresse, Browsertyp, Betriebssystem und Surfverhalten, die automatisch durch Cookies erfasst werden (mit Ihrer Zustimmung).",
+      "Technische Daten: Beim Besuch der Website verarbeitet unser Hosting-Anbieter technische Angaben wie IP-Adresse und Browsertyp, um die Website sicher bereitzustellen. Wenn Sie der Analyse zugestimmt haben, zählen wir zusätzlich Seitenaufrufe in anonymer Form.",
       "Kommunikationsdaten: Aufzeichnungen der Korrespondenz bei Kontakt per E-Mail oder Telefon."
     ],
     "dataSourceNote": "Wir erheben diese Daten ausschließlich direkt von Ihnen — wir kaufen oder erhalten keine personenbezogenen Daten über Sie aus anderen Quellen.",
     "legalBasisHeading": "Rechtsgrundlage der Verarbeitung",
     "legalBasisIntro": "Gemäß der Datenschutz-Grundverordnung (DSGVO) verarbeiten wir personenbezogene Daten auf Grundlage von:",
     "legalBasisItems": [
-      "Einwilligung (Art. 6 Abs. 1 lit. a): Für Analyse- und Marketing-Cookies sowie für Newsletter-Abonnements.",
+      "Einwilligung (Art. 6 Abs. 1 lit. a): Für die Analyse der Websitenutzung.",
       "Vertragserfüllung (Art. 6 Abs. 1 lit. b): Zur Bearbeitung von Angebotsanfragen und zur Beantwortung von Kundenanfragen.",
       "Berechtigtes Interesse (Art. 6 Abs. 1 lit. f): Zur Verbesserung unserer Website, Gewährleistung der Sicherheit und Kommunikation über unsere Leistungen.",
       "Rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c): Zur Einhaltung steuerlicher, buchhalterischer und anderer gesetzlicher Anforderungen."
@@ -1562,11 +1558,11 @@
   "cookiePolicyPage": {
     "eyebrow": "Rechtliches",
     "title": "Cookie-Richtlinie",
-    "lastUpdated": "Zuletzt aktualisiert: März 2026",
+    "lastUpdated": "Zuletzt aktualisiert: August 2026",
     "whatAreCookiesHeading": "Was sind Cookies?",
     "whatAreCookiesText": "Cookies sind kleine Textdateien, die auf Ihrem Gerät platziert werden, wenn Sie eine Website besuchen. Sie werden häufig verwendet, um Websites effizienter zu gestalten und den Webseitenbetreibern Informationen zu liefern. Gemäß EU-Regulierung (ePrivacy-Richtlinie und DSGVO) sind wir verpflichtet, Ihre Einwilligung einzuholen, bevor wir nicht-essenzielle Cookies setzen.",
     "howWeUseHeading": "Wie wir Cookies verwenden",
-    "howWeUseText": "Wir unterteilen Cookies in drei Kategorien. Sie können Ihre Einstellungen jederzeit über die Cookie-Einstellungen auf unserer Website verwalten.",
+    "howWeUseText": "Wir verwenden zwei Kategorien: notwendige Cookies, die immer aktiv sind, und Analyse, die wir nur mit Ihrer Einwilligung einsetzen. Wir verwenden keine Cookies für Marketing und geben keine Daten an Werbenetzwerke weiter. Sie können Ihre Auswahl jederzeit über „Cookie-Einstellungen“ am Seitenende ändern.",
     "necessaryHeading": "Notwendige Cookies",
     "necessaryText": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website unerlässlich. Sie ermöglichen grundlegende Funktionen wie Seitennavigation, sichere Bereiche und das Speichern Ihrer Cookie-Einstellungen. Die Website kann ohne diese Cookies nicht ordnungsgemäß funktionieren, und sie können nicht deaktiviert werden.",
     "tableCookie": "Cookie",
@@ -1576,16 +1572,17 @@
     "consentCookieDuration": "1 Jahr",
     "localeCookiePurpose": "Speichert Ihre Sprachauswahl",
     "localeCookieDuration": "Sitzung",
-    "analyticsHeading": "Analyse-Cookies",
-    "analyticsText": "Diese Cookies helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, indem sie Informationen anonym sammeln und melden. Dies hilft uns, die Website-Erfahrung für alle Nutzer zu verbessern.",
-    "marketingHeading": "Marketing-Cookies",
-    "marketingText": "Diese Cookies werden verwendet, um Besucher über Websites hinweg zu verfolgen, um die Anzeige relevanter Werbung zu ermöglichen. Sie werden in der Regel von Werbenetzwerken mit unserer Genehmigung platziert.",
+    "popupStoragePurpose": "Merkt sich, dass Sie das Fenster zu unseren Zink-Thementagen geschlossen haben, damit es nicht sofort erneut erscheint",
+    "popupStorageDuration": "Bis Sie Ihren Browser leeren",
+    "storageNote": "Der letzte Eintrag in der Tabelle ist kein Cookie, sondern ein lokal in Ihrem Browser gespeicherter Vermerk. Er enthält lediglich einen Zeitstempel und wird niemals an uns oder an Dritte übermittelt.",
+    "analyticsHeading": "Besuchsanalyse",
+    "analyticsText": "Wenn Sie der Analyse zustimmen, verwenden wir Vercel Analytics, um Seitenaufrufe zu zählen und so zu erkennen, welche Seiten nützlich sind. Der Dienst setzt keine Cookies und speichert nichts auf Ihrem Gerät. Er erfasst keine Einzelpersonen, und die Zahlen lassen sich nicht auf Sie zurückführen. Lehnen Sie ab, wird er gar nicht erst geladen.",
     "managingHeading": "Verwaltung Ihrer Einstellungen",
     "managingText1": "Wenn Sie unsere Website zum ersten Mal besuchen, erscheint ein Cookie-Banner, mit dem Sie alle Cookies akzeptieren, alle nicht-essenziellen Cookies ablehnen oder Ihre Einstellungen nach Kategorie anpassen können.",
     "managingText2": "Sie können Ihre Wahl jederzeit ändern oder Ihre Einwilligung widerrufen — über den Link \"Cookie-Einstellungen\" unten auf jeder Seite.",
     "managingText3": "Sie können Cookies auch über Ihre Browsereinstellungen steuern. Die meisten Browser ermöglichen es Ihnen, Cookies abzulehnen oder zu löschen. Die Methoden variieren je nach Browser — konsultieren Sie die Hilfe-Dokumentation Ihres Browsers.",
-    "thirdPartyHeading": "Drittanbieter-Cookies",
-    "thirdPartyText": "Einige Cookies werden von Drittanbieterdiensten platziert, die auf unseren Seiten erscheinen. Wir kontrollieren die Verwendung dieser Cookies nicht. Relevante Drittanbieter umfassen Analyse- und Werbeplattformen. Deren jeweilige Datenschutzrichtlinien regeln deren Datennutzung.",
+    "thirdPartyHeading": "Drittanbieter",
+    "thirdPartyText": "Wir verwenden keine Werbenetzwerke, Social-Media-Schaltflächen, Karten oder Videos, die auf unseren Seiten Cookies setzen; Schriftarten werden von unserem eigenen Server ausgeliefert. Unsere einzigen externen Dienstleister sind Vercel, das die Website hostet und — sofern Sie der Analyse zugestimmt haben — Besuche zählt, sowie Resend, das Nachrichten aus dem Kontaktformular an uns weiterleitet.",
     "contactHeading": "Kontakt",
     "contactText": "Bei Fragen zu unserer Verwendung von Cookies kontaktieren Sie uns unter:"
   },

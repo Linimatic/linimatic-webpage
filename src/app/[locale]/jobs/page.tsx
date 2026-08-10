@@ -352,6 +352,20 @@ export default async function JobsPage({
                 {t("learnMoreButton")}
               </Link>
             </div>
+            {/* Applications arrive by email, so this is the only point at which
+                we can tell an applicant how their data is handled (GDPR art. 13). */}
+            <p className="mt-8 text-xs text-zinc-500 leading-relaxed">
+              {t.rich("privacyNotice", {
+                link: (chunks) => (
+                  <Link
+                    href="/privacy"
+                    className="underline underline-offset-2 hover:text-zinc-300 transition-colors"
+                  >
+                    {chunks}
+                  </Link>
+                ),
+              })}
+            </p>
           </div>
         </div>
       </section>

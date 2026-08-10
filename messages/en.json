@@ -279,7 +279,7 @@
   },
   "cookies": {
     "heading": "Cookie Preferences",
-    "description": "We use cookies to improve your experience and analyze site usage. You can customize your preferences or accept all cookies.",
+    "description": "Necessary cookies are always on so the site can work. Beyond that we would like to measure how the site is used so we can improve it — anonymously, and only if you agree.",
     "readOur": "Read our",
     "cookiePolicy": "Cookie Policy",
     "and": "and",
@@ -299,13 +299,6 @@
       "disabled": "Disabled",
       "toggleAriaLabel": "Toggle analytics cookies",
       "description": "Help us understand how visitors use our site to improve the experience."
-    },
-    "marketing": {
-      "title": "Marketing",
-      "enabled": "Enabled",
-      "disabled": "Disabled",
-      "toggleAriaLabel": "Toggle marketing cookies",
-      "description": "Used to deliver relevant advertisements and track campaign effectiveness."
     }
   },
   "services": {
@@ -727,6 +720,7 @@
       "fileUpload": "Technical Drawings",
       "fileFormats": "STEP \u00b7 IGES \u00b7 Solidworks \u00b7 Parasolid \u00b7 PDF \u00b7 DWG \u00b7 DXF",
       "privacyNotice": "When you submit this form, Linimatic A/S processes your information in order to respond to your inquiry. See our <link>privacy policy</link> for details.",
+      "honeypotLabel": "Leave this field empty",
       "submit": "Send Inquiry",
       "sending": "Sending...",
       "successTitle": "Message sent",
@@ -734,6 +728,7 @@
       "error": {
         "missing_fields": "Please fill in all required fields.",
         "invalid_email": "Please enter a valid email address.",
+        "rate_limited": "Too many messages have been sent from this connection. Please wait a moment and try again, or write directly to info@linimatic.dk.",
         "too_long": "One or more fields exceed the maximum length.",
         "send_failed": "Failed to send your message. Please try again or email us directly at info@linimatic.dk.",
         "invalid_file_type": "One or more files are in a format we do not support.",
@@ -1409,7 +1404,8 @@
     "openApplicationHeading": "Don\u2019t see your role?",
     "openApplicationDescription": "We\u2019re always interested in hearing from skilled people in manufacturing, engineering, quality, and sales. Send us your CV and tell us what you bring to the table.",
     "openApplicationButton": "Send Open Application",
-    "learnMoreButton": "Learn More About Us"
+    "learnMoreButton": "Learn More About Us",
+    "privacyNotice": "When you send an application, Linimatic A/S processes your information in order to assess it. We keep applications for 6 months after the position is filled, unless you agree to longer storage. See our <link>privacy policy</link> for details."
   },
   "sustainabilityPage": {
     "breadcrumb": "Sustainability",
@@ -1503,14 +1499,14 @@
     "collectItems": [
       "Contact form submissions: Name, company, email, phone number, and project description when you request a quote or contact us.",
       "Job applications: Name, contact details, CV, and cover letter when applying for positions.",
-      "Technical data: IP address, browser type, operating system, and browsing behaviour collected automatically through cookies (with your consent).",
+      "Technical data: When you visit the site, our hosting provider processes technical information such as IP address and browser type in order to deliver the site securely. If you have agreed to analytics, we also count page views in anonymous form.",
       "Communication data: Records of correspondence if you contact us by email or phone."
     ],
     "dataSourceNote": "We only collect this data directly from you — we do not buy or receive personal data about you from other sources.",
     "legalBasisHeading": "Legal Basis for Processing",
     "legalBasisIntro": "Under the General Data Protection Regulation (GDPR), we process personal data based on:",
     "legalBasisItems": [
-      "Consent (Art. 6(1)(a)): For analytics and marketing cookies, and for newsletter subscriptions.",
+      "Consent (Art. 6(1)(a)): For analytics of how the website is used.",
       "Contractual necessity (Art. 6(1)(b)): To process quote requests and respond to customer inquiries.",
       "Legitimate interest (Art. 6(1)(f)): To improve our website, ensure security, and communicate about our services.",
       "Legal obligation (Art. 6(1)(c)): To comply with tax, accounting, and other regulatory requirements."
@@ -1559,11 +1555,11 @@
   "cookiePolicyPage": {
     "eyebrow": "Legal",
     "title": "Cookie Policy",
-    "lastUpdated": "Last updated: March 2026",
+    "lastUpdated": "Last updated: August 2026",
     "whatAreCookiesHeading": "What Are Cookies?",
     "whatAreCookiesText": "Cookies are small text files placed on your device when you visit a website. They are widely used to make websites work more efficiently and provide information to website owners. Under EU regulation (the ePrivacy Directive and GDPR), we are required to obtain your consent before placing non-essential cookies.",
     "howWeUseHeading": "How We Use Cookies",
-    "howWeUseText": "We categorize cookies into three types. You can manage your preferences at any time using the cookie settings on our website.",
+    "howWeUseText": "We use two categories: necessary, which is always on, and analytics, which we only use if you agree. We use no cookies for marketing and share no data with advertising networks. You can change your choice at any time via “Cookie settings” at the bottom of any page.",
     "necessaryHeading": "Necessary Cookies",
     "necessaryText": "These cookies are essential for the website to function properly. They enable basic features like page navigation, secure areas, and remembering your cookie preferences. The website cannot function properly without these cookies, and they cannot be disabled.",
     "tableCookie": "Cookie",
@@ -1573,16 +1569,17 @@
     "consentCookieDuration": "1 year",
     "localeCookiePurpose": "Remembers your language preference",
     "localeCookieDuration": "Session",
-    "analyticsHeading": "Analytics Cookies",
-    "analyticsText": "These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously. This helps us improve the site experience for all users.",
-    "marketingHeading": "Marketing Cookies",
-    "marketingText": "These cookies are used to track visitors across websites to allow the display of relevant advertisements. They are typically placed by advertising networks with our permission.",
+    "popupStoragePurpose": "Remembers that you closed the panel about our zinc info days, so it does not reappear straight away",
+    "popupStorageDuration": "Until you clear your browser",
+    "storageNote": "The last entry in the table is not a cookie but a note stored locally in your browser. It contains only a timestamp and is never sent to us or to anyone else.",
+    "analyticsHeading": "Visit analytics",
+    "analyticsText": "If you agree to analytics, we use Vercel Analytics to count page views so we can see which pages are useful. The service sets no cookies and stores nothing on your device. It does not record individuals, and the figures cannot be traced back to you. If you decline, it is not loaded at all.",
     "managingHeading": "Managing Your Preferences",
     "managingText1": "When you first visit our website, a cookie banner will appear allowing you to accept all cookies, reject all non-essential cookies, or customize your preferences by category.",
     "managingText2": "You can change your choice or withdraw your consent at any time via the \"Cookie settings\" link at the bottom of every page.",
     "managingText3": "You can also control cookies through your browser settings. Most browsers allow you to refuse or delete cookies. The methods for doing so vary from browser to browser \u2014 consult your browser\u2019s help documentation.",
-    "thirdPartyHeading": "Third-Party Cookies",
-    "thirdPartyText": "Some cookies are placed by third-party services that appear on our pages. We do not control the use of these cookies. Relevant third-party providers include analytics and advertising platforms. Their respective privacy policies govern their use of data.",
+    "thirdPartyHeading": "Third parties",
+    "thirdPartyText": "We use no advertising networks, social media buttons, maps or videos that set cookies on our pages, and fonts are served from our own server. Our only external providers are Vercel, which hosts the website and — if you have agreed to analytics — counts visits, and Resend, which passes messages from the contact form on to us.",
     "contactHeading": "Contact",
     "contactText": "If you have questions about our use of cookies, contact us at:"
   },

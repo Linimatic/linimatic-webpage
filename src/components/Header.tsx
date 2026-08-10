@@ -156,8 +156,16 @@ export function Header() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                     </svg>
                   </Link>
-                  {openDropdown === item.key && (
-                    <div className={`absolute top-full left-0 pt-2 ${item.key === "services" ? "w-80" : "w-56"}`}>
+                  {/* Always rendered, toggled with `invisible` rather than mounted on
+                      open: a conditionally mounted panel keeps its links out of the
+                      served HTML entirely, and a crawler never hovers, so
+                      /about/co2 and /zink-temadag had no discoverable link at all.
+                      `invisible` also keeps the closed menu out of the tab order. */}
+                  <div
+                    className={`absolute top-full left-0 pt-2 ${item.key === "services" ? "w-80" : "w-56"} ${
+                      openDropdown === item.key ? "" : "invisible pointer-events-none"
+                    }`}
+                  >
                     <div role="menu" className={`rounded-sm shadow-2xl p-1.5 ${
                       scrolled
                         ? "bg-white border border-zinc-200"
@@ -225,8 +233,7 @@ export function Header() {
                         ))
                       )}
                     </div>
-                    </div>
-                  )}
+                  </div>
                 </div>
               ) : (
                 <Link

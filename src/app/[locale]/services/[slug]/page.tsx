@@ -8,7 +8,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { ServiceImageGallery } from "@/components/ServiceImageGallery";
 import { HeroImageFader } from "@/components/HeroImageFader";
-import { buildMetadata, metaDescription, type Locale } from "@/lib/seo";
+import { buildMetadata, metaDescription, SITE_URL, type Locale } from "@/lib/seo";
 import {
   SERVICE_SLUGS,
   SERVICE_TITLE_KEY,
@@ -142,6 +142,20 @@ export default async function ServiceDetailPage({
     })),
   };
 
+  // Ties each capability back to the Organization node declared in the locale
+  // layout, so the services resolve as one company's offering rather than six
+  // unattached pages.
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": `${SITE_URL}/${locale}/services/${slug}#service`,
+    name: t("title"),
+    serviceType: t("title"),
+    description: metaDescription(t("overview"), 300),
+    url: `${SITE_URL}/${locale}/services/${slug}`,
+    provider: { "@id": `${SITE_URL}/#organization` },
+    areaServed: { "@type": "Place", name: "Europe" },
+  };
 
   // Get related service names
   const relatedServices = meta.relatedServices.map((rs) => ({
@@ -151,6 +165,7 @@ export default async function ServiceDetailPage({
 
   return (
     <>
+      <JsonLd data={serviceSchema} />
       <JsonLd data={faqSchema} />
       <Breadcrumbs
         items={[

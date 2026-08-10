@@ -106,7 +106,7 @@ function organizationSchema(description: string) {
   },
   telephone: "+45 4876 4040",
   email: "info@linimatic.dk",
-  vatID: "DK-20254386",
+  vatID: "DK20254386",
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
     dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],

@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { buildMetadata, type Locale } from "@/lib/seo";
+import { buildMetadata, SITE_URL, type Locale } from "@/lib/seo";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { JsonLd } from "@/components/JsonLd";
 
 export async function generateMetadata({
   params,
@@ -41,8 +42,35 @@ export default async function ZinkersPage({
 
   const applications = t.raw("applications") as string[];
 
+  // No `offers` node: sinkers are quoted per order, so there is no published
+  // price to declare — inventing one to satisfy a rich-result field would be a
+  // lie in machine-readable form.
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "@id": `${SITE_URL}/${locale}/zinkers#product`,
+    name: t("eyebrow"),
+    description: t("intro"),
+    url: `${SITE_URL}/${locale}/zinkers`,
+    image: `${SITE_URL}/images/products/zinc-sinkers.jpg`,
+    material: "Zinc",
+    manufacturer: { "@id": `${SITE_URL}/#organization` },
+    brand: { "@id": `${SITE_URL}/#organization` },
+    countryOfOrigin: { "@type": "Country", name: "Denmark" },
+    additionalProperty: [
+      {
+        "@type": "PropertyValue",
+        name: "Weight range",
+        minValue: 50,
+        maxValue: 2000,
+        unitCode: "GRM",
+      },
+    ],
+  };
+
   return (
     <>
+      <JsonLd data={productSchema} />
       <Breadcrumbs items={[{ label: t("breadcrumb"), href: "/zinkers" }]} />
 
       {/* Hero */}

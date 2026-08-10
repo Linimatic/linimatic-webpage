@@ -83,13 +83,16 @@ function organizationSchema(description: string) {
   return {
   "@context": "https://schema.org",
   "@type": ["Organization", "LocalBusiness"],
-  "@id": "https://linimatic.dk/#organization",
+  // Derived, never hand-written: the Service and Product nodes on other pages
+  // reference this exact @id, so a literal here would silently detach the whole
+  // entity graph the moment SITE_URL changed — with no build or schema error.
+  "@id": `${SITE_URL}/#organization`,
   name: "Linimatic A/S",
   legalName: "Linimatic A/S",
   description,
-  url: "https://linimatic.dk",
-  logo: "https://linimatic.dk/images/brand/linimatic-logo-zinc.png",
-  image: "https://linimatic.dk/images/services/facility-2022.jpg",
+  url: SITE_URL,
+  logo: `${SITE_URL}/images/brand/linimatic-logo-zinc.png`,
+  image: `${SITE_URL}/images/services/facility-2022.jpg`,
   foundingDate: "1967",
   address: {
     "@type": "PostalAddress",

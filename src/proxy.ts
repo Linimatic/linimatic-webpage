@@ -1,33 +1,55 @@
 import createMiddleware from 'next-intl/middleware';
-import type {NextRequest} from 'next/server';
+import {NextResponse, type NextRequest} from 'next/server';
 import {routing} from './i18n/routing';
 
 const handleI18n = createMiddleware(routing);
 
+const CANONICAL_HOST = 'linimatic.eu';
+
 /**
- * Hosts that are allowed to be indexed. Everything else — Vercel deployment
- * URLs, previews, localhost — is served `noindex`.
+ * Hosts allowed to be indexed. Everything else — Vercel deployment URLs,
+ * previews, localhost — is served `noindex`.
  *
- * linimatic.dk still points at the old WordPress site, so this app is currently
- * reachable only on its Vercel URL. Every page's canonical already claims
- * `https://linimatic.dk/...`, so a crawler that indexed the Vercel host would
- * file pages under a canonical that resolves to an entirely different site.
- * Keying on the request host rather than an env var means indexing switches on
- * by itself the moment DNS moves, with nothing to remember to flip.
- *
- * Apex only. Every canonical names the bare host, so if www ever answers without
- * being redirected to the apex it must not be a second indexable copy of the
- * site. The domain-level www → apex redirect is still the right fix; this makes
- * the failure mode harmless rather than duplicated.
+ * Apex only. Every canonical names the bare host, so if www ever answers
+ * without being redirected to the apex it must not become a second indexable
+ * copy of the site. Keying on the request host rather than an env var means
+ * indexing switches on by itself the moment DNS moves, with nothing to
+ * remember to flip on launch day.
  */
-const INDEXABLE_HOSTS = new Set(['linimatic.dk']);
+const INDEXABLE_HOSTS = new Set([CANONICAL_HOST]);
+
+/**
+ * linimatic.dk is kept as a Danish entry point rather than retired. Someone who
+ * types the .dk address is almost certainly Danish, so the bare domain lands
+ * them on the Danish site instead of on locale detection.
+ *
+ * Only the root is forced to /da. Any deeper path keeps its own path so the
+ * legacy URL map still decides the destination — an old English URL like
+ * /about-us was an English page and should stay English, and rewriting it to
+ * Danish would hand it to a page it never ranked for.
+ *
+ * This requires linimatic.dk to be attached to the Vercel project WITHOUT a
+ * platform-level redirect; a domain redirect configured in Vercel cannot add
+ * the /da prefix for the root alone.
+ */
+const DANISH_ENTRY_HOSTS = new Set(['linimatic.dk', 'www.linimatic.dk']);
 
 export default function proxy(request: NextRequest) {
+  const host = request.headers.get('host')?.split(':')[0].toLowerCase() ?? '';
+
+  if (DANISH_ENTRY_HOSTS.has(host)) {
+    const url = request.nextUrl.clone();
+    url.protocol = 'https:';
+    url.host = CANONICAL_HOST;
+    url.port = '';
+    if (url.pathname === '/') url.pathname = '/da';
+    return NextResponse.redirect(url, 308);
+  }
+
   const response = handleI18n(request);
 
-  const host = request.headers.get('host')?.split(':')[0].toLowerCase() ?? '';
   if (!INDEXABLE_HOSTS.has(host)) {
-    // Sent as a header rather than robots.txt `Disallow` on purpose: a
+    // Sent as a header rather than a robots.txt `Disallow` on purpose: a
     // disallowed page can still be indexed URL-only from an external link,
     // because the crawler never fetches it and so never sees the exclusion.
     response.headers.set('X-Robots-Tag', 'noindex, nofollow');

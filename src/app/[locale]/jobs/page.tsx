@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { buildMetadata, type Locale } from "@/lib/seo";
+import { buildMetadata, SITE_URL, type Locale } from "@/lib/seo";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
@@ -74,10 +74,10 @@ export default async function JobsPage({
     employmentType: pos.type === "Full-time" || pos.type === "Fuldtid" || pos.type === "Vollzeit" ? "FULL_TIME" : "PART_TIME",
     hiringOrganization: {
       "@type": "Organization",
-      "@id": "https://linimatic.dk/#organization",
+      "@id": `${SITE_URL}/#organization`,
       name: "Linimatic A/S",
-      sameAs: "https://linimatic.dk",
-      logo: "https://linimatic.dk/images/brand/linimatic-logo-zinc.png",
+      sameAs: SITE_URL,
+      logo: `${SITE_URL}/images/brand/linimatic-logo-zinc.png`,
     },
     jobLocation: {
       "@type": "Place",

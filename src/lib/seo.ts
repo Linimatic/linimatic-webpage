@@ -1,7 +1,21 @@
 import type { Metadata } from "next";
 import { routing } from "@/i18n/routing";
 
-export const SITE_URL = "https://linimatic.dk";
+/**
+ * Canonical origin for the whole site. Every absolute URL the site emits —
+ * canonicals, hreflang, sitemap, robots, Open Graph, JSON-LD `@id` — must be
+ * derived from this and never written out by hand, or the two copies drift and
+ * entity references silently stop resolving.
+ *
+ * `.eu` rather than `.dk` on purpose. Google treats `.dk` as a country-code TLD
+ * — "a strong signal … your site is explicitly intended for a certain country"
+ * — which caps reach outside Denmark, while `.eu` is on Google's generic list
+ * and carries no country lock-in. The old WordPress site already canonicalised
+ * everything to linimatic.eu, so this is also where the existing search history
+ * lives. Danish relevance is carried by the da pages, hreflang and the DK
+ * address in the Organization schema, not by the suffix.
+ */
+export const SITE_URL = "https://linimatic.eu";
 
 export type Locale = (typeof routing.locales)[number];
 
@@ -9,7 +23,11 @@ const LOCALES = routing.locales as readonly Locale[];
 
 /** Open Graph locale codes (language_TERRITORY) per app locale. */
 export const OG_LOCALE: Record<Locale, string> = {
-  en: "en_DK",
+  // en_GB, not en_DK: the English pages address international and German
+  // buyers, and declaring them as Denmark-territory English narrows the
+  // audience the .eu domain exists to reach. (Open Graph wants a real
+  // language_TERRITORY pair, so bare "en" is not an option.)
+  en: "en_GB",
   da: "da_DK",
   de: "de_DE",
 };

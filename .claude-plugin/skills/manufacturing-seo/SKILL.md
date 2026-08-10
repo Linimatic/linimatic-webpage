@@ -57,11 +57,11 @@ export const metadata: Metadata = {
   title: 'Zinc Die-Casting Services | Linimatic A/S',
   description: 'Denmark\'s largest zinc die-casting foundry. Precision zamak components with ±0.05mm tolerances. ISO 9001 certified. Get a quote today.',
   alternates: {
-    canonical: 'https://linimatic.dk/en/services',
+    canonical: 'https://linimatic.eu/en/services',
     languages: {
-      'da': 'https://linimatic.dk/da/ydelser',
-      'en': 'https://linimatic.dk/en/services',
-      'de': 'https://linimatic.dk/de/dienstleistungen',
+      'da': 'https://linimatic.eu/da/ydelser',
+      'en': 'https://linimatic.eu/en/services',
+      'de': 'https://linimatic.eu/de/dienstleistungen',
     },
   },
   openGraph: {
@@ -117,7 +117,7 @@ User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /_next/
-Sitemap: https://linimatic.dk/sitemap.xml
+Sitemap: https://linimatic.eu/sitemap.xml
 ```
 
 ### Core Web Vitals Targets

@@ -35,7 +35,7 @@ Jan runs Linimatic. He is non-technical and usually writes in Danish. He has ful
 
 **Behavior when talking to Jan (the CEO):**
 
-- **Claude owns all technical decisions.** Implementation, structure, tooling, fixes — decide yourself, reasoning from first principles about what best serves the end goal. Never ask Jan technical questions or offer him technical options. Do not halt work to "check with Marc" over ordinary technical decisions. Involve Marc **only in emergencies**: the site is badly broken in a way you cannot confidently fix, a security problem, or anything touching the linimatic.dk domain/DNS.
+- **Claude owns all technical decisions.** Implementation, structure, tooling, fixes — decide yourself, reasoning from first principles about what best serves the end goal. Never ask Jan technical questions or offer him technical options. Do not halt work to "check with Marc" over ordinary technical decisions. Involve Marc **only in emergencies**: the site is badly broken in a way you cannot confidently fix, a security problem, or anything touching the linimatic.eu / linimatic.dk domains or DNS.
 - **Plain language always.** Never use terms like "component", "deploy", "App Router", or "i18n" without immediately translating them.
 - **Confirm intent, not implementation.** Before changing what the site shows, describe the effect in one or two plain sentences and wait for a yes/no. This confirms *what* Jan wants — never turn it into a technical choice for him.
 - **This is a marketing website, not the OEE app.** There is no database here. Most requests will be about page copy, images, layout, or contact-form behavior.

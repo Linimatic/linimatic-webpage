@@ -34,16 +34,28 @@ const INDEXABLE_HOSTS = new Set([CANONICAL_HOST]);
  */
 const DANISH_ENTRY_HOSTS = new Set(['linimatic.dk', 'www.linimatic.dk']);
 
+/** Send a request to the canonical host, optionally forcing a landing path. */
+function toCanonical(request: NextRequest, forceRootPath?: string) {
+  const url = request.nextUrl.clone();
+  url.protocol = 'https:';
+  url.host = CANONICAL_HOST;
+  url.port = '';
+  if (forceRootPath && url.pathname === '/') url.pathname = forceRootPath;
+  return NextResponse.redirect(url, 308);
+}
+
 export default function proxy(request: NextRequest) {
   const host = request.headers.get('host')?.split(':')[0].toLowerCase() ?? '';
 
   if (DANISH_ENTRY_HOSTS.has(host)) {
-    const url = request.nextUrl.clone();
-    url.protocol = 'https:';
-    url.host = CANONICAL_HOST;
-    url.port = '';
-    if (url.pathname === '/') url.pathname = '/da';
-    return NextResponse.redirect(url, 308);
+    return toCanonical(request, '/da');
+  }
+
+  // www folds into the apex rather than merely being excluded from indexing:
+  // noindex alone leaves a fully working but invisible duplicate of the site if
+  // the domain-level www → apex redirect is ever missing or removed.
+  if (host === `www.${CANONICAL_HOST}`) {
+    return toCanonical(request);
   }
 
   const response = handleI18n(request);

@@ -3,7 +3,7 @@
 > **Brand DNA**: "The best for the most complex."
 > **Positioning**: Premium complexity specialist. Not the cheapest — the most capable. Expertise, reliability, quality.
 > **Stack**: Next.js 16 (App Router), TypeScript, Tailwind CSS v4, trilingual (DA/EN/DE)
-> **Domain**: linimatic.dk
+> **Domain**: linimatic.eu (canonical; linimatic.dk redirects in, landing on /da)
 
 This plan was designed from first principles, validated by SEO best practices (2025–2026) and stress-tested against three B2B buyer personas: Anna (senior engineer), Henrik (procurement manager), and Søren (VP operations / decision maker).
 
@@ -47,7 +47,7 @@ Its job is to answer three questions in 30 seconds: What do you do? Are you cred
 ## 2. Site Architecture
 
 ```
-linimatic.dk
+linimatic.eu
 ├── /[locale]/                          ← Homepage
 ├── /[locale]/services/                 ← Services hub (capability matrix)
 │   ├── /services/prototyping           ← Prototyping & Design Review

@@ -37,7 +37,7 @@ This is the default workflow. Steps 2 and 6 are gates — never skip them.
 
 **7. Quality gate.** Run the definition-of-done checklist (§7). Anything unchecked either gets fixed or becomes an explicit, labeled placeholder.
 
-**8. Publish.** Jan publishes via the `/udgiv` command; Marc commits and pushes himself. Never claim the change is visible on linimatic.dk — the new site isn't on the domain yet.
+**8. Publish.** Jan publishes via the `/udgiv` command; Marc commits and pushes himself. Never claim the change is visible on linimatic.dk or linimatic.eu — the new site isn't on either domain yet.
 
 **Fast path — finishing an existing case.** Many jobs are gap-filling, not new cases: `grep -r "PLADSHOLDER" messages/` finds every result still missing a number. For those, skip to step 2, ask only the one or two questions that close the gap, then update **all three** language files and republish.
 

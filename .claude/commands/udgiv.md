@@ -22,4 +22,4 @@ Følg disse trin i rækkefølge:
    - Hvad der blev gemt og udgivet
    - At den nye hjemmeside vil være opdateret inden for cirka 1-2 minutter
 
-**Vigtigt:** linimatic.dk viser stadig den GAMLE hjemmeside — den nye hjemmeside ligger indtil videre kun på sin egen midlertidige adresse hos Vercel. Sig aldrig at ændringerne kan ses på linimatic.dk. Domænet bliver først flyttet til den nye hjemmeside senere, og kun af Marc.
+**Vigtigt:** Både linimatic.dk og linimatic.eu viser stadig den GAMLE hjemmeside — den nye hjemmeside ligger indtil videre kun på sin egen midlertidige adresse hos Vercel. Sig aldrig at ændringerne kan ses på linimatic.dk eller linimatic.eu. Domænerne bliver først flyttet til den nye hjemmeside senere, og kun af Marc.

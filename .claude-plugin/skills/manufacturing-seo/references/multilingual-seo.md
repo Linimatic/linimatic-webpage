@@ -5,10 +5,10 @@
 ### Every Page Must Include
 
 ```html
-<link rel="alternate" hreflang="da" href="https://linimatic.dk/da/{path}" />
-<link rel="alternate" hreflang="en" href="https://linimatic.dk/en/{path}" />
-<link rel="alternate" hreflang="de" href="https://linimatic.dk/de/{path}" />
-<link rel="alternate" hreflang="x-default" href="https://linimatic.dk/en/{path}" />
+<link rel="alternate" hreflang="da" href="https://linimatic.eu/da/{path}" />
+<link rel="alternate" hreflang="en" href="https://linimatic.eu/en/{path}" />
+<link rel="alternate" hreflang="de" href="https://linimatic.eu/de/{path}" />
+<link rel="alternate" hreflang="x-default" href="https://linimatic.eu/en/{path}" />
 ```
 
 **Critical rules:**
@@ -22,12 +22,12 @@
 ```tsx
 export const metadata: Metadata = {
   alternates: {
-    canonical: 'https://linimatic.dk/en/services',
+    canonical: 'https://linimatic.eu/en/services',
     languages: {
-      'da': 'https://linimatic.dk/da/ydelser',
-      'en': 'https://linimatic.dk/en/services',
-      'de': 'https://linimatic.dk/de/dienstleistungen',
-      'x-default': 'https://linimatic.dk/en/services',
+      'da': 'https://linimatic.eu/da/ydelser',
+      'en': 'https://linimatic.eu/en/services',
+      'de': 'https://linimatic.eu/de/dienstleistungen',
+      'x-default': 'https://linimatic.eu/en/services',
     },
   },
 };

@@ -2,6 +2,20 @@
 
 Complete JSON-LD structured data templates for each Linimatic page type. Implement in the page's `<head>` via Next.js metadata or a `<script type="application/ld+json">` tag.
 
+> **Absolute URLs below are illustrative — build them from `SITE_URL` in
+> `src/lib/seo.ts`, never as literals.** The Service, Product and JobPosting nodes
+> reference the Organization by `@id`, so the two sides have to agree exactly. A
+> hardcoded `@id` matches only until the origin changes, and then every node quietly
+> points at an Organization that does not exist — the entity graph detaches with no
+> build error, no schema error and nothing in `verify:full` to catch it. That is a real
+> incident on this site, not a hypothetical: the domain moved from `.dk` to `.eu` and
+> the literals did not move with it.
+>
+> ```ts
+> "@id": `${SITE_URL}/#organization`,
+> provider: { "@id": `${SITE_URL}/#organization` },
+> ```
+
 ## Organization (Global — every page)
 
 Include on every page, typically in the root layout:
@@ -10,18 +24,18 @@ Include on every page, typically in the root layout:
 {
   "@context": "https://schema.org",
   "@type": ["Organization", "LocalBusiness"],
-  "@id": "https://linimatic.dk/#organization",
+  "@id": "https://linimatic.eu/#organization",
   "name": "Linimatic A/S",
   "legalName": "Linimatic A/S",
   "description": "Denmark's largest dedicated zinc die-casting foundry. Precision zamak components from prototype to series production since 1967.",
-  "url": "https://linimatic.dk",
+  "url": "https://linimatic.eu",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://linimatic.dk/images/linimatic-logo.svg",
+    "url": "https://linimatic.eu/images/linimatic-logo.svg",
     "width": 300,
     "height": 80
   },
-  "image": "https://linimatic.dk/images/linimatic-facility.jpg",
+  "image": "https://linimatic.eu/images/linimatic-facility.jpg",
   "foundingDate": "1967",
   "address": {
     "@type": "PostalAddress",
@@ -86,19 +100,19 @@ Include on every page, typically in the root layout:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://linimatic.dk/en"
+      "item": "https://linimatic.eu/en"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Services",
-      "item": "https://linimatic.dk/en/services"
+      "item": "https://linimatic.eu/en/services"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Zinc Die-Casting",
-      "item": "https://linimatic.dk/en/services/zinc-die-casting"
+      "item": "https://linimatic.eu/en/services/zinc-die-casting"
     }
   ]
 }
@@ -112,7 +126,7 @@ Include on every page, typically in the root layout:
   "@type": "Service",
   "name": "Zinc Die-Casting",
   "description": "Precision hot-chamber zinc die-casting in zamak alloys. Volumes from 100 to 5 million units per year with ±0.05mm tolerances.",
-  "provider": {"@id": "https://linimatic.dk/#organization"},
+  "provider": {"@id": "https://linimatic.eu/#organization"},
   "serviceType": "Manufacturing",
   "category": "Die-Casting",
   "areaServed": {
@@ -152,15 +166,15 @@ Include on every page, typically in the root layout:
   "@type": "Article",
   "headline": "Automotive Bracket Production — 2.4M Units/Year",
   "description": "How Linimatic achieved 99.2% first-pass yield on precision automotive brackets using 4-cavity zinc die-casting.",
-  "author": {"@id": "https://linimatic.dk/#organization"},
-  "publisher": {"@id": "https://linimatic.dk/#organization"},
+  "author": {"@id": "https://linimatic.eu/#organization"},
+  "publisher": {"@id": "https://linimatic.eu/#organization"},
   "datePublished": "2025-06-15",
   "dateModified": "2025-06-20",
-  "image": "https://linimatic.dk/images/cases/automotive-bracket.jpg",
+  "image": "https://linimatic.eu/images/cases/automotive-bracket.jpg",
   "about": {
     "@type": "Product",
     "name": "Zinc Die-Cast Automotive Bracket",
-    "manufacturer": {"@id": "https://linimatic.dk/#organization"},
+    "manufacturer": {"@id": "https://linimatic.eu/#organization"},
     "material": "Zamak 5"
   }
 }
@@ -204,7 +218,7 @@ Include on every page, typically in the root layout:
   "datePosted": "2025-09-01",
   "validThrough": "2025-12-01",
   "employmentType": "FULL_TIME",
-  "hiringOrganization": {"@id": "https://linimatic.dk/#organization"},
+  "hiringOrganization": {"@id": "https://linimatic.eu/#organization"},
   "jobLocation": {
     "@type": "Place",
     "address": {
@@ -223,10 +237,10 @@ Include on every page, typically in the root layout:
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": "New 400-Ton Die-Casting Machine Expands Capacity",
-  "author": {"@id": "https://linimatic.dk/#organization"},
-  "publisher": {"@id": "https://linimatic.dk/#organization"},
+  "author": {"@id": "https://linimatic.eu/#organization"},
+  "publisher": {"@id": "https://linimatic.eu/#organization"},
   "datePublished": "2025-11-10",
-  "image": "https://linimatic.dk/images/news/new-machine.jpg",
+  "image": "https://linimatic.eu/images/news/new-machine.jpg",
   "articleSection": "Company News"
 }
 ```

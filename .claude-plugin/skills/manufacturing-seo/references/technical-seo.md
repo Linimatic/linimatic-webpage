@@ -10,7 +10,9 @@ Create `src/app/sitemap.ts`:
 import type { MetadataRoute } from 'next';
 
 const locales = ['da', 'en', 'de'];
-const baseUrl = 'https://linimatic.dk';
+// Illustrative only — the real sitemap imports SITE_URL from '@/lib/seo', which
+// is the single source for the origin. Do not redeclare it here.
+const baseUrl = 'https://linimatic.eu';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
@@ -63,7 +65,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/_next/', '/admin/'],
       },
     ],
-    sitemap: 'https://linimatic.dk/sitemap.xml',
+    sitemap: 'https://linimatic.eu/sitemap.xml',
   };
 }
 ```
@@ -102,7 +104,7 @@ export default function robots(): MetadataRoute.Robots {
 
 ### Pattern
 ```
-https://linimatic.dk/{locale}/{section}/{slug}
+https://linimatic.eu/{locale}/{section}/{slug}
 ```
 
 ### URL Mapping Table

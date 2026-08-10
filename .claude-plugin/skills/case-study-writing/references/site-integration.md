@@ -100,4 +100,4 @@ Off-the-record information stays out of this file and out of the repo.
 - **Preview**: start the `linimatic-webpage` launch config (`preview_start`) and check `/da/cases/<slug>`, `/en/cases/<slug>`, `/de/cases/<slug>` **and** the `/cases` listing card. Known quirk: Turbopack can serve stale CSS after config-level style changes — if styling looks wrong, delete `.next/` and restart before debugging further.
 - **Verify registrations** the fast way: `npm run build` fails or warns loudly on most wiring mistakes and is required before publishing anyway.
 - **Publish**: with Jan, use the `/udgiv` command (build → commit → push → Vercel deploys in ~1–2 min). With Marc, ordinary git flow on `master`.
-- **Never** say the change is visible on **linimatic.dk** — the domain still serves the old WordPress site; the new site deploys to a Vercel address only.
+- **Never** say the change is visible on **linimatic.dk** or **linimatic.eu** — both still serve the old WordPress site; the new site deploys to a Vercel address only.

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
+import { useConsentDecided } from "@/components/CookieConsent";
 
 type FaderItem =
   | { type: "image"; src: string; alt: string }
@@ -36,9 +37,13 @@ export function HeroImageFader({
 }) {
   const [index, setIndex] = useState(0);
   const videoRefs = useRef<Array<HTMLVideoElement | null>>([]);
+  // Hold on the first item until the visitor has answered the cookie banner:
+  // nothing should move behind a consent choice that is still outstanding.
+  const consentDecided = useConsentDecided();
 
   useEffect(() => {
     if (items.length < 2) return;
+    if (!consentDecided) return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
     const current = items[index];
@@ -47,21 +52,21 @@ export function HeroImageFader({
       setIndex((prev) => (prev + 1) % items.length);
     }, hold);
     return () => clearTimeout(id);
-  }, [index, items, holdMs]);
+  }, [index, items, holdMs, consentDecided]);
 
   useEffect(() => {
     items.forEach((item, i) => {
       if (item.type !== "video") return;
       const el = videoRefs.current[i];
       if (!el) return;
-      if (i === index) {
+      if (i === index && consentDecided) {
         el.currentTime = 0;
         el.play().catch(() => {});
       } else {
         el.pause();
       }
     });
-  }, [index, items]);
+  }, [index, items, consentDecided]);
 
   return (
     <>

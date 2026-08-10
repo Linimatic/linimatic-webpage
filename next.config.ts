@@ -1,10 +1,12 @@
 import type { NextConfig } from "next";
 import createNextIntlPlugin from 'next-intl/plugin';
+import { legacyRedirects } from "./src/lib/legacy-redirects";
 
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 const nextConfig: NextConfig = {
   reactCompiler: true,
+  redirects: async () => legacyRedirects(),
   experimental: {
     serverActions: {
       // contact form accepts CAD attachments up to 15MB; leave headroom for multipart overhead

@@ -1434,8 +1434,7 @@
     "title": "CO2 and Climate",
     "intro": "At Linimatic, we continuously work to reduce our CO2 footprint through efficient production, solar power, and responsible resource management. This page will be updated with concrete figures and initiatives.",
     "dataLabel": "CO2 emissions over time",
-    "unit": "tonnes CO2e",
-    "pendingLabel": "Not yet available",
+    "unit": "TONNES CO2e",
     "note": "The figures cover the company's total operations and are location-based for scope 1, 2 and 3. Around 15% of our electricity comes from our own solar panels."
   },
   "codeOfConductPage": {

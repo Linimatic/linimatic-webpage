@@ -28,6 +28,7 @@ const co2Data: { year: number; value: number }[] = [
   { year: 2022, value: 1446 },
   { year: 2023, value: 1431 },
   { year: 2024, value: 1430 },
+  { year: 2025, value: 1254 },
 ];
 
 export default async function Co2Page({
@@ -76,7 +77,9 @@ export default async function Co2Page({
                 <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight font-[family-name:var(--font-mono)]">
                   {numberFormat.format(stat.value)}
                 </div>
-                <div className="mt-1 text-[11px] tracking-[0.1em] uppercase text-ember font-[family-name:var(--font-mono)]">
+                {/* No `uppercase` here: CO2e is a fixed notation whose "e" must stay
+                    lowercase, so the caps live in the translated string instead. */}
+                <div className="mt-1 text-[11px] tracking-[0.1em] text-ember font-[family-name:var(--font-mono)]">
                   {t("unit")}
                 </div>
                 <div className="mt-2 text-sm text-zinc-500 font-[family-name:var(--font-mono)]">
@@ -84,17 +87,6 @@ export default async function Co2Page({
                 </div>
               </div>
             ))}
-            <div className="py-6 sm:border-l border-zinc-200 sm:pl-6">
-              <div className="text-3xl sm:text-4xl font-bold text-zinc-300 tracking-tight font-[family-name:var(--font-mono)]">
-                —
-              </div>
-              <div className="mt-1 text-[11px] tracking-[0.1em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">
-                {t("pendingLabel")}
-              </div>
-              <div className="mt-2 text-sm text-zinc-400 font-[family-name:var(--font-mono)]">
-                2025
-              </div>
-            </div>
           </div>
           <p className="mt-6 text-sm text-zinc-500 leading-relaxed">{t("note")}</p>
         </div>

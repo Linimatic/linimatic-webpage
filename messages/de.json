@@ -1437,8 +1437,7 @@
     "title": "CO2 und Klima",
     "intro": "Bei Linimatic arbeiten wir kontinuierlich daran, unseren CO2-Fußabdruck durch effiziente Produktion, Solarenergie und verantwortungsvolles Ressourcenmanagement zu reduzieren. Diese Seite wird laufend mit konkreten Zahlen und Initiativen aktualisiert.",
     "dataLabel": "Entwicklung der CO2-Emissionen",
-    "unit": "Tonnen CO2e",
-    "pendingLabel": "Wird später veröffentlicht",
+    "unit": "TONNEN CO2e",
     "note": "Die Zahlen umfassen den gesamten Betrieb des Unternehmens und sind standortbasiert für Scope 1, 2 und 3. Rund 15% unseres Stromverbrauchs stammt aus eigenen Solaranlagen."
   },
   "codeOfConductPage": {

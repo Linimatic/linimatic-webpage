@@ -1438,8 +1438,7 @@
     "title": "CO2 og klima",
     "intro": "Hos Linimatic arbejder vi løbende på at reducere vores CO2-aftryk gennem effektiv produktion, solceller og ansvarlig ressourceforvaltning. Denne side opdateres løbende med konkrete tal og initiativer.",
     "dataLabel": "Udvikling i CO2-udledning",
-    "unit": "ton CO2e",
-    "pendingLabel": "Opgøres senere",
+    "unit": "TON CO2e",
     "note": "Tallene dækker virksomhedens samlede drift og er lokationsbaserede for scope 1, 2 og 3. Cirka 15% af vores elforbrug kommer fra egne solceller."
   },
   "codeOfConductPage": {

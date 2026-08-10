@@ -71,6 +71,7 @@ export async function generateMetadata({
     path: `/cases/${slug}`,
     title,
     description,
+    ownOgImage: true,
   });
 }
 

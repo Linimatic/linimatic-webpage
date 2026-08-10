@@ -97,6 +97,7 @@ export async function generateMetadata({
     path: `/services/${slug}`,
     title,
     description,
+    ownOgImage: true,
   });
 }
 

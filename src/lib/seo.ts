@@ -55,6 +55,13 @@ export function localizedAlternates(
  * canonical, hreflang alternates, and per-locale Open Graph.
  * Set `absoluteTitle` to bypass the "%s | Linimatic A/S" template (used by the
  * homepage, whose title already carries the brand).
+ *
+ * `ownOgImage` marks the segments that ship their own `opengraph-image` route
+ * (services and cases, whose cards carry the page title). Everything else
+ * points at the locale root card. The image has to be named explicitly here:
+ * Next's `opengraph-image` file convention applies only to the segment that
+ * declares it and does not cascade to nested routes, so relying on inheritance
+ * silently drops og:image from every page that has no file of its own.
  */
 export function buildMetadata({
   locale,
@@ -62,13 +69,17 @@ export function buildMetadata({
   title,
   description,
   absoluteTitle = false,
+  ownOgImage = false,
 }: {
   locale: Locale;
   path: string;
   title: string;
   description: string;
   absoluteTitle?: boolean;
+  ownOgImage?: boolean;
 }): Metadata {
+  const ogImage = `${SITE_URL}/${locale}${ownOgImage ? path : ""}/opengraph-image`;
+
   return {
     title: absoluteTitle ? { absolute: title } : title,
     description,
@@ -83,7 +94,7 @@ export function buildMetadata({
       alternateLocale: ogAlternateLocales(locale),
       images: [
         {
-          url: `${SITE_URL}/${locale}/opengraph-image`,
+          url: ogImage,
           width: 1200,
           height: 630,
           type: "image/png",

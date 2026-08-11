@@ -6,6 +6,14 @@ import { Resend } from "resend";
 // Built on first use, not at module load: a missing or rotated API key would
 // otherwise throw while the module is being evaluated, which surfaces to the
 // visitor as a raw 500 page instead of the form's own error message.
+//
+// DATA RESIDENCY — the privacy policy (privacyPage.dataSharingItems in
+// messages/*.json) tells visitors in all three languages that contact-form
+// data is processed on servers in the EU (Ireland). That is an account-level
+// region setting on Resend, confirmed by Marc as Dublin — it is not pinned
+// anywhere in this code. If the account region is ever changed, or the form is
+// pointed at a different provider, the privacy policy becomes false and must
+// be updated in the same change.
 let resendClient: Resend | null = null;
 
 function getResend(): Resend {

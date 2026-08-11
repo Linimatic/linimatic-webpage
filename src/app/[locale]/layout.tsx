@@ -108,7 +108,7 @@ function organizationSchema(description: string) {
     longitude: 12.1676,
   },
   telephone: "+45 4876 4040",
-  email: "info@linimatic.dk",
+  email: "linimatic@linimatic.dk",
   vatID: "DK20254386",
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",

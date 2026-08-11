@@ -254,7 +254,7 @@ export default async function JobsPage({
 
                     <div className="mt-8">
                       <a
-                        href={`mailto:${pos.contactEmail ?? "info@linimatic.dk"}?subject=${encodeURIComponent(t("applySubject", { position: pos.title }))}`}
+                        href={`mailto:${pos.contactEmail ?? "linimatic@linimatic.dk"}?subject=${encodeURIComponent(t("applySubject", { position: pos.title }))}`}
                         className="group inline-flex items-center gap-3 bg-ember hover:bg-ember-light px-6 py-3 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
                       >
                         {t("applyButton")}
@@ -327,7 +327,7 @@ export default async function JobsPage({
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:info@linimatic.dk?subject=Open%20Application%20%E2%80%94%20Linimatic"
+                href="mailto:linimatic@linimatic.dk?subject=Open%20Application%20%E2%80%94%20Linimatic"
                 className="group inline-flex items-center justify-center gap-3 bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
               >
                 {t("openApplicationButton")}

@@ -51,7 +51,7 @@ Include on every page, typically in the root layout:
     "longitude": 12.1648
   },
   "telephone": "+45 [PHONE]",
-  "email": "info@linimatic.dk",
+  "email": "linimatic@linimatic.dk",
   "sameAs": [
     "https://www.linkedin.com/company/linimatic",
     "https://www.facebook.com/linimatic"

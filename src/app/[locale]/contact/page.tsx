@@ -153,10 +153,10 @@ export default async function ContactPage({
                     </p>
                     <p>
                       <a
-                        href="mailto:info@linimatic.dk"
+                        href="mailto:linimatic@linimatic.dk"
                         className="text-zinc-700 hover:text-ember transition-colors"
                       >
-                        info@linimatic.dk
+                        linimatic@linimatic.dk
                       </a>
                     </p>
                   </div>

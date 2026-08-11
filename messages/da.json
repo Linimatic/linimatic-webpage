@@ -283,7 +283,7 @@
       "country": "Danmark"
     },
     "phone": "+45 4876 4040",
-    "email": "info@linimatic.dk",
+    "email": "linimatic@linimatic.dk",
     "copyright": "\u00a9 {year} Linimatic A/S · CVR DK-20254386",
     "privacy": "Privatlivspolitik",
     "cookies": "Cookiepolitik",
@@ -739,9 +739,9 @@
       "error": {
         "missing_fields": "Udfyld venligst alle påkrævede felter.",
         "invalid_email": "Indtast venligst en gyldig e-mailadresse.",
-        "rate_limited": "Der er sendt for mange beskeder fra denne forbindelse. Vent et øjeblik og prøv igen, eller skriv direkte til info@linimatic.dk.",
+        "rate_limited": "Der er sendt for mange beskeder fra denne forbindelse. Vent et øjeblik og prøv igen, eller skriv direkte til linimatic@linimatic.dk.",
         "too_long": "Et eller flere felter overskrider den maksimale længde.",
-        "send_failed": "Din besked kunne ikke sendes. Prøv igen eller skriv direkte til info@linimatic.dk."
+        "send_failed": "Din besked kunne ikke sendes. Prøv igen eller skriv direkte til linimatic@linimatic.dk."
       }
     },
     "yourContacts": "Dine kontakter",
@@ -1585,7 +1585,7 @@
       "Indsigelse — Gør indsigelse mod behandling baseret på legitim interesse.",
       "Tilbagetrækning af samtykke — Træk tidligere givet samtykke tilbage til enhver tid."
     ],
-    "yourRightsContact": "For at udøve dine rettigheder, kontakt os på info@linimatic.dk. Vi svarer inden for en måned, medmindre en lovlig forlængelse gælder.",
+    "yourRightsContact": "For at udøve dine rettigheder, kontakt os på linimatic@linimatic.dk. Vi svarer inden for en måned, medmindre en lovlig forlængelse gælder.",
     "complaintsHeading": "Klager",
     "complaintsText": "Hvis du mener, at dine databeskyttelsesrettigheder er blevet krænket, har du ret til at indgive en klage til Datatilsynet:",
     "changesHeading": "Ændringer af denne politik",

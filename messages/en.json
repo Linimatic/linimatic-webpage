@@ -280,7 +280,7 @@
       "country": "Denmark"
     },
     "phone": "+45 4876 4040",
-    "email": "info@linimatic.dk",
+    "email": "linimatic@linimatic.dk",
     "copyright": "\u00a9 {year} Linimatic A/S \u00b7 CVR DK-20254386",
     "privacy": "Privacy",
     "cookies": "Cookies",
@@ -736,9 +736,9 @@
       "error": {
         "missing_fields": "Please fill in all required fields.",
         "invalid_email": "Please enter a valid email address.",
-        "rate_limited": "Too many messages have been sent from this connection. Please wait a moment and try again, or write directly to info@linimatic.dk.",
+        "rate_limited": "Too many messages have been sent from this connection. Please wait a moment and try again, or write directly to linimatic@linimatic.dk.",
         "too_long": "One or more fields exceed the maximum length.",
-        "send_failed": "Failed to send your message. Please try again or email us directly at info@linimatic.dk."
+        "send_failed": "Failed to send your message. Please try again or email us directly at linimatic@linimatic.dk."
       }
     },
     "yourContacts": "Your Contacts",
@@ -1581,7 +1581,7 @@
       "Objection \u2014 Object to processing based on legitimate interest.",
       "Withdraw consent \u2014 Withdraw previously given consent at any time."
     ],
-    "yourRightsContact": "To exercise any of these rights, contact us at info@linimatic.dk. We will respond within one month, unless a lawful extension applies.",
+    "yourRightsContact": "To exercise any of these rights, contact us at linimatic@linimatic.dk. We will respond within one month, unless a lawful extension applies.",
     "complaintsHeading": "Complaints",
     "complaintsText": "If you believe your data protection rights have been violated, you have the right to lodge a complaint with the Danish Data Protection Agency (Datatilsynet):",
     "changesHeading": "Changes to This Policy",

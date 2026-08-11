@@ -114,7 +114,7 @@ export function Footer() {
                   </a>
                 </p>
                 <p>
-                  <a href="mailto:info@linimatic.dk" className="text-zinc-300 hover:text-ember transition-colors">
+                  <a href="mailto:linimatic@linimatic.dk" className="text-zinc-300 hover:text-ember transition-colors">
                     {t("email")}
                   </a>
                 </p>

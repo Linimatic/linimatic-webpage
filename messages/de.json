@@ -283,7 +283,7 @@
       "country": "Dänemark"
     },
     "phone": "+45 4876 4040",
-    "email": "info@linimatic.dk",
+    "email": "linimatic@linimatic.dk",
     "copyright": "\u00a9 {year} Linimatic A/S · USt-IdNr. DK-20254386",
     "privacy": "Datenschutz",
     "cookies": "Cookies",
@@ -739,9 +739,9 @@
       "error": {
         "missing_fields": "Bitte füllen Sie alle Pflichtfelder aus.",
         "invalid_email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
-        "rate_limited": "Von dieser Verbindung wurden zu viele Nachrichten gesendet. Bitte warten Sie einen Moment und versuchen Sie es erneut, oder schreiben Sie direkt an info@linimatic.dk.",
+        "rate_limited": "Von dieser Verbindung wurden zu viele Nachrichten gesendet. Bitte warten Sie einen Moment und versuchen Sie es erneut, oder schreiben Sie direkt an linimatic@linimatic.dk.",
         "too_long": "Ein oder mehrere Felder überschreiten die maximale Länge.",
-        "send_failed": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie direkt an info@linimatic.dk."
+        "send_failed": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie direkt an linimatic@linimatic.dk."
       }
     },
     "yourContacts": "Ihre Ansprechpartner",
@@ -1584,7 +1584,7 @@
       "Widerspruch — Widersprechen Sie der Verarbeitung auf Grundlage berechtigter Interessen.",
       "Widerruf der Einwilligung — Widerrufen Sie eine zuvor erteilte Einwilligung jederzeit."
     ],
-    "yourRightsContact": "Zur Ausübung dieser Rechte kontaktieren Sie uns unter info@linimatic.dk. Wir antworten innerhalb eines Monats, sofern keine gesetzliche Verlängerung gilt.",
+    "yourRightsContact": "Zur Ausübung dieser Rechte kontaktieren Sie uns unter linimatic@linimatic.dk. Wir antworten innerhalb eines Monats, sofern keine gesetzliche Verlängerung gilt.",
     "complaintsHeading": "Beschwerden",
     "complaintsText": "Wenn Sie der Ansicht sind, dass Ihre Datenschutzrechte verletzt wurden, haben Sie das Recht, eine Beschwerde bei der dänischen Datenschutzbehörde (Datatilsynet) einzureichen:",
     "changesHeading": "Änderungen dieser Richtlinie",

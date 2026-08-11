@@ -63,8 +63,8 @@ export default async function PrivacyPolicyPage({
             Bomose Allé 12<br />
             DK-3200 Helsinge, Denmark<br />
             CVR: DK-20254386<br />
-            <a href="mailto:info@linimatic.dk" className="text-ember hover:text-ember-light transition-colors">
-              info@linimatic.dk
+            <a href="mailto:linimatic@linimatic.dk" className="text-ember hover:text-ember-light transition-colors">
+              linimatic@linimatic.dk
             </a><br />
             <span className="font-[family-name:var(--font-mono)]">+45 4876 4040</span>
           </p>

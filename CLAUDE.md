@@ -107,6 +107,39 @@ Tailwind CSS v4 is configured through PostCSS (`postcss.config.mjs`). Theme toke
 ### Fonts
 Currently uses Geist Sans and Geist Mono via `next/font/google`. These should be replaced with brand-appropriate fonts for Linimatic.
 
+## Dependency security
+
+Dependabot alerts, security updates and the dependency graph are enabled on the repo, and
+`.github/dependabot.yml` restricts Dependabot to security PRs — deliberately no weekly version-bump
+queue, since nobody here would triage it and every unmerged PR still costs a Vercel preview build.
+
+**An open-alert count is not a vulnerability count.** GitHub only closes an alert when the
+dependency graph re-parses the lockfile. This repo sat with the graph disabled, so alerts froze
+against versions the lockfile had left behind months earlier — the badge read 60 while `npm audit`
+read clean. GitHub offers no way to force a rescan. Never quote that number, least of all to Jan,
+without checking the real state first:
+
+```bash
+npm audit                                    # 0 vulnerabilities = nothing installed is vulnerable
+gh api repos/{owner}/{repo}/dependabot/alerts --paginate \
+  -q '.[] | select(.state=="open") | [.dependency.package.name,
+       .security_vulnerability.first_patched_version.identifier] | @tsv'
+```
+
+Compare each `first_patched_version` against the resolved version in `package-lock.json`. Lock at
+or above it → that alert is stale, not a finding. To check whether the graph itself is alive:
+
+```bash
+gh api repos/{owner}/{repo}/dependency-graph/compare/HEAD~1...HEAD   # 403 = graph disabled
+```
+
+A 403 means alerts will never self-clear. Re-run
+`gh api -X PUT repos/{owner}/{repo}/automated-security-fixes`, which turns the graph back on as a
+side effect, then give it a few minutes.
+
+For Jan, the plain-language version is: the site's parts are up to date, GitHub's warning list was
+just stuck showing old entries, and it now updates itself.
+
 ## Responsive design — applies to every visual change
 
 The site must look deliberate at **every** width, not just the one that happened to be open in the preview. Layout, spacing, type size and placement are not finished until they have been checked across the range below. A width you did not look at is not "probably fine" — it is unreviewed, and unreviewed widths are where this site currently breaks.

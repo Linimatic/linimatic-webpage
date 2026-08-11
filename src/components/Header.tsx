@@ -16,6 +16,11 @@ const serviceKeys = [
   { key: "zinkTemadag", href: "/zink-temadag" },
 ];
 
+const aboutKeys = [
+  { key: "about", href: "/about" },
+  { key: "news", href: "/about/news" },
+];
+
 const sustainabilityKeys = [
   { key: "co2", href: "/about/co2" },
   { key: "codeOfConduct", href: "/about/code-of-conduct" },
@@ -31,7 +36,7 @@ const navKeys = [
   { key: "cases", href: "/cases" },
   { key: "whyZinc", href: "/why-zinc" },
   { key: "zinkers", href: "/zinkers" },
-  { key: "about", href: "/about" },
+  { key: "about", href: "/about", hasDropdown: true },
   { key: "sustainability", href: "/about/sustainability", hasDropdown: true },
   { key: "jobs", href: "/jobs" },
   { key: "contact", href: "/contact", hasDropdown: true },
@@ -201,6 +206,21 @@ export function Header() {
                             </Link>
                           ))}
                         </>
+                      ) : item.key === "about" ? (
+                        aboutKeys.map((sub) => (
+                          <Link
+                            key={sub.href}
+                            href={sub.href}
+                            role="menuitem"
+                            className={`block px-4 py-2.5 text-sm rounded-sm transition-colors ${
+                              scrolled
+                                ? "text-zinc-600 hover:text-zinc-900 hover:bg-zinc-50"
+                                : "text-zinc-400 hover:text-white hover:bg-zinc-800"
+                            }`}
+                          >
+                            {t(`aboutList.${sub.key}`)}
+                          </Link>
+                        ))
                       ) : item.key === "sustainability" ? (
                         sustainabilityKeys.map((sub) => (
                           <Link

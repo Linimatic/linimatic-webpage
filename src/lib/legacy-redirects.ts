@@ -198,8 +198,9 @@ const LEGACY_ROUTES: LegacyRoute[] = [
     to: "/zink-temadag",
   },
 
-  // ── Retired news section → closest topical page ──────────────────────────
-  { en: "news", da: "nyheder", de: "nachrichten", to: "/about" },
+  // ── Old news section → the new one; individual retired posts have no
+  //    counterpart here, so they still point at the closest topical page ─────
+  { en: "news", da: "nyheder", de: "nachrichten", to: "/about/news" },
   {
     en: "linimatic-improve-casting-tool-maintenance",
     da: "linimatic-forbedrer-vedligeholdelse-af-stobevaerktoj",

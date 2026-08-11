@@ -54,6 +54,7 @@ The site is multilingual (Danish, English, German) and serves as both a marketin
 - **Why Zinc** — educational content on zinc die-casting benefits
 - **Services** — 10 service categories (prototypes, casting foundry, post-processing, surface coating, quality assurance, assembly, etc.)
 - **Cases** — customer case studies. Creating or editing these: follow `.claude-plugin/skills/case-study-writing/SKILL.md` (fact-gathering questionnaire + site wiring included)
+- **News** (`/about/news`) — short posts under About. Adding one is two steps: an entry at the top of `NEWS_POSTS` in `src/lib/routes.ts` (slug, ISO date, optional image under `public/images/`), and a `newsPage.items.<slug>` block — `title`, `excerpt`, `body` (array of paragraphs) — in **all three** `messages/*.json`. The listing, the post page, the sitemap and the "Seneste nyt" block on `/about` all read from those two places; nothing else needs touching.
 - **Sinkers/Zinkers** — lead-free zinc fishing gear (a notable product line)
 - **News** — blog/updates
 - **About Us**, **Jobs**, **Contact**

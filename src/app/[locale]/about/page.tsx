@@ -5,6 +5,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { NEWS_POSTS, formatNewsDate } from "@/lib/routes";
 
 export async function generateMetadata({
   params,
@@ -40,6 +41,9 @@ export default async function AboutPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("aboutPage");
+  const tNews = await getTranslations("newsPage");
+
+  const latestNews = NEWS_POSTS.slice(0, 3);
 
   const stats = t.raw("stats") as Array<{ value: string; label: string }>;
   const certifications = t.raw("certifications") as Array<{
@@ -240,6 +244,73 @@ export default async function AboutPage({
           </div>
         </div>
       </section>
+
+      {/* Latest news — also the only route into the news section on narrow
+          widths, where the header's About dropdown is not rendered. */}
+      {latestNews.length > 0 && (
+        <section className="bg-white py-14 sm:py-16 lg:py-20 border-t border-zinc-200">
+          <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
+            <div className="flex flex-wrap items-end justify-between gap-4 mb-10">
+              <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 tracking-[-0.02em] font-[family-name:var(--font-display)]">
+                {tNews("latestHeading")}
+              </h2>
+              <Link
+                href="/about/news"
+                className="group inline-flex items-center gap-2 text-sm font-semibold text-zinc-900 hover:text-ember transition-colors"
+              >
+                {tNews("backToOverview")}
+                <svg
+                  className="h-4 w-4 transition-transform group-hover:translate-x-1"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                  />
+                </svg>
+              </Link>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+              {latestNews.map((post) => (
+                <Link
+                  key={post.slug}
+                  href={`/about/news/${post.slug}`}
+                  className="group block"
+                >
+                  {post.image && (
+                    <div className="relative aspect-[16/9] overflow-hidden bg-zinc-200">
+                      <Image
+                        src={post.image}
+                        alt=""
+                        fill
+                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      />
+                    </div>
+                  )}
+                  <time
+                    dateTime={post.date}
+                    className="mt-4 block text-[11px] tracking-[0.2em] uppercase text-ember font-[family-name:var(--font-mono)]"
+                  >
+                    {formatNewsDate(post.date, locale)}
+                  </time>
+                  <h3 className="mt-2 text-lg font-semibold text-zinc-900 leading-tight font-[family-name:var(--font-display)] group-hover:text-ember transition-colors">
+                    {tNews(`items.${post.slug}.title`)}
+                  </h3>
+                  <p className="mt-2 text-sm text-zinc-600 leading-relaxed">
+                    {tNews(`items.${post.slug}.excerpt`)}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* CTA */}
       <section className="bg-zinc-950 grain py-14 sm:py-16 lg:py-20 relative">

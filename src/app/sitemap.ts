@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL as BASE_URL } from "@/lib/seo";
-import { SERVICE_SLUGS, CASE_SLUGS } from "@/lib/routes";
+import { SERVICE_SLUGS, CASE_SLUGS, NEWS_POSTS } from "@/lib/routes";
 
 const LOCALES = ["da", "en", "de"] as const;
 
@@ -21,6 +21,7 @@ const staticRoutes: StaticRoute[] = [
   { path: "/cases", priority: 0.8, changeFrequency: "weekly" },
   { path: "/why-zinc", priority: 0.8, changeFrequency: "monthly" },
   { path: "/about", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/about/news", priority: 0.6, changeFrequency: "weekly" },
   { path: "/about/sustainability", priority: 0.6, changeFrequency: "monthly" },
   { path: "/about/co2", priority: 0.5, changeFrequency: "monthly" },
   { path: "/about/code-of-conduct", priority: 0.4, changeFrequency: "yearly" },
@@ -80,6 +81,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly",
         priority: 0.7,
         alternates: makeAlternates(`/cases/${slug}`),
+      });
+    }
+  }
+
+  // News posts — `lastmod` is the post's own date, not the site-wide one: a
+  // dated article that keeps reporting today's date is the noisy signal the
+  // constant above exists to avoid.
+  for (const post of NEWS_POSTS) {
+    for (const locale of LOCALES) {
+      entries.push({
+        url: `${BASE_URL}/${locale}/about/news/${post.slug}`,
+        lastModified: new Date(`${post.date}T00:00:00Z`),
+        changeFrequency: "yearly",
+        priority: 0.5,
+        alternates: makeAlternates(`/about/news/${post.slug}`),
       });
     }
   }

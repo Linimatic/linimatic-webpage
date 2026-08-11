@@ -16,6 +16,10 @@
       "title": "About Linimatic — Zinc Die-Casting Experts Since 1967",
       "description": "Founded in 1967, Linimatic A/S is Denmark's largest dedicated zinc die-casting foundry — 50+ specialists, ISO 9001 certified, full value chain under one roof."
     },
+    "news": {
+      "title": "News from Linimatic",
+      "description": "News from Linimatic A/S — events, investments and stories from the zinc die-casting foundry in Helsinge."
+    },
     "sustainability": {
       "title": "Sustainability — Linimatic A/S",
       "description": "Read about Linimatic's work with sustainability, CO2 emissions and ethical business conduct."
@@ -83,6 +87,10 @@
       "zinkTemadag": "Zinc Info Day"
     },
     "allServices": "All Services",
+    "aboutList": {
+      "about": "About Linimatic",
+      "news": "News"
+    },
     "sustainabilityList": {
       "co2": "CO2",
       "codeOfConduct": "Code of Conduct"
@@ -259,6 +267,7 @@
     "companyHeading": "Company",
     "companyLinks": {
       "aboutUs": "About Us",
+      "news": "News",
       "cases": "Cases",
       "whyZinc": "Why Zinc",
       "careers": "Jobs",
@@ -788,6 +797,32 @@
         "email": "dmk@linimatic.dk"
       }
     ]
+  },
+  "newsPage": {
+    "breadcrumb": "News",
+    "eyebrow": "From Linimatic",
+    "heading": "News",
+    "description": "Events, investments and stories from the zinc die-casting foundry in Helsinge.",
+    "empty": "There is no news right now — please check back later.",
+    "readMore": "Read more",
+    "backToOverview": "All news",
+    "latestHeading": "Latest news",
+    "moreHeading": "More news",
+    "ctaHeading": "Shall we talk about your part?",
+    "ctaDescription": "Call or write to us — we will come back with a view on how zinc can solve the job.",
+    "ctaButton": "Contact us",
+    "items": {
+      "zink-temadag-august-2026": {
+        "title": "Zinc Info Day on 16 August 2026",
+        "excerpt": "A free info day on zinc die-casting at Linimatic in Helsinge — from material choice and design to production and finished part.",
+        "body": [
+          "On 16 August 2026 we open the doors to our production in Helsinge for a free info day on zinc die-casting. The day lasts around four hours and is aimed at design engineers, project managers and buyers who want to know more about what zinc can do.",
+          "The programme covers the whole ground: zinc as a material and where it comes from, a comparison with aluminium and plastic, the casting process itself, designing in zinc with the possibilities and limits that brings, CO2 footprint, surface treatment, casting tools and the options for prototypes. Along the way there is a guided tour of the production, so you see the machines at work.",
+          "Feel free to bring a potential component or a specific problem — we will go through it on the day. The programme is always adapted to the participants.",
+          "Registration and questions: Jan V. Jørgensen, jaj@linimatic.dk or +45 2343 3667."
+        ]
+      }
+    }
   },
   "casesPage": {
     "breadcrumb": "Cases",
@@ -1532,6 +1567,7 @@
     "dataSharingItems": [
       "Vercel (hosting and web analytics): Serves the website and processes technical data such as IP addresses in doing so. We store no customer data with Vercel. Vercel is a US company certified under the EU-U.S. Data Privacy Framework.",
       "Resend (email delivery): Delivers contact form messages to us. Data is processed on servers in the EU (Ireland).",
+      "Microsoft 365 (email and collaboration): Hosts our email accounts, where contact-form enquiries, job applications and other correspondence are received and stored. Data is held within the EU/EFTA region.",
       "Legal authorities: When required by law or to protect our rights."
     ],
     "dataSharingNote": "All providers process data on our behalf under data processing agreements. Where a provider is based outside the EU/EEA, transfers rely on a valid transfer mechanism (the EU-U.S. Data Privacy Framework or the EU Standard Contractual Clauses).",

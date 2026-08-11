@@ -14,6 +14,7 @@ const serviceHrefs = [
 
 const companyLinkEntries: { key: string; href: string }[] = [
   { key: "aboutUs", href: "/about" },
+  { key: "news", href: "/about/news" },
   { key: "cases", href: "/cases" },
   { key: "whyZinc", href: "/why-zinc" },
   { key: "careers", href: "/jobs" },

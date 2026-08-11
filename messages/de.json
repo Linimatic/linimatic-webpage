@@ -16,6 +16,10 @@
       "title": "Über Linimatic — Zinkdruckguss-Experten seit 1967",
       "description": "1967 gegründet, ist Linimatic A/S Dänemarks größte spezialisierte Zinkdruckguss-Gießerei — über 50 Spezialisten, ISO 9001, gesamte Wertschöpfung aus einer Hand."
     },
+    "news": {
+      "title": "Neuigkeiten von Linimatic",
+      "description": "Neues von Linimatic A/S — Veranstaltungen, Investitionen und Geschichten aus der Zinkdruckgießerei in Helsinge."
+    },
     "sustainability": {
       "title": "Nachhaltigkeit — Linimatic A/S",
       "description": "Lesen Sie über Linimatics Arbeit im Bereich Nachhaltigkeit, CO2-Emissionen und ethisches Geschäftsverhalten."
@@ -83,6 +87,10 @@
       "zinkTemadag": "Zink-Infotag"
     },
     "allServices": "Alle Leistungen",
+    "aboutList": {
+      "about": "Über Linimatic",
+      "news": "Neuigkeiten"
+    },
     "sustainabilityList": {
       "co2": "CO2",
       "codeOfConduct": "Code of Conduct"
@@ -262,6 +270,7 @@
     "companyHeading": "Unternehmen",
     "companyLinks": {
       "aboutUs": "Über uns",
+      "news": "Neuigkeiten",
       "cases": "Referenzen",
       "whyZinc": "Warum Zink",
       "careers": "Jobs",
@@ -791,6 +800,32 @@
         "email": "dmk@linimatic.dk"
       }
     ]
+  },
+  "newsPage": {
+    "breadcrumb": "Neuigkeiten",
+    "eyebrow": "Neues von Linimatic",
+    "heading": "Neuigkeiten",
+    "description": "Veranstaltungen, Investitionen und Geschichten aus der Zinkdruckgießerei in Helsinge.",
+    "empty": "Zurzeit gibt es keine Neuigkeiten — schauen Sie später wieder vorbei.",
+    "readMore": "Weiterlesen",
+    "backToOverview": "Alle Neuigkeiten",
+    "latestHeading": "Neueste Beiträge",
+    "moreHeading": "Weitere Neuigkeiten",
+    "ctaHeading": "Sprechen wir über Ihr Bauteil?",
+    "ctaDescription": "Rufen Sie an oder schreiben Sie uns — wir melden uns mit einer Einschätzung, wie Zink die Aufgabe löst.",
+    "ctaButton": "Kontakt aufnehmen",
+    "items": {
+      "zink-temadag-august-2026": {
+        "title": "Zink-Infotag am 16. August 2026",
+        "excerpt": "Kostenloser Infotag zum Zinkdruckguss bei Linimatic in Helsinge — von Werkstoffwahl und Konstruktion bis zu Produktion und fertigem Bauteil.",
+        "body": [
+          "Am 16. August 2026 öffnen wir die Türen unserer Produktion in Helsinge für einen kostenlosen Infotag zum Zinkdruckguss. Der Tag dauert rund vier Stunden und richtet sich an Konstrukteure, Projektleiter und Einkäufer, die mehr darüber erfahren möchten, was Zink kann.",
+          "Das Programm deckt das gesamte Feld ab: Zink als Werkstoff und seine Herkunft, der Vergleich mit Aluminium und Kunststoff, der Gießprozess selbst, das Konstruieren in Zink mit seinen Möglichkeiten und Grenzen, CO2-Fußabdruck, Oberflächenbehandlung, Gießwerkzeuge und die Möglichkeiten für Prototypen. Dazwischen führen wir durch die Produktion, sodass Sie die Maschinen bei der Arbeit sehen.",
+          "Bringen Sie gerne ein mögliches Bauteil oder eine konkrete Fragestellung mit — wir gehen sie am Tag gemeinsam durch. Das Programm wird immer an die Teilnehmer angepasst.",
+          "Anmeldung und Fragen: Jan V. Jørgensen, jaj@linimatic.dk oder +45 2343 3667."
+        ]
+      }
+    }
   },
   "casesPage": {
     "breadcrumb": "Referenzen",
@@ -1535,6 +1570,7 @@
     "dataSharingItems": [
       "Vercel (Hosting und Webanalyse): Stellt die Website bereit und verarbeitet dabei technische Daten wie IP-Adressen. Wir speichern keine Kundendaten bei Vercel. Vercel ist ein US-Unternehmen, zertifiziert unter dem EU-U.S. Data Privacy Framework.",
       "Resend (E-Mail-Zustellung): Übermittelt Nachrichten aus dem Kontaktformular an uns. Die Daten werden auf Servern in der EU (Irland) verarbeitet.",
+      "Microsoft 365 (E-Mail und Zusammenarbeit): Hostet unsere E-Mail-Konten, in denen Anfragen aus dem Kontaktformular, Bewerbungen und sonstige Korrespondenz eingehen und gespeichert werden. Die Daten werden im EU/EFTA-Raum gespeichert.",
       "Behörden: Wenn gesetzlich vorgeschrieben oder zum Schutz unserer Rechte."
     ],
     "dataSharingNote": "Alle Anbieter verarbeiten Daten in unserem Auftrag gemäß Auftragsverarbeitungsverträgen. Sitzt ein Anbieter außerhalb der EU/des EWR, erfolgt die Übermittlung auf Grundlage eines gültigen Übermittlungsmechanismus (EU-U.S. Data Privacy Framework oder EU-Standardvertragsklauseln).",

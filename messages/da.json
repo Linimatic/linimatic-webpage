@@ -16,6 +16,10 @@
       "title": "Om Linimatic — eksperter i zinktrykstøbning siden 1967",
       "description": "Grundlagt i 1967 er Linimatic A/S Danmarks største dedikerede zinktrykstøberi — 50+ specialister, ISO 9001-certificeret, hele værdikæden under ét tag."
     },
+    "news": {
+      "title": "Nyheder fra Linimatic",
+      "description": "Nyt fra Linimatic A/S — arrangementer, investeringer og historier fra zinktrykstøberiet i Helsinge."
+    },
     "sustainability": {
       "title": "Bæredygtighed — Linimatic A/S",
       "description": "Læs om Linimatics arbejde med bæredygtighed, CO2-udledning og etisk forretningsadfærd."
@@ -83,6 +87,10 @@
       "zinkTemadag": "Zink Temadag"
     },
     "allServices": "Alle ydelser",
+    "aboutList": {
+      "about": "Om Linimatic",
+      "news": "Nyheder"
+    },
     "sustainabilityList": {
       "co2": "CO2",
       "codeOfConduct": "Code of Conduct"
@@ -262,6 +270,7 @@
     "companyHeading": "Virksomhed",
     "companyLinks": {
       "aboutUs": "Om os",
+      "news": "Nyheder",
       "cases": "Cases",
       "whyZinc": "Hvorfor zink",
       "careers": "Job",
@@ -791,6 +800,32 @@
         "email": "dmk@linimatic.dk"
       }
     ]
+  },
+  "newsPage": {
+    "breadcrumb": "Nyheder",
+    "eyebrow": "Nyt fra Linimatic",
+    "heading": "Nyheder",
+    "description": "Arrangementer, investeringer og historier fra zinktrykstøberiet i Helsinge.",
+    "empty": "Der er ingen nyheder lige nu — kig forbi igen senere.",
+    "readMore": "Læs mere",
+    "backToOverview": "Alle nyheder",
+    "latestHeading": "Seneste nyt",
+    "moreHeading": "Flere nyheder",
+    "ctaHeading": "Skal vi tale om dit emne?",
+    "ctaDescription": "Ring eller skriv — så vender vi tilbage med et bud på, hvordan zink kan løse opgaven.",
+    "ctaButton": "Kontakt os",
+    "items": {
+      "zink-temadag-august-2026": {
+        "title": "Zink Temadag den 16. august 2026",
+        "excerpt": "Vi holder gratis temadag om zinktrykstøbning hos Linimatic i Helsinge — fra materialevalg og konstruktion til produktion og færdigt emne.",
+        "body": [
+          "Den 16. august 2026 åbner vi dørene til produktionen i Helsinge for en gratis temadag om zinktrykstøbning. Dagen varer omkring fire timer og henvender sig til konstruktører, projektledere og indkøbere, der vil vide mere om, hvad zink kan.",
+          "Programmet kommer hele vejen rundt: zink som materiale og hvor det kommer fra, sammenligning med aluminium og plast, selve støbeprocessen, konstruktion i zink med de muligheder og begrænsninger det giver, CO2-aftryk, overfladebehandling, støbeværktøjer og mulighederne for prototyper. Undervejs er der rundvisning i produktionen, så deltagerne ser maskinerne arbejde.",
+          "Tag gerne en potentiel komponent eller en konkret problemstilling med — så gennemgår vi den på dagen. Programmet tilpasses altid deltagerne.",
+          "Tilmelding og spørgsmål: Jan V. Jørgensen, jaj@linimatic.dk eller +45 2343 3667."
+        ]
+      }
+    }
   },
   "casesPage": {
     "breadcrumb": "Cases",
@@ -1536,6 +1571,7 @@
     "dataSharingItems": [
       "Vercel (hosting og webanalyse): Leverer hjemmesiden og behandler i den forbindelse tekniske data som IP-adresser. Vi gemmer ingen kundedata hos Vercel. Vercel er en amerikansk virksomhed certificeret under EU-U.S. Data Privacy Framework.",
       "Resend (e-mail-levering): Sender beskeder fra kontaktformularen til os. Data behandles på servere i EU (Irland).",
+      "Microsoft 365 (e-mail og samarbejde): Er vært for vores e-mailkonti, hvor henvendelser fra kontaktformularen, jobansøgninger og øvrig korrespondance modtages og opbevares. Data opbevares i EU/EFTA-området.",
       "Offentlige myndigheder: Når det kræves ved lov eller for at beskytte vores rettigheder."
     ],
     "dataSharingNote": "Alle leverandører behandler data på vores vegne under databehandleraftaler. Hvor en leverandør er baseret uden for EU/EØS, sker overførslen på et gyldigt overførselsgrundlag (EU-U.S. Data Privacy Framework eller EU's standardkontraktbestemmelser).",

@@ -113,6 +113,15 @@ Dependabot alerts, security updates and the dependency graph are enabled on the 
 `.github/dependabot.yml` restricts Dependabot to security PRs — deliberately no weekly version-bump
 queue, since nobody here would triage it and every unmerged PR still costs a Vercel preview build.
 
+Those security PRs **merge themselves**. `.github/workflows/dependabot-auto-merge.yml` runs
+`npm ci && npm run build` on each one and squash-merges it if the build passes; Vercel then deploys
+to production. The build is the only gate, so this site must keep building with **no environment
+variables set** — check that before moving any `process.env` read to module scope.
+
+Major bumps are the exception: they stay open, labelled `dependabot-major`, because a major can
+break something while still compiling and nobody reads the diff. If Jan ever mentions a pull request
+he does not recognise, that is what it is — it needs Marc, not Jan.
+
 **An open-alert count is not a vulnerability count.** GitHub only closes an alert when the
 dependency graph re-parses the lockfile. This repo sat with the graph disabled, so alerts froze
 against versions the lockfile had left behind months earlier — the badge read 60 while `npm audit`

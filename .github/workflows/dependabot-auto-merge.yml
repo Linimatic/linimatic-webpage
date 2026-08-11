@@ -1,0 +1,80 @@
+# Merges Dependabot's security PRs without a human, so a fleet of sites stays
+# patched without anyone reading mail about it.
+#
+# Every Dependabot PR on these repos is a security PR — dependabot.yml sets
+# open-pull-requests-limit: 0, so scheduled version bumps never open one.
+#
+# The gate is this workflow's own `npm run build`, not a branch-protection rule
+# or the Vercel check. That keeps the workflow self-contained: no ruleset to
+# provision per site, and no dependency on what Vercel happens to name its
+# status check. If the build fails the merge step never runs and the PR stays
+# open. Free on public repos — standard runners have no minute cap.
+#
+# Major bumps are deliberately NOT auto-merged. A major can carry a breaking
+# change that still builds, and there is nobody reading the diff. They get
+# labelled and left for the update-child-sites.sh sweep to surface.
+name: Dependabot auto-merge
+
+on: pull_request
+
+# Dependabot PRs are treated as if opened from a fork, so the token is
+# read-only unless a workflow asks for more. Without this block the merge step
+# fails with a permissions error rather than doing nothing visible.
+permissions:
+  contents: write
+  pull-requests: write
+
+# Serialised: two PRs merging at once leaves the loser to rebase, and a fleet
+# of sites can get several security PRs in the same hour.
+concurrency:
+  group: dependabot-auto-merge
+  cancel-in-progress: false
+
+jobs:
+  triage:
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    outputs:
+      update-type: ${{ steps.meta.outputs.update-type }}
+    steps:
+      - name: Read Dependabot metadata
+        id: meta
+        uses: dependabot/fetch-metadata@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Flag majors for the next sweep
+        if: steps.meta.outputs.update-type == 'version-update:semver-major'
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create dependabot-major \
+            --color B60205 \
+            --description "Security bump needing a human — not auto-merged" \
+            --force
+          gh pr edit "$PR_URL" --add-label dependabot-major
+
+  merge:
+    needs: triage
+    if: needs.triage.outputs.update-type != 'version-update:semver-major'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # The gate. No env vars are provided on purpose: the site must build
+      # without secrets, which is also what keeps this workflow portable across
+      # every site the kit scaffolds.
+      - run: npm run build
+
+      - name: Merge
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge --squash "$PR_URL"

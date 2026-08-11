@@ -25,3 +25,16 @@ updates:
         applies-to: security-updates
         patterns:
           - "*"
+
+  # The auto-merge workflow is itself a supply chain — it holds contents:write
+  # and merges without review, so its actions need patching like anything else.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+    groups:
+      security:
+        applies-to: security-updates
+        patterns:
+          - "*"

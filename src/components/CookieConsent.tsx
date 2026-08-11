@@ -103,9 +103,7 @@ export function openCookieSettings() {
 export function CookieConsent() {
   const [visible, setVisible] = useState(false);
   const [showDetails, setShowDetails] = useState(false);
-  const [preferences, setPreferences] = useState<CookiePreferences>(
-    () => getCookiePreferences() ?? DEFAULT_PREFERENCES
-  );
+  const [preferences, setPreferences] = useState<CookiePreferences>(DEFAULT_PREFERENCES);
   const panelRef = useRef<HTMLDivElement>(null);
   const headingId = useId();
   const t = useTranslations("cookies");

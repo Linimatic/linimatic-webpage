@@ -98,6 +98,30 @@ export default async function PrivacyPolicyPage({
           <ul className="list-disc pl-5">
             {dataSharingItems.map((item, i) => <li key={i}>{item}</li>)}
           </ul>
+          <p>
+            {t.rich("dataSharingDpaNote", {
+              vercel: (chunks) => (
+                <a
+                  href="https://vercel.com/legal/dpa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-ember underline underline-offset-2 hover:text-ember-light transition-colors"
+                >
+                  {chunks}
+                </a>
+              ),
+              resend: (chunks) => (
+                <a
+                  href="https://resend.com/legal/dpa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-ember underline underline-offset-2 hover:text-ember-light transition-colors"
+                >
+                  {chunks}
+                </a>
+              ),
+            })}
+          </p>
           <p>{t("dataSharingNote")}</p>
 
           <h2>{t("yourRightsHeading")}</h2>

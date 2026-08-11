@@ -94,6 +94,7 @@ export function ContactForm() {
           name="subject"
           className="w-full px-4 py-3 border border-zinc-300 text-sm focus:outline-none focus:border-ember transition-colors bg-white"
         >
+          <option value="">{t("form.subjectSelect")}</option>
           <option value="new-project">{t("form.subjectNew")}</option>
           <option value="existing-project">{t("form.subjectExisting")}</option>
           <option value="temadag">{t("form.subjectTemadag")}</option>
@@ -128,22 +129,6 @@ export function ContactForm() {
           required
           className="w-full px-4 py-3 border border-zinc-300 text-sm focus:outline-none focus:border-ember transition-colors resize-y"
         />
-      </div>
-      <div>
-        <label htmlFor="files" className="block text-sm font-medium text-zinc-700 mb-1.5">
-          {t("form.fileUpload")}
-        </label>
-        <input
-          type="file"
-          id="files"
-          name="files"
-          multiple
-          accept=".step,.stp,.iges,.igs,.sldprt,.sldasm,.x_t,.pdf,.dwg,.dxf"
-          className="w-full text-sm text-zinc-600 file:mr-4 file:py-2.5 file:px-4 file:border file:border-zinc-300 file:text-sm file:font-medium file:bg-zinc-50 file:text-zinc-700 hover:file:bg-zinc-100 file:cursor-pointer file:transition-colors"
-        />
-        <p className="mt-1.5 text-[11px] text-zinc-600 font-[family-name:var(--font-mono)]">
-          {t("form.fileFormats")}
-        </p>
       </div>
       <button
         type="submit"

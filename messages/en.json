@@ -714,6 +714,7 @@
       "email": "Email",
       "phone": "Phone",
       "subject": "Subject",
+      "subjectSelect": "Select enquiry type",
       "subjectNew": "New Project",
       "subjectExisting": "Existing Project",
       "subjectGeneral": "General Inquiry",
@@ -726,9 +727,7 @@
       "volume50to100k": "50,000\u2013100,000 pcs",
       "volumeOver100k": "Over 100,000 pcs",
       "message": "Project Description",
-      "fileUpload": "Technical Drawings",
-      "fileFormats": "STEP \u00b7 IGES \u00b7 Solidworks \u00b7 Parasolid \u00b7 PDF \u00b7 DWG \u00b7 DXF",
-      "privacyNotice": "When you submit this form, Linimatic A/S processes your information in order to respond to your inquiry. See our <link>privacy policy</link> for details.",
+      "privacyNotice": "When you submit this form, Linimatic A/S uses your information to answer your enquiry. The form is handled by Vercel and the message is delivered through Resend to our Linimatic mailbox. We can agree how to share technical drawings after we have spoken. See our <link>privacy policy</link> for details.",
       "honeypotLabel": "Leave this field empty",
       "submit": "Send Inquiry",
       "sending": "Sending...",
@@ -739,9 +738,7 @@
         "invalid_email": "Please enter a valid email address.",
         "rate_limited": "Too many messages have been sent from this connection. Please wait a moment and try again, or write directly to info@linimatic.dk.",
         "too_long": "One or more fields exceed the maximum length.",
-        "send_failed": "Failed to send your message. Please try again or email us directly at info@linimatic.dk.",
-        "invalid_file_type": "One or more files are in a format we do not support.",
-        "files_too_large": "The attached files are too large — max. 15 MB in total. Please email them to info@linimatic.dk instead."
+        "send_failed": "Failed to send your message. Please try again or email us directly at info@linimatic.dk."
       }
     },
     "yourContacts": "Your Contacts",
@@ -1440,7 +1437,7 @@
     "openApplicationDescription": "We\u2019re always interested in hearing from skilled people in manufacturing, engineering, quality, and sales. Send us your CV and tell us what you bring to the table.",
     "openApplicationButton": "Send Open Application",
     "learnMoreButton": "Learn More About Us",
-    "privacyNotice": "When you send an application, Linimatic A/S processes your information in order to assess it. We keep applications for 6 months after the position is filled, unless you agree to longer storage. See our <link>privacy policy</link> for details."
+      "privacyNotice": "When you send an application by email, Linimatic A/S processes your information to assess it. We keep applications for 6 months after the position is filled, or 6 months after receipt or last contact for unsolicited applications, unless you agree to longer storage. See our <link>privacy policy</link> for details."
   },
   "sustainabilityPage": {
     "breadcrumb": "Sustainability",
@@ -1528,49 +1525,51 @@
     "title": "Privacy Policy",
     "lastUpdated": "Last updated: August 2026",
     "dataControllerHeading": "Data Controller",
-    "dataControllerIntro": "Linimatic A/S is the data controller for personal data collected through this website.",
+    "dataControllerIntro": "Linimatic A/S is the data controller for personal data processed through this website and when you contact us.",
     "whatWeCollectHeading": "What Data We Collect",
     "whatWeCollectIntro": "We may collect the following personal data through our website:",
     "collectItems": [
-      "Contact form submissions: Name, company, email, phone number, and project description when you request a quote or contact us.",
-      "Job applications: Name, contact details, CV, and cover letter when applying for positions.",
-      "Technical data: When you visit the site, our hosting provider processes technical information such as IP address and browser type in order to deliver the site securely. If you have agreed to analytics, we also count page views in anonymous form.",
+      "Contact form submissions: Name, company, email address, phone number, enquiry subject, expected production volume and project description.",
+      "Job applications: Name, contact details, CV, cover letter, and other information you include in an application sent by email.",
+      "Technical and security data: Our hosting provider receives the form request and processes technical request data, such as IP address and browser information, to deliver and protect the website. The contact form uses a short-lived in-memory IP limit to prevent abuse; we do not store submissions in a website database.",
+      "Optional analytics: If you consent, Vercel Analytics processes cookieless visit measurements so we can understand which pages are useful. It is not loaded when you decline.",
       "Communication data: Records of correspondence if you contact us by email or phone."
     ],
-    "dataSourceNote": "We only collect this data directly from you — we do not buy or receive personal data about you from other sources.",
+    "dataSourceNote": "The form requires your name, company, email address and message so we can identify and answer your enquiry; phone number, subject and expected volume are optional. If a required field is omitted, the form cannot be submitted. Information in forms and emails comes from you. Some technical information, such as IP address and browser information, is generated automatically when you use the website.",
     "legalBasisHeading": "Legal Basis for Processing",
     "legalBasisIntro": "Under the General Data Protection Regulation (GDPR), we process personal data based on:",
     "legalBasisItems": [
-      "Consent (Art. 6(1)(a)): For analytics of how the website is used.",
-      "Contractual necessity (Art. 6(1)(b)): To process quote requests and respond to customer inquiries.",
-      "Legitimate interest (Art. 6(1)(f)): To improve our website, ensure security, and communicate about our services.",
-      "Legal obligation (Art. 6(1)(c)): To comply with tax, accounting, and other regulatory requirements."
+      "Consent (Art. 6(1)(a)): For optional website analytics.",
+      "Legitimate interest (Art. 6(1)(f)): To receive and answer enquiries, assess applications, prevent abuse, and keep the website and our communication secure.",
+      "Pre-contractual steps (Art. 6(1)(b)): Where an enquiry leads to a request to prepare or enter into a contract.",
+      "Legal obligation (Art. 6(1)(c)): Where a law requires us to retain or process information."
     ],
     "howWeUseHeading": "How We Use Your Data",
     "howWeUseItems": [
       "To respond to quote requests and customer inquiries",
       "To process job applications",
-      "To improve our website and services (with consent)",
-      "To comply with legal and regulatory obligations",
-      "To protect our legitimate business interests"
+      "To prevent abuse and protect the security of the website and our communication",
+      "To understand which pages are useful when you have consented to analytics",
+      "To comply with legal and regulatory obligations"
     ],
     "retentionHeading": "Data Retention",
     "retentionIntro": "We retain personal data only as long as necessary for the purposes described above, or as required by law. Specifically:",
     "retentionItems": [
-      "Quote requests: Retained for 2 years from last contact, or longer if a business relationship is established.",
-      "Job applications: Retained for 6 months after the position is filled, unless you consent to longer retention.",
-      "Analytics data: Collected cookie-free in anonymized, aggregated form and cannot be traced to individuals.",
-      "Accounting records: Retained for 5 years as required by Danish bookkeeping law."
+      "Contact enquiries: Normally reviewed and deleted from our mailboxes and related copies 2 years after the last contact. If an active business relationship or legal need requires longer retention, we keep only what is necessary and record the reason.",
+      "Job applications: Normally deleted 6 months after the position is filled, or 6 months after receipt or last contact for unsolicited applications, unless you consent to longer retention.",
+      "Security data: IP information used for the contact form's short-lived flood protection is kept in application memory, not in a contact database.",
+      "Analytics data: Collected only after consent and described as cookieless and anonymized by Vercel; see our Cookie Policy."
     ],
     "dataSharingHeading": "Data Sharing",
     "dataSharingIntro": "We do not sell your personal data. We may share data with:",
     "dataSharingItems": [
-      "Vercel (hosting and web analytics): Serves the website and processes technical data such as IP addresses in doing so. We store no customer data with Vercel. Vercel is a US company certified under the EU-U.S. Data Privacy Framework.",
-      "Resend (email delivery): Delivers contact form messages to us. Data is processed on servers in the EU (Ireland).",
+      "Vercel (hosting and form runtime): Hosts the website and runs the server-side contact form. It may process the submitted form data and technical request metadata as part of providing the service. Vercel is a US company and processing may take place in the US and other countries under the applicable service terms and safeguards.",
+      "Resend (email delivery): Delivers contact form messages, including the visitor's contact details, message, reply address, and related email metadata. Resend states that its primary processing operations take place in the United States; choosing an Ireland sending region does not make customer data EU-only. Transfers are covered by Resend's Data Processing Addendum and the safeguards described there.",
       "Microsoft 365 (email and collaboration): Hosts our email accounts, where contact-form enquiries, job applications and other correspondence are received and stored. Data is held within the EU/EFTA region.",
       "Legal authorities: When required by law or to protect our rights."
     ],
-    "dataSharingNote": "All providers process data on our behalf under data processing agreements. Where a provider is based outside the EU/EEA, transfers rely on a valid transfer mechanism (the EU-U.S. Data Privacy Framework or the EU Standard Contractual Clauses).",
+    "dataSharingDpaNote": "For the providers' detailed data-processing terms, see the <vercel>Vercel Data Processing Addendum</vercel> and <resend>Resend Data Processing Addendum</resend>.",
+    "dataSharingNote": "We use providers only where needed to run the website and handle enquiries. Before publication and when a provider changes, we verify the provider's agreement, processing locations, sub-processors and retention in our internal processor register. Where personal data is transferred outside the EU/EEA, the applicable provider agreement and a valid GDPR transfer mechanism, such as Standard Contractual Clauses, are used where required.",
     "yourRightsHeading": "Your Rights",
     "yourRightsIntro": "Under GDPR, you have the right to:",
     "yourRightsItems": [
@@ -1582,7 +1581,7 @@
       "Objection \u2014 Object to processing based on legitimate interest.",
       "Withdraw consent \u2014 Withdraw previously given consent at any time."
     ],
-    "yourRightsContact": "To exercise any of these rights, contact us at info@linimatic.dk. We will respond within 30 days.",
+    "yourRightsContact": "To exercise any of these rights, contact us at info@linimatic.dk. We will respond within one month, unless a lawful extension applies.",
     "complaintsHeading": "Complaints",
     "complaintsText": "If you believe your data protection rights have been violated, you have the right to lodge a complaint with the Danish Data Protection Agency (Datatilsynet):",
     "changesHeading": "Changes to This Policy",
@@ -1597,7 +1596,7 @@
     "howWeUseHeading": "How We Use Cookies",
     "howWeUseText": "We use two categories: necessary, which is always on, and analytics, which we only use if you agree. We use no cookies for marketing and share no data with advertising networks. You can change your choice at any time via “Cookie settings” at the bottom of any page.",
     "necessaryHeading": "Necessary Cookies",
-    "necessaryText": "These cookies are essential for the website to function properly. They enable basic features like page navigation, secure areas, and remembering your cookie preferences. The website cannot function properly without these cookies, and they cannot be disabled.",
+    "necessaryText": "These cookies are essential for the website to function properly. They support basic website functions and remember your cookie preferences. The website cannot function properly without them, and they cannot be disabled.",
     "tableCookie": "Cookie",
     "tablePurpose": "Purpose",
     "tableDuration": "Duration",
@@ -1609,13 +1608,13 @@
     "popupStorageDuration": "Until you clear your browser",
     "storageNote": "The last entry in the table is not a cookie but a note stored locally in your browser. It contains only a timestamp and is never sent to us or to anyone else.",
     "analyticsHeading": "Visit analytics",
-    "analyticsText": "If you agree to analytics, we use Vercel Analytics to count page views so we can see which pages are useful. The service sets no cookies and stores nothing on your device. It does not record individuals, and the figures cannot be traced back to you. If you decline, it is not loaded at all.",
+    "analyticsText": "If you agree to analytics, we load Vercel Analytics to measure page visits and understand which pages are useful. It is not loaded when you decline. Vercel describes the service as cookieless and anonymized; its own privacy information explains how it handles analytics data.",
     "managingHeading": "Managing Your Preferences",
     "managingText1": "When you first visit our website, a cookie banner will appear allowing you to accept all cookies, reject all non-essential cookies, or customize your preferences by category.",
     "managingText2": "You can change your choice or withdraw your consent at any time via the \"Cookie settings\" link at the bottom of every page.",
     "managingText3": "You can also control cookies through your browser settings. Most browsers allow you to refuse or delete cookies. The methods for doing so vary from browser to browser \u2014 consult your browser\u2019s help documentation.",
     "thirdPartyHeading": "Third parties",
-    "thirdPartyText": "We use no advertising networks, social media buttons, maps or videos that set cookies on our pages, and fonts are served from our own server. Our only external providers are Vercel, which hosts the website and — if you have agreed to analytics — counts visits, and Resend, which passes messages from the contact form on to us.",
+    "thirdPartyText": "We use no advertising networks, social media buttons, maps or videos that set cookies on our pages, and fonts are served from our own server. Vercel hosts the website and runs the contact form; if you agree to analytics, it also measures visits. Resend delivers contact-form messages to our business email provider, which stores them in our Linimatic mailbox. These services may process data outside the EU/EEA as described in our Privacy Policy.",
     "contactHeading": "Contact",
     "contactText": "If you have questions about our use of cookies, contact us at:"
   },

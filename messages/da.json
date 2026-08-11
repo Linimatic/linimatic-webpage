@@ -717,6 +717,7 @@
       "email": "E-mail",
       "phone": "Telefon",
       "subject": "Emne",
+      "subjectSelect": "Vælg emne",
       "subjectNew": "Nyt projekt",
       "subjectExisting": "Eksisterende projekt",
       "subjectGeneral": "Generel henvendelse",
@@ -729,9 +730,7 @@
       "volume50to100k": "50.000–100.000 stk.",
       "volumeOver100k": "Over 100.000 stk.",
       "message": "Projektbeskrivelse",
-      "fileUpload": "Tekniske tegninger",
-      "fileFormats": "STEP · IGES · Solidworks · Parasolid · PDF · DWG · DXF",
-      "privacyNotice": "Når du sender formularen, behandler Linimatic A/S dine oplysninger for at kunne besvare din henvendelse. Læs mere i vores <link>privatlivspolitik</link>.",
+      "privacyNotice": "Når du sender formularen, bruger Linimatic A/S dine oplysninger til at besvare din henvendelse. Formularen håndteres af Vercel, og beskeden leveres via Resend til vores Linimatic-postkasse. Vi kan aftale, hvordan tekniske tegninger deles, efter vi har talt sammen. Læs mere i vores <link>privatlivspolitik</link>.",
       "honeypotLabel": "Lad dette felt stå tomt",
       "submit": "Send forespørgsel",
       "sending": "Sender...",
@@ -742,9 +741,7 @@
         "invalid_email": "Indtast venligst en gyldig e-mailadresse.",
         "rate_limited": "Der er sendt for mange beskeder fra denne forbindelse. Vent et øjeblik og prøv igen, eller skriv direkte til info@linimatic.dk.",
         "too_long": "Et eller flere felter overskrider den maksimale længde.",
-        "send_failed": "Din besked kunne ikke sendes. Prøv igen eller skriv direkte til info@linimatic.dk.",
-        "invalid_file_type": "En eller flere filer har et format, vi ikke understøtter.",
-        "files_too_large": "De vedhæftede filer er for store — maks. 15 MB i alt. Send dem i stedet til info@linimatic.dk."
+        "send_failed": "Din besked kunne ikke sendes. Prøv igen eller skriv direkte til info@linimatic.dk."
       }
     },
     "yourContacts": "Dine kontakter",
@@ -1444,7 +1441,7 @@
     "openApplicationDescription": "Vi er altid interesserede i at høre fra dygtige folk inden for produktion, ingeniørarbejde, kvalitet og salg. Send os dit CV og fortæl, hvad du kan bidrage med.",
     "openApplicationButton": "Send uopfordret ansøgning",
     "learnMoreButton": "Læs mere om os",
-    "privacyNotice": "Når du sender en ansøgning, behandler Linimatic A/S dine oplysninger for at vurdere din ansøgning. Vi opbevarer ansøgninger i 6 måneder efter, at stillingen er besat, medmindre du siger ja til længere opbevaring. Læs mere i vores <link>privatlivspolitik</link>."
+      "privacyNotice": "Når du sender en ansøgning via e-mail, behandler Linimatic A/S dine oplysninger for at vurdere den. Vi opbevarer ansøgninger i 6 måneder efter, at stillingen er besat, eller 6 måneder efter modtagelse eller seneste kontakt ved uopfordrede ansøgninger, medmindre du siger ja til længere opbevaring. Læs mere i vores <link>privatlivspolitik</link>."
   },
   "sustainabilityPage": {
     "breadcrumb": "Bæredygtighed",
@@ -1532,49 +1529,51 @@
     "title": "Privatlivspolitik",
     "lastUpdated": "Sidst opdateret: august 2026",
     "dataControllerHeading": "Dataansvarlig",
-    "dataControllerIntro": "Linimatic A/S er dataansvarlig for personoplysninger indsamlet via denne hjemmeside.",
+    "dataControllerIntro": "Linimatic A/S er dataansvarlig for personoplysninger, der behandles via denne hjemmeside, og når du kontakter os.",
     "whatWeCollectHeading": "Hvilke data vi indsamler",
     "whatWeCollectIntro": "Vi kan indsamle følgende personoplysninger via vores hjemmeside:",
     "collectItems": [
-      "Kontaktformular: Navn, virksomhed, e-mail, telefonnummer og projektbeskrivelse, når du anmoder om et tilbud eller kontakter os.",
-      "Jobansøgninger: Navn, kontaktoplysninger, CV og følgebrev ved ansøgning til stillinger.",
-      "Tekniske data: Når du besøger siden, behandler vores hostingudbyder tekniske oplysninger som IP-adresse og browsertype for at kunne levere siden sikkert. Har du sagt ja til analyse, tæller vi desuden sidevisninger i anonym form.",
+      "Kontaktformular: Navn, virksomhed, e-mailadresse, telefonnummer, emne, forventet produktionsvolumen og projektbeskrivelse.",
+      "Jobansøgninger: Navn, kontaktoplysninger, CV, ansøgning og andre oplysninger, du sender i en ansøgning via e-mail.",
+      "Tekniske og sikkerhedsrelaterede data: Vores hostingudbyder modtager formularanmodningen og behandler tekniske oplysninger som IP-adresse og browseroplysninger for at levere og beskytte hjemmesiden. Kontaktformularen bruger en kortvarig IP-begrænsning i hukommelsen for at forebygge misbrug; vi gemmer ikke henvendelser i en database på hjemmesiden.",
+      "Valgfri analyse: Hvis du giver samtykke, behandler Vercel Analytics cookiefri besøgsdata, så vi kan forstå, hvilke sider der er nyttige. Analysen indlæses ikke, hvis du siger nej.",
       "Kommunikationsdata: Optegnelser over korrespondance, hvis du kontakter os via e-mail eller telefon."
     ],
-    "dataSourceNote": "Vi indhenter udelukkende disse oplysninger direkte fra dig selv — vi køber eller modtager ikke personoplysninger om dig fra andre kilder.",
+    "dataSourceNote": "Formularen kræver dit navn, din virksomhed, din e-mailadresse og din besked, så vi kan identificere og besvare din henvendelse; telefonnummer, emne og forventet volumen er valgfri. Hvis et obligatorisk felt mangler, kan formularen ikke sendes. Oplysninger i formularer og e-mails kommer fra dig. Nogle tekniske oplysninger, som IP-adresse og browseroplysninger, opstår automatisk, når du bruger hjemmesiden.",
     "legalBasisHeading": "Retsgrundlag for behandling",
     "legalBasisIntro": "I henhold til databeskyttelsesforordningen (GDPR) behandler vi personoplysninger baseret på:",
     "legalBasisItems": [
-      "Samtykke (art. 6, stk. 1, litra a): Til analyse af, hvordan hjemmesiden bruges.",
-      "Kontraktmæssig nødvendighed (art. 6, stk. 1, litra b): Til behandling af tilbudsforespørgsler og besvarelse af kundehenvendelser.",
-      "Legitim interesse (art. 6, stk. 1, litra f): Til at forbedre vores hjemmeside, sikre sikkerhed og kommunikere om vores ydelser.",
-      "Retlig forpligtelse (art. 6, stk. 1, litra c): For at overholde skatte-, regnskabs- og andre lovkrav."
+      "Samtykke (art. 6, stk. 1, litra a): Til valgfri analyse af hjemmesiden.",
+      "Legitim interesse (art. 6, stk. 1, litra f): Til at modtage og besvare henvendelser, vurdere ansøgninger, forebygge misbrug og beskytte hjemmesiden og vores kommunikation.",
+      "Forberedelse af kontrakt (art. 6, stk. 1, litra b): Når en henvendelse fører til et ønske om at forberede eller indgå en aftale.",
+      "Retlig forpligtelse (art. 6, stk. 1, litra c): Når lovgivningen kræver, at vi opbevarer eller behandler oplysninger."
     ],
     "howWeUseHeading": "Hvordan vi bruger dine data",
     "howWeUseItems": [
       "Til at besvare tilbudsforespørgsler og kundehenvendelser",
       "Til at behandle jobansøgninger",
-      "Til at forbedre vores hjemmeside og ydelser (med samtykke)",
-      "For at overholde juridiske og regulatoriske forpligtelser",
-      "For at beskytte vores legitime forretningsinteresser"
+      "Til at forebygge misbrug og beskytte hjemmesiden og vores kommunikation",
+      "Til at forstå, hvilke sider der er nyttige, når du har givet samtykke til analyse",
+      "For at overholde juridiske og regulatoriske forpligtelser"
     ],
     "retentionHeading": "Opbevaring af data",
     "retentionIntro": "Vi opbevarer kun personoplysninger så længe det er nødvendigt for de beskrevne formål eller som krævet ved lov. Specifikt:",
     "retentionItems": [
-      "Tilbudsforespørgsler: Opbevares i 2 år fra sidste kontakt, eller længere hvis et forretningsforhold er etableret.",
-      "Jobansøgninger: Opbevares i 6 måneder efter stillingen er besat, medmindre du samtykker til længere opbevaring.",
-      "Analysedata: Indsamles cookiefrit i anonymiseret og aggregeret form og kan ikke henføres til enkeltpersoner.",
-      "Regnskabsdata: Opbevares i 5 år som krævet af dansk bogføringslov."
+      "Kontakt­henvendelser: Gennemgås og slettes som udgangspunkt fra vores postkasser og relaterede kopier 2 år efter sidste kontakt. Hvis et aktivt forretningsforhold eller et lovkrav kræver længere opbevaring, gemmer vi kun det nødvendige og noterer årsagen.",
+      "Jobansøgninger: Slettes som udgangspunkt 6 måneder efter, at stillingen er besat, eller 6 måneder efter modtagelse eller seneste kontakt ved uopfordrede ansøgninger, medmindre du samtykker til længere opbevaring.",
+      "Sikkerhedsdata: IP-oplysninger til kontaktformularens kortvarige beskyttelse mod gentagne henvendelser opbevares i applikationshukommelsen og ikke i en kontakt-database.",
+      "Analysedata: Indsamles kun efter samtykke og beskrives af Vercel som cookiefri og anonymiserede; se vores cookiepolitik."
     ],
     "dataSharingHeading": "Deling af data",
     "dataSharingIntro": "Vi sælger ikke dine personoplysninger. Vi kan dele data med:",
     "dataSharingItems": [
-      "Vercel (hosting og webanalyse): Leverer hjemmesiden og behandler i den forbindelse tekniske data som IP-adresser. Vi gemmer ingen kundedata hos Vercel. Vercel er en amerikansk virksomhed certificeret under EU-U.S. Data Privacy Framework.",
-      "Resend (e-mail-levering): Sender beskeder fra kontaktformularen til os. Data behandles på servere i EU (Irland).",
+      "Vercel (hosting og formularens servermiljø): Er vært for hjemmesiden og kører kontaktformularen på serveren. Vercel kan som led i tjenesten behandle de indsendte formulardata og tekniske oplysninger om anmodningen. Vercel er en amerikansk virksomhed, og behandling kan ske i USA og andre lande efter de relevante aftalevilkår og sikkerhedsforanstaltninger.",
+      "Resend (e-mail-levering): Leverer kontaktformularens beskeder, herunder den besøgendes kontaktoplysninger, besked, svaradresse og relaterede e-mailmetadata. Resend oplyser, at den primære behandling foregår i USA; valg af Irland som afsenderregion gør ikke kundedata EU-begrænsede. Overførsler er omfattet af Resends databehandleraftale og de sikkerhedsforanstaltninger, der beskrives dér.",
       "Microsoft 365 (e-mail og samarbejde): Er vært for vores e-mailkonti, hvor henvendelser fra kontaktformularen, jobansøgninger og øvrig korrespondance modtages og opbevares. Data opbevares i EU/EFTA-området.",
       "Offentlige myndigheder: Når det kræves ved lov eller for at beskytte vores rettigheder."
     ],
-    "dataSharingNote": "Alle leverandører behandler data på vores vegne under databehandleraftaler. Hvor en leverandør er baseret uden for EU/EØS, sker overførslen på et gyldigt overførselsgrundlag (EU-U.S. Data Privacy Framework eller EU's standardkontraktbestemmelser).",
+    "dataSharingDpaNote": "Se leverandørernes detaljerede databehandleraftaler: <vercel>Vercels databehandleraftale</vercel> og <resend>Resends databehandleraftale</resend>.",
+    "dataSharingNote": "Vi bruger kun leverandører, der er nødvendige for at drive hjemmesiden og håndtere henvendelser. Før offentliggørelse og når en leverandør ændres, verificerer vi leverandørens aftale, behandlingssteder, underdatabehandlere og opbevaring i vores interne fortegnelse over databehandlere. Hvis personoplysninger overføres uden for EU/EØS, anvendes den relevante leverandøraftale og et gyldigt GDPR-overførselsgrundlag, f.eks. EU's standardkontraktbestemmelser, hvor det kræves.",
     "yourRightsHeading": "Dine rettigheder",
     "yourRightsIntro": "I henhold til GDPR har du ret til:",
     "yourRightsItems": [
@@ -1586,7 +1585,7 @@
       "Indsigelse — Gør indsigelse mod behandling baseret på legitim interesse.",
       "Tilbagetrækning af samtykke — Træk tidligere givet samtykke tilbage til enhver tid."
     ],
-    "yourRightsContact": "For at udøve nogen af disse rettigheder, kontakt os på info@linimatic.dk. Vi svarer inden for 30 dage.",
+    "yourRightsContact": "For at udøve dine rettigheder, kontakt os på info@linimatic.dk. Vi svarer inden for en måned, medmindre en lovlig forlængelse gælder.",
     "complaintsHeading": "Klager",
     "complaintsText": "Hvis du mener, at dine databeskyttelsesrettigheder er blevet krænket, har du ret til at indgive en klage til Datatilsynet:",
     "changesHeading": "Ændringer af denne politik",
@@ -1601,7 +1600,7 @@
     "howWeUseHeading": "Hvordan vi bruger cookies",
     "howWeUseText": "Vi bruger to kategorier: nødvendige, som altid er slået til, og analyse, som kun bruges, hvis du siger ja. Vi bruger ingen cookies til markedsføring, og vi deler ikke data med annoncenetværk. Du kan altid ændre dit valg via “Cookieindstillinger” nederst på siden.",
     "necessaryHeading": "Nødvendige cookies",
-    "necessaryText": "Disse cookies er essentielle for, at hjemmesiden fungerer korrekt. De muliggør grundlæggende funktioner som sidenavigation, sikre områder og husker dine cookiepræferencer. Hjemmesiden kan ikke fungere korrekt uden disse cookies, og de kan ikke deaktiveres.",
+    "necessaryText": "Disse cookies er nødvendige for, at hjemmesiden fungerer korrekt. De understøtter grundlæggende funktioner og husker dine cookiepræferencer. Hjemmesiden kan ikke fungere korrekt uden dem, og de kan ikke deaktiveres.",
     "tableCookie": "Cookie",
     "tablePurpose": "Formål",
     "tableDuration": "Varighed",
@@ -1613,13 +1612,13 @@
     "popupStorageDuration": "Indtil du rydder din browser",
     "storageNote": "Den sidste linje i skemaet er ikke en cookie, men en note gemt lokalt i din browser. Den indeholder kun et tidspunkt, og den sendes aldrig til os eller til andre.",
     "analyticsHeading": "Analyse af besøg",
-    "analyticsText": "Hvis du siger ja til analyse, bruger vi Vercel Analytics til at tælle sidevisninger, så vi kan se, hvilke sider der er nyttige. Tjenesten sætter ingen cookies og gemmer intet på din enhed. Den registrerer ikke enkeltpersoner, og tallene kan ikke føres tilbage til dig. Siger du nej, indlæses den slet ikke.",
+    "analyticsText": "Hvis du siger ja til analyse, indlæser vi Vercel Analytics for at måle besøg og forstå, hvilke sider der er nyttige. Den indlæses ikke, hvis du siger nej. Vercel beskriver tjenesten som cookiefri og anonymiseret; Vercels egne privatlivsoplysninger forklarer, hvordan analysedata behandles.",
     "managingHeading": "Administration af dine præferencer",
     "managingText1": "Når du første gang besøger vores hjemmeside, vises et cookiebanner, der giver dig mulighed for at acceptere alle cookies, afvise alle ikke-nødvendige cookies eller tilpasse dine præferencer efter kategori.",
     "managingText2": "Du kan til enhver tid ændre dit valg eller trække dit samtykke tilbage via linket \"Cookieindstillinger\" nederst på alle sider.",
     "managingText3": "Du kan også styre cookies via dine browserindstillinger. De fleste browsere giver dig mulighed for at afvise eller slette cookies. Metoderne varierer fra browser til browser — se din browsers hjælpedokumentation.",
     "thirdPartyHeading": "Tredjeparter",
-    "thirdPartyText": "Vi bruger ingen annoncenetværk, sociale medie-knapper, kort eller videoer, der sætter cookies på vores sider, og skrifttyperne leveres fra vores egen server. Vores eneste eksterne leverandører er Vercel, som er vært for hjemmesiden og — hvis du har sagt ja til analyse — tæller besøg, samt Resend, som sender beskeder fra kontaktformularen videre til os.",
+    "thirdPartyText": "Vi bruger ingen annoncenetværk, sociale medie-knapper, kort eller videoer, der sætter cookies på vores sider, og skrifttyperne leveres fra vores egen server. Vercel er vært for hjemmesiden og kører kontaktformularen; hvis du har sagt ja til analyse, måler Vercel også besøg. Resend leverer kontaktformularens beskeder til vores virksomhedsmail, hvor de opbevares i Linimatics postkasse. Tjenesterne kan behandle data uden for EU/EØS som beskrevet i vores privatlivspolitik.",
     "contactHeading": "Kontakt",
     "contactText": "Hvis du har spørgsmål om vores brug af cookies, kontakt os på:"
   },

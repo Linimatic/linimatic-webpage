@@ -717,6 +717,7 @@
       "email": "E-Mail",
       "phone": "Telefon",
       "subject": "Betreff",
+      "subjectSelect": "Betreff auswählen",
       "subjectNew": "Neues Projekt",
       "subjectExisting": "Bestehendes Projekt",
       "subjectGeneral": "Allgemeine Anfrage",
@@ -729,9 +730,7 @@
       "volume50to100k": "50.000–100.000 Stk.",
       "volumeOver100k": "Über 100.000 Stk.",
       "message": "Projektbeschreibung",
-      "fileUpload": "Technische Zeichnungen",
-      "fileFormats": "STEP · IGES · Solidworks · Parasolid · PDF · DWG · DXF",
-      "privacyNotice": "Mit dem Absenden des Formulars verarbeitet Linimatic A/S Ihre Angaben, um Ihre Anfrage zu beantworten. Details finden Sie in unserer <link>Datenschutzerklärung</link>.",
+      "privacyNotice": "Wenn Sie dieses Formular absenden, verwendet Linimatic A/S Ihre Angaben zur Beantwortung Ihrer Anfrage. Das Formular wird von Vercel verarbeitet; Resend übermittelt die Nachricht an unser Linimatic-Postfach. Wie technische Zeichnungen geteilt werden, können wir nach dem ersten Gespräch vereinbaren. Details finden Sie in unserer <link>Datenschutzerklärung</link>.",
       "honeypotLabel": "Dieses Feld bitte leer lassen",
       "submit": "Anfrage senden",
       "sending": "Wird gesendet...",
@@ -742,9 +741,7 @@
         "invalid_email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
         "rate_limited": "Von dieser Verbindung wurden zu viele Nachrichten gesendet. Bitte warten Sie einen Moment und versuchen Sie es erneut, oder schreiben Sie direkt an info@linimatic.dk.",
         "too_long": "Ein oder mehrere Felder überschreiten die maximale Länge.",
-        "send_failed": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie direkt an info@linimatic.dk.",
-        "invalid_file_type": "Eine oder mehrere Dateien haben ein nicht unterstütztes Format.",
-        "files_too_large": "Die angehängten Dateien sind zu groß — max. 15 MB insgesamt. Senden Sie sie stattdessen an info@linimatic.dk."
+        "send_failed": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie direkt an info@linimatic.dk."
       }
     },
     "yourContacts": "Ihre Ansprechpartner",
@@ -1443,7 +1440,7 @@
     "openApplicationDescription": "Wir sind immer an qualifizierten Fachkräften in den Bereichen Fertigung, Technik, Qualität und Vertrieb interessiert. Senden Sie uns Ihren Lebenslauf und erzählen Sie uns, was Sie mitbringen.",
     "openApplicationButton": "Initiativbewerbung senden",
     "learnMoreButton": "Mehr über uns erfahren",
-    "privacyNotice": "Wenn Sie eine Bewerbung senden, verarbeitet die Linimatic A/S Ihre Angaben, um die Bewerbung zu prüfen. Wir bewahren Bewerbungen bis zu 6 Monate nach Besetzung der Stelle auf, sofern Sie keiner längeren Speicherung zustimmen. Details finden Sie in unserer <link>Datenschutzerklärung</link>."
+      "privacyNotice": "Wenn Sie eine Bewerbung per E-Mail senden, verarbeitet Linimatic A/S Ihre Angaben, um die Bewerbung zu prüfen. Wir bewahren Bewerbungen 6 Monate nach Besetzung der Stelle auf, oder 6 Monate nach Eingang oder dem letzten Kontakt bei Initiativbewerbungen, sofern Sie keiner längeren Speicherung zustimmen. Details finden Sie in unserer <link>Datenschutzerklärung</link>."
   },
   "sustainabilityPage": {
     "breadcrumb": "Nachhaltigkeit",
@@ -1531,49 +1528,51 @@
     "title": "Datenschutzrichtlinie",
     "lastUpdated": "Zuletzt aktualisiert: August 2026",
     "dataControllerHeading": "Verantwortlicher",
-    "dataControllerIntro": "Linimatic A/S ist der Verantwortliche für personenbezogene Daten, die über diese Website erhoben werden.",
+    "dataControllerIntro": "Linimatic A/S ist der Verantwortliche für personenbezogene Daten, die über diese Website und bei Ihrer Kontaktaufnahme verarbeitet werden.",
     "whatWeCollectHeading": "Welche Daten wir erheben",
     "whatWeCollectIntro": "Wir können die folgenden personenbezogenen Daten über unsere Website erheben:",
     "collectItems": [
-      "Kontaktformular: Name, Unternehmen, E-Mail, Telefonnummer und Projektbeschreibung bei Angebotsanfragen oder Kontaktaufnahme.",
-      "Bewerbungen: Name, Kontaktdaten, Lebenslauf und Anschreiben bei Stellenbewerbungen.",
-      "Technische Daten: Beim Besuch der Website verarbeitet unser Hosting-Anbieter technische Angaben wie IP-Adresse und Browsertyp, um die Website sicher bereitzustellen. Wenn Sie der Analyse zugestimmt haben, zählen wir zusätzlich Seitenaufrufe in anonymer Form.",
+      "Kontaktformular: Name, Unternehmen, E-Mail-Adresse, Telefonnummer, Betreff, erwartetes Produktionsvolumen und Projektbeschreibung.",
+      "Bewerbungen: Name, Kontaktdaten, Lebenslauf, Anschreiben und weitere Angaben, die Sie in einer Bewerbung per E-Mail übermitteln.",
+      "Technische und sicherheitsbezogene Daten: Unser Hosting-Anbieter empfängt die Formularanfrage und verarbeitet technische Angaben wie IP-Adresse und Browserinformationen, um die Website bereitzustellen und zu schützen. Das Kontaktformular nutzt eine kurzzeitig im Arbeitsspeicher gehaltene IP-Begrenzung gegen Missbrauch; wir speichern Einsendungen nicht in einer Website-Datenbank.",
+      "Optionale Analyse: Wenn Sie zustimmen, verarbeitet Vercel Analytics cookielose Besuchsmessungen, damit wir verstehen, welche Seiten nützlich sind. Bei Ablehnung wird der Dienst nicht geladen.",
       "Kommunikationsdaten: Aufzeichnungen der Korrespondenz bei Kontakt per E-Mail oder Telefon."
     ],
-    "dataSourceNote": "Wir erheben diese Daten ausschließlich direkt von Ihnen — wir kaufen oder erhalten keine personenbezogenen Daten über Sie aus anderen Quellen.",
+    "dataSourceNote": "Das Formular erfordert Ihren Namen, Ihr Unternehmen, Ihre E-Mail-Adresse und Ihre Nachricht, damit wir Sie identifizieren und Ihre Anfrage beantworten können; Telefonnummer, Betreff und erwartetes Volumen sind optional. Fehlt ein Pflichtfeld, kann das Formular nicht abgesendet werden. Angaben in Formularen und E-Mails stammen von Ihnen. Einige technische Angaben, etwa IP-Adresse und Browserinformationen, entstehen automatisch bei der Nutzung der Website.",
     "legalBasisHeading": "Rechtsgrundlage der Verarbeitung",
     "legalBasisIntro": "Gemäß der Datenschutz-Grundverordnung (DSGVO) verarbeiten wir personenbezogene Daten auf Grundlage von:",
     "legalBasisItems": [
-      "Einwilligung (Art. 6 Abs. 1 lit. a): Für die Analyse der Websitenutzung.",
-      "Vertragserfüllung (Art. 6 Abs. 1 lit. b): Zur Bearbeitung von Angebotsanfragen und zur Beantwortung von Kundenanfragen.",
-      "Berechtigtes Interesse (Art. 6 Abs. 1 lit. f): Zur Verbesserung unserer Website, Gewährleistung der Sicherheit und Kommunikation über unsere Leistungen.",
-      "Rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c): Zur Einhaltung steuerlicher, buchhalterischer und anderer gesetzlicher Anforderungen."
+      "Einwilligung (Art. 6 Abs. 1 lit. a): Für optionale Website-Analysen.",
+      "Berechtigtes Interesse (Art. 6 Abs. 1 lit. f): Zur Entgegennahme und Beantwortung von Anfragen, Prüfung von Bewerbungen, Vermeidung von Missbrauch und zum Schutz der Website und unserer Kommunikation.",
+      "Vorvertragliche Maßnahmen (Art. 6 Abs. 1 lit. b): Wenn aus einer Anfrage der Wunsch entsteht, einen Vertrag vorzubereiten oder abzuschließen.",
+      "Rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c): Wenn ein Gesetz die Aufbewahrung oder Verarbeitung von Informationen verlangt."
     ],
     "howWeUseHeading": "Wie wir Ihre Daten verwenden",
     "howWeUseItems": [
       "Zur Beantwortung von Angebotsanfragen und Kundenanfragen",
       "Zur Bearbeitung von Bewerbungen",
-      "Zur Verbesserung unserer Website und Leistungen (mit Einwilligung)",
-      "Zur Einhaltung rechtlicher und regulatorischer Verpflichtungen",
-      "Zum Schutz unserer berechtigten Geschäftsinteressen"
+      "Zur Vermeidung von Missbrauch und zum Schutz der Website und unserer Kommunikation",
+      "Um bei erteilter Einwilligung zu verstehen, welche Seiten nützlich sind",
+      "Zur Einhaltung rechtlicher und regulatorischer Verpflichtungen"
     ],
     "retentionHeading": "Datenspeicherung",
     "retentionIntro": "Wir speichern personenbezogene Daten nur so lange, wie es für die beschriebenen Zwecke erforderlich ist oder gesetzlich vorgeschrieben. Im Einzelnen:",
     "retentionItems": [
-      "Angebotsanfragen: 2 Jahre ab letztem Kontakt gespeichert, oder länger bei bestehender Geschäftsbeziehung.",
-      "Bewerbungen: 6 Monate nach Besetzung der Stelle gespeichert, sofern Sie nicht einer längeren Speicherung zustimmen.",
-      "Analysedaten: Werden cookielos in anonymisierter, aggregierter Form erhoben und können keiner Person zugeordnet werden.",
-      "Buchhaltungsunterlagen: 5 Jahre gemäß dänischem Buchführungsgesetz gespeichert."
+      "Kontaktanfragen: Werden normalerweise 2 Jahre nach dem letzten Kontakt aus unseren Postfächern und zugehörigen Kopien gelöscht. Erfordert eine aktive Geschäftsbeziehung oder eine gesetzliche Pflicht eine längere Aufbewahrung, speichern wir nur das Erforderliche und halten den Grund fest.",
+      "Bewerbungen: Werden normalerweise 6 Monate nach Besetzung der Stelle gelöscht, oder 6 Monate nach Eingang oder dem letzten Kontakt bei Initiativbewerbungen, sofern Sie keiner längeren Speicherung zustimmen.",
+      "Sicherheitsdaten: IP-Informationen für den kurzzeitigen Schutz des Kontaktformulars vor wiederholten Anfragen werden im Anwendungsspeicher und nicht in einer Kontaktdatenbank gehalten.",
+      "Analysedaten: Werden nur nach Einwilligung erhoben und von Vercel als cookielos und anonymisiert beschrieben; siehe unsere Cookie-Richtlinie."
     ],
     "dataSharingHeading": "Datenweitergabe",
     "dataSharingIntro": "Wir verkaufen Ihre personenbezogenen Daten nicht. Wir können Daten teilen mit:",
     "dataSharingItems": [
-      "Vercel (Hosting und Webanalyse): Stellt die Website bereit und verarbeitet dabei technische Daten wie IP-Adressen. Wir speichern keine Kundendaten bei Vercel. Vercel ist ein US-Unternehmen, zertifiziert unter dem EU-U.S. Data Privacy Framework.",
-      "Resend (E-Mail-Zustellung): Übermittelt Nachrichten aus dem Kontaktformular an uns. Die Daten werden auf Servern in der EU (Irland) verarbeitet.",
+      "Vercel (Hosting und Formularlaufzeit): Hostet die Website und führt das serverseitige Kontaktformular aus. Im Rahmen des Dienstes kann Vercel die übermittelten Formulardaten und technische Metadaten der Anfrage verarbeiten. Vercel ist ein US-Unternehmen; die Verarbeitung kann in den USA und anderen Ländern nach den geltenden Vertragsbedingungen und Schutzmaßnahmen erfolgen.",
+      "Resend (E-Mail-Zustellung): Übermittelt Kontaktformulardaten einschließlich Kontaktdaten, Nachricht, Antwortadresse und zugehörigen E-Mail-Metadaten. Resend gibt an, dass die primären Verarbeitungsvorgänge in den USA stattfinden; eine Versandregion Irland macht Kundendaten nicht automatisch EU-intern. Übermittlungen sind durch Resends Data Processing Addendum und die dort beschriebenen Schutzmaßnahmen abgedeckt.",
       "Microsoft 365 (E-Mail und Zusammenarbeit): Hostet unsere E-Mail-Konten, in denen Anfragen aus dem Kontaktformular, Bewerbungen und sonstige Korrespondenz eingehen und gespeichert werden. Die Daten werden im EU/EFTA-Raum gespeichert.",
       "Behörden: Wenn gesetzlich vorgeschrieben oder zum Schutz unserer Rechte."
     ],
-    "dataSharingNote": "Alle Anbieter verarbeiten Daten in unserem Auftrag gemäß Auftragsverarbeitungsverträgen. Sitzt ein Anbieter außerhalb der EU/des EWR, erfolgt die Übermittlung auf Grundlage eines gültigen Übermittlungsmechanismus (EU-U.S. Data Privacy Framework oder EU-Standardvertragsklauseln).",
+    "dataSharingDpaNote": "Die detaillierten Auftragsverarbeitungsbedingungen finden Sie im <vercel>Data Processing Addendum von Vercel</vercel> und im <resend>Data Processing Addendum von Resend</resend>.",
+    "dataSharingNote": "Wir nutzen Anbieter nur, soweit sie für den Betrieb der Website und die Bearbeitung von Anfragen erforderlich sind. Vor der Veröffentlichung und bei Änderungen eines Anbieters prüfen wir Vertrag, Verarbeitungsorte, Unterauftragsverarbeiter und Aufbewahrung im internen Verzeichnis der Auftragsverarbeiter. Bei Übermittlungen außerhalb der EU/des EWR werden, soweit erforderlich, der jeweilige Anbieter-Vertrag und ein gültiger DSGVO-Transfermechanismus wie die EU-Standardvertragsklauseln verwendet.",
     "yourRightsHeading": "Ihre Rechte",
     "yourRightsIntro": "Gemäß der DSGVO haben Sie das Recht auf:",
     "yourRightsItems": [
@@ -1585,7 +1584,7 @@
       "Widerspruch — Widersprechen Sie der Verarbeitung auf Grundlage berechtigter Interessen.",
       "Widerruf der Einwilligung — Widerrufen Sie eine zuvor erteilte Einwilligung jederzeit."
     ],
-    "yourRightsContact": "Zur Ausübung dieser Rechte kontaktieren Sie uns unter info@linimatic.dk. Wir antworten innerhalb von 30 Tagen.",
+    "yourRightsContact": "Zur Ausübung dieser Rechte kontaktieren Sie uns unter info@linimatic.dk. Wir antworten innerhalb eines Monats, sofern keine gesetzliche Verlängerung gilt.",
     "complaintsHeading": "Beschwerden",
     "complaintsText": "Wenn Sie der Ansicht sind, dass Ihre Datenschutzrechte verletzt wurden, haben Sie das Recht, eine Beschwerde bei der dänischen Datenschutzbehörde (Datatilsynet) einzureichen:",
     "changesHeading": "Änderungen dieser Richtlinie",
@@ -1600,7 +1599,7 @@
     "howWeUseHeading": "Wie wir Cookies verwenden",
     "howWeUseText": "Wir verwenden zwei Kategorien: notwendige Cookies, die immer aktiv sind, und Analyse, die wir nur mit Ihrer Einwilligung einsetzen. Wir verwenden keine Cookies für Marketing und geben keine Daten an Werbenetzwerke weiter. Sie können Ihre Auswahl jederzeit über „Cookie-Einstellungen“ am Seitenende ändern.",
     "necessaryHeading": "Notwendige Cookies",
-    "necessaryText": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website unerlässlich. Sie ermöglichen grundlegende Funktionen wie Seitennavigation, sichere Bereiche und das Speichern Ihrer Cookie-Einstellungen. Die Website kann ohne diese Cookies nicht ordnungsgemäß funktionieren, und sie können nicht deaktiviert werden.",
+    "necessaryText": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website unerlässlich. Sie unterstützen grundlegende Website-Funktionen und speichern Ihre Cookie-Einstellungen. Die Website kann ohne sie nicht ordnungsgemäß funktionieren, und sie können nicht deaktiviert werden.",
     "tableCookie": "Cookie",
     "tablePurpose": "Zweck",
     "tableDuration": "Dauer",
@@ -1612,13 +1611,13 @@
     "popupStorageDuration": "Bis Sie Ihren Browser leeren",
     "storageNote": "Der letzte Eintrag in der Tabelle ist kein Cookie, sondern ein lokal in Ihrem Browser gespeicherter Vermerk. Er enthält lediglich einen Zeitstempel und wird niemals an uns oder an Dritte übermittelt.",
     "analyticsHeading": "Besuchsanalyse",
-    "analyticsText": "Wenn Sie der Analyse zustimmen, verwenden wir Vercel Analytics, um Seitenaufrufe zu zählen und so zu erkennen, welche Seiten nützlich sind. Der Dienst setzt keine Cookies und speichert nichts auf Ihrem Gerät. Er erfasst keine Einzelpersonen, und die Zahlen lassen sich nicht auf Sie zurückführen. Lehnen Sie ab, wird er gar nicht erst geladen.",
+    "analyticsText": "Wenn Sie der Analyse zustimmen, laden wir Vercel Analytics, um Besuche zu messen und zu verstehen, welche Seiten nützlich sind. Bei Ablehnung wird der Dienst nicht geladen. Vercel beschreibt den Dienst als cookielos und anonymisiert; die eigenen Datenschutzinformationen von Vercel erklären die Verarbeitung der Analysedaten.",
     "managingHeading": "Verwaltung Ihrer Einstellungen",
     "managingText1": "Wenn Sie unsere Website zum ersten Mal besuchen, erscheint ein Cookie-Banner, mit dem Sie alle Cookies akzeptieren, alle nicht-essenziellen Cookies ablehnen oder Ihre Einstellungen nach Kategorie anpassen können.",
     "managingText2": "Sie können Ihre Wahl jederzeit ändern oder Ihre Einwilligung widerrufen — über den Link \"Cookie-Einstellungen\" unten auf jeder Seite.",
     "managingText3": "Sie können Cookies auch über Ihre Browsereinstellungen steuern. Die meisten Browser ermöglichen es Ihnen, Cookies abzulehnen oder zu löschen. Die Methoden variieren je nach Browser — konsultieren Sie die Hilfe-Dokumentation Ihres Browsers.",
     "thirdPartyHeading": "Drittanbieter",
-    "thirdPartyText": "Wir verwenden keine Werbenetzwerke, Social-Media-Schaltflächen, Karten oder Videos, die auf unseren Seiten Cookies setzen; Schriftarten werden von unserem eigenen Server ausgeliefert. Unsere einzigen externen Dienstleister sind Vercel, das die Website hostet und — sofern Sie der Analyse zugestimmt haben — Besuche zählt, sowie Resend, das Nachrichten aus dem Kontaktformular an uns weiterleitet.",
+    "thirdPartyText": "Wir verwenden keine Werbenetzwerke, Social-Media-Schaltflächen, Karten oder Videos, die auf unseren Seiten Cookies setzen; Schriftarten werden von unserem eigenen Server ausgeliefert. Vercel hostet die Website und führt das Kontaktformular aus; sofern Sie zugestimmt haben, misst Vercel außerdem Besuche. Resend übermittelt Kontaktformulardaten an unseren geschäftlichen E-Mail-Anbieter, der sie in unserem Linimatic-Postfach speichert. Diese Dienste können Daten außerhalb der EU/des EWR verarbeiten, wie in unserer Datenschutzrichtlinie beschrieben.",
     "contactHeading": "Kontakt",
     "contactText": "Bei Fragen zu unserer Verwendung von Cookies kontaktieren Sie uns unter:"
   },

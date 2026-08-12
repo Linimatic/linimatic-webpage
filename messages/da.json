@@ -829,7 +829,6 @@
     "eyebrow": "Kundeeksempler",
     "heading": "Cases",
     "description": "Se eksempler på, hvordan vi i tæt samarbejde med vores kunder omsætter idéer og tekniske krav til færdige løsninger i zink. Her præsenterer vi udvalgte projekter, udfordringer og resultater – suppleret med kundernes egne erfaringer med samarbejdet.",
-    "industries": ["Industri & værktøj", "Byggeri & HVAC", "Belysning", "Møbler & design"],
     "items": [
       {
         "slug": "supplier-proximity",

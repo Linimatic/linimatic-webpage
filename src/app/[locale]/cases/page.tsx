@@ -48,7 +48,6 @@ export default async function CasesPage({
   setRequestLocale(locale);
   const t = await getTranslations("casesPage");
 
-  const industries = t.raw("industries") as string[];
   const cases = t.raw("items") as Array<{
     slug: string;
     client: string;
@@ -63,7 +62,7 @@ export default async function CasesPage({
       <Breadcrumbs items={[{ label: t("breadcrumb"), href: "/cases" }]} />
 
       {/* Hero */}
-      <section className="bg-zinc-50 pb-12">
+      <section className="bg-zinc-50 pb-12 sm:pb-16 lg:pb-20">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
           <div className="max-w-3xl">
             <div className="flex items-center gap-4 mb-6">
@@ -78,18 +77,6 @@ export default async function CasesPage({
             <p className="mt-6 text-lg text-zinc-600 leading-relaxed max-w-2xl">
               {t("description")}
             </p>
-          </div>
-
-          {/* Industry filter tags */}
-          <div className="mt-8 flex flex-wrap gap-2">
-            {industries.map((industry) => (
-              <span
-                key={industry}
-                className="px-3 py-1.5 text-[11px] tracking-[0.1em] uppercase font-[family-name:var(--font-mono)] border border-zinc-300 text-zinc-600 hover:border-ember hover:text-ember transition-colors cursor-pointer"
-              >
-                {industry}
-              </span>
-            ))}
           </div>
         </div>
       </section>

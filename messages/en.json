@@ -826,7 +826,6 @@
     "eyebrow": "Case Studies",
     "heading": "Cases",
     "description": "See examples of how we work closely with our customers to turn ideas and technical requirements into finished zinc solutions. Here we present selected projects, challenges and results \u2014 supplemented by our customers\u2019 own experiences of working with us.",
-    "industries": ["Industrial & Tools", "Building & HVAC", "Lighting", "Furniture & Design"],
     "items": [
       {
         "slug": "supplier-proximity",

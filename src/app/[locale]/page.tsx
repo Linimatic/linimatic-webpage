@@ -1,9 +1,8 @@
 import type {Metadata} from "next";
 import {Fragment} from "react";
 import Image from "next/image";
-import Link from "next/link";
 import {getTranslations, setRequestLocale} from 'next-intl/server';
-import {routing} from '@/i18n/routing';
+import {Link, routing} from '@/i18n/routing';
 import {buildMetadata, type Locale} from '@/lib/seo';
 import {HeroImageFader} from '@/components/HeroImageFader';
 import {TestimonialFader} from '@/components/TestimonialFader';

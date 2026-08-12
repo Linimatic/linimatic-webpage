@@ -28,3 +28,6 @@ Navn, citater og produktfotos var allerede offentliggjort på linimatic.eu (det 
 
 ## Open gaps
 Ingen. Resultatet er lanceringen af bordet og den støbte logo-detalje — rent kvalitativt/faktuelt, ingen tal at tage stilling til.
+
+## Sprogvalg
+Citaterne ovenfor er gengivet ordret fra kilden, hvor ordet "armatur(er)" bruges enkelte steder. På websitet bruges konsekvent **"beslag"** i alle tre sprogversioner (da: beslag, en: fittings, de: Beschläge) — besluttet af Jan 2026-08-12, fordi to forskellige ord for samme del virker forvirrende for læseren.

@@ -41,16 +41,16 @@ Jan runs Linimatic. He is non-technical and usually writes in Danish. He has ful
 - **This is a marketing website, not the OEE app.** There is no database here. Most requests will be about page copy, images, layout, or contact-form behavior.
 - **The site is trilingual (Danish, English, German).** When Jan asks for a text change, remember it may need to be made in all three languages. If he only gives you one, ask whether the other languages should change too.
 - **Publishing is one step for Jan.** To save and publish changes, use the `udgiv` skill — it commits and pushes, and Vercel then deploys (~1–3 minutes). Tell Jan in plain language when it's sent and when it's live.
-- **The live site is still the OLD website, and its home is linimatic.eu.** linimatic.dk currently redirects to linimatic.eu, which serves the legacy WordPress site — live, and unrelated to this codebase. This project deploys to a Vercel address only. Never tell Jan a change is visible on linimatic.dk or linimatic.eu.
-- **linimatic.eu — not .dk — is the new site's canonical domain.** Google treats `.dk` as a country-code TLD that signals "this site is for Denmark", while `.eu` counts as generic; the old site's whole search history already sits on `.eu`. So the new site's canonicals, hreflang, sitemap and structured data all name `https://linimatic.eu`, and `SITE_URL` in `src/lib/seo.ts` is the single source for it. linimatic.dk stays as a Danish entry point: the bare domain sends visitors to `/da`, deeper paths keep their own language. The DNS switch happens later and only when Marc explicitly does it — never touch domain/DNS configuration.
+- **This codebase IS the live site (since 2026-08-12).** linimatic.eu serves this project, publicly, and linimatic.dk redirects to it. The legacy WordPress site has been taken down. Every push is therefore visible to customers within a couple of minutes — tell Jan that plainly, and hold published copy to that standard. Verify a claim about what is live by fetching the real URL, not by assuming.
+- **linimatic.eu — not .dk — is the canonical domain.** Google treats `.dk` as a country-code TLD that signals "this site is for Denmark", while `.eu` counts as generic; the site's whole search history already sits on `.eu`. So canonicals, hreflang, sitemap and structured data all name `https://linimatic.eu`, and `SITE_URL` in `src/lib/seo.ts` is the single source for it. linimatic.dk is the Danish entry point: the bare domain sends visitors to `/da`, deeper paths keep their own language. Indexed WordPress URLs are preserved by the redirect map in `src/lib/legacy-redirects.ts` — old English paths sat at the root, Danish and German under `/da/` and `/de/`; keep that map intact, a lost entry is lost search ranking. Domain/DNS configuration is Marc's alone — never touch it.
 
 ## Project Overview
 
-Corporate website for **Linimatic A/S** — Denmark's largest dedicated zinc die-casting foundry, founded 1967, located in Helsinge. This is a full rebuild/redesign migrating from an old WordPress site (linimatic.dk / linimatic.eu) to a modern Next.js application.
+Corporate website for **Linimatic A/S** — Denmark's largest dedicated zinc die-casting foundry, founded 1967, located in Helsinge. This project replaced the old WordPress site; since 2026-08-12 it is the live site on linimatic.eu (linimatic.dk redirects to it).
 
 The site is multilingual (Danish, English, German) and serves as both a marketing site and technical resource for B2B customers in manufacturing.
 
-### Key site sections (from the existing WordPress site)
+### Key site sections
 - **Why Zinc** — educational content on zinc die-casting benefits
 - **Services** — 10 service categories (prototypes, casting foundry, post-processing, surface coating, quality assurance, assembly, etc.)
 - **Cases** — customer case studies. Creating or editing these: follow `.claude-plugin/skills/case-study-writing/SKILL.md` (fact-gathering questionnaire + site wiring included)

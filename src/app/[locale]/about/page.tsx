@@ -212,12 +212,12 @@ export default async function AboutPage({
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-md sm:max-w-2xl lg:max-w-4xl mx-auto">
             {teamMembers.map((member, i) => (
               <div key={member.name} className="text-center">
-                <div className="w-28 h-28 mx-auto mb-5 rounded-full overflow-hidden bg-zinc-200 relative">
+                <div className="w-28 h-28 mx-auto mb-5 overflow-hidden bg-zinc-200 relative">
                   <Image
                     src={teamPhotos[i]}
                     alt={member.name}
                     fill
-                    className="object-cover"
+                    className="object-cover object-top"
                     sizes="112px"
                   />
                 </div>

@@ -235,6 +235,24 @@ const LEGACY_ROUTES: LegacyRoute[] = [
   },
 ];
 
+/**
+ * Pages on THIS site whose slug changed after they were published. Unlike the
+ * table above these use the same slug in every language, because this site's
+ * paths are not localised — only the locale prefix differs.
+ *
+ * A slug is part of the published URL: once a page has been in the sitemap it
+ * may sit in someone's Google result or bookmark, so a rename needs an entry
+ * here rather than leaving the old address to 404.
+ */
+const RENAMED_ROUTES: { from: string; to: string }[] = [
+  // The zinc info day was announced for 16 August 2026; the real date is
+  // 16 September 2026, so the slug's month was wrong (corrected 2026-08-12).
+  {
+    from: "/about/news/zink-temadag-august-2026",
+    to: "/about/news/zink-temadag-september-2026",
+  },
+];
+
 export type Redirect = {
   source: string;
   destination: string;
@@ -264,6 +282,16 @@ export function legacyRedirects(): Redirect[] {
       destination: `/de${route.to}`,
       permanent: true,
     });
+  }
+
+  for (const route of RENAMED_ROUTES) {
+    for (const locale of ["en", "da", "de"]) {
+      redirects.push({
+        source: `/${locale}${route.from}`,
+        destination: `/${locale}${route.to}`,
+        permanent: true,
+      });
+    }
   }
 
   return redirects;

@@ -812,11 +812,11 @@
     "ctaDescription": "Ring eller skriv — så vender vi tilbage med et bud på, hvordan zink kan løse opgaven.",
     "ctaButton": "Kontakt os",
     "items": {
-      "zink-temadag-august-2026": {
-        "title": "Zink Temadag den 16. august 2026",
+      "zink-temadag-september-2026": {
+        "title": "Zink Temadag den 16. september 2026",
         "excerpt": "Vi holder gratis temadag om zinktrykstøbning hos Linimatic i Helsinge — fra materialevalg og konstruktion til produktion og færdigt emne.",
         "body": [
-          "Den 16. august 2026 åbner vi dørene til produktionen i Helsinge for en gratis temadag om zinktrykstøbning. Dagen varer omkring fire timer og henvender sig til konstruktører, projektledere og indkøbere, der vil vide mere om, hvad zink kan.",
+          "Den 16. september 2026 åbner vi dørene til produktionen i Helsinge for en gratis temadag om zinktrykstøbning. Dagen varer omkring fire timer og henvender sig til konstruktører, projektledere og indkøbere, der vil vide mere om, hvad zink kan.",
           "Programmet kommer hele vejen rundt: zink som materiale og hvor det kommer fra, sammenligning med aluminium og plast, selve støbeprocessen, konstruktion i zink med de muligheder og begrænsninger det giver, CO2-aftryk, overfladebehandling, støbeværktøjer og mulighederne for prototyper. Undervejs er der rundvisning i produktionen, så deltagerne ser maskinerne arbejde.",
           "Tag gerne en potentiel komponent eller en konkret problemstilling med — så gennemgår vi den på dagen. Programmet tilpasses altid deltagerne.",
           "Tilmelding og spørgsmål: Jan V. Jørgensen, jaj@linimatic.dk eller +45 2343 3667."
@@ -1641,7 +1641,7 @@
     ],
     "agendaNote": "Programmet kan altid justeres og tilpasses deltagerne.",
     "datesHeading": "Næste planlagte temadage",
-    "dates": ["20.05.2026", "16.08.2026"],
+    "dates": ["20.05.2026", "16.09.2026"],
     "datesNote": "Afholdes hos Linimatic i Helsinge",
     "datePastLabel": "Afholdt",
     "contactHeading": "Book en temadag",

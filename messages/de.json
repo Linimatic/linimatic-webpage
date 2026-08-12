@@ -812,11 +812,11 @@
     "ctaDescription": "Rufen Sie an oder schreiben Sie uns — wir melden uns mit einer Einschätzung, wie Zink die Aufgabe löst.",
     "ctaButton": "Kontakt aufnehmen",
     "items": {
-      "zink-temadag-august-2026": {
-        "title": "Zink-Infotag am 16. August 2026",
+      "zink-temadag-september-2026": {
+        "title": "Zink-Infotag am 16. September 2026",
         "excerpt": "Kostenloser Infotag zum Zinkdruckguss bei Linimatic in Helsinge — von Werkstoffwahl und Konstruktion bis zu Produktion und fertigem Bauteil.",
         "body": [
-          "Am 16. August 2026 öffnen wir die Türen unserer Produktion in Helsinge für einen kostenlosen Infotag zum Zinkdruckguss. Der Tag dauert rund vier Stunden und richtet sich an Konstrukteure, Projektleiter und Einkäufer, die mehr darüber erfahren möchten, was Zink kann.",
+          "Am 16. September 2026 öffnen wir die Türen unserer Produktion in Helsinge für einen kostenlosen Infotag zum Zinkdruckguss. Der Tag dauert rund vier Stunden und richtet sich an Konstrukteure, Projektleiter und Einkäufer, die mehr darüber erfahren möchten, was Zink kann.",
           "Das Programm deckt das gesamte Feld ab: Zink als Werkstoff und seine Herkunft, der Vergleich mit Aluminium und Kunststoff, der Gießprozess selbst, das Konstruieren in Zink mit seinen Möglichkeiten und Grenzen, CO2-Fußabdruck, Oberflächenbehandlung, Gießwerkzeuge und die Möglichkeiten für Prototypen. Dazwischen führen wir durch die Produktion, sodass Sie die Maschinen bei der Arbeit sehen.",
           "Bringen Sie gerne ein mögliches Bauteil oder eine konkrete Fragestellung mit — wir gehen sie am Tag gemeinsam durch. Das Programm wird immer an die Teilnehmer angepasst.",
           "Anmeldung und Fragen: Jan V. Jørgensen, jaj@linimatic.dk oder +45 2343 3667."
@@ -1640,7 +1640,7 @@
     ],
     "agendaNote": "Das Programm kann jederzeit an die Teilnehmer angepasst werden.",
     "datesHeading": "Nächste geplante Infotage",
-    "dates": ["20.05.2026", "16.08.2026"],
+    "dates": ["20.05.2026", "16.09.2026"],
     "datesNote": "Findet bei Linimatic in Helsinge statt",
     "datePastLabel": "Stattgefunden",
     "contactHeading": "Infotag buchen",

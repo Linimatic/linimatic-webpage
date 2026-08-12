@@ -809,11 +809,11 @@
     "ctaDescription": "Call or write to us — we will come back with a view on how zinc can solve the job.",
     "ctaButton": "Contact us",
     "items": {
-      "zink-temadag-august-2026": {
-        "title": "Zinc Info Day on 16 August 2026",
+      "zink-temadag-september-2026": {
+        "title": "Zinc Info Day on 16 September 2026",
         "excerpt": "A free info day on zinc die-casting at Linimatic in Helsinge — from material choice and design to production and finished part.",
         "body": [
-          "On 16 August 2026 we open the doors to our production in Helsinge for a free info day on zinc die-casting. The day lasts around four hours and is aimed at design engineers, project managers and buyers who want to know more about what zinc can do.",
+          "On 16 September 2026 we open the doors to our production in Helsinge for a free info day on zinc die-casting. The day lasts around four hours and is aimed at design engineers, project managers and buyers who want to know more about what zinc can do.",
           "The programme covers the whole ground: zinc as a material and where it comes from, a comparison with aluminium and plastic, the casting process itself, designing in zinc with the possibilities and limits that brings, CO2 footprint, surface treatment, casting tools and the options for prototypes. Along the way there is a guided tour of the production, so you see the machines at work.",
           "Feel free to bring a potential component or a specific problem — we will go through it on the day. The programme is always adapted to the participants.",
           "Registration and questions: Jan V. Jørgensen, jaj@linimatic.dk or +45 2343 3667."
@@ -1637,7 +1637,7 @@
     ],
     "agendaNote": "The agenda can always be adjusted to suit the participants.",
     "datesHeading": "Next scheduled info days",
-    "dates": ["20.05.2026", "16.08.2026"],
+    "dates": ["20.05.2026", "16.09.2026"],
     "datesNote": "Held at Linimatic in Helsinge",
     "datePastLabel": "Completed",
     "contactHeading": "Book an info day",

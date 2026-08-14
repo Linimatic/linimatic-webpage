@@ -60,6 +60,20 @@ function Placeholder({ children }: { children: React.ReactNode }) {
   );
 }
 
+/** Small "Grundlagt 1967" line above the hero headline. Rendered twice: above the
+    headline from lg, and below the hero image on mobile — where the headline must
+    be the very first thing on the page. Only one copy is ever visible. */
+function HeroEyebrow({ text, className }: { text: string; className: string }) {
+  return (
+    <div className={`items-center gap-4 animate-fade-up ${className}`}>
+      <div className="w-12 h-px bg-ember" />
+      <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
+        {text}
+      </span>
+    </div>
+  );
+}
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));
 }
@@ -105,14 +119,11 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
         </div>
 
         <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20 pt-28 sm:pt-32 lg:pt-40 xl:pt-44 pb-0">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div>
-              <div className="flex items-center gap-4 mb-8 animate-fade-up">
-                <div className="w-12 h-px bg-ember" />
-                <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
-                  {t('hero.eyebrow')}
-                </span>
-              </div>
+          {/* Mobile order is headline → image → the rest; from lg the headline and the
+              rest stack in the left column and the image spans both rows on the right. */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-8 lg:gap-x-16 items-center">
+            <div className="lg:col-start-1 lg:row-start-1 lg:self-end">
+              <HeroEyebrow text={t('hero.eyebrow')} className="hidden lg:flex mb-8" />
               <h1 className="animate-fade-up delay-1">
                 <span className="block text-5xl sm:text-6xl lg:text-7xl xl:text-[5.5rem] font-bold text-zinc-900 hyphens-auto [overflow-wrap:break-word] leading-[0.92] tracking-[-0.03em] font-[family-name:var(--font-display)]">
                   {t('hero.headline1')}
@@ -121,7 +132,15 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                   {t('hero.headline2')} <span className="text-transparent bg-clip-text bg-gradient-to-r from-ember via-ember-light to-ember">{t('hero.headlineAccent')}</span>
                 </span>
               </h1>
-              <p className="mt-8 text-xl sm:text-2xl text-zinc-600 font-medium leading-snug tracking-tight animate-fade-up delay-2 font-[family-name:var(--font-display)]">
+            </div>
+            <div className="animate-fade-up delay-2 lg:-mr-16 xl:-mr-20 lg:col-start-2 lg:row-start-1 lg:row-span-2">
+              <div className="relative aspect-[4/3] lg:aspect-square">
+                <HeroImageFader items={heroItems.map((item) => ({ ...item, alt: t(item.altKey) }))} />
+              </div>
+            </div>
+            <div className="lg:col-start-1 lg:row-start-2 lg:self-start">
+              <HeroEyebrow text={t('hero.eyebrow')} className="flex lg:hidden mb-6" />
+              <p className="text-xl sm:text-2xl text-zinc-600 font-medium leading-snug tracking-tight animate-fade-up delay-2 font-[family-name:var(--font-display)]">
                 {t('hero.tagline')}
               </p>
               <p className="mt-4 text-base text-zinc-600 max-w-md leading-relaxed animate-fade-up delay-2">
@@ -135,11 +154,6 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                 <Link href="/services" className="group inline-flex items-center justify-center gap-3 border border-zinc-300 hover:border-zinc-500 px-7 py-3.5 text-sm font-semibold tracking-wide uppercase text-zinc-700 hover:text-zinc-900 transition-all">
                   {t('hero.ctaSecondary')}
                 </Link>
-              </div>
-            </div>
-            <div className="animate-fade-up delay-2 lg:-mr-16 xl:-mr-20">
-              <div className="relative aspect-[4/3] lg:aspect-square">
-                <HeroImageFader items={heroItems.map((item) => ({ ...item, alt: t(item.altKey) }))} />
               </div>
             </div>
           </div>

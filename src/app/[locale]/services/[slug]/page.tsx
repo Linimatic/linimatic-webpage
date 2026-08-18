@@ -59,7 +59,7 @@ const SERVICE_META: Record<
   },
   assembly: {
     relatedServices: ["quality", "surface-treatment"],
-    image: "/images/services/assembly.jpg",
+    image: "/images/services/assembly.png",
   },
 };
 

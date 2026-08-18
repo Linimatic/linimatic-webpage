@@ -60,7 +60,7 @@ const services = [
     slug: "assembly",
     icon: "06",
     label: "Deliver",
-    image: "/images/services/assembly.jpg",
+    image: "/images/services/assembly.png",
   },
 ];
 

@@ -42,35 +42,36 @@ export default async function ZinkersPage({
 
   const applications = t.raw("applications") as string[];
 
-  // No `offers` node: sinkers are quoted per order, so there is no published
-  // price to declare — inventing one to satisfy a rich-result field would be a
-  // lie in machine-readable form.
-  const productSchema = {
+  // Google's Product parser demands one of `offers`, `review` or
+  // `aggregateRating` before it accepts the node. Sinkers are quoted per order —
+  // there is no published price — and we carry no reviews, so a `Product` node
+  // here can only ever be a permanent "critical issue" in Search Console for a
+  // rich result that could never render. Inventing a price to silence it would
+  // be a lie in machine-readable form. This page therefore describes itself as
+  // what it is: a page about a thing, with no rich-result contract to honour.
+  const pageSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
-    "@id": `${SITE_URL}/${locale}/zinkers#product`,
-    name: t("eyebrow"),
-    description: t("intro"),
+    "@type": "ItemPage",
+    "@id": `${SITE_URL}/${locale}/zinkers#page`,
     url: `${SITE_URL}/${locale}/zinkers`,
-    image: `${SITE_URL}/images/products/zinc-sinkers.jpg`,
-    material: "Zinc",
-    manufacturer: { "@id": `${SITE_URL}/#organization` },
-    brand: { "@id": `${SITE_URL}/#organization` },
-    countryOfOrigin: { "@type": "Country", name: "Denmark" },
-    additionalProperty: [
-      {
-        "@type": "PropertyValue",
-        name: "Weight range",
-        minValue: 50,
-        maxValue: 2000,
-        unitCode: "GRM",
-      },
-    ],
+    name: t("heading"),
+    description: t("intro"),
+    inLanguage: locale,
+    primaryImageOfPage: {
+      "@type": "ImageObject",
+      url: `${SITE_URL}/images/products/zinc-sinkers.jpg`,
+    },
+    publisher: { "@id": `${SITE_URL}/#organization` },
+    about: {
+      "@type": "Thing",
+      name: t("breadcrumb"),
+      description: t("intro"),
+    },
   };
 
   return (
     <>
-      <JsonLd data={productSchema} />
+      <JsonLd data={pageSchema} />
       <Breadcrumbs items={[{ label: t("breadcrumb"), href: "/zinkers" }]} />
 
       {/* Hero */}

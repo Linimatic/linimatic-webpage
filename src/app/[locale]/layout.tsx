@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import {
   Instrument_Sans,
   Source_Sans_3,
   JetBrains_Mono,
 } from "next/font/google";
-import { NextIntlClientProvider } from "next-intl";
+import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import {
@@ -47,6 +48,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) notFound();
   const t = await getTranslations({ locale, namespace: "meta" });
   const l = locale as Locale;
 
@@ -149,6 +151,14 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  // An unknown first path segment renders here with `locale` set to whatever
+  // that segment was — old WordPress addresses like /wp-login.php reach this
+  // point, because the proxy's matcher skips any path containing a dot. Without
+  // this guard next-intl falls back to the default messages and the segment is
+  // served as a 200 copy of the front page, carrying a canonical that points at
+  // itself: every dead legacy URL becomes an indexable duplicate of the
+  // homepage. Reject the locale instead, so the address 404s as it should.
+  if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
   const messages = await getMessages();
   const t = await getTranslations({ locale, namespace: "meta" });

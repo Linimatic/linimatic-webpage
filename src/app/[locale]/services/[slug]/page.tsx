@@ -26,6 +26,12 @@ const SERVICE_META: Record<
     // Optional slideshow images. When present, the hero slot slowly crossfades
     // between them instead of showing the single `image`.
     fader?: string[];
+    // Set for cut-out product shots on a white background. Those are shown whole
+    // on a plain white slot instead of being cropped and blended into the hero
+    // background — the soft left fade turns a white cut-out into a smudge that
+    // appears to dissolve into the text column. No border either: any edge next
+    // to the text column reads as a stray vertical line.
+    cutout?: boolean;
   }
 > = {
   prototyping: {
@@ -60,6 +66,7 @@ const SERVICE_META: Record<
   assembly: {
     relatedServices: ["quality", "surface-treatment"],
     image: "/images/services/assembly.png",
+    cutout: true,
   },
 };
 
@@ -217,7 +224,11 @@ export default async function ServiceDetailPage({
                 />
               </div>
             ) : (
-              <div className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[480px]">
+              <div
+                className={`relative aspect-[4/3] lg:aspect-auto lg:min-h-[480px] ${
+                  meta.cutout ? "bg-white" : ""
+                }`}
+              >
                 {meta.fader ? (
                   <HeroImageFader
                     items={meta.fader.map((src) => ({
@@ -235,11 +246,17 @@ export default async function ServiceDetailPage({
                     alt={t("title")}
                     fill
                     priority
-                    className="object-cover"
+                    className={
+                      meta.cutout
+                        ? "object-contain p-6 sm:p-8 lg:p-12"
+                        : "object-cover"
+                    }
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                 )}
-                <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-zinc-50 to-transparent hidden lg:block" />
+                {!meta.cutout && (
+                  <div className="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-zinc-50 to-transparent hidden lg:block" />
+                )}
               </div>
             )}
           </div>

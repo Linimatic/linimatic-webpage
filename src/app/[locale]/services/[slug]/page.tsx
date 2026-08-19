@@ -26,11 +26,11 @@ const SERVICE_META: Record<
     // Optional slideshow images. When present, the hero slot slowly crossfades
     // between them instead of showing the single `image`.
     fader?: string[];
-    // Set for cut-out product shots on a white background. Those are shown whole
-    // on a plain white slot instead of being cropped and blended into the hero
-    // background — the soft left fade turns a white cut-out into a smudge that
-    // appears to dissolve into the text column. No border either: any edge next
-    // to the text column reads as a stray vertical line.
+    // Set for transparent product cut-outs (alpha PNGs). Those are shown whole
+    // rather than cropped, and skip the left fade: with no photo edge to blend,
+    // the fade only smudges the hero background. Give them no slot background
+    // and no border either — the transparent image must sit on the section's own
+    // background, or it reads as a pale box in a slightly different shade.
     cutout?: boolean;
   }
 > = {
@@ -224,11 +224,7 @@ export default async function ServiceDetailPage({
                 />
               </div>
             ) : (
-              <div
-                className={`relative aspect-[4/3] lg:aspect-auto lg:min-h-[480px] ${
-                  meta.cutout ? "bg-white" : ""
-                }`}
-              >
+              <div className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[480px]">
                 {meta.fader ? (
                   <HeroImageFader
                     items={meta.fader.map((src) => ({

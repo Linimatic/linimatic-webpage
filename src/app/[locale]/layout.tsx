@@ -11,6 +11,7 @@ import { routing } from "@/i18n/routing";
 import {
   SITE_URL,
   OG_LOCALE,
+  POSTAL_ADDRESS,
   ogAlternateLocales,
   type Locale,
 } from "@/lib/seo";
@@ -96,14 +97,7 @@ function organizationSchema(description: string) {
   logo: `${SITE_URL}/images/brand/linimatic-logo-zinc.png`,
   image: `${SITE_URL}/images/services/facility-2022.jpg`,
   foundingDate: "1967",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Bomose Allé 12",
-    addressLocality: "Helsinge",
-    postalCode: "3200",
-    addressRegion: "Hovedstaden",
-    addressCountry: "DK",
-  },
+  address: POSTAL_ADDRESS,
   geo: {
     "@type": "GeoCoordinates",
     latitude: 56.0201,

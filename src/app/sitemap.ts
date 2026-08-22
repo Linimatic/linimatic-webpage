@@ -6,8 +6,10 @@ const LOCALES = ["da", "en", "de"] as const;
 
 // Stable last-content-update date. Bump this when the site's content materially
 // changes — using `new Date()` would reset every entry's <lastmod> on each
-// unrelated deploy, which Google learns to ignore as a noisy signal.
-const LAST_UPDATED = new Date("2026-08-01");
+// unrelated deploy, which Google learns to ignore as a noisy signal. A real
+// content change means new or rewritten copy, pages, cases or news; a styling
+// fix, a dependency bump or a structured-data change is not one.
+const LAST_UPDATED = new Date("2026-08-22");
 
 type StaticRoute = {
   path: string;

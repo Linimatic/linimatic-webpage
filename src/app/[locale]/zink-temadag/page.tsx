@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { buildMetadata, type Locale } from "@/lib/seo";
+import { buildMetadata, POSTAL_ADDRESS, SITE_URL, type Locale } from "@/lib/seo";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { JsonLd } from "@/components/JsonLd";
 
 export async function generateMetadata({
   params,
@@ -37,6 +38,14 @@ function hasPassed(date: string) {
   return new Date(year, month - 1, day) < today;
 }
 
+/** "DD.MM.YYYY" → "YYYY-MM-DD", the only date form schema.org accepts. */
+function toIsoDate(date: string) {
+  const [day, month, year] = date.split(".");
+  return `${year}-${month}-${day}`;
+}
+
+const SEMINAR_IMAGE = "/images/zink-temadag/seminar-attendees.jpg";
+
 export default async function ZinkTemadagPage({
   params,
 }: {
@@ -45,12 +54,57 @@ export default async function ZinkTemadagPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("zinkTemadagPage");
+  const tMeta = await getTranslations("meta");
 
   const agenda = t.raw("agenda") as string[];
   const dates = t.raw("dates") as string[];
+  const pageUrl = `${SITE_URL}/${locale}/zink-temadag`;
+
+  // One Event node per date that has not passed yet. Past dates are left out on
+  // purpose: a seminar that already happened is not something a search result
+  // should offer a visitor, and marking one up only invites a stale event card.
+  // `revalidate` above rebuilds this page daily, so a date drops out of the
+  // markup by itself the day after it is held.
+  const eventSchemas = dates
+    .filter((date) => !hasPassed(date))
+    .map((date) => ({
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "@id": `${pageUrl}#${toIsoDate(date)}`,
+      name: t("heading"),
+      description: tMeta("zinkTemadag.description"),
+      // Calendar day only, no clock time. The start hour is not published
+      // anywhere on the site, and inventing one would put a wrong time into the
+      // one place a machine reads literally.
+      startDate: toIsoDate(date),
+      eventStatus: "https://schema.org/EventScheduled",
+      eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+      inLanguage: locale,
+      url: pageUrl,
+      image: `${SITE_URL}${SEMINAR_IMAGE}`,
+      isAccessibleForFree: true,
+      // Referenced, not repeated: the Organization node the locale layout emits
+      // on every page carries the full company entity.
+      organizer: { "@id": `${SITE_URL}/#organization` },
+      location: {
+        "@type": "Place",
+        name: "Linimatic A/S",
+        address: POSTAL_ADDRESS,
+      },
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "DKK",
+        availability: "https://schema.org/InStock",
+        url: pageUrl,
+      },
+    }));
 
   return (
     <>
+      {eventSchemas.map((schema) => (
+        <JsonLd key={schema["@id"]} data={schema} />
+      ))}
       <Breadcrumbs items={[{ label: t("breadcrumb"), href: "/zink-temadag" }]} />
 
       {/* Hero */}
@@ -79,7 +133,7 @@ export default async function ZinkTemadagPage({
             </div>
             <div className="relative aspect-[4/3] lg:aspect-auto lg:h-[420px]">
               <Image
-                src="/images/zink-temadag/seminar-attendees.jpg"
+                src={SEMINAR_IMAGE}
                 alt={t("heroImageAlt")}
                 fill
                 priority

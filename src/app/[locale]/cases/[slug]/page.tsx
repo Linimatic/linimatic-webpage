@@ -5,7 +5,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { buildMetadata, metaDescription, type Locale } from "@/lib/seo";
+import { buildMetadata, metaDescription, SITE_URL, type Locale } from "@/lib/seo";
+import { JsonLd } from "@/components/JsonLd";
 import {
   CASE_SLUGS,
   SERVICE_SLUGS,
@@ -105,8 +106,31 @@ export default async function CaseDetailPage({
 
   const otherSlugs = CASE_SLUGS.filter((s) => s !== caseSlug);
 
+  // These pages carried no structured data at all. `Article` is the honest fit:
+  // editorial content Linimatic publishes about its own work. It is emitted
+  // without `datePublished` on purpose — the cases carry no publication date
+  // anywhere, and a plausible-looking invented one would be a wrong fact in the
+  // one place a machine reads literally. The customer is `mentions`, not
+  // `about`: the case is about the part and the project, not about the customer
+  // as a company.
+  const caseSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": `${SITE_URL}/${locale}/cases/${caseSlug}#article`,
+    headline: t(`items.${caseSlug}.metaTitle`),
+    description: metaDescription(overview),
+    image: `${SITE_URL}${CASE_IMAGES[caseSlug]}`,
+    inLanguage: locale,
+    mainEntityOfPage: `${SITE_URL}/${locale}/cases/${caseSlug}`,
+    articleSection: industry,
+    author: { "@id": `${SITE_URL}/#organization` },
+    publisher: { "@id": `${SITE_URL}/#organization` },
+    mentions: { "@type": "Organization", name: client },
+  };
+
   return (
     <>
+      <JsonLd data={caseSchema} />
       <Breadcrumbs
         items={[
           { label: tCases("breadcrumb"), href: "/cases" },

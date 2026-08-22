@@ -17,6 +17,21 @@ import { routing } from "@/i18n/routing";
  */
 export const SITE_URL = "https://linimatic.eu";
 
+/**
+ * The company's postal address in schema.org form. It lives here because more
+ * than one page emits it — the Organization node in the locale layout and the
+ * Event nodes on the seminar page — and two hand-written copies of an address
+ * drift silently the day anything about it changes.
+ */
+export const POSTAL_ADDRESS = {
+  "@type": "PostalAddress",
+  streetAddress: "Bomose Allé 12",
+  addressLocality: "Helsinge",
+  postalCode: "3200",
+  addressRegion: "Hovedstaden",
+  addressCountry: "DK",
+} as const;
+
 export type Locale = (typeof routing.locales)[number];
 
 const LOCALES = routing.locales as readonly Locale[];

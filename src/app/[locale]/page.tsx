@@ -40,7 +40,6 @@ const chainSlugs = [
 const clientLogoMap: Record<string, { logo: string; width: number; height: number } | null> = {
   "Bang & Olufsen": { logo: "/images/clients/bang-olufsen.png", width: 84, height: 100 },
   "One Collection": { logo: "/images/clients/one-collection.png", width: 220, height: 100 },
-  "Fritz Hansen": null,   // LOGO NEEDED — source from Fritz Hansen brand assets
   "VELUX": null,           // LOGO NEEDED — source from VELUX brand assets
   "HOWE": { logo: "/images/clients/howe.png", width: 160, height: 100 },
   "Montana": null,         // LOGO NEEDED — source from Montana brand assets

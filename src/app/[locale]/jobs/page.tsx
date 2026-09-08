@@ -237,7 +237,7 @@ export default async function JobsPage({
                       )}
                     </div>
 
-                    <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4">
                       {/* Responsibilities */}
                       <div>
                         <h4 className="text-sm font-semibold text-zinc-900 mb-3">

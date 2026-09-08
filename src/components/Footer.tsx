@@ -109,7 +109,7 @@ export function Footer() {
               <p>{t("address.country")}</p>
               <div className="pt-3 space-y-2">
                 <p>
-                  <a href="tel:+4548764041" className="font-[family-name:var(--font-mono)] text-zinc-300 hover:text-ember transition-colors">
+                  <a href="tel:+4548764040" className="font-[family-name:var(--font-mono)] text-zinc-300 hover:text-ember transition-colors">
                     {t("phone")}
                   </a>
                 </p>

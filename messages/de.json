@@ -38,7 +38,7 @@
     },
     "contact": {
       "title": "Kontakt Linimatic — Angebot für Zinkdruckguss",
-      "description": "Senden Sie Ihre Zeichnungen für ein kostenloses Zinkdruckguss-Angebot — Antwort binnen 24 Stunden. Rufen Sie +45 4876 4041 an oder besuchen Sie uns in Helsinge."
+      "description": "Senden Sie Ihre Zeichnungen für ein kostenloses Zinkdruckguss-Angebot — Antwort binnen 24 Stunden. Rufen Sie +45 4876 4040 an oder besuchen Sie uns in Helsinge."
     },
     "contactPeople": {
       "title": "Ansprechpartner bei Linimatic",
@@ -95,7 +95,7 @@
       "co2": "CO2",
       "codeOfConduct": "Code of Conduct"
     },
-    "phone": "+45 4876 4041",
+    "phone": "+45 4876 4040",
     "getQuote": "Angebot anfordern",
     "mobileMenuOpen": "Menü öffnen",
     "mobileMenuClose": "Menü schließen"
@@ -251,7 +251,7 @@
     "heading": "Lassen Sie uns über Ihr nächstes Projekt sprechen.",
     "description": "Senden Sie uns Ihre Zeichnungen oder Spezifikationen und wir sagen Ihnen genau, was machbar ist — einfach oder komplex.",
     "getInTouch": "Kontaktieren Sie uns, um loszulegen",
-    "phone": "+45 4876 4041",
+    "phone": "+45 4876 4040",
     "responsePromise": "Antwort innerhalb von 24\u00a0Stunden"
   },
   "footer": {
@@ -282,7 +282,7 @@
       "postalCity": "DK-3200 Helsinge",
       "country": "Dänemark"
     },
-    "phone": "+45 4876 4041",
+    "phone": "+45 4876 4040",
     "email": "linimatic@linimatic.dk",
     "copyright": "\u00a9 {year} Linimatic A/S · USt-IdNr. DK-20254386",
     "privacy": "Datenschutz",
@@ -956,7 +956,7 @@
       "Ring- und Tonnensenker, 50–2.000 Gramm"
     ],
     "ctaHeading": "Interesse an Sinkers?",
-    "ctaDescription": "Kontaktieren Sie uns für Preise und Spezifikationen, oder rufen Sie uns direkt an unter +45 4876 4041.",
+    "ctaDescription": "Kontaktieren Sie uns für Preise und Spezifikationen, oder rufen Sie uns direkt an unter +45 4876 4040.",
     "ctaButton": "Kontakt aufnehmen"
   },
   "serviceDetail": {

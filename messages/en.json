@@ -38,7 +38,7 @@
     },
     "contact": {
       "title": "Contact Linimatic — Get a Zinc Die-Casting Quote",
-      "description": "Send your drawings for a free zinc die-casting quote — reply within 24 hours. Call +45 4876 4041 or visit us in Helsinge, Denmark."
+      "description": "Send your drawings for a free zinc die-casting quote — reply within 24 hours. Call +45 4876 4040 or visit us in Helsinge, Denmark."
     },
     "contactPeople": {
       "title": "Contact People at Linimatic",
@@ -95,7 +95,7 @@
       "co2": "CO2",
       "codeOfConduct": "Code of Conduct"
     },
-    "phone": "+45 4876 4041",
+    "phone": "+45 4876 4040",
     "getQuote": "Get a Quote",
     "mobileMenuOpen": "Open menu",
     "mobileMenuClose": "Close menu"
@@ -248,7 +248,7 @@
     "heading": "Let\u2019s talk about your next project.",
     "description": "Send us your drawings or specifications and we\u2019ll tell you exactly what\u2019s achievable \u2014 simple or complex.",
     "getInTouch": "Contact Us to Get Started",
-    "phone": "+45 4876 4041",
+    "phone": "+45 4876 4040",
     "responsePromise": "Response within 24\u00a0hours"
   },
   "footer": {
@@ -279,7 +279,7 @@
       "postalCity": "DK-3200 Helsinge",
       "country": "Denmark"
     },
-    "phone": "+45 4876 4041",
+    "phone": "+45 4876 4040",
     "email": "linimatic@linimatic.dk",
     "copyright": "\u00a9 {year} Linimatic A/S \u00b7 CVR DK-20254386",
     "privacy": "Privacy",
@@ -953,7 +953,7 @@
       "Ring and barrel sinkers, 50\u20132,000 grams"
     ],
     "ctaHeading": "Interested in sinkers?",
-    "ctaDescription": "Contact us for prices and specifications, or call us directly on +45 4876 4041.",
+    "ctaDescription": "Contact us for prices and specifications, or call us directly on +45 4876 4040.",
     "ctaButton": "Contact Us"
   },
   "serviceDetail": {

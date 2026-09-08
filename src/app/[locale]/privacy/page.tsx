@@ -66,7 +66,7 @@ export default async function PrivacyPolicyPage({
             <a href="mailto:linimatic@linimatic.dk" className="text-ember hover:text-ember-light transition-colors">
               linimatic@linimatic.dk
             </a><br />
-            <span className="font-[family-name:var(--font-mono)]">+45 4876 4041</span>
+            <span className="font-[family-name:var(--font-mono)]">+45 4876 4040</span>
           </p>
 
           <h2>{t("whatWeCollectHeading")}</h2>

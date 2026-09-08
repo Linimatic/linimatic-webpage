@@ -38,7 +38,7 @@
     },
     "contact": {
       "title": "Kontakt Linimatic — få tilbud på zinktrykstøbning",
-      "description": "Send dine tegninger og få et uforpligtende tilbud på zinktrykstøbning — svar inden for 24 timer. Ring +45 4876 4041 eller besøg os i Helsinge."
+      "description": "Send dine tegninger og få et uforpligtende tilbud på zinktrykstøbning — svar inden for 24 timer. Ring +45 4876 4040 eller besøg os i Helsinge."
     },
     "contactPeople": {
       "title": "Kontaktpersoner hos Linimatic",
@@ -95,7 +95,7 @@
       "co2": "CO2",
       "codeOfConduct": "Code of Conduct"
     },
-    "phone": "+45 4876 4041",
+    "phone": "+45 4876 4040",
     "getQuote": "Få et tilbud",
     "mobileMenuOpen": "Åbn menu",
     "mobileMenuClose": "Luk menu"
@@ -251,7 +251,7 @@
     "heading": "Lad os tale om dit næste projekt.",
     "description": "Send os dine tegninger eller specifikationer, og vi fortæller dig præcis, hvad der kan lade sig gøre — simpelt eller komplekst.",
     "getInTouch": "Kontakt os for at komme i gang",
-    "phone": "+45 4876 4041",
+    "phone": "+45 4876 4040",
     "responsePromise": "Svar inden for 24\u00a0timer"
   },
   "footer": {
@@ -282,7 +282,7 @@
       "postalCity": "DK-3200 Helsinge",
       "country": "Danmark"
     },
-    "phone": "+45 4876 4041",
+    "phone": "+45 4876 4040",
     "email": "linimatic@linimatic.dk",
     "copyright": "\u00a9 {year} Linimatic A/S · CVR DK-20254386",
     "privacy": "Privatlivspolitik",
@@ -956,7 +956,7 @@
       "Ring- og tøndesinkers, 50–2.000 gram"
     ],
     "ctaHeading": "Interesseret i sinkers?",
-    "ctaDescription": "Kontakt os for priser og specifikationer, eller ring direkte på +45 4876 4041.",
+    "ctaDescription": "Kontakt os for priser og specifikationer, eller ring direkte på +45 4876 4040.",
     "ctaButton": "Kontakt os"
   },
   "serviceDetail": {

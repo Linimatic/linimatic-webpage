@@ -103,7 +103,7 @@ function organizationSchema(description: string) {
     latitude: 56.0201,
     longitude: 12.1676,
   },
-  telephone: "+45 4876 4041",
+  telephone: "+45 4876 4040",
   email: "linimatic@linimatic.dk",
   vatID: "DK20254386",
   openingHoursSpecification: {

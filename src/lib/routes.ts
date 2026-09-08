@@ -54,10 +54,6 @@ export type CaseSlug = (typeof CASE_SLUGS)[number];
  */
 const NEWS_SOURCE = [
   {
-    slug: "ny-kvalitetschef-mette-hansen",
-    date: "2026-09-08",
-  },
-  {
     slug: "zink-temadag-september-2026",
     date: "2026-08-11",
     image: "/images/zink-temadag/seminar-attendees.jpg",

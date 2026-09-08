@@ -288,7 +288,7 @@ export function Header() {
               ))}
             </div>
             {/* Phone only where there is room left over next to the full nav */}
-            <a href="tel:+4548764040" className={`hidden min-[1800px]:block text-[13px] tracking-wide transition-colors font-[family-name:var(--font-mono)] ${
+            <a href="tel:+4548764041" className={`hidden min-[1800px]:block text-[13px] tracking-wide transition-colors font-[family-name:var(--font-mono)] ${
               scrolled ? "text-zinc-600 hover:text-zinc-700" : "text-zinc-400 hover:text-white"
             }`}>
               {t("phone")}
@@ -343,7 +343,7 @@ export function Header() {
             ))}
             {/* Phone — the bar only shows it on very wide screens, so it belongs here */}
             <a
-              href="tel:+4548764040"
+              href="tel:+4548764041"
               className="flex items-center gap-2 px-4 py-3 text-base font-medium text-zinc-300 hover:text-white hover:bg-zinc-900 transition-colors font-[family-name:var(--font-mono)]"
               onClick={() => setMobileOpen(false)}
             >

@@ -145,10 +145,10 @@ export default async function ContactPage({
                   <div className="pt-2 space-y-1">
                     <p>
                       <a
-                        href="tel:+4548764040"
+                        href="tel:+4548764041"
                         className="font-[family-name:var(--font-mono)] text-zinc-700 hover:text-ember transition-colors"
                       >
-                        +45 4876 4040
+                        +45 4876 4041
                       </a>
                     </p>
                     <p>

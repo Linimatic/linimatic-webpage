@@ -417,10 +417,10 @@ export default async function ServiceDetailPage({
               </svg>
             </Link>
             <a
-              href="tel:+4548764040"
+              href="tel:+4548764041"
               className="inline-flex items-center justify-center gap-3 border border-zinc-600 hover:border-zinc-400 px-8 py-4 text-sm font-semibold tracking-wide text-zinc-300 hover:text-white transition-all font-[family-name:var(--font-mono)]"
             >
-              +45 4876 4040
+              +45 4876 4041
             </a>
           </div>
         </div>

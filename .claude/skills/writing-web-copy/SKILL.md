@@ -44,3 +44,10 @@ can quote.
 - Every edited JSON file parses; the same keys exist in all three files.
 - Title and description lengths are inside the ranges above in each language.
 - `llms.txt` still agrees with the site.
+
+## Editing the messages files
+
+Change JSON with the file-edit tool, one entry at a time. Never regenerate a
+messages file with a script: it re-serialises the whole file, turns escaped
+characters and spacing into a page-long diff, and the owner's change list
+then reads "everything changed". A blown-up file is reverted, not committed.

@@ -1433,7 +1433,9 @@
         ],
         "contactName": "Thomas Hjorth, Produktionsleiter",
         "contactPhone": "+45 50 77 02 16",
-        "contactEmail": "thj@linimatic.dk"
+        "contactEmail": "thj@linimatic.dk",
+        "image": "/images/jobs/betjening-af-stoebemaskine.jpg",
+        "imageAlt": "Zwei Kollegen bedienen gemeinsam eine Druckgussmaschine in der Produktion"
       }
     ],
     "openApplicationHeading": "Ihre Rolle nicht dabei?",

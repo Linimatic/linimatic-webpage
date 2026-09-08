@@ -1434,7 +1434,9 @@
         ],
         "contactName": "Thomas Hjorth, Produktionschef",
         "contactPhone": "50 77 02 16",
-        "contactEmail": "thj@linimatic.dk"
+        "contactEmail": "thj@linimatic.dk",
+        "image": "/images/jobs/betjening-af-stoebemaskine.jpg",
+        "imageAlt": "To kolleger betjener en trykstøbemaskine sammen i produktionen"
       }
     ],
     "openApplicationHeading": "Ser du ikke din rolle?",

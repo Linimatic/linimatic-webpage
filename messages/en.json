@@ -1430,7 +1430,9 @@
         ],
         "contactName": "Thomas Hjorth, Production Manager",
         "contactPhone": "+45 50 77 02 16",
-        "contactEmail": "thj@linimatic.dk"
+        "contactEmail": "thj@linimatic.dk",
+        "image": "/images/jobs/betjening-af-stoebemaskine.jpg",
+        "imageAlt": "Two colleagues operating a die-casting machine together on the production floor"
       }
     ],
     "openApplicationHeading": "Don\u2019t see your role?",

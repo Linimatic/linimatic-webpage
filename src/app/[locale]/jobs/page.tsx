@@ -247,11 +247,9 @@ export default async function JobsPage({
                           {pos.responsibilities.map((item, i) => (
                             <li
                               key={i}
-                              className="flex items-start gap-2 text-sm text-zinc-600"
+                              className="flex items-start gap-2.5 text-sm text-zinc-600 leading-relaxed"
                             >
-                              <span className="text-ember mt-1 shrink-0">
-                                &bull;
-                              </span>
+                              <span className="mt-[7px] h-1.5 w-1.5 rounded-full bg-ember shrink-0" />
                               {item}
                             </li>
                           ))}
@@ -266,11 +264,9 @@ export default async function JobsPage({
                           {pos.requirements.map((item, i) => (
                             <li
                               key={i}
-                              className="flex items-start gap-2 text-sm text-zinc-600"
+                              className="flex items-start gap-2.5 text-sm text-zinc-600 leading-relaxed"
                             >
-                              <span className="text-ember mt-1 shrink-0">
-                                &bull;
-                              </span>
+                              <span className="mt-[7px] h-1.5 w-1.5 rounded-full bg-ember shrink-0" />
                               {item}
                             </li>
                           ))}

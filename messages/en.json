@@ -808,6 +808,14 @@
     "ctaDescription": "Call or write to us — we will come back with a view on how zinc can solve the job.",
     "ctaButton": "Contact us",
     "items": {
+      "ny-kvalitetschef-mette-hansen": {
+        "title": "Mette Hansen joins as new Quality Manager",
+        "excerpt": "Mette Hansen takes up the role of Quality Manager at Linimatic A/S on 1 October 2026, responsible for quality work at the plant in Helsinge.",
+        "body": [
+          "Linimatic has a new Quality Manager. Mette Hansen takes up the position on 1 October 2026, leading quality work at the plant in Helsinge.",
+          "We welcome Mette to Linimatic and look forward to working with her."
+        ]
+      },
       "zink-temadag-september-2026": {
         "title": "Zinc Info Day on 16 September 2026",
         "excerpt": "A free info day on zinc die-casting at Linimatic in Helsinge — from material choice and design to production and finished part.",

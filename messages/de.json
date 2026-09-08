@@ -811,6 +811,14 @@
     "ctaDescription": "Rufen Sie an oder schreiben Sie uns — wir melden uns mit einer Einschätzung, wie Zink die Aufgabe löst.",
     "ctaButton": "Kontakt aufnehmen",
     "items": {
+      "ny-kvalitetschef-mette-hansen": {
+        "title": "Mette Hansen wird neue Qualitätsleiterin",
+        "excerpt": "Mette Hansen tritt am 1. Oktober 2026 die Stelle als Qualitätsleiterin bei Linimatic A/S an und übernimmt die Verantwortung für die Qualitätsarbeit am Standort Helsinge.",
+        "body": [
+          "Linimatic bekommt eine neue Qualitätsleiterin. Mette Hansen tritt die Stelle am 1. Oktober 2026 an und leitet künftig die Qualitätsarbeit am Standort Helsinge.",
+          "Wir heißen Mette bei Linimatic willkommen und freuen uns auf die Zusammenarbeit."
+        ]
+      },
       "zink-temadag-september-2026": {
         "title": "Zink-Infotag am 16. September 2026",
         "excerpt": "Kostenloser Infotag zum Zinkdruckguss bei Linimatic in Helsinge — von Werkstoffwahl und Konstruktion bis zu Produktion und fertigem Bauteil.",

@@ -64,6 +64,7 @@ three languages, and the menus below. Removing a page also needs a redirect (see
   `src/components/Footer.tsx`, as visible text under `contactPage` / `contactPeoplePage` /
   `footer` in all three messages files, and in the structured data in `src/lib/seo.ts`.
 - Individual staff phone numbers and emails: `contactPeoplePage` in the messages files.
+- `public/llms.txt` repeats the phone number and address for AI assistants — change it there too.
 - Search every form a number can take (`+45 4876 4040`, `+4548764040`) before saying it is
   changed everywhere.
 - Where contact-form submissions are delivered is code in `src/app/actions/contact.ts`

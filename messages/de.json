@@ -1411,7 +1411,9 @@
           "Motivation, ein spezialisiertes Handwerk zu erlernen"
         ],
         "contactName": "Rikke Østrup Fisker, Logistikleiterin",
-        "contactEmail": "rif@linimatic.dk"
+        "contactEmail": "rif@linimatic.dk",
+        "image": "/images/jobs/vedligehold-stoebeform.jpg",
+        "imageAlt": "Ein Maschinist wartet eine Druckgussform in Linimatics Formenbau"
       },
       {
         "title": "Produktionsmitarbeiter",

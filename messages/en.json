@@ -1408,7 +1408,9 @@
           "Motivated to become skilled in a specialised trade"
         ],
         "contactName": "Rikke Østrup Fisker, Logistics Manager",
-        "contactEmail": "rif@linimatic.dk"
+        "contactEmail": "rif@linimatic.dk",
+        "image": "/images/jobs/vedligehold-stoebeform.jpg",
+        "imageAlt": "A machinist maintaining a die-casting mould in Linimatic's mould shop"
       },
       {
         "title": "Production Operator",

@@ -1412,7 +1412,9 @@
           "Lyst til at blive dygtig til et specialiseret håndværk"
         ],
         "contactName": "Rikke Østrup Fisker, Logistikchef",
-        "contactEmail": "rif@linimatic.dk"
+        "contactEmail": "rif@linimatic.dk",
+        "image": "/images/jobs/vedligehold-stoebeform.jpg",
+        "imageAlt": "Maskinarbejder vedligeholder en støbeform i Linimatics formværksted"
       },
       {
         "title": "Produktionsmedarbejder",

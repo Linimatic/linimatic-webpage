@@ -119,9 +119,6 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
         </div>
 
         <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20 pt-28 sm:pt-32 lg:pt-40 xl:pt-44 pb-0">
-          <p className="mb-6 inline-block border border-ember/40 bg-ember/10 px-4 py-2 text-sm font-medium text-zinc-800 animate-fade-up">
-            {t('hero.closureNotice')}
-          </p>
           {/* Mobile order is headline → image → the rest; from lg the headline and the
               rest stack in the left column and the image spans both rows on the right. */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-8 lg:gap-x-16 items-center">

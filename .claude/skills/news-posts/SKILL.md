@@ -27,3 +27,10 @@ usually belongs on the homepage or the contact page as a line of text, not
 as a post. Ask Jan which he means if it could be either.
 
 Check: `npx tsc --noEmit`, then `npm run build`.
+
+## Editing the messages files
+
+Change JSON with the file-edit tool, one entry at a time. Never regenerate a
+messages file with a script: it re-serialises the whole file, turns escaped
+characters and spacing into a page-long diff, and the owner's change list
+then reads "everything changed". A blown-up file is reverted, not committed.

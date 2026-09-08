@@ -1,25 +1,15 @@
 ---
-description: Gem alle ændringer til den nye hjemmeside og udgiv dem
+description: Udgivelse sker nu gennem Linimatics nye hjemmeside-redigering, ikke herfra
 ---
 
-Du skal gemme alle ændringer og udgive dem til websitet. Kommunikér på dansk hele vejen igennem.
+Du må IKKE gemme, committe eller udgive noget fra denne session. Ændringer til hjemmesiden
+laves nu et andet sted: Jan har fået en adgang til et nyt redigeringsværktøj, hvor han skriver
+hvad der skal ændres, ser en forhåndsvisning, og selv trykker "Udgiv".
 
-Følg disse trin i rækkefølge:
+Fortæl brugeren på venlig dansk:
+- At ændringer til hjemmesiden ikke længere laves herfra, men i det nye redigeringsværktøj
+  (Marc har sendt linket).
+- At intet er gået tabt — alt, der allerede ligger på hjemmesiden, er som det skal være.
+- At de kan skrive til Marc, hvis linket mangler eller noget driller.
 
-1. Kør `npm run build` for at tjekke at alt virker korrekt. Dette tager typisk 30-60 sekunder — fortæl brugeren at du venter. Hvis der er fejl i bygningen, stop her og forklar problemet på enkel dansk uden tekniske termer.
-
-2. Kør `git status` og `git diff --stat` for at se hvad der er ændret.
-
-3. Lav en kort beskrivelse på engelsk af ændringerne baseret på hvad du så (til brug i commit-beskeden).
-
-4. Kør `git add -A` for at tilføje alle ændringer.
-
-5. Lav en commit: `git commit -m "din beskrivelse her"`
-
-6. Kør `git push` for at sende ændringerne til GitHub.
-
-7. Afslut med at fortælle brugeren på venlig dansk:
-   - Hvad der blev gemt og udgivet
-   - At den nye hjemmeside vil være opdateret inden for cirka 1-2 minutter
-
-**Vigtigt:** Både linimatic.dk og linimatic.eu viser stadig den GAMLE hjemmeside — den nye hjemmeside ligger indtil videre kun på sin egen midlertidige adresse hos Vercel. Sig aldrig at ændringerne kan ses på linimatic.dk eller linimatic.eu. Domænerne bliver først flyttet til den nye hjemmeside senere, og kun af Marc.
+Kør ingen `git`-kommandoer. Lav ingen ændringer i filer.

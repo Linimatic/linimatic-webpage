@@ -183,7 +183,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
             {/* Client logos — carousel on dark background */}
             <div className="border-t border-zinc-800 py-8">
               <div className="text-center mb-5">
-                <span className="text-[11px] tracking-[0.3em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">{t('clients.trustedBy')}</span>
+                <span className="text-[10px] sm:text-[11px] tracking-[0.15em] uppercase text-zinc-400 font-[family-name:var(--font-mono)]">{t('clients.trustedBy')}</span>
               </div>
               <div className="relative max-w-3xl mx-auto overflow-hidden">
                 {/* Fade edges — dark variant */}

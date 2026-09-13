@@ -1,3 +1,5 @@
+import { selectionBridgeConfig } from './src/lib/selection/config';
+const selectionBridge = selectionBridgeConfig();
 import type { NextConfig } from "next";
 import createNextIntlPlugin from 'next-intl/plugin';
 import { legacyRedirects } from "./src/lib/legacy-redirects";
@@ -11,7 +13,7 @@ const nextConfig: NextConfig = {
     {
       source: "/(.*)",
       headers: [
-        { key: "X-Frame-Options", value: "DENY" },
+        ...(selectionBridge.xFrameOptions ? [{key: 'X-Frame-Options', value: selectionBridge.xFrameOptions}] : []),
         { key: "X-Content-Type-Options", value: "nosniff" },
         { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
         {
@@ -27,7 +29,7 @@ const nextConfig: NextConfig = {
             "font-src 'self' https://fonts.gstatic.com",
             "img-src 'self' data: https:",
             "connect-src 'self' https://vitals.vercel-insights.com https://va.vercel-scripts.com",
-            "frame-ancestors 'none'",
+            selectionBridge.frameAncestors,
           ].join("; "),
         },
       ],

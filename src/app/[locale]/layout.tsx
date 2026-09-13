@@ -1,3 +1,5 @@
+import { selectionBridgeScript } from "@/lib/selection/bridge";
+import { selectionBridgeConfig } from "@/lib/selection/config";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import {
@@ -137,6 +139,9 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+const selectionBridge = selectionBridgeConfig();
+const selectionBridgeSource = selectionBridge.origin ? selectionBridgeScript(selectionBridge.origin) : null;
+
 export default async function LocaleLayout({
   children,
   params,
@@ -159,6 +164,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className="scroll-smooth">
+      <head>{selectionBridgeSource ? <script dangerouslySetInnerHTML={{ __html: selectionBridgeSource }} /> : null}</head>
       <body
         className={`${instrumentSans.variable} ${sourceSans.variable} ${jetbrainsMono.variable} antialiased`}
       >

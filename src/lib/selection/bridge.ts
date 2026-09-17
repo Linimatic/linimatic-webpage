@@ -244,11 +244,30 @@ function blockEmbeds() {
     if (focused) { try { outline(describe(focused)); } catch (_) { if (highlight) highlight.style.display = 'none'; if (label) label.style.display = 'none'; } }
   }, {capture: true, passive: true});
 });
-function select(target) {
+// A crossfade stacks its frames and the transparent one on top takes the click;
+// what the owner pointed at is the visible frame beneath it. Only a target that
+// is itself transparent falls through, and only to elements that are not.
+function describeAt(target, event) {
+  try { return describe(target); } catch (error) {
+    var css = target && target.nodeType === 1 ? getComputedStyle(target) : null;
+    if (!css || (Number(css.opacity) !== 0 && css.visibility === 'visible') || !event
+      || typeof document.elementsFromPoint !== 'function') throw error;
+    var stack = document.elementsFromPoint(event.clientX, event.clientY);
+    for (var i = 0; i < stack.length; i++) {
+      var below = stack[i];
+      if (below === target || below.hasAttribute('data-selection-overlay')) continue;
+      var belowCss = getComputedStyle(below);
+      if (Number(belowCss.opacity) === 0 || belowCss.visibility !== 'visible') continue;
+      try { return describe(below); } catch (_) { throw error; }
+    }
+    throw error;
+  }
+}
+function select(target, event) {
   if (!active() || Date.now() - lastSent < 150) return;
   lastSent = Date.now();
   try {
-    var selected = describe(target);
+    var selected = describeAt(target, event);
     if (marks.length >= 5) { send('website-selection:error', {error: 'selection_limit'}); return; }
     outline(selected);
     addMark(binding.id, selected.node);
@@ -261,9 +280,9 @@ function select(target) {
 }
 window.addEventListener('pointermove', function(event) {
   if (!active()) return;
-  try { outline(describe(event.target)); } catch (_) { if (highlight) highlight.style.display = 'none'; if (label) label.style.display = 'none'; }
+  try { outline(describeAt(event.target, event)); } catch (_) { if (highlight) highlight.style.display = 'none'; if (label) label.style.display = 'none'; }
 }, {capture: true, passive: true});
-window.addEventListener('pointerup', function(event) { if (active()) { suppress(event); select(event.target); } }, {capture: true, passive: false});
+window.addEventListener('pointerup', function(event) { if (active()) { suppress(event); select(event.target, event); } }, {capture: true, passive: false});
 window.addEventListener('keydown', function(event) {
   if (!active()) return;
   if (event.key === 'Escape') { suppress(event); send('website-selection:disabled'); unbind(); return; }

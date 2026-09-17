@@ -164,6 +164,20 @@ export default async function JobsPage({
                 >
                   {/* Position header */}
                   <div className="p-6 sm:p-8">
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
+                      <h3 className="text-xl font-semibold text-zinc-900 font-[family-name:var(--font-display)]">
+                        {pos.title}
+                      </h3>
+                      <div className="flex items-center gap-3">
+                        <span className="text-[11px] tracking-[0.1em] uppercase text-ember font-[family-name:var(--font-mono)]">
+                          {pos.department}
+                        </span>
+                        <span className="text-zinc-300">|</span>
+                        <span className="text-[11px] tracking-[0.1em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
+                          {pos.type}
+                        </span>
+                      </div>
+                    </div>
                     <div
                       className={
                         pos.image
@@ -172,20 +186,6 @@ export default async function JobsPage({
                       }
                     >
                       <div className={pos.image ? "lg:col-span-2" : undefined}>
-                        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
-                          <h3 className="text-xl font-semibold text-zinc-900 font-[family-name:var(--font-display)]">
-                            {pos.title}
-                          </h3>
-                          <div className="flex items-center gap-3">
-                            <span className="text-[11px] tracking-[0.1em] uppercase text-ember font-[family-name:var(--font-mono)]">
-                              {pos.department}
-                            </span>
-                            <span className="text-zinc-300">|</span>
-                            <span className="text-[11px] tracking-[0.1em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
-                              {pos.type}
-                            </span>
-                          </div>
-                        </div>
                         <p className="text-base text-zinc-600 leading-relaxed max-w-3xl">
                           {pos.description}
                         </p>
@@ -223,9 +223,7 @@ export default async function JobsPage({
                       </div>
 
                       {pos.image && (
-                        /* Sits level with the job description, one line below the
-                           department/type label that ends the header row. */
-                        <div className="lg:col-span-1 lg:mt-10">
+                        <div className="lg:col-span-1">
                           <div className="relative aspect-[4/3] overflow-hidden sm:max-w-sm lg:max-w-none">
                             <Image
                               src={pos.image}

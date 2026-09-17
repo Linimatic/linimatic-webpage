@@ -13,7 +13,6 @@ const heroItems = [
   { type: "image" as const, src: "/images/hero/two-generations.png", altKey: "hero.heroImageAlt2" },
   { type: "video" as const, src: "/videos/hero/casting-tumbling.mp4", altKey: "hero.heroImageAlt4", durationMs: 9700 },
   { type: "image" as const, src: "/images/services/die-casting-mold.png", altKey: "hero.heroImageAlt" },
-  { type: "image" as const, src: "/images/hero/aktiegraf-skaermbillede.png", altKey: "hero.heroImageAlt5" },
 ];
 
 const caseImages = [

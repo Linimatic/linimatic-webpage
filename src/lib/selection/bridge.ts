@@ -7,8 +7,12 @@ export function selectionBridgeScript(parentOrigin: string): string {
 const BRIDGE = String.raw`
 if (window.parent === window) return;
 var binding = null, expires = 0, timer = null, highlight = null, focused = null, lastSent = 0;
+// A binding is good for one pick. The app arms the next one within a moment,
+// and a click that lands in between is held here and applied under that
+// binding rather than marked on the page and lost by the app.
+var consumed = false, pending = null;
 var blockers = [], observer = null, announcement = null, armedStyle = null, label = null;
-var marks = [], lastBinding = null;
+var marks = [], lastBinding = null, candidates = null;
 var tags = 'h1,h2,h3,h4,h5,h6,p,span,div,section,main,article,header,footer,aside,nav,button,a,img,figure,figcaption,li,ul,ol';
 var allowed = new Set(tags.split(','));
 function active() { return binding !== null && Date.now() < expires; }
@@ -32,6 +36,8 @@ function disarm() {
 }
 function unbind() {
   binding = null; expires = 0; focused = null; clearTimeout(timer);
+  consumed = false;
+  candidates = null;
   if (highlight) highlight.remove();
   highlight = null;
   if (label) label.remove();
@@ -78,7 +84,7 @@ function clearMarks() {
   marks.forEach(function(mark) { mark.box.remove(); });
   marks = [];
 }
-function disable() { unbind(); clearMarks(); }
+function disable() { pending = null; unbind(); clearMarks(); }
 window.addEventListener('message', function(event) {
   if (event.source !== window.parent || event.origin !== parentOrigin) return;
   var data = event.data;
@@ -88,14 +94,15 @@ window.addEventListener('message', function(event) {
     || data.version !== 1 || !/^sel_[a-f0-9]{32}$/.test(data.id)
     || typeof data.nonce !== 'string' || !/^[A-Za-z0-9_-]{43}$/.test(data.nonce)
     || (isUnmark && !/^sel_[a-f0-9]{32}$/.test(data.target))) return;
-  if (data.type === 'website-selection:disable') {
-    if (active() && data.id === binding.id && data.nonce === binding.nonce) disable();
-    return;
-  }
   // Marks outlive the binding (Browse mode unbinds, chips stay), so the parent
-  // may still manage them with the credentials of the last binding it held.
+  // may still manage them with the credentials of the last binding it held —
+  // including the disable that follows the frame's own Escape, which unbound us.
   var known = (active() && data.id === binding.id && data.nonce === binding.nonce)
     || (lastBinding !== null && data.id === lastBinding.id && data.nonce === lastBinding.nonce);
+  if (data.type === 'website-selection:disable') {
+    if (known) disable();
+    return;
+  }
   if (data.type === 'website-selection:clear') {
     if (known) clearMarks();
     return;
@@ -109,11 +116,13 @@ window.addEventListener('message', function(event) {
   binding = {id: data.id, nonce: data.nonce};
   lastBinding = binding;
   lastSent = 0;
+  consumed = false;
   expires = Date.now() + 10 * 60 * 1000;
   timer = setTimeout(disable, 10 * 60 * 1000);
   blockEmbeds();
   if (typeof MutationObserver !== 'undefined') {
     observer = new MutationObserver(function(records) {
+      invalidateCandidates();
       if (records.some(function(record) { return Array.from(record.addedNodes).concat(Array.from(record.removedNodes)).some(function(node) {
         return node.nodeType === 1 && (/^(IFRAME|OBJECT|EMBED)$/.test(node.tagName) || node.querySelector('iframe,object,embed'));
       }); })) blockEmbeds();
@@ -122,6 +131,7 @@ window.addEventListener('message', function(event) {
   }
   arm();
   send('website-selection:ready');
+  if (pending) { var held = pending; pending = null; select(held.target, held.event); }
 }, false);
 function suppress(event) {
   if (!active()) return;
@@ -183,6 +193,19 @@ function describe(target) {
       bounds: {x: rect.x, y: rect.y, width: rect.width, height: rect.height}},
     surroundingText: visibleText(chosen.parentElement, 1500)}};
 }
+function invalidateCandidates() { candidates = null; }
+// describe() walks ancestors with getComputedStyle/getBoundingClientRect, so scanning
+// the whole document on every Tab press freezes the page; scan once per binding and
+// drop the list when the DOM or the viewport changes underneath it.
+function candidateList() {
+  if (candidates) return candidates;
+  candidates = [];
+  var nodes = document.querySelectorAll(tags);
+  for (var i = 0; i < nodes.length && candidates.length < 1000; i++) {
+    try { if (describe(nodes[i]).node === nodes[i]) candidates.push(nodes[i]); } catch (_) {}
+  }
+  return candidates;
+}
 function outline(selected) {
   if (!highlight) {
     highlight = document.createElement('div');
@@ -238,6 +261,7 @@ function blockEmbeds() {
 }
 ['scroll', 'resize'].forEach(function(type) {
   window.addEventListener(type, function() {
+    if (type === 'resize') invalidateCandidates();
     if (marks.length) layoutMarks();
     if (!active()) return;
     blockEmbeds();
@@ -269,8 +293,12 @@ function select(target, event) {
   try {
     var selected = describeAt(target, event);
     if (marks.length >= 5) { send('website-selection:error', {error: 'selection_limit'}); return; }
+    // A refused click is reported at once; a good one made while the app is
+    // still arming the next binding waits for it (see the init handler).
+    if (consumed) { pending = {target: target, event: event}; return; }
     outline(selected);
     addMark(binding.id, selected.node);
+    consumed = true;
     send('website-selection:selected', {context: selected.context});
   } catch (error) {
     var code = error && error.message;
@@ -289,12 +317,14 @@ window.addEventListener('keydown', function(event) {
   if (event.key === 'Enter' || event.key === ' ') { suppress(event); select(focused || event.target); return; }
   if (event.key !== 'Tab') return;
   suppress(event);
-  var candidates = Array.from(document.querySelectorAll(tags)).slice(0, 5000).filter(function(node) {
-    try { return describe(node).node === node; } catch (_) { return false; }
-  });
-  if (!candidates.length) { send('website-selection:error', {error: 'no_selectable_element'}); return; }
-  var index = candidates.indexOf(focused), next = index < 0 ? (event.shiftKey ? candidates.length - 1 : 0)
-    : (index + (event.shiftKey ? -1 : 1) + candidates.length) % candidates.length;
-  outline(describe(candidates[next]));
+  for (var attempt = 0; attempt < 2; attempt++) {
+    var list = candidateList();
+    if (!list.length) break;
+    var index = list.indexOf(focused), next = index < 0 ? (event.shiftKey ? list.length - 1 : 0)
+      : (index + (event.shiftKey ? -1 : 1) + list.length) % list.length;
+    // A cached candidate can have scrolled out of view since the scan; rebuild once.
+    try { outline(describe(list[next])); return; } catch (_) { invalidateCandidates(); }
+  }
+  send('website-selection:error', {error: 'no_selectable_element'});
 }, {capture: true, passive: false});
 `;

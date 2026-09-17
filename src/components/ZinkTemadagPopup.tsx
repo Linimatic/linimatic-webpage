@@ -20,14 +20,26 @@ export function ZinkTemadagPopup() {
     // phone this panel sits exactly on top of the accept/reject buttons, so
     // showing it earlier would make the consent choice unreachable.
     if (!consentDecided) return;
-    const lastSeen = Number(localStorage.getItem(STORAGE_KEY) ?? 0);
+    // Storage access itself can throw (a frame denied storage, blocked site
+    // data, some private modes); a popup that cannot remember is shown, a page
+    // that crashes is not.
+    let lastSeen = 0;
+    try {
+      lastSeen = Number(localStorage.getItem(STORAGE_KEY) ?? 0);
+    } catch {
+      lastSeen = 0;
+    }
     if (Date.now() - lastSeen < REAPPEAR_AFTER_MS) return;
     const timer = setTimeout(() => setVisible(true), SHOW_DELAY_MS);
     return () => clearTimeout(timer);
   }, [consentDecided]);
 
   const dismiss = useCallback(() => {
-    localStorage.setItem(STORAGE_KEY, String(Date.now()));
+    try {
+      localStorage.setItem(STORAGE_KEY, String(Date.now()));
+    } catch {
+      /* see the read above */
+    }
     setVisible(false);
   }, []);
 

@@ -118,7 +118,7 @@
   "stats": {
     "items": [
       { "value": "1967", "label": "Founded" },
-      { "value": "ISO 9001", "label": "Since 1993" },
+      { "value": "ISO 9002", "label": "Since 1993" },
       { "value": "100%", "label": "Danish Production" },
       { "value": "199 kWp", "label": "Solar Array" },
       { "value": "30+", "label": "Specialists" }

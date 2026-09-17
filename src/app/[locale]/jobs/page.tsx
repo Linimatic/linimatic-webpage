@@ -164,78 +164,54 @@ export default async function JobsPage({
                 >
                   {/* Position header */}
                   <div className="p-6 sm:p-8">
-                    <div
-                      className={
-                        pos.image
-                          ? "grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
-                          : undefined
-                      }
-                    >
-                      <div className={pos.image ? "lg:col-span-2" : undefined}>
-                        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
-                          <h3 className="text-xl font-semibold text-zinc-900 font-[family-name:var(--font-display)]">
-                            {pos.title}
-                          </h3>
-                          <div className="flex items-center gap-3">
-                            <span className="text-[11px] tracking-[0.1em] uppercase text-ember font-[family-name:var(--font-mono)]">
-                              {pos.department}
-                            </span>
-                            <span className="text-zinc-300">|</span>
-                            <span className="text-[11px] tracking-[0.1em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
-                              {pos.type}
-                            </span>
-                          </div>
-                        </div>
-                        <p className="text-base text-zinc-600 leading-relaxed max-w-3xl">
-                          {pos.description}
-                        </p>
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
+                      <h3 className="text-xl font-semibold text-zinc-900 font-[family-name:var(--font-display)]">
+                        {pos.title}
+                      </h3>
+                      <div className="flex items-center gap-3">
+                        <span className="text-[11px] tracking-[0.1em] uppercase text-ember font-[family-name:var(--font-mono)]">
+                          {pos.department}
+                        </span>
+                        <span className="text-zinc-300">|</span>
+                        <span className="text-[11px] tracking-[0.1em] uppercase text-zinc-600 font-[family-name:var(--font-mono)]">
+                          {pos.type}
+                        </span>
+                      </div>
+                    </div>
+                    <p className="text-base text-zinc-600 leading-relaxed max-w-3xl">
+                      {pos.description}
+                    </p>
 
-                        {pos.contactName && (
-                          <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-zinc-500">
-                            <span className="font-medium text-zinc-700">
-                              {t("contactLabel")}:
-                            </span>
-                            <span>{pos.contactName}</span>
-                            {pos.contactPhone && (
-                              <>
-                                <span className="text-zinc-300">·</span>
-                                <a
-                                  href={`tel:${pos.contactPhone.replace(/\s+/g, "")}`}
-                                  className="hover:text-zinc-900 transition-colors"
-                                >
-                                  {pos.contactPhone}
-                                </a>
-                              </>
-                            )}
-                            {pos.contactEmail && (
-                              <>
-                                <span className="text-zinc-300">·</span>
-                                <a
-                                  href={`mailto:${pos.contactEmail}`}
-                                  className="hover:text-zinc-900 transition-colors"
-                                >
-                                  {pos.contactEmail}
-                                </a>
-                              </>
-                            )}
-                          </div>
+                    {pos.contactName && (
+                      <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-zinc-500">
+                        <span className="font-medium text-zinc-700">
+                          {t("contactLabel")}:
+                        </span>
+                        <span>{pos.contactName}</span>
+                        {pos.contactPhone && (
+                          <>
+                            <span className="text-zinc-300">·</span>
+                            <a
+                              href={`tel:${pos.contactPhone.replace(/\s+/g, "")}`}
+                              className="hover:text-zinc-900 transition-colors"
+                            >
+                              {pos.contactPhone}
+                            </a>
+                          </>
+                        )}
+                        {pos.contactEmail && (
+                          <>
+                            <span className="text-zinc-300">·</span>
+                            <a
+                              href={`mailto:${pos.contactEmail}`}
+                              className="hover:text-zinc-900 transition-colors"
+                            >
+                              {pos.contactEmail}
+                            </a>
+                          </>
                         )}
                       </div>
-
-                      {pos.image && (
-                        <div className="lg:col-span-1">
-                          <div className="relative aspect-[4/3] overflow-hidden sm:max-w-sm lg:max-w-none">
-                            <Image
-                              src={pos.image}
-                              alt={pos.imageAlt ?? ""}
-                              fill
-                              className="object-cover"
-                              sizes="(max-width: 1024px) 100vw, 30vw"
-                            />
-                          </div>
-                        </div>
-                      )}
-                    </div>
+                    )}
 
                     <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4">
                       {/* Responsibilities */}
@@ -273,6 +249,18 @@ export default async function JobsPage({
                         </ul>
                       </div>
                     </div>
+
+                    {pos.image && (
+                      <div className="mt-8 relative aspect-[4/3] sm:aspect-[16/9] max-w-md sm:max-w-2xl overflow-hidden">
+                        <Image
+                          src={pos.image}
+                          alt={pos.imageAlt ?? ""}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 640px) 100vw, 672px"
+                        />
+                      </div>
+                    )}
 
                     <div className="mt-8">
                       <a

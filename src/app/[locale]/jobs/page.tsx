@@ -167,11 +167,11 @@ export default async function JobsPage({
                     <div
                       className={
                         pos.image
-                          ? "grid grid-cols-1 lg:grid-cols-5 gap-8 items-start"
+                          ? "grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
                           : undefined
                       }
                     >
-                      <div className={pos.image ? "lg:col-span-3" : undefined}>
+                      <div className={pos.image ? "lg:col-span-2" : undefined}>
                         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
                           <h3 className="text-xl font-semibold text-zinc-900 font-[family-name:var(--font-display)]">
                             {pos.title}
@@ -223,14 +223,14 @@ export default async function JobsPage({
                       </div>
 
                       {pos.image && (
-                        <div className="lg:col-span-2">
-                          <div className="relative aspect-[4/3] overflow-hidden">
+                        <div className="lg:col-span-1">
+                          <div className="relative aspect-[4/3] overflow-hidden sm:max-w-sm lg:max-w-none">
                             <Image
                               src={pos.image}
                               alt={pos.imageAlt ?? ""}
                               fill
                               className="object-cover"
-                              sizes="(max-width: 1024px) 100vw, 40vw"
+                              sizes="(max-width: 1024px) 100vw, 30vw"
                             />
                           </div>
                         </div>

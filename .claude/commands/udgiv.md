@@ -1,15 +1,33 @@
 ---
-description: Udgivelse sker nu gennem Linimatics nye hjemmeside-redigering, ikke herfra
+description: Gem alle ændringer til hjemmesiden og udgiv dem
 ---
 
-Du må IKKE gemme, committe eller udgive noget fra denne session. Ændringer til hjemmesiden
-laves nu et andet sted: Jan har fået en adgang til et nyt redigeringsværktøj, hvor han skriver
-hvad der skal ændres, ser en forhåndsvisning, og selv trykker "Udgiv".
+Du skal gemme alle ændringer og udgive dem til websitet. Kommunikér på dansk hele vejen igennem.
 
-Fortæl brugeren på venlig dansk:
-- At ændringer til hjemmesiden ikke længere laves herfra, men i det nye redigeringsværktøj
-  (Marc har sendt linket).
-- At intet er gået tabt — alt, der allerede ligger på hjemmesiden, er som det skal være.
-- At de kan skrive til Marc, hvis linket mangler eller noget driller.
+Følg disse trin i rækkefølge:
 
-Kør ingen `git`-kommandoer. Lav ingen ændringer i filer.
+1. Kør `git fetch origin` og `git status -sb`. Hjemmesiden redigeres også fra Linimatics
+   chat-baserede redigeringsværktøj, som udgiver til `master`. Er den lokale kopi bagud,
+   så hent det nye ned (`git pull --rebase`) **før** du bygger, så to redigeringsveje ikke
+   støder sammen.
+
+2. Kør `npm run build` for at tjekke at alt virker korrekt. Dette tager typisk 30-60 sekunder — fortæl brugeren at du venter. Hvis der er fejl i bygningen, stop her og forklar problemet på enkel dansk uden tekniske termer.
+
+3. Kør `git status` og `git diff --stat` for at se hvad der er ændret.
+
+4. Lav en kort beskrivelse på engelsk af ændringerne baseret på hvad du så (til brug i commit-beskeden).
+
+5. Kør `git add -A` for at tilføje alle ændringer.
+
+6. Lav en commit: `git commit -m "din beskrivelse her"`
+
+7. Kør `git push` for at sende ændringerne til GitHub.
+
+8. Afslut med at fortælle brugeren på venlig dansk:
+   - Hvad der blev gemt og udgivet
+   - At hjemmesiden er opdateret på linimatic.eu inden for cirka 1-2 minutter
+
+**Vigtigt:** Hjemmesiden er live siden 12. august 2026 — linimatic.eu viser dette projekt, og
+linimatic.dk sender besøgende videre dertil. En udgivelse er altså synlig for kunder med det
+samme. Sig det ligeud, og nævn at det tager cirka 1-2 minutter, før ændringen er slået igennem.
+Selve domæne-opsætningen rører du aldrig — den er Marcs.

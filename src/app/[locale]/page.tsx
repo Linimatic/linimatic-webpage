@@ -255,38 +255,29 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                     href={`/services/${chainSlugs[i]}`}
                     className="group relative flex flex-col"
                   >
-                    {/* Step node + horizontal connector (lg only) */}
-                    <div className="relative z-10 flex items-center gap-3 mb-5 lg:mb-6">
-                      <div className="relative w-20 h-20 flex flex-col items-center justify-center bg-zinc-950 text-white shrink-0 px-2 transition-colors duration-300 group-hover:bg-ember">
-                        <span className="absolute inset-x-0 top-0 h-[3px] bg-ember transition-colors duration-300 group-hover:bg-zinc-950" />
-                        <span className="text-[10px] tracking-[0.08em] uppercase text-ember leading-none text-center font-[family-name:var(--font-mono)] transition-colors duration-300 group-hover:text-zinc-950">{step.label}</span>
-                        <span className="text-xl font-bold leading-none mt-1 font-[family-name:var(--font-mono)] transition-colors duration-300 group-hover:text-zinc-950">{step.number}</span>
+                    {/* Step node: light numbered circle + thin connector line (lg only) */}
+                    <div className="relative z-10 flex items-center mb-5 lg:mb-6">
+                      <div className="w-12 h-12 rounded-full border border-zinc-300 bg-white flex items-center justify-center shrink-0 text-base font-semibold text-zinc-900 font-[family-name:var(--font-mono)] transition-colors duration-300 group-hover:border-ember group-hover:bg-ember group-hover:text-zinc-950">
+                        {step.number}
                       </div>
                       {!isLast && (
-                        <div className="hidden lg:flex flex-1 items-center gap-1.5 pr-1">
-                          <div className="flex-1 h-px bg-zinc-200" />
-                          <svg className="h-3 w-3 shrink-0 text-zinc-300 transition-colors duration-300 group-hover:text-ember" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                          </svg>
-                        </div>
+                        <div className="hidden lg:block flex-1 h-px bg-zinc-200 ml-3" aria-hidden="true" />
                       )}
                     </div>
                     {/* Content */}
-                    <div className="pr-4 lg:pr-5 pb-8 lg:pb-0 flex flex-col flex-1">
-                      <h3 className="text-base font-semibold text-zinc-900 group-hover:text-ember transition-colors duration-300 font-[family-name:var(--font-display)] tracking-tight mb-1.5">{step.title}</h3>
+                    <div className="pr-4 lg:pr-6 pb-8 lg:pb-0 flex flex-col flex-1">
+                      <span className="text-[11px] tracking-[0.12em] uppercase text-zinc-500 font-[family-name:var(--font-mono)] mb-2">{step.label}</span>
+                      <h3 className="text-lg leading-snug font-semibold text-zinc-900 group-hover:text-ember transition-colors duration-300 font-[family-name:var(--font-display)] tracking-tight mb-2">{step.title}</h3>
                       <p className="text-[15px] text-zinc-600 leading-relaxed">{step.description}</p>
-                      <p className="mt-auto pt-3 text-[11px] tracking-[0.05em] text-ember font-[family-name:var(--font-mono)]">{step.specs}</p>
+                      <p className="mt-auto pt-4">
+                        <span className="block border-t border-zinc-200 pt-3 text-[13px] text-zinc-600 leading-snug">{step.specs}</span>
+                      </p>
                     </div>
                   </Link>
                   {/* Vertical connector between stacked steps (below lg only) */}
                   {!isLast && (
-                    <div className="flex lg:hidden justify-center py-1 mb-2">
-                      <div className="flex flex-col items-center gap-1">
-                        <div className="w-px h-6 bg-zinc-200" />
-                        <svg className="h-3 w-3 text-zinc-300" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 8.25 12 15.75l7.5-7.5" />
-                        </svg>
-                      </div>
+                    <div className="flex lg:hidden w-12 justify-center -mt-4 mb-4" aria-hidden="true">
+                      <div className="w-px h-6 bg-zinc-200" />
                     </div>
                   )}
                 </Fragment>

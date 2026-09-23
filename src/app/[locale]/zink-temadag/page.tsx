@@ -216,7 +216,7 @@ export default async function ZinkTemadagPage({
           <div className="mt-10">
             <Link
               href="/contact"
-              className="group inline-flex items-center gap-3 bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
+              className="group inline-flex items-center gap-3 rounded-md bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
             >
               {t("contactHeading")}
               <svg

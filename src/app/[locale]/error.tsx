@@ -24,7 +24,7 @@ export default function Error({
           </p>
           <button
             onClick={reset}
-            className="mt-8 inline-flex items-center gap-3 bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
+            className="mt-8 inline-flex items-center gap-3 rounded-md bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
           >
             Try again
             <svg

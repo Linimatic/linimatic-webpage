@@ -146,7 +146,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                 {t('hero.description')}
               </p>
               <div className="mt-10 flex flex-col sm:flex-row gap-3 animate-fade-up delay-3">
-                <Link href="/contact" className="group inline-flex items-center justify-center gap-3 bg-ember hover:bg-ember-light px-7 py-3.5 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all">
+                <Link href="/contact" className="group inline-flex items-center justify-center gap-3 rounded-md bg-ember hover:bg-ember-light px-7 py-3.5 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all">
                   {t('hero.ctaPrimary')}
                   <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
                 </Link>
@@ -287,7 +287,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
 
           {/* CTAs */}
           <div className="mt-12 flex flex-col sm:flex-row items-center gap-4 justify-center">
-            <Link href="/contact" className="group inline-flex items-center gap-3 bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all">
+            <Link href="/contact" className="group inline-flex items-center gap-3 rounded-md bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all">
               {t('valueChain.cta')}
               <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
             </Link>
@@ -411,7 +411,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
               {t('cta.responsePromise')}
             </div>
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
-              <Link href="/contact" className="group inline-flex items-center justify-center gap-3 bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all">
+              <Link href="/contact" className="group inline-flex items-center justify-center gap-3 rounded-md bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all">
                 {t('cta.getInTouch')}
                 <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
               </Link>

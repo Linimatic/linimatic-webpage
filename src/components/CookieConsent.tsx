@@ -225,7 +225,7 @@ export function CookieConsent() {
                 </button>
                 <button
                   onClick={handleAcceptAll}
-                  className="px-6 py-2.5 text-[13px] font-semibold tracking-wide uppercase bg-ember hover:bg-ember-light text-zinc-950 transition-all"
+                  className="px-6 py-2.5 text-[13px] font-semibold tracking-wide uppercase rounded-md bg-ember hover:bg-ember-light text-zinc-950 transition-all"
                 >
                   {t("acceptAll")}
                 </button>
@@ -286,7 +286,7 @@ export function CookieConsent() {
                 <div className="mt-6 flex justify-end">
                   <button
                     onClick={handleSavePreferences}
-                    className="px-6 py-2.5 text-[13px] font-semibold tracking-wide uppercase bg-ember hover:bg-ember-light text-zinc-950 transition-all"
+                    className="px-6 py-2.5 text-[13px] font-semibold tracking-wide uppercase rounded-md bg-ember hover:bg-ember-light text-zinc-950 transition-all"
                   >
                     {t("savePreferences")}
                   </button>

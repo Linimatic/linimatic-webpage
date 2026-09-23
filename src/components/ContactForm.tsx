@@ -133,7 +133,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={isPending}
-        className="group inline-flex items-center justify-center gap-3 bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+        className="group inline-flex items-center justify-center gap-3 rounded-md bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {isPending ? t("form.sending") : t("form.submit")}
         <svg

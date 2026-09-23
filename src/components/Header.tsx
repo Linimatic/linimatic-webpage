@@ -295,7 +295,7 @@ export function Header() {
             </a>
             <Link
               href="/contact"
-              className="relative px-3.5 wide:max-[1399px]:px-3 min-[1700px]:px-6 py-2.5 text-[12px] wide:max-[1399px]:text-[11px] min-[1700px]:text-[13px] font-semibold tracking-wide uppercase text-zinc-950 bg-ember hover:bg-ember-light transition-colors whitespace-nowrap"
+              className="relative px-3.5 wide:max-[1399px]:px-3 min-[1700px]:px-6 py-2.5 text-[12px] wide:max-[1399px]:text-[11px] min-[1700px]:text-[13px] font-semibold tracking-wide uppercase text-zinc-950 rounded-md bg-ember hover:bg-ember-light transition-colors whitespace-nowrap"
             >
               {t("getQuote")}
             </Link>

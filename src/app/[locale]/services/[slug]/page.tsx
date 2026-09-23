@@ -32,6 +32,8 @@ const SERVICE_META: Record<
     // and no border either — the transparent image must sit on the section's own
     // background, or it reads as a pale box in a slightly different shade.
     cutout?: boolean;
+    // Optional focal point for `image` when it is cropped (CSS object-position).
+    position?: string;
   }
 > = {
   prototyping: {
@@ -65,8 +67,9 @@ const SERVICE_META: Record<
   },
   assembly: {
     relatedServices: ["quality", "surface-treatment"],
-    image: "/images/services/assembly.png",
-    cutout: true,
+    image: "/images/services/assembly-workbench.webp",
+    // Portrait photo in a landscape slot: keep the face and the hands at work.
+    position: "center 35%",
   },
 };
 
@@ -246,6 +249,11 @@ export default async function ServiceDetailPage({
                       meta.cutout
                         ? "object-contain p-6 sm:p-8 lg:p-12"
                         : "object-cover"
+                    }
+                    style={
+                      meta.position
+                        ? { objectPosition: meta.position }
+                        : undefined
                     }
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />

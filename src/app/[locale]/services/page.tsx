@@ -60,7 +60,9 @@ const services = [
     slug: "assembly",
     icon: "06",
     label: "Deliver",
-    image: "/images/services/assembly.png",
+    image: "/images/services/assembly-workbench.webp",
+    // Portrait photo in a landscape card: keep the face and the hands at work.
+    position: "center 35%",
   },
 ];
 
@@ -138,6 +140,11 @@ export default async function ServicesPage({
                     alt={serviceItems[i].title}
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    style={
+                      service.position
+                        ? { objectPosition: service.position }
+                        : undefined
+                    }
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                 </div>

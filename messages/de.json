@@ -813,11 +813,11 @@
     "items": {
       "zink-temadag-september-2026": {
         "title": "Zink-Infotag am 16. September 2026",
-        "excerpt": "Kostenloser Infotag zum Zinkdruckguss bei Linimatic in Helsinge — von Werkstoffwahl und Konstruktion bis zu Produktion und fertigem Bauteil.",
+        "excerpt": "Am 16. September 2026 haben wir bei einem unserer großen Kunden einen kostenlosen Infotag zum Zinkdruckguss veranstaltet. Der nächste Infotag ist am 16. Februar 2027.",
         "body": [
-          "Am 16. September 2026 öffnen wir die Türen unserer Produktion in Helsinge für einen kostenlosen Infotag zum Zinkdruckguss. Der Tag dauert rund vier Stunden und richtet sich an Konstrukteure, Projektleiter und Einkäufer, die mehr darüber erfahren möchten, was Zink kann.",
-          "Das Programm deckt das gesamte Feld ab: Zink als Werkstoff und seine Herkunft, der Vergleich mit Aluminium und Kunststoff, der Gießprozess selbst, das Konstruieren in Zink mit seinen Möglichkeiten und Grenzen, CO2-Fußabdruck, Oberflächenbehandlung, Gießwerkzeuge und die Möglichkeiten für Prototypen. Dazwischen führen wir durch die Produktion, sodass Sie die Maschinen bei der Arbeit sehen.",
-          "Bringen Sie gerne ein mögliches Bauteil oder eine konkrete Fragestellung mit — wir gehen sie am Tag gemeinsam durch. Das Programm wird immer an die Teilnehmer angepasst.",
+          "Am 16. September 2026 haben wir bei einem unserer großen Kunden einen kostenlosen Infotag zum Zinkdruckguss veranstaltet, an dem Mitarbeiter aus Entwicklung, Konstruktion und Einkauf teilnahmen.",
+          "Der Tag drehte sich um die Möglichkeiten des Zinkdruckgusses — von Werkstoffwahl und Konstruktion bis zu Produktion und fertigem Bauteil. Ein konkretes Entwicklungsprojekt und einige Bauteile des Kunden waren Teil des Tages.",
+          "Der nächste Infotag findet am 16. Februar 2027 statt. Bringen Sie gerne ein mögliches Bauteil oder eine konkrete Fragestellung mit — wir gehen sie am Tag gemeinsam durch. Das Programm wird immer an die Teilnehmer angepasst.",
           "Anmeldung und Fragen: Jan V. Jørgensen, jaj@linimatic.dk oder +45 2343 3667."
         ]
       }
@@ -1627,7 +1627,7 @@
     "breadcrumb": "Zink-Infotag",
     "eyebrow": "Kostenloses Seminar — ca. 4 Stunden",
     "heading": "Infotag zum Zinkdruckguss",
-    "intro": "Erhalten Sie praktisches Wissen über die Möglichkeiten des Zinkdruckgusses – von der Materialwahl und Konstruktion bis zur Produktion und dem fertigen Bauteil.\n\nLinimatic veranstaltet kostenlose Infotage für Konstrukteure, Projektleiter und Einkäufer bei uns in Helsinge. Bringen Sie gerne ein mögliches Bauteil oder eine konkrete Fragestellung mit, die wir an dem Tag gemeinsam durchgehen können. Siehe Programm unten.",
+    "intro": "Erhalten Sie praktisches Wissen über die Möglichkeiten des Zinkdruckgusses – von der Materialwahl und Konstruktion bis zur Produktion und dem fertigen Bauteil.\n\nLinimatic veranstaltet kostenlose Infotage für Konstrukteure, Projektleiter und Einkäufer bei uns in Helsinge. Je nach Teilnehmerzahl kann der Infotag auch bei Ihnen vor Ort stattfinden. Bringen Sie gerne ein mögliches Bauteil oder eine konkrete Fragestellung mit, die wir an dem Tag gemeinsam durchgehen können. Siehe Programm unten.",
     "agendaHeading": "Programm",
     "agenda": [
       "Zink im Allgemeinen — und woher es kommt",

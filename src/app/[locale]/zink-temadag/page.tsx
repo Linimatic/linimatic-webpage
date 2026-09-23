@@ -6,6 +6,8 @@ import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
+import { TemadagDate } from "@/components/TemadagDate";
+import { hasPassed } from "@/lib/temadag-dates";
 
 export async function generateMetadata({
   params,
@@ -29,14 +31,6 @@ export function generateStaticParams() {
 // Whether a date has passed is decided at render time, so regenerate daily —
 // otherwise a date would stay "upcoming" until the next deploy.
 export const revalidate = 86400;
-
-/** Dates are authored as "DD.MM.YYYY" in messages/<locale>.json. */
-function hasPassed(date: string) {
-  const [day, month, year] = date.split(".").map(Number);
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  return new Date(year, month - 1, day) < today;
-}
 
 /** "DD.MM.YYYY" → "YYYY-MM-DD", the only date form schema.org accepts. */
 function toIsoDate(date: string) {
@@ -155,32 +149,14 @@ export default async function ZinkTemadagPage({
             </span>
           </div>
           <div className="flex flex-wrap gap-5 sm:gap-6">
-            {dates.map((date) => {
-              const passed = hasPassed(date);
-              return (
-                <div
-                  key={date}
-                  className={`relative border-2 px-10 py-8 sm:px-14 sm:py-10 ${
-                    passed
-                      ? "border-zinc-700 bg-zinc-900/30"
-                      : "border-ember bg-zinc-900/60"
-                  }`}
-                >
-                  <span
-                    className={`text-4xl sm:text-6xl font-bold font-[family-name:var(--font-mono)] tracking-tight ${
-                      passed ? "text-zinc-500 line-through decoration-2" : "text-white"
-                    }`}
-                  >
-                    {date}
-                  </span>
-                  {passed && (
-                    <span className="mt-3 block text-[11px] tracking-[0.3em] uppercase text-zinc-500 font-[family-name:var(--font-mono)]">
-                      {t("datePastLabel")}
-                    </span>
-                  )}
-                </div>
-              );
-            })}
+            {dates.map((date) => (
+              <TemadagDate
+                key={date}
+                date={date}
+                initialPassed={hasPassed(date)}
+                pastLabel={t("datePastLabel")}
+              />
+            ))}
           </div>
           <p className="mt-6 text-sm text-zinc-400">{t("datesNote")}</p>
         </div>

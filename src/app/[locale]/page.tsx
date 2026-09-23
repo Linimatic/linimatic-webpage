@@ -150,7 +150,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                   {t('hero.ctaPrimary')}
                   <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
                 </Link>
-                <Link href="/services" className="group inline-flex items-center justify-center gap-3 border border-zinc-300 hover:border-zinc-500 px-7 py-3.5 text-sm font-semibold tracking-wide uppercase text-zinc-700 hover:text-zinc-900 transition-all">
+                <Link href="/services" className="rounded-md group inline-flex items-center justify-center gap-3 border border-zinc-300 hover:border-zinc-500 px-7 py-3.5 text-sm font-semibold tracking-wide uppercase text-zinc-700 hover:text-zinc-900 transition-all">
                   {t('hero.ctaSecondary')}
                 </Link>
               </div>
@@ -415,7 +415,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
                 {t('cta.getInTouch')}
                 <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
               </Link>
-              <a href="tel:+4548764040" className="inline-flex items-center justify-center gap-3 border border-zinc-600 hover:border-zinc-400 px-8 py-4 text-sm font-semibold tracking-wide text-zinc-300 hover:text-white transition-all font-[family-name:var(--font-mono)]">
+              <a href="tel:+4548764040" className="rounded-md inline-flex items-center justify-center gap-3 border border-zinc-600 hover:border-zinc-400 px-8 py-4 text-sm font-semibold tracking-wide text-zinc-300 hover:text-white transition-all font-[family-name:var(--font-mono)]">
                 {t('cta.phone')}
               </a>
             </div>

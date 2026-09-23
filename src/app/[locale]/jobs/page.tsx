@@ -369,7 +369,7 @@ export default async function JobsPage({
               </a>
               <Link
                 href="/about"
-                className="inline-flex items-center justify-center gap-3 border border-zinc-600 hover:border-zinc-400 px-8 py-4 text-sm font-semibold tracking-wide text-zinc-300 hover:text-white transition-all"
+                className="rounded-md inline-flex items-center justify-center gap-3 border border-zinc-600 hover:border-zinc-400 px-8 py-4 text-sm font-semibold tracking-wide text-zinc-300 hover:text-white transition-all"
               >
                 {t("learnMoreButton")}
               </Link>

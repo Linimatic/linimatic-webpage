@@ -261,7 +261,7 @@ export default async function CaseDetailPage({
                 <Link
                   key={capSlug}
                   href={`/services/${capSlug}`}
-                  className="group inline-flex items-center gap-2 border border-zinc-300 hover:border-ember px-5 py-3 text-sm text-zinc-700 hover:text-ember transition-colors"
+                  className="rounded-md group inline-flex items-center gap-2 border border-zinc-300 hover:border-ember px-5 py-3 text-sm text-zinc-700 hover:text-ember transition-colors"
                 >
                   {label}
                   <svg
@@ -357,7 +357,7 @@ export default async function CaseDetailPage({
             </Link>
             <a
               href="tel:+4548764040"
-              className="inline-flex items-center justify-center gap-3 border border-zinc-600 hover:border-zinc-400 px-8 py-4 text-sm font-semibold tracking-wide text-zinc-300 hover:text-white transition-all font-[family-name:var(--font-mono)]"
+              className="rounded-md inline-flex items-center justify-center gap-3 border border-zinc-600 hover:border-zinc-400 px-8 py-4 text-sm font-semibold tracking-wide text-zinc-300 hover:text-white transition-all font-[family-name:var(--font-mono)]"
             >
               +45 4876 4040
             </a>

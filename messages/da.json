@@ -813,11 +813,11 @@
     "items": {
       "zink-temadag-september-2026": {
         "title": "Zink Temadag den 16. september 2026",
-        "excerpt": "Vi holder gratis temadag om zinktrykstøbning hos Linimatic i Helsinge — fra materialevalg og konstruktion til produktion og færdigt emne.",
+        "excerpt": "Den 16. september 2026 holdt vi gratis temadag om zinktrykstøbning hos en af vores store kunder. Næste temadag er den 16. februar 2027.",
         "body": [
-          "Den 16. september 2026 åbner vi dørene til produktionen i Helsinge for en gratis temadag om zinktrykstøbning. Dagen varer omkring fire timer og henvender sig til konstruktører, projektledere og indkøbere, der vil vide mere om, hvad zink kan.",
-          "Programmet kommer hele vejen rundt: zink som materiale og hvor det kommer fra, sammenligning med aluminium og plast, selve støbeprocessen, konstruktion i zink med de muligheder og begrænsninger det giver, CO2-aftryk, overfladebehandling, støbeværktøjer og mulighederne for prototyper. Undervejs er der rundvisning i produktionen, så deltagerne ser maskinerne arbejde.",
-          "Tag gerne en potentiel komponent eller en konkret problemstilling med — så gennemgår vi den på dagen. Programmet tilpasses altid deltagerne.",
+          "Den 16. september 2026 holdt vi en gratis temadag om zinktrykstøbning hos en af vores store kunder, med deltagelse af medarbejdere fra udvikling, konstruktion og indkøb.",
+          "Dagen handlede om mulighederne med zinktrykstøbning — fra materialevalg og konstruktion til produktion og færdigt emne. Et konkret udviklingsprojekt og nogle af kundens egne emner indgik i dagen.",
+          "Næste temadag holdes den 16. februar 2027. Tag gerne en potentiel komponent eller en konkret problemstilling med — så gennemgår vi den på dagen. Programmet tilpasses altid deltagerne.",
           "Tilmelding og spørgsmål: Jan V. Jørgensen, jaj@linimatic.dk eller +45 2343 3667."
         ]
       }
@@ -1624,7 +1624,7 @@
     "breadcrumb": "Zink Temadag",
     "eyebrow": "Gratis temadag — ca. 4 timer",
     "heading": "Temadag om zinktrykstøbning",
-    "intro": "Få praktisk viden om mulighederne med zinktrykstøbning – fra materialevalg og konstruktion til produktion og færdigt emne.\n\nLinimatic afholder gratis temadage for konstruktører, projektledere og indkøbere i vores produktion i Helsinge. Du er velkommen til at medbringe en potentiel komponent eller en konkret problemstilling, som vi kan gennemgå på dagen. Se agenda nedenfor.",
+    "intro": "Få praktisk viden om mulighederne med zinktrykstøbning – fra materialevalg og konstruktion til produktion og færdigt emne.\n\nLinimatic afholder gratis temadage for konstruktører, projektledere og indkøbere i vores produktion i Helsinge. Afhængigt af antal deltagere kan temadagen også afholdes hos jer. Du er velkommen til at medbringe en potentiel komponent eller en konkret problemstilling, som vi kan gennemgå på dagen. Se agenda nedenfor.",
     "agendaHeading": "Program",
     "agenda": [
       "Zink i almindelighed — og hvor det kommer fra",

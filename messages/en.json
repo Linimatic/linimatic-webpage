@@ -810,11 +810,11 @@
     "items": {
       "zink-temadag-september-2026": {
         "title": "Zinc Info Day on 16 September 2026",
-        "excerpt": "A free info day on zinc die-casting at Linimatic in Helsinge — from material choice and design to production and finished part.",
+        "excerpt": "On 16 September 2026 we held a free info day on zinc die-casting at one of our major customers. The next info day is on 16 February 2027.",
         "body": [
-          "On 16 September 2026 we open the doors to our production in Helsinge for a free info day on zinc die-casting. The day lasts around four hours and is aimed at design engineers, project managers and buyers who want to know more about what zinc can do.",
-          "The programme covers the whole ground: zinc as a material and where it comes from, a comparison with aluminium and plastic, the casting process itself, designing in zinc with the possibilities and limits that brings, CO2 footprint, surface treatment, casting tools and the options for prototypes. Along the way there is a guided tour of the production, so you see the machines at work.",
-          "Feel free to bring a potential component or a specific problem — we will go through it on the day. The programme is always adapted to the participants.",
+          "On 16 September 2026 we held a free info day on zinc die-casting at one of our major customers, attended by staff from development, design engineering and purchasing.",
+          "The day covered the possibilities of zinc die-casting — from material choice and design to production and finished part. A specific development project and some of the customer's own parts were part of the day.",
+          "The next info day takes place on 16 February 2027. Feel free to bring a potential component or a specific problem — we will go through it on the day. The programme is always adapted to the participants.",
           "Registration and questions: Jan V. Jørgensen, jaj@linimatic.dk or +45 2343 3667."
         ]
       }
@@ -1620,7 +1620,7 @@
     "breadcrumb": "Zinc Info Day",
     "eyebrow": "Free seminar — approx. 4 hours",
     "heading": "Zinc Die-Casting Info Day",
-    "intro": "Get practical knowledge about the possibilities of zinc die-casting – from material selection and design to production and the finished part.\n\nLinimatic holds free info days for designers, project managers and buyers at our facility in Helsinge. Feel free to bring along a potential component or a specific challenge for us to go through on the day. See the agenda below.",
+    "intro": "Get practical knowledge about the possibilities of zinc die-casting – from material selection and design to production and the finished part.\n\nLinimatic holds free info days for designers, project managers and buyers at our facility in Helsinge. Depending on the number of participants, the info day can also be held at your premises. Feel free to bring along a potential component or a specific challenge for us to go through on the day. See the agenda below.",
     "agendaHeading": "Agenda",
     "agenda": [
       "Zinc in general — and where it comes from",

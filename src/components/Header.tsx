@@ -103,7 +103,7 @@ export function Header() {
           : "bg-zinc-950"
       }`}
     >
-      <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
+      <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 min-[1500px]:px-20">
         <div className="flex h-20 items-center justify-between">
           {/* Logo — white-text variant on the dark bar, original colors on the white bar */}
           <Link href="/" className="flex-shrink-0 relative z-10">
@@ -152,7 +152,7 @@ export function Header() {
                         setOpenDropdown((cur) => (cur === item.key ? null : item.key));
                       }
                     }}
-                    className={`flex items-center gap-1 px-2.5 min-[1700px]:px-4 py-2 text-[12px] min-[1700px]:text-[13px] font-medium tracking-wide uppercase transition-colors ${
+                    className={`flex items-center gap-1 px-2 min-[1500px]:px-2.5 min-[1700px]:px-4 py-2 text-[12px] min-[1700px]:text-[13px] font-medium tracking-wide uppercase transition-colors ${
                       scrolled ? "text-zinc-600 hover:text-zinc-900" : "text-zinc-300 hover:text-white"
                     }`}
                   >
@@ -259,7 +259,7 @@ export function Header() {
                 <Link
                   key={item.key}
                   href={item.href}
-                  className={`flex items-center gap-1.5 px-2.5 min-[1700px]:px-4 py-2 text-[12px] min-[1700px]:text-[13px] font-medium tracking-wide uppercase transition-colors ${
+                  className={`flex items-center gap-1.5 px-2 min-[1500px]:px-2.5 min-[1700px]:px-4 py-2 text-[12px] min-[1700px]:text-[13px] font-medium tracking-wide uppercase transition-colors ${
                     scrolled ? "text-zinc-600 hover:text-zinc-900" : "text-zinc-300 hover:text-white"
                   }`}
                 >

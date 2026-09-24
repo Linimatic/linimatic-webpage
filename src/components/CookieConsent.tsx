@@ -30,6 +30,20 @@ const CHANGE_EVENT = "cookie-consent:change";
 
 const DEFAULT_PREFERENCES: CookiePreferences = { necessary: true, analytics: false };
 
+// The preview deployment's own CSP lets only the editing app frame it, so a
+// framed page is the owner looking at their draft inside the editor. A consent
+// cookie cannot be kept there (a cross-site frame, and a new origin for every
+// deployment), so the banner would come back on every build and hold back
+// everything gated on a decision; the owner is not a visitor to be asked.
+function framedByEditor(): boolean {
+  if (typeof window === "undefined") return false;
+  try {
+    return window.self !== window.top;
+  } catch {
+    return true;
+  }
+}
+
 function rawConsentCookie(): string | null {
   if (typeof document === "undefined") return null;
   const match = document.cookie.match(new RegExp(`(?:^|; )${COOKIE_NAME}=([^;]*)`));
@@ -110,7 +124,7 @@ export function CookieConsent() {
 
   useEffect(() => {
     const saved = getCookiePreferences();
-    if (!saved) {
+    if (!saved && !framedByEditor()) {
       const timer = setTimeout(() => setVisible(true), 1000);
       return () => clearTimeout(timer);
     }
@@ -315,7 +329,7 @@ export function useCookieConsent(): CookiePreferences {
 export function useConsentDecided(): boolean | null {
   return useSyncExternalStore(
     subscribeToConsent,
-    () => readConsentCache() !== null,
+    () => framedByEditor() || readConsentCache() !== null,
     () => null
   );
 }

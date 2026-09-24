@@ -2,11 +2,11 @@
   "meta": {
     "home": {
       "title": "Linimatic A/S — Denmark's Zinc Die-Casting Foundry",
-      "description": "Denmark's largest dedicated zinc die-casting foundry since 1967. Precision zamak components from prototype to series — ISO 9001 certified, all under one roof."
+      "description": "Denmark's largest dedicated zinc die-casting foundry since 1967. Precision zamak components from prototype to series — ISO 9001 certified, one responsible partner throughout."
     },
     "services": {
       "title": "Zinc Die-Casting Services in Denmark",
-      "description": "Full-service zinc die-casting under one roof: prototyping, high-pressure die casting, CNC machining, surface coating, quality assurance and assembly. Helsinge, DK."
+      "description": "Full-service zinc die-casting with one responsible partner: prototyping, high-pressure die casting, CNC machining, surface coating, quality assurance and assembly. Helsinge, DK."
     },
     "whyZinc": {
       "title": "Why Zinc Die-Casting? Benefits & Alloys",
@@ -14,7 +14,7 @@
     },
     "about": {
       "title": "About Linimatic — Zinc Die-Casting Experts Since 1967",
-      "description": "Founded in 1967, Linimatic A/S is Denmark's largest dedicated zinc die-casting foundry — 50+ specialists, ISO 9001 certified, full value chain under one roof."
+      "description": "Founded in 1967, Linimatic A/S is Denmark's largest dedicated zinc die-casting foundry — 50+ specialists, ISO 9001 certified, one partner for the full value chain."
     },
     "news": {
       "title": "News from Linimatic",
@@ -125,9 +125,9 @@
     ]
   },
   "valueChain": {
-    "eyebrow": "One Roof. Zero Handoffs.",
+    "eyebrow": "One Contact. One Responsibility.",
     "heading": "From design to first production order",
-    "description": "Give us a CAD file. We return a finished, inspected component \u2014 cast, machined, coated, and assembled in a single facility. No supplier coordination. No quality gaps between steps.",
+    "description": "We follow your project all the way – from design optimisation and tool design to trial casting, approval and the first production order. Where parts of the work are carried out by a subcontractor, such as surface treatment, we coordinate and manage it as part of the overall process.",
     "steps": [
       {
         "number": "01",
@@ -388,11 +388,11 @@
       }
     ],
     "diffHeading": "Why the integrated model matters",
-    "diffDescription": "Competitors outsource post-processing, coating, or assembly to third parties. Every handoff introduces delay, variation, and finger-pointing when something goes wrong. Our model eliminates all of that.",
+    "diffDescription": "Every handoff between suppliers risks delay, variation and unclear responsibility when something goes wrong. That is why we keep the decisive processes up to surface treatment in-house in Helsinge and manage our established, approved subcontractors ourselves. You have one contact – and we take responsibility.",
     "differentiators": [
       {
-        "title": "Zero Handoffs",
-        "text": "Your part never leaves our facility between casting and shipment. No transport damage, no lost traceability, no communication gaps between suppliers."
+        "title": "We Manage the Whole Process",
+        "text": "Casting, machining, finishing and assembly take place in-house. Surface treatment is carried out by established, approved subcontractors that we coordinate ourselves, and final quality control and packing always take place at Linimatic. You never have to coordinate between suppliers yourself."
       },
       {
         "title": "Consistent Quality",

@@ -2,11 +2,11 @@
   "meta": {
     "home": {
       "title": "Linimatic A/S — Danmarks zinktrykstøberi siden 1967",
-      "description": "Danmarks største dedikerede zinktrykstøberi siden 1967. Præcise zamak-komponenter fra prototype til serie — ISO 9001-certificeret, alt under ét tag."
+      "description": "Danmarks største dedikerede zinktrykstøberi siden 1967. Præcise zamak-komponenter fra prototype til serie — ISO 9001-certificeret, med ét ansvar hele vejen."
     },
     "services": {
       "title": "Zinktrykstøbning i Danmark",
-      "description": "Full-service zinktrykstøbning under ét tag: prototyping, højtryksstøbning, CNC-bearbejdning, overfladebehandling, kvalitetssikring og montage i Helsinge."
+      "description": "Full-service zinktrykstøbning med ét samlet ansvar: prototyping, højtryksstøbning, CNC-bearbejdning, overfladebehandling, kvalitetssikring og montage fra Helsinge."
     },
     "whyZinc": {
       "title": "Hvorfor zink? Fordele og legeringer",
@@ -14,7 +14,7 @@
     },
     "about": {
       "title": "Om Linimatic — eksperter i zinktrykstøbning siden 1967",
-      "description": "Grundlagt i 1967 er Linimatic A/S Danmarks største dedikerede zinktrykstøberi — 50+ specialister, ISO 9001-certificeret, hele værdikæden under ét tag."
+      "description": "Grundlagt i 1967 er Linimatic A/S Danmarks største dedikerede zinktrykstøberi — 50+ specialister, ISO 9001-certificeret, ét ansvar for hele værdikæden."
     },
     "news": {
       "title": "Nyheder fra Linimatic",
@@ -125,9 +125,9 @@
     ]
   },
   "valueChain": {
-    "eyebrow": "Ét tag. Ingen mellemled.",
+    "eyebrow": "Én kontakt. Ét ansvar.",
     "heading": "Fra konstruktion til første produktionsordre",
-    "description": "Giv os en CAD-fil. Vi returnerer et færdigt, inspiceret emne — støbt, bearbejdet, overfladebehandlet og monteret i én facilitet. Ingen leverandørkoordinering. Ingen kvalitetshuller mellem trin.",
+    "description": "Vi følger jeres projekt hele vejen – fra konstruktionsoptimering og værktøjsdesign til teststøbning, godkendelse og første produktionsordre. Skal dele af arbejdet udføres hos en underleverandør, f.eks. overfladebehandling, koordinerer og styrer vi det som en del af den samlede proces.",
     "steps": [
       {
         "number": "01",
@@ -391,11 +391,11 @@
       }
     ],
     "diffHeading": "Hvorfor den integrerede model betyder noget",
-    "diffDescription": "Konkurrenter outsourcer efterbearbejdning, coating eller montage til tredjeparter. Hvert overdrag introducerer forsinkelse, variation og gensidige bebrejdelser, når noget går galt. Vores model eliminerer alt det.",
+    "diffDescription": "Hvert overdrag mellem leverandører giver risiko for forsinkelse, variation og uklart ansvar, når noget går galt. Derfor samler vi de afgørende processer frem til overfladebehandling i eget hus i Helsinge og styrer selv samarbejdet med faste, godkendte underleverandører. Du har én kontakt – og vi har ansvaret.",
     "differentiators": [
       {
-        "title": "Nul mellemled",
-        "text": "Dit emne forlader aldrig vores facilitet fra støbning til forsendelse. Ingen transportskader, ingen tabt sporbarhed, ingen kommunikationshuller mellem leverandører."
+        "title": "Vi styrer hele forløbet",
+        "text": "Støbning, bearbejdning, efterbearbejdning og montage foregår i eget hus. Overfladebehandling udføres hos faste, godkendte underleverandører, som vi selv koordinerer, og den afsluttende kvalitetskontrol og pakning sker altid hos Linimatic. Du skal aldrig selv koordinere mellem leverandører."
       },
       {
         "title": "Ensartet kvalitet",

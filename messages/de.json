@@ -6,7 +6,7 @@
     },
     "services": {
       "title": "Zinkdruckguss-Leistungen in Dänemark",
-      "description": "Zinkdruckguss aus einer Hand: Prototyping, Druckguss, CNC-Bearbeitung, Oberflächenveredelung, Qualitätssicherung und Montage in Helsinge, Dänemark."
+      "description": "Zinkdruckguss aus einer Hand: Prototyping, Druckguss, CNC-Bearbeitung, Oberflächenveredelung, Qualitätssicherung und Montage – aus Helsinge, Dänemark."
     },
     "whyZinc": {
       "title": "Warum Zinkdruckguss? Vorteile & Legierungen",
@@ -125,9 +125,9 @@
     ]
   },
   "valueChain": {
-    "eyebrow": "Ein Dach. Keine Zwischenstationen.",
+    "eyebrow": "Ein Ansprechpartner. Eine Verantwortung.",
     "heading": "Von der Konstruktion bis zum ersten Produktionsauftrag",
-    "description": "Geben Sie uns eine CAD-Datei. Wir liefern ein fertiges, geprüftes Bauteil — gegossen, bearbeitet, beschichtet und montiert in einer einzigen Anlage. Keine Lieferantenkoordination. Keine Qualitätslücken zwischen den Schritten.",
+    "description": "Wir begleiten Ihr Projekt auf dem gesamten Weg – von der Konstruktionsoptimierung und dem Werkzeugdesign über den Probeguss und die Freigabe bis zum ersten Produktionsauftrag. Werden Teile der Arbeit bei einem Unterlieferanten ausgeführt, z. B. die Oberflächenbehandlung, koordinieren und steuern wir dies als Teil des Gesamtprozesses.",
     "steps": [
       {
         "number": "01",
@@ -391,11 +391,11 @@
       }
     ],
     "diffHeading": "Warum das integrierte Modell zählt",
-    "diffDescription": "Wettbewerber lagern Nachbearbeitung, Beschichtung oder Montage an Dritte aus. Jede Übergabe bringt Verzögerungen, Schwankungen und gegenseitige Schuldzuweisungen, wenn etwas schief geht. Unser Modell eliminiert all das.",
+    "diffDescription": "Jede Übergabe zwischen Lieferanten birgt das Risiko von Verzögerungen, Schwankungen und unklarer Verantwortung, wenn etwas schiefgeht. Deshalb bündeln wir die entscheidenden Prozesse bis zur Oberflächenbehandlung im eigenen Haus in Helsinge und steuern die Zusammenarbeit mit festen, zugelassenen Unterlieferanten selbst. Sie haben einen Ansprechpartner – und wir tragen die Verantwortung.",
     "differentiators": [
       {
-        "title": "Keine Zwischenstationen",
-        "text": "Ihr Bauteil verlässt unsere Anlage nie zwischen Guss und Versand. Kein Transportschaden, keine verlorene Rückverfolgbarkeit, keine Kommunikationslücken zwischen Lieferanten."
+        "title": "Wir steuern den gesamten Ablauf",
+        "text": "Guss, Bearbeitung, Nachbearbeitung und Montage erfolgen im eigenen Haus. Die Oberflächenbehandlung übernehmen feste, zugelassene Unterlieferanten, die wir selbst koordinieren, und die abschließende Qualitätskontrolle und Verpackung erfolgen immer bei Linimatic. Sie müssen nie selbst zwischen Lieferanten koordinieren."
       },
       {
         "title": "Gleichbleibende Qualität",

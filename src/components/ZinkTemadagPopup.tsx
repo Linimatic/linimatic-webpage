@@ -97,7 +97,7 @@ export function ZinkTemadagPopup() {
         <Link
           href="/zink-temadag"
           onClick={dismiss}
-          className="group mt-5 inline-flex items-center gap-3 rounded-md bg-ember hover:bg-ember-light px-5 py-2.5 text-xs font-semibold tracking-wide uppercase text-zinc-950 transition-all"
+          className="group mt-5 inline-flex items-center gap-3 bg-ember hover:bg-ember-light px-5 py-2.5 text-xs font-semibold tracking-wide uppercase text-zinc-950 transition-all"
         >
           {t("cta")}
           <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">

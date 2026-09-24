@@ -103,7 +103,7 @@ export function Header() {
           : "bg-zinc-950"
       }`}
     >
-      <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 min-[1500px]:px-20">
+      <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
         <div className="flex h-20 items-center justify-between">
           {/* Logo — white-text variant on the dark bar, original colors on the white bar */}
           <Link href="/" className="flex-shrink-0 relative z-10">
@@ -113,7 +113,7 @@ export function Header() {
               width={240}
               height={50}
               priority
-              className={`h-10 wide:h-7 min-[1400px]:h-8 min-[1700px]:h-10 w-auto transition-opacity duration-300 ${scrolled ? "opacity-0" : "opacity-100"}`}
+              className={`h-10 wide:h-8 min-[1700px]:h-10 w-auto transition-opacity duration-300 ${scrolled ? "opacity-0" : "opacity-100"}`}
             />
             <Image
               src="/images/brand/linimatic-logo-zinc.png"
@@ -122,7 +122,7 @@ export function Header() {
               width={240}
               height={50}
               priority
-              className={`absolute left-0 top-0 h-10 wide:h-7 min-[1400px]:h-8 min-[1700px]:h-10 w-auto transition-opacity duration-300 ${scrolled ? "opacity-100" : "opacity-0"}`}
+              className={`absolute left-0 top-0 h-10 wide:h-8 min-[1700px]:h-10 w-auto transition-opacity duration-300 ${scrolled ? "opacity-100" : "opacity-0"}`}
             />
           </Link>
 
@@ -152,7 +152,7 @@ export function Header() {
                         setOpenDropdown((cur) => (cur === item.key ? null : item.key));
                       }
                     }}
-                    className={`flex items-center gap-1 px-1.5 min-[1400px]:px-2 min-[1500px]:px-2.5 min-[1700px]:px-4 py-2 text-[11px] min-[1400px]:text-[12px] min-[1700px]:text-[13px] font-medium tracking-wide uppercase transition-colors ${
+                    className={`flex items-center gap-1 px-2.5 min-[1700px]:px-4 py-2 text-[12px] min-[1700px]:text-[13px] font-medium tracking-wide uppercase transition-colors ${
                       scrolled ? "text-zinc-600 hover:text-zinc-900" : "text-zinc-300 hover:text-white"
                     }`}
                   >
@@ -259,7 +259,7 @@ export function Header() {
                 <Link
                   key={item.key}
                   href={item.href}
-                  className={`flex items-center gap-1.5 px-1.5 min-[1400px]:px-2 min-[1500px]:px-2.5 min-[1700px]:px-4 py-2 text-[11px] min-[1400px]:text-[12px] min-[1700px]:text-[13px] font-medium tracking-wide uppercase transition-colors ${
+                  className={`flex items-center gap-1.5 px-2.5 min-[1700px]:px-4 py-2 text-[12px] min-[1700px]:text-[13px] font-medium tracking-wide uppercase transition-colors ${
                     scrolled ? "text-zinc-600 hover:text-zinc-900" : "text-zinc-300 hover:text-white"
                   }`}
                 >
@@ -295,7 +295,7 @@ export function Header() {
             </a>
             <Link
               href="/contact"
-              className="relative px-3.5 wide:max-[1399px]:px-3 min-[1700px]:px-6 py-2.5 text-[12px] wide:max-[1399px]:text-[11px] min-[1700px]:text-[13px] font-semibold tracking-wide uppercase text-zinc-950 rounded-md bg-ember hover:bg-ember-light transition-colors whitespace-nowrap"
+              className="relative px-3.5 min-[1700px]:px-6 py-2.5 text-[12px] min-[1700px]:text-[13px] font-semibold tracking-wide uppercase text-zinc-950 bg-ember hover:bg-ember-light transition-colors whitespace-nowrap"
             >
               {t("getQuote")}
             </Link>

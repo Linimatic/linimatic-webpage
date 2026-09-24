@@ -373,7 +373,7 @@ export default async function ServiceDetailPage({
               <Link
                 key={rs.slug}
                 href={`/services/${rs.slug}`}
-                className="rounded-md group inline-flex items-center gap-2 border border-zinc-300 hover:border-ember px-5 py-3 text-sm text-zinc-700 hover:text-ember transition-colors"
+                className="group inline-flex items-center gap-2 border border-zinc-300 hover:border-ember px-5 py-3 text-sm text-zinc-700 hover:text-ember transition-colors"
               >
                 {tServices(`items.${SERVICE_SLUGS.indexOf(rs.slug as ServiceSlug)}.title`)}
                 <svg
@@ -407,7 +407,7 @@ export default async function ServiceDetailPage({
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/contact"
-              className="group inline-flex items-center justify-center gap-3 rounded-md bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
+              className="group inline-flex items-center justify-center gap-3 bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
             >
               {t("ctaButton")}
               <svg
@@ -426,7 +426,7 @@ export default async function ServiceDetailPage({
             </Link>
             <a
               href="tel:+4548764040"
-              className="rounded-md inline-flex items-center justify-center gap-3 border border-zinc-600 hover:border-zinc-400 px-8 py-4 text-sm font-semibold tracking-wide text-zinc-300 hover:text-white transition-all font-[family-name:var(--font-mono)]"
+              className="inline-flex items-center justify-center gap-3 border border-zinc-600 hover:border-zinc-400 px-8 py-4 text-sm font-semibold tracking-wide text-zinc-300 hover:text-white transition-all font-[family-name:var(--font-mono)]"
             >
               +45 4876 4040
             </a>

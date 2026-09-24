@@ -213,19 +213,19 @@ export function CookieConsent() {
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 flex-shrink-0">
                 <button
                   onClick={() => setShowDetails(!showDetails)}
-                  className="rounded-md px-5 py-2.5 text-[13px] font-medium tracking-wide text-zinc-400 hover:text-white border border-zinc-700 hover:border-zinc-500 transition-all"
+                  className="px-5 py-2.5 text-[13px] font-medium tracking-wide text-zinc-400 hover:text-white border border-zinc-700 hover:border-zinc-500 transition-all"
                 >
                   {t("customize")}
                 </button>
                 <button
                   onClick={handleRejectAll}
-                  className="rounded-md px-6 py-2.5 text-[13px] font-semibold tracking-wide uppercase bg-white hover:bg-zinc-200 text-zinc-950 transition-all"
+                  className="px-6 py-2.5 text-[13px] font-semibold tracking-wide uppercase bg-white hover:bg-zinc-200 text-zinc-950 transition-all"
                 >
                   {t("rejectAll")}
                 </button>
                 <button
                   onClick={handleAcceptAll}
-                  className="px-6 py-2.5 text-[13px] font-semibold tracking-wide uppercase rounded-md bg-ember hover:bg-ember-light text-zinc-950 transition-all"
+                  className="px-6 py-2.5 text-[13px] font-semibold tracking-wide uppercase bg-ember hover:bg-ember-light text-zinc-950 transition-all"
                 >
                   {t("acceptAll")}
                 </button>
@@ -286,7 +286,7 @@ export function CookieConsent() {
                 <div className="mt-6 flex justify-end">
                   <button
                     onClick={handleSavePreferences}
-                    className="px-6 py-2.5 text-[13px] font-semibold tracking-wide uppercase rounded-md bg-ember hover:bg-ember-light text-zinc-950 transition-all"
+                    className="px-6 py-2.5 text-[13px] font-semibold tracking-wide uppercase bg-ember hover:bg-ember-light text-zinc-950 transition-all"
                   >
                     {t("savePreferences")}
                   </button>

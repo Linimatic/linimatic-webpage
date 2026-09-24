@@ -1408,9 +1408,7 @@
           "Motivated to become skilled in a specialised trade"
         ],
         "contactName": "Rikke Østrup Fisker, Logistics Manager",
-        "contactEmail": "rif@linimatic.dk",
-        "image": "/images/jobs/vedligehold-stoebeform.jpg",
-        "imageAlt": "A machinist maintaining a die-casting mould in Linimatic's mould shop"
+        "contactEmail": "rif@linimatic.dk"
       },
       {
         "title": "Production Operator",
@@ -1430,9 +1428,7 @@
         ],
         "contactName": "Thomas Hjorth, Production Manager",
         "contactPhone": "+45 50 77 02 16",
-        "contactEmail": "thj@linimatic.dk",
-        "image": "/images/jobs/betjening-af-stoebemaskine.jpg",
-        "imageAlt": "Two colleagues operating a die-casting machine together on the production floor"
+        "contactEmail": "thj@linimatic.dk"
       }
     ],
     "openApplicationHeading": "Don\u2019t see your role?",

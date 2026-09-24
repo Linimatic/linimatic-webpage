@@ -51,8 +51,6 @@ export default async function JobsPage({
     contactName?: string;
     contactPhone?: string;
     contactEmail?: string;
-    image?: string;
-    imageAlt?: string;
   }>;
 
   // Dates derived from the (re)generation time; combined with the weekly
@@ -178,66 +176,42 @@ export default async function JobsPage({
                         </span>
                       </div>
                     </div>
-                    <div
-                      className={
-                        pos.image
-                          ? "grid grid-cols-1 lg:grid-cols-3 gap-8 items-start"
-                          : undefined
-                      }
-                    >
-                      <div className={pos.image ? "lg:col-span-2" : undefined}>
-                        <p className="text-base text-zinc-600 leading-relaxed max-w-3xl">
-                          {pos.description}
-                        </p>
+                    <p className="text-base text-zinc-600 leading-relaxed max-w-3xl">
+                      {pos.description}
+                    </p>
 
-                        {pos.contactName && (
-                          <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-zinc-500">
-                            <span className="font-medium text-zinc-700">
-                              {t("contactLabel")}:
-                            </span>
-                            <span>{pos.contactName}</span>
-                            {pos.contactPhone && (
-                              <>
-                                <span className="text-zinc-300">·</span>
-                                <a
-                                  href={`tel:${pos.contactPhone.replace(/\s+/g, "")}`}
-                                  className="hover:text-zinc-900 transition-colors"
-                                >
-                                  {pos.contactPhone}
-                                </a>
-                              </>
-                            )}
-                            {pos.contactEmail && (
-                              <>
-                                <span className="text-zinc-300">·</span>
-                                <a
-                                  href={`mailto:${pos.contactEmail}`}
-                                  className="hover:text-zinc-900 transition-colors"
-                                >
-                                  {pos.contactEmail}
-                                </a>
-                              </>
-                            )}
-                          </div>
+                    {pos.contactName && (
+                      <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-zinc-500">
+                        <span className="font-medium text-zinc-700">
+                          {t("contactLabel")}:
+                        </span>
+                        <span>{pos.contactName}</span>
+                        {pos.contactPhone && (
+                          <>
+                            <span className="text-zinc-300">·</span>
+                            <a
+                              href={`tel:${pos.contactPhone.replace(/\s+/g, "")}`}
+                              className="hover:text-zinc-900 transition-colors"
+                            >
+                              {pos.contactPhone}
+                            </a>
+                          </>
+                        )}
+                        {pos.contactEmail && (
+                          <>
+                            <span className="text-zinc-300">·</span>
+                            <a
+                              href={`mailto:${pos.contactEmail}`}
+                              className="hover:text-zinc-900 transition-colors"
+                            >
+                              {pos.contactEmail}
+                            </a>
+                          </>
                         )}
                       </div>
+                    )}
 
-                      {pos.image && (
-                        <div className="lg:col-span-1">
-                          <div className="relative aspect-[4/3] overflow-hidden sm:max-w-sm lg:max-w-none">
-                            <Image
-                              src={pos.image}
-                              alt={pos.imageAlt ?? ""}
-                              fill
-                              className="object-cover"
-                              sizes="(max-width: 1024px) 100vw, 30vw"
-                            />
-                          </div>
-                        </div>
-                      )}
-                    </div>
-
-                    <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4">
+                    <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-8">
                       {/* Responsibilities */}
                       <div>
                         <h4 className="text-sm font-semibold text-zinc-900 mb-3">
@@ -247,9 +221,11 @@ export default async function JobsPage({
                           {pos.responsibilities.map((item, i) => (
                             <li
                               key={i}
-                              className="flex items-start gap-2.5 text-sm text-zinc-600 leading-relaxed"
+                              className="flex items-start gap-2 text-sm text-zinc-600"
                             >
-                              <span className="mt-[7px] h-1.5 w-1.5 rounded-full bg-ember shrink-0" />
+                              <span className="text-ember mt-1 shrink-0">
+                                &bull;
+                              </span>
                               {item}
                             </li>
                           ))}
@@ -264,9 +240,11 @@ export default async function JobsPage({
                           {pos.requirements.map((item, i) => (
                             <li
                               key={i}
-                              className="flex items-start gap-2.5 text-sm text-zinc-600 leading-relaxed"
+                              className="flex items-start gap-2 text-sm text-zinc-600"
                             >
-                              <span className="mt-[7px] h-1.5 w-1.5 rounded-full bg-ember shrink-0" />
+                              <span className="text-ember mt-1 shrink-0">
+                                &bull;
+                              </span>
                               {item}
                             </li>
                           ))}
@@ -277,7 +255,7 @@ export default async function JobsPage({
                     <div className="mt-8">
                       <a
                         href={`mailto:${pos.contactEmail ?? "linimatic@linimatic.dk"}?subject=${encodeURIComponent(t("applySubject", { position: pos.title }))}`}
-                        className="group inline-flex items-center gap-3 rounded-md bg-ember hover:bg-ember-light px-6 py-3 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
+                        className="group inline-flex items-center gap-3 bg-ember hover:bg-ember-light px-6 py-3 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
                       >
                         {t("applyButton")}
                         <svg
@@ -350,7 +328,7 @@ export default async function JobsPage({
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="mailto:linimatic@linimatic.dk?subject=Open%20Application%20%E2%80%94%20Linimatic"
-                className="group inline-flex items-center justify-center gap-3 rounded-md bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
+                className="group inline-flex items-center justify-center gap-3 bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
               >
                 {t("openApplicationButton")}
                 <svg
@@ -369,7 +347,7 @@ export default async function JobsPage({
               </a>
               <Link
                 href="/about"
-                className="rounded-md inline-flex items-center justify-center gap-3 border border-zinc-600 hover:border-zinc-400 px-8 py-4 text-sm font-semibold tracking-wide text-zinc-300 hover:text-white transition-all"
+                className="inline-flex items-center justify-center gap-3 border border-zinc-600 hover:border-zinc-400 px-8 py-4 text-sm font-semibold tracking-wide text-zinc-300 hover:text-white transition-all"
               >
                 {t("learnMoreButton")}
               </Link>

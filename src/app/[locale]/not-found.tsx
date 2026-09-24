@@ -19,7 +19,7 @@ export default async function NotFound() {
           <p className="mt-4 text-lg text-zinc-600">{t("description")}</p>
           <Link
             href="/"
-            className="mt-8 inline-flex items-center gap-3 rounded-md bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
+            className="mt-8 inline-flex items-center gap-3 bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
           >
             {t("backHome")}
             <svg

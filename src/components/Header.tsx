@@ -273,7 +273,7 @@ export function Header() {
               {t("phone")}
             </a>
             <Link
-              href="/contact/people"
+              href="/contact/quote"
               className="relative px-3.5 min-[1700px]:px-6 py-2.5 text-[12px] min-[1700px]:text-[13px] font-semibold tracking-wide uppercase text-zinc-950 bg-ember hover:bg-ember-light transition-colors whitespace-nowrap"
             >
               {t("getQuote")}
@@ -341,7 +341,7 @@ export function Header() {
             </div>
             <div className="sm:hidden pt-4">
               <Link
-                href="/contact/people"
+                href="/contact/quote"
                 className="block w-full py-3.5 text-center text-sm font-semibold tracking-wide uppercase text-zinc-950 bg-ember"
                 onClick={() => setMobileOpen(false)}
               >

@@ -31,6 +31,7 @@ Every page lives at `src/app/[locale]/<route>/page.tsx` and reads its words from
 | `/about/news` and `/about/news/<slug>` | `about/news/page.tsx`, `about/news/[slug]/page.tsx` | `newsPage` |
 | `/about/sustainability`, `/about/co2`, `/about/code-of-conduct` | `about/<name>/page.tsx` | `sustainabilityPage`, `co2Page`, `codeOfConductPage` |
 | `/jobs` | `jobs/page.tsx` | `jobsPage` |
+| `/contact/quote` (the "Get a Quote" header button; first three people of the same list) | `contact/quote/page.tsx` | `contactQuotePage`, `contactPeoplePage.team` |
 | `/contact/people` (the Contact menu item; the old `/contact` form is gone and redirects here) | `contact/people/page.tsx` | `contactPeoplePage` |
 | `/privacy`, `/cookies` | `privacy/page.tsx`, `cookies/page.tsx` | `privacyPage`, `cookiePolicyPage` |
 

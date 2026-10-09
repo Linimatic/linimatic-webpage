@@ -36,6 +36,10 @@
       "title": "Cases — projekter i zinktrykstøbning",
       "description": "Cases i zinktrykstøbning fra DeWalt, One Collection, VELUX m.fl. Se hvordan Linimatic løser komplekse produktionsopgaver med præcise zamak-komponenter."
     },
+    "contactQuote": {
+      "title": "Få et tilbud hos Linimatic",
+      "description": "Kontakt Torben, René eller Jan med din tegning eller dit projekt, og få et tilbud på zinktrykstøbning."
+    },
     "contactPeople": {
       "title": "Kontaktpersoner hos Linimatic",
       "description": "Find de rette kontaktpersoner hos Linimatic — ledelse, teknik, salg, produktion, finans og logistik."
@@ -699,6 +703,12 @@
     "ctaHeading": "Besøg os i Helsinge.",
     "ctaDescription": "Se faciliteten, mød teamet, og drøft dit projekt ansigt til ansigt. Vi ligger 60\u2009km nord for København.",
     "ctaButton": "Kontakt os for at komme i gang"
+  },
+  "contactQuotePage": {
+    "breadcrumb": "Få et tilbud",
+    "eyebrow": "Få et tilbud",
+    "heading": "Få et tilbud",
+    "intro": "Kontakt en af os med din tegning eller dit projekt, så vender vi tilbage med et tilbud."
   },
   "contactPeoplePage": {
     "breadcrumb": "Kontaktpersoner",

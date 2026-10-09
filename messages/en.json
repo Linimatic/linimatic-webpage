@@ -36,6 +36,10 @@
       "title": "Case Studies — Zinc Die-Casting Projects",
       "description": "Zinc die-casting case studies from DeWalt, One Collection, VELUX and more. See how Linimatic solves complex manufacturing challenges with precision zamak parts."
     },
+    "contactQuote": {
+      "title": "Get a Quote from Linimatic",
+      "description": "Contact Torben, René or Jan with your drawing or project and get a quote on zinc die-casting."
+    },
     "contactPeople": {
       "title": "Contact People at Linimatic",
       "description": "Find the right contact person at Linimatic — management, technical, sales, production, finance and logistics."
@@ -696,6 +700,12 @@
     "ctaHeading": "Visit us in Helsinge.",
     "ctaDescription": "See the facility, meet the team, and discuss your project face to face. We\u2019re 60\u2009km north of Copenhagen.",
     "ctaButton": "Contact Us to Get Started"
+  },
+  "contactQuotePage": {
+    "breadcrumb": "Get a Quote",
+    "eyebrow": "Get a Quote",
+    "heading": "Get a Quote",
+    "intro": "Contact one of us with your drawing or project and we will get back to you with a quote."
   },
   "contactPeoplePage": {
     "breadcrumb": "Contact People",

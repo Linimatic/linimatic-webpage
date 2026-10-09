@@ -28,6 +28,7 @@ const staticRoutes: StaticRoute[] = [
   { path: "/about/co2", priority: 0.5, changeFrequency: "monthly" },
   { path: "/about/code-of-conduct", priority: 0.4, changeFrequency: "yearly" },
   { path: "/contact/people", priority: 0.5, changeFrequency: "yearly" },
+  { path: "/contact/quote", priority: 0.5, changeFrequency: "yearly" },
   { path: "/jobs", priority: 0.6, changeFrequency: "weekly" },
   { path: "/zink-temadag", priority: 0.6, changeFrequency: "monthly" },
   { path: "/zinkers", priority: 0.5, changeFrequency: "monthly" },

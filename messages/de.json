@@ -36,6 +36,10 @@
       "title": "Referenzen — Zinkdruckguss-Projekte",
       "description": "Zinkdruckguss-Referenzen von DeWalt, One Collection, VELUX u. a. So löst Linimatic komplexe Fertigungsaufgaben mit präzisen Zamak-Bauteilen."
     },
+    "contactQuote": {
+      "title": "Angebot anfordern bei Linimatic",
+      "description": "Wenden Sie sich mit Ihrer Zeichnung oder Ihrem Projekt an Torben, René oder Jan und erhalten Sie ein Angebot für Zink-Druckguss."
+    },
     "contactPeople": {
       "title": "Ansprechpartner bei Linimatic",
       "description": "Finden Sie die richtigen Ansprechpartner bei Linimatic — Geschäftsführung, Technik, Vertrieb, Produktion, Finanzen und Logistik."
@@ -699,6 +703,12 @@
     "ctaHeading": "Besuchen Sie uns in Helsinge.",
     "ctaDescription": "Besichtigen Sie die Anlage, treffen Sie das Team und besprechen Sie Ihr Projekt persönlich. Wir sind 60\u2009km nördlich von Kopenhagen.",
     "ctaButton": "Kontaktieren Sie uns, um loszulegen"
+  },
+  "contactQuotePage": {
+    "breadcrumb": "Angebot anfordern",
+    "eyebrow": "Angebot anfordern",
+    "heading": "Angebot anfordern",
+    "intro": "Wenden Sie sich mit Ihrer Zeichnung oder Ihrem Projekt an einen von uns, und wir melden uns mit einem Angebot."
   },
   "contactPeoplePage": {
     "breadcrumb": "Ansprechpartner",

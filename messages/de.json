@@ -36,10 +36,6 @@
       "title": "Referenzen — Zinkdruckguss-Projekte",
       "description": "Zinkdruckguss-Referenzen von DeWalt, One Collection, VELUX u. a. So löst Linimatic komplexe Fertigungsaufgaben mit präzisen Zamak-Bauteilen."
     },
-    "contact": {
-      "title": "Kontakt Linimatic — Angebot für Zinkdruckguss",
-      "description": "Senden Sie Ihre Zeichnungen für ein kostenloses Zinkdruckguss-Angebot — Antwort binnen 24 Stunden. Rufen Sie +45 4876 4040 an oder besuchen Sie uns in Helsinge."
-    },
     "contactPeople": {
       "title": "Ansprechpartner bei Linimatic",
       "description": "Finden Sie die richtigen Ansprechpartner bei Linimatic — Geschäftsführung, Technik, Vertrieb, Produktion, Finanzen und Logistik."
@@ -703,55 +699,6 @@
     "ctaHeading": "Besuchen Sie uns in Helsinge.",
     "ctaDescription": "Besichtigen Sie die Anlage, treffen Sie das Team und besprechen Sie Ihr Projekt persönlich. Wir sind 60\u2009km nördlich von Kopenhagen.",
     "ctaButton": "Kontaktieren Sie uns, um loszulegen"
-  },
-  "contactPage": {
-    "breadcrumb": "Kontakt",
-    "eyebrow": "Kontakt aufnehmen",
-    "heading": "Lassen Sie uns ins Gespräch über Ihr Projekt kommen.",
-    "description": "Füllen Sie das Kontaktformular aus, oder rufen Sie direkt einen unserer Techniker an, und erhalten Sie konkrete technische Beratung zu den Möglichkeiten des Zink-Druckgusses.",
-    "responsePromise": "Antwort innerhalb von 24 Stunden",
-    "form": {
-      "name": "Name",
-      "company": "Unternehmen",
-      "email": "E-Mail",
-      "phone": "Telefon",
-      "subject": "Betreff",
-      "subjectSelect": "Betreff auswählen",
-      "subjectNew": "Neues Projekt",
-      "subjectExisting": "Bestehendes Projekt",
-      "subjectGeneral": "Allgemeine Anfrage",
-      "subjectTemadag": "Zink-Infotag",
-      "volume": "Erwartetes Volumen",
-      "volumeSelect": "Volumenbereich wählen",
-      "volume1to5k": "1.000–5.000 Stk.",
-      "volume5to15k": "5.000–15.000 Stk.",
-      "volume15to50k": "15.000–50.000 Stk.",
-      "volume50to100k": "50.000–100.000 Stk.",
-      "volumeOver100k": "Über 100.000 Stk.",
-      "message": "Projektbeschreibung",
-      "privacyNotice": "Wenn Sie dieses Formular absenden, verwendet Linimatic A/S Ihre Angaben zur Beantwortung Ihrer Anfrage. Das Formular wird von Vercel verarbeitet; Resend übermittelt die Nachricht an unser Linimatic-Postfach. Wie technische Zeichnungen geteilt werden, können wir nach dem ersten Gespräch vereinbaren. Details finden Sie in unserer <link>Datenschutzerklärung</link>.",
-      "honeypotLabel": "Dieses Feld bitte leer lassen",
-      "submit": "Anfrage senden",
-      "sending": "Wird gesendet...",
-      "successTitle": "Nachricht gesendet",
-      "successMessage": "Vielen Dank für Ihre Anfrage. Wir antworten innerhalb von 24 Stunden an Werktagen.",
-      "error": {
-        "missing_fields": "Bitte füllen Sie alle Pflichtfelder aus.",
-        "invalid_email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
-        "rate_limited": "Von dieser Verbindung wurden zu viele Nachrichten gesendet. Bitte warten Sie einen Moment und versuchen Sie es erneut, oder schreiben Sie direkt an linimatic@linimatic.dk.",
-        "too_long": "Ein oder mehrere Felder überschreiten die maximale Länge.",
-        "send_failed": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie direkt an linimatic@linimatic.dk."
-      }
-    },
-    "yourContacts": "Ihre Ansprechpartner",
-    "companyDetails": "Firmenangaben",
-    "hours": "Geschäftszeiten",
-    "hoursWeekday": "Montag–Freitag: 07:00–16:00",
-    "hoursWeekend": "Samstag–Sonntag: Geschlossen"
-  },
-  "contactTabs": {
-    "people": "Ansprechpartner",
-    "form": "Kontaktformular"
   },
   "contactPeoplePage": {
     "breadcrumb": "Ansprechpartner",
@@ -1530,13 +1477,12 @@
     "whatWeCollectHeading": "Welche Daten wir erheben",
     "whatWeCollectIntro": "Wir können die folgenden personenbezogenen Daten über unsere Website erheben:",
     "collectItems": [
-      "Kontaktformular: Name, Unternehmen, E-Mail-Adresse, Telefonnummer, Betreff, erwartetes Produktionsvolumen und Projektbeschreibung.",
       "Bewerbungen: Name, Kontaktdaten, Lebenslauf, Anschreiben und weitere Angaben, die Sie in einer Bewerbung per E-Mail übermitteln.",
-      "Technische und sicherheitsbezogene Daten: Unser Hosting-Anbieter empfängt die Formularanfrage und verarbeitet technische Angaben wie IP-Adresse und Browserinformationen, um die Website bereitzustellen und zu schützen. Das Kontaktformular nutzt eine kurzzeitig im Arbeitsspeicher gehaltene IP-Begrenzung gegen Missbrauch; wir speichern Einsendungen nicht in einer Website-Datenbank.",
+      "Technische und sicherheitsbezogene Daten: Unser Hosting-Anbieter verarbeitet technische Angaben wie IP-Adresse und Browserinformationen, um die Website bereitzustellen und zu schützen.",
       "Optionale Analyse: Wenn Sie zustimmen, verarbeitet Vercel Analytics cookielose Besuchsmessungen, damit wir verstehen, welche Seiten nützlich sind. Bei Ablehnung wird der Dienst nicht geladen.",
       "Kommunikationsdaten: Aufzeichnungen der Korrespondenz bei Kontakt per E-Mail oder Telefon."
     ],
-    "dataSourceNote": "Das Formular erfordert Ihren Namen, Ihr Unternehmen, Ihre E-Mail-Adresse und Ihre Nachricht, damit wir Sie identifizieren und Ihre Anfrage beantworten können; Telefonnummer, Betreff und erwartetes Volumen sind optional. Fehlt ein Pflichtfeld, kann das Formular nicht abgesendet werden. Angaben in Formularen und E-Mails stammen von Ihnen. Einige technische Angaben, etwa IP-Adresse und Browserinformationen, entstehen automatisch bei der Nutzung der Website.",
+    "dataSourceNote": "Angaben in E-Mails stammen von Ihnen. Einige technische Angaben, etwa IP-Adresse und Browserinformationen, entstehen automatisch bei der Nutzung der Website.",
     "legalBasisHeading": "Rechtsgrundlage der Verarbeitung",
     "legalBasisIntro": "Gemäß der Datenschutz-Grundverordnung (DSGVO) verarbeiten wir personenbezogene Daten auf Grundlage von:",
     "legalBasisItems": [
@@ -1558,18 +1504,16 @@
     "retentionItems": [
       "Kontaktanfragen: Werden normalerweise 2 Jahre nach dem letzten Kontakt aus unseren Postfächern und zugehörigen Kopien gelöscht. Erfordert eine aktive Geschäftsbeziehung oder eine gesetzliche Pflicht eine längere Aufbewahrung, speichern wir nur das Erforderliche und halten den Grund fest.",
       "Bewerbungen: Werden normalerweise 6 Monate nach Besetzung der Stelle gelöscht, oder 6 Monate nach Eingang oder dem letzten Kontakt bei Initiativbewerbungen, sofern Sie keiner längeren Speicherung zustimmen.",
-      "Sicherheitsdaten: IP-Informationen für den kurzzeitigen Schutz des Kontaktformulars vor wiederholten Anfragen werden im Anwendungsspeicher und nicht in einer Kontaktdatenbank gehalten.",
       "Analysedaten: Werden nur nach Einwilligung erhoben und von Vercel als cookielos und anonymisiert beschrieben; siehe unsere Cookie-Richtlinie."
     ],
     "dataSharingHeading": "Datenweitergabe",
     "dataSharingIntro": "Wir verkaufen Ihre personenbezogenen Daten nicht. Wir können Daten teilen mit:",
     "dataSharingItems": [
-      "Vercel (Hosting und Formularlaufzeit): Hostet die Website und führt das serverseitige Kontaktformular aus. Im Rahmen des Dienstes kann Vercel die übermittelten Formulardaten und technische Metadaten der Anfrage verarbeiten. Vercel ist ein US-Unternehmen; die Verarbeitung kann in den USA und anderen Ländern nach den geltenden Vertragsbedingungen und Schutzmaßnahmen erfolgen.",
-      "Resend (E-Mail-Zustellung): Übermittelt Kontaktformulardaten einschließlich Kontaktdaten, Nachricht, Antwortadresse und zugehörigen E-Mail-Metadaten. Resend gibt an, dass die primären Verarbeitungsvorgänge in den USA stattfinden; eine Versandregion Irland macht Kundendaten nicht automatisch EU-intern. Übermittlungen sind durch Resends Data Processing Addendum und die dort beschriebenen Schutzmaßnahmen abgedeckt.",
-      "Microsoft 365 (E-Mail und Zusammenarbeit): Hostet unsere E-Mail-Konten, in denen Anfragen aus dem Kontaktformular, Bewerbungen und sonstige Korrespondenz eingehen und gespeichert werden. Die Daten werden im EU/EFTA-Raum gespeichert.",
+      "Vercel (Hosting): Hostet die Website. Im Rahmen des Dienstes kann Vercel technische Metadaten der Anfrage verarbeiten. Vercel ist ein US-Unternehmen; die Verarbeitung kann in den USA und anderen Ländern nach den geltenden Vertragsbedingungen und Schutzmaßnahmen erfolgen.",
+      "Microsoft 365 (E-Mail und Zusammenarbeit): Hostet unsere E-Mail-Konten, in denen Anfragen, Bewerbungen und sonstige Korrespondenz eingehen und gespeichert werden. Die Daten werden im EU/EFTA-Raum gespeichert.",
       "Behörden: Wenn gesetzlich vorgeschrieben oder zum Schutz unserer Rechte."
     ],
-    "dataSharingDpaNote": "Die detaillierten Auftragsverarbeitungsbedingungen finden Sie im <vercel>Data Processing Addendum von Vercel</vercel> und im <resend>Data Processing Addendum von Resend</resend>.",
+    "dataSharingDpaNote": "Die detaillierten Auftragsverarbeitungsbedingungen von Vercel finden Sie im <vercel>Data Processing Addendum von Vercel</vercel>.",
     "dataSharingNote": "Wir nutzen Anbieter nur, soweit sie für den Betrieb der Website und die Bearbeitung von Anfragen erforderlich sind. Vor der Veröffentlichung und bei Änderungen eines Anbieters prüfen wir Vertrag, Verarbeitungsorte, Unterauftragsverarbeiter und Aufbewahrung im internen Verzeichnis der Auftragsverarbeiter. Bei Übermittlungen außerhalb der EU/des EWR werden, soweit erforderlich, der jeweilige Anbieter-Vertrag und ein gültiger DSGVO-Transfermechanismus wie die EU-Standardvertragsklauseln verwendet.",
     "yourRightsHeading": "Ihre Rechte",
     "yourRightsIntro": "Gemäß der DSGVO haben Sie das Recht auf:",
@@ -1615,7 +1559,7 @@
     "managingText2": "Sie können Ihre Wahl jederzeit ändern oder Ihre Einwilligung widerrufen — über den Link \"Cookie-Einstellungen\" unten auf jeder Seite.",
     "managingText3": "Sie können Cookies auch über Ihre Browsereinstellungen steuern. Die meisten Browser ermöglichen es Ihnen, Cookies abzulehnen oder zu löschen. Die Methoden variieren je nach Browser — konsultieren Sie die Hilfe-Dokumentation Ihres Browsers.",
     "thirdPartyHeading": "Drittanbieter",
-    "thirdPartyText": "Wir verwenden keine Werbenetzwerke, Social-Media-Schaltflächen, Karten oder Videos, die auf unseren Seiten Cookies setzen; Schriftarten werden von unserem eigenen Server ausgeliefert. Vercel hostet die Website und führt das Kontaktformular aus; sofern Sie zugestimmt haben, misst Vercel außerdem Besuche. Resend übermittelt Kontaktformulardaten an unseren geschäftlichen E-Mail-Anbieter, der sie in unserem Linimatic-Postfach speichert. Diese Dienste können Daten außerhalb der EU/des EWR verarbeiten, wie in unserer Datenschutzrichtlinie beschrieben.",
+    "thirdPartyText": "Wir verwenden keine Werbenetzwerke, Social-Media-Schaltflächen, Karten oder Videos, die auf unseren Seiten Cookies setzen; Schriftarten werden von unserem eigenen Server ausgeliefert. Vercel hostet die Website; sofern Sie zugestimmt haben, misst Vercel außerdem Besuche. Dieser Dienst kann Daten außerhalb der EU/des EWR verarbeiten, wie in unserer Datenschutzrichtlinie beschrieben.",
     "contactHeading": "Kontakt",
     "contactText": "Bei Fragen zu unserer Verwendung von Cookies kontaktieren Sie uns unter:"
   },

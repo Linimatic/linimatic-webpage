@@ -2,6 +2,8 @@
 
 This is the internal operating procedure behind the public Privacy Policy. It describes the contact and recruitment flows used by this website. It is not a substitute for the provider agreements or a legal review.
 
+> Note: the website contact form (and its Resend delivery) was removed; the sections below that describe it are historical. The site now only links to staff phone numbers and email addresses.
+
 Last reviewed: August 2026
 
 ## Actual contact-form flow

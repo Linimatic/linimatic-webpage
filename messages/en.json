@@ -36,10 +36,6 @@
       "title": "Case Studies — Zinc Die-Casting Projects",
       "description": "Zinc die-casting case studies from DeWalt, One Collection, VELUX and more. See how Linimatic solves complex manufacturing challenges with precision zamak parts."
     },
-    "contact": {
-      "title": "Contact Linimatic — Get a Zinc Die-Casting Quote",
-      "description": "Send your drawings for a free zinc die-casting quote — reply within 24 hours. Call +45 4876 4040 or visit us in Helsinge, Denmark."
-    },
     "contactPeople": {
       "title": "Contact People at Linimatic",
       "description": "Find the right contact person at Linimatic — management, technical, sales, production, finance and logistics."
@@ -700,55 +696,6 @@
     "ctaHeading": "Visit us in Helsinge.",
     "ctaDescription": "See the facility, meet the team, and discuss your project face to face. We\u2019re 60\u2009km north of Copenhagen.",
     "ctaButton": "Contact Us to Get Started"
-  },
-  "contactPage": {
-    "breadcrumb": "Contact",
-    "eyebrow": "Get in Touch",
-    "heading": "Let\u2019s start a conversation about your project.",
-    "description": "Fill in the contact form, or call one of our engineers directly, and get concrete technical guidance on the possibilities for zinc die-casting.",
-    "responsePromise": "Response within 24 hours",
-    "form": {
-      "name": "Name",
-      "company": "Company",
-      "email": "Email",
-      "phone": "Phone",
-      "subject": "Subject",
-      "subjectSelect": "Select enquiry type",
-      "subjectNew": "New Project",
-      "subjectExisting": "Existing Project",
-      "subjectGeneral": "General Inquiry",
-      "subjectTemadag": "Zinc Info Day",
-      "volume": "Expected Volume",
-      "volumeSelect": "Select volume range",
-      "volume1to5k": "1,000\u20135,000 pcs",
-      "volume5to15k": "5,000\u201315,000 pcs",
-      "volume15to50k": "15,000\u201350,000 pcs",
-      "volume50to100k": "50,000\u2013100,000 pcs",
-      "volumeOver100k": "Over 100,000 pcs",
-      "message": "Project Description",
-      "privacyNotice": "When you submit this form, Linimatic A/S uses your information to answer your enquiry. The form is handled by Vercel and the message is delivered through Resend to our Linimatic mailbox. We can agree how to share technical drawings after we have spoken. See our <link>privacy policy</link> for details.",
-      "honeypotLabel": "Leave this field empty",
-      "submit": "Send Inquiry",
-      "sending": "Sending...",
-      "successTitle": "Message sent",
-      "successMessage": "Thank you for your inquiry. We will respond within 24 hours on business days.",
-      "error": {
-        "missing_fields": "Please fill in all required fields.",
-        "invalid_email": "Please enter a valid email address.",
-        "rate_limited": "Too many messages have been sent from this connection. Please wait a moment and try again, or write directly to linimatic@linimatic.dk.",
-        "too_long": "One or more fields exceed the maximum length.",
-        "send_failed": "Failed to send your message. Please try again or email us directly at linimatic@linimatic.dk."
-      }
-    },
-    "yourContacts": "Your Contacts",
-    "companyDetails": "Company Details",
-    "hours": "Office Hours",
-    "hoursWeekday": "Monday\u2013Friday: 07:00\u201316:00",
-    "hoursWeekend": "Saturday\u2013Sunday: Closed"
-  },
-  "contactTabs": {
-    "people": "Contact People",
-    "form": "Contact Form"
   },
   "contactPeoplePage": {
     "breadcrumb": "Contact People",
@@ -1527,13 +1474,12 @@
     "whatWeCollectHeading": "What Data We Collect",
     "whatWeCollectIntro": "We may collect the following personal data through our website:",
     "collectItems": [
-      "Contact form submissions: Name, company, email address, phone number, enquiry subject, expected production volume and project description.",
       "Job applications: Name, contact details, CV, cover letter, and other information you include in an application sent by email.",
-      "Technical and security data: Our hosting provider receives the form request and processes technical request data, such as IP address and browser information, to deliver and protect the website. The contact form uses a short-lived in-memory IP limit to prevent abuse; we do not store submissions in a website database.",
+      "Technical and security data: Our hosting provider processes technical request data, such as IP address and browser information, to deliver and protect the website.",
       "Optional analytics: If you consent, Vercel Analytics processes cookieless visit measurements so we can understand which pages are useful. It is not loaded when you decline.",
       "Communication data: Records of correspondence if you contact us by email or phone."
     ],
-    "dataSourceNote": "The form requires your name, company, email address and message so we can identify and answer your enquiry; phone number, subject and expected volume are optional. If a required field is omitted, the form cannot be submitted. Information in forms and emails comes from you. Some technical information, such as IP address and browser information, is generated automatically when you use the website.",
+    "dataSourceNote": "Information in emails comes from you. Some technical information, such as IP address and browser information, is generated automatically when you use the website.",
     "legalBasisHeading": "Legal Basis for Processing",
     "legalBasisIntro": "Under the General Data Protection Regulation (GDPR), we process personal data based on:",
     "legalBasisItems": [
@@ -1555,18 +1501,16 @@
     "retentionItems": [
       "Contact enquiries: Normally reviewed and deleted from our mailboxes and related copies 2 years after the last contact. If an active business relationship or legal need requires longer retention, we keep only what is necessary and record the reason.",
       "Job applications: Normally deleted 6 months after the position is filled, or 6 months after receipt or last contact for unsolicited applications, unless you consent to longer retention.",
-      "Security data: IP information used for the contact form's short-lived flood protection is kept in application memory, not in a contact database.",
       "Analytics data: Collected only after consent and described as cookieless and anonymized by Vercel; see our Cookie Policy."
     ],
     "dataSharingHeading": "Data Sharing",
     "dataSharingIntro": "We do not sell your personal data. We may share data with:",
     "dataSharingItems": [
-      "Vercel (hosting and form runtime): Hosts the website and runs the server-side contact form. It may process the submitted form data and technical request metadata as part of providing the service. Vercel is a US company and processing may take place in the US and other countries under the applicable service terms and safeguards.",
-      "Resend (email delivery): Delivers contact form messages, including the visitor's contact details, message, reply address, and related email metadata. Resend states that its primary processing operations take place in the United States; choosing an Ireland sending region does not make customer data EU-only. Transfers are covered by Resend's Data Processing Addendum and the safeguards described there.",
-      "Microsoft 365 (email and collaboration): Hosts our email accounts, where contact-form enquiries, job applications and other correspondence are received and stored. Data is held within the EU/EFTA region.",
+      "Vercel (hosting): Hosts the website. It may process technical request metadata as part of providing the service. Vercel is a US company and processing may take place in the US and other countries under the applicable service terms and safeguards.",
+      "Microsoft 365 (email and collaboration): Hosts our email accounts, where enquiries, job applications and other correspondence are received and stored. Data is held within the EU/EFTA region.",
       "Legal authorities: When required by law or to protect our rights."
     ],
-    "dataSharingDpaNote": "For the providers' detailed data-processing terms, see the <vercel>Vercel Data Processing Addendum</vercel> and <resend>Resend Data Processing Addendum</resend>.",
+    "dataSharingDpaNote": "For Vercel's detailed data-processing terms, see the <vercel>Vercel Data Processing Addendum</vercel>.",
     "dataSharingNote": "We use providers only where needed to run the website and handle enquiries. Before publication and when a provider changes, we verify the provider's agreement, processing locations, sub-processors and retention in our internal processor register. Where personal data is transferred outside the EU/EEA, the applicable provider agreement and a valid GDPR transfer mechanism, such as Standard Contractual Clauses, are used where required.",
     "yourRightsHeading": "Your Rights",
     "yourRightsIntro": "Under GDPR, you have the right to:",
@@ -1612,7 +1556,7 @@
     "managingText2": "You can change your choice or withdraw your consent at any time via the \"Cookie settings\" link at the bottom of every page.",
     "managingText3": "You can also control cookies through your browser settings. Most browsers allow you to refuse or delete cookies. The methods for doing so vary from browser to browser \u2014 consult your browser\u2019s help documentation.",
     "thirdPartyHeading": "Third parties",
-    "thirdPartyText": "We use no advertising networks, social media buttons, maps or videos that set cookies on our pages, and fonts are served from our own server. Vercel hosts the website and runs the contact form; if you agree to analytics, it also measures visits. Resend delivers contact-form messages to our business email provider, which stores them in our Linimatic mailbox. These services may process data outside the EU/EEA as described in our Privacy Policy.",
+    "thirdPartyText": "We use no advertising networks, social media buttons, maps or videos that set cookies on our pages, and fonts are served from our own server. Vercel hosts the website; if you agree to analytics, it also measures visits. This service may process data outside the EU/EEA as described in our Privacy Policy.",
     "contactHeading": "Contact",
     "contactText": "If you have questions about our use of cookies, contact us at:"
   },

@@ -31,7 +31,7 @@ Every page lives at `src/app/[locale]/<route>/page.tsx` and reads its words from
 | `/about/news` and `/about/news/<slug>` | `about/news/page.tsx`, `about/news/[slug]/page.tsx` | `newsPage` |
 | `/about/sustainability`, `/about/co2`, `/about/code-of-conduct` | `about/<name>/page.tsx` | `sustainabilityPage`, `co2Page`, `codeOfConductPage` |
 | `/jobs` | `jobs/page.tsx` | `jobsPage` |
-| `/contact` (form) and `/contact/people` | `contact/page.tsx`, `contact/people/page.tsx` | `contactPage`, `contactTabs`, `contactPeoplePage` |
+| `/contact/people` (the Contact menu item; the old `/contact` form is gone and redirects here) | `contact/people/page.tsx` | `contactPeoplePage` |
 | `/privacy`, `/cookies` | `privacy/page.tsx`, `cookies/page.tsx` | `privacyPage`, `cookiePolicyPage` |
 
 Page titles and descriptions for search engines: `meta` key in each messages file, wired
@@ -61,14 +61,13 @@ three languages, and the menus below. Removing a page also needs a redirect (see
 ## Contact details are duplicated on purpose — change every copy
 
 - Phone `+45 4876 4040` and `linimatic@linimatic.dk`: as `tel:`/`mailto:` links in
-  `src/components/Footer.tsx`, as visible text under `contactPage` / `contactPeoplePage` /
+  `src/components/Footer.tsx`, as visible text under `contactPeoplePage` /
   `footer` in all three messages files, and in the structured data in `src/lib/seo.ts`.
 - Individual staff phone numbers and emails: `contactPeoplePage` in the messages files.
 - `public/llms.txt` repeats the phone number and address for AI assistants — change it there too.
 - Search every form a number can take (`+45 4876 4040`, `+4548764040`) before saying it is
   changed everywhere.
-- Where contact-form submissions are delivered is code in `src/app/actions/contact.ts`
-  (`CONTACT_RECIPIENTS`); treat it as agency-owned — do not change it for the owner.
+- There is no contact form any more; all "contact us" buttons lead to `/contact/people`.
 
 ## Images
 
@@ -102,6 +101,5 @@ from `next.config.ts`. When a page goes away, add a redirect there to the closes
 
 - `SITE_URL`, canonicals, hreflang, sitemap (`src/app/sitemap.ts`), robots — the domain setup.
 - `.github/` — automation; pushes that change it are rejected anyway.
-- `src/app/actions/` — the contact form's sending, spam protection and rate limit.
 - `public/images/brand/` — logo files.
 - Cookie consent behaviour, privacy and cookie policy wording beyond what the owner asks.

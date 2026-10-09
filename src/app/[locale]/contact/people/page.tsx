@@ -4,7 +4,6 @@ import { buildMetadata, type Locale } from "@/lib/seo";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { ContactTabs } from "@/components/ContactTabs";
 
 export async function generateMetadata({
   params,
@@ -60,7 +59,6 @@ export default async function ContactPeoplePage({
 
       <section className="bg-zinc-50 pb-24">
         <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20">
-          <ContactTabs active="people" />
 
           {/* Hero */}
           <div className="max-w-2xl mb-16">

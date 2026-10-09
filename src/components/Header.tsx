@@ -26,11 +26,6 @@ const sustainabilityKeys = [
   { key: "codeOfConduct", href: "/about/code-of-conduct" },
 ];
 
-const contactKeys = [
-  { key: "people", href: "/contact/people" },
-  { key: "form", href: "/contact" },
-];
-
 const navKeys = [
   { key: "services", href: "/services", hasDropdown: true },
   { key: "cases", href: "/cases" },
@@ -39,7 +34,7 @@ const navKeys = [
   { key: "about", href: "/about", hasDropdown: true },
   { key: "sustainability", href: "/about/sustainability", hasDropdown: true },
   { key: "jobs", href: "/jobs" },
-  { key: "contact", href: "/contact", hasDropdown: true },
+  { key: "contact", href: "/contact/people" },
 ];
 
 export function Header() {
@@ -49,7 +44,6 @@ export function Header() {
   const dropdownRefs = useRef<Record<string, HTMLDivElement | null>>({});
   const t = useTranslations("header");
   const tJobs = useTranslations("jobsPage");
-  const tContact = useTranslations("contactTabs");
   const locale = useLocale();
   const pathname = usePathname();
   const jobCount = (tJobs.raw("positions") as unknown[]).length;
@@ -221,7 +215,7 @@ export function Header() {
                             {t(`aboutList.${sub.key}`)}
                           </Link>
                         ))
-                      ) : item.key === "sustainability" ? (
+                      ) : (
                         sustainabilityKeys.map((sub) => (
                           <Link
                             key={sub.href}
@@ -234,21 +228,6 @@ export function Header() {
                             }`}
                           >
                             {t(`sustainabilityList.${sub.key}`)}
-                          </Link>
-                        ))
-                      ) : (
-                        contactKeys.map((sub) => (
-                          <Link
-                            key={sub.href}
-                            href={sub.href}
-                            role="menuitem"
-                            className={`block px-4 py-2.5 text-sm rounded-sm transition-colors ${
-                              scrolled
-                                ? "text-zinc-600 hover:text-zinc-900 hover:bg-zinc-50"
-                                : "text-zinc-400 hover:text-white hover:bg-zinc-800"
-                            }`}
-                          >
-                            {tContact(sub.key)}
                           </Link>
                         ))
                       )}
@@ -294,7 +273,7 @@ export function Header() {
               {t("phone")}
             </a>
             <Link
-              href="/contact"
+              href="/contact/people"
               className="relative px-3.5 min-[1700px]:px-6 py-2.5 text-[12px] min-[1700px]:text-[13px] font-semibold tracking-wide uppercase text-zinc-950 bg-ember hover:bg-ember-light transition-colors whitespace-nowrap"
             >
               {t("getQuote")}
@@ -362,7 +341,7 @@ export function Header() {
             </div>
             <div className="sm:hidden pt-4">
               <Link
-                href="/contact"
+                href="/contact/people"
                 className="block w-full py-3.5 text-center text-sm font-semibold tracking-wide uppercase text-zinc-950 bg-ember"
                 onClick={() => setMobileOpen(false)}
               >

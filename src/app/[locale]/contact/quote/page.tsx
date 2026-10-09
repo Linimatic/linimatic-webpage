@@ -14,9 +14,9 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "meta" });
   return buildMetadata({
     locale: locale as Locale,
-    path: "/contact/people",
-    title: t("contactPeople.title"),
-    description: t("contactPeople.description"),
+    path: "/contact/quote",
+    title: t("contactQuote.title"),
+    description: t("contactQuote.description"),
   });
 }
 
@@ -33,21 +33,22 @@ const teamPhotos = [
   "/images/team/dorthe-kondrup.jpg",
 ];
 
-export default async function ContactPeoplePage({
+export default async function ContactQuotePage({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations("contactPeoplePage");
+  const t = await getTranslations("contactQuotePage");
+  const tPeople = await getTranslations("contactPeoplePage");
 
-  const team = t.raw("team") as Person[];
+  const team = (tPeople.raw("team") as Person[]).slice(0, 3);
 
   return (
     <>
       <Breadcrumbs
-        items={[{ label: t("breadcrumb"), href: "/contact/people" }]}
+        items={[{ label: t("breadcrumb"), href: "/contact/quote" }]}
       />
 
       <section className="bg-zinc-50 pb-24">

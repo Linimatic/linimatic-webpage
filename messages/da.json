@@ -36,9 +36,9 @@
       "title": "Cases — projekter i zinktrykstøbning",
       "description": "Cases i zinktrykstøbning fra DeWalt, One Collection, VELUX m.fl. Se hvordan Linimatic løser komplekse produktionsopgaver med præcise zamak-komponenter."
     },
-    "contact": {
-      "title": "Kontakt Linimatic — få tilbud på zinktrykstøbning",
-      "description": "Send dine tegninger og få et uforpligtende tilbud på zinktrykstøbning — svar inden for 24 timer. Ring +45 4876 4040 eller besøg os i Helsinge."
+    "contactQuote": {
+      "title": "Få et tilbud hos Linimatic",
+      "description": "Kontakt Torben, René eller Jan med din tegning eller dit projekt, og få et tilbud på zinktrykstøbning."
     },
     "contactPeople": {
       "title": "Kontaktpersoner hos Linimatic",
@@ -704,54 +704,11 @@
     "ctaDescription": "Se faciliteten, mød teamet, og drøft dit projekt ansigt til ansigt. Vi ligger 60\u2009km nord for København.",
     "ctaButton": "Kontakt os for at komme i gang"
   },
-  "contactPage": {
-    "breadcrumb": "Kontakt",
-    "eyebrow": "Kontakt os",
-    "heading": "Lad os tage hul på en dialog om dit projekt.",
-    "description": "Udfyld kontaktformularen, eller ring direkte til en af vores teknikere, og få konkret teknisk sparring om mulighederne for trykstøbning i zink.",
-    "responsePromise": "Svar inden for 24 timer",
-    "form": {
-      "name": "Navn",
-      "company": "Virksomhed",
-      "email": "E-mail",
-      "phone": "Telefon",
-      "subject": "Emne",
-      "subjectSelect": "Vælg emne",
-      "subjectNew": "Nyt projekt",
-      "subjectExisting": "Eksisterende projekt",
-      "subjectGeneral": "Generel henvendelse",
-      "subjectTemadag": "Temadag",
-      "volume": "Forventet volumen",
-      "volumeSelect": "Vælg volumeninterval",
-      "volume1to5k": "1.000–5.000 stk.",
-      "volume5to15k": "5.000–15.000 stk.",
-      "volume15to50k": "15.000–50.000 stk.",
-      "volume50to100k": "50.000–100.000 stk.",
-      "volumeOver100k": "Over 100.000 stk.",
-      "message": "Projektbeskrivelse",
-      "privacyNotice": "Når du sender formularen, bruger Linimatic A/S dine oplysninger til at besvare din henvendelse. Formularen håndteres af Vercel, og beskeden leveres via Resend til vores Linimatic-postkasse. Vi kan aftale, hvordan tekniske tegninger deles, efter vi har talt sammen. Læs mere i vores <link>privatlivspolitik</link>.",
-      "honeypotLabel": "Lad dette felt stå tomt",
-      "submit": "Send forespørgsel",
-      "sending": "Sender...",
-      "successTitle": "Besked sendt",
-      "successMessage": "Tak for din henvendelse. Vi svarer inden for 24 timer på hverdage.",
-      "error": {
-        "missing_fields": "Udfyld venligst alle påkrævede felter.",
-        "invalid_email": "Indtast venligst en gyldig e-mailadresse.",
-        "rate_limited": "Der er sendt for mange beskeder fra denne forbindelse. Vent et øjeblik og prøv igen, eller skriv direkte til linimatic@linimatic.dk.",
-        "too_long": "Et eller flere felter overskrider den maksimale længde.",
-        "send_failed": "Din besked kunne ikke sendes. Prøv igen eller skriv direkte til linimatic@linimatic.dk."
-      }
-    },
-    "yourContacts": "Dine kontakter",
-    "companyDetails": "Virksomhedsoplysninger",
-    "hours": "Åbningstider",
-    "hoursWeekday": "Mandag–fredag: 07:00–16:00",
-    "hoursWeekend": "Lørdag–søndag: Lukket"
-  },
-  "contactTabs": {
-    "people": "Kontaktpersoner",
-    "form": "Kontaktformular"
+  "contactQuotePage": {
+    "breadcrumb": "Få et tilbud",
+    "eyebrow": "Få et tilbud",
+    "heading": "Få et tilbud",
+    "intro": "Kontakt en af os med din tegning eller dit projekt, så vender vi tilbage med et tilbud."
   },
   "contactPeoplePage": {
     "breadcrumb": "Kontaktpersoner",
@@ -1531,13 +1488,12 @@
     "whatWeCollectHeading": "Hvilke data vi indsamler",
     "whatWeCollectIntro": "Vi kan indsamle følgende personoplysninger via vores hjemmeside:",
     "collectItems": [
-      "Kontaktformular: Navn, virksomhed, e-mailadresse, telefonnummer, emne, forventet produktionsvolumen og projektbeskrivelse.",
       "Jobansøgninger: Navn, kontaktoplysninger, CV, ansøgning og andre oplysninger, du sender i en ansøgning via e-mail.",
-      "Tekniske og sikkerhedsrelaterede data: Vores hostingudbyder modtager formularanmodningen og behandler tekniske oplysninger som IP-adresse og browseroplysninger for at levere og beskytte hjemmesiden. Kontaktformularen bruger en kortvarig IP-begrænsning i hukommelsen for at forebygge misbrug; vi gemmer ikke henvendelser i en database på hjemmesiden.",
+      "Tekniske og sikkerhedsrelaterede data: Vores hostingudbyder behandler tekniske oplysninger som IP-adresse og browseroplysninger for at levere og beskytte hjemmesiden.",
       "Valgfri analyse: Hvis du giver samtykke, behandler Vercel Analytics cookiefri besøgsdata, så vi kan forstå, hvilke sider der er nyttige. Analysen indlæses ikke, hvis du siger nej.",
       "Kommunikationsdata: Optegnelser over korrespondance, hvis du kontakter os via e-mail eller telefon."
     ],
-    "dataSourceNote": "Formularen kræver dit navn, din virksomhed, din e-mailadresse og din besked, så vi kan identificere og besvare din henvendelse; telefonnummer, emne og forventet volumen er valgfri. Hvis et obligatorisk felt mangler, kan formularen ikke sendes. Oplysninger i formularer og e-mails kommer fra dig. Nogle tekniske oplysninger, som IP-adresse og browseroplysninger, opstår automatisk, når du bruger hjemmesiden.",
+    "dataSourceNote": "Oplysninger i e-mails kommer fra dig. Nogle tekniske oplysninger, som IP-adresse og browseroplysninger, opstår automatisk, når du bruger hjemmesiden.",
     "legalBasisHeading": "Retsgrundlag for behandling",
     "legalBasisIntro": "I henhold til databeskyttelsesforordningen (GDPR) behandler vi personoplysninger baseret på:",
     "legalBasisItems": [
@@ -1559,18 +1515,16 @@
     "retentionItems": [
       "Kontakt­henvendelser: Gennemgås og slettes som udgangspunkt fra vores postkasser og relaterede kopier 2 år efter sidste kontakt. Hvis et aktivt forretningsforhold eller et lovkrav kræver længere opbevaring, gemmer vi kun det nødvendige og noterer årsagen.",
       "Jobansøgninger: Slettes som udgangspunkt 6 måneder efter, at stillingen er besat, eller 6 måneder efter modtagelse eller seneste kontakt ved uopfordrede ansøgninger, medmindre du samtykker til længere opbevaring.",
-      "Sikkerhedsdata: IP-oplysninger til kontaktformularens kortvarige beskyttelse mod gentagne henvendelser opbevares i applikationshukommelsen og ikke i en kontakt-database.",
       "Analysedata: Indsamles kun efter samtykke og beskrives af Vercel som cookiefri og anonymiserede; se vores cookiepolitik."
     ],
     "dataSharingHeading": "Deling af data",
     "dataSharingIntro": "Vi sælger ikke dine personoplysninger. Vi kan dele data med:",
     "dataSharingItems": [
-      "Vercel (hosting og formularens servermiljø): Er vært for hjemmesiden og kører kontaktformularen på serveren. Vercel kan som led i tjenesten behandle de indsendte formulardata og tekniske oplysninger om anmodningen. Vercel er en amerikansk virksomhed, og behandling kan ske i USA og andre lande efter de relevante aftalevilkår og sikkerhedsforanstaltninger.",
-      "Resend (e-mail-levering): Leverer kontaktformularens beskeder, herunder den besøgendes kontaktoplysninger, besked, svaradresse og relaterede e-mailmetadata. Resend oplyser, at den primære behandling foregår i USA; valg af Irland som afsenderregion gør ikke kundedata EU-begrænsede. Overførsler er omfattet af Resends databehandleraftale og de sikkerhedsforanstaltninger, der beskrives dér.",
-      "Microsoft 365 (e-mail og samarbejde): Er vært for vores e-mailkonti, hvor henvendelser fra kontaktformularen, jobansøgninger og øvrig korrespondance modtages og opbevares. Data opbevares i EU/EFTA-området.",
+      "Vercel (hosting): Er vært for hjemmesiden. Vercel kan som led i tjenesten behandle tekniske oplysninger om anmodningen. Vercel er en amerikansk virksomhed, og behandling kan ske i USA og andre lande efter de relevante aftalevilkår og sikkerhedsforanstaltninger.",
+      "Microsoft 365 (e-mail og samarbejde): Er vært for vores e-mailkonti, hvor henvendelser, jobansøgninger og øvrig korrespondance modtages og opbevares. Data opbevares i EU/EFTA-området.",
       "Offentlige myndigheder: Når det kræves ved lov eller for at beskytte vores rettigheder."
     ],
-    "dataSharingDpaNote": "Se leverandørernes detaljerede databehandleraftaler: <vercel>Vercels databehandleraftale</vercel> og <resend>Resends databehandleraftale</resend>.",
+    "dataSharingDpaNote": "Se de detaljerede vilkår i <vercel>Vercels databehandleraftale</vercel>.",
     "dataSharingNote": "Vi bruger kun leverandører, der er nødvendige for at drive hjemmesiden og håndtere henvendelser. Før offentliggørelse og når en leverandør ændres, verificerer vi leverandørens aftale, behandlingssteder, underdatabehandlere og opbevaring i vores interne fortegnelse over databehandlere. Hvis personoplysninger overføres uden for EU/EØS, anvendes den relevante leverandøraftale og et gyldigt GDPR-overførselsgrundlag, f.eks. EU's standardkontraktbestemmelser, hvor det kræves.",
     "yourRightsHeading": "Dine rettigheder",
     "yourRightsIntro": "I henhold til GDPR har du ret til:",
@@ -1616,7 +1570,7 @@
     "managingText2": "Du kan til enhver tid ændre dit valg eller trække dit samtykke tilbage via linket \"Cookieindstillinger\" nederst på alle sider.",
     "managingText3": "Du kan også styre cookies via dine browserindstillinger. De fleste browsere giver dig mulighed for at afvise eller slette cookies. Metoderne varierer fra browser til browser — se din browsers hjælpedokumentation.",
     "thirdPartyHeading": "Tredjeparter",
-    "thirdPartyText": "Vi bruger ingen annoncenetværk, sociale medie-knapper, kort eller videoer, der sætter cookies på vores sider, og skrifttyperne leveres fra vores egen server. Vercel er vært for hjemmesiden og kører kontaktformularen; hvis du har sagt ja til analyse, måler Vercel også besøg. Resend leverer kontaktformularens beskeder til vores virksomhedsmail, hvor de opbevares i Linimatics postkasse. Tjenesterne kan behandle data uden for EU/EØS som beskrevet i vores privatlivspolitik.",
+    "thirdPartyText": "Vi bruger ingen annoncenetværk, sociale medie-knapper, kort eller videoer, der sætter cookies på vores sider, og skrifttyperne leveres fra vores egen server. Vercel er vært for hjemmesiden; hvis du har sagt ja til analyse, måler Vercel også besøg. Tjenesten kan behandle data uden for EU/EØS som beskrevet i vores privatlivspolitik.",
     "contactHeading": "Kontakt",
     "contactText": "Hvis du har spørgsmål om vores brug af cookies, kontakt os på:"
   },

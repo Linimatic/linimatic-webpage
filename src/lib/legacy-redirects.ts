@@ -31,7 +31,7 @@ type LegacyRoute = {
 const LEGACY_ROUTES: LegacyRoute[] = [
   // ── Core pages ──────────────────────────────────────────────────────────
   { en: "about-us", da: "om-os", de: "uber-uns", to: "/about" },
-  { en: "contact", da: "kontakt", de: "kontakt", to: "/contact" },
+  { en: "contact", da: "kontakt", de: "kontakt", to: "/contact/people" },
   { en: "services", da: "tjenester", de: "dienstleistungen", to: "/services" },
   { en: "case-stories", da: "case-historier", de: "fallbeispiele", to: "/cases" },
   { en: "job", da: "job", de: "job", to: "/jobs" },
@@ -223,7 +223,7 @@ const LEGACY_ROUTES: LegacyRoute[] = [
     en: "receive-our-newsletter",
     da: "modtag-vores-nyhedsbrev",
     de: "unseren-newsletter-erhalten",
-    to: "/contact",
+    to: "/contact/people",
   },
   // The old site published this job ad under the same Danish slug in all three
   // language trees.
@@ -245,6 +245,8 @@ const LEGACY_ROUTES: LegacyRoute[] = [
  * here rather than leaving the old address to 404.
  */
 const RENAMED_ROUTES: { from: string; to: string }[] = [
+  // The contact form was removed; visitors are sent to the staff contacts.
+  { from: "/contact", to: "/contact/people" },
   // The zinc info day was announced for 16 August 2026; the real date is
   // 16 September 2026, so the slug's month was wrong (corrected 2026-08-12).
   {

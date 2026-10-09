@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "test:contact": "node --experimental-strip-types --test src/app/actions/contact-format.test.ts src/app/actions/rate-limit.test.ts"
+    "lint": "eslint"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

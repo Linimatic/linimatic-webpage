@@ -110,16 +110,6 @@ export default async function PrivacyPolicyPage({
                   {chunks}
                 </a>
               ),
-              resend: (chunks) => (
-                <a
-                  href="https://resend.com/legal/dpa"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-ember underline underline-offset-2 hover:text-ember-light transition-colors"
-                >
-                  {chunks}
-                </a>
-              ),
             })}
           </p>
           <p>{t("dataSharingNote")}</p>

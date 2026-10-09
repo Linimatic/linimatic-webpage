@@ -137,7 +137,7 @@ export default async function CasesPage({
           </p>
           <div className="mt-8">
             <Link
-              href="/contact"
+              href="/contact/people"
               className="group inline-flex items-center justify-center gap-3 bg-ember hover:bg-ember-light px-8 py-4 text-sm font-semibold tracking-wide uppercase text-zinc-950 transition-all"
             >
               {t("ctaButton")}

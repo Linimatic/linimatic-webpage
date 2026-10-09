@@ -12,7 +12,7 @@ The site is trilingual: English (/en), Danish (/da) and German (/de). Replace th
 - [Why Zinc](https://linimatic.eu/en/why-zinc): Educational guide to zinc die-casting — advantages, zamak alloys, and zinc vs aluminium vs plastic comparison.
 - [Case Studies](https://linimatic.eu/en/cases): Real customer projects showing how Linimatic solves complex manufacturing challenges.
 - [About](https://linimatic.eu/en/about): Company history since 1967, certifications, team and facility in Helsinge.
-- [Contact](https://linimatic.eu/en/contact): Request a quote (send drawings), phone +45 4876 4040, address Bomose Allé 12, 3200 Helsinge, Denmark.
+- [Contact](https://linimatic.eu/en/contact/people): Contact our staff to request a quote, phone +45 4876 4040, address Bomose Allé 12, 3200 Helsinge, Denmark.
 
 ## Services in detail
 - [DFM Review & Prototyping](https://linimatic.eu/en/services/prototyping): Design-for-manufacturing review and prototype tooling.

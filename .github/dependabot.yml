@@ -2,7 +2,7 @@
 #
 # `open-pull-requests-limit: 0` switches off Dependabot's scheduled version-update
 # PRs. It does not touch security updates — those run off the advisory database and
-# have their own internal limit of ten open PRs. A marketing site owned by one
+# are not subject to the version-update limit. A marketing site owned by one
 # non-technical person cannot triage a weekly PR queue, and every unmerged PR still
 # costs a Vercel preview build, so the queue has to stay empty until a real advisory
 # lands.

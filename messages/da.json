@@ -50,7 +50,7 @@
     },
     "zinkers": {
       "title": "Sinkers fra Linimatic — synk til trawl og fiskegrej",
-      "description": "Linimatic støber blyfrie sinkers i zink til trawl, not og industrielt fiskegrej. Ring- og tøndesinkers fra 50-2000 gram, tilpasset kundens behov."
+      "description": "Blyfri sinkers i zink til trawl, not og industrielt fiskegrej. Tønde- og ringsinkers fra 50 til 2.000 gram, udviklet med DTU og støbt i Helsinge."
     },
     "zinkTemadag": {
       "title": "Zink Temadag — gratis temadag om zinktrykstøbning",
@@ -885,35 +885,105 @@
   "zinkersPage": {
     "breadcrumb": "Sinkers",
     "eyebrow": "Blyfrit fiskegrej",
-    "heading": "Sinkers — synk til trawl og industrielt fiskegrej.",
-    "intro": "Linimatic støber sinkers i zink til trawl, not og andet industrielt fiskeudstyr — et miljøvenligt alternativ til blysinkers, der har været forbudt at importere og sælge i Danmark siden 2002. Sortimentet spænder fra 50 til 2.000 gram i ring- og tøndeform, med huldiametre tilpasset kundens grej.",
+    "heading": "Sinkers — blyfri synk til bæredygtigt fiskeri.",
+    "intro": "Linimatic støber kraftige sinkers i zink til trawl, not og andet industrielt fiskegrej. De indeholder ingen bly, holder 5–6 gange længere end blysinkers og kommer færdige, klar til montering — uden grater, der skal fjernes. Sortimentet spænder fra 50 til 2.000 gram i tønde- og ringform.",
     "heroImageAlt": "Ring- og tøndesinkers i zink fra Linimatic",
-    "whyHeading": "Hvorfor zink og ikke bly",
-    "whyDescription": "Bly har været forbudt som sinkermateriale i Danmark siden 2002. Zink vejer op imod bly og er samtidig ugiftigt.",
-    "why": [
+    "specsButton": "Se sortiment og specifikationer",
+    "contactEyebrow": "Din kontakt til sinkers",
+    "benefitsHeading": "Fordele ved Linimatics sinkers",
+    "benefitsDescription": "Udviklet sammen med DTU og støbt automatisk i Helsinge — til fiskegrej, der skal holde i længden.",
+    "benefits": [
       {
-        "title": "Ugiftigt",
-        "description": "I modsætning til bly udgør zink ingen forgiftningsrisiko for havfugle og havmiljø, hvis en sinker går tabt eller slides ned i vandet."
+        "title": "Ingen bly",
+        "description": "Bly er giftigt og ophobes i kroppen. Direkte hudkontakt er skadelig og kan give allergiske reaktioner og føre bly ind i kroppen. Zink er ugiftigt for både mennesker og havmiljø — og blysinkers har været forbudt at importere og sælge i Danmark siden 2002."
       },
       {
-        "title": "Lovligt siden 2002",
-        "description": "Blysinkers har været forbudt at importere og sælge i Danmark siden 2002. Zink er det direkte, godkendte alternativ med sammenlignelig vægt."
+        "title": "Udviklet med DTU",
+        "description": "Sinkerne er udviklet i samarbejde med DTU, Danmarks Tekniske Universitet."
+      },
+      {
+        "title": "Automatiseret trykstøbning",
+        "description": "Sinkerne trykstøbes i en automatiseret proces, der sikrer en meget høj og ensartet kvalitet fra første til sidste emne."
+      },
+      {
+        "title": "Holder 5–6 gange længere",
+        "description": "Den meget hårde overflade slides langt langsommere end bly, så sinkerne holder 5–6 gange længere i brug."
+      },
+      {
+        "title": "Klar til brug",
+        "description": "Ingen grater, huller eller skader. Sinkerne kan monteres med det samme — uden tidskrævende afgratning først."
       },
       {
         "title": "Støbt i Helsinge",
-        "description": "Sinkers støbes på Linimatics eget støberi i Helsinge og kan tilpasses i vægt og huldiameter efter kundens grej og produktionsvolumen."
+        "description": "Sinkerne støbes på vores eget støberi i Helsinge og er lette at genbruge. Vægt og huldiameter kan tilpasses kundens grej."
       }
     ],
-    "applicationsHeading": "Anvendelsesområder",
-    "applications": [
-      "Trawlfiskeri",
-      "Notfiskeri",
-      "Industrielt fiskegrej",
-      "Ring- og tøndesinkers, 50–2.000 gram"
+    "modelsHeading": "To modeller: TF og RF",
+    "modelsDescription": "Begge modeller fås i flere vægte og huldiametre. Typebetegnelsen angiver vægten i gram og huldiameteren i millimeter — TF 300/16 vejer fx 300 gram og har et hul på 16\u00a0mm.",
+    "models": {
+      "TF": {
+        "name": "Tøndeform",
+        "description": "Tøndeformet sinker med gennemgående hul."
+      },
+      "RF": {
+        "name": "Ringform",
+        "description": "Ringformet sinker med stort centerhul."
+      }
+    },
+    "weightLabel": "Vægt",
+    "holeLabel": "Huldiameter",
+    "comparisonHeading": "Sammenlignet med alternativerne",
+    "comparisonDescription": "Sådan klarer Linimatics sinkers sig over for håndstøbte zinksinkers og traditionelle blysinkers.",
+    "comparisonCriterion": "Egenskab",
+    "comparisonColumns": [
+      "Linimatic Sinkers",
+      "Hånd\u00adstøbte zink\u00adsinkers",
+      "Bly\u00adsinkers"
     ],
-    "ctaHeading": "Interesseret i sinkers?",
-    "ctaDescription": "Kontakt os for priser og specifikationer, eller ring direkte på +45 4876 4040.",
-    "ctaButton": "Kontakt os"
+    "comparisonRows": {
+      "environment": "Miljøpåvirkning",
+      "workEnvironment": "Påvirkning af arbejds\u00admiljøet",
+      "assembly": "Tidsforbrug ved montering",
+      "disassembly": "Tidsforbrug ved afmontering",
+      "reassembly": "Tidsforbrug ved genmontering",
+      "wear": "Slid under brug",
+      "damage": "Risiko for skader på sinkerne under brug",
+      "lifetime": "Levetid",
+      "corrosion": "Korrosions\u00adbestandighed",
+      "initialCost": "Indkøbspris",
+      "totalCost": "Samlede omkostninger"
+    },
+    "ratings": {
+      "good": "God",
+      "neutral": "Middel",
+      "bad": "Dårlig"
+    },
+    "rangeHeading": "Sortiment",
+    "rangeDescription": "Vores standardsortiment. Andre vægte og huldiametre kan aftales.",
+    "rangeColumns": {
+      "type": "Type",
+      "weight": "Vægt",
+      "hole": "Huldiameter",
+      "minOrder": "Mindste ordre"
+    },
+    "pcs": "stk.",
+    "rangeNotes": [
+      "Vægttolerance ±5 %.",
+      "Leveres ab fabrik (EXW), inkl. emballage.",
+      "Prisen afhænger af antal — bed om et tilbud."
+    ],
+    "testimonial": {
+      "quote": "Hos Cosmos Trawl laver vi førsteklasses fiskegrej og har konstant fokus på produktudvikling. Da vi blev præsenteret for Sinkers, fandt vi de optimale sinkers til at erstatte bly. De er ikke skadelige for miljøet eller vores håndværkere — de er lette at genbruge og holder 5–6 gange længere end blysinkers.",
+      "author": "Arne F. Olesen",
+      "role": "Salgschef, Cosmos Trawl",
+      "note": "Cosmos Trawl er en del af den internationale Hampidjan-koncern og regnes som Danmarks største og ældste netmagervirksomhed."
+    },
+    "ctaHeading": "Bed om et tilbud",
+    "ctaDescription": "Kontakt Rikke Østrup Fisker for priser, leveringstider og specifikationer.",
+    "contactName": "Rikke Østrup Fisker",
+    "contactRole": "Logistik",
+    "ctaEmailButton": "Send en e-mail",
+    "ctaPhoneLabel": "eller ring"
   },
   "serviceDetail": {
     "prototyping": {

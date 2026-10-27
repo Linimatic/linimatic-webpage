@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "site-guide": "node scripts/site-guide.mjs",
+    "check": "node scripts/check.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

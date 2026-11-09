@@ -50,7 +50,7 @@
     },
     "zinkers": {
       "title": "Sinkers von Linimatic — Zinksenker für Trawl & Fischereigerät",
-      "description": "Linimatic gießt bleifreie Zinksenker für Trawl-, Ring- und industrielles Fischereigerät. Ring- und Tonnensenker von 50-2.000 Gramm, angepasst an Ihren Bedarf."
+      "description": "Bleifreie Zinksenker für Trawl-, Ringwaden- und industrielles Fischereigerät. Tonnen- und Ringsenker von 50 bis 2.000 Gramm, mit der DTU entwickelt und in Helsinge gegossen."
     },
     "zinkTemadag": {
       "title": "Zink-Infotag — kostenloses Seminar zum Zinkdruckguss",
@@ -885,35 +885,105 @@
   "zinkersPage": {
     "breadcrumb": "Sinkers",
     "eyebrow": "Bleifreies Fischereizubehör",
-    "heading": "Sinkers — Zinksenker für Trawl- und industrielles Fischereigerät.",
-    "intro": "Linimatic gießt Senker aus Zink für Trawl-, Ring- und anderes industrielles Fischereigerät — eine umweltfreundliche Alternative zu Bleisenkern, deren Import und Verkauf in Dänemark seit 2002 verboten ist. Das Sortiment reicht von 50 bis 2.000 Gramm in Ring- und Tonnenform, mit Lochdurchmessern passend zum Gerät des Kunden.",
+    "heading": "Sinkers — bleifreie Senker für nachhaltige Fischerei.",
+    "intro": "Linimatic gießt robuste Zinksenker für Trawl-, Ringwaden- und anderes industrielles Fischereigerät. Sie enthalten kein Blei, halten 5–6-mal länger als Bleisenker und kommen fertig und montagebereit — ohne Grate, die entfernt werden müssen. Das Sortiment reicht von 50 bis 2.000 Gramm in Tonnen- und Ringform.",
     "heroImageAlt": "Ring- und Tonnensenker aus Zink von Linimatic",
-    "whyHeading": "Warum Zink statt Blei",
-    "whyDescription": "Blei ist als Senkermaterial in Dänemark seit 2002 verboten. Zink gleicht das Gewicht von Blei aus und ist dabei ungiftig.",
-    "why": [
+    "specsButton": "Sortiment und Spezifikationen ansehen",
+    "contactEyebrow": "Ihr Kontakt für Sinkers",
+    "benefitsHeading": "Warum Sinkers von Linimatic",
+    "benefitsDescription": "Gemeinsam mit der DTU entwickelt und automatisiert in Helsinge gegossen — für Fischereigerät, das lange halten muss.",
+    "benefits": [
       {
-        "title": "Ungiftig",
-        "description": "Anders als Blei stellt Zink kein Vergiftungsrisiko für Seevögel oder Meereslebewesen dar, wenn ein Senker verloren geht oder im Wasser abgenutzt wird."
+        "title": "Kein Blei",
+        "description": "Blei ist ein kumulatives Gift, das mehrere Organsysteme schädigt. Direkter Hautkontakt ist schädlich, kann allergische Reaktionen auslösen und Blei in den Körper übertragen. Zink ist ungiftig für Mensch und Meeresumwelt — und Bleisenker dürfen in Dänemark seit 2002 weder importiert noch verkauft werden."
       },
       {
-        "title": "Legal seit 2002",
-        "description": "Bleisenker dürfen in Dänemark seit 2002 weder importiert noch verkauft werden. Zink ist die direkte, zugelassene Alternative mit vergleichbarem Gewicht."
+        "title": "Mit der DTU entwickelt",
+        "description": "Die Senker wurden in Zusammenarbeit mit der DTU, der Technischen Universität Dänemarks, entwickelt."
+      },
+      {
+        "title": "Automatisierter Druckguss",
+        "description": "Ein automatisierter Hochdruckgussprozess sichert eine sehr hohe, gleichbleibende Qualität vom ersten bis zum letzten Teil."
+      },
+      {
+        "title": "Hält 5–6-mal länger",
+        "description": "Die sehr harte Oberfläche verschleißt deutlich langsamer als Blei, sodass die Senker im Einsatz 5–6-mal länger halten."
+      },
+      {
+        "title": "Gebrauchsfertig",
+        "description": "Keine Grate, Löcher oder Beschädigungen. Die Senker können sofort montiert werden — ohne zeitaufwendiges Entgraten."
       },
       {
         "title": "Gegossen in Helsinge",
-        "description": "Sinkers werden in Linimatics eigener Gießerei in Helsinge gegossen und können in Gewicht und Lochdurchmesser an das Gerät und die Produktionsmenge des Kunden angepasst werden."
+        "description": "In unserer eigenen Gießerei in Helsinge gegossen und leicht wiederverwendbar. Gewicht und Lochdurchmesser lassen sich an das Gerät des Kunden anpassen."
       }
     ],
-    "applicationsHeading": "Einsatzbereiche",
-    "applications": [
-      "Trawlfischerei",
-      "Ringwadenfischerei",
-      "Industrielles Fischereigerät",
-      "Ring- und Tonnensenker, 50–2.000 Gramm"
+    "modelsHeading": "Zwei Modelle: TF und RF",
+    "modelsDescription": "Beide Modelle gibt es in mehreren Gewichten und Lochdurchmessern. Die Typenbezeichnung gibt das Gewicht in Gramm und den Lochdurchmesser in Millimetern an — TF 300/16 wiegt zum Beispiel 300 Gramm und hat ein 16-mm-Loch.",
+    "models": {
+      "TF": {
+        "name": "Tonnenform",
+        "description": "Tonnenförmiger Senker mit durchgehender Bohrung."
+      },
+      "RF": {
+        "name": "Ringform",
+        "description": "Ringförmiger Senker mit großer Mittelöffnung."
+      }
+    },
+    "weightLabel": "Gewicht",
+    "holeLabel": "Lochdurchmesser",
+    "comparisonHeading": "Im Vergleich zu den Alternativen",
+    "comparisonDescription": "So schneiden Linimatic-Senker im Vergleich zu handgegossenen Zinksenkern und herkömmlichen Bleisenkern ab.",
+    "comparisonCriterion": "Eigenschaft",
+    "comparisonColumns": [
+      "Linimatic Sinkers",
+      "Hand\u00adgegossene Zink\u00adsenker",
+      "Blei\u00adsenker"
     ],
-    "ctaHeading": "Interesse an Sinkers?",
-    "ctaDescription": "Kontaktieren Sie uns für Preise und Spezifikationen, oder rufen Sie uns direkt an unter +45 4876 4040.",
-    "ctaButton": "Kontakt aufnehmen"
+    "comparisonRows": {
+      "environment": "Umweltbelastung",
+      "workEnvironment": "Belastung der Arbeits\u00adumgebung",
+      "assembly": "Zeitaufwand bei der Montage",
+      "disassembly": "Zeitaufwand bei der Demontage",
+      "reassembly": "Zeitaufwand bei der Wieder\u00admontage",
+      "wear": "Verschleiß im Einsatz",
+      "damage": "Risiko von Schäden an den Senkern im Einsatz",
+      "lifetime": "Lebensdauer im Einsatz",
+      "corrosion": "Korrosions\u00adbeständigkeit",
+      "initialCost": "Anschaffungs\u00adkosten",
+      "totalCost": "Gesamtkosten"
+    },
+    "ratings": {
+      "good": "Gut",
+      "neutral": "Mittel",
+      "bad": "Schlecht"
+    },
+    "rangeHeading": "Sortiment",
+    "rangeDescription": "Unser Standardsortiment. Andere Gewichte und Lochdurchmesser nach Vereinbarung.",
+    "rangeColumns": {
+      "type": "Typ",
+      "weight": "Gewicht",
+      "hole": "Loch\u00addurch\u00admesser",
+      "minOrder": "Mindest\u00admenge"
+    },
+    "pcs": "Stk.",
+    "rangeNotes": [
+      "Gewichtstoleranz ±5 %.",
+      "Lieferung ab Werk (EXW), inkl. Verpackung.",
+      "Der Preis richtet sich nach der Menge — fragen Sie nach einem Angebot."
+    ],
+    "testimonial": {
+      "quote": "Bei Cosmos Trawl stellen wir erstklassiges Fischereigerät her und arbeiten ständig an der Produktentwicklung. Mit Sinkers haben wir die optimalen Senker gefunden, um Blei zu ersetzen. Sie schaden weder der Umwelt noch unseren Handwerkern — sie lassen sich leicht wiederverwenden und halten 5–6-mal länger als Bleisenker.",
+      "author": "Arne F. Olesen",
+      "role": "Verkaufsleiter, Cosmos Trawl",
+      "note": "Cosmos Trawl gehört zur internationalen Hampidjan-Gruppe und gilt als Dänemarks größter und ältester Netzhersteller."
+    },
+    "ctaHeading": "Angebot anfordern",
+    "ctaDescription": "Kontaktieren Sie Rikke Østrup Fisker für Preise, Lieferzeiten und Spezifikationen.",
+    "contactName": "Rikke Østrup Fisker",
+    "contactRole": "Logistik",
+    "ctaEmailButton": "E-Mail senden",
+    "ctaPhoneLabel": "oder anrufen"
   },
   "serviceDetail": {
     "prototyping": {

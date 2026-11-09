@@ -67,7 +67,7 @@ function addMark(id, node) {
   box.setAttribute('data-selection-mark', '');
   box.setAttribute('data-selection-id', id);
   box.setAttribute('aria-hidden', 'true');
-  box.style.cssText = 'position:fixed;pointer-events:none;z-index:2147483646;border:2px dashed #c2410c;box-sizing:border-box;background:linear-gradient(#c2410c,#c2410c) 0 0/22px 22px no-repeat;color:#fff;font:700 13px/22px system-ui;text-align:left;padding:0 0 0 7px;';
+  box.style.cssText = 'position:fixed;pointer-events:none;z-index:2147483646;border:2px dashed #8a3e22;box-sizing:border-box;background:linear-gradient(#8a3e22,#8a3e22) 0 0/22px 22px no-repeat;color:#fff;font:700 13px/22px system-ui;text-align:left;padding:0 0 0 7px;';
   document.documentElement.appendChild(box);
   marks.push({id: id, node: node, box: box});
   layoutMarks();
@@ -214,7 +214,7 @@ function outline(selected) {
     document.documentElement.appendChild(highlight);
   }
   var rect = selected.context.element.bounds;
-  highlight.style.cssText = 'position:fixed;pointer-events:none;z-index:2147483647;border:3px solid #125e56;box-sizing:border-box;background:transparent;';
+  highlight.style.cssText = 'position:fixed;pointer-events:none;z-index:2147483647;border:3px solid #a9502e;box-sizing:border-box;background:transparent;';
   highlight.style.left = rect.x + 'px'; highlight.style.top = rect.y + 'px';
   highlight.style.width = rect.width + 'px'; highlight.style.height = rect.height + 'px';
   highlight.style.display = '';
@@ -227,7 +227,7 @@ function outline(selected) {
   }
   var text = selected.context.element.text, shown = text.length > 40 ? text.slice(0, 40) + '…' : text;
   label.textContent = shown ? selected.context.element.tag + ' · ' + shown : selected.context.element.tag;
-  label.style.cssText = 'position:fixed;pointer-events:none;z-index:2147483647;background:#125e56;color:#fff;font-size:12px;line-height:1.4;padding:2px 8px;border-radius:4px;font-family:system-ui;white-space:nowrap;';
+  label.style.cssText = 'position:fixed;pointer-events:none;z-index:2147483647;background:#a9502e;color:#fff;font-size:12px;line-height:1.4;padding:2px 8px;border-radius:999px;font-family:system-ui;white-space:nowrap;';
   label.style.top = (rect.y < 24 ? rect.y + rect.height + 4 : rect.y - 22) + 'px';
   label.style.left = Math.max(0, Math.min(rect.x, window.innerWidth - 8)) + 'px';
   label.style.display = '';

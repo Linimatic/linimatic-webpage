@@ -50,7 +50,7 @@
     },
     "zinkers": {
       "title": "Sinkers by Linimatic — Zinc Weights for Trawl & Fishing Gear",
-      "description": "Linimatic casts lead-free zinc sinkers for trawl, seine and industrial fishing gear. Ring and barrel sinkers from 50-2,000 grams, tailored to your needs."
+      "description": "Lead-free zinc sinkers for trawl, seine and industrial fishing gear. Barrel and ring sinkers from 50 to 2,000 grams, developed with DTU and cast in Helsinge."
     },
     "zinkTemadag": {
       "title": "Zinc Info Day — free zinc die-casting seminar",
@@ -882,35 +882,105 @@
   "zinkersPage": {
     "breadcrumb": "Sinkers",
     "eyebrow": "Lead-free fishing gear",
-    "heading": "Sinkers \u2014 zinc weights for trawl and industrial fishing gear.",
-    "intro": "Linimatic casts zinc sinkers for trawl, seine and other industrial fishing equipment \u2014 an environmentally friendly alternative to lead sinkers, which have been banned from import and sale in Denmark since 2002. The range spans 50 to 2,000 grams in ring and barrel shapes, with hole diameters matched to the customer\u2019s gear.",
+    "heading": "Sinkers — lead-free weights for sustainable fishing.",
+    "intro": "Linimatic casts heavy-duty zinc sinkers for trawl, seine and other industrial fishing gear. They contain no lead, last 5–6 times longer than lead sinkers and come finished, ready to fit — with no burrs to remove. The range spans 50 to 2,000 grams in barrel and ring shapes.",
     "heroImageAlt": "Ring and barrel zinc sinkers by Linimatic",
-    "whyHeading": "Why zinc, not lead",
-    "whyDescription": "Lead has been banned as a sinker material in Denmark since 2002. Zinc matches lead\u2019s weight while being non-toxic.",
-    "why": [
+    "specsButton": "View range and specifications",
+    "contactEyebrow": "Your contact for sinkers",
+    "benefitsHeading": "Why Linimatic sinkers",
+    "benefitsDescription": "Developed with DTU and cast in an automated process in Helsinge — for fishing gear that has to last.",
+    "benefits": [
       {
-        "title": "Non-toxic",
-        "description": "Unlike lead, zinc poses no poisoning risk to seabirds or marine life if a sinker is lost or worn down in the water."
+        "title": "No lead",
+        "description": "Lead is a cumulative toxicant that affects multiple body systems. Direct skin contact is harmful and can cause allergic reactions and transfer lead into the body. Zinc is non-toxic to people and the marine environment — and lead sinkers have been banned from import and sale in Denmark since 2002."
       },
       {
-        "title": "Legal since 2002",
-        "description": "Lead sinkers have been banned from import and sale in Denmark since 2002. Zinc is the direct, approved alternative with comparable weight."
+        "title": "Developed with DTU",
+        "description": "The sinkers were developed in cooperation with DTU, the Technical University of Denmark."
+      },
+      {
+        "title": "Automated die casting",
+        "description": "An automated high-pressure die-casting process ensures very high, consistent quality from the first part to the last."
+      },
+      {
+        "title": "Lasts 5–6 times longer",
+        "description": "The very hard surface wears far more slowly than lead, so the sinkers last 5–6 times longer in use."
+      },
+      {
+        "title": "Ready to use",
+        "description": "No burrs, holes or damage. The sinkers can be fitted straight away — without time-consuming deburring first."
       },
       {
         "title": "Cast in Helsinge",
-        "description": "Sinkers are cast at Linimatic\u2019s own foundry in Helsinge and can be tailored in weight and hole diameter to match the customer\u2019s gear and production volume."
+        "description": "Cast at our own foundry in Helsinge and easy to reuse. Weight and hole diameter can be tailored to the customer’s gear."
       }
     ],
-    "applicationsHeading": "Applications",
-    "applications": [
-      "Trawl fishing",
-      "Seine fishing",
-      "Industrial fishing gear",
-      "Ring and barrel sinkers, 50\u20132,000 grams"
+    "modelsHeading": "Two models: TF and RF",
+    "modelsDescription": "Both models come in several weights and hole diameters. The type designation gives the weight in grams and the hole diameter in millimetres — TF 300/16, for example, weighs 300 grams and has a 16\u00a0mm hole.",
+    "models": {
+      "TF": {
+        "name": "Barrel",
+        "description": "Barrel-shaped sinker with a through hole."
+      },
+      "RF": {
+        "name": "Ring",
+        "description": "Ring-shaped sinker with a large centre hole."
+      }
+    },
+    "weightLabel": "Weight",
+    "holeLabel": "Hole diameter",
+    "comparisonHeading": "Compared with the alternatives",
+    "comparisonDescription": "How Linimatic sinkers compare with hand-cast zinc sinkers and traditional lead sinkers.",
+    "comparisonCriterion": "Property",
+    "comparisonColumns": [
+      "Linimatic Sinkers",
+      "Hand-cast zinc sinkers",
+      "Lead sinkers"
     ],
-    "ctaHeading": "Interested in sinkers?",
-    "ctaDescription": "Contact us for prices and specifications, or call us directly on +45 4876 4040.",
-    "ctaButton": "Contact Us"
+    "comparisonRows": {
+      "environment": "Environmental impact",
+      "workEnvironment": "Work environment impact",
+      "assembly": "Time spent on assembly",
+      "disassembly": "Time spent on disassembly",
+      "reassembly": "Time spent on reassembly",
+      "wear": "Wear and tear during use",
+      "damage": "Risk of damage to the sinkers during use",
+      "lifetime": "Lifetime in use",
+      "corrosion": "Corrosion resistance",
+      "initialCost": "Initial investment cost",
+      "totalCost": "Total cost"
+    },
+    "ratings": {
+      "good": "Good",
+      "neutral": "Average",
+      "bad": "Poor"
+    },
+    "rangeHeading": "Product range",
+    "rangeDescription": "Our standard range. Other weights and hole diameters can be agreed.",
+    "rangeColumns": {
+      "type": "Type",
+      "weight": "Weight",
+      "hole": "Hole diameter",
+      "minOrder": "Minimum order"
+    },
+    "pcs": "pcs",
+    "rangeNotes": [
+      "Weight tolerance ±5%.",
+      "Delivered ex works (EXW), including packaging.",
+      "Prices depend on quantity — ask for a quote."
+    ],
+    "testimonial": {
+      "quote": "At Cosmos Trawl we make first-class fishing gear and have constant focus on product development. When introduced to Sinkers we found the optimal sinkers to replace lead. It’s not harmful to the environment and our craftsmen — and it’s easy to reuse and lasts 5–6 times longer than lead sinkers.",
+      "author": "Arne F. Olesen",
+      "role": "Sales Manager, Cosmos Trawl",
+      "note": "Cosmos Trawl is part of the international Hampidjan Group and recognised as Denmark’s largest and oldest net maker."
+    },
+    "ctaHeading": "Ask for a quote",
+    "ctaDescription": "Contact Rikke Østrup Fisker for prices, delivery times and specifications.",
+    "contactName": "Rikke Østrup Fisker",
+    "contactRole": "Logistics",
+    "ctaEmailButton": "Send an email",
+    "ctaPhoneLabel": "or call"
   },
   "serviceDetail": {
     "prototyping": {

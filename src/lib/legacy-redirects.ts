@@ -20,7 +20,7 @@
  */
 
 type LegacyRoute = {
-  /** Old slug in each language, without locale prefix or slashes. */
+  /** Old slug in each language, without locale prefix or outer slashes. */
   en: string;
   da: string;
   de: string;
@@ -225,14 +225,58 @@ const LEGACY_ROUTES: LegacyRoute[] = [
     de: "unseren-newsletter-erhalten",
     to: "/contact/people",
   },
-  // The old site published this job ad under the same Danish slug in all three
+  // The old site published its job ads under the same Danish slug in all three
   // language trees.
+  ...[
+    "maskinarbejder-industritekniker-eller-vaerktojsmager",
+    "medarbejder-til-produktion",
+    "medarbejder-til-production",
+    "medarbejder-til-produktion-og-opstilling-pa-stobemaskiner",
+    "kvalitets-og-miljoansvarlig",
+    "lagermedarbejder-vi-soger-en-ny-kollega-til-vores-lager",
+    "maskintekniker-produktions-teknolog",
+    "vedligeholds-afdelingen-hos-linimatic-a-s-i-helsinge-soger-ny-medarbejder",
+  ].map((slug) => ({ en: slug, da: slug, de: slug, to: "/jobs" })),
+
+  // ── Policy pages ─────────────────────────────────────────────────────────
+  { en: "cookie-policy", da: "cookiepolitik", de: "cookie-richtlinie", to: "/cookies" },
+  { en: "data-policy", da: "datapolitik", de: "datenpolitik", to: "/privacy" },
   {
-    en: "maskinarbejder-industritekniker-eller-vaerktojsmager",
-    da: "maskinarbejder-industritekniker-eller-vaerktojsmager",
-    de: "maskinarbejder-industritekniker-eller-vaerktojsmager",
-    to: "/jobs",
+    en: "cookie-and-data-protection-policy",
+    da: "cookie-og-databeskyttelsespolitik",
+    de: "cookie-und-datenschutzpolitik",
+    to: "/privacy",
   },
+  {
+    en: "about-us/linimatic-code-of-conduct",
+    da: "om-os/linimatic-adfaerdskodeks",
+    de: "uber-uns/linimatic-verhaltenskodex",
+    to: "/about/code-of-conduct",
+  },
+];
+
+/**
+ * Old URLs that do not fit the three-language table: Danish slugs the old site
+ * spelled with "ø", and one-off spellings. Found by checking the Wayback
+ * Machine's capture list of linimatic.eu against the live site (2026-10-26).
+ */
+const LEGACY_PATHS: { from: string; to: string }[] = [
+  { from: "/da/10-grunde-til-at-vaelge-trykstøbt-zink", to: "/da/why-zinc" },
+  {
+    from: "/da/der-er-fordele-ved-at-have-din-leverandør-taet-pa",
+    to: "/da/cases/supplier-proximity",
+  },
+  { from: "/da/design-og-optimering-af-støbning", to: "/da/services/prototyping" },
+  { from: "/da/hvorfor-vaelger-tyske-virksomheder-danske-leverandører-", to: "/da/cases" },
+  { from: "/da/ny-zinkstøbemaskine-hos-linimatic", to: "/da/services/die-casting" },
+  { from: "/da/støbevaerktøjer-og-opbevaring", to: "/da/services/die-casting" },
+  { from: "/da/zink-erstatter-miljøfarligt-bly-i-fiskeredskaber", to: "/da/zinkers" },
+  { from: "/da/forventede-aftaler", to: "/da/cases/velux-kanban" },
+  { from: "/de/giesserei", to: "/de/services/die-casting" },
+  // A Danish news post the old site served from the English (root) tree.
+  { from: "/linimatic-forbedre-stobevaerktojsvedligehold", to: "/da/services/die-casting" },
+  { from: "/da/om-os/linimatic-code-of-conduct", to: "/da/about/code-of-conduct" },
+  { from: "/de/uber-uns/linimatic-code-of-conduct", to: "/de/about/code-of-conduct" },
 ];
 
 /**
@@ -284,6 +328,23 @@ export function legacyRedirects(): Redirect[] {
       destination: `/de${route.to}`,
       permanent: true,
     });
+    // Pages missing a translation were served under the English slug in the
+    // other trees too (/da/about-us/). Skipped where that path is a live page
+    // on this site, e.g. /da/services.
+    for (const locale of ["da", "de"] as const) {
+      if (route.en !== route[locale] && `/${route.en}` !== route.to) {
+        redirects.push({
+          source: `/${locale}/${route.en}`,
+          destination: `/${locale}${route.to}`,
+          permanent: true,
+        });
+      }
+    }
+  }
+
+  // Sources match the request path as sent, so "ø" must be percent-encoded.
+  for (const route of LEGACY_PATHS) {
+    redirects.push({ source: encodeURI(route.from), destination: route.to, permanent: true });
   }
 
   for (const route of RENAMED_ROUTES) {

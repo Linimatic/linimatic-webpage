@@ -49,11 +49,11 @@
       "description": "Werden Sie Teil von Dänemarks größter Zinkdruckguss-Gießerei. Offene Stellen in Guss, Bearbeitung, Qualität und Technik bei Linimatic A/S in Helsinge."
     },
     "zinkers": {
-      "title": "Sinkers von Linimatic — Zinksenker für Trawl & Fischereigerät",
-      "description": "Bleifreie Zinksenker für Trawl-, Ringwaden- und industrielles Fischereigerät. Tonnen- und Ringsenker von 50 bis 2.000 Gramm, mit der DTU entwickelt und in Helsinge gegossen."
+      "title": "Bleifreie Zinksenker für Trawl & Fischerei",
+      "description": "Bleifreie Zinksenker für Trawl-, Ringwaden- und Fischereigerät. Tonnen- und Ringsenker von 50 bis 2.000 Gramm, mit der DTU entwickelt, in Helsinge gegossen."
     },
     "zinkTemadag": {
-      "title": "Zink-Infotag — kostenloses Seminar zum Zinkdruckguss",
+      "title": "Kostenloser Zink-Infotag zum Zinkdruckguss",
       "description": "Kostenloser Infotag für Konstrukteure, Projektleiter und Einkäufer über die Möglichkeiten des Zinkdruckgusses. Nächste geplante Termine und Anmeldung."
     }
   },
@@ -833,7 +833,8 @@
     "ctaButton": "Kontaktieren Sie uns, um loszulegen",
     "items": {
       "supplier-proximity": {
-        "metaTitle": "Ditlev Burke — ein Griff, heimgeholt aus Asien",
+        "metaTitle": "Ditlev Burke — Griff aus Asien zurückgeholt",
+        "metaDescription": "Ditlev Burke hat einen Griff für Profiwerkzeug aus Asien zurückgeholt. Das Zinkteil wird jetzt bei Linimatic gegossen, der Griff in Dänemark montiert.",
         "client": "Ditlev Burke Industrial Tools A/S",
         "industry": "Industrie & Werkzeuge",
         "title": "Es hat Vorteile, wenn Ihr Lieferant in der Nähe ist",
@@ -845,7 +846,8 @@
         "capabilities": ["die-casting", "quality"]
       },
       "velux-kanban": {
-        "metaTitle": "VELUX — Forecast-Vereinbarung und Roboterautomatisierung",
+        "metaTitle": "VELUX — Forecast-Vereinbarung und Robotik",
+        "metaDescription": "Eine feste Kanban- und Forecast-Vereinbarung macht die Versorgung von VELUX Gåsdal planbar — mit Preisschutz gegen Rohstoff- und Währungsschwankungen.",
         "client": "VELUX",
         "industry": "Bau & HVAC",
         "title": "Reibungslose Zusammenarbeit mit Forecast-Vereinbarung",
@@ -857,7 +859,8 @@
         "capabilities": ["die-casting", "quality"]
       },
       "frandsen-downlight": {
-        "metaTitle": "Frandsen — von China nach Dänemark in kürzester Zeit",
+        "metaTitle": "Frandsen — schnell von China nach Dänemark",
+        "metaDescription": "Als Frandsens chinesischer Lieferant absprang, stellte Linimatic die Downlight-Teile auf Zinkdruckguss um — in einem Schritt gegossen und sehr kurzfristig.",
         "client": "Frandsen",
         "industry": "Beleuchtung",
         "title": "Schneller, smarter - und in Dänemark hergestellt",
@@ -869,7 +872,8 @@
         "capabilities": ["prototyping", "die-casting"]
       },
       "one-collection-finn-juhl": {
-        "metaTitle": "One Collection — der Finn-Juhl-Tisch neu aufgelegt in Zinkdruckguss",
+        "metaTitle": "One Collection — Zinkbeschläge für Finn Juhl",
+        "metaDescription": "Präzise Beschläge aus Zinkdruckguss für die Neuauflage von Finn Juhls klassischem Esstisch bei One Collection — technische Funktion und sichtbares Design.",
         "client": "One Collection",
         "industry": "Möbel & Design",
         "title": "Ein klassisches Design neu auflegen",
@@ -988,6 +992,7 @@
   "serviceDetail": {
     "prototyping": {
       "title": "Prototypen in Zink",
+      "metaDescription": "Prototypen in Zink, bevor Sie ins Serienwerkzeug investieren. Funktion, Passform und Optik im echten Material testen — gegossen und CNC-bearbeitet.",
       "eyebrow": "Vom Konzept zum ersten Muster",
       "overview": "In manchen Projekten kann es von Vorteil sein, Prototypen in Zink herzustellen, bevor in das endgültige Produktionswerkzeug investiert wird. Die Prototypen können durch die Kombination von Zinkdruckguss mit anschließender CNC-Bearbeitung hergestellt werden.\n\nSo lassen sich Funktion, Montage, Passform und Anmutung im tatsächlichen Material testen. Wir prüfen gemeinsam mit dem Kunden, ob die Methode relevant ist, und begleiten den gesamten Prozess von der Abklärung bis zum fertigen Prototyp.",
       "processHeading": "So stellen wir Ihren Prototyp in Zink her",
@@ -1041,6 +1046,7 @@
     },
     "dieCasting": {
       "title": "Druckguss",
+      "metaDescription": "Zinkdruckguss in Dänemark: 9 robotisierte Gießzellen, Teile von 1 Gramm bis 4 Kilo und Toleranzen bis ±0,05 mm direkt aus der Form.",
       "eyebrow": "D\u00e4nemarks gr\u00f6\u00dfte Zinkgie\u00dferei",
       "overview": "Druckguss ist der Kern von allem, was wir tun. In unserer Gießerei in Helsinge laufen 9 robotisierte Gießzellen rund um die Uhr und produzieren Zinkteile von 1 Gramm bis 4 Kilo — von kleinen Präzisionsteilen bis zu großen, komplexen Bauteilen. Der Prozess wird laufend überwacht, sodass die Qualität vom ersten bis zum letzten Schuss gleich bleibt. Mit Gusstoleranzen bis \u00b10,05\u2009mm direkt aus der Form können viele Teile ganz ohne Nachbearbeitung verwendet werden. Das macht uns zur größten spezialisierten Zinkdruckgießerei Dänemarks — und zur natürlichen Wahl, wenn das Bauteil schwierig ist und die Anforderungen hoch sind.",
       "processHeading": "Von der fl\u00fcssigen Legierung zum fertigen Gussteil",
@@ -1111,6 +1117,7 @@
     },
     "postProcessing": {
       "title": "CNC-Nachbearbeitung",
+      "metaDescription": "CNC-Fräsen, Bohren und Gewinde an Zinkdruckgussteilen im eigenen Bearbeitungszentrum — vom Guss bis zum fertigen, geprüften Teil im selben Haus.",
       "eyebrow": "Hauseigene CNC-Bearbeitung seit über 20 Jahren",
       "overview": "Auch wenn sich sehr enge Toleranzen direkt im Druckgussprozess erreichen lassen, erfordern manche Teile eine Nachbearbeitung, um die gewünschte Toleranz an Flächen, Bohrungen und gefrästen Gewinden zu erreichen. Deshalb ist die CNC-Bearbeitung seit über 20 Jahren einer unserer hauseigenen Prozesse: Die Teile gehen vom Guss zum fertigen, geprüften Teil, ohne das Gebäude zu verlassen — und ohne externe Lieferanten dazwischen. Unser Bearbeitungszentrum übernimmt Fräsen, Bohren, Gewindeschneiden und Gewindefräsen — alles unter demselben Dach wie der Guss.",
       "processHeading": "Der Produktionsablauf \u2014 vom Angebot zum fertigen Teil",
@@ -1173,6 +1180,7 @@
     },
     "surfaceTreatment": {
       "title": "Oberfl\u00e4chenbehandlung & Beschichtung",
+      "metaDescription": "Chrom, Pulverbeschichtung, PVD, Passivierung und mehr für Zinkdruckgussteile — von erfahrenen Spezialisten, mit Linimatic als einzigem Ansprechpartner.",
       "eyebrow": "Das Finish, das das Produkt definiert",
       "overview": "Zink eignet sich gut für eine Vielzahl von Oberflächenbehandlungen, bei denen sich Funktion, Haltbarkeit und optisches Erscheinungsbild an das fertige Produkt anpassen lassen. Bei Linimatic arbeiten wir mit erfahrenen Spezialisten für Oberflächenbehandlung in Dänemark und im Ausland zusammen, sodass wir Lösungen anbieten können, die Ihren Anforderungen an Finish, Korrosionsschutz und Anwendung entsprechen.\n\nEine Oberflächenbehandlung kann Zinkteilen ein starkes optisches Erscheinungsbild verleihen, die Widerstandsfähigkeit erhöhen und vor Korrosion schützen. Das macht druckgegossene, oberflächenbehandelte Zinkteile für viele verschiedene Branchen geeignet, unter anderem Industrie, technische Komponenten, Möbelindustrie, Interieur, Design und Bauindustrie.",
       "processHeading": "Vom Rohgussteil zur fertigen Oberfl\u00e4che",
@@ -1253,6 +1261,7 @@
     },
     "quality": {
       "title": "Qualit\u00e4t & Zertifizierung",
+      "metaDescription": "Seit 1993 nach ISO 9001 zertifiziert. 3D-Koordinatenmessung, SPC in Echtzeit, PPAP Stufe 1–3 und Rückverfolgbarkeit auf Chargenebene für jedes Gussteil.",
       "eyebrow": "Mehr als 30 Jahre zertifiziertes Qualitätsmanagement",
       "overview": "Linimatic ist seit 1993 nach ISO 9001 zertifiziert. Unser Qualitätsmanagementsystem bildet den Rahmen für alle unsere Geschäftsprozesse – von der Prüfung der Kundenanforderungen und Spezifikationen über Einkauf, Wareneingang, Produktion und Qualitätskontrolle bis hin zur Lieferung. Alle Prozesse werden nach festgelegten Verfahren und Prüfplänen durchgeführt, sodass die Qualität während des gesamten Ablaufs gesteuert und dokumentiert wird.",
       "processHeading": "So sichern wir Qualit\u00e4t in jedem Schritt",
@@ -1322,6 +1331,7 @@
     },
     "assembly": {
       "title": "Montage & Zusammenbau",
+      "metaDescription": "Montage von Zinkdruckgussteilen mit weiteren Komponenten. Wir liefern fertig montierte, gekennzeichnete und verpackte Einheiten, einsatzbereit.",
       "eyebrow": "Fertige Produkte, nicht lose Teile",
       "overview": "Benötigen Sie mehr als die fertig gegossene Zinkkomponente? Linimatic kann auch die Montage und den Zusammenbau von zinkgegossenen Komponenten mit weiteren Teilen übernehmen, sodass Sie fertig montierte Einheiten erhalten, die einsatzbereit oder lieferbereit sind.\n\nWir können unter anderem Montagesätze, Ersatzteilsätze und kleinere Teilsysteme handhaben sowie Qualitätskontrolle, Kennzeichnung, Verpackung und kundenspezifische Verpackung übernehmen.\n\nDurch die Bündelung mehrerer Prozesse bei einem Lieferanten erhalten Sie eine einfachere Logistik, weniger Handhabungsschritte und eine effizientere Lieferkette.\n\nKontaktieren Sie uns, um zu erfahren, wie wir durch Montage und Zusammenbau Mehrwert schaffen können.",
       "processHeading": "Von der Komponente zur fertig montierten Einheit",

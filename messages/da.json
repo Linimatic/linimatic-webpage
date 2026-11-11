@@ -6,7 +6,7 @@
     },
     "services": {
       "title": "Zinktrykstøbning i Danmark",
-      "description": "Full-service zinktrykstøbning med ét samlet ansvar: prototyping, højtryksstøbning, CNC-bearbejdning, overfladebehandling, kvalitetssikring og montage fra Helsinge."
+      "description": "Zinktrykstøbning med ét samlet ansvar: prototyper, højtryksstøbning, CNC-bearbejdning, overfladebehandling, kvalitetssikring og montage fra Helsinge."
     },
     "whyZinc": {
       "title": "Hvorfor zink? Fordele og legeringer",
@@ -49,11 +49,11 @@
       "description": "Bliv en del af Danmarks største zinktrykstøberi. Ledige stillinger inden for støbning, bearbejdning, kvalitet og teknik hos Linimatic A/S i Helsinge."
     },
     "zinkers": {
-      "title": "Sinkers fra Linimatic — synk til trawl og fiskegrej",
+      "title": "Blyfri zink-sinkers til trawl og fiskegrej",
       "description": "Blyfri sinkers i zink til trawl, not og industrielt fiskegrej. Tønde- og ringsinkers fra 50 til 2.000 gram, udviklet med DTU og støbt i Helsinge."
     },
     "zinkTemadag": {
-      "title": "Zink Temadag — gratis temadag om zinktrykstøbning",
+      "title": "Gratis Zink Temadag om zinktrykstøbning",
       "description": "Gratis temadag for konstruktører, projektledere og indkøbere om mulighederne i zinktrykstøbning. Se næste planlagte datoer og book en plads."
     }
   },
@@ -834,6 +834,7 @@
     "items": {
       "supplier-proximity": {
         "metaTitle": "Ditlev Burke — håndtag hjemtaget fra Asien",
+        "metaDescription": "Ditlev Burke flyttede et håndtag til professionelt værktøj hjem fra Asien. Zinkdelen støbes nu hos Linimatic, og hele håndtaget samles i Danmark.",
         "client": "Ditlev Burke Industrial Tools A/S",
         "industry": "Industri & værktøj",
         "title": "Der er fordele ved at have din leverandør tæt på",
@@ -845,7 +846,8 @@
         "capabilities": ["die-casting", "quality"]
       },
       "velux-kanban": {
-        "metaTitle": "VELUX — forecast-aftale og robotautomatisering",
+        "metaTitle": "VELUX — forecast-aftale og automatisering",
+        "metaDescription": "En fast Kanban- og forecast-aftale gør samarbejdet med VELUX Gåsdal forudsigeligt, med prisbeskyttelse mod råvare- og valutaudsving og en robot i drift.",
         "client": "VELUX",
         "industry": "Byggeri & HVAC",
         "title": "Smidigt samarbejde med forecast aftale",
@@ -857,7 +859,8 @@
         "capabilities": ["die-casting", "quality"]
       },
       "frandsen-downlight": {
-        "metaTitle": "Frandsen — fra Kina til Danmark på kort varsel",
+        "metaTitle": "Frandsen — hurtigt fra Kina til Danmark",
+        "metaDescription": "Da Frandsens kinesiske leverandør meldte fra, omlagde Linimatic downlight-delene til trykstøbt zink — støbt i ét trin og klar på meget kort varsel.",
         "client": "Frandsen",
         "industry": "Belysning",
         "title": "Hurtigere, smartere - og fremstillet i Danmark",
@@ -869,7 +872,8 @@
         "capabilities": ["prototyping", "die-casting"]
       },
       "one-collection-finn-juhl": {
-        "metaTitle": "One Collection — Finn Juhl-bordet relanceret i trykstøbt zink",
+        "metaTitle": "One Collection — Finn Juhl-bordets beslag",
+        "metaDescription": "Præcise beslag i trykstøbt zink til One Collections relancering af Finn Juhls klassiske spisebord — teknisk funktion og en synlig del af designet.",
         "client": "One Collection",
         "industry": "Møbler & design",
         "title": "At relancere et klassisk design",
@@ -988,6 +992,7 @@
   "serviceDetail": {
     "prototyping": {
       "title": "Prototyper i zink",
+      "metaDescription": "Prototyper i zink, før du investerer i formværktøjet. Afprøv funktion, montage, pasform og udtryk i det rigtige materiale — støbt og CNC-bearbejdet.",
       "eyebrow": "Fra koncept til første prøve",
       "overview": "I nogle projekter kan det være en fordel at fremstille prototyper i zink, før der investeres i det endelige formværktøj. Prototyperne kan fremstilles ved at kombinere støbt zink med efterfølgende CNC-bearbejdning.\n\nDet giver mulighed for at afprøve blandt andet funktion, montage, pasform og udtryk i det rigtige materiale. Vi vurderer sammen med kunden, om metoden er relevant, og sørger for hele forløbet fra afklaring til færdige prototyper.",
       "processHeading": "Sådan fremstiller vi din prototype i zink",
@@ -1040,6 +1045,7 @@
     },
     "dieCasting": {
       "title": "Højtryksstøbning",
+      "metaDescription": "Højtryksstøbning af zink i Helsinge: 9 robotiserede støbeceller, emner fra 1 gram til 4 kilo og tolerancer ned til ±0,05 mm direkte fra formen.",
       "eyebrow": "Danmarks største zinkstøberi",
       "overview": "Højtryksstøbning er kernen i alt, hvad vi laver. I støberiet i Helsinge kører 9 robotiserede støbeceller døgnet rundt og producerer zinkemner fra 1 gram til 4 kilo — fra små præcisionsdele til store, komplekse emner. Processen overvåges løbende, så kvaliteten er den samme fra første til sidste skud. Med tolerancer ned til \u00b10,05\u2009mm direkte fra formen kan mange emner bruges helt uden efterbearbejdning. Det gør os til Danmarks største dedikerede zinktrykstøberi — og til det naturlige valg, når emnet er svært, og kravene er høje.",
       "processHeading": "Fra smeltet legering til færdigt støbeemne",
@@ -1110,6 +1116,7 @@
     },
     "postProcessing": {
       "title": "CNC-efterbearbejdning",
+      "metaDescription": "CNC-fræsning, boring og gevind på zinkstøbte emner i vores eget bearbejdningscenter — fra støbning til færdigt, kontrolleret emne i samme hus.",
       "eyebrow": "Intern CNC-bearbejdning i over 20 år",
       "overview": "Selv om der er store muligheder for at støbe meget skrappe tolerancer direkte i selve støbeprocessen, kræver nogle emner efterbearbejdning for at opnå den ønskede tolerance på flader, i huller og med fræst gevind. Derfor har CNC-bearbejdning i mere end 20 år været en af vores interne processer: Emnerne går fra støbning til færdigt, kontrolleret emne uden at forlade huset — og uden eksterne leverandører undervejs. Vores bearbejdningscenter håndterer fræsning, boring, gevindskæring og gevindfræsning — alt under samme tag som støbningen.",
       "processHeading": "Produktionsforløbet — fra tilbud til færdigt emne",
@@ -1174,6 +1181,7 @@
     },
     "surfaceTreatment": {
       "title": "Overfladebehandling & coating",
+      "metaDescription": "Krom, pulvermaling, PVD, passivering og meget mere på trykstøbte zinkemner — udført af erfarne specialister, med Linimatic som din ene kontakt.",
       "eyebrow": "Finishen der definerer produktet",
       "overview": "Zink egner sig godt til en lang række overfladebehandlinger, hvor både funktion, holdbarhed og visuelt udtryk kan tilpasses det færdige produkt. Hos Linimatic samarbejder vi med erfarne specialister inden for overfladebehandling i både Danmark og udlandet, så vi kan tilbyde løsninger, der matcher Jeres krav til finish, korrosionsbeskyttelse og anvendelse.\n\nOverfladebehandling kan give zinkemner et stærkt visuelt udtryk, øge modstandsdygtigheden og beskytte mod korrosion. Det gør højtryksstøbte overfladebehandlede zinkemner velegnede til mange forskellige segmenter, blandt andet industri, tekniske komponenter, møbelindustri, interiør, design, bygnings industri.",
       "processHeading": "Fra råemne til færdig overflade",
@@ -1254,6 +1262,7 @@
     },
     "quality": {
       "title": "Kvalitet & certificering",
+      "metaDescription": "ISO 9001-certificeret siden 1993. 3D-måling, løbende processtyring, PPAP-dokumentation og sporbarhed på batchniveau for alle zinktrykstøbte emner.",
       "eyebrow": "Mere end 30 års certificeret kvalitetsstyring",
       "overview": "Linimatic har været ISO 9001-certificeret siden 1993. Kvalitetsledelsessystemet danner rammen om alle vores forretningsgange – fra gennemgang af kundekrav og specifikationer til indkøb, varemodtagelse, produktion, kvalitetskontrol og levering. Alle processer gennemføres efter fastlagte procedurer og kontrolplaner, så kvaliteten styres og dokumenteres gennem hele forløbet.",
       "processHeading": "Sådan sikrer vi kvalitet i hvert trin",
@@ -1323,6 +1332,7 @@
     },
     "assembly": {
       "title": "Montage og samling",
+      "metaDescription": "Montage og samling af zinkstøbte komponenter med øvrige dele. Vi leverer færdigmonterede, mærkede og pakkede enheder, klar til brug.",
       "eyebrow": "Færdige produkter, ikke løse dele",
       "overview": "Har du brug for mere end den færdigstøbte zinkkomponent? Linimatic kan også stå for montage og samling af zinkstøbte komponenter med øvrige dele, så du modtager færdigmonterede enheder, der er klar til brug eller videre levering.\n\nVi kan blandt andet håndtere monteringssæt, reservedelssæt og mindre delsystemer samt stå for kvalitetskontrol, mærkning, pakning og kundespecifik emballering.\n\nVed at samle flere processer hos én leverandør får du enklere logistik, færre håndteringer og en mere effektiv forsyningskæde.\n\nKontakt os for at høre, hvordan vi kan skabe værdi gennem montage og samling.",
       "processHeading": "Fra komponent til færdigmonteret enhed",

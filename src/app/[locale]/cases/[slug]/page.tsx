@@ -64,8 +64,11 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "caseDetail" });
   // Short metaTitle for the <title>; the long narrative title stays as the H1.
   const title = t(`items.${slug}.metaTitle`);
-  const overview = t(`items.${slug}.overview`);
-  const description = metaDescription(overview);
+  // Hand-written search-result snippet; the overview is the fallback for a
+  // case added without one.
+  const description = t.has(`items.${slug}.metaDescription`)
+    ? t(`items.${slug}.metaDescription`)
+    : metaDescription(t(`items.${slug}.overview`));
 
   return buildMetadata({
     locale: locale as Locale,

@@ -2,11 +2,11 @@
   "meta": {
     "home": {
       "title": "Linimatic A/S — Denmark's Zinc Die-Casting Foundry",
-      "description": "Denmark's largest dedicated zinc die-casting foundry since 1967. Precision zamak components from prototype to series — ISO 9001 certified, one responsible partner throughout."
+      "description": "Denmark's largest dedicated zinc die-casting foundry since 1967. Precision zamak parts from prototype to series — ISO 9001 certified, one partner throughout."
     },
     "services": {
       "title": "Zinc Die-Casting Services in Denmark",
-      "description": "Full-service zinc die-casting with one responsible partner: prototyping, high-pressure die casting, CNC machining, surface coating, quality assurance and assembly. Helsinge, DK."
+      "description": "Full-service zinc die-casting with one responsible partner: prototyping, die casting, CNC machining, surface coating, quality assurance and assembly."
     },
     "whyZinc": {
       "title": "Why Zinc Die-Casting? Benefits & Alloys",
@@ -14,7 +14,7 @@
     },
     "about": {
       "title": "About Linimatic — Zinc Die-Casting Experts Since 1967",
-      "description": "Founded in 1967, Linimatic A/S is Denmark's largest dedicated zinc die-casting foundry — 50+ specialists, ISO 9001 certified, one partner for the full value chain."
+      "description": "Founded in 1967, Linimatic A/S is Denmark's largest dedicated zinc die-casting foundry — 50+ specialists, ISO 9001 certified, one partner throughout."
     },
     "news": {
       "title": "News from Linimatic",
@@ -49,11 +49,11 @@
       "description": "Join Denmark's largest zinc die-casting foundry. Open roles in casting, machining, quality and engineering at Linimatic A/S in Helsinge."
     },
     "zinkers": {
-      "title": "Sinkers by Linimatic — Zinc Weights for Trawl & Fishing Gear",
+      "title": "Lead-Free Zinc Sinkers for Trawl Fishing",
       "description": "Lead-free zinc sinkers for trawl, seine and industrial fishing gear. Barrel and ring sinkers from 50 to 2,000 grams, developed with DTU and cast in Helsinge."
     },
     "zinkTemadag": {
-      "title": "Zinc Info Day — free zinc die-casting seminar",
+      "title": "Free Zinc Die-Casting Info Day",
       "description": "Free info day for designers, project managers and buyers on the possibilities of zinc die-casting. See the next scheduled dates and book a seat."
     }
   },
@@ -830,7 +830,8 @@
     "ctaButton": "Contact Us to Get Started",
     "items": {
       "supplier-proximity": {
-        "metaTitle": "Ditlev Burke \u2014 a handle brought home from Asia",
+        "metaTitle": "Ditlev Burke — a handle reshored from Asia",
+        "metaDescription": "Ditlev Burke moved a professional tool handle home from Asia. The zinc part is now cast at Linimatic, and the whole handle is assembled in Denmark.",
         "client": "Ditlev Burke Industrial Tools A/S",
         "industry": "Industrial & Tools",
         "title": "There are benefits to having your supplier close by",
@@ -842,7 +843,8 @@
         "capabilities": ["die-casting", "quality"]
       },
       "velux-kanban": {
-        "metaTitle": "VELUX — forecast agreement and robot automation",
+        "metaTitle": "VELUX — forecast agreement and automation",
+        "metaDescription": "A standing Kanban and forecast agreement makes supply to VELUX Gåsdal predictable, with price protection against raw-material and currency swings.",
         "client": "VELUX",
         "industry": "Building & HVAC",
         "title": "Smooth collaboration with a forecast agreement",
@@ -854,7 +856,8 @@
         "capabilities": ["die-casting", "quality"]
       },
       "frandsen-downlight": {
-        "metaTitle": "Frandsen — from China to Denmark on short notice",
+        "metaTitle": "Frandsen — quickly from China to Denmark",
+        "metaDescription": "When Frandsen's Chinese supplier pulled out, Linimatic moved the downlight parts to die-cast zinc — cast in a single step and running at very short notice.",
         "client": "Frandsen",
         "industry": "Lighting",
         "title": "Faster, smarter - and made in Denmark",
@@ -866,7 +869,8 @@
         "capabilities": ["prototyping", "die-casting"]
       },
       "one-collection-finn-juhl": {
-        "metaTitle": "One Collection — the Finn Juhl table relaunched in die-cast zinc",
+        "metaTitle": "One Collection — Finn Juhl table fittings",
+        "metaDescription": "Precision die-cast zinc fittings for One Collection's relaunch of Finn Juhl's classic dining table — a technical function and a visible part of the design.",
         "client": "One Collection",
         "industry": "Furniture & Design",
         "title": "To relaunch a classic design",
@@ -985,6 +989,7 @@
   "serviceDetail": {
     "prototyping": {
       "title": "Prototyping in Zinc",
+      "metaDescription": "Zinc prototypes before you invest in the production tool. Test function, assembly, fit and look in the real material — cast and CNC machined.",
       "eyebrow": "From Concept to First Sample",
       "overview": "In some projects, it can be an advantage to produce prototypes in zinc before investing in the final production tooling. The prototypes can be made by combining cast zinc with subsequent CNC machining.\n\nThis makes it possible to test function, assembly, fit, and appearance in the actual material. We assess together with the customer whether the method is relevant, and manage the whole process from initial clarification to finished prototypes.",
       "processHeading": "How we make your zinc prototype",
@@ -1038,6 +1043,7 @@
     },
     "dieCasting": {
       "title": "High-Pressure Die Casting",
+      "metaDescription": "High-pressure zinc die casting in Denmark: 9 robotic casting cells, parts from 1 gram to 4 kilos and tolerances down to ±0.05 mm straight from the die.",
       "eyebrow": "Denmark\u2019s Largest Zinc Foundry",
       "overview": "High-pressure die casting is at the core of everything we do. At our foundry in Helsinge, 9 robotized casting cells run around the clock, producing zinc parts from 1 gram to 4 kilos — from small precision components to large, complex parts. The process is monitored continuously, so quality stays the same from the first shot to the last. With as-cast tolerances down to \u00b10.05\u2009mm, many parts can be used without any secondary machining. That makes us Denmark’s largest dedicated zinc die-casting foundry — and the natural choice when the part is difficult and the requirements are high.",
       "processHeading": "From molten alloy to finished casting",
@@ -1108,6 +1114,7 @@
     },
     "postProcessing": {
       "title": "CNC Post-Processing",
+      "metaDescription": "CNC milling, drilling and threading of zinc die-cast parts in our own machining centre — from casting to finished, inspected part in the same building.",
       "eyebrow": "In-House CNC Machining for 20+ Years",
       "overview": "While zinc die casting offers great scope for casting very tight tolerances directly in the casting process, some parts require post-machining to achieve the desired tolerance on surfaces, holes, and milled threads. That is why CNC machining has been one of our in-house processes for more than 20 years: parts go from casting to finished, inspected component without leaving the building — and without external suppliers along the way. Our machining centre handles milling, drilling, thread cutting and thread milling — all under the same roof as the casting.",
       "processHeading": "The production flow — from quotation to finished part",
@@ -1170,6 +1177,7 @@
     },
     "surfaceTreatment": {
       "title": "Surface Treatment & Coating",
+      "metaDescription": "Chrome, powder coating, PVD, passivation and more on die-cast zinc parts — carried out by experienced specialists, with Linimatic as your single contact.",
       "eyebrow": "Finish That Defines the Product",
       "overview": "Zinc lends itself well to a wide range of surface treatments, where function, durability and visual appearance can all be tailored to the finished product. At Linimatic we work with experienced surface-treatment specialists in both Denmark and abroad, so we can offer solutions that match your requirements for finish, corrosion protection and application.\n\nSurface treatment can give zinc parts a strong visual appearance, increase durability and protect against corrosion. This makes high-pressure die-cast, surface-treated zinc parts well suited to many different segments, including industry, technical components, furniture, interiors, design and the construction industry.",
       "processHeading": "From raw casting to finished surface",
@@ -1250,6 +1258,7 @@
     },
     "quality": {
       "title": "Quality & Certification",
+      "metaDescription": "ISO 9001 certified since 1993. CMM measurement, real-time SPC, PPAP levels 1–3 and batch-level traceability for every zinc die-cast part.",
       "eyebrow": "More than 30 years of certified quality management",
       "overview": "Linimatic has been ISO 9001 certified since 1993. Our quality management system forms the framework for all our business processes – from reviewing customer requirements and specifications to purchasing, incoming goods, production, quality control and delivery. All processes are carried out according to defined procedures and control plans, so quality is managed and documented throughout the entire process.",
       "processHeading": "How we ensure quality at every step",
@@ -1319,6 +1328,7 @@
     },
     "assembly": {
       "title": "Assembly & Mounting",
+      "metaDescription": "Assembly of zinc die-cast components with other parts. We deliver fully assembled, labelled and packed units, ready for use or onward delivery.",
       "eyebrow": "Finished Products, Not Loose Parts",
       "overview": "Do you need more than the finished die-cast zinc component? Linimatic can also handle assembly and mounting of die-cast zinc components with other parts, so you receive fully assembled units ready for use or further delivery.\n\nAmong other things, we can handle assembly kits, spare-parts kits and smaller subsystems, as well as quality control, labelling, packing and customer-specific packaging.\n\nBy consolidating several processes with one supplier, you get simpler logistics, fewer handling steps and a more efficient supply chain.\n\nContact us to hear how we can create value through assembly and mounting.",
       "processHeading": "From component to fully assembled unit",

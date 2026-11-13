@@ -409,7 +409,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
       {/* ═══════════════════════════════════ CTA ═══════════════════════════════════ */}
       <section className="bg-zinc-950 grain relative overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/services/contact-background.webp" alt="" fill className="object-cover opacity-30" sizes="100vw" />
+          <Image src="/images/services/contact-background-diecast-zinc.webp" alt="" fill className="object-cover opacity-30" sizes="100vw" />
         </div>
         <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20 py-20 sm:py-24 lg:py-28 xl:py-36">
           <div className="max-w-2xl">
@@ -430,6 +430,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
             </div>
           </div>
         </div>
+        <p className="absolute bottom-3 right-4 sm:right-10 lg:right-16 xl:right-20 text-xs text-zinc-500">{t('cta.imageCaption')}</p>
       </section>
     </>
   );

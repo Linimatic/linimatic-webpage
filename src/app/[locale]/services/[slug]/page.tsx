@@ -99,8 +99,11 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "serviceDetail" });
   const titleKey = SERVICE_TITLE_KEY[s];
   const title = t(`${titleKey}.title`);
-  const overview = t(`${titleKey}.overview`);
-  const description = metaDescription(overview);
+  // Hand-written search-result snippet; the overview is the fallback for a
+  // service added without one.
+  const description = t.has(`${titleKey}.metaDescription`)
+    ? t(`${titleKey}.metaDescription`)
+    : metaDescription(t(`${titleKey}.overview`));
 
   return buildMetadata({
     locale: locale as Locale,

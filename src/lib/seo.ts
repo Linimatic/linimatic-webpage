@@ -59,6 +59,15 @@ export function ogAlternateLocales(locale: Locale): string[] {
  */
 export function metaDescription(text: string, max = 160): string {
   if (text.length <= max) return text;
+  // Prefer ending on a whole sentence when one ends reasonably late: a snippet
+  // cut mid-sentence can drop the very fact it was heading for ("the next date
+  // is on 16…"). Only a letter before the full stop counts as a sentence end,
+  // so "16. September" and "z. B." are not mistaken for one.
+  const sentenceEnds = [...text.slice(0, max).matchAll(/[\p{L})]\.(?=\s)/gu)];
+  const lastEnd = sentenceEnds.at(-1);
+  if (lastEnd && lastEnd.index + 2 >= max * 0.6) {
+    return text.slice(0, lastEnd.index + 2);
+  }
   const cut = text.slice(0, max - 1);
   const lastSpace = cut.lastIndexOf(" ");
   return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut).replace(/[\s.,;:—-]+$/, "") + "…";

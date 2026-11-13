@@ -39,9 +39,10 @@ A case is **content in the three translation files** plus **registrations in thr
 | `client` | Card + hero eyebrow | Customer name, or the anonymized descriptor if unnamed. |
 | `industry` | Card + hero eyebrow | Short label; align with `casesPage.industries`. |
 | `title` | Card + H1 | The narrative headline — the hard thing, customer's-world framing. Roughly 6–12 words. |
-| `metaTitle` | Browser tab / search result (detail only) | Short: `Client — what it was`. The long title stays the H1. |
+| `metaTitle` | Browser tab / search result (detail only) | Short: `Client — what it was`, **at most 44 characters** — the brand suffix "Linimatic A/S" is appended, and Google cuts titles past ~60. The long title stays the H1. |
+| `metaDescription` | Search-result snippet / link preview (detail only) | One self-contained sentence or two, **130–155 characters**: customer, what was made, why it mattered. Without it the first 160 chars of `overview` are cut off with "…". |
 | `metric` | Card + under H1, monospace | 1–2 hard facts joined by ` · ` (`·`). The number-as-punchline. No slogans. |
-| `overview` | Hero paragraph; also becomes the meta description | 2–3 sentences a skimmer can stop at. First ~155 chars must stand alone. |
+| `overview` | Hero paragraph (meta-description fallback) | 2–3 sentences a skimmer can stop at. First ~155 chars must stand alone. |
 | `challenge` | Section 01 | One solid paragraph: what was hard (technically specific) and what was at stake. |
 | `approach` | Section 02 | One solid paragraph: what Linimatic did and *why* — decisions and tradeoffs, not activity lists. |
 | `result` | Section 03 + card highlight | The quantified payoff. The only field allowed to be a placeholder (below). |

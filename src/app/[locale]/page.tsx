@@ -409,7 +409,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
       {/* ═══════════════════════════════════ CTA ═══════════════════════════════════ */}
       <section className="bg-zinc-950 grain relative overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/services/facility-2022.jpg" alt="" fill className="object-cover opacity-10" sizes="100vw" />
+          <Image src="/images/services/contact-background-factory.webp" alt="" fill className="object-cover opacity-30" sizes="100vw" />
         </div>
         <div className="relative mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16 xl:px-20 py-20 sm:py-24 lg:py-28 xl:py-36">
           <div className="max-w-2xl">
